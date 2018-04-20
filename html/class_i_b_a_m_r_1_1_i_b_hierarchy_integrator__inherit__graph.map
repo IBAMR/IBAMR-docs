@@ -1,0 +1,5 @@
+<map id="IBAMR::IBHierarchyIntegrator" name="IBAMR::IBHierarchyIntegrator">
+<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html" title="Class IBExplicitHierarchyIntegrator is an implementation of a formally second&#45;order accurate..." alt="" coords="715,5,901,46"/>
+<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_i_b_implicit_staggered_hierarchy_integrator.html" title="Class IBImplicitStaggeredHierarchyIntegrator is an implementation of a formally second&#45;order accurate..." alt="" coords="715,70,901,111"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_hierarchy_integrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="251,45,421,72"/>
+</map>

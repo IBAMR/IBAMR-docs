@@ -1,0 +1,8 @@
+<map id="IBAMR::IBImplicitStrategy" name="IBAMR::IBImplicitStrategy">
+<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="662,81,791,108"/>
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="251,81,386,108"/>
+<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_c_i_b_method.html" title="Class CIBFEMethod is a concrete CIBStrategy and IBMethod class which implements the motion of rigid b..." alt="" coords="871,5,1009,32"/>
+<area shape="rect" id="node7" href="$class_i_b_a_m_r_1_1_constraint_i_b_method.html" title="Class ConstraintIBMethod implements the rigidity constraint for rigid and deforming bodies using the ..." alt="" coords="845,56,1035,83"/>
+<area shape="rect" id="node8" href="$class_i_b_a_m_r_1_1_generalized_i_b_method.html" title="Class GeneralizedIBMethod is an extension of class IBMethod that provides functionality required by t..." alt="" coords="841,107,1039,133"/>
+<area shape="rect" id="node9" href="$class_i_b_a_m_r_1_1_penalty_i_b_method.html" title="Class PenaltyIBMethod is an implementation of the abstract base class IBStrategy that provides functi..." alt="" coords="853,157,1027,184"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="IBAMR::AdvDiffHierarchyIntegrator" name="IBAMR::AdvDiffHierarchyIntegrator">
+<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_adv_diff_predictor_corrector_hierarchy_integrator.html" title="Class AdvDiffPredictorCorrectorHierarchyIntegrator manages the spatial discretization and time integr..." alt="" coords="747,5,970,46"/>
+<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_adv_diff_semi_implicit_hierarchy_integrator.html" title="Class AdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time integration ..." alt="" coords="764,70,953,111"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_hierarchy_integrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="251,45,421,72"/>
+</map>

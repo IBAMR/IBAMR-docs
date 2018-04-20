@@ -1,0 +1,6 @@
+<map id="IBAMR::CIBMethod" name="IBAMR::CIBMethod">
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="123,245,252,272"/>
+<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_i_b_implicit_strategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="97,171,273,197"/>
+<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="118,96,252,123"/>
+<area shape="rect" id="node7" href="$class_i_b_a_m_r_1_1_c_i_b_strategy.html" title="Class CIBStrategy is a lightweight abstract strategy class which provides support for constraint base..." alt="" coords="281,245,425,272"/>
+</map>
