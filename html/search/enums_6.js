@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['timesteppingtype',['TimeSteppingType',['../namespace_i_b_a_m_r.html#a7dc5ab0cd31fc2d204b4264a00c64fd8',1,'IBAMR']]],
-  ['tractionbctype',['TractionBcType',['../namespace_i_b_a_m_r.html#acdd1b80c3604249c0d516ebb00c03e37',1,'IBAMR']]]
+  ['hyp_5fvar_5ftype',['HYP_VAR_TYPE',['samrai/2.4.4/html/classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html#2b942773b6adae963741add627777f4d',1,'SAMRAI::algs::HyperbolicLevelIntegrator']]]
 ];

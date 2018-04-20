@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -102,27 +102,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3fd919ed9377f321f58092f405f4ee1c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a3fd919ed9377f321f58092f405f4ee1c">computeMatrixCoefficients</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const std::vector&lt; SAMRAI::hier::Index&lt; NDIM &gt; &gt; &amp;stencil, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *bc_coef, double data_time)</td></tr>
-<tr class="separator:a3fd919ed9377f321f58092f405f4ee1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfc22b7aff085936b0b8928b05666fdc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#adfc22b7aff085936b0b8928b05666fdc">computeMatrixCoefficients</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const std::vector&lt; SAMRAI::hier::Index&lt; NDIM &gt; &gt; &amp;stencil, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time)</td></tr>
-<tr class="separator:adfc22b7aff085936b0b8928b05666fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b044c245467ae74394dd0f0ee3b03b8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a3b044c245467ae74394dd0f0ee3b03b8">computeMatrixCoefficients</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const std::vector&lt; SAMRAI::hier::Index&lt; NDIM &gt; &gt; &amp;stencil, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time)</td></tr>
-<tr class="separator:a3b044c245467ae74394dd0f0ee3b03b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa016800beeb84bb56acf2104a06afa4d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#aa016800beeb84bb56acf2104a06afa4d">adjustRHSAtPhysicalBoundary</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;rhs_data, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *bc_coef, double data_time, bool homogeneous_bc)</td></tr>
-<tr class="separator:aa016800beeb84bb56acf2104a06afa4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a8c67480a2bdc2722826e5b80124961"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a7a8c67480a2bdc2722826e5b80124961">adjustRHSAtPhysicalBoundary</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;rhs_data, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, bool homogeneous_bc)</td></tr>
-<tr class="separator:a7a8c67480a2bdc2722826e5b80124961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fa2494031a538d0c665f66e422edfa7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a0fa2494031a538d0c665f66e422edfa7">adjustRHSAtPhysicalBoundary</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, bool homogeneous_bc)</td></tr>
-<tr class="separator:a0fa2494031a538d0c665f66e422edfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefe0f784ece29bc17af35bd4a1c200bb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#aefe0f784ece29bc17af35bd4a1c200bb">adjustRHSAtCoarseFineBoundary</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, const <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_boundary_box.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;type1_cf_bdry)</td></tr>
-<tr class="separator:aefe0f784ece29bc17af35bd4a1c200bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a156386d3c89ca343cf6edca15e9255ec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a156386d3c89ca343cf6edca15e9255ec">adjustRHSAtCoarseFineBoundary</a> (<a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const SAMRAI::solv::PoissonSpecifications &amp;poisson_spec, const <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_boundary_box.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;type1_cf_bdry)</td></tr>
-<tr class="separator:a156386d3c89ca343cf6edca15e9255ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7d081c46842dd3270db6362c8e2f1e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a4b7d081c46842dd3270db6362c8e2f1e">computeMatrixCoefficients</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt; &amp;stencil, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *bc_coef, double data_time)</td></tr>
+<tr class="separator:a4b7d081c46842dd3270db6362c8e2f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a72a040d9febe24dc8fbf0743e5cad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a76a72a040d9febe24dc8fbf0743e5cad">computeMatrixCoefficients</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt; &amp;stencil, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time)</td></tr>
+<tr class="separator:a76a72a040d9febe24dc8fbf0743e5cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5548d9c89f28476098e29f5891e354d3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a5548d9c89f28476098e29f5891e354d3">computeMatrixCoefficients</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt; &amp;stencil, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time)</td></tr>
+<tr class="separator:a5548d9c89f28476098e29f5891e354d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3985ce61514d47078056b4d12221881d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a3985ce61514d47078056b4d12221881d">adjustRHSAtPhysicalBoundary</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;rhs_data, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *bc_coef, double data_time, bool homogeneous_bc)</td></tr>
+<tr class="separator:a3985ce61514d47078056b4d12221881d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9efd7e897657725f010c5d2329d3f72c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a9efd7e897657725f010c5d2329d3f72c">adjustRHSAtPhysicalBoundary</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;rhs_data, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, bool homogeneous_bc)</td></tr>
+<tr class="separator:a9efd7e897657725f010c5d2329d3f72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728af6029d55ec5162532863677532e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a728af6029d55ec5162532863677532e1">adjustRHSAtPhysicalBoundary</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, bool homogeneous_bc)</td></tr>
+<tr class="separator:a728af6029d55ec5162532863677532e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542417fac271b137a68dfe66d0883c90"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a542417fac271b137a68dfe66d0883c90">adjustRHSAtCoarseFineBoundary</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;type1_cf_bdry)</td></tr>
+<tr class="separator:a542417fac271b137a68dfe66d0883c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb0203d3dd38efab65f2daf410ab2ac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html#a7eb0203d3dd38efab65f2daf410ab2ac">adjustRHSAtCoarseFineBoundary</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;type1_cf_bdry)</td></tr>
+<tr class="separator:a7eb0203d3dd38efab65f2daf410ab2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_poisson_utilities.html" title="Class PoissonUtilities provides utility functions for constructing Poisson solvers. ">PoissonUtilities</a> provides utility functions for constructing Poisson solvers. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aefe0f784ece29bc17af35bd4a1c200bb"></a>
+<a class="anchor" id="a542417fac271b137a68dfe66d0883c90"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -130,33 +130,33 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::adjustRHSAtCoarseFineBoundary </td>
+          <td class="memname">void IBTK::PoissonUtilities::adjustRHSAtCoarseFineBoundary </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>rhs_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>sol_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_boundary_box.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>type1_cf_bdry</em>&#160;</td>
         </tr>
         <tr>
@@ -176,7 +176,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a156386d3c89ca343cf6edca15e9255ec"></a>
+<a class="anchor" id="a7eb0203d3dd38efab65f2daf410ab2ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -184,33 +184,33 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::adjustRHSAtCoarseFineBoundary </td>
+          <td class="memname">void IBTK::PoissonUtilities::adjustRHSAtCoarseFineBoundary </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>rhs_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>sol_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_boundary_box.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>type1_cf_bdry</em>&#160;</td>
         </tr>
         <tr>
@@ -230,7 +230,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa016800beeb84bb56acf2104a06afa4d"></a>
+<a class="anchor" id="a3985ce61514d47078056b4d12221881d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -238,27 +238,27 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::adjustRHSAtPhysicalBoundary </td>
+          <td class="memname">void IBTK::PoissonUtilities::adjustRHSAtPhysicalBoundary </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>rhs_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td>
           <td class="paramname"><em>bc_coef</em>, </td>
         </tr>
         <tr>
@@ -289,7 +289,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7a8c67480a2bdc2722826e5b80124961"></a>
+<a class="anchor" id="a9efd7e897657725f010c5d2329d3f72c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -297,27 +297,27 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::adjustRHSAtPhysicalBoundary </td>
+          <td class="memname">void IBTK::PoissonUtilities::adjustRHSAtPhysicalBoundary </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>rhs_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>bc_coefs</em>, </td>
         </tr>
         <tr>
@@ -348,7 +348,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0fa2494031a538d0c665f66e422edfa7"></a>
+<a class="anchor" id="a728af6029d55ec5162532863677532e1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -356,27 +356,27 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::adjustRHSAtPhysicalBoundary </td>
+          <td class="memname">void IBTK::PoissonUtilities::adjustRHSAtPhysicalBoundary </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>rhs_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>bc_coefs</em>, </td>
         </tr>
         <tr>
@@ -407,7 +407,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3fd919ed9377f321f58092f405f4ee1c"></a>
+<a class="anchor" id="a4b7d081c46842dd3270db6362c8e2f1e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -415,33 +415,33 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::computeMatrixCoefficients </td>
+          <td class="memname">void IBTK::PoissonUtilities::computeMatrixCoefficients </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>matrix_coefficients</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; SAMRAI::hier::Index&lt; NDIM &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>stencil</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td>
           <td class="paramname"><em>bc_coef</em>, </td>
         </tr>
         <tr>
@@ -466,7 +466,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adfc22b7aff085936b0b8928b05666fdc"></a>
+<a class="anchor" id="a76a72a040d9febe24dc8fbf0743e5cad"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -474,33 +474,33 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::computeMatrixCoefficients </td>
+          <td class="memname">void IBTK::PoissonUtilities::computeMatrixCoefficients </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_cell_data.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>matrix_coefficients</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; SAMRAI::hier::Index&lt; NDIM &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>stencil</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>bc_coefs</em>, </td>
         </tr>
         <tr>
@@ -525,7 +525,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3b044c245467ae74394dd0f0ee3b03b8"></a>
+<a class="anchor" id="a5548d9c89f28476098e29f5891e354d3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -533,33 +533,33 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void IBTK::PoissonUtilities::computeMatrixCoefficients </td>
+          <td class="memname">void IBTK::PoissonUtilities::computeMatrixCoefficients </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1pdat_1_1_side_data.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>matrix_coefficients</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_s_a_m_r_a_i_1_1tbox_1_1_pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; SAMRAI::hier::Index&lt; NDIM &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>stencil</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SAMRAI::solv::PoissonSpecifications &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
           <td class="paramname"><em>poisson_spec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="class_s_a_m_r_a_i_1_1solv_1_1_robin_bc_coef_strategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:samrai/2.4.4/html/" href="samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>bc_coefs</em>, </td>
         </tr>
         <tr>
@@ -584,13 +584,14 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/raveenak96/IBAMR/ibtk/include/ibtk/PoissonUtilities.h</li>
+<li>/home/travis/build/raveenak96/IBAMR/ibtk/src/math/PoissonUtilities.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 20 2018 19:18:40 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 20 2018 19:35:45 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

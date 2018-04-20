@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['limitertype',['LimiterType',['../namespace_i_b_a_m_r.html#ac561f6320b68e45cbd3395220a51a4f4',1,'IBAMR']]]
+  ['boundarydirection',['BoundaryDirection',['samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryBox.html#1c13b75042a7d02d64f72db22f5d7111',1,'SAMRAI::hier::BoundaryBox']]]
 ];

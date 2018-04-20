@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['projectionmethodtype',['ProjectionMethodType',['../namespace_i_b_a_m_r.html#a66adc7b966537a660d922f786875b828',1,'IBAMR']]]
+  ['datatype',['DataType',['samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html#77ab7a307331e041363ac40d97e14554',1,'SAMRAI::tbox::Database']]]
 ];

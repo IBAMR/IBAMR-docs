@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['variable',['Variable',['../class_s_a_m_r_a_i_1_1hier_1_1_variable.html',1,'SAMRAI::hier']]],
-  ['variable_3c_20ndim_20_3e',['Variable&lt; NDIM &gt;',['../class_s_a_m_r_a_i_1_1hier_1_1_variable.html',1,'SAMRAI::hier']]],
-  ['visitdatawriter',['VisItDataWriter',['../class_s_a_m_r_a_i_1_1appu_1_1_vis_it_data_writer.html',1,'SAMRAI::appu']]]
+  ['quadratic_5fprobe_5ffn',['quadratic_probe_fn',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00373.html',1,'__gnu_pbds']]],
+  ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00897.html',1,'std']]],
+  ['quicksort_5ftag',['quicksort_tag',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00182.html',1,'__gnu_parallel']]]
 ];
