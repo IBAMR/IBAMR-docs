@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jobstate',['JobState',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RelaunchableJob.html#6ce670ebbc08220a5eada460d10cd78c',1,'SAMRAI::tbox::RelaunchableJob']]]
+  ['regridmode',['RegridMode',['../namespace_i_b_t_k.html#afe95f73a473353d18098f9fbf7ba8567',1,'IBTK']]]
 ];

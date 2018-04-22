@@ -95,7 +95,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> is an abstract interface for objects that can be packed into <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> data streams.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractStream data streams.  
  <a href="class_i_b_t_k_1_1_streamable.html#details">More...</a></p>
 
 <p><code>#include &lt;/home/travis/build/raveenak96/IBAMR/ibtk/include/ibtk/Streamable.h&gt;</code></p>
@@ -126,15 +126,15 @@ virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="memdesc:a283af2eec5511a777e86ff47dfa5c690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an upper bound on the amount of space required to pack the object to a buffer. <br/></td></tr>
 <tr class="separator:a283af2eec5511a777e86ff47dfa5c690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2ed603d8ebcb2b158e5b3e4a18ec61b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2ed603d8ebcb2b158e5b3e4a18ec61b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_streamable.html#ac2ed603d8ebcb2b158e5b3e4a18ec61b">packStream</a> (<a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream)=0</td></tr>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_streamable.html#ac2ed603d8ebcb2b158e5b3e4a18ec61b">packStream</a> (SAMRAI::tbox::AbstractStream &amp;stream)=0</td></tr>
 <tr class="memdesc:ac2ed603d8ebcb2b158e5b3e4a18ec61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pack data into the output stream. <br/></td></tr>
 <tr class="separator:ac2ed603d8ebcb2b158e5b3e4a18ec61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc3aac0c985d54e0ca23014625fb8a15"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_streamable.html#adc3aac0c985d54e0ca23014625fb8a15">registerPeriodicShift</a> (const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;offset, const Vector &amp;displacement)</td></tr>
+<tr class="memitem:adc3aac0c985d54e0ca23014625fb8a15"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_streamable.html#adc3aac0c985d54e0ca23014625fb8a15">registerPeriodicShift</a> (const <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_int_vector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;offset, const Vector &amp;displacement)</td></tr>
 <tr class="memdesc:adc3aac0c985d54e0ca23014625fb8a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate that the <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> object has been shifted across a periodic boundary.  <a href="#adc3aac0c985d54e0ca23014625fb8a15">More...</a><br/></td></tr>
 <tr class="separator:adc3aac0c985d54e0ca23014625fb8a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> is an abstract interface for objects that can be packed into <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> data streams. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractStream data streams. </p>
 <dl class="section note"><dt>Note</dt><dd>Each concrete <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> class must have a corresponding concrete <a class="el" href="class_i_b_t_k_1_1_streamable_factory.html" title="Class StreamableFactory is an abstract interface for classes that can unpack particular concrete Stre...">StreamableFactory</a> class. Classes that implement the <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> interface are able to pack themselves into a stream; the corresponding <a class="el" href="class_i_b_t_k_1_1_streamable_factory.html" title="Class StreamableFactory is an abstract interface for classes that can unpack particular concrete Stre...">StreamableFactory</a> class is used to unpack that data and construct the corresponding <a class="el" href="class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS...">Streamable</a> object.</dd>
 <dd>
 Class <a class="el" href="class_i_b_t_k_1_1_streamable_manager.html" title="Class StreamableManager is a singleton manager class that organizes the actual packing and unpacking ...">StreamableManager</a> should be used for all communications and storage operations.</dd></dl>
@@ -152,7 +152,7 @@ Class <a class="el" href="class_i_b_t_k_1_1_streamable_manager.html" title="Clas
         <tr>
           <td class="memname">void IBTK::Streamable::registerPeriodicShift </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/raveenak96/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_s_a_m_r_a_i_1_1hier_1_1_int_vector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
           <td class="paramname"><em>offset</em>, </td>
         </tr>
         <tr>
@@ -186,7 +186,7 @@ Class <a class="el" href="class_i_b_t_k_1_1_streamable_manager.html" title="Clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 22 2018 16:05:49 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Apr 22 2018 16:20:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

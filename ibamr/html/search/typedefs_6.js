@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['graphnabrcontainer',['GraphNabrContainer',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#8fffae355dd2aa36014916b5d2377357',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
-  ['graphnode',['GraphNode',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#b87d5d1a81adbbdeec5316ee98622344',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
-  ['graphnodecontainer',['GraphNodeContainer',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#ed97bc8ac520660d109f37200b547163',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
-  ['group',['group',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1SAMRAI__MPI.html#7aa022d3b79943bb3037a6ef03a92e11',1,'SAMRAI::tbox::SAMRAI_MPI']]]
+  ['hasher',['hasher',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00958.html#a917dcd56682abf611f68cb72cbfb7d3e',1,'std::unordered_map::hasher()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00959.html#a8a087ced0dd9a5d8e57c101627b67fb6',1,'std::unordered_multimap::hasher()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00960.html#ac241bbf11679cbce9942578ecc48d776',1,'std::unordered_multiset::hasher()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00961.html#a3dcd37e44a7c63ca0b0b1a61d3d074d7',1,'std::unordered_set::hasher()']]],
+  ['hours',['hours',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01623.html#ab6ede778883411ba1212316a1c93a957',1,'std::chrono']]]
 ];
