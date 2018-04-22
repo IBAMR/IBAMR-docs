@@ -1,7 +1,7 @@
 var searchData=
 [
   ['xalloc',['xalloc',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00762.html#a3faeb4739cfe621262ceef0aad98f0ea',1,'std::basic_fstream']]],
-  ['xdrstream',['XDRStream',['samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1XDRStream.html#a24ac41a035474fc6a3e408b7f1799ca',1,'SAMRAI::tbox::XDRStream']]],
+  ['xdrstream',['XDRStream',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1XDRStream.html#a24ac41a035474fc6a3e408b7f1799ca',1,'SAMRAI::tbox::XDRStream']]],
   ['xeqscheduledatasynch',['xeqScheduleDataSynch',['../class_i_b_a_m_r_1_1_staggered_stokes_f_a_c_preconditioner_strategy.html#a07eeb5ecd09ed2714a4174e4b0b1e974',1,'IBAMR::StaggeredStokesFACPreconditionerStrategy::xeqScheduleDataSynch()'],['../class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#ace2d3191f27c726a80a425d998b7a685',1,'IBTK::PoissonFACPreconditionerStrategy::xeqScheduleDataSynch()']]],
   ['xeqscheduleghostfillnocoarse',['xeqScheduleGhostFillNoCoarse',['../class_i_b_a_m_r_1_1_staggered_stokes_f_a_c_preconditioner_strategy.html#a9caef0cd2220d77127c1c27001bebd35',1,'IBAMR::StaggeredStokesFACPreconditionerStrategy::xeqScheduleGhostFillNoCoarse()'],['../class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#a30f9669d0d2e51366e08f12a52651e41',1,'IBTK::PoissonFACPreconditionerStrategy::xeqScheduleGhostFillNoCoarse()']]],
   ['xeqscheduleprolongation',['xeqScheduleProlongation',['../class_i_b_a_m_r_1_1_staggered_stokes_f_a_c_preconditioner_strategy.html#a0463f734ae67eaa8a1af1074f183fdae',1,'IBAMR::StaggeredStokesFACPreconditionerStrategy::xeqScheduleProlongation()'],['../class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#a11310a5306d778f58d69cfcfc0d7338e',1,'IBTK::PoissonFACPreconditionerStrategy::xeqScheduleProlongation()']]],
