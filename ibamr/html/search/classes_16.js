@@ -1,12 +1,12 @@
 var searchData=
 [
   ['valarray',['valarray',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00964.html',1,'std']]],
-  ['variable',['Variable',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html',1,'SAMRAI::hier']]],
-  ['variable_3c_20ndim_20_3e',['Variable&lt; NDIM &gt;',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html',1,'SAMRAI::hier']]],
-  ['variablecontext',['VariableContext',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1VariableContext.html',1,'SAMRAI::hier']]],
-  ['variabledatabase',['VariableDatabase',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1VariableDatabase.html',1,'SAMRAI::hier']]],
-  ['variablefillpattern',['VariableFillPattern',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html',1,'SAMRAI::xfer']]],
-  ['variablefillpattern_3c_20ndim_20_3e',['VariableFillPattern&lt; NDIM &gt;',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html',1,'SAMRAI::xfer']]],
+  ['variable',['Variable',['../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html',1,'SAMRAI::hier']]],
+  ['variable_3c_20ndim_20_3e',['Variable&lt; NDIM &gt;',['../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html',1,'SAMRAI::hier']]],
+  ['variablecontext',['VariableContext',['../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1VariableContext.html',1,'SAMRAI::hier']]],
+  ['variabledatabase',['VariableDatabase',['../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1VariableDatabase.html',1,'SAMRAI::hier']]],
+  ['variablefillpattern',['VariableFillPattern',['../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html',1,'SAMRAI::xfer']]],
+  ['variablefillpattern_3c_20ndim_20_3e',['VariableFillPattern&lt; NDIM &gt;',['../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html',1,'SAMRAI::xfer']]],
   ['vector',['vector',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00488.html',1,'std::__debug']]],
   ['vector',['vector',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html',1,'std']]],
   ['vector_3c_20_5f_5fgnu_5fparallel_3a_3a_5fpiece_3c_20_5fdifferencetype_20_3e_20_3e',['vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html',1,'std']]],
@@ -180,7 +180,7 @@ var searchData=
   ['vector_3c_20vecscatter_20_3e',['vector&lt; VecScatter &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html',1,'std']]],
   ['vector_3c_20void_20_2a_20_3e',['vector&lt; void * &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html',1,'std']]],
   ['vector_3c_20void_28_2a_29_28const_20double_2c_20const_20double_2c_20const_20int_2c_20void_20_2a_29_3e',['vector&lt; void(*)(const double, const double, const int, void *)&gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html',1,'std']]],
-  ['visderiveddatastrategy',['VisDerivedDataStrategy',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisDerivedDataStrategy.html',1,'SAMRAI::appu']]],
-  ['visitdatawriter',['VisItDataWriter',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisItDataWriter.html',1,'SAMRAI::appu']]],
-  ['vismaterialsdatastrategy',['VisMaterialsDataStrategy',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html',1,'SAMRAI::appu']]]
+  ['visderiveddatastrategy',['VisDerivedDataStrategy',['../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisDerivedDataStrategy.html',1,'SAMRAI::appu']]],
+  ['visitdatawriter',['VisItDataWriter',['../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisItDataWriter.html',1,'SAMRAI::appu']]],
+  ['vismaterialsdatastrategy',['VisMaterialsDataStrategy',['../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html',1,'SAMRAI::appu']]]
 ];
