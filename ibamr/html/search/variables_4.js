@@ -103,7 +103,6 @@ var searchData=
   ['d_5fuse_5ffixed_5fcoupling_5fops',['d_use_fixed_coupling_ops',['../class_i_b_a_m_r_1_1_i_b_strategy.html#a56c7fcd98c652f7e3f4b17e0bc59388d',1,'IBAMR::IBStrategy']]],
   ['d_5fuse_5fstructure_5fpredictor',['d_use_structure_predictor',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a5950332b52f47d191b2f9e4d4ee56d3c',1,'IBAMR::IBHierarchyIntegrator']]],
   ['d_5fusing_5fvorticity_5ftagging',['d_using_vorticity_tagging',['../class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a5b1c616621428979719b88c88ba6446c',1,'IBAMR::INSHierarchyIntegrator']]],
-  ['d_5fvar_5ffcn_5fsystems',['d_var_fcn_systems',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a06805b382b6fdcf85c015722c44d76c9',1,'IBAMR::IBFEPostProcessor']]],
   ['d_5fvar_5ffill_5fpattern',['d_var_fill_pattern',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#05aac68130bd2b32e7049775d0c3545c',1,'SAMRAI::xfer::RefineClasses::Data']]],
   ['d_5fvar_5fsystems',['d_var_systems',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a2f923b373bde32b3a6152c67c3022011',1,'IBAMR::IBFEPostProcessor']]],
   ['d_5fvector_5fvar_5fsystems',['d_vector_var_systems',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#afe45f871a6f47b0fdb619b028d27e717',1,'IBAMR::IBFEPostProcessor']]],

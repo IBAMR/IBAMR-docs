@@ -1,6 +1,7 @@
 var searchData=
 [
   ['lagbodyforcefcndata',['LagBodyForceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_body_force_fcn_data.html',1,'IBAMR::IBFEMethod']]],
+  ['lagbodysourcefcndata',['LagBodySourceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_body_source_fcn_data.html',1,'IBAMR::IBFEMethod']]],
   ['lagsurfaceforcefcndata',['LagSurfaceForceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_surface_force_fcn_data.html',1,'IBAMR::IBFEMethod']]],
   ['lagsurfacepressurefcndata',['LagSurfacePressureFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_surface_pressure_fcn_data.html',1,'IBAMR::IBFEMethod']]],
   ['laplaceoperator',['LaplaceOperator',['../class_i_b_t_k_1_1_laplace_operator.html',1,'IBTK']]],
@@ -92,6 +93,7 @@ var searchData=
   ['lsetdataiterator',['LSetDataIterator',['../class_i_b_t_k_1_1_l_set_data_iterator.html',1,'IBTK']]],
   ['lsetvariable',['LSetVariable',['../class_i_b_t_k_1_1_l_set_variable.html',1,'IBTK']]],
   ['lsilodatawriter',['LSiloDataWriter',['../class_i_b_t_k_1_1_l_silo_data_writer.html',1,'IBTK']]],
+  ['lsinitstrategy',['LSInitStrategy',['../class_i_b_a_m_r_1_1_l_s_init_strategy.html',1,'IBAMR']]],
   ['ltransaction',['LTransaction',['../class_i_b_t_k_1_1_l_transaction.html',1,'IBTK']]],
   ['ltransactioncomponent',['LTransactionComponent',['../class_i_b_t_k_1_1_l_transaction_1_1_l_transaction_component.html',1,'IBTK::LTransaction']]],
   ['lu_5fcounter_5fmetadata',['lu_counter_metadata',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00275.html',1,'__gnu_pbds::detail']]],

@@ -156,6 +156,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>IBHierarchyIntegrator()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a715f808b9523ccbf846c4ca9bc399782">IBAMR::IBHierarchyIntegrator</a>
 </li>
+<li>IBHydrodynamicForceEvaluator()
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#a3df477a927d838bc4825419d27e67828">IBAMR::IBHydrodynamicForceEvaluator</a>
+</li>
 <li>IBImplicitStaggeredHierarchyIntegrator()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_implicit_staggered_hierarchy_integrator.html#ae4ef7ee35a978db55754b4b24c86a113">IBAMR::IBImplicitStaggeredHierarchyIntegrator</a>
 </li>
@@ -230,10 +233,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a3aeb7b0d36f493ac4e242da1f73b5598">IBTK::LDataManager</a>
 </li>
 <li>init()
-: <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_level_solver.html#aad661c41bf6480c2bf712c40f2d236fc">IBTK::PETScLevelSolver</a>
+: <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#ab361b455aaf9b9b126c43c0a6d615f02">IBTK::FEDataInterpolation</a>
+, <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_level_solver.html#aad661c41bf6480c2bf712c40f2d236fc">IBTK::PETScLevelSolver</a>
 </li>
 <li>initializeCauchyStressSystem()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_patch_recovery_post_processor.html#ae33e084fa154d69854c4eca3e9f3c7e8">IBAMR::IBFEPatchRecoveryPostProcessor</a>
+</li>
+<li>initializeCompositeHierarchyData()
+: <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae6f6d89935d424ca5ca49e769148d61a">IBTK::HierarchyIntegrator</a>
+</li>
+<li>initializeCompositeHierarchyDataSpecialized()
+: <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae22f92230708a60a1d7158adb0ce7d5c">IBTK::HierarchyIntegrator</a>
 </li>
 <li>initializeCoordinates()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a3f040b0cef9072dcab8874343714c851">IBAMR::IBFEMethod</a>
@@ -255,6 +265,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ac1fdc5d05e0f9081066b8da0be0b7e9f">IBAMR::IBFEMethod</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_patch_recovery_post_processor.html#a60c83c118d4d5031f431aa87c56c130e">IBAMR::IBFEPatchRecoveryPostProcessor</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a2356dce6c5e46014ca9151c858177a55">IBAMR::IBFEPostProcessor</a>
+</li>
+<li>initializeFEEquationSystems()
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a8e96a4de1462c8c3f9d138171d9cae4b">IBAMR::IBFEMethod</a>
 </li>
 <li>initializeHierarchyDependentData()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_instrument_panel.html#a84f8fc870fb48fdf1f826fdfc8ac6ce1">IBAMR::IBInstrumentPanel</a>
@@ -290,6 +303,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#abeff8442684ab7303ac7a6785f516656">IBAMR::IBStrategy</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html#a8a929a56ef86e980c2dd82aa5e0eacbb">IBAMR::IBStrategySet</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a318267d6e2411b8235417890e4a5a14f">IBAMR::IMPMethod</a>
+, <a class="el" href="class_i_b_a_m_r_1_1_penalty_i_b_method.html#a649b4968263104714f857d6356245d4c">IBAMR::PenaltyIBMethod</a>
 , <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a2afd491723bc5b1daad8f220e4f9d0b1">IBTK::FEDataManager</a>
 , <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5445debcbe3d436e63b08c20a6572fb">IBTK::HierarchyIntegrator</a>
 , <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#acaee193e580c056f4473af21590ef333">IBTK::LDataManager</a>
@@ -301,6 +315,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_collocated_hierarchy_integrator.html#a85982ad3e5e6eeae528a3d699d77f213">IBAMR::INSCollocatedHierarchyIntegrator</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_hierarchy_integrator.html#a01573418a3188ad653d2c120319d1c20">IBAMR::INSStaggeredHierarchyIntegrator</a>
 , <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2bddf84a64fd161a3b442bd90c01c8cc">IBTK::HierarchyIntegrator</a>
+</li>
+<li>initializeLSData()
+: <a class="el" href="class_i_b_a_m_r_1_1_fast_sweeping_l_s_method.html#a66670e25c8de3bdf9552e84edb0f81b5">IBAMR::FastSweepingLSMethod</a>
+, <a class="el" href="class_i_b_a_m_r_1_1_l_s_init_strategy.html#a0914ee6d99441f970b41c4a8a35942dd">IBAMR::LSInitStrategy</a>
+, <a class="el" href="class_i_b_a_m_r_1_1_relaxation_l_s_method.html#a4c41ff225038e60d6ba244dd2be7f280">IBAMR::RelaxationLSMethod</a>
 </li>
 <li>initializeMarkersOnLevel()
 : <a class="el" href="class_i_b_t_k_1_1_l_marker_utilities.html#a67be6077b09db363aff6200abcf9bb0d">IBTK::LMarkerUtilities</a>
@@ -397,6 +416,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_a_m_r_1_1_i_m_p_initializer.html#ada0edcee02b1094f7d80d3b8ea2f8b36">IBAMR::IMPInitializer</a>
 , <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#a257a8ba4f293a6337f9f6ac59bb26089">IBTK::LInitStrategy</a>
 </li>
+<li>initializeVelocity()
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#abeeb80a1f789a44dd61048a84887d4ff">IBAMR::IBFEMethod</a>
+</li>
 <li>INSCollocatedCenteredConvectiveOperator()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_collocated_centered_convective_operator.html#a43027648c10d0929b6e2064c3759809c">IBAMR::INSCollocatedCenteredConvectiveOperator</a>
 </li>
@@ -413,7 +435,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_collocated_velocity_bc_coef.html#a641639b14a964c853dfa7cae31a7364f">IBAMR::INSCollocatedVelocityBcCoef</a>
 </li>
 <li>insert()
-: <a class="el" href="class_i_b_t_k_1_1_l_set.html#a9c4c8c8ef8548459b40d1ddc73b6e503">IBTK::LSet&lt; T &gt;</a>
+: <a class="el" href="class_i_b_t_k_1_1_l_set.html#a479655f0de2c9a06058a1b702fdea006">IBTK::LSet&lt; T &gt;</a>
 </li>
 <li>INSHierarchyIntegrator()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#aeae6eb9f7af3ccf03c3d8e9e788f1b12">IBAMR::INSHierarchyIntegrator</a>
@@ -462,12 +484,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>interp()
 : <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ac869835ef393917f0d5202d4bb644c6d">IBTK::FEDataManager</a>
-, <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html#a0debb1f3620f3945129dc00bd79c5335">IBTK::HierarchyMathOps</a>
-, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#ae93643716df661265a436ba6660e9601">IBTK::LDataManager</a>
-, <a class="el" href="class_i_b_t_k_1_1_patch_math_ops.html#a88d36999905f40d7971ccb50ca9fbb1f">IBTK::PatchMathOps</a>
+, <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html#a378839bb6b14333500d944e90fca8062">IBTK::HierarchyMathOps</a>
+, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a9d16ba694da412559a82aa55720c76ce">IBTK::LDataManager</a>
+, <a class="el" href="class_i_b_t_k_1_1_patch_math_ops.html#ac11b5155e46106d8159c06cc0e37291f">IBTK::PatchMathOps</a>
 </li>
 <li>interpolate()
-: <a class="el" href="class_i_b_t_k_1_1_l_e_interactor.html#ada6962fb97559fd9e710da7bec142332">IBTK::LEInteractor</a>
+: <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a6eaff997bd9cb124c0d6f504893f4556">IBTK::FEDataInterpolation</a>
+, <a class="el" href="class_i_b_t_k_1_1_l_e_interactor.html#aeed991dacd0505074bbea8df88a6a1f6">IBTK::LEInteractor</a>
 </li>
 <li>interpolateLinearizedVelocity()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_implicit_strategy.html#a716769e239bc524b23fed5f2d0b3b0fd">IBAMR::IBImplicitStrategy</a>
@@ -495,7 +518,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_ghost_cell_interpolation_1_1_interpolation_transaction_component.html#a9d456a8d10fc95072777b6e0d7235af0">IBTK::HierarchyGhostCellInterpolation::InterpolationTransactionComponent</a>
 </li>
 <li>interpWeighted()
-: <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a8fd0923d3b2b4ce9ed51f97f411eb674">IBTK::FEDataManager</a>
+: <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a0c3c43172a0445e0d21e7a9fc70b7848">IBTK::FEDataManager</a>
 </li>
 <li>isAllocatedPatchData()
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#af763a6880584b8dea380c1e63a4f33db">IBTK::HierarchyIntegrator</a>
@@ -527,7 +550,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 26 2018 04:09:19 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 27 2018 16:48:35 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

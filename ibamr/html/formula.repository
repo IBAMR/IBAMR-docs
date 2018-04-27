@@ -55,54 +55,56 @@
 \form#54:$ \phi $
 \form#55:$y=F[x]$
 \form#56:$ [MM] = \alpha*[MM] + \beta*[I]. $
-\form#57:$ k $
-\form#58:$ l $
-\form#59:\[ \vec{F}_k = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|}, \]
-\form#60:\[ \vec{F}_l = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{l} - \vec{X}_{k}\|} = - \vec{F}_k, \]
-\form#61:$ \kappa_{k,l} $
-\form#62:$ r_{k,l} $
-\form#63:$ T_{k,l} $
-\form#64:\[ T_{k,l} = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right). \]
-\form#65:\[ \vec{F}_k = T_{k,l} \frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|} \]
-\form#66:\[ \vec{F}_l = T_{k,l} \frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{k} - \vec{X}_{l}\|}. \]
-\form#67:$ \eta $
-\form#68:$ b = (1-a) $
-\form#69:$a$
-\form#70:$b$
-\form#71:$ Nx = [T M^{-1} T^{*}]x = b $
-\form#72:$ x $
-\form#73:$ N $
-\form#74:$ M $
-\form#75:$ [T M^{-1} T^{*}]^{-1} $
-\form#76:$ Nx = b $
-\form#77:$ Mx = [J L^{-1} S]x = b $
-\form#78:$ Mx=b $
-\form#79:$ Mx = b $
-\form#80:$ (i,j,k,d):-> p $
-\form#81:$ L = C I + \nabla \cdot D \nabla$
-\form#82:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
-\form#83:\[ (C I + \nabla \cdot D \nabla) u = f \]
-\form#84:$ C $
-\form#85:$ D $
-\form#86:$ f $
-\form#87:$ u $
-\form#88:$ -\nabla^2 u = f $
-\form#89:$ (C I + \nabla \cdot D \nabla ) u = f $
-\form#90:$C$
-\form#91:$D$
-\form#92:$u$
-\form#93:$f$
-\form#94:$ y=F[x] $
-\form#95:$ z=F[x]+y $
-\form#96:$z=F[x]+y$
-\form#97:$F[x]=b$
-\form#98:$ F'[x]v $
-\form#99:$ y=Ax $
-\form#100:$ z=Ax+y $
-\form#101:$ y=A^{T} x $
-\form#102:$ z=A^{T}x+y $
-\form#103:$ F[x]=b $
-\form#104:$F[x]$
-\form#105:$J[x] = F'[x]$
-\form#106:$ r_0 = r $
-\form#107:$ r_1 = r_0 + 1 $
+\form#57:$ |\nabla Q | = 1 $
+\form#58:$ k $
+\form#59:$ l $
+\form#60:\[ \vec{F}_k = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|}, \]
+\form#61:\[ \vec{F}_l = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{l} - \vec{X}_{k}\|} = - \vec{F}_k, \]
+\form#62:$ \kappa_{k,l} $
+\form#63:$ r_{k,l} $
+\form#64:$ T_{k,l} $
+\form#65:\[ T_{k,l} = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right). \]
+\form#66:\[ \vec{F}_k = T_{k,l} \frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|} \]
+\form#67:\[ \vec{F}_l = T_{k,l} \frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{k} - \vec{X}_{l}\|}. \]
+\form#68:$ \eta $
+\form#69:$ b = (1-a) $
+\form#70:$a$
+\form#71:$b$
+\form#72:$ Nx = [T M^{-1} T^{*}]x = b $
+\form#73:$ x $
+\form#74:$ N $
+\form#75:$ M $
+\form#76:$ [T M^{-1} T^{*}]^{-1} $
+\form#77:$ Nx = b $
+\form#78:$ Mx = [J L^{-1} S]x = b $
+\form#79:$ Mx=b $
+\form#80:$ Mx = b $
+\form#81:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
+\form#82:$ (i,j,k,d):-> p $
+\form#83:$ L = C I + \nabla \cdot D \nabla$
+\form#84:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
+\form#85:\[ (C I + \nabla \cdot D \nabla) u = f \]
+\form#86:$ C $
+\form#87:$ D $
+\form#88:$ f $
+\form#89:$ u $
+\form#90:$ -\nabla^2 u = f $
+\form#91:$ (C I + \nabla \cdot D \nabla ) u = f $
+\form#92:$C$
+\form#93:$D$
+\form#94:$u$
+\form#95:$f$
+\form#96:$ y=F[x] $
+\form#97:$ z=F[x]+y $
+\form#98:$z=F[x]+y$
+\form#99:$F[x]=b$
+\form#100:$ F'[x]v $
+\form#101:$ y=Ax $
+\form#102:$ z=Ax+y $
+\form#103:$ y=A^{T} x $
+\form#104:$ z=A^{T}x+y $
+\form#105:$ F[x]=b $
+\form#106:$F[x]$
+\form#107:$J[x] = F'[x]$
+\form#108:$ r_0 = r $
+\form#109:$ r_1 = r_0 + 1 $

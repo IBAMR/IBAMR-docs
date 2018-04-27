@@ -47,6 +47,7 @@ var searchData=
   ['regex_5ftoken_5fiterator',['regex_token_iterator',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00909.html',1,'std']]],
   ['regex_5ftraits',['regex_traits',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00910.html',1,'std']]],
   ['relaunchablejob',['RelaunchableJob',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RelaunchableJob.html',1,'SAMRAI::tbox']]],
+  ['relaxationlsmethod',['RelaxationLSMethod',['../class_i_b_a_m_r_1_1_relaxation_l_s_method.html',1,'IBAMR']]],
   ['resize_5ferror',['resize_error',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00377.html',1,'__gnu_pbds']]],
   ['resize_5fpolicy',['resize_policy',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00315.html',1,'__gnu_pbds::detail']]],
   ['resize_5fpolicy_3c_20_5falloc_3a_3asize_5ftype_20_3e',['resize_policy&lt; _Alloc::size_type &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00315.html',1,'__gnu_pbds::detail']]],

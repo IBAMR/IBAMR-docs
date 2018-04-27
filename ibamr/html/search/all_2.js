@@ -333,7 +333,7 @@ var searchData=
   ['buildghostedcoordsvector',['buildGhostedCoordsVector',['../class_i_b_t_k_1_1_f_e_data_manager.html#aea3e740109fb669d08420a059720028b',1,'IBTK::FEDataManager']]],
   ['buildghostedsolutionvector',['buildGhostedSolutionVector',['../class_i_b_t_k_1_1_f_e_data_manager.html#a28ee72e7fdd4007414c9f7f44afa2806',1,'IBTK::FEDataManager']]],
   ['buildhierarchymathops',['buildHierarchyMathOps',['../class_i_b_t_k_1_1_hierarchy_integrator.html#a644ed9395afdcf4e7a0a3f2e705e9c01',1,'IBTK::HierarchyIntegrator']]],
-  ['buildl2projectionsolver',['buildL2ProjectionSolver',['../class_i_b_t_k_1_1_f_e_data_manager.html#ae227c04c423ed26c647de7667230f008',1,'IBTK::FEDataManager']]],
+  ['buildl2projectionsolver',['buildL2ProjectionSolver',['../class_i_b_t_k_1_1_f_e_data_manager.html#a76580a213d9b47f044c1c9d2da100ef3',1,'IBTK::FEDataManager']]],
   ['buildparticipatingcommunicator',['buildParticipatingCommunicator',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BinaryTree.html#6678017bad5e9516da5f36dad61d4d7c',1,'SAMRAI::hier::BinaryTree']]],
   ['buildtboxarrayfromlist',['buildTboxArrayFromList',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1hier.html#52f93bb8107969997b18f621b30b4226',1,'SAMRAI::hier']]],
   ['base_20and_20policy_20classes',['Base and Policy Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01688.html',1,'']]],

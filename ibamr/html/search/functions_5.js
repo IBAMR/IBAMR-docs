@@ -18,7 +18,7 @@ var searchData=
   ['edgeoverlap',['EdgeOverlap',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeOverlap.html#4993b551b3afd2d317504230b1781ca6',1,'SAMRAI::pdat::EdgeOverlap']]],
   ['edgesynchcopyfillpattern',['EdgeSynchCopyFillPattern',['../class_i_b_t_k_1_1_edge_synch_copy_fill_pattern.html#accbf9d4302d02fb745dd9ea7f5b7d7cc',1,'IBTK::EdgeSynchCopyFillPattern']]],
   ['edgevariable',['EdgeVariable',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeVariable.html#fca6303fef202543bb8c7e39feae8ab7',1,'SAMRAI::pdat::EdgeVariable']]],
-  ['ee_5ffcn',['EE_fcn',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a8e29e4a7dbcdbb955c3860aea1b79eb2',1,'IBAMR::IBFEPostProcessor']]],
+  ['ee_5ffcn',['EE_fcn',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#ae3f526089cd9292fbe6c4a1aba611a7c',1,'IBAMR::IBFEPostProcessor']]],
   ['egptr',['egptr',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00453.html#a271d085f48ab53194825e04e7caab94c',1,'__gnu_cxx::enc_filebuf']]],
   ['eigentordv',['eigenToRDV',['../class_i_b_a_m_r_1_1_c_i_b_strategy.html#a3c27f42ced4750f6b012c98bef00d757',1,'IBAMR::CIBStrategy']]],
   ['elevenpatchinterface',['ElevenPatchInterface',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1ElevenPatchInterface.html#81ba24b59565fa96c302f52e999cf9d0',1,'SAMRAI::appu::ElevenPatchInterface']]],

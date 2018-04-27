@@ -71,7 +71,7 @@ var searchData=
   ['edgevariable',['EdgeVariable',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeVariable.html#fca6303fef202543bb8c7e39feae8ab7',1,'SAMRAI::pdat::EdgeVariable']]],
   ['edgevariable_2ec',['EdgeVariable.C',['../../../samrai/2.4.4/html/EdgeVariable_8C.html',1,'']]],
   ['edgevariable_2eh',['EdgeVariable.h',['../../../samrai/2.4.4/html/EdgeVariable_8h.html',1,'']]],
-  ['ee_5ffcn',['EE_fcn',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a8e29e4a7dbcdbb955c3860aea1b79eb2',1,'IBAMR::IBFEPostProcessor']]],
+  ['ee_5ffcn',['EE_fcn',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#ae3f526089cd9292fbe6c4a1aba611a7c',1,'IBAMR::IBFEPostProcessor']]],
   ['efficiency_5ftol',['efficiency_tol',['../../../samrai/2.4.4/html/structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#91c221877c2015df7d9a09cface18263',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
   ['egptr',['egptr',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00453.html#a271d085f48ab53194825e04e7caab94c',1,'__gnu_cxx::enc_filebuf']]],
   ['eigentordv',['eigenToRDV',['../class_i_b_a_m_r_1_1_c_i_b_strategy.html#a3c27f42ced4750f6b012c98bef00d757',1,'IBAMR::CIBStrategy']]],
