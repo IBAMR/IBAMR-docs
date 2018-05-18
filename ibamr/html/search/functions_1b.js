@@ -278,6 +278,7 @@ var searchData=
   ['_7eibeuleriansourcefunction',['~IBEulerianSourceFunction',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator_1_1_i_b_eulerian_source_function.html#a2207fc1d6f85fb7694b4ffb34ee0b227',1,'IBAMR::IBHierarchyIntegrator::IBEulerianSourceFunction']]],
   ['_7eibexplicithierarchyintegrator',['~IBExplicitHierarchyIntegrator',['../class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#add3a4bfd2ad5e1b56fff5e84f4430860',1,'IBAMR::IBExplicitHierarchyIntegrator']]],
   ['_7eibfecentroidpostprocessor',['~IBFECentroidPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_centroid_post_processor.html#a3ed987508bb73857ba0b9a2b84db1d5f',1,'IBAMR::IBFECentroidPostProcessor']]],
+  ['_7eibfeinstrumentpanel',['~IBFEInstrumentPanel',['../class_i_b_f_e_instrument_panel.html#a9ba0a2d2477f09d7610f9fabc1c2191f',1,'IBFEInstrumentPanel']]],
   ['_7eibfemethod',['~IBFEMethod',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a6f4a24fa7e89209749ae38f386003fe1',1,'IBAMR::IBFEMethod']]],
   ['_7eibfepatchrecoverypostprocessor',['~IBFEPatchRecoveryPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_patch_recovery_post_processor.html#a1145d4946123601f310ef144516fe195',1,'IBAMR::IBFEPatchRecoveryPostProcessor']]],
   ['_7eibfepostprocessor',['~IBFEPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#aab0050f2261e63e404dbce50543e8942',1,'IBAMR::IBFEPostProcessor']]],
