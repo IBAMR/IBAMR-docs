@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['function_20objects',['Function Objects',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01671.html',1,'']]],
-  ['futures',['Futures',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01646.html',1,'']]]
+  ['function_20objects',['Function Objects',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01671.html',1,'']]],
+  ['futures',['Futures',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01646.html',1,'']]]
 ];

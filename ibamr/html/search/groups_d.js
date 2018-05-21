@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['sequences',['Sequences',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01637.html',1,'']]],
-  ['set_20operation',['Set Operation',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01661.html',1,'']]],
-  ['sgi',['SGI',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01635.html',1,'']]],
-  ['sorting',['Sorting',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01660.html',1,'']]],
-  ['strings',['Strings',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01681.html',1,'']]]
+  ['sequences',['Sequences',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01637.html',1,'']]],
+  ['set_20operation',['Set Operation',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01661.html',1,'']]],
+  ['sgi',['SGI',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01635.html',1,'']]],
+  ['sorting',['Sorting',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01660.html',1,'']]],
+  ['strings',['Strings',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01681.html',1,'']]]
 ];
