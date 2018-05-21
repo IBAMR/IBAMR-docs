@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_i_b_t_k_1_1_copy_to_root_schedule.html" title="Class CopyToRootSchedule is used to communicate distributed patch data to a unified patch data object..." alt="" coords="6,5,194,32"/>
+<area shape="rect" id="node1" href="/home/travis/build/raveenak96/IBAMR/doc/ibtk.tag$class_i_b_t_k_1_1_staggered_physical_boundary_helper.html" title="IBTK::StaggeredPhysicalBoundary\lHelper" alt="" coords="5,5,229,46"/>
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_staggered_stokes_physical_boundary_helper.html" title="Class StaggeredStokesPhysicalBoundaryHelper provides helper functions to enforce physical boundary co..." alt="" coords="278,5,501,46"/>
 </map>
