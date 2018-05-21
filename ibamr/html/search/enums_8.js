@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node_5ftype',['NODE_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryDefines.html#163759bec09cec3db134daaa6004f713',1,'SAMRAI::appu::EmbeddedBoundaryDefines::NODE_TYPE()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryGeometry.html#b021888e318c696d9deca59ec102eac6',1,'SAMRAI::appu::EmbeddedBoundaryGeometry::NODE_TYPE()']]]
+  ['jobstate',['JobState',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RelaunchableJob.html#6ce670ebbc08220a5eada460d10cd78c',1,'SAMRAI::tbox::RelaunchableJob']]]
 ];
