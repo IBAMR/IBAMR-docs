@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['launch',['launch',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01646.html#ga6f4ad125d364f01560e2ed20a3c8bb5b',1,'std::launch()'],['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01646.html#ga6f4ad125d364f01560e2ed20a3c8bb5b',1,'launch()(Global Namespace)']]],
-  ['limitertype',['LimiterType',['../namespace_i_b_a_m_r.html#ac561f6320b68e45cbd3395220a51a4f4',1,'IBAMR']]]
+  ['ownermode',['OwnerMode',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#fab20a2c874a9b9f2362b4bb68a27b56',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]]
 ];

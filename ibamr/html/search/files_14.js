@@ -1,16 +1,20 @@
 var searchData=
 [
-  ['unique_5fcopy_2eh',['unique_copy.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01571.html',1,'']]],
-  ['unique_5fptr_2eh',['unique_ptr.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01572.html',1,'']]],
-  ['unordered_5fbase_2eh',['unordered_base.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01573.html',1,'']]],
-  ['unordered_5fiterator_2fconst_5fiterator_2ehpp',['unordered_iterator/const_iterator.hpp',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01060.html',1,'']]],
-  ['unordered_5fiterator_2fpoint_5fconst_5fiterator_2ehpp',['unordered_iterator/point_const_iterator.hpp',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01363.html',1,'']]],
-  ['unordered_5fmap',['unordered_map',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01574.html',1,'']]],
-  ['unordered_5fmap_2eh',['unordered_map.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01577.html',1,'']]],
-  ['unordered_5fset',['unordered_set',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01578.html',1,'']]],
-  ['unordered_5fset_2eh',['unordered_set.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01581.html',1,'']]],
-  ['update_5ffn_5fimps_2ehpp',['update_fn_imps.hpp',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01582.html',1,'']]],
-  ['utilities_2ec',['Utilities.C',['../../../samrai/2.4.4/html/Utilities_8C.html',1,'']]],
-  ['utilities_2eh',['Utilities.h',['../../../samrai/2.4.4/html/Utilities_8h.html',1,'']]],
-  ['utility',['utility',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01584.html',1,'']]]
+  ['variable_2ec',['Variable.C',['../../../samrai/2.4.4/html/Variable_8C.html',1,'']]],
+  ['variable_2eh',['Variable.h',['../../../samrai/2.4.4/html/Variable_8h.html',1,'']]],
+  ['variable_2ei',['Variable.I',['../../../samrai/2.4.4/html/Variable_8I.html',1,'']]],
+  ['variablecontext_2ec',['VariableContext.C',['../../../samrai/2.4.4/html/VariableContext_8C.html',1,'']]],
+  ['variablecontext_2eh',['VariableContext.h',['../../../samrai/2.4.4/html/VariableContext_8h.html',1,'']]],
+  ['variablecontext_2ei',['VariableContext.I',['../../../samrai/2.4.4/html/VariableContext_8I.html',1,'']]],
+  ['variabledatabase_2ec',['VariableDatabase.C',['../../../samrai/2.4.4/html/VariableDatabase_8C.html',1,'']]],
+  ['variabledatabase_2eh',['VariableDatabase.h',['../../../samrai/2.4.4/html/VariableDatabase_8h.html',1,'']]],
+  ['variabledatabase_2ei',['VariableDatabase.I',['../../../samrai/2.4.4/html/VariableDatabase_8I.html',1,'']]],
+  ['variablefillpattern_2ec',['VariableFillPattern.C',['../../../samrai/2.4.4/html/VariableFillPattern_8C.html',1,'']]],
+  ['variablefillpattern_2eh',['VariableFillPattern.h',['../../../samrai/2.4.4/html/VariableFillPattern_8h.html',1,'']]],
+  ['visderiveddatastrategy_2ec',['VisDerivedDataStrategy.C',['../../../samrai/2.4.4/html/VisDerivedDataStrategy_8C.html',1,'']]],
+  ['visderiveddatastrategy_2eh',['VisDerivedDataStrategy.h',['../../../samrai/2.4.4/html/VisDerivedDataStrategy_8h.html',1,'']]],
+  ['visitdatawriter_2ec',['VisItDataWriter.C',['../../../samrai/2.4.4/html/VisItDataWriter_8C.html',1,'']]],
+  ['visitdatawriter_2eh',['VisItDataWriter.h',['../../../samrai/2.4.4/html/VisItDataWriter_8h.html',1,'']]],
+  ['vismaterialsdatastrategy_2ec',['VisMaterialsDataStrategy.C',['../../../samrai/2.4.4/html/VisMaterialsDataStrategy_8C.html',1,'']]],
+  ['vismaterialsdatastrategy_2eh',['VisMaterialsDataStrategy.h',['../../../samrai/2.4.4/html/VisMaterialsDataStrategy_8h.html',1,'']]]
 ];

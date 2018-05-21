@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['e_5ftype',['e_type',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00386.html#aa2dd3a25e94ca227c9091491fa2c780f',1,'__gnu_pbds::sample_trie_access_traits::e_type()'],['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00399.html#a1fb66f19b741835bbd52b2b5610f6ca1',1,'__gnu_pbds::trie_string_access_traits::e_type()']]],
-  ['element_5ftype',['element_type',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00615.html#a7c925143715c359436b453e524dd9fc1',1,'std::auto_ptr::element_type()'],['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00892.html#afbe577731214ffde229449018dac1124',1,'std::pointer_traits::element_type()'],['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00893.html#ac702e82a55f07abb4e8992a4c9c3d5c1',1,'std::pointer_traits&lt; _Tp * &gt;::element_type()']]],
-  ['event_5fcallback',['event_callback',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00762.html#adf4056972215e095a642f4d234ab6c5b',1,'std::basic_fstream']]],
-  ['externalforcetorquefcnptr',['ExternalForceTorqueFcnPtr',['../class_i_b_a_m_r_1_1_c_i_b_f_e_method.html#ac5f988d1564a9c2acfad9a97e12cf73d',1,'IBAMR::CIBFEMethod::ExternalForceTorqueFcnPtr()'],['../class_i_b_a_m_r_1_1_c_i_b_method.html#a07d3de454638e0247dd6f4764285b2cb',1,'IBAMR::CIBMethod::ExternalForceTorqueFcnPtr()']]]
+  ['graphnabrcontainer',['GraphNabrContainer',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#8fffae355dd2aa36014916b5d2377357',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
+  ['graphnode',['GraphNode',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#b87d5d1a81adbbdeec5316ee98622344',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
+  ['graphnodecontainer',['GraphNodeContainer',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#ed97bc8ac520660d109f37200b547163',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
+  ['group',['group',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1SAMRAI__MPI.html#7aa022d3b79943bb3037a6ef03a92e11',1,'SAMRAI::tbox::SAMRAI_MPI']]]
 ];

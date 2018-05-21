@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pack_5freturn_5ftype',['PACK_RETURN_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html#e828832a338243edaf88517027ea7c81',1,'SAMRAI::appu::VisMaterialsDataStrategy']]],
-  ['parallelstate',['ParallelState',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerEdgeSet.html#16c7a3e816245aac62eda5fa36354ce4',1,'SAMRAI::hier::LayerEdgeSet::ParallelState()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerNodeSet.html#273d3f3c9d38641045734339bfba202c',1,'SAMRAI::hier::LayerNodeSet::ParallelState()']]],
-  ['projectionmethodtype',['ProjectionMethodType',['../namespace_i_b_a_m_r.html#a66adc7b966537a660d922f786875b828',1,'IBAMR']]]
+  ['timesteppingtype',['TimeSteppingType',['../namespace_i_b_a_m_r.html#a7dc5ab0cd31fc2d204b4264a00c64fd8',1,'IBAMR']]],
+  ['tractionbctype',['TractionBcType',['../namespace_i_b_a_m_r.html#acdd1b80c3604249c0d516ebb00c03e37',1,'IBAMR']]]
 ];

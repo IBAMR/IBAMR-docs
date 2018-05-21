@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['memory_5forder',['memory_order',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01663.html#gab4f8c60de95c10793a8e3e27fcb800d9',1,'std::memory_order()'],['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01663.html#gab4f8c60de95c10793a8e3e27fcb800d9',1,'memory_order()(Global Namespace)']]],
-  ['mobilitymatrixinversetype',['MobilityMatrixInverseType',['../namespace_i_b_a_m_r.html#a22c1e7d2fef29bd1819c5bf9828e3400',1,'IBAMR']]],
-  ['mobilitymatrixtype',['MobilityMatrixType',['../namespace_i_b_a_m_r.html#a591304f336aef144a5ae4595cffc3f70',1,'IBAMR']]],
-  ['mol_5fvar_5ftype',['MOL_VAR_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1MethodOfLinesIntegrator.html#25ed25ae080357a46aaac785496e1775',1,'SAMRAI::algs::MethodOfLinesIntegrator']]]
+  ['pack_5freturn_5ftype',['PACK_RETURN_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html#e828832a338243edaf88517027ea7c81',1,'SAMRAI::appu::VisMaterialsDataStrategy']]],
+  ['parallelstate',['ParallelState',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerEdgeSet.html#16c7a3e816245aac62eda5fa36354ce4',1,'SAMRAI::hier::LayerEdgeSet::ParallelState()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerNodeSet.html#273d3f3c9d38641045734339bfba202c',1,'SAMRAI::hier::LayerNodeSet::ParallelState()']]],
+  ['projectionmethodtype',['ProjectionMethodType',['../namespace_i_b_a_m_r.html#a66adc7b966537a660d922f786875b828',1,'IBAMR']]]
 ];

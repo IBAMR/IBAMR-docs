@@ -1,7 +1,28 @@
 var searchData=
 [
-  ['quadratic_5fprobe_5ffn_5fimp_2ehpp',['quadratic_probe_fn_imp.hpp',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01395.html',1,'']]],
-  ['queue',['queue',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01396.html',1,'']]],
-  ['queue_2eh',['queue.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01397.html',1,'']]],
-  ['quicksort_2eh',['quicksort.h',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01398.html',1,'']]]
+  ['referencecounter_2ec',['ReferenceCounter.C',['../../../samrai/2.4.4/html/ReferenceCounter_8C.html',1,'']]],
+  ['referencecounter_2eh',['ReferenceCounter.h',['../../../samrai/2.4.4/html/ReferenceCounter_8h.html',1,'']]],
+  ['referencecounter_2ei',['ReferenceCounter.I',['../../../samrai/2.4.4/html/ReferenceCounter_8I.html',1,'']]],
+  ['refinealgorithm_2ec',['RefineAlgorithm.C',['../../../samrai/2.4.4/html/RefineAlgorithm_8C.html',1,'']]],
+  ['refinealgorithm_2eh',['RefineAlgorithm.h',['../../../samrai/2.4.4/html/RefineAlgorithm_8h.html',1,'']]],
+  ['refineclasses_2ec',['RefineClasses.C',['../../../samrai/2.4.4/html/RefineClasses_8C.html',1,'']]],
+  ['refineclasses_2eh',['RefineClasses.h',['../../../samrai/2.4.4/html/RefineClasses_8h.html',1,'']]],
+  ['refinecopytransaction_2ec',['RefineCopyTransaction.C',['../../../samrai/2.4.4/html/RefineCopyTransaction_8C.html',1,'']]],
+  ['refinecopytransaction_2eh',['RefineCopyTransaction.h',['../../../samrai/2.4.4/html/RefineCopyTransaction_8h.html',1,'']]],
+  ['refineoperator_2ec',['RefineOperator.C',['../../../samrai/2.4.4/html/RefineOperator_8C.html',1,'']]],
+  ['refineoperator_2eh',['RefineOperator.h',['../../../samrai/2.4.4/html/RefineOperator_8h.html',1,'']]],
+  ['refinepatchstrategy_2ec',['RefinePatchStrategy.C',['../../../samrai/2.4.4/html/RefinePatchStrategy_8C.html',1,'']]],
+  ['refinepatchstrategy_2eh',['RefinePatchStrategy.h',['../../../samrai/2.4.4/html/RefinePatchStrategy_8h.html',1,'']]],
+  ['refineschedule_2ec',['RefineSchedule.C',['../../../samrai/2.4.4/html/RefineSchedule_8C.html',1,'']]],
+  ['refineschedule_2eh',['RefineSchedule.h',['../../../samrai/2.4.4/html/RefineSchedule_8h.html',1,'']]],
+  ['refinetimetransaction_2ec',['RefineTimeTransaction.C',['../../../samrai/2.4.4/html/RefineTimeTransaction_8C.html',1,'']]],
+  ['refinetimetransaction_2eh',['RefineTimeTransaction.h',['../../../samrai/2.4.4/html/RefineTimeTransaction_8h.html',1,'']]],
+  ['refinetransactionfactory_2ec',['RefineTransactionFactory.C',['../../../samrai/2.4.4/html/RefineTransactionFactory_8C.html',1,'']]],
+  ['refinetransactionfactory_2eh',['RefineTransactionFactory.h',['../../../samrai/2.4.4/html/RefineTransactionFactory_8h.html',1,'']]],
+  ['relaunchablejob_2eh',['RelaunchableJob.h',['../../../samrai/2.4.4/html/RelaunchableJob_8h.html',1,'']]],
+  ['restartmanager_2ec',['RestartManager.C',['../../../samrai/2.4.4/html/RestartManager_8C.html',1,'']]],
+  ['restartmanager_2eh',['RestartManager.h',['../../../samrai/2.4.4/html/RestartManager_8h.html',1,'']]],
+  ['restartmanager_2ei',['RestartManager.I',['../../../samrai/2.4.4/html/RestartManager_8I.html',1,'']]],
+  ['robinbccoefstrategy_2ec',['RobinBcCoefStrategy.C',['../../../samrai/2.4.4/html/RobinBcCoefStrategy_8C.html',1,'']]],
+  ['robinbccoefstrategy_2eh',['RobinBcCoefStrategy.h',['../../../samrai/2.4.4/html/RobinBcCoefStrategy_8h.html',1,'']]]
 ];

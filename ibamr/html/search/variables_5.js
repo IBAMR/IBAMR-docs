@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['edge_5fmessages',['edge_messages',['../../../samrai/2.4.4/html/structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#fd9c0793e119ea4a5b09c688fec16b57',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
-  ['edge_5fsenders',['edge_senders',['../../../samrai/2.4.4/html/structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#23a566783ca6893fcf5f8993c24f4b37',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
-  ['efficiency_5ftol',['efficiency_tol',['../../../samrai/2.4.4/html/structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#91c221877c2015df7d9a09cface18263',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
-  ['end',['end',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00762.html#a505c3780386ccd5ca9679f7264db97f9',1,'std::basic_fstream']]],
-  ['eofbit',['eofbit',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a00762.html#a806f6f377e4fb4525d19e6d24df3cd62',1,'std::basic_fstream']]]
+  ['fewest_5fowned',['FEWEST_OWNED',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#fab20a2c874a9b9f2362b4bb68a27b564d810579a685a9aea041dfe655b32607',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
+  ['flow',['FLOW',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryDefines.html#448851fec226a292a580b241d3799fc29cc66b59141550679bcd0548e1cc5015',1,'SAMRAI::appu::EmbeddedBoundaryDefines::FLOW()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryGeometry.html#2aa7906385f93b18d8655c26d76953d23fc63eef7554c080b52e2ad4784f0295',1,'SAMRAI::appu::EmbeddedBoundaryGeometry::FLOW()']]],
+  ['flux',['FLUX',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html#2b942773b6adae963741add627777f4d6024364c32c1baeeb519b8e77a615ee0',1,'SAMRAI::algs::HyperbolicLevelIntegrator']]]
 ];

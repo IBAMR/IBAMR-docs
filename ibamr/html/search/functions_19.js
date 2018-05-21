@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['yield',['yield',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/libstdc++.tag/a01629.html#a2a1ecebfe73aaa3eb40e909991bbd16e',1,'std::this_thread']]],
-  ['yyinput',['yyinput',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Parser.html#dd863ed501c824ea670216c395ed8b17',1,'SAMRAI::tbox::Parser']]]
+  ['zeroinactivatedcomponents',['zeroInactivatedComponents',['../../../ibtk/html/class_i_b_t_k_1_1_l_data_manager.html#a2a53da32846c4e28e4caf63e5e939bd7',1,'IBTK::LDataManager']]]
 ];
