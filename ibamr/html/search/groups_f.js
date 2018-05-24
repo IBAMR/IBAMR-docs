@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['type_2dsafe_20container_20of_20any_20type',['Type-safe container of any type',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01518.html',1,'']]],
-  ['time',['Time',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01472.html',1,'']]],
-  ['tags',['Tags',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01533.html',1,'']]],
-  ['threads',['Threads',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01481.html',1,'']]],
-  ['traits',['Traits',['https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01536.html',1,'']]]
+  ['uniform_20distributions',['Uniform Distributions',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01702.html',1,'']]],
+  ['unordered_20associative',['Unordered Associative',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01639.html',1,'']]],
+  ['utilities',['Utilities',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01655.html',1,'']]]
 ];

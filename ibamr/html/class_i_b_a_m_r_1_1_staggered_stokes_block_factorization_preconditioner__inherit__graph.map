@@ -1,6 +1,6 @@
 <map id="IBAMR::StaggeredStokesBlockFactorizationPreconditioner" name="IBAMR::StaggeredStokesBlockFactorizationPreconditioner">
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_staggered_stokes_block_preconditioner.html" title="Class StaggeredStokesBlockPreconditioner is an abstract base class for Stokes solvers that are implem..." alt="" coords="65,155,271,197"/>
-<area shape="rect" id="node3" href="/home/travis/build/raveenak96/IBAMR/doc/ibtk.tag$class_i_b_t_k_1_1_linear_solver.html" title="IBTK::LinearSolver" alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node4" href="/home/travis/build/raveenak96/IBAMR/doc/ibtk.tag$class_i_b_t_k_1_1_general_solver.html" title="IBTK::GeneralSolver" alt="" coords="97,5,239,32"/>
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers. " alt="" coords="161,80,371,107"/>
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_staggered_stokes_block_preconditioner.html" title="Class StaggeredStokesBlockPreconditioner is an abstract base class for Stokes solvers that are implem..." alt="" coords="65,230,271,271"/>
+<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="97,80,239,107"/>
+<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers. " alt="" coords="161,155,371,181"/>
 </map>
