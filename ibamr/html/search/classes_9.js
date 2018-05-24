@@ -6,7 +6,7 @@ var searchData=
   ['ibeuleriansourcefunction',['IBEulerianSourceFunction',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator_1_1_i_b_eulerian_source_function.html',1,'IBAMR::IBHierarchyIntegrator']]],
   ['ibexplicithierarchyintegrator',['IBExplicitHierarchyIntegrator',['../class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html',1,'IBAMR']]],
   ['ibfecentroidpostprocessor',['IBFECentroidPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_centroid_post_processor.html',1,'IBAMR']]],
-  ['ibfeinstrumentpanel',['IBFEInstrumentPanel',['../class_i_b_f_e_instrument_panel.html',1,'']]],
+  ['ibfeinstrumentpanel',['IBFEInstrumentPanel',['../class_i_b_a_m_r_1_1_i_b_f_e_instrument_panel.html',1,'IBAMR']]],
   ['ibfemethod',['IBFEMethod',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html',1,'IBAMR']]],
   ['ibfepatchrecoverypostprocessor',['IBFEPatchRecoveryPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_patch_recovery_post_processor.html',1,'IBAMR']]],
   ['ibfepostprocessor',['IBFEPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html',1,'IBAMR']]],
