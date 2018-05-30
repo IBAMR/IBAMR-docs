@@ -757,19 +757,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>outer_product</b> (li
 <tr class="memitem:a2fa273687ead649c1d10fb8382ea1f21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fa273687ead649c1d10fb8382ea1f21"></a>
 libMesh::TensorValue&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>outer_product</b> (const libMesh::TypeVector&lt; double &gt; &amp;u, const libMesh::TypeVector&lt; double &gt; &amp;v, const int dim=NDIM)</td></tr>
 <tr class="separator:a2fa273687ead649c1d10fb8382ea1f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a7d051ad3fb0e5663b4a33184e362f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86a7d051ad3fb0e5663b4a33184e362f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_edge</b> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00468.html">std::pair</a>&lt; double, libMesh::Point &gt; &gt; &amp;t_vals, libMesh::Edge *elem, libMesh::Point r, libMesh::VectorValue&lt; double &gt; q)</td></tr>
-<tr class="separator:a86a7d051ad3fb0e5663b4a33184e362f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac43a729aba22fdee31bcf1a84e931922"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac43a729aba22fdee31bcf1a84e931922"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_face</b> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00468.html">std::pair</a>&lt; double, libMesh::Point &gt; &gt; &amp;t_vals, libMesh::Face *elem, libMesh::Point r, libMesh::VectorValue&lt; double &gt; q)</td></tr>
-<tr class="separator:ac43a729aba22fdee31bcf1a84e931922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45293290dab489896e0d1bb04efb6d75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45293290dab489896e0d1bb04efb6d75"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_edge</b> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00468.html">std::pair</a>&lt; double, libMesh::Point &gt; &gt; &amp;t_vals, libMesh::Edge *elem, libMesh::Point r, libMesh::VectorValue&lt; double &gt; q, const double tol=0.0)</td></tr>
+<tr class="separator:a45293290dab489896e0d1bb04efb6d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4956967de7ecb8746eddcc1d54e24283"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4956967de7ecb8746eddcc1d54e24283"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_face</b> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00468.html">std::pair</a>&lt; double, libMesh::Point &gt; &gt; &amp;t_vals, libMesh::Face *elem, libMesh::Point r, libMesh::VectorValue&lt; double &gt; q, const double tol=0.0)</td></tr>
+<tr class="separator:a4956967de7ecb8746eddcc1d54e24283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines "using" declarations for all <a class="el" href="namespace_i_b_t_k.html">IBTK</a> namespaces. This header file may be included in application codes, but it MUST NOT be included in any other header (.h) or inline (-inl.h) file in the library. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 29 2018 17:15:53 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 30 2018 13:48:40 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
