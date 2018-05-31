@@ -70,41 +70,63 @@
 \form#69:$ b = (1-a) $
 \form#70:$a$
 \form#71:$b$
-\form#72:$ Nx = [T M^{-1} T^{*}]x = b $
-\form#73:$ x $
-\form#74:$ N $
-\form#75:$ M $
-\form#76:$ [T M^{-1} T^{*}]^{-1} $
-\form#77:$ Nx = b $
-\form#78:$ Mx = [J L^{-1} S]x = b $
-\form#79:$ Mx=b $
-\form#80:$ Mx = b $
-\form#81:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
-\form#82:$ (i,j,k,d):-> p $
-\form#83:$ L = C I + \nabla \cdot D \nabla$
-\form#84:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
-\form#85:\[ (C I + \nabla \cdot D \nabla) u = f \]
-\form#86:$ C $
-\form#87:$ D $
-\form#88:$ f $
-\form#89:$ u $
-\form#90:$ -\nabla^2 u = f $
-\form#91:$ (C I + \nabla \cdot D \nabla ) u = f $
-\form#92:$C$
-\form#93:$D$
-\form#94:$u$
-\form#95:$f$
-\form#96:$ y=F[x] $
-\form#97:$ z=F[x]+y $
-\form#98:$z=F[x]+y$
-\form#99:$F[x]=b$
-\form#100:$ F'[x]v $
-\form#101:$ y=Ax $
-\form#102:$ z=Ax+y $
-\form#103:$ y=A^{T} x $
-\form#104:$ z=A^{T}x+y $
-\form#105:$ F[x]=b $
-\form#106:$F[x]$
-\form#107:$J[x] = F'[x]$
-\form#108:$ r_0 = r $
-\form#109:$ r_1 = r_0 + 1 $
+\form#72:$N = \nabla \cdot (u \rho u)$
+\form#73:$\rho$
+\form#74:$(\frac{\partial \rho u}{\partial t} + N(\rho u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
+\form#75:$ N(u) = \nabla \cdot (\rho u u) $
+\form#76:$\frac{D \rho}{Dt} = 0$
+\form#77:$rho^n$
+\form#78:$rho^{n+\frac{1}{2}}$
+\form#79:$N(\rho u)$
+\form#80:$rho^{n+1}$
+\form#81:$c A + G(c x_p) = c b_u$
+\form#82:$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
+\form#83:$ N(u) = u \cdot \nabla u $
+\form#84:$ N(u) = \nabla \cdot (u u) $
+\form#85:$ Nx = [T M^{-1} T^{*}]x = b $
+\form#86:$ x $
+\form#87:$ N $
+\form#88:$ M $
+\form#89:$ [T M^{-1} T^{*}]^{-1} $
+\form#90:$ Nx = b $
+\form#91:$ Mx = [J L^{-1} S]x = b $
+\form#92:$ Mx=b $
+\form#93:$ Mx = b $
+\form#94:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
+\form#95:$\tilde{Q}$
+\form#96:$Q = \tilde{Q} + \lambda_{ij}H'(Q^0)|\nabla Q^0|$
+\form#97:$Q^0$
+\form#98:$ (i,j,k,d):-> p $
+\form#99:$ L = C I + \nabla \cdot D \nabla$
+\form#100:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
+\form#101:\[ (C I + \nabla \cdot D \nabla) u = f \]
+\form#102:$ C $
+\form#103:$ D $
+\form#104:$ f $
+\form#105:$ u $
+\form#106:$ -\nabla^2 u = f $
+\form#107:$ (C I + \nabla \cdot D \nabla ) u = f $
+\form#108:$C$
+\form#109:$D$
+\form#110:$u$
+\form#111:$f$
+\form#112:$ y=F[x] $
+\form#113:$ z=F[x]+y $
+\form#114:$z=F[x]+y$
+\form#115:$F[x]=b$
+\form#116:$ F'[x]v $
+\form#117:$ y=Ax $
+\form#118:$ z=Ax+y $
+\form#119:$ y=A^{T} x $
+\form#120:$ z=A^{T}x+y $
+\form#121:$ F[x]=b $
+\form#122:$F[x]$
+\form#123:$J[x] = F'[x]$
+\form#124:$ \alpha $
+\form#125:$ r_0 = r $
+\form#126:$ r_1 = r_0 + 1 $
+\form#127:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
+\form#128:$ \mu $
+\form#129:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#130:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
+\form#131:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $

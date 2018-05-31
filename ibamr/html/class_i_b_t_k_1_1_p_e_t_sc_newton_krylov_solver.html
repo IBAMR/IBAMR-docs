@@ -133,7 +133,7 @@ const SNES &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr><td colspan="2"><div class="groupHeader">Newton-Krylov solver functionality.</div></td></tr>
 <tr class="memitem:a3e3afe3be1464fe15e23a8da9d32374b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e3afe3be1464fe15e23a8da9d32374b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a3e3afe3be1464fe15e23a8da9d32374b">setOperator</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_general_operator.html">GeneralOperator</a> &gt; op)</td></tr>
-<tr class="memdesc:a3e3afe3be1464fe15e23a8da9d32374b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_106.png"/> used by the solver. <br/></td></tr>
+<tr class="memdesc:a3e3afe3be1464fe15e23a8da9d32374b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_122.png"/> used by the solver. <br/></td></tr>
 <tr class="separator:a3e3afe3be1464fe15e23a8da9d32374b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111d7275bbb1af7e8d6e5da07dd810c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a111d7275bbb1af7e8d6e5da07dd810c7"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
@@ -148,13 +148,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:ab7a1bee2711703ead94dba853d156a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the vector in which the nonlinear function evaluation is stored. <br/></td></tr>
 <tr class="separator:ab7a1bee2711703ead94dba853d156a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12172ea46196b2583cb3ddced038cc0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a12172ea46196b2583cb3ddced038cc0f">setJacobian</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_jacobian_operator.html">JacobianOperator</a> &gt; J)</td></tr>
-<tr class="memdesc:a12172ea46196b2583cb3ddced038cc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_107.png"/> used by the solver.  <a href="#a12172ea46196b2583cb3ddced038cc0f">More...</a><br/></td></tr>
+<tr class="memdesc:a12172ea46196b2583cb3ddced038cc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_123.png"/> used by the solver.  <a href="#a12172ea46196b2583cb3ddced038cc0f">More...</a><br/></td></tr>
 <tr class="separator:a12172ea46196b2583cb3ddced038cc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab51d1ffac3bcac2586b409c5ebf9a65c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#ab51d1ffac3bcac2586b409c5ebf9a65c">solveSystem</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>)</td></tr>
-<tr class="memdesc:ab51d1ffac3bcac2586b409c5ebf9a65c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the system <img class="formulaInl" alt="$F[x]=b$" src="form_99.png"/> for <img class="formulaInl" alt="$x$" src="form_46.png"/>.  <a href="#ab51d1ffac3bcac2586b409c5ebf9a65c">More...</a><br/></td></tr>
+<tr class="memdesc:ab51d1ffac3bcac2586b409c5ebf9a65c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the system <img class="formulaInl" alt="$F[x]=b$" src="form_115.png"/> for <img class="formulaInl" alt="$x$" src="form_46.png"/>.  <a href="#ab51d1ffac3bcac2586b409c5ebf9a65c">More...</a><br/></td></tr>
 <tr class="separator:ab51d1ffac3bcac2586b409c5ebf9a65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bed200f6ff1e336ef3dfd4528ae148e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a9bed200f6ff1e336ef3dfd4528ae148e">initializeSolverState</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>)</td></tr>
-<tr class="memdesc:a9bed200f6ff1e336ef3dfd4528ae148e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$F[x]=b$" src="form_99.png"/>.  <a href="#a9bed200f6ff1e336ef3dfd4528ae148e">More...</a><br/></td></tr>
+<tr class="memdesc:a9bed200f6ff1e336ef3dfd4528ae148e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$F[x]=b$" src="form_115.png"/>.  <a href="#a9bed200f6ff1e336ef3dfd4528ae148e">More...</a><br/></td></tr>
 <tr class="separator:a9bed200f6ff1e336ef3dfd4528ae148e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b719001075a5ffb946a517ef49006cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a0b719001075a5ffb946a517ef49006cb">deallocateSolverState</a> ()</td></tr>
 <tr class="memdesc:a0b719001075a5ffb946a517ef49006cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a9bed200f6ff1e336ef3dfd4528ae148e" title="Compute hierarchy dependent data required for solving . ">initializeSolverState()</a>.  <a href="#a0b719001075a5ffb946a517ef49006cb">More...</a><br/></td></tr>
@@ -187,12 +187,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a33a9320ae47929037cb47ecc89b3e0f7 inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33a9320ae47929037cb47ecc89b3e0f7"></a>
 virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
 &lt; <a class="el" href="class_i_b_t_k_1_1_general_operator.html">GeneralOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a33a9320ae47929037cb47ecc89b3e0f7">getOperator</a> () const </td></tr>
-<tr class="memdesc:a33a9320ae47929037cb47ecc89b3e0f7 inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_106.png"/> used by the solver. <br/></td></tr>
+<tr class="memdesc:a33a9320ae47929037cb47ecc89b3e0f7 inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_122.png"/> used by the solver. <br/></td></tr>
 <tr class="separator:a33a9320ae47929037cb47ecc89b3e0f7 inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b8ef65b040de5990cbce279c1b917b inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47b8ef65b040de5990cbce279c1b917b"></a>
 virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
 &lt; <a class="el" href="class_i_b_t_k_1_1_jacobian_operator.html">JacobianOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a47b8ef65b040de5990cbce279c1b917b">getJacobian</a> () const </td></tr>
-<tr class="memdesc:a47b8ef65b040de5990cbce279c1b917b inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_107.png"/> used by the solver. <br/></td></tr>
+<tr class="memdesc:a47b8ef65b040de5990cbce279c1b917b inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_123.png"/> used by the solver. <br/></td></tr>
 <tr class="separator:a47b8ef65b040de5990cbce279c1b917b inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49cec8caded7ce116ad151d3f12e7bc2 inherit pub_methods_class_i_b_t_k_1_1_newton_krylov_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49cec8caded7ce116ad151d3f12e7bc2"></a>
 virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
@@ -520,7 +520,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </table>
 </div><div class="memdoc">
 
-<p>Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$F[x]=b$" src="form_99.png"/>. </p>
+<p>Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$F[x]=b$" src="form_115.png"/>. </p>
 <p>By default, the <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#ab51d1ffac3bcac2586b409c5ebf9a65c" title="Solve the system  for . ">solveSystem()</a> method computes some required hierarchy dependent data before solving and removes that data after the solve. For multiple solves that use the same hierarchy configuration, it is more efficient to:</p>
 <ol type="1">
 <li>initialize the hierarchy-dependent data required by the solver via <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a9bed200f6ff1e336ef3dfd4528ae148e" title="Compute hierarchy dependent data required for solving . ">initializeSolverState()</a>,</li>
@@ -577,7 +577,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </table>
 </div><div class="memdoc">
 
-<p>Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_107.png"/> used by the solver. </p>
+<p>Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_123.png"/> used by the solver. </p>
 <dl class="section note"><dt>Note</dt><dd>If a Jacobian object is not explicitly provided to the solver, a Jacobian-free inexact Newton-Krylov method is employed to approximate the action of the Jacobian. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a6cc3d4d5fa85b48372496c08af9946f9">IBTK::NewtonKrylovSolver</a>.</p>
@@ -616,7 +616,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </table>
 </div><div class="memdoc">
 
-<p>Solve the system <img class="formulaInl" alt="$F[x]=b$" src="form_99.png"/> for <img class="formulaInl" alt="$x$" src="form_46.png"/>. </p>
+<p>Solve the system <img class="formulaInl" alt="$F[x]=b$" src="form_115.png"/> for <img class="formulaInl" alt="$x$" src="form_46.png"/>. </p>
 <p>Before calling <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#ab51d1ffac3bcac2586b409c5ebf9a65c" title="Solve the system  for . ">solveSystem()</a>, the form of the solution <em>x</em> and right-hand-side <em>b</em> vectors must be set properly by the user on all patch interiors on the specified range of levels in the patch hierarchy. The user is responsible for all data management for the quantities associated with the solution and right-hand-side vectors. In particular, patch data in these vectors must be allocated prior to calling this method.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -654,7 +654,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 30 2018 17:30:09 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 31 2018 01:40:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

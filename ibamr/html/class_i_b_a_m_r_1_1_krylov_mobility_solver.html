@@ -143,10 +143,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a47ca73e081af64f9e7606c74d3143b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a> objects used to specify physical boundary conditions.  <a href="#a47ca73e081af64f9e7606c74d3143b7c">More...</a><br/></td></tr>
 <tr class="separator:a47ca73e081af64f9e7606c74d3143b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3231d14cb673aa7bf9d962d3fbba33d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_krylov_mobility_solver.html#a3231d14cb673aa7bf9d962d3fbba33d3">solveSystem</a> (Vec x, Vec <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>)</td></tr>
-<tr class="memdesc:a3231d14cb673aa7bf9d962d3fbba33d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations <img class="formulaInl" alt="$ Mx=b $" src="form_79.png"/> for <img class="formulaInl" alt="$ x $" src="form_73.png"/>.  <a href="#a3231d14cb673aa7bf9d962d3fbba33d3">More...</a><br/></td></tr>
+<tr class="memdesc:a3231d14cb673aa7bf9d962d3fbba33d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations <img class="formulaInl" alt="$ Mx=b $" src="form_92.png"/> for <img class="formulaInl" alt="$ x $" src="form_86.png"/>.  <a href="#a3231d14cb673aa7bf9d962d3fbba33d3">More...</a><br/></td></tr>
 <tr class="separator:a3231d14cb673aa7bf9d962d3fbba33d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9e5b440f2867112afc9ac50b4b66ca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_krylov_mobility_solver.html#ac9e5b440f2867112afc9ac50b4b66ca4">initializeSolverState</a> (Vec x, Vec <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>)</td></tr>
-<tr class="memdesc:ac9e5b440f2867112afc9ac50b4b66ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$ Mx = b $" src="form_80.png"/>.  <a href="#ac9e5b440f2867112afc9ac50b4b66ca4">More...</a><br/></td></tr>
+<tr class="memdesc:ac9e5b440f2867112afc9ac50b4b66ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$ Mx = b $" src="form_93.png"/>.  <a href="#ac9e5b440f2867112afc9ac50b4b66ca4">More...</a><br/></td></tr>
 <tr class="separator:ac9e5b440f2867112afc9ac50b4b66ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa745136088b897c7551dc79902d8f75a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_krylov_mobility_solver.html#aa745136088b897c7551dc79902d8f75a">deallocateSolverState</a> ()</td></tr>
 <tr class="memdesc:aa745136088b897c7551dc79902d8f75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_a_m_r_1_1_krylov_mobility_solver.html#ac9e5b440f2867112afc9ac50b4b66ca4" title="Compute hierarchy dependent data required for solving . ">initializeSolverState()</a>.  <a href="#aa745136088b897c7551dc79902d8f75a">More...</a><br/></td></tr>
@@ -177,8 +177,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>We are trying to solve the problem</p>
-<p><img class="formulaInl" alt="$ Mx = [J L^{-1} S]x = b $" src="form_78.png"/>; for <img class="formulaInl" alt="$ x $" src="form_73.png"/>.</p>
-<p>Here, <img class="formulaInl" alt="$ M $" src="form_75.png"/> is the mobility matrix, <img class="formulaInl" alt="$ J $" src="form_25.png"/> is the interpolation operator, <img class="formulaInl" alt="$ L $" src="form_27.png"/> is the Stokes operator, and <img class="formulaInl" alt="$ S $" src="form_26.png"/> is the spreading operator. </p>
+<p><img class="formulaInl" alt="$ Mx = [J L^{-1} S]x = b $" src="form_91.png"/>; for <img class="formulaInl" alt="$ x $" src="form_86.png"/>.</p>
+<p>Here, <img class="formulaInl" alt="$ M $" src="form_88.png"/> is the mobility matrix, <img class="formulaInl" alt="$ J $" src="form_25.png"/> is the interpolation operator, <img class="formulaInl" alt="$ L $" src="form_27.png"/> is the Stokes operator, and <img class="formulaInl" alt="$ S $" src="form_26.png"/> is the spreading operator. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aa745136088b897c7551dc79902d8f75a"></a>
 <div class="memitem">
@@ -223,7 +223,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 
-<p>Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$ Mx = b $" src="form_80.png"/>. </p>
+<p>Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$ Mx = b $" src="form_93.png"/>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>solution vector </td></tr>
@@ -313,7 +313,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 
-<p>Solve the linear system of equations <img class="formulaInl" alt="$ Mx=b $" src="form_79.png"/> for <img class="formulaInl" alt="$ x $" src="form_73.png"/>. </p>
+<p>Solve the linear system of equations <img class="formulaInl" alt="$ Mx=b $" src="form_92.png"/> for <img class="formulaInl" alt="$ x $" src="form_86.png"/>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>solution vector </td></tr>
@@ -332,7 +332,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 30 2018 17:30:07 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 31 2018 01:40:28 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -5,6 +5,7 @@ var searchData=
   ['adopt_5flock_5ft',['adopt_lock_t',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00592.html',1,'std']]],
   ['advdiffcenteredconvectiveoperator',['AdvDiffCenteredConvectiveOperator',['../class_i_b_a_m_r_1_1_adv_diff_centered_convective_operator.html',1,'IBAMR']]],
   ['advdiffconvectiveoperatormanager',['AdvDiffConvectiveOperatorManager',['../class_i_b_a_m_r_1_1_adv_diff_convective_operator_manager.html',1,'IBAMR']]],
+  ['advdiffcuiconvectiveoperator',['AdvDiffCUIConvectiveOperator',['../class_i_b_a_m_r_1_1_adv_diff_c_u_i_convective_operator.html',1,'IBAMR']]],
   ['advdiffhierarchyintegrator',['AdvDiffHierarchyIntegrator',['../class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html',1,'IBAMR']]],
   ['advdiffphysicalboundaryutilities',['AdvDiffPhysicalBoundaryUtilities',['../class_i_b_a_m_r_1_1_adv_diff_physical_boundary_utilities.html',1,'IBAMR']]],
   ['advdiffppmconvectiveoperator',['AdvDiffPPMConvectiveOperator',['../class_i_b_a_m_r_1_1_adv_diff_p_p_m_convective_operator.html',1,'IBAMR']]],

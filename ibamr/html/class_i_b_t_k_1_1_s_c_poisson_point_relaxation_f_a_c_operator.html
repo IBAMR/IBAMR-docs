@@ -91,13 +91,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">IBTK::SCPoissonPointRelaxationFACOperator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_84.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_100.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions.  
  <a href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html#details">More...</a></p>
 
 <p><code>#include &lt;/home/travis/build/IBAMR/IBAMR/ibtk/include/ibtk/SCPoissonPointRelaxationFACOperator.h&gt;</code></p>
@@ -106,7 +107,7 @@ Inheritance diagram for IBTK::SCPoissonPointRelaxationFACOperator:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator__inherit__graph.png" border="0" usemap="#_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator_inherit__map" id="_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator_inherit__map">
-<area shape="rect" id="node2" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ..." alt="" coords="6,155,223,197"/><area shape="rect" id="node3" href="class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem&#45;specific operations ..." alt="" coords="5,80,224,107"/></map>
+<area shape="rect" id="node5" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera..." alt="" coords="19,337,211,378"/><area shape="rect" id="node2" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ..." alt="" coords="6,155,223,197"/><area shape="rect" id="node3" href="class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem&#45;specific operations ..." alt="" coords="5,80,224,107"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -300,8 +301,35 @@ virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:
 <tr class="memdesc:adc73f32eef15519d79d959ea5d9ffc11 inherit pro_methods_class_i_b_t_k_1_1_f_a_c_preconditioner_strategy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a SAMRAIVectorReal object that corresponds to the given object but restricted to a single level of the patch hierarchy. <br/></td></tr>
 <tr class="separator:adc73f32eef15519d79d959ea5d9ffc11 inherit pro_methods_class_i_b_t_k_1_1_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a6bb1cf8b01038a83dcb25652b77931b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bb1cf8b01038a83dcb25652b77931b0"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
+&lt; <a class="el" href="class_i_b_t_k_1_1_poisson_solver.html">PoissonSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_coarse_solver</b></td></tr>
+<tr class="separator:a6bb1cf8b01038a83dcb25652b77931b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4e18d0590d53fe7e3749051b7a3d0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf4e18d0590d53fe7e3749051b7a3d0a"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_coarse_solver_db</b></td></tr>
+<tr class="separator:abf4e18d0590d53fe7e3749051b7a3d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7a7b2f9807b005f3ae098d73d77315"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d7a7b2f9807b005f3ae098d73d77315"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/pdat__dbugfort3d_8f.html#b44c080a02875854d807edb3914d89d6">boost::array</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt; NDIM &gt;<br class="typebreak"/>
+, NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_patch_bc_box_overlap</b></td></tr>
+<tr class="separator:a7d7a7b2f9807b005f3ae098d73d77315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9a9bd2dd279604e4b1715718fcbc1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc9a9bd2dd279604e4b1715718fcbc1e"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/pdat__dbugfort3d_8f.html#b44c080a02875854d807edb3914d89d6">boost::array</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00825.html">std::map</a>&lt; int, <br class="typebreak"/>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt;<br class="typebreak"/>
+ &gt;, NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_patch_neighbor_overlap</b></td></tr>
+<tr class="separator:abc9a9bd2dd279604e4b1715718fcbc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce927c43c1ebe26f9fd93bb2dfdc4ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ce927c43c1ebe26f9fd93bb2dfdc4ad"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
+&lt; <a class="el" href="class_i_b_t_k_1_1_staggered_physical_boundary_helper.html">StaggeredPhysicalBoundaryHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_bc_helper</b></td></tr>
+<tr class="separator:a5ce927c43c1ebe26f9fd93bb2dfdc4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bc140042bef5eb86481087e6da4c4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a18bc140042bef5eb86481087e6da4c4d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>d_mask_idx</b></td></tr>
+<tr class="separator:a18bc140042bef5eb86481087e6da4c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html">IBTK::PoissonFACPreconditionerStrategy</a></td></tr>
 <tr class="memitem:a6a4aca3f106b17ddf71f7397057d3fa5 inherit pro_attribs_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a4aca3f106b17ddf71f7397057d3fa5"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_poisson_spec</b></td></tr>
@@ -438,20 +466,20 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b></td>
 <tr class="separator:a7cc38aa3f3b7c64c0b3236248ca804d4 inherit pro_attribs_class_i_b_t_k_1_1_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_84.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_100.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions. </p>
 <p>This class provides operators that are used by class <a class="el" href="class_i_b_t_k_1_1_f_a_c_preconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a> to solve scalar Poisson-type equations of the form </p>
 <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ (C I + \nabla \cdot D \nabla) u = f \]" src="form_85.png"/>
+<img class="formulaDsp" alt="\[ (C I + \nabla \cdot D \nabla) u = f \]" src="form_101.png"/>
 </p>
 <p> using a side-centered, globally second-order accurate finite-difference discretization, where</p>
 <ul>
-<li><img class="formulaInl" alt="$ C $" src="form_86.png"/>, <img class="formulaInl" alt="$ D $" src="form_87.png"/> and <img class="formulaInl" alt="$ f $" src="form_88.png"/> are independent of <img class="formulaInl" alt="$ u $" src="form_89.png"/>,</li>
-<li><img class="formulaInl" alt="$ C $" src="form_86.png"/> is a constant damping factor,</li>
-<li><img class="formulaInl" alt="$ D $" src="form_87.png"/> is a constant diffusion coefficient, and</li>
-<li><img class="formulaInl" alt="$ f $" src="form_88.png"/> is a side-centered scalar function.</li>
+<li><img class="formulaInl" alt="$ C $" src="form_102.png"/>, <img class="formulaInl" alt="$ D $" src="form_103.png"/> and <img class="formulaInl" alt="$ f $" src="form_104.png"/> are independent of <img class="formulaInl" alt="$ u $" src="form_105.png"/>,</li>
+<li><img class="formulaInl" alt="$ C $" src="form_102.png"/> is a constant damping factor,</li>
+<li><img class="formulaInl" alt="$ D $" src="form_103.png"/> is a constant diffusion coefficient, and</li>
+<li><img class="formulaInl" alt="$ f $" src="form_104.png"/> is a side-centered scalar function.</li>
 </ul>
 <p>Robin boundary conditions may be specified at physical boundaries; see class <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>.</p>
-<p>By default, the class is configured to solve the Poisson problem <img class="formulaInl" alt="$ -\nabla^2 u = f $" src="form_90.png"/>, subject to homogeneous Dirichlet boundary conditions.</p>
+<p>By default, the class is configured to solve the Poisson problem <img class="formulaInl" alt="$ -\nabla^2 u = f $" src="form_106.png"/>, subject to homogeneous Dirichlet boundary conditions.</p>
 <p>Sample parameters for initialization from database (and their default values):</p>
 <pre class="fragment">smoother_type = "PATCH_GAUSS_SEIDEL"         // see setSmootherType()
 prolongation_method = "CONSTANT_REFINE"      // see setProlongationMethod()
@@ -526,6 +554,8 @@ level solver
 </dl>
 
 <p>Implements <a class="el" href="class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html#a0e3578c0f7cad8a598c676bf47fde61b">IBTK::FACPreconditionerStrategy</a>.</p>
+
+<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a1c5dd097b5deeb64da62735bf89ca449">IBTK::VCSCViscousOpPointRelaxationFACOperator</a>.</p>
 
 </div>
 </div>
@@ -634,6 +664,8 @@ level solver
 
 <p>Implements <a class="el" href="class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html#ab0b305ed685e65b6e1e9588e68a63d72">IBTK::FACPreconditionerStrategy</a>.</p>
 
+<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a8ef3e530ab6bcebfcf31ee70b77e4518">IBTK::VCSCViscousOpPointRelaxationFACOperator</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a32a036b94a9f82f2f6096248d99cf0b3"></a>
@@ -695,7 +727,7 @@ level solver
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 30 2018 17:30:09 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 31 2018 01:40:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

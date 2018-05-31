@@ -67,7 +67,7 @@ var searchData=
   ['binary_5ffunction_3c_20const_20lnodeindex_20_2a_2c_20const_20lnodeindex_20_2a_2c_20bool_20_3e',['binary_function&lt; const LNodeIndex *, const LNodeIndex *, bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00455.html',1,'std']]],
   ['binary_5ffunction_3c_20edge_2c_20edge_2c_20bool_20_3e',['binary_function&lt; Edge, Edge, bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00455.html',1,'std']]],
   ['binary_5ffunction_3c_20samrai_3a_3ahier_3a_3aindex_3c_20ndim_20_3e_2c_20samrai_3a_3ahier_3a_3aindex_3c_20ndim_20_3e_2c_20bool_20_3e',['binary_function&lt; SAMRAI::hier::Index&lt; NDIM &gt;, SAMRAI::hier::Index&lt; NDIM &gt;, bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00455.html',1,'std']]],
-  ['binary_5ffunction_3c_20samrai_3a_3apdat_3a_3acellindex_3c_20ndim_20_3e_2c_20samrai_3a_3apdat_3a_3acellindex_3c_20ndim_20_3e_2c_20bool_20_3e',['binary_function&lt; SAMRAI::pdat::CellIndex&lt; NDIM &gt;, SAMRAI::pdat::CellIndex&lt; NDIM &gt;, bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00455.html',1,'std']]],
+  ['binary_5ffunction_3c_20t_2c_20t_2c_20bool_20_3e',['binary_function&lt; T, T, bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00455.html',1,'std']]],
   ['binary_5fheap',['binary_heap',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00219.html',1,'__gnu_pbds::detail']]],
   ['binary_5fheap_5fconst_5fiterator_5f',['binary_heap_const_iterator_',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00220.html',1,'__gnu_pbds::detail']]],
   ['binary_5fheap_5fpoint_5fconst_5fiterator_5f',['binary_heap_point_const_iterator_',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00221.html',1,'__gnu_pbds::detail']]],

@@ -302,6 +302,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:acc21584585cefe0192578e4e68472b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12305cb4e98703b734af75f5475bdcb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a12305cb4e98703b734af75f5475bdcb4">putToDatabase</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db)</td></tr>
 <tr class="separator:a12305cb4e98703b734af75f5475bdcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a272cdb539279e2ee9dea9677a7860"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#ad5a272cdb539279e2ee9dea9677a7860">registerUserDefinedLData</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01681.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;data_name, int <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#9caca90cc65f72a7168924922fa5d34e">depth</a>)</td></tr>
+<tr class="separator:ad5a272cdb539279e2ee9dea9677a7860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Methods to set and get the patch hierarchy and range of patch</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>levels associated with this manager class. </p>
 </div></td></tr>
@@ -1183,6 +1185,33 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Register a concrete strategy object with the integrator that specifies the initial configuration of the curvilinear mesh nodes. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad5a272cdb539279e2ee9dea9677a7860"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::LDataManager::registerUserDefinedLData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01681.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>data_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>depth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Register user defined Lagrangian data to be maintained </p>
 
 </div>
 </div>
@@ -2234,7 +2263,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 30 2018 17:30:08 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu May 31 2018 01:40:29 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
