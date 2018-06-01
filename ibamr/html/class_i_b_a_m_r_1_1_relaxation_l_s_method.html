@@ -99,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Class <a class="el" href="class_i_b_a_m_r_1_1_relaxation_l_s_method.html" title="Class RelaxationLSMethod provides a relaxation algorithm implementation of the level set method...">RelaxationLSMethod</a> provides a relaxation algorithm implementation of the level set method. Specifically, this class iterates (to steady-state) the PDE <img class="formulaInl" alt="$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$" src="form_94.png"/>, which produces a solution to the Eikonal equation <img class="formulaInl" alt="$ |\nabla Q | = 1 $" src="form_57.png"/>. The solution of the Eikonal equation produces the signed distance away from an interface.  
  <a href="class_i_b_a_m_r_1_1_relaxation_l_s_method.html#details">More...</a></p>
 
-<p><code>#include &lt;/home/travis/build/IBAMR/IBAMR/include/ibamr/RelaxationLSMethod.h&gt;</code></p>
+<p><code>#include &lt;ibamr/RelaxationLSMethod.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IBAMR::RelaxationLSMethod:</div>
 <div class="dyncontent">
@@ -111,7 +111,7 @@ Inheritance diagram for IBAMR::RelaxationLSMethod:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afe0c07746ca6b8b3d72d928d5dd65e51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe0c07746ca6b8b3d72d928d5dd65e51"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_relaxation_l_s_method.html#afe0c07746ca6b8b3d72d928d5dd65e51">RelaxationLSMethod</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01681.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, bool register_for_restart=true)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_relaxation_l_s_method.html#afe0c07746ca6b8b3d72d928d5dd65e51">RelaxationLSMethod</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, bool register_for_restart=true)</td></tr>
 <tr class="memdesc:afe0c07746ca6b8b3d72d928d5dd65e51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br/></td></tr>
 <tr class="separator:afe0c07746ca6b8b3d72d928d5dd65e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac64c4755071d2822a7a1800fb2909551"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac64c4755071d2822a7a1800fb2909551"></a>
@@ -145,7 +145,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a00b0533c2674d9b7a916db31d7092698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_a_m_r_1_1_l_s_init_strategy"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_a_m_r_1_1_l_s_init_strategy')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_l_s_init_strategy.html">IBAMR::LSInitStrategy</a></td></tr>
 <tr class="memitem:a4cfc1637a46b772af51f75a188a50626 inherit pub_methods_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4cfc1637a46b772af51f75a188a50626"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_l_s_init_strategy.html#a4cfc1637a46b772af51f75a188a50626">LSInitStrategy</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01681.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, bool register_for_restart=true)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_l_s_init_strategy.html#a4cfc1637a46b772af51f75a188a50626">LSInitStrategy</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, bool register_for_restart=true)</td></tr>
 <tr class="memdesc:a4cfc1637a46b772af51f75a188a50626 inherit pub_methods_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br/></td></tr>
 <tr class="separator:a4cfc1637a46b772af51f75a188a50626 inherit pub_methods_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc6f725216cbc41d9a20efe534efd6c2 inherit pub_methods_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc6f725216cbc41d9a20efe534efd6c2"></a>
@@ -192,7 +192,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>d_alpha</b></td></t
 <tr class="separator:a8f3fde3be528549c6130da8823c0f331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_b_a_m_r_1_1_l_s_init_strategy.html">IBAMR::LSInitStrategy</a></td></tr>
 <tr class="memitem:a6feddf51e7331ce22b5f6ba8fda91563 inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6feddf51e7331ce22b5f6ba8fda91563"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01681.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_object_name</b></td></tr>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_object_name</b></td></tr>
 <tr class="separator:a6feddf51e7331ce22b5f6ba8fda91563 inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bb91478884c18af2466ba2a958a3bb inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38bb91478884c18af2466ba2a958a3bb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_restart</b></td></tr>
@@ -220,11 +220,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_reinit_interval</b><
 &lt; NDIM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>d_bc_coef</b></td></tr>
 <tr class="separator:a520abcd2b3ca50f6bfbc800678ab2721 inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaee69e09814f6e7d26da4eba669eb2e inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acaee69e09814f6e7d26da4eba669eb2e"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a><br class="typebreak"/>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
 &lt; <a class="el" href="class_i_b_a_m_r_1_1_l_s_init_strategy.html#a107a00a8863c3078866c349c9ceef2d3">LocateInterfaceNeighborhoodFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_locate_interface_fcns</b></td></tr>
 <tr class="separator:acaee69e09814f6e7d26da4eba669eb2e inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a28625092b2f97606e0db4bf1e13f5a inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a28625092b2f97606e0db4bf1e13f5a"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00965.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_locate_interface_fcns_ctx</b></td></tr>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_locate_interface_fcns_ctx</b></td></tr>
 <tr class="separator:a0a28625092b2f97606e0db4bf1e13f5a inherit pro_attribs_class_i_b_a_m_r_1_1_l_s_init_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -249,7 +249,7 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu May 31 2018 17:49:43 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 1 2018 01:34:28 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

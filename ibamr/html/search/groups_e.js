@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['time',['Time',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01643.html',1,'']]],
-  ['tags',['Tags',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html',1,'']]],
-  ['threads',['Threads',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01653.html',1,'']]],
-  ['traits',['Traits',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01699.html',1,'']]]
+  ['sequences',['Sequences',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01467.html',1,'']]],
+  ['set_20operation',['Set Operation',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01489.html',1,'']]],
+  ['sgi',['SGI',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01465.html',1,'']]],
+  ['sorting',['Sorting',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01488.html',1,'']]],
+  ['strings',['Strings',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html',1,'']]]
 ];
