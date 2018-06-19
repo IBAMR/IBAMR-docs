@@ -62,6 +62,7 @@ var searchData=
   ['robinbccoefstrategy',['RobinBcCoefStrategy',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html',1,'SAMRAI::solv']]],
   ['robinbccoefstrategy_3c_20ndim_20_3e',['RobinBcCoefStrategy&lt; NDIM &gt;',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html',1,'SAMRAI::solv']]],
   ['robinphysbdrypatchstrategy',['RobinPhysBdryPatchStrategy',['../class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html',1,'IBTK']]],
+  ['rodspec',['RodSpec',['../struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_rod_spec.html',1,'IBAMR::IBRedundantInitializer']]],
   ['rope',['rope',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08168.html',1,'__gnu_cxx']]],
   ['runtime_5ferror',['runtime_error',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02920.html',1,'std']]]
 ];

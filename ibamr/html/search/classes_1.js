@@ -25,6 +25,7 @@ var searchData=
   ['allocator_5ftraits_3c_20allocator_3c_20_5ftp_20_3e_20_3e',['allocator_traits&lt; allocator&lt; _Tp &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a03820.html',1,'std']]],
   ['always_5fadjustor',['always_adjustor',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09620.html',1,'__gnu_cxx::limit_condition']]],
   ['always_5fadjustor',['always_adjustor',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09644.html',1,'__gnu_cxx::random_condition']]],
+  ['anchorspec',['AnchorSpec',['../struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_anchor_spec.html',1,'IBAMR::IBRedundantInitializer']]],
   ['annotate_5fbase',['annotate_base',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09600.html',1,'__gnu_cxx']]],
   ['any',['any',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08892.html',1,'std::experimental::fundamentals_v1']]],
   ['appender',['Appender',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Logger_1_1Appender.html',1,'SAMRAI::tbox::Logger']]],

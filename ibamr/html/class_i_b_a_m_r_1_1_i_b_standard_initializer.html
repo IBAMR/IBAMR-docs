@@ -88,7 +88,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_i_b_a_m_r_1_1_i_b_standard_initializer-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -105,7 +104,7 @@ Inheritance diagram for IBAMR::IBStandardInitializer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_b_a_m_r_1_1_i_b_standard_initializer__inherit__graph.png" border="0" usemap="#_i_b_a_m_r_1_1_i_b_standard_initializer_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_b_a_m_r_1_1_i_b_standard_initializer_inherit__map" id="_i_b_a_m_r_1_1_i_b_standard_initializer_inherit__map">
-<area shape="rect" id="node2" href="class_i_b_t_k_1_1_l_init_strategy.html" title="Class LInitStrategy provides a mechanism for specifying the initial configuration of the curvilinear ..." alt="" coords="33,80,167,107"/></map>
+<area shape="rect" id="node2" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html" title="Class IBRedundantInitializer is an abstract LInitStrategy that initializes the configuration of one o..." alt="" coords="5,155,205,181"/><area shape="rect" id="node3" href="class_i_b_t_k_1_1_l_init_strategy.html" title="Class LInitStrategy provides a mechanism for specifying the initial configuration of the curvilinear ..." alt="" coords="38,80,172,107"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -118,35 +117,85 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a8a82ef71c4bb80fe788b8fa9a6a97367">~IBStandardInitializer</a> ()</td></tr>
 <tr class="memdesc:a8a82ef71c4bb80fe788b8fa9a6a97367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
 <tr class="separator:a8a82ef71c4bb80fe788b8fa9a6a97367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7f149f596f5588f952391d9029566ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7f149f596f5588f952391d9029566ae"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#ad7f149f596f5588f952391d9029566ae">registerLSiloDataWriter</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_silo_data_writer.html">IBTK::LSiloDataWriter</a> &gt; silo_writer)</td></tr>
-<tr class="memdesc:ad7f149f596f5588f952391d9029566ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a Silo data writer with the IB initializer object. <br/></td></tr>
-<tr class="separator:ad7f149f596f5588f952391d9029566ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add9b2b352ddfa78c0e7845e981d240ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#add9b2b352ddfa78c0e7845e981d240ec">getLevelHasLagrangianData</a> (int level_number, bool can_be_refined) const </td></tr>
-<tr class="memdesc:add9b2b352ddfa78c0e7845e981d240ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether there are any Lagrangian nodes on the specified patch level.  <a href="#add9b2b352ddfa78c0e7845e981d240ec">More...</a><br/></td></tr>
-<tr class="separator:add9b2b352ddfa78c0e7845e981d240ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a094bc1f2446497d855210e0bc9c16f83"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a094bc1f2446497d855210e0bc9c16f83">computeGlobalNodeCountOnPatchLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time)</td></tr>
-<tr class="memdesc:a094bc1f2446497d855210e0bc9c16f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the number of global nodes on the specified patch level.  <a href="#a094bc1f2446497d855210e0bc9c16f83">More...</a><br/></td></tr>
-<tr class="separator:a094bc1f2446497d855210e0bc9c16f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c845b43b74cb36f9dc5a1227ce98821"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a4c845b43b74cb36f9dc5a1227ce98821">computeLocalNodeCountOnPatchLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time)</td></tr>
-<tr class="memdesc:a4c845b43b74cb36f9dc5a1227ce98821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the number of local nodes on the specified patch level.  <a href="#a4c845b43b74cb36f9dc5a1227ce98821">More...</a><br/></td></tr>
-<tr class="separator:a4c845b43b74cb36f9dc5a1227ce98821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140796327416d7695d900ea4bfe709c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a140796327416d7695d900ea4bfe709c0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a140796327416d7695d900ea4bfe709c0">initializeStructureIndexingOnPatchLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;strct_id_to_strct_name_map, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &gt; &amp;strct_id_to_lag_idx_range_map, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
-<tr class="memdesc:a140796327416d7695d900ea4bfe709c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the structure indexing information on the patch level. <br/></td></tr>
-<tr class="separator:a140796327416d7695d900ea4bfe709c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2623b3bd53c0a81d1fe77024d19bae4a"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a2623b3bd53c0a81d1fe77024d19bae4a">initializeDataOnPatchLevel</a> (int lag_node_index_idx, unsigned int global_index_offset, unsigned int local_index_offset, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; X_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; U_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
-<tr class="memdesc:a2623b3bd53c0a81d1fe77024d19bae4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the LNode and LData data needed to specify the configuration of the curvilinear mesh on the patch level.  <a href="#a2623b3bd53c0a81d1fe77024d19bae4a">More...</a><br/></td></tr>
-<tr class="separator:a2623b3bd53c0a81d1fe77024d19bae4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd73b60359d1ac7949fe9b088abe867a"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#afd73b60359d1ac7949fe9b088abe867a">initializeMassDataOnPatchLevel</a> (unsigned int global_index_offset, unsigned int local_index_offset, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; M_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; K_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
-<tr class="memdesc:afd73b60359d1ac7949fe9b088abe867a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the LData needed to specify the mass and spring constant data required by the penalty IB method.  <a href="#afd73b60359d1ac7949fe9b088abe867a">More...</a><br/></td></tr>
-<tr class="separator:afd73b60359d1ac7949fe9b088abe867a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738dd9525290e6961874144b4dca3529"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a738dd9525290e6961874144b4dca3529">initializeDirectorDataOnPatchLevel</a> (unsigned int global_index_offset, unsigned int local_index_offset, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; D_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
-<tr class="memdesc:a738dd9525290e6961874144b4dca3529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the LNode data needed to specify director vectors required by some material models.  <a href="#a738dd9525290e6961874144b4dca3529">More...</a><br/></td></tr>
-<tr class="separator:a738dd9525290e6961874144b4dca3529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94188af9733365152857c2322fd0243a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a94188af9733365152857c2322fd0243a">tagCellsForInitialRefinement</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index)</td></tr>
-<tr class="memdesc:a94188af9733365152857c2322fd0243a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag cells for initial refinement.  <a href="#a94188af9733365152857c2322fd0243a">More...</a><br/></td></tr>
-<tr class="separator:a94188af9733365152857c2322fd0243a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBAMR::IBRedundantInitializer</a></td></tr>
+<tr class="memitem:ab8560cf089815e8aa904afdf259dd370 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8560cf089815e8aa904afdf259dd370"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ab8560cf089815e8aa904afdf259dd370">IBRedundantInitializer</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db)</td></tr>
+<tr class="memdesc:ab8560cf089815e8aa904afdf259dd370 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br/></td></tr>
+<tr class="separator:ab8560cf089815e8aa904afdf259dd370 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51cffe40c82ef0ca152720aaae14bc3a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51cffe40c82ef0ca152720aaae14bc3a"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a51cffe40c82ef0ca152720aaae14bc3a">~IBRedundantInitializer</a> ()</td></tr>
+<tr class="memdesc:a51cffe40c82ef0ca152720aaae14bc3a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
+<tr class="separator:a51cffe40c82ef0ca152720aaae14bc3a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb2162a7a2106e04ee5ce76b83193cf1 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb2162a7a2106e04ee5ce76b83193cf1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#afb2162a7a2106e04ee5ce76b83193cf1">registerLSiloDataWriter</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_silo_data_writer.html">IBTK::LSiloDataWriter</a> &gt; silo_writer)</td></tr>
+<tr class="memdesc:afb2162a7a2106e04ee5ce76b83193cf1 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a Silo data writer with the IB initializer object. <br/></td></tr>
+<tr class="separator:afb2162a7a2106e04ee5ce76b83193cf1 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746db5fe619aaa44e4e87a6812d3979f inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a746db5fe619aaa44e4e87a6812d3979f">getLevelHasLagrangianData</a> (int level_number, bool can_be_refined) const </td></tr>
+<tr class="memdesc:a746db5fe619aaa44e4e87a6812d3979f inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether there are any Lagrangian nodes on the specified patch level.  <a href="#a746db5fe619aaa44e4e87a6812d3979f">More...</a><br/></td></tr>
+<tr class="separator:a746db5fe619aaa44e4e87a6812d3979f inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a88b1a64e062519d0c1d309c64757d inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a56a88b1a64e062519d0c1d309c64757d">computeGlobalNodeCountOnPatchLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time)</td></tr>
+<tr class="memdesc:a56a88b1a64e062519d0c1d309c64757d inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the number of global nodes on the specified patch level.  <a href="#a56a88b1a64e062519d0c1d309c64757d">More...</a><br/></td></tr>
+<tr class="separator:a56a88b1a64e062519d0c1d309c64757d inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6e1fd133eefd9f9a4c1f853bbcf281 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a7a6e1fd133eefd9f9a4c1f853bbcf281">computeLocalNodeCountOnPatchLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time)</td></tr>
+<tr class="memdesc:a7a6e1fd133eefd9f9a4c1f853bbcf281 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the number of local nodes on the specified patch level.  <a href="#a7a6e1fd133eefd9f9a4c1f853bbcf281">More...</a><br/></td></tr>
+<tr class="separator:a7a6e1fd133eefd9f9a4c1f853bbcf281 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e44d34fa22c1e62b919e0042557707 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a67e44d34fa22c1e62b919e0042557707">registerInitStructureFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aed732f3877112fa41be2060e675763c1">InitStructureOnLevel</a> fcn)</td></tr>
+<tr class="separator:a67e44d34fa22c1e62b919e0042557707 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab46280f05efe43d46042da0796c17bee inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab46280f05efe43d46042da0796c17bee"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ab46280f05efe43d46042da0796c17bee">registerInitSpringDataFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a2a486988ec172f54369617a19991f531">InitSpringDataOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:ab46280f05efe43d46042da0796c17bee inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize spring data structures on a given level. <br/></td></tr>
+<tr class="separator:ab46280f05efe43d46042da0796c17bee inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026bee6bf2b68dd017403231db8b25db inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a026bee6bf2b68dd017403231db8b25db"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a026bee6bf2b68dd017403231db8b25db">registerInitXSpringDataFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a6bfea814632923b98a028e1eba7e009b">InitXSpringDataOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a026bee6bf2b68dd017403231db8b25db inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize xspring data structures on a given level. <br/></td></tr>
+<tr class="separator:a026bee6bf2b68dd017403231db8b25db inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5102cf2008cfbd5369e67a053bbf4da4 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5102cf2008cfbd5369e67a053bbf4da4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a5102cf2008cfbd5369e67a053bbf4da4">registerInitBeamDataFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a44ef157d290a749d8c5e5270e577fbb5">InitBeamDataOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a5102cf2008cfbd5369e67a053bbf4da4 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize beam data structures on a given level. <br/></td></tr>
+<tr class="separator:a5102cf2008cfbd5369e67a053bbf4da4 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd1462eb4a0d5e26e2b906f9fcacbd2 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0dd1462eb4a0d5e26e2b906f9fcacbd2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a0dd1462eb4a0d5e26e2b906f9fcacbd2">registerInitDirectorAndRodFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a6fb7c2865efe4ce03788f735319cab88">InitDirectorAndRodOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a0dd1462eb4a0d5e26e2b906f9fcacbd2 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a funcion to initialize director and rod data structures on a given level. <br/></td></tr>
+<tr class="separator:a0dd1462eb4a0d5e26e2b906f9fcacbd2 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a882d379f9c2ebd260432f90446dc3110 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a882d379f9c2ebd260432f90446dc3110"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a882d379f9c2ebd260432f90446dc3110">registerInitBoundaryMassFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a95fb39e8a3932b39553e96b5ed558fc0">InitBoundaryMassOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a882d379f9c2ebd260432f90446dc3110 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize massive points on a given level. <br/></td></tr>
+<tr class="separator:a882d379f9c2ebd260432f90446dc3110 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb55fe799c861c8fd8e86487f8ae81a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fb55fe799c861c8fd8e86487f8ae81a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a9fb55fe799c861c8fd8e86487f8ae81a">registerInitTargetPtFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a836e8dcfd94e579f7cd02a94f0bfe08c">InitTargetPtOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a9fb55fe799c861c8fd8e86487f8ae81a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize target points on a given level. <br/></td></tr>
+<tr class="separator:a9fb55fe799c861c8fd8e86487f8ae81a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebd907dc3b32999a3994911208c275a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ebd907dc3b32999a3994911208c275a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a1ebd907dc3b32999a3994911208c275a">registerInitAnchorPtFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#af1be68731bd3eedb8fe428672f8bf1ab">InitAnchorPtOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a1ebd907dc3b32999a3994911208c275a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize anchor points on a given level. <br/></td></tr>
+<tr class="separator:a1ebd907dc3b32999a3994911208c275a inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a462e1a0eeb9eef4358d4b7f9e26fafc5 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a462e1a0eeb9eef4358d4b7f9e26fafc5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a462e1a0eeb9eef4358d4b7f9e26fafc5">registerInitInstrumentationFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ad016aebc461efc05fe6728d0a451c641">InitInstrumentationOnLevel</a> fcn)</td></tr>
+<tr class="memdesc:a462e1a0eeb9eef4358d4b7f9e26fafc5 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a function to initialize instrumentation data on a given level. <br/></td></tr>
+<tr class="separator:a462e1a0eeb9eef4358d4b7f9e26fafc5 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c7070b47a461efaf9055601dd7862e0 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c7070b47a461efaf9055601dd7862e0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a0c7070b47a461efaf9055601dd7862e0">registerInitSourceFunction</a> (InitSourceOnLevel fcn)</td></tr>
+<tr class="memdesc:a0c7070b47a461efaf9055601dd7862e0 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a funciton to initialize source/sink data on a given level. <br/></td></tr>
+<tr class="separator:a0c7070b47a461efaf9055601dd7862e0 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010d3eacc5585f12acadeaf2dfa8bf82 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a010d3eacc5585f12acadeaf2dfa8bf82"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a010d3eacc5585f12acadeaf2dfa8bf82">initializeStructureIndexingOnPatchLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;strct_id_to_strct_name_map, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &gt; &amp;strct_id_to_lag_idx_range_map, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
+<tr class="memdesc:a010d3eacc5585f12acadeaf2dfa8bf82 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the structure indexing information on the patch level. <br/></td></tr>
+<tr class="separator:a010d3eacc5585f12acadeaf2dfa8bf82 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5863908d7898aa909a201d5afbbf05e inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aa5863908d7898aa909a201d5afbbf05e">initializeDataOnPatchLevel</a> (int lag_node_index_idx, unsigned int global_index_offset, unsigned int local_index_offset, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; X_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; U_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
+<tr class="memdesc:aa5863908d7898aa909a201d5afbbf05e inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the LNode and LData data needed to specify the configuration of the curvilinear mesh on the patch level.  <a href="#aa5863908d7898aa909a201d5afbbf05e">More...</a><br/></td></tr>
+<tr class="separator:aa5863908d7898aa909a201d5afbbf05e inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67059c1d9ef0711cee6dc0c91142703 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ad67059c1d9ef0711cee6dc0c91142703">initializeMassDataOnPatchLevel</a> (unsigned int global_index_offset, unsigned int local_index_offset, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; M_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; K_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
+<tr class="memdesc:ad67059c1d9ef0711cee6dc0c91142703 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the LData needed to specify the mass and spring constant data required by the penalty IB method.  <a href="#ad67059c1d9ef0711cee6dc0c91142703">More...</a><br/></td></tr>
+<tr class="separator:ad67059c1d9ef0711cee6dc0c91142703 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6896d38726f05750a8936053b6c5c60 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ae6896d38726f05750a8936053b6c5c60">initializeDirectorDataOnPatchLevel</a> (unsigned int global_index_offset, unsigned int local_index_offset, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; D_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *l_data_manager)</td></tr>
+<tr class="memdesc:ae6896d38726f05750a8936053b6c5c60 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the LNode data needed to specify director vectors required by some material models.  <a href="#ae6896d38726f05750a8936053b6c5c60">More...</a><br/></td></tr>
+<tr class="separator:ae6896d38726f05750a8936053b6c5c60 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e184651c339abcf6a3a13fa5fe6305 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a32e184651c339abcf6a3a13fa5fe6305">tagCellsForInitialRefinement</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index)</td></tr>
+<tr class="memdesc:a32e184651c339abcf6a3a13fa5fe6305 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag cells for initial refinement.  <a href="#a32e184651c339abcf6a3a13fa5fe6305">More...</a><br/></td></tr>
+<tr class="separator:a32e184651c339abcf6a3a13fa5fe6305 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b735470e7351455519564fdcd04734 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a15b735470e7351455519564fdcd04734">setStructureNamesOnLevel</a> (const int &amp;level_num, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;strct_names)</td></tr>
+<tr class="memdesc:a15b735470e7351455519564fdcd04734 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the names of the structures on a given level.  <a href="#a15b735470e7351455519564fdcd04734">More...</a><br/></td></tr>
+<tr class="separator:a15b735470e7351455519564fdcd04734 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_l_init_strategy"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_l_init_strategy')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html">IBTK::LInitStrategy</a></td></tr>
 <tr class="memitem:af104c17ab3a990f9c1e2ced49c34377e inherit pub_methods_class_i_b_t_k_1_1_l_init_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af104c17ab3a990f9c1e2ced49c34377e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#af104c17ab3a990f9c1e2ced49c34377e">LInitStrategy</a> ()</td></tr>
@@ -156,10 +205,216 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#ae8ac2384f83c9540b0aa8aebc4f69648">~LInitStrategy</a> ()</td></tr>
 <tr class="memdesc:ae8ac2384f83c9540b0aa8aebc4f69648 inherit pub_methods_class_i_b_t_k_1_1_l_init_strategy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
 <tr class="separator:ae8ac2384f83c9540b0aa8aebc4f69648 inherit pub_methods_class_i_b_t_k_1_1_l_init_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBAMR::IBRedundantInitializer</a></td></tr>
+<tr class="memitem:aed732f3877112fa41be2060e675763c1 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aed732f3877112fa41be2060e675763c1">InitStructureOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, int &amp;num_vertices, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; IBTK::Point &gt; &amp;vertex_posn)</td></tr>
+<tr class="separator:aed732f3877112fa41be2060e675763c1 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d04fa9a1255df33fa8c491ab2aafc1 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81d04fa9a1255df33fa8c491ab2aafc1"></a>
+typedef <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Edge</b></td></tr>
+<tr class="separator:a81d04fa9a1255df33fa8c491ab2aafc1 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a486988ec172f54369617a19991f531 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a2a486988ec172f54369617a19991f531">InitSpringDataOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a> &gt; &amp;spring_map, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_spring_spec.html">SpringSpec</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html">EdgeComp</a> &gt; &amp;spring_spec)</td></tr>
+<tr class="separator:a2a486988ec172f54369617a19991f531 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bfea814632923b98a028e1eba7e009b inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a6bfea814632923b98a028e1eba7e009b">InitXSpringDataOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a> &gt; &amp;xspring_map, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_x_spring_spec.html">XSpringSpec</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html">EdgeComp</a> &gt; xspring_spec)</td></tr>
+<tr class="separator:a6bfea814632923b98a028e1eba7e009b inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ef157d290a749d8c5e5270e577fbb5 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a44ef157d290a749d8c5e5270e577fbb5">InitBeamDataOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_beam_spec.html">BeamSpec</a> &gt; &amp;beam_spec)</td></tr>
+<tr class="separator:a44ef157d290a749d8c5e5270e577fbb5 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb7c2865efe4ce03788f735319cab88 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a6fb7c2865efe4ce03788f735319cab88">InitDirectorAndRodOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &gt; &amp;director_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a> &gt; &amp;rod_edge_map, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_rod_spec.html">RodSpec</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html">EdgeComp</a> &gt; &amp;rod_spec)</td></tr>
+<tr class="separator:a6fb7c2865efe4ce03788f735319cab88 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fb39e8a3932b39553e96b5ed558fc0 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a95fb39e8a3932b39553e96b5ed558fc0">InitBoundaryMassOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_bdry_mass_spec.html">BdryMassSpec</a> &gt; &amp;bdry_mass_spec)</td></tr>
+<tr class="separator:a95fb39e8a3932b39553e96b5ed558fc0 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836e8dcfd94e579f7cd02a94f0bfe08c inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a836e8dcfd94e579f7cd02a94f0bfe08c">InitTargetPtOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_target_spec.html">TargetSpec</a> &gt; &amp;tg_pt_spec)</td></tr>
+<tr class="separator:a836e8dcfd94e579f7cd02a94f0bfe08c inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1be68731bd3eedb8fe428672f8bf1ab inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#af1be68731bd3eedb8fe428672f8bf1ab">InitAnchorPtOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_anchor_spec.html">AnchorSpec</a> &gt; &amp;anchor_pt_spec)</td></tr>
+<tr class="separator:af1be68731bd3eedb8fe428672f8bf1ab inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad016aebc461efc05fe6728d0a451c641 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ad016aebc461efc05fe6728d0a451c641">InitInstrumentationOnLevel</a> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;instrument_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &gt; &amp;instrument_spec)</td></tr>
+<tr class="separator:ad016aebc461efc05fe6728d0a451c641 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fa93351a52845093528f4e69cd9670 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90fa93351a52845093528f4e69cd9670"></a>
+typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>InitSourceOnLevel</b> )(const unsigned int &amp;strct_num, const int &amp;level_num, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, int &gt; &amp;source_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;source_names, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;source_radii)</td></tr>
+<tr class="separator:a90fa93351a52845093528f4e69cd9670 inherit pub_types_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBAMR::IBRedundantInitializer</a></td></tr>
+<tr class="memitem:a827c82012aea1224c0ed42f2d8c0d540 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a827c82012aea1224c0ed42f2d8c0d540">IBRedundantInitializer</a> ()</td></tr>
+<tr class="memdesc:a827c82012aea1224c0ed42f2d8c0d540 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a827c82012aea1224c0ed42f2d8c0d540">More...</a><br/></td></tr>
+<tr class="separator:a827c82012aea1224c0ed42f2d8c0d540 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4e1799efb0b8c562f38d59eec203d7 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aaa4e1799efb0b8c562f38d59eec203d7">IBRedundantInitializer</a> (const <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBRedundantInitializer</a> &amp;from)</td></tr>
+<tr class="memdesc:aaa4e1799efb0b8c562f38d59eec203d7 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#aaa4e1799efb0b8c562f38d59eec203d7">More...</a><br/></td></tr>
+<tr class="separator:aaa4e1799efb0b8c562f38d59eec203d7 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908dc3317ca06e6af1e96afd7fda7093 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBRedundantInitializer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a908dc3317ca06e6af1e96afd7fda7093">operator=</a> (const <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBRedundantInitializer</a> &amp;that)</td></tr>
+<tr class="memdesc:a908dc3317ca06e6af1e96afd7fda7093 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#a908dc3317ca06e6af1e96afd7fda7093">More...</a><br/></td></tr>
+<tr class="separator:a908dc3317ca06e6af1e96afd7fda7093 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1a179796d448fbe1e8dffab8d61aaf inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a1a179796d448fbe1e8dffab8d61aaf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a9a1a179796d448fbe1e8dffab8d61aaf">initializeLSiloDataWriter</a> (int level_number)</td></tr>
+<tr class="memdesc:a9a1a179796d448fbe1e8dffab8d61aaf inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the Lagrangian Silo data writer to plot the data associated with the specified level of the locally refined Cartesian grid. <br/></td></tr>
+<tr class="separator:a9a1a179796d448fbe1e8dffab8d61aaf inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96cfd286746159bb1d926d8d26da8da4 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96cfd286746159bb1d926d8d26da8da4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a96cfd286746159bb1d926d8d26da8da4">initializeStructurePosition</a> ()</td></tr>
+<tr class="memdesc:a96cfd286746159bb1d926d8d26da8da4 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize vertex data programmatically. <br/></td></tr>
+<tr class="separator:a96cfd286746159bb1d926d8d26da8da4 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419c7fb4857debd4040d056404e0818b inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a419c7fb4857debd4040d056404e0818b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a419c7fb4857debd4040d056404e0818b">initializeSprings</a> ()</td></tr>
+<tr class="memdesc:a419c7fb4857debd4040d056404e0818b inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize spring data programmatically. <br/></td></tr>
+<tr class="separator:a419c7fb4857debd4040d056404e0818b inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a81768e189382d4489240227f6267f7 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a81768e189382d4489240227f6267f7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a6a81768e189382d4489240227f6267f7">initializeXSprings</a> ()</td></tr>
+<tr class="memdesc:a6a81768e189382d4489240227f6267f7 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize xspring data programmatically. <br/></td></tr>
+<tr class="separator:a6a81768e189382d4489240227f6267f7 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa06281f7d459e9b77472c3f12272334 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa06281f7d459e9b77472c3f12272334"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aaa06281f7d459e9b77472c3f12272334">initializeBeams</a> ()</td></tr>
+<tr class="memdesc:aaa06281f7d459e9b77472c3f12272334 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize beam data programmatically. <br/></td></tr>
+<tr class="separator:aaa06281f7d459e9b77472c3f12272334 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bf73347f1ed5d03271355739ca846b inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5bf73347f1ed5d03271355739ca846b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ab5bf73347f1ed5d03271355739ca846b">initializeDirectorAndRods</a> ()</td></tr>
+<tr class="memdesc:ab5bf73347f1ed5d03271355739ca846b inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize director and rod data programmatically. <br/></td></tr>
+<tr class="separator:ab5bf73347f1ed5d03271355739ca846b inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af914a102e939197c844546318a68f23d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af914a102e939197c844546318a68f23d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#af914a102e939197c844546318a68f23d">initializeBoundaryMass</a> ()</td></tr>
+<tr class="memdesc:af914a102e939197c844546318a68f23d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize massive point data programmatically. <br/></td></tr>
+<tr class="separator:af914a102e939197c844546318a68f23d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd8e78a8db5fb3914be8bf3b088936e5 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd8e78a8db5fb3914be8bf3b088936e5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#abd8e78a8db5fb3914be8bf3b088936e5">initializeTargetPts</a> ()</td></tr>
+<tr class="memdesc:abd8e78a8db5fb3914be8bf3b088936e5 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize target point data programmatically. <br/></td></tr>
+<tr class="separator:abd8e78a8db5fb3914be8bf3b088936e5 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda60f51c593deeddb6ec787ee68fca9 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adda60f51c593deeddb6ec787ee68fca9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#adda60f51c593deeddb6ec787ee68fca9">initializeAnchorPts</a> ()</td></tr>
+<tr class="memdesc:adda60f51c593deeddb6ec787ee68fca9 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize anchor points programmatically. <br/></td></tr>
+<tr class="separator:adda60f51c593deeddb6ec787ee68fca9 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ca03ece2602e6748d2a786b45b109c inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5ca03ece2602e6748d2a786b45b109c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ac5ca03ece2602e6748d2a786b45b109c">initializeInstrumentationData</a> ()</td></tr>
+<tr class="memdesc:ac5ca03ece2602e6748d2a786b45b109c inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize instrumentation data. <br/></td></tr>
+<tr class="separator:ac5ca03ece2602e6748d2a786b45b109c inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8da37777ddd7cf258dc4061fbf5f87 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e8da37777ddd7cf258dc4061fbf5f87"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a5e8da37777ddd7cf258dc4061fbf5f87">initializeSourceData</a> ()</td></tr>
+<tr class="memdesc:a5e8da37777ddd7cf258dc4061fbf5f87 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize source/sink data. <br/></td></tr>
+<tr class="separator:a5e8da37777ddd7cf258dc4061fbf5f87 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70519f4079d4d5ce8ef5ddd3c38201e inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab70519f4079d4d5ce8ef5ddd3c38201e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ab70519f4079d4d5ce8ef5ddd3c38201e">getPatchVertices</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &gt; &amp;point_indices, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy) const </td></tr>
+<tr class="memdesc:ab70519f4079d4d5ce8ef5ddd3c38201e inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the indices of any vertices initially owned by the specified patch. <br/></td></tr>
+<tr class="separator:ab70519f4079d4d5ce8ef5ddd3c38201e inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa5c297a4264edf6e978adc1c507b4d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fa5c297a4264edf6e978adc1c507b4d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a8fa5c297a4264edf6e978adc1c507b4d">getPatchVerticesAtLevel</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &gt; &amp;point_indices, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number) const </td></tr>
+<tr class="memdesc:a8fa5c297a4264edf6e978adc1c507b4d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the indices of any vertices associated with a given level number initially located within the specified patch. <br/></td></tr>
+<tr class="separator:a8fa5c297a4264edf6e978adc1c507b4d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef77a1e827ba8f500ab64c69d079074 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aeef77a1e827ba8f500ab64c69d079074">getCanonicalLagrangianIndex</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:aeef77a1e827ba8f500ab64c69d079074 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209a85bc3cb373d6b74685d066856331 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">IBTK::Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a209a85bc3cb373d6b74685d066856331">getVertexPosn</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:a209a85bc3cb373d6b74685d066856331 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae50bf85cb7789afddd43c6b9531114ab inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">IBTK::Point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ae50bf85cb7789afddd43c6b9531114ab">getShiftedVertexPosn</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number, const double *domain_x_lower, const double *domain_x_upper, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;periodic_shift) const </td></tr>
+<tr class="separator:ae50bf85cb7789afddd43c6b9531114ab inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fa8688ed1f20ad12af7fa5bba794b70 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_target_spec.html">TargetSpec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a3fa8688ed1f20ad12af7fa5bba794b70">getVertexTargetSpec</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:a3fa8688ed1f20ad12af7fa5bba794b70 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b01fc565c7b73cf7e8d82538fe1f657 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_anchor_spec.html">AnchorSpec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a0b01fc565c7b73cf7e8d82538fe1f657">getVertexAnchorSpec</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:a0b01fc565c7b73cf7e8d82538fe1f657 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b70b51205d4ff65a373e445157f286 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_bdry_mass_spec.html">BdryMassSpec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a87b70b51205d4ff65a373e445157f286">getVertexBdryMassSpec</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:a87b70b51205d4ff65a373e445157f286 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e13234e0ad44365bd7e8626351bd218 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a4e13234e0ad44365bd7e8626351bd218">getVertexDirectors</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:a4e13234e0ad44365bd7e8626351bd218 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f75f7781fe2882257c5b4377c642c6d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#a8f75f7781fe2882257c5b4377c642c6d">getVertexInstrumentationIndices</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:a8f75f7781fe2882257c5b4377c642c6d inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8469fae2c792014700879758c95f478 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aa8469fae2c792014700879758c95f478">getVertexSourceIndices</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; int, int &gt; &amp;point_index, int level_number) const </td></tr>
+<tr class="separator:aa8469fae2c792014700879758c95f478 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca981188fda2d45b3dede0a9c3a665ae inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aca981188fda2d45b3dede0a9c3a665ae">getFromInput</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db)</td></tr>
+<tr class="separator:aca981188fda2d45b3dede0a9c3a665ae inherit pro_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBAMR::IBRedundantInitializer</a></td></tr>
+<tr class="memitem:a9d34274e48a28f41d884819e7a432a65 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d34274e48a28f41d884819e7a432a65"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_object_name</b></td></tr>
+<tr class="separator:a9d34274e48a28f41d884819e7a432a65 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ee7249d3eafc540b7186b01a84313d inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6ee7249d3eafc540b7186b01a84313d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>d_max_levels</b></td></tr>
+<tr class="separator:ad6ee7249d3eafc540b7186b01a84313d inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003e5b586e6f7fcae4c0f5ce76cce423 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a003e5b586e6f7fcae4c0f5ce76cce423"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_level_is_initialized</b></td></tr>
+<tr class="separator:a003e5b586e6f7fcae4c0f5ce76cce423 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4815925db33ada80be2f7a4560504378 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4815925db33ada80be2f7a4560504378"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
+&lt; <a class="el" href="class_i_b_t_k_1_1_l_silo_data_writer.html">IBTK::LSiloDataWriter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_silo_writer</b></td></tr>
+<tr class="separator:a4815925db33ada80be2f7a4560504378 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1906c4d0cf32df9c6fb90a53cd692295 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1906c4d0cf32df9c6fb90a53cd692295"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_base_filename</b></td></tr>
+<tr class="separator:a1906c4d0cf32df9c6fb90a53cd692295 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac356ce64b21336b7a0db04aaacf7640e inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac356ce64b21336b7a0db04aaacf7640e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_length_scale_factor</b></td></tr>
+<tr class="separator:ac356ce64b21336b7a0db04aaacf7640e inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5ced07e2f00a7cab5da68da06f0fad inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e5ced07e2f00a7cab5da68da06f0fad"></a>
+IBTK::Vector&#160;</td><td class="memItemRight" valign="bottom"><b>d_posn_shift</b></td></tr>
+<tr class="separator:a5e5ced07e2f00a7cab5da68da06f0fad inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994bca118ed41ca78b9f86cc7796b8f9 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a994bca118ed41ca78b9f86cc7796b8f9"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_num_vertex</b></td></tr>
+<tr class="separator:a994bca118ed41ca78b9f86cc7796b8f9 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03eaa5fea68b6ef23031bacee1b45e6f inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03eaa5fea68b6ef23031bacee1b45e6f"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_vertex_offset</b></td></tr>
+<tr class="separator:a03eaa5fea68b6ef23031bacee1b45e6f inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16f749d44a1386e7ef30c51ac9e2e89 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa16f749d44a1386e7ef30c51ac9e2e89"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; IBTK::Point &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_vertex_posn</b></td></tr>
+<tr class="separator:aa16f749d44a1386e7ef30c51ac9e2e89 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b38b850ad95d729ce38e7507da7f0f8 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b38b850ad95d729ce38e7507da7f0f8"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_spring_edge_map</b></td></tr>
+<tr class="separator:a4b38b850ad95d729ce38e7507da7f0f8 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364b21051b9f3d8599c178aa4ebf589b inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a364b21051b9f3d8599c178aa4ebf589b"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_spring_spec.html">SpringSpec</a>, <br class="typebreak"/>
+<a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html">EdgeComp</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_spring_spec_data</b></td></tr>
+<tr class="separator:a364b21051b9f3d8599c178aa4ebf589b inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571fea4de427dbaa59dc51e97babacd8 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a571fea4de427dbaa59dc51e97babacd8"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_xspring_edge_map</b></td></tr>
+<tr class="separator:a571fea4de427dbaa59dc51e97babacd8 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50940ded261dc8487c2fbbc788081ffb inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50940ded261dc8487c2fbbc788081ffb"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_x_spring_spec.html">XSpringSpec</a>, <br class="typebreak"/>
+<a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html">EdgeComp</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_xspring_spec_data</b></td></tr>
+<tr class="separator:a50940ded261dc8487c2fbbc788081ffb inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6606d84e7a0ce89f97df2f52545cc79c inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6606d84e7a0ce89f97df2f52545cc79c"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_beam_spec.html">BeamSpec</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_beam_spec_data</b></td></tr>
+<tr class="separator:a6606d84e7a0ce89f97df2f52545cc79c inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0349cb7bb24ab66a4f0d605c63809fc6 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0349cb7bb24ab66a4f0d605c63809fc6"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html">std::multimap</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_rod_edge_map</b></td></tr>
+<tr class="separator:a0349cb7bb24ab66a4f0d605c63809fc6 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf388e733180932aa2a6d3666c6af46 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbf388e733180932aa2a6d3666c6af46"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">Edge</a>, <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_rod_spec.html">RodSpec</a>, <br class="typebreak"/>
+<a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html">EdgeComp</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_rod_spec_data</b></td></tr>
+<tr class="separator:adbf388e733180932aa2a6d3666c6af46 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90551accd1a95688b4f911c404bd0939 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90551accd1a95688b4f911c404bd0939"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_target_spec.html">TargetSpec</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_target_spec_data</b></td></tr>
+<tr class="separator:a90551accd1a95688b4f911c404bd0939 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8724c156dd6474665f378c45408e3417 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8724c156dd6474665f378c45408e3417"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_anchor_spec.html">AnchorSpec</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_anchor_spec_data</b></td></tr>
+<tr class="separator:a8724c156dd6474665f378c45408e3417 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adffd51c8b592d12c04b41819d713a9b2 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adffd51c8b592d12c04b41819d713a9b2"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_bdry_mass_spec.html">BdryMassSpec</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_bdry_mass_spec_data</b></td></tr>
+<tr class="separator:adffd51c8b592d12c04b41819d713a9b2 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0297c72efcc9c40b28a31f95a0efc8a6 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0297c72efcc9c40b28a31f95a0efc8a6"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; double &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_directors</b></td></tr>
+<tr class="separator:a0297c72efcc9c40b28a31f95a0efc8a6 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9468965a68ca627c175a5d3da7848f6b inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9468965a68ca627c175a5d3da7848f6b"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a><br class="typebreak"/>
+&lt; int, int &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_instrument_idx</b></td></tr>
+<tr class="separator:a9468965a68ca627c175a5d3da7848f6b inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74683936fe8e29760aae4d00de9ed512 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74683936fe8e29760aae4d00de9ed512"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_source_idx</b></td></tr>
+<tr class="separator:a74683936fe8e29760aae4d00de9ed512 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5288664e1c9aa613ab20d6cd76beaff7 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5288664e1c9aa613ab20d6cd76beaff7"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_global_index_offset</b></td></tr>
+<tr class="separator:a5288664e1c9aa613ab20d6cd76beaff7 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4621ce7089b95d831d30c13deb7c794 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#af4621ce7089b95d831d30c13deb7c794">d_data_processed</a></td></tr>
+<tr class="separator:af4621ce7089b95d831d30c13deb7c794 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html" title="Class IBStandardInitializer is a concrete LInitStrategy that initializes the configuration of one or ...">IBStandardInitializer</a> is a concrete LInitStrategy that initializes the configuration of one or more Lagrangian structures from input files. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Document input database entries.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Document input database entries.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>"C-style" indices are used for all input files.</dd></dl>
 <hr/>
 <p><b>Vertex file format</b></p>
@@ -362,480 +617,14 @@ D0_x_2   D0_y_2   D0_z_2  # coordinates of director D0 associated with vertex 2
 D1_x_2   D1_y_2   D1_z_2  # coordinates of director D1 associated with vertex 2
 D2_x_2   D2_y_2   D2_z_2  # coordinates of director D2 associated with vertex 2
 ...
-</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a094bc1f2446497d855210e0bc9c16f83"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int IBAMR::IBStandardInitializer::computeGlobalNodeCountOnPatchLevel </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>init_data_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>can_be_refined</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>initial_time</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Determine the number of global nodes on the specified patch level. </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of global nodes on the specified level. </dd></dl>
-
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#ad77dc0da81b0f53acde1670a17addbda">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4c845b43b74cb36f9dc5a1227ce98821"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int IBAMR::IBStandardInitializer::computeLocalNodeCountOnPatchLevel </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>init_data_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>can_be_refined</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>initial_time</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Determine the number of local nodes on the specified patch level. </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of local nodes on the specified level. </dd></dl>
-
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#a3fb4033ef7503b8f48d671f6314b8277">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="add9b2b352ddfa78c0e7845e981d240ec"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IBAMR::IBStandardInitializer::getLevelHasLagrangianData </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>can_be_refined</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Determine whether there are any Lagrangian nodes on the specified patch level. </p>
-<dl class="section return"><dt>Returns</dt><dd>A boolean value indicating whether Lagrangian data is associated with the given level in the patch hierarchy. </dd></dl>
-
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#a0d72aaee018bb5fe63f08d566341b7c0">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2623b3bd53c0a81d1fe77024d19bae4a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int IBAMR::IBStandardInitializer::initializeDataOnPatchLevel </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lag_node_index_idx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>global_index_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>local_index_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt;&#160;</td>
-          <td class="paramname"><em>X_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt;&#160;</td>
-          <td class="paramname"><em>U_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>init_data_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>can_be_refined</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>initial_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *&#160;</td>
-          <td class="paramname"><em>l_data_manager</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initialize the LNode and LData data needed to specify the configuration of the curvilinear mesh on the patch level. </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of local nodes initialized on the patch level. </dd></dl>
-
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#ab870b40b60125539b6477d6f00c0b9fb">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a738dd9525290e6961874144b4dca3529"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int IBAMR::IBStandardInitializer::initializeDirectorDataOnPatchLevel </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>global_index_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>local_index_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt;&#160;</td>
-          <td class="paramname"><em>D_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>init_data_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>can_be_refined</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>initial_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *&#160;</td>
-          <td class="paramname"><em>l_data_manager</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initialize the LNode data needed to specify director vectors required by some material models. </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of local nodes initialized on the patch level. </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#a3ce5fb1f9eeb14d6471f884a6e116104">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afd73b60359d1ac7949fe9b088abe867a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int IBAMR::IBStandardInitializer::initializeMassDataOnPatchLevel </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>global_index_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>local_index_offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt;&#160;</td>
-          <td class="paramname"><em>M_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt;&#160;</td>
-          <td class="paramname"><em>K_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>init_data_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>can_be_refined</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>initial_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a> *&#160;</td>
-          <td class="paramname"><em>l_data_manager</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initialize the LData needed to specify the mass and spring constant data required by the penalty IB method. </p>
-<dl class="section return"><dt>Returns</dt><dd>The number of local nodes initialized on the patch level. </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#a64f8832d631c72151049651308bd3f98">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a94188af9733365152857c2322fd0243a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::IBStandardInitializer::tagCellsForInitialRefinement </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_number</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>error_data_time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tag_index</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Tag cells for initial refinement. </p>
-<p>When the patch hierarchy is being constructed at the initial simulation time, it is necessary to instruct the gridding algorithm where to place local refinement in order to accommodate portions of the curvilinear mesh that will reside in any yet-to-be-constructed level(s) of the patch hierarchy. </p>
-
-<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#a8a41a9e8ba9ba29131b5c239c65fc82d">IBTK::LInitStrategy</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+</pre> </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/IBAMR/IBAMR/include/ibamr/IBStandardInitializer.h</li>
 <li>/home/travis/build/IBAMR/IBAMR/src/IB/IBStandardInitializer.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 12 2018 13:34:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 19 2018 14:52:55 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

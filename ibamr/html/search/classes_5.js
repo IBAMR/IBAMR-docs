@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['edgecomp',['EdgeComp',['../struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_edge_comp.html',1,'IBAMR::IBRedundantInitializer']]],
   ['edgecomplexconstantrefine',['EdgeComplexConstantRefine',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeComplexConstantRefine.html',1,'SAMRAI::pdat']]],
   ['edgecomplexlineartimeinterpolateop',['EdgeComplexLinearTimeInterpolateOp',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeComplexLinearTimeInterpolateOp.html',1,'SAMRAI::pdat']]],
   ['edgedata',['EdgeData',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeData.html',1,'SAMRAI::pdat']]],
@@ -44,7 +45,7 @@ var searchData=
   ['exception_5fptr',['exception_ptr',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04560.html',1,'std::__exception_ptr']]],
   ['exponential_5fdistribution',['exponential_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05536.html',1,'std']]],
   ['extendedrobinbccoefstrategy',['ExtendedRobinBcCoefStrategy',['../class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html',1,'IBTK']]],
-  ['externalforcetorquefcndata',['ExternalForceTorqueFcnData',['../struct_i_b_a_m_r_1_1_c_i_b_f_e_method_1_1_external_force_torque_fcn_data.html',1,'IBAMR::CIBFEMethod']]],
   ['externalforcetorquefcndata',['ExternalForceTorqueFcnData',['../struct_i_b_a_m_r_1_1_c_i_b_method_1_1_external_force_torque_fcn_data.html',1,'IBAMR::CIBMethod']]],
+  ['externalforcetorquefcndata',['ExternalForceTorqueFcnData',['../struct_i_b_a_m_r_1_1_c_i_b_f_e_method_1_1_external_force_torque_fcn_data.html',1,'IBAMR::CIBFEMethod']]],
   ['extreme_5fvalue_5fdistribution',['extreme_value_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05552.html',1,'std']]]
 ];
