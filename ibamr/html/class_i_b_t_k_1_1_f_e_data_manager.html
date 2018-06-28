@@ -151,6 +151,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aeb37f9460e1b45d7d8e454cd344f6577"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
 &lt; libMesh::Elem * &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#aeb37f9460e1b45d7d8e454cd344f6577">getActivePatchElementMap</a> () const </td></tr>
 <tr class="separator:aeb37f9460e1b45d7d8e454cd344f6577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0321aab3b2fae9bbe647b672c7561d"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; libMesh::Node * &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abb0321aab3b2fae9bbe647b672c7561d">getActivePatchNodeMap</a> () const </td></tr>
+<tr class="separator:abb0321aab3b2fae9bbe647b672c7561d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d232e10e554539a93a127e02a48dc21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d232e10e554539a93a127e02a48dc21"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a3d232e10e554539a93a127e02a48dc21">reinitElementMappings</a> ()</td></tr>
 <tr class="memdesc:a3d232e10e554539a93a127e02a48dc21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitialize the mappings from elements to Cartesian grid patches. <br/></td></tr>
@@ -264,12 +267,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0f1758b25d2c421aee5968036031189d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88429e0a8a395f3552efeb71de52a01a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">freeAllManagers</a> ()</td></tr>
 <tr class="separator:a88429e0a8a395f3552efeb71de52a01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0172c4bdbf5be9a4e591b9afa698c31"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ac0172c4bdbf5be9a4e591b9afa698c31">updateQuadratureRule</a> (libMesh::UniquePtr&lt; libMesh::QBase &gt; &amp;qrule, libMesh::QuadratureType quad_type, libMesh::Order quad_order, bool use_adaptive_quadrature, double point_density, libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
-<tr class="separator:ac0172c4bdbf5be9a4e591b9afa698c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a098bb2763e60ce6fac5cabf35a31854a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a098bb2763e60ce6fac5cabf35a31854a">updateInterpQuadratureRule</a> (libMesh::UniquePtr&lt; libMesh::QBase &gt; &amp;qrule, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;spec, libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
-<tr class="separator:a098bb2763e60ce6fac5cabf35a31854a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17141aa063a3eb01d6dd42b5f8086088"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a17141aa063a3eb01d6dd42b5f8086088">updateSpreadQuadratureRule</a> (libMesh::UniquePtr&lt; libMesh::QBase &gt; &amp;qrule, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;spec, libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
-<tr class="separator:a17141aa063a3eb01d6dd42b5f8086088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fa3e3f7082bd5040ec5abe5f40f035"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a02fa3e3f7082bd5040ec5abe5f40f035">updateQuadratureRule</a> (libMesh::UniquePtr&lt; libMesh::QBase &gt; &amp;qrule, libMesh::QuadratureType quad_type, libMesh::Order quad_order, bool use_adaptive_quadrature, double point_density, const libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
+<tr class="separator:a02fa3e3f7082bd5040ec5abe5f40f035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e5dd62bdfc18da21328e7ac0bc4703"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a48e5dd62bdfc18da21328e7ac0bc4703">updateInterpQuadratureRule</a> (libMesh::UniquePtr&lt; libMesh::QBase &gt; &amp;qrule, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;spec, const libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
+<tr class="separator:a48e5dd62bdfc18da21328e7ac0bc4703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c8b4d3e0e40a6c24b4e55624a16bc7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#aa2c8b4d3e0e40a6c24b4e55624a16bc7">updateSpreadQuadratureRule</a> (libMesh::UniquePtr&lt; libMesh::QBase &gt; &amp;qrule, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;spec, const libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
+<tr class="separator:aa2c8b4d3e0e40a6c24b4e55624a16bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -495,6 +498,22 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A const reference to the map from local patch number to local active elements. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abb0321aab3b2fae9bbe647b672c7561d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; Node * &gt; &gt; &amp; IBTK::FEDataManager::getActivePatchNodeMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A const reference to the map from local patch number to local active nodes. </dd></dl>
 
 </div>
 </div>
@@ -888,7 +907,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a098bb2763e60ce6fac5cabf35a31854a"></a>
+<a class="anchor" id="a48e5dd62bdfc18da21328e7ac0bc4703"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -910,7 +929,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">libMesh::Elem *&#160;</td>
+          <td class="paramtype">const libMesh::Elem *&#160;</td>
           <td class="paramname"><em>elem</em>, </td>
         </tr>
         <tr>
@@ -942,7 +961,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ac0172c4bdbf5be9a4e591b9afa698c31"></a>
+<a class="anchor" id="a02fa3e3f7082bd5040ec5abe5f40f035"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -982,7 +1001,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">libMesh::Elem *&#160;</td>
+          <td class="paramtype">const libMesh::Elem *&#160;</td>
           <td class="paramname"><em>elem</em>, </td>
         </tr>
         <tr>
@@ -1014,7 +1033,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a17141aa063a3eb01d6dd42b5f8086088"></a>
+<a class="anchor" id="aa2c8b4d3e0e40a6c24b4e55624a16bc7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1036,7 +1055,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">libMesh::Elem *&#160;</td>
+          <td class="paramtype">const libMesh::Elem *&#160;</td>
           <td class="paramname"><em>elem</em>, </td>
         </tr>
         <tr>
@@ -1091,7 +1110,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 19 2018 14:52:58 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 28 2018 17:01:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
