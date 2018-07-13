@@ -183,6 +183,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_centroid_post_processor.html">IBFECentroidPostProcessor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_centroid_post_processor.html" title="Class IBFECentroidPostProcessor is a simple post processor that reconstructs piecewise constant field...">IBFECentroidPostProcessor</a> is a simple post processor that reconstructs piecewise constant field data by direct evaluation at element centroids.  <a href="class_i_b_a_m_r_1_1_i_b_f_e_centroid_post_processor.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_direct_forcing_kinematics.html">IBFEDirectForcingKinematics</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_direct_forcing_kinematics.html" title="Class IBFEDirectForcingKinematics is a helper class that provides direct forcing IBMethod functionali...">IBFEDirectForcingKinematics</a> is a helper class that provides direct forcing <a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct...">IBMethod</a> functionality to the <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali...">IBFEMethod</a> class.  <a href="class_i_b_a_m_r_1_1_i_b_f_e_direct_forcing_kinematics.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_instrument_panel.html">IBFEInstrumentPanel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_instrument_panel.html" title="Class IBFEInstrumentPanel provides support for meters to measure flow and pressure. ">IBFEInstrumentPanel</a> provides support for meters to measure flow and pressure.  <a href="class_i_b_a_m_r_1_1_i_b_f_e_instrument_panel.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -451,20 +454,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4bebfb9cf004208b99b8a6eee9fa07b7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bebfb9cf004208b99b8a6eee9fa07b7"></a>
-typedef Eigen::Matrix&lt; double, <br class="typebreak"/>
-s_max_free_dofs, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>RigidDOFVector</b></td></tr>
-<tr class="separator:a4bebfb9cf004208b99b8a6eee9fa07b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87027ad3a6fb2a47210caa8b6c2bc42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af87027ad3a6fb2a47210caa8b6c2bc42"></a>
-typedef Eigen::Matrix&lt; int, <br class="typebreak"/>
-s_max_free_dofs, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FreeRigidDOFVector</b></td></tr>
-<tr class="separator:af87027ad3a6fb2a47210caa8b6c2bc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaebc897e3c6fb476b5c8f19ae95a8201"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaebc897e3c6fb476b5c8f19ae95a8201"></a>
-typedef RigidDOFVector&#160;</td><td class="memItemRight" valign="bottom"><b>RDV</b></td></tr>
-<tr class="separator:aaebc897e3c6fb476b5c8f19ae95a8201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af91e32e8352230859c83607ee9765a45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af91e32e8352230859c83607ee9765a45"></a>
-typedef FreeRigidDOFVector&#160;</td><td class="memItemRight" valign="bottom"><b>FRDV</b></td></tr>
-<tr class="separator:af91e32e8352230859c83607ee9765a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebffc11dfb7ad2a2b16c425a875da19c"><td class="memItemLeft" align="right" valign="top">typedef double(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_a_m_r.html#aebffc11dfb7ad2a2b16c425a875da19c">SpringForceFcnPtr</a> )(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td></tr>
 <tr class="memdesc:aebffc11dfb7ad2a2b16c425a875da19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying the spring force function API.  <a href="#aebffc11dfb7ad2a2b16c425a875da19c">More...</a><br/></td></tr>
 <tr class="separator:aebffc11dfb7ad2a2b16c425a875da19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -808,7 +797,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="na
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jul 13 2018 05:08:38 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 13 2018 05:12:08 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

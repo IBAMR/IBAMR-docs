@@ -282,6 +282,7 @@ var searchData=
   ['_7eibeuleriansourcefunction',['~IBEulerianSourceFunction',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator_1_1_i_b_eulerian_source_function.html#a2207fc1d6f85fb7694b4ffb34ee0b227',1,'IBAMR::IBHierarchyIntegrator::IBEulerianSourceFunction']]],
   ['_7eibexplicithierarchyintegrator',['~IBExplicitHierarchyIntegrator',['../class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#add3a4bfd2ad5e1b56fff5e84f4430860',1,'IBAMR::IBExplicitHierarchyIntegrator']]],
   ['_7eibfecentroidpostprocessor',['~IBFECentroidPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_centroid_post_processor.html#a3ed987508bb73857ba0b9a2b84db1d5f',1,'IBAMR::IBFECentroidPostProcessor']]],
+  ['_7eibfedirectforcingkinematics',['~IBFEDirectForcingKinematics',['../class_i_b_a_m_r_1_1_i_b_f_e_direct_forcing_kinematics.html#aa8e38a84467eac7a6679d24a02ad1683',1,'IBAMR::IBFEDirectForcingKinematics']]],
   ['_7eibfeinstrumentpanel',['~IBFEInstrumentPanel',['../class_i_b_a_m_r_1_1_i_b_f_e_instrument_panel.html#a5712dbbf5c941324bedcb5cf94a0680c',1,'IBAMR::IBFEInstrumentPanel']]],
   ['_7eibfemethod',['~IBFEMethod',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a6f4a24fa7e89209749ae38f386003fe1',1,'IBAMR::IBFEMethod']]],
   ['_7eibfepostprocessor',['~IBFEPostProcessor',['../class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#aab0050f2261e63e404dbce50543e8942',1,'IBAMR::IBFEPostProcessor']]],

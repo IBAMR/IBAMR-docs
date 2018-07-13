@@ -1,6 +1,7 @@
 var searchData=
 [
   ['keydata',['KeyData',['../../../samrai/2.4.4/html/structKeyData.html',1,'']]],
+  ['kinematicsfcndata',['KinematicsFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_direct_forcing_kinematics_1_1_kinematics_fcn_data.html',1,'IBAMR::IBFEDirectForcingKinematics']]],
   ['kinsol_5fsamraicontext',['KINSOL_SAMRAIContext',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1KINSOL__SAMRAIContext.html',1,'SAMRAI::solv']]],
   ['kinsolabstractfunctions',['KINSOLAbstractFunctions',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1KINSOLAbstractFunctions.html',1,'SAMRAI::solv']]],
   ['kinsolsolver',['KINSOLSolver',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1KINSOLSolver.html',1,'SAMRAI::solv']]],
