@@ -446,7 +446,6 @@ var searchData=
   ['_7emultimap',['~multimap',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06716.html#a481e019da9f3ddf9d250121263701784',1,'std::multimap']]],
   ['_7emultiset',['~multiset',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06736.html#a72a588536018b49b756d0a7042dbca8f',1,'std::multiset']]],
   ['_7emuparsercartgridfunction',['~muParserCartGridFunction',['../class_i_b_t_k_1_1mu_parser_cart_grid_function.html#aa362b58dbf2df6a413e264d2789316a1',1,'IBTK::muParserCartGridFunction']]],
-  ['_7emuparserrobinbccoefs',['~muParserRobinBcCoefs',['../class_i_b_t_k_1_1mu_parser_robin_bc_coefs.html#ae0b4d0f263bb87898a18c4ac3be5766b',1,'IBTK::muParserRobinBcCoefs']]],
   ['_7enewtonkrylovsolver',['~NewtonKrylovSolver',['../class_i_b_t_k_1_1_newton_krylov_solver.html#a099eb2c89a8681ae93e4144f07729254',1,'IBTK::NewtonKrylovSolver']]],
   ['_7enewtonkrylovsolvermanager',['~NewtonKrylovSolverManager',['../class_i_b_t_k_1_1_newton_krylov_solver_manager.html#a6cf35bb1f8d657591815c7cdc13ab252',1,'IBTK::NewtonKrylovSolverManager']]],
   ['_7enodecomplexinjection',['~NodeComplexInjection',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1NodeComplexInjection.html#7550f64958cf85be34d9a401cb1b6ceb',1,'SAMRAI::pdat::NodeComplexInjection']]],
