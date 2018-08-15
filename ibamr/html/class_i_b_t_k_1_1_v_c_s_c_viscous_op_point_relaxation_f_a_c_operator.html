@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera...">VCSCViscousOpPointRelaxationFACOperator</a> is a specialization of <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> for solving vector elliptic equation of the form <img class="formulaInl" alt="$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $" src="form_129.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera...">VCSCViscousOpPointRelaxationFACOperator</a> is a specialization of <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> for solving vector elliptic equation of the form <img class="formulaInl" alt="$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $" src="form_139.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions.  
  <a href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/VCSCViscousOpPointRelaxationFACOperator.h&gt;</code></p>
@@ -123,6 +123,10 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a6328d1e33c9c95429a3120a5158ace7d">setDPatchDataInterpolationType</a> (<a class="el" href="namespace_i_b_t_k.html#aca0e485ab1820bbc97d938e4131d3972">IBTK::VCInterpType</a> D_interp_type)</td></tr>
 <tr class="memdesc:a6328d1e33c9c95429a3120a5158ace7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the interpolation type to be used in computing the variable coefficient viscous Laplacian. <br/></td></tr>
 <tr class="separator:a6328d1e33c9c95429a3120a5158ace7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0deb616f8ac4f487603c137a967ff201"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0deb616f8ac4f487603c137a967ff201"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a0deb616f8ac4f487603c137a967ff201">setOperatorScaling</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; double &gt; A_scale)</td></tr>
+<tr class="memdesc:a0deb616f8ac4f487603c137a967ff201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the scaling of the viscous operator and right-hand side. <br/></td></tr>
+<tr class="separator:a0deb616f8ac4f487603c137a967ff201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f51c38e619b3cbc114eb7ba756bc8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68f51c38e619b3cbc114eb7ba756bc8b"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
 &lt; <a class="el" href="class_i_b_t_k_1_1_poisson_solver.html">PoissonSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a68f51c38e619b3cbc114eb7ba756bc8b">getCoarseSolver</a> ()</td></tr>
@@ -135,6 +139,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a1c5dd097b5deeb64da62735bf89ca449"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a1c5dd097b5deeb64da62735bf89ca449">computeResidual</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;solution, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;rhs, int coarsest_level_num, int finest_level_num)</td></tr>
 <tr class="memdesc:a1c5dd097b5deeb64da62735bf89ca449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute composite grid residual on the specified range of levels.  <a href="#a1c5dd097b5deeb64da62735bf89ca449">More...</a><br/></td></tr>
 <tr class="separator:a1c5dd097b5deeb64da62735bf89ca449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cb17303fd43d4de5334b78d41d1bab6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a1cb17303fd43d4de5334b78d41d1bab6">restrictResidual</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;src, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;dst, int dst_ln)</td></tr>
+<tr class="memdesc:a1cb17303fd43d4de5334b78d41d1bab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restrict the residual quantity to the specified level from the next finer level.  <a href="#a1cb17303fd43d4de5334b78d41d1bab6">More...</a><br/></td></tr>
+<tr class="separator:a1cb17303fd43d4de5334b78d41d1bab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html">IBTK::SCPoissonPointRelaxationFACOperator</a></td></tr>
 <tr class="memitem:aa55af0b7555b5bebb897c7df88f724de inherit pub_methods_class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa55af0b7555b5bebb897c7df88f724de"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html#aa55af0b7555b5bebb897c7df88f724de">SCPoissonPointRelaxationFACOperator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;default_options_prefix)</td></tr>
@@ -197,9 +204,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#a38626cc3410a145926f8df5113cba17b">setToZero</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;vec, int level_num)</td></tr>
 <tr class="memdesc:a38626cc3410a145926f8df5113cba17b inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zero the supplied vector. <br/></td></tr>
 <tr class="separator:a38626cc3410a145926f8df5113cba17b inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8b4cfe6e2fcaa81711c82c676301ca inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#aec8b4cfe6e2fcaa81711c82c676301ca">restrictResidual</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;src, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;dst, int dst_ln)</td></tr>
-<tr class="memdesc:aec8b4cfe6e2fcaa81711c82c676301ca inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restrict the residual quantity to the specified level from the next finer level.  <a href="#aec8b4cfe6e2fcaa81711c82c676301ca">More...</a><br/></td></tr>
-<tr class="separator:aec8b4cfe6e2fcaa81711c82c676301ca inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855133baaadfc65697765758da75e4aa inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#a855133baaadfc65697765758da75e4aa">prolongError</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;src, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;dst, int dst_ln)</td></tr>
 <tr class="memdesc:a855133baaadfc65697765758da75e4aa inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prolong the error quantity to the specified level from the next coarser level.  <a href="#a855133baaadfc65697765758da75e4aa">More...</a><br/></td></tr>
 <tr class="separator:a855133baaadfc65697765758da75e4aa inherit pub_methods_class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -490,17 +494,17 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b></td>
 <tr class="separator:a7cc38aa3f3b7c64c0b3236248ca804d4 inherit pro_attribs_class_i_b_t_k_1_1_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera...">VCSCViscousOpPointRelaxationFACOperator</a> is a specialization of <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> for solving vector elliptic equation of the form <img class="formulaInl" alt="$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $" src="form_129.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera...">VCSCViscousOpPointRelaxationFACOperator</a> is a specialization of <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ...">SCPoissonPointRelaxationFACOperator</a> for solving vector elliptic equation of the form <img class="formulaInl" alt="$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $" src="form_139.png"/> using a globally second-order accurate side-centered finite-difference discretization, with support for Robin and periodic boundary conditions. </p>
 <p>This class provides operators that are used by class <a class="el" href="class_i_b_t_k_1_1_f_a_c_preconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a> to solve the vector elliptic equation of the form </p>
 <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]" src="form_130.png"/>
+<img class="formulaDsp" alt="\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]" src="form_140.png"/>
 </p>
 <p> using a side-centered, globally second-order accurate finite-difference discretization, where</p>
 <ul>
-<li><img class="formulaInl" alt="$ C $" src="form_102.png"/>, <img class="formulaInl" alt="$ \mu $" src="form_128.png"/> and <img class="formulaInl" alt="$ f $" src="form_104.png"/> are independent of <img class="formulaInl" alt="$ u $" src="form_105.png"/>,</li>
-<li><img class="formulaInl" alt="$ C $" src="form_102.png"/> is a spatially varying damping factor,</li>
-<li><img class="formulaInl" alt="$ \mu $" src="form_128.png"/> is a spatially varying diffusion coefficient, and</li>
-<li><img class="formulaInl" alt="$ f $" src="form_104.png"/> is a side-centered vector function.</li>
+<li><img class="formulaInl" alt="$ C $" src="form_112.png"/>, <img class="formulaInl" alt="$ \mu $" src="form_138.png"/> and <img class="formulaInl" alt="$ f $" src="form_114.png"/> are independent of <img class="formulaInl" alt="$ u $" src="form_115.png"/>,</li>
+<li><img class="formulaInl" alt="$ C $" src="form_112.png"/> is a spatially varying damping factor,</li>
+<li><img class="formulaInl" alt="$ \mu $" src="form_138.png"/> is a spatially varying diffusion coefficient, and</li>
+<li><img class="formulaInl" alt="$ f $" src="form_114.png"/> is a side-centered vector function.</li>
 </ul>
 <p>Robin boundary conditions may be specified at physical boundaries; see class <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>.</p>
 <p>Sample parameters for initialization from database (and their default values):</p>
@@ -577,6 +581,58 @@ level solver
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html#a3f7126771751d3d5877683533572b038">IBTK::SCPoissonPointRelaxationFACOperator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1cb17303fd43d4de5334b78d41d1bab6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::VCSCViscousOpPointRelaxationFACOperator::restrictResidual </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dst_ln</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Restrict the residual quantity to the specified level from the next finer level. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">src</td><td>source residual </td></tr>
+    <tr><td class="paramname">dst</td><td>destination residual </td></tr>
+    <tr><td class="paramname">dst_ln</td><td>destination level number </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html#aec8b4cfe6e2fcaa81711c82c676301ca">IBTK::PoissonFACPreconditionerStrategy</a>.</p>
 
 </div>
 </div>
@@ -660,7 +716,7 @@ level solver
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 9 2018 18:59:39 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 15 2018 02:36:54 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

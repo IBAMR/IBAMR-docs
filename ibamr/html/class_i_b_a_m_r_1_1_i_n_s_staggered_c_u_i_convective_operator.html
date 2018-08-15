@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>IBAMR: IBAMR::INSVCStaggeredConservativeConvectiveOperator Class Reference</title>
+<title>IBAMR: IBAMR::INSStaggeredCUIConvectiveOperator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -83,66 +83,52 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a></li><li class="navelem"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html">INSVCStaggeredConservativeConvectiveOperator</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a></li><li class="navelem"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html">INSStaggeredCUIConvectiveOperator</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator-members.html">List of all members</a>  </div>
+<a href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IBAMR::INSVCStaggeredConservativeConvectiveOperator Class Reference</div>  </div>
+<div class="title">IBAMR::INSStaggeredCUIConvectiveOperator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html" title="Class INSVCStaggeredConservativeConvectiveOperator is a concrete ConvectiveOperator that implements a...">INSVCStaggeredConservativeConvectiveOperator</a> is a concrete <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera...">ConvectiveOperator</a> that implements an upwind convective differencing operator.  
- <a href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#details">More...</a></p>
+<p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html" title="Class INSStaggeredCUIConvectiveOperator is a concrete ConvectiveOperator that implements a upwind con...">INSStaggeredCUIConvectiveOperator</a> is a concrete <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera...">ConvectiveOperator</a> that implements a upwind convective differencing operator based on the cubic upwind interpolation (CUI).  
+ <a href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#details">More...</a></p>
 
-<p><code>#include &lt;ibamr/INSVCStaggeredConservativeConvectiveOperator.h&gt;</code></p>
+<p><code>#include &lt;ibamr/INSStaggeredCUIConvectiveOperator.h&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for IBAMR::INSVCStaggeredConservativeConvectiveOperator:</div>
+Inheritance diagram for IBAMR::INSStaggeredCUIConvectiveOperator:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator__inherit__graph.png" border="0" usemap="#_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator_inherit__map" alt="Inheritance graph"/></div>
-<map name="_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator_inherit__map" id="_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator_inherit__map">
-<area shape="rect" id="node2" href="class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="36,155,225,181"/><area shape="rect" id="node3" href="class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="53,80,207,107"/></map>
+<div class="center"><img src="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator__inherit__graph.png" border="0" usemap="#_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator_inherit__map" alt="Inheritance graph"/></div>
+<map name="_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator_inherit__map" id="_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator_inherit__map">
+<area shape="rect" id="node2" href="class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="33,155,223,181"/><area shape="rect" id="node3" href="class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="51,80,204,107"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac91e539d5def15afdeee074da08abe7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac91e539d5def15afdeee074da08abe7d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ac91e539d5def15afdeee074da08abe7d">INSVCStaggeredConservativeConvectiveOperator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="namespace_i_b_a_m_r.html#aacfdadd56d211dd54b249b5066b9ace3">ConvectiveDifferencingType</a> difference_form, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs)</td></tr>
-<tr class="memdesc:ac91e539d5def15afdeee074da08abe7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor. <br/></td></tr>
-<tr class="separator:ac91e539d5def15afdeee074da08abe7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd30a96d32c4aeed1d737d42b70dd24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aabd30a96d32c4aeed1d737d42b70dd24"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#aabd30a96d32c4aeed1d737d42b70dd24">~INSVCStaggeredConservativeConvectiveOperator</a> ()</td></tr>
-<tr class="memdesc:aabd30a96d32c4aeed1d737d42b70dd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
-<tr class="separator:aabd30a96d32c4aeed1d737d42b70dd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80011e95f4ed7c276e9c9093fc481950"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80011e95f4ed7c276e9c9093fc481950"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a80011e95f4ed7c276e9c9093fc481950">applyConvectiveOperator</a> (int U_idx, int N_idx)</td></tr>
-<tr class="memdesc:a80011e95f4ed7c276e9c9093fc481950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the action of the convective operator. <br/></td></tr>
-<tr class="separator:a80011e95f4ed7c276e9c9093fc481950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd1f416d308127a9fdfeb258e86c020"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dd1f416d308127a9fdfeb258e86c020"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a9dd1f416d308127a9fdfeb258e86c020">setSideCenteredDensityPatchDataIndex</a> (int rho_sc_idx)</td></tr>
-<tr class="memdesc:a9dd1f416d308127a9fdfeb258e86c020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current side-centered density patch data index. <br/></td></tr>
-<tr class="separator:a9dd1f416d308127a9fdfeb258e86c020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91d0f22f0fdd36fe13d028993e2f3fb7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91d0f22f0fdd36fe13d028993e2f3fb7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setSideCenteredDensityBoundaryConditions</b> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;rho_sc_bc_coefs)</td></tr>
-<tr class="separator:a91d0f22f0fdd36fe13d028993e2f3fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae08acbccbf6799ddcc49dae591cb03d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae08acbccbf6799ddcc49dae591cb03d0">getUpdatedSideCenteredDensityPatchDataIndex</a> ()</td></tr>
-<tr class="memdesc:ae08acbccbf6799ddcc49dae591cb03d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the newly constructed side-centered density patch data index.  <a href="#ae08acbccbf6799ddcc49dae591cb03d0">More...</a><br/></td></tr>
-<tr class="separator:ae08acbccbf6799ddcc49dae591cb03d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a925e7395660a3179c1eeb696e1125340"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a925e7395660a3179c1eeb696e1125340"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a925e7395660a3179c1eeb696e1125340">setMassDensitySourceTerm</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_cart_grid_function.html">IBTK::CartGridFunction</a> &gt; S_fcn)</td></tr>
-<tr class="memdesc:a925e7395660a3179c1eeb696e1125340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an optional mass density source term. <br/></td></tr>
-<tr class="separator:a925e7395660a3179c1eeb696e1125340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa54299b1e4ce7b6522df024c49ecf3e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa54299b1e4ce7b6522df024c49ecf3e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#aaa54299b1e4ce7b6522df024c49ecf3e">INSStaggeredCUIConvectiveOperator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="namespace_i_b_a_m_r.html#aacfdadd56d211dd54b249b5066b9ace3">ConvectiveDifferencingType</a> difference_form, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs)</td></tr>
+<tr class="memdesc:aaa54299b1e4ce7b6522df024c49ecf3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor. <br/></td></tr>
+<tr class="separator:aaa54299b1e4ce7b6522df024c49ecf3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafdd218cb28801b63a785084a4b5bf1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aafdd218cb28801b63a785084a4b5bf1b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#aafdd218cb28801b63a785084a4b5bf1b">~INSStaggeredCUIConvectiveOperator</a> ()</td></tr>
+<tr class="memdesc:aafdd218cb28801b63a785084a4b5bf1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
+<tr class="separator:aafdd218cb28801b63a785084a4b5bf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031ed783420990af0d40430ce33ea11a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a031ed783420990af0d40430ce33ea11a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#a031ed783420990af0d40430ce33ea11a">applyConvectiveOperator</a> (int U_idx, int N_idx)</td></tr>
+<tr class="memdesc:a031ed783420990af0d40430ce33ea11a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the action of the convective operator. <br/></td></tr>
+<tr class="separator:a031ed783420990af0d40430ce33ea11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">General operator functionality.</div></td></tr>
-<tr class="memitem:ae45aa3553a213396e87a8d896d03a293"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae45aa3553a213396e87a8d896d03a293">initializeOperatorState</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;in, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;out)</td></tr>
-<tr class="memdesc:ae45aa3553a213396e87a8d896d03a293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y.  <a href="#ae45aa3553a213396e87a8d896d03a293">More...</a><br/></td></tr>
-<tr class="separator:ae45aa3553a213396e87a8d896d03a293"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79f06ab8ce1d1abbb4e67ab540e467c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a79f06ab8ce1d1abbb4e67ab540e467c8">deallocateOperatorState</a> ()</td></tr>
-<tr class="memdesc:a79f06ab8ce1d1abbb4e67ab540e467c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae45aa3553a213396e87a8d896d03a293" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a>.  <a href="#a79f06ab8ce1d1abbb4e67ab540e467c8">More...</a><br/></td></tr>
-<tr class="separator:a79f06ab8ce1d1abbb4e67ab540e467c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c29f49e23fb98d50e6f9ea22d4532a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#ab3c29f49e23fb98d50e6f9ea22d4532a">initializeOperatorState</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;in, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;out)</td></tr>
+<tr class="memdesc:ab3c29f49e23fb98d50e6f9ea22d4532a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y.  <a href="#ab3c29f49e23fb98d50e6f9ea22d4532a">More...</a><br/></td></tr>
+<tr class="separator:ab3c29f49e23fb98d50e6f9ea22d4532a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b7d6024db81257212b916ee20b0a5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#a17b7d6024db81257212b916ee20b0a5e">deallocateOperatorState</a> ()</td></tr>
+<tr class="memdesc:a17b7d6024db81257212b916ee20b0a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#ab3c29f49e23fb98d50e6f9ea22d4532a" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a>.  <a href="#a17b7d6024db81257212b916ee20b0a5e">More...</a><br/></td></tr>
+<tr class="separator:a17b7d6024db81257212b916ee20b0a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_a_m_r_1_1_convective_operator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_a_m_r_1_1_convective_operator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html">IBAMR::ConvectiveOperator</a></td></tr>
 <tr class="memitem:a7ff1d2d0591334559ae2d428e8beda15 inherit pub_methods_class_i_b_a_m_r_1_1_convective_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ff1d2d0591334559ae2d428e8beda15"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html#a7ff1d2d0591334559ae2d428e8beda15">ConvectiveOperator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="el" href="namespace_i_b_a_m_r.html#aacfdadd56d211dd54b249b5066b9ace3">ConvectiveDifferencingType</a> difference_form)</td></tr>
@@ -226,7 +212,7 @@ virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:
 <tr class="memdesc:ad7377a5ebfe0765d50facf6b10f0464f inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html" title="Class HierarchyMathOps provides functionality to perform &quot;composite-grid&quot; mathematical operations on ...">HierarchyMathOps</a> object used by the operator. <br/></td></tr>
 <tr class="separator:ad7377a5ebfe0765d50facf6b10f0464f inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ab21cc0e4e223257497477bb9dec66 inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_general_operator.html#a47ab21cc0e4e223257497477bb9dec66">applyAdd</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;z)</td></tr>
-<tr class="memdesc:a47ab21cc0e4e223257497477bb9dec66 inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute <img class="formulaInl" alt="$z=F[x]+y$" src="form_114.png"/>.  <a href="#a47ab21cc0e4e223257497477bb9dec66">More...</a><br/></td></tr>
+<tr class="memdesc:a47ab21cc0e4e223257497477bb9dec66 inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute <img class="formulaInl" alt="$z=F[x]+y$" src="form_124.png"/>.  <a href="#a47ab21cc0e4e223257497477bb9dec66">More...</a><br/></td></tr>
 <tr class="separator:a47ab21cc0e4e223257497477bb9dec66 inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea0240c25bc0e1a6c9e9bbfc47fced7 inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_general_operator.html#a7ea0240c25bc0e1a6c9e9bbfc47fced7">modifyRhsForBcs</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y)</td></tr>
 <tr class="memdesc:a7ea0240c25bc0e1a6c9e9bbfc47fced7 inherit pub_methods_class_i_b_t_k_1_1_general_operator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify the RHS vector to account for boundary conditions.  <a href="#a7ea0240c25bc0e1a6c9e9bbfc47fced7">More...</a><br/></td></tr>
@@ -249,11 +235,11 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5412e149c340a8c65b417a12923c3af4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5412e149c340a8c65b417a12923c3af4"></a>
+<tr class="memitem:aca7f8e5e0d528788e74da51f4fdead6a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca7f8e5e0d528788e74da51f4fdead6a"></a>
 static <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
-&lt; <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html">ConvectiveOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a5412e149c340a8c65b417a12923c3af4">allocate_operator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="namespace_i_b_a_m_r.html#aacfdadd56d211dd54b249b5066b9ace3">ConvectiveDifferencingType</a> difference_form, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs)</td></tr>
-<tr class="memdesc:a5412e149c340a8c65b417a12923c3af4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static function to construct an <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html" title="Class INSVCStaggeredConservativeConvectiveOperator is a concrete ConvectiveOperator that implements a...">INSVCStaggeredConservativeConvectiveOperator</a>. <br/></td></tr>
-<tr class="separator:a5412e149c340a8c65b417a12923c3af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+&lt; <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html">ConvectiveOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#aca7f8e5e0d528788e74da51f4fdead6a">allocate_operator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="namespace_i_b_a_m_r.html#aacfdadd56d211dd54b249b5066b9ace3">ConvectiveDifferencingType</a> difference_form, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs)</td></tr>
+<tr class="memdesc:aca7f8e5e0d528788e74da51f4fdead6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static function to construct an <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html" title="Class INSStaggeredCUIConvectiveOperator is a concrete ConvectiveOperator that implements a upwind con...">INSStaggeredCUIConvectiveOperator</a>. <br/></td></tr>
+<tr class="separator:aca7f8e5e0d528788e74da51f4fdead6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -293,14 +279,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
 <tr class="separator:a48b12fa98cf45eb6e0042363bd46a60e inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html" title="Class INSVCStaggeredConservativeConvectiveOperator is a concrete ConvectiveOperator that implements a...">INSVCStaggeredConservativeConvectiveOperator</a> is a concrete <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera...">ConvectiveOperator</a> that implements an upwind convective differencing operator. </p>
-<p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html" title="Class INSVCStaggeredConservativeConvectiveOperator is a concrete ConvectiveOperator that implements a...">INSVCStaggeredConservativeConvectiveOperator</a> computes the convective derivative of a side-centered velocity field using various limiters described by Patel and Natarajan.</p>
-<p>A side-centered density update is provided by this class, which is used in the conservative discretization of the Stokes operator. There is an optional mass density source term that can be set to easily check order of accuracy via manufactured solutions.</p>
-<p>References Patel, JK. and Natarajan, G., <a href="https://www.sciencedirect.com/science/article/pii/S0045793014004009">A generic framework for design of interface capturing schemes for multi-fluid flows</a></p>
-<dl class="section note"><dt>Note</dt><dd>This class is specialized in that it computes a conservative discretization of the form <img class="formulaInl" alt="$N = \nabla \cdot (u \rho u)$" src="form_72.png"/>, where the density <img class="formulaInl" alt="$\rho$" src="form_73.png"/> can vary in space and time. This operator is to be used in conjuction with the conservative form of the variable coefficient Navier-Stokes equations, which will produce better results for high density ratio flows.</dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator.html" title="Class INSVCStaggeredHierarchyIntegrator provides an abstract interface for time integrator for a stag...">INSVCStaggeredHierarchyIntegrator</a> </dd></dl>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html" title="Class INSStaggeredCUIConvectiveOperator is a concrete ConvectiveOperator that implements a upwind con...">INSStaggeredCUIConvectiveOperator</a> is a concrete <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera...">ConvectiveOperator</a> that implements a upwind convective differencing operator based on the cubic upwind interpolation (CUI). </p>
+<p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html" title="Class INSStaggeredCUIConvectiveOperator is a concrete ConvectiveOperator that implements a upwind con...">INSStaggeredCUIConvectiveOperator</a> computes the convective derivative of a side-centered velocity field using the CUI method described by Waterson and Deconinck, and Patel and Natarajan.</p>
+<p>References Waterson, NP. and Deconinck, H., <a href="https://www.sciencedirect.com/science/article/pii/S002199910700040X">Design principles for bounded higher-order convection schemes – a unified approach</a></p>
+<p>Patel, JK. and Natarajan, G., <a href="https://www.sciencedirect.com/science/article/pii/S0045793014004009">A generic framework for design of interface capturing schemes for multi-fluid flows</a></p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_hierarchy_integrator.html" title="Class INSStaggeredHierarchyIntegrator provides a staggered-grid solver for the incompressible Navier-...">INSStaggeredHierarchyIntegrator</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a79f06ab8ce1d1abbb4e67ab540e467c8"></a>
+<a class="anchor" id="a17b7d6024db81257212b916ee20b0a5e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -308,7 +293,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void IBAMR::INSVCStaggeredConservativeConvectiveOperator::deallocateOperatorState </td>
+          <td class="memname">void IBAMR::INSStaggeredCUIConvectiveOperator::deallocateOperatorState </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -321,33 +306,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
 </table>
 </div><div class="memdoc">
 
-<p>Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae45aa3553a213396e87a8d896d03a293" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a>. </p>
-<dl class="section note"><dt>Note</dt><dd>It is safe to call <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a79f06ab8ce1d1abbb4e67ab540e467c8" title="Remove all hierarchy dependent data allocated by initializeOperatorState(). ">deallocateOperatorState()</a> when the operator state is already deallocated.</dd></dl>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae45aa3553a213396e87a8d896d03a293" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState</a> </dd></dl>
+<p>Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#ab3c29f49e23fb98d50e6f9ea22d4532a" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a>. </p>
+<dl class="section note"><dt>Note</dt><dd>It is safe to call <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#a17b7d6024db81257212b916ee20b0a5e" title="Remove all hierarchy dependent data allocated by initializeOperatorState(). ">deallocateOperatorState()</a> when the operator state is already deallocated.</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#ab3c29f49e23fb98d50e6f9ea22d4532a" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_general_operator.html#af1dc37c17a2a2b12e67ad88f0a5d6a6b">IBTK::GeneralOperator</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae08acbccbf6799ddcc49dae591cb03d0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IBAMR::INSVCStaggeredConservativeConvectiveOperator::getUpdatedSideCenteredDensityPatchDataIndex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the newly constructed side-centered density patch data index. </p>
-<dl class="section note"><dt>Note</dt><dd>This data is produced as a part of the <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html#a9a031ecbac5454a8733ecac80466ff91" title="Compute . ">apply()</a> routine and should be used in the linear operator for the INSVC solver. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ae45aa3553a213396e87a8d896d03a293"></a>
+<a class="anchor" id="ab3c29f49e23fb98d50e6f9ea22d4532a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -355,7 +322,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void IBAMR::INSVCStaggeredConservativeConvectiveOperator::initializeOperatorState </td>
+          <td class="memname">void IBAMR::INSStaggeredCUIConvectiveOperator::initializeOperatorState </td>
           <td>(</td>
           <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>in</em>, </td>
@@ -380,21 +347,21 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
 </div><div class="memdoc">
 
 <p>Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. </p>
-<p>The vector arguments for <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html#a9a031ecbac5454a8733ecac80466ff91" title="Compute . ">apply()</a>, applyAdjoint(), etc, need not match those for <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae45aa3553a213396e87a8d896d03a293" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a>. However, there must be a certain degree of similarity, including</p>
+<p>The vector arguments for <a class="el" href="class_i_b_a_m_r_1_1_convective_operator.html#a9a031ecbac5454a8733ecac80466ff91" title="Compute . ">apply()</a>, applyAdjoint(), etc, need not match those for <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#ab3c29f49e23fb98d50e6f9ea22d4532a" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a>. However, there must be a certain degree of similarity, including</p>
 <ul>
 <li>hierarchy configuration (hierarchy pointer and level range)</li>
 <li>number, type and alignment of vector component data</li>
 <li>ghost cell widths of data in the input and output vectors</li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>It is generally necessary to reinitialize the operator state when the hierarchy configuration changes.</dd></dl>
-<p>It is safe to call <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#ae45aa3553a213396e87a8d896d03a293" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a> when the state is already initialized. In this case, the operator state is first deallocated and then reinitialized.</p>
+<p>It is safe to call <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#ab3c29f49e23fb98d50e6f9ea22d4532a" title="Compute hierarchy dependent data required for computing y=F[x] and z=F[x]+y. ">initializeOperatorState()</a> when the state is already initialized. In this case, the operator state is first deallocated and then reinitialized.</p>
 <p>Conditions on arguments:</p>
 <ul>
 <li>input and output vectors must have same hierarchy</li>
 <li>input and output vectors must have same structure, depth, etc.</li>
 </ul>
-<p>Call <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a79f06ab8ce1d1abbb4e67ab540e467c8" title="Remove all hierarchy dependent data allocated by initializeOperatorState(). ">deallocateOperatorState()</a> to remove any data allocated by this method.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_convective_operator.html#a79f06ab8ce1d1abbb4e67ab540e467c8" title="Remove all hierarchy dependent data allocated by initializeOperatorState(). ">deallocateOperatorState</a></dd></dl>
+<p>Call <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#a17b7d6024db81257212b916ee20b0a5e" title="Remove all hierarchy dependent data allocated by initializeOperatorState(). ">deallocateOperatorState()</a> to remove any data allocated by this method.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_c_u_i_convective_operator.html#a17b7d6024db81257212b916ee20b0a5e" title="Remove all hierarchy dependent data allocated by initializeOperatorState(). ">deallocateOperatorState</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>input vector </td></tr>
@@ -408,13 +375,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/travis/build/IBAMR/IBAMR/include/ibamr/INSVCStaggeredConservativeConvectiveOperator.h</li>
-<li>/home/travis/build/IBAMR/IBAMR/src/navier_stokes/INSVCStaggeredConservativeConvectiveOperator.cpp</li>
+<li>/home/travis/build/IBAMR/IBAMR/include/ibamr/INSStaggeredCUIConvectiveOperator.h</li>
+<li>/home/travis/build/IBAMR/IBAMR/src/navier_stokes/INSStaggeredCUIConvectiveOperator.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 9 2018 18:59:36 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 15 2018 02:36:52 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
