@@ -121,21 +121,21 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a94f49a181364cc7fb3d4f239e5a23b94"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94f49a181364cc7fb3d4f239e5a23b94"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a94f49a181364cc7fb3d4f239e5a23b94">ConstrainedNodalVelocityFcnPtr</a> )(Vec U_k, const IBTK::RigidDOFVector &amp;U, Vec X, const Eigen::Vector3d &amp;X_com, const Eigen::Matrix3d &amp;rotation_mat, double data_time, void *ctx)</td></tr>
-<tr class="memdesc:a94f49a181364cc7fb3d4f239e5a23b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying interface for specifying constrained body velocities. <br/></td></tr>
-<tr class="separator:a94f49a181364cc7fb3d4f239e5a23b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af872bffc68bbb38c548fd61f22dc990f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af872bffc68bbb38c548fd61f22dc990f"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ConstrainedCOMVelocityFcnPtr</b> )(double data_time, Eigen::Vector3d &amp;U_com, Eigen::Vector3d &amp;W_com, void *ctx)</td></tr>
-<tr class="separator:af872bffc68bbb38c548fd61f22dc990f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07d3de454638e0247dd6f4764285b2cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07d3de454638e0247dd6f4764285b2cb"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a07d3de454638e0247dd6f4764285b2cb">ExternalForceTorqueFcnPtr</a> )(double data_time, Eigen::Vector3d &amp;F, Eigen::Vector3d &amp;T, void *ctx)</td></tr>
-<tr class="memdesc:a07d3de454638e0247dd6f4764285b2cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying interface for specifying net external force and torque on structures. <br/></td></tr>
-<tr class="separator:a07d3de454638e0247dd6f4764285b2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64de8da012500dfa95f004147db6e49d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64de8da012500dfa95f004147db6e49d"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a64de8da012500dfa95f004147db6e49d">preprocessSolveFluidEqn_callbackfcn</a> )(const double, const double, const int, void *)</td></tr>
-<tr class="memdesc:a64de8da012500dfa95f004147db6e49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callbacks before INS is integrated. <br/></td></tr>
-<tr class="separator:a64de8da012500dfa95f004147db6e49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67ecf6e898013c0c44a74dc6dedab0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac67ecf6e898013c0c44a74dc6dedab0c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#ac67ecf6e898013c0c44a74dc6dedab0c">ConstrainedNodalVelocityFcnPtr</a> = void(*)(Vec U_k, const IBTK::RigidDOFVector &amp;U, Vec X, const Eigen::Vector3d &amp;X_com, const Eigen::Matrix3d &amp;rotation_mat, double data_time, void *ctx)</td></tr>
+<tr class="memdesc:ac67ecf6e898013c0c44a74dc6dedab0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying interface for specifying constrained body velocities. <br/></td></tr>
+<tr class="separator:ac67ecf6e898013c0c44a74dc6dedab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41fdb3cbddcc7101ddd142bf7a1f6131"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41fdb3cbddcc7101ddd142bf7a1f6131"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>ConstrainedCOMVelocityFcnPtr</b> = void(*)(double data_time, Eigen::Vector3d &amp;U_com, Eigen::Vector3d &amp;W_com, void *ctx)</td></tr>
+<tr class="separator:a41fdb3cbddcc7101ddd142bf7a1f6131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d8f328ae21580abd7a510494b1039c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d8f328ae21580abd7a510494b1039c2"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a5d8f328ae21580abd7a510494b1039c2">ExternalForceTorqueFcnPtr</a> = void(*)(double data_time, Eigen::Vector3d &amp;F, Eigen::Vector3d &amp;T, void *ctx)</td></tr>
+<tr class="memdesc:a5d8f328ae21580abd7a510494b1039c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying interface for specifying net external force and torque on structures. <br/></td></tr>
+<tr class="separator:a5d8f328ae21580abd7a510494b1039c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d078ef3235314b1f94a2222c8771d1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d078ef3235314b1f94a2222c8771d1a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a1d078ef3235314b1f94a2222c8771d1a">preprocessSolveFluidEqn_callbackfcn</a> = void(*)(const double, const double, const int, void *)</td></tr>
+<tr class="memdesc:a1d078ef3235314b1f94a2222c8771d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callbacks before INS is integrated. <br/></td></tr>
+<tr class="separator:a1d078ef3235314b1f94a2222c8771d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af3ec96154b38bbd49bd651caa8017562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the class. <br/></td></tr>
 <tr class="separator:af3ec96154b38bbd49bd651caa8017562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb9b8ad393ec5dacca79bd3f8b7dd854"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb9b8ad393ec5dacca79bd3f8b7dd854"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#aeb9b8ad393ec5dacca79bd3f8b7dd854">registerConstrainedVelocityFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a94f49a181364cc7fb3d4f239e5a23b94">ConstrainedNodalVelocityFcnPtr</a> nodalvelfcn, ConstrainedCOMVelocityFcnPtr comvelfcn, void *ctx=nullptr, unsigned int part=0)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#aeb9b8ad393ec5dacca79bd3f8b7dd854">registerConstrainedVelocityFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#ac67ecf6e898013c0c44a74dc6dedab0c">ConstrainedNodalVelocityFcnPtr</a> nodalvelfcn, ConstrainedCOMVelocityFcnPtr comvelfcn, void *ctx=nullptr, unsigned int part=0)</td></tr>
 <tr class="memdesc:aeb9b8ad393ec5dacca79bd3f8b7dd854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register user defined constrained velocity functions. <br/></td></tr>
 <tr class="separator:aeb9b8ad393ec5dacca79bd3f8b7dd854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eda7ad8d32c8baf1acfd4601aa1ab28"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0eda7ad8d32c8baf1acfd4601aa1ab28"></a>
@@ -156,7 +156,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a0eda7ad8d32c8baf1acfd4601aa1ab28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register user defined constrained velocity function data. <br/></td></tr>
 <tr class="separator:a0eda7ad8d32c8baf1acfd4601aa1ab28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a132bb68d29460c83daca8e99d6b48db0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a132bb68d29460c83daca8e99d6b48db0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a132bb68d29460c83daca8e99d6b48db0">registerExternalForceTorqueFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a07d3de454638e0247dd6f4764285b2cb">ExternalForceTorqueFcnPtr</a> forcetorquefcn, void *ctx=nullptr, unsigned int part=0)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a132bb68d29460c83daca8e99d6b48db0">registerExternalForceTorqueFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a5d8f328ae21580abd7a510494b1039c2">ExternalForceTorqueFcnPtr</a> forcetorquefcn, void *ctx=nullptr, unsigned int part=0)</td></tr>
 <tr class="memdesc:a132bb68d29460c83daca8e99d6b48db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register an external force and torque function. <br/></td></tr>
 <tr class="separator:a132bb68d29460c83daca8e99d6b48db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25a17518739451320a70907076c8d2c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25a17518739451320a70907076c8d2c5"></a>
@@ -172,7 +172,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memdesc:a3dc42e8c0c62ccfcc8cc8dc14a029814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the structure handle to which this Lagrangian index belongs. <br/></td></tr>
 <tr class="separator:a3dc42e8c0c62ccfcc8cc8dc14a029814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23ab6980def8b2d2d1ff26aef04660f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23ab6980def8b2d2d1ff26aef04660f2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a23ab6980def8b2d2d1ff26aef04660f2">registerPreProcessSolveFluidEquationsCallBackFcn</a> (<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a64de8da012500dfa95f004147db6e49d">preprocessSolveFluidEqn_callbackfcn</a> callback, void *ctx)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a23ab6980def8b2d2d1ff26aef04660f2">registerPreProcessSolveFluidEquationsCallBackFcn</a> (<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a1d078ef3235314b1f94a2222c8771d1a">preprocessSolveFluidEqn_callbackfcn</a> callback, void *ctx)</td></tr>
 <tr class="memdesc:a23ab6980def8b2d2d1ff26aef04660f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register any preprocess fluid solve callback functions. <br/></td></tr>
 <tr class="separator:a23ab6980def8b2d2d1ff26aef04660f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae790bb3ea981269ffdb7db3b495a5a1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae790bb3ea981269ffdb7db3b495a5a1f"></a>
@@ -541,7 +541,7 @@ Protected Attributes</h2></td></tr>
 &lt; <a class="el" href="struct_i_b_a_m_r_1_1_c_i_b_method_1_1_external_force_torque_fcn_data.html">ExternalForceTorqueFcnData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#adb461721f468bcec1fb52111622ad6d1">d_ext_force_torque_fcn_data</a></td></tr>
 <tr class="separator:adb461721f468bcec1fb52111622ad6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad306212aa46e4dfc5fd955a075fd5dd2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
-&lt; <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a64de8da012500dfa95f004147db6e49d">preprocessSolveFluidEqn_callbackfcn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#ad306212aa46e4dfc5fd955a075fd5dd2">d_prefluidsolve_callback_fcns</a></td></tr>
+&lt; <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a1d078ef3235314b1f94a2222c8771d1a">preprocessSolveFluidEqn_callbackfcn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#ad306212aa46e4dfc5fd955a075fd5dd2">d_prefluidsolve_callback_fcns</a></td></tr>
 <tr class="separator:ad306212aa46e4dfc5fd955a075fd5dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e71a4711e1e5e2d95ed9b4440a87dbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e71a4711e1e5e2d95ed9b4440a87dbf"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_prefluidsolve_callback_fcns_ctx</b></td></tr>
@@ -1265,7 +1265,7 @@ static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><b>comp
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a64de8da012500dfa95f004147db6e49d">preprocessSolveFluidEqn_callbackfcn</a>&gt; IBAMR::CIBMethod::d_prefluidsolve_callback_fcns</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;<a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a1d078ef3235314b1f94a2222c8771d1a">preprocessSolveFluidEqn_callbackfcn</a>&gt; IBAMR::CIBMethod::d_prefluidsolve_callback_fcns</td>
         </tr>
       </table>
   </td>
@@ -1348,7 +1348,7 @@ static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><b>comp
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 02:43:47 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 4 2018 20:47:21 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

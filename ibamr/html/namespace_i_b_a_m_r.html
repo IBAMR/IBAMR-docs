@@ -457,12 +457,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aebffc11dfb7ad2a2b16c425a875da19c"><td class="memItemLeft" align="right" valign="top">typedef double(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_a_m_r.html#aebffc11dfb7ad2a2b16c425a875da19c">SpringForceFcnPtr</a> )(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td></tr>
-<tr class="memdesc:aebffc11dfb7ad2a2b16c425a875da19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying the spring force function API.  <a href="#aebffc11dfb7ad2a2b16c425a875da19c">More...</a><br/></td></tr>
-<tr class="separator:aebffc11dfb7ad2a2b16c425a875da19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71ac3b15317d0a54fffa892e3ebf7265"><td class="memItemLeft" align="right" valign="top">typedef double(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_a_m_r.html#a71ac3b15317d0a54fffa892e3ebf7265">SpringForceDerivFcnPtr</a> )(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td></tr>
-<tr class="memdesc:a71ac3b15317d0a54fffa892e3ebf7265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying the spring force derivative function API.  <a href="#a71ac3b15317d0a54fffa892e3ebf7265">More...</a><br/></td></tr>
-<tr class="separator:a71ac3b15317d0a54fffa892e3ebf7265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06ac06faf021455204c1f1f26d679ac"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_a_m_r.html#ab06ac06faf021455204c1f1f26d679ac">SpringForceFcnPtr</a> = double(*)(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td></tr>
+<tr class="memdesc:ab06ac06faf021455204c1f1f26d679ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying the spring force function API.  <a href="#ab06ac06faf021455204c1f1f26d679ac">More...</a><br/></td></tr>
+<tr class="separator:ab06ac06faf021455204c1f1f26d679ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11392bdc34984689065ca9c10ca3222"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_a_m_r.html#af11392bdc34984689065ca9c10ca3222">SpringForceDerivFcnPtr</a> = double(*)(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td></tr>
+<tr class="memdesc:af11392bdc34984689065ca9c10ca3222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef specifying the spring force derivative function API.  <a href="#af11392bdc34984689065ca9c10ca3222">More...</a><br/></td></tr>
+<tr class="separator:af11392bdc34984689065ca9c10ca3222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -667,12 +667,12 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="na
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines "using" declarations for all <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a> namespaces. This header file may be included in application codes, but it MUST NOT be included in any other header (.h) or inline (-inl.h) file in the library. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a71ac3b15317d0a54fffa892e3ebf7265"></a>
+<a class="anchor" id="af11392bdc34984689065ca9c10ca3222"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef double(* IBAMR::SpringForceDerivFcnPtr)(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td>
+          <td class="memname">using <a class="el" href="namespace_i_b_a_m_r.html#af11392bdc34984689065ca9c10ca3222">IBAMR::SpringForceDerivFcnPtr</a> = typedef double (*)(double R, const double* params, int lag_mastr_idx, int lag_slave_idx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -691,12 +691,12 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="na
 
 </div>
 </div>
-<a class="anchor" id="aebffc11dfb7ad2a2b16c425a875da19c"></a>
+<a class="anchor" id="ab06ac06faf021455204c1f1f26d679ac"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef double(* IBAMR::SpringForceFcnPtr)(double R, const double *params, int lag_mastr_idx, int lag_slave_idx)</td>
+          <td class="memname">using <a class="el" href="namespace_i_b_a_m_r.html#ab06ac06faf021455204c1f1f26d679ac">IBAMR::SpringForceFcnPtr</a> = typedef double (*)(double R, const double* params, int lag_mastr_idx, int lag_slave_idx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -800,7 +800,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="na
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 02:43:47 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 4 2018 20:47:21 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

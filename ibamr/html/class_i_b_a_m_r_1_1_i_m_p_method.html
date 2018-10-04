@@ -112,8 +112,8 @@ Inheritance diagram for IBAMR::IMPMethod:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab7fa343275022fa9e0df5148664011ba"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#ab7fa343275022fa9e0df5148664011ba">PK1StressFcnPtr</a> )(libMesh::TensorValue&lt; double &gt; &amp;PP, const libMesh::TensorValue&lt; double &gt; &amp;FF, const libMesh::Point &amp;x, const libMesh::Point &amp;X, libMesh::subdomain_id_type subdomain_id, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;internal_vars, double time, void *ctx)</td></tr>
-<tr class="separator:ab7fa343275022fa9e0df5148664011ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4869ef17086cd545c38d7923f86b3d8a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a4869ef17086cd545c38d7923f86b3d8a">PK1StressFcnPtr</a> = void(*)(libMesh::TensorValue&lt; double &gt; &amp;PP, const libMesh::TensorValue&lt; double &gt; &amp;FF, const libMesh::Point &amp;x, const libMesh::Point &amp;X, libMesh::subdomain_id_type subdomain_id, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;internal_vars, double time, void *ctx)</td></tr>
+<tr class="separator:a4869ef17086cd545c38d7923f86b3d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -125,7 +125,7 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#abab8db5389bfbfb0478eb3bb4d4941cf">~IMPMethod</a> ()</td></tr>
 <tr class="memdesc:abab8db5389bfbfb0478eb3bb4d4941cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
 <tr class="separator:abab8db5389bfbfb0478eb3bb4d4941cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87377b25bf9c23feb98d40d93af5408c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a87377b25bf9c23feb98d40d93af5408c">registerPK1StressTensorFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#ab7fa343275022fa9e0df5148664011ba">PK1StressFcnPtr</a> PK1_stress_fcn, void *PK1_stress_fcn_ctx=nullptr)</td></tr>
+<tr class="memitem:a87377b25bf9c23feb98d40d93af5408c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a87377b25bf9c23feb98d40d93af5408c">registerPK1StressTensorFunction</a> (<a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a4869ef17086cd545c38d7923f86b3d8a">PK1StressFcnPtr</a> PK1_stress_fcn, void *PK1_stress_fcn_ctx=nullptr)</td></tr>
 <tr class="separator:a87377b25bf9c23feb98d40d93af5408c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6359b11f80c0ab7dc133ebd1c4d1d34e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a6359b11f80c0ab7dc133ebd1c4d1d34e">registerLInitStrategy</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html">IBTK::LInitStrategy</a> &gt; l_initializer)</td></tr>
 <tr class="separator:a6359b11f80c0ab7dc133ebd1c4d1d34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,7 +340,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_error_if_points_lea
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_ghosts</b></td></tr>
 <tr class="separator:aa882b2acb04472351804fe0a9eeab1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ac9eaa4e4a1cb0b998bbe2df02affb5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ac9eaa4e4a1cb0b998bbe2df02affb5"></a>
-<a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#ab7fa343275022fa9e0df5148664011ba">PK1StressFcnPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_PK1_stress_fcn</b></td></tr>
+<a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a4869ef17086cd545c38d7923f86b3d8a">PK1StressFcnPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_PK1_stress_fcn</b></td></tr>
 <tr class="separator:a8ac9eaa4e4a1cb0b998bbe2df02affb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32adbe3ccfdf943225ab277e7e47751e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32adbe3ccfdf943225ab277e7e47751e"></a>
 void *&#160;</td><td class="memItemRight" valign="bottom"><b>d_PK1_stress_fcn_ctx</b></td></tr>
@@ -446,12 +446,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html" title="Class IMPMethod is an implementation of the abstract base class IBStrategy that provides functionalit...">IMPMethod</a> is an implementation of the abstract base class <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a> that provides functionality required by the immersed material point (IMP) method. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="ab7fa343275022fa9e0df5148664011ba"></a>
+<a class="anchor" id="a4869ef17086cd545c38d7923f86b3d8a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* IBAMR::IMPMethod::PK1StressFcnPtr)(libMesh::TensorValue&lt; double &gt; &amp;PP, const libMesh::TensorValue&lt; double &gt; &amp;FF, const libMesh::Point &amp;x, const libMesh::Point &amp;X, libMesh::subdomain_id_type subdomain_id, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;internal_vars, double time, void *ctx)</td>
+          <td class="memname">using <a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a4869ef17086cd545c38d7923f86b3d8a">IBAMR::IMPMethod::PK1StressFcnPtr</a> =  void (*)(libMesh::TensorValue&lt;double&gt;&amp; PP, const libMesh::TensorValue&lt;double&gt;&amp; FF, const libMesh::Point&amp; x, const libMesh::Point&amp; X, libMesh::subdomain_id_type subdomain_id, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;double&gt;&amp; internal_vars, double time, void* ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1254,7 +1254,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
         <tr>
           <td class="memname">void IBAMR::IMPMethod::registerPK1StressTensorFunction </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#ab7fa343275022fa9e0df5148664011ba">PK1StressFcnPtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_b_a_m_r_1_1_i_m_p_method.html#a4869ef17086cd545c38d7923f86b3d8a">PK1StressFcnPtr</a>&#160;</td>
           <td class="paramname"><em>PK1_stress_fcn</em>, </td>
         </tr>
         <tr>
@@ -1526,7 +1526,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 02:43:48 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 4 2018 20:47:22 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

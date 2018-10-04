@@ -113,14 +113,14 @@ Inheritance diagram for IBTK::HierarchyIntegrator:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aebe9971c7d1d3d856391fa32a82eeb4b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aebe9971c7d1d3d856391fa32a82eeb4b">PreprocessIntegrateHierarchyCallbackFcnPtr</a> )(double current_time, double new_time, int num_cycles, void *ctx)</td></tr>
-<tr class="separator:aebe9971c7d1d3d856391fa32a82eeb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a838715fb4c2588f60c07bd647bc1bd90"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a838715fb4c2588f60c07bd647bc1bd90">IntegrateHierarchyCallbackFcnPtr</a> )(double current_time, double new_time, int cycle_num, void *ctx)</td></tr>
-<tr class="separator:a838715fb4c2588f60c07bd647bc1bd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72e9f5f0a34f643e8a329ef437777ad"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ab72e9f5f0a34f643e8a329ef437777ad">PostprocessIntegrateHierarchyCallbackFcnPtr</a> )(double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles, void *ctx)</td></tr>
-<tr class="separator:ab72e9f5f0a34f643e8a329ef437777ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a984a22e86b3ca2130c22209f7232a2b6"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a984a22e86b3ca2130c22209f7232a2b6">ApplyGradientDetectorCallbackFcnPtr</a> )(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too, void *ctx)</td></tr>
-<tr class="separator:a984a22e86b3ca2130c22209f7232a2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa0ee4ee107f8eea6a5b57fad05694b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2aa0ee4ee107f8eea6a5b57fad05694b">PreprocessIntegrateHierarchyCallbackFcnPtr</a> = void(*)(double current_time, double new_time, int num_cycles, void *ctx)</td></tr>
+<tr class="separator:a2aa0ee4ee107f8eea6a5b57fad05694b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53802c9ab0f157e19d3d20b875f5a21"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ac53802c9ab0f157e19d3d20b875f5a21">IntegrateHierarchyCallbackFcnPtr</a> = void(*)(double current_time, double new_time, int cycle_num, void *ctx)</td></tr>
+<tr class="separator:ac53802c9ab0f157e19d3d20b875f5a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85121614573b955a6345d2f90092ebea"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a85121614573b955a6345d2f90092ebea">PostprocessIntegrateHierarchyCallbackFcnPtr</a> = void(*)(double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles, void *ctx)</td></tr>
+<tr class="separator:a85121614573b955a6345d2f90092ebea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fa85df0df9c2c010397a6ad0ced46f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">ApplyGradientDetectorCallbackFcnPtr</a> = void(*)(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too, void *ctx)</td></tr>
+<tr class="separator:ae5fa85df0df9c2c010397a6ad0ced46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -192,13 +192,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab05cac4c0946b1864a983e6d1ce26ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a033261287aebd6ceaaadd8f989c5a525"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a033261287aebd6ceaaadd8f989c5a525">postprocessIntegrateHierarchy</a> (double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles=1)</td></tr>
 <tr class="separator:a033261287aebd6ceaaadd8f989c5a525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9679946010563a10ff1f3f4ebb3a376"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#af9679946010563a10ff1f3f4ebb3a376">registerPreprocessIntegrateHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aebe9971c7d1d3d856391fa32a82eeb4b">PreprocessIntegrateHierarchyCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
+<tr class="memitem:af9679946010563a10ff1f3f4ebb3a376"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#af9679946010563a10ff1f3f4ebb3a376">registerPreprocessIntegrateHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2aa0ee4ee107f8eea6a5b57fad05694b">PreprocessIntegrateHierarchyCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
 <tr class="separator:af9679946010563a10ff1f3f4ebb3a376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33526c16047faae3fd7a3d6e757d8451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a33526c16047faae3fd7a3d6e757d8451">registerIntegrateHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a838715fb4c2588f60c07bd647bc1bd90">IntegrateHierarchyCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
+<tr class="memitem:a33526c16047faae3fd7a3d6e757d8451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a33526c16047faae3fd7a3d6e757d8451">registerIntegrateHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ac53802c9ab0f157e19d3d20b875f5a21">IntegrateHierarchyCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
 <tr class="separator:a33526c16047faae3fd7a3d6e757d8451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15416c824ce6c5742b3f767d254f50f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a15416c824ce6c5742b3f767d254f50f7">registerPostprocessIntegrateHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ab72e9f5f0a34f643e8a329ef437777ad">PostprocessIntegrateHierarchyCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
+<tr class="memitem:a15416c824ce6c5742b3f767d254f50f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a15416c824ce6c5742b3f767d254f50f7">registerPostprocessIntegrateHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a85121614573b955a6345d2f90092ebea">PostprocessIntegrateHierarchyCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
 <tr class="separator:a15416c824ce6c5742b3f767d254f50f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e03250b4fa2c9721459be28ec8c3ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a6e03250b4fa2c9721459be28ec8c3ae9">registerApplyGradientDetectorCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a984a22e86b3ca2130c22209f7232a2b6">ApplyGradientDetectorCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
+<tr class="memitem:a6e03250b4fa2c9721459be28ec8c3ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a6e03250b4fa2c9721459be28ec8c3ae9">registerApplyGradientDetectorCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">ApplyGradientDetectorCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
 <tr class="separator:a6e03250b4fa2c9721459be28ec8c3ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6f6d89935d424ca5ca49e769148d61a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae6f6d89935d424ca5ca49e769148d61a">initializeCompositeHierarchyData</a> (double init_data_time, bool initial_time)</td></tr>
 <tr class="separator:ae6f6d89935d424ca5ca49e769148d61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -489,28 +489,28 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_manage_hier_math_op
 &lt; NDIM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>d_fill_after_regrid_phys_bdry_bc_op</b></td></tr>
 <tr class="separator:a403a02d4a1d594752a7cf48ee05f401b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a804f74ba0a883d00bacca2ed4dd16c3c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
-&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aebe9971c7d1d3d856391fa32a82eeb4b">PreprocessIntegrateHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a804f74ba0a883d00bacca2ed4dd16c3c">d_preprocess_integrate_hierarchy_callbacks</a></td></tr>
+&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2aa0ee4ee107f8eea6a5b57fad05694b">PreprocessIntegrateHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a804f74ba0a883d00bacca2ed4dd16c3c">d_preprocess_integrate_hierarchy_callbacks</a></td></tr>
 <tr class="separator:a804f74ba0a883d00bacca2ed4dd16c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee2ebe7d8c4bd769e221b7a6e42f430"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ee2ebe7d8c4bd769e221b7a6e42f430"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_preprocess_integrate_hierarchy_callback_ctxs</b></td></tr>
 <tr class="separator:a7ee2ebe7d8c4bd769e221b7a6e42f430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a5ec12a69bbec88a29c5af0b381f600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a5ec12a69bbec88a29c5af0b381f600"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
-&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a838715fb4c2588f60c07bd647bc1bd90">IntegrateHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_integrate_hierarchy_callbacks</b></td></tr>
+&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ac53802c9ab0f157e19d3d20b875f5a21">IntegrateHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_integrate_hierarchy_callbacks</b></td></tr>
 <tr class="separator:a3a5ec12a69bbec88a29c5af0b381f600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b4750e076475e5654b278fbcd33f5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61b4750e076475e5654b278fbcd33f5b"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_integrate_hierarchy_callback_ctxs</b></td></tr>
 <tr class="separator:a61b4750e076475e5654b278fbcd33f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38dcd70c523dae07c0a1714520627e96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38dcd70c523dae07c0a1714520627e96"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
-&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ab72e9f5f0a34f643e8a329ef437777ad">PostprocessIntegrateHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_postprocess_integrate_hierarchy_callbacks</b></td></tr>
+&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a85121614573b955a6345d2f90092ebea">PostprocessIntegrateHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_postprocess_integrate_hierarchy_callbacks</b></td></tr>
 <tr class="separator:a38dcd70c523dae07c0a1714520627e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb1e45a293df979e2166a41956ca524"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adeb1e45a293df979e2166a41956ca524"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_postprocess_integrate_hierarchy_callback_ctxs</b></td></tr>
 <tr class="separator:adeb1e45a293df979e2166a41956ca524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2ca39102258b5c1e33a046a9775cbaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2ca39102258b5c1e33a046a9775cbaa"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
-&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a984a22e86b3ca2130c22209f7232a2b6">ApplyGradientDetectorCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_apply_gradient_detector_callbacks</b></td></tr>
+&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">ApplyGradientDetectorCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_apply_gradient_detector_callbacks</b></td></tr>
 <tr class="separator:ab2ca39102258b5c1e33a046a9775cbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2737487200b7d88909dd1ab260b69820"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2737487200b7d88909dd1ab260b69820"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_apply_gradient_detector_callback_ctxs</b></td></tr>
@@ -527,12 +527,12 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati...">HierarchyIntegrator</a> provides an abstract interface for a time integrator for a system of equations defined on an AMR grid hierarchy, along with basic data management for variables defined on that hierarchy. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a984a22e86b3ca2130c22209f7232a2b6"></a>
+<a class="anchor" id="ae5fa85df0df9c2c010397a6ad0ced46f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* IBTK::HierarchyIntegrator::ApplyGradientDetectorCallbackFcnPtr)(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too, void *ctx)</td>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">IBTK::HierarchyIntegrator::ApplyGradientDetectorCallbackFcnPtr</a> =  void (*)(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt;NDIM&gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too, void* ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -540,12 +540,12 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 
 </div>
 </div>
-<a class="anchor" id="a838715fb4c2588f60c07bd647bc1bd90"></a>
+<a class="anchor" id="ac53802c9ab0f157e19d3d20b875f5a21"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* IBTK::HierarchyIntegrator::IntegrateHierarchyCallbackFcnPtr)(double current_time, double new_time, int cycle_num, void *ctx)</td>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ac53802c9ab0f157e19d3d20b875f5a21">IBTK::HierarchyIntegrator::IntegrateHierarchyCallbackFcnPtr</a> =  void (*)(double current_time, double new_time, int cycle_num, void* ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -553,12 +553,12 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 
 </div>
 </div>
-<a class="anchor" id="ab72e9f5f0a34f643e8a329ef437777ad"></a>
+<a class="anchor" id="a85121614573b955a6345d2f90092ebea"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* IBTK::HierarchyIntegrator::PostprocessIntegrateHierarchyCallbackFcnPtr)(double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles, void *ctx)</td>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a85121614573b955a6345d2f90092ebea">IBTK::HierarchyIntegrator::PostprocessIntegrateHierarchyCallbackFcnPtr</a> =  void (*)(double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles, void* ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,12 +566,12 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 
 </div>
 </div>
-<a class="anchor" id="aebe9971c7d1d3d856391fa32a82eeb4b"></a>
+<a class="anchor" id="a2aa0ee4ee107f8eea6a5b57fad05694b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* IBTK::HierarchyIntegrator::PreprocessIntegrateHierarchyCallbackFcnPtr)(double current_time, double new_time, int num_cycles, void *ctx)</td>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2aa0ee4ee107f8eea6a5b57fad05694b">IBTK::HierarchyIntegrator::PreprocessIntegrateHierarchyCallbackFcnPtr</a> =  void (*)(double current_time, double new_time, int num_cycles, void* ctx)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2192,7 +2192,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
         <tr>
           <td class="memname">void IBTK::HierarchyIntegrator::registerApplyGradientDetectorCallback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a984a22e86b3ca2130c22209f7232a2b6">ApplyGradientDetectorCallbackFcnPtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">ApplyGradientDetectorCallbackFcnPtr</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -2327,7 +2327,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
         <tr>
           <td class="memname">void IBTK::HierarchyIntegrator::registerIntegrateHierarchyCallback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a838715fb4c2588f60c07bd647bc1bd90">IntegrateHierarchyCallbackFcnPtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ac53802c9ab0f157e19d3d20b875f5a21">IntegrateHierarchyCallbackFcnPtr</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -2380,7 +2380,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
         <tr>
           <td class="memname">void IBTK::HierarchyIntegrator::registerPostprocessIntegrateHierarchyCallback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ab72e9f5f0a34f643e8a329ef437777ad">PostprocessIntegrateHierarchyCallbackFcnPtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a85121614573b955a6345d2f90092ebea">PostprocessIntegrateHierarchyCallbackFcnPtr</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -2407,7 +2407,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
         <tr>
           <td class="memname">void IBTK::HierarchyIntegrator::registerPreprocessIntegrateHierarchyCallback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aebe9971c7d1d3d856391fa32a82eeb4b">PreprocessIntegrateHierarchyCallbackFcnPtr</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2aa0ee4ee107f8eea6a5b57fad05694b">PreprocessIntegrateHierarchyCallbackFcnPtr</a>&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -3034,7 +3034,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aebe9971c7d1d3d856391fa32a82eeb4b">PreprocessIntegrateHierarchyCallbackFcnPtr</a>&gt; IBTK::HierarchyIntegrator::d_preprocess_integrate_hierarchy_callbacks</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a2aa0ee4ee107f8eea6a5b57fad05694b">PreprocessIntegrateHierarchyCallbackFcnPtr</a>&gt; IBTK::HierarchyIntegrator::d_preprocess_integrate_hierarchy_callbacks</td>
         </tr>
       </table>
   </td>
@@ -3075,7 +3075,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 02:43:50 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 4 2018 20:47:25 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
