@@ -118,21 +118,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a911ed4df5eee95abc6c11b9bcc9e797f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
 <tr class="separator:a911ed4df5eee95abc6c11b9bcc9e797f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Implementation of SAMRAI::xfer::CoarsenOperator interface.</div></td></tr>
-<tr class="memitem:a046ea9a4b22730dacfddfbca6313451d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#a046ea9a4b22730dacfddfbca6313451d">findCoarsenOperator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; &amp;var, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;op_name) const </td></tr>
-<tr class="separator:a046ea9a4b22730dacfddfbca6313451d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab394e6e0c93aa2f258fb6ef0570933c"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#aab394e6e0c93aa2f258fb6ef0570933c">getOperatorName</a> () const </td></tr>
-<tr class="separator:aab394e6e0c93aa2f258fb6ef0570933c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a230c7631eb85da0f14def419a3f56012"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#a230c7631eb85da0f14def419a3f56012">getOperatorPriority</a> () const </td></tr>
-<tr class="separator:a230c7631eb85da0f14def419a3f56012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85756f4d7972a54e7b63eba98337b0e9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#a85756f4d7972a54e7b63eba98337b0e9">getStencilWidth</a> () const </td></tr>
-<tr class="separator:a85756f4d7972a54e7b63eba98337b0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac325a8b14904478f1ba268758e4b2214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#ac325a8b14904478f1ba268758e4b2214">coarsen</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, int dst_component, int src_component, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;coarse_box, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>) const </td></tr>
-<tr class="separator:ac325a8b14904478f1ba268758e4b2214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b6d13622d16ab7a3fb6158cba834db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#af8b6d13622d16ab7a3fb6158cba834db">findCoarsenOperator</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; &amp;var, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;op_name) const override</td></tr>
+<tr class="separator:af8b6d13622d16ab7a3fb6158cba834db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e31f855f767be61a9b120514fd277b"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#ae4e31f855f767be61a9b120514fd277b">getOperatorName</a> () const override</td></tr>
+<tr class="separator:ae4e31f855f767be61a9b120514fd277b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ed9dfbce4058e538288981245c3e1d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#a82ed9dfbce4058e538288981245c3e1d">getOperatorPriority</a> () const override</td></tr>
+<tr class="separator:a82ed9dfbce4058e538288981245c3e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ddbc19d671c5ec86301fdaa0f96a2d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#a16ddbc19d671c5ec86301fdaa0f96a2d">getStencilWidth</a> () const override</td></tr>
+<tr class="separator:a16ddbc19d671c5ec86301fdaa0f96a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa702a74b5702f5fad67f280188eaeada"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#aa702a74b5702f5fad67f280188eaeada">coarsen</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, int dst_component, int src_component, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;coarse_box, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>) const override</td></tr>
+<tr class="separator:aa702a74b5702f5fad67f280188eaeada"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html" title="Class CartSideDoubleRT0Coarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting side-cente...">CartSideDoubleRT0Coarsen</a> is a concrete <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1CoarsenOperator.html">SAMRAI::xfer::CoarsenOperator</a> for restricting side-centered double precision patch data via the adjoint of RT0 interpolation. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac325a8b14904478f1ba268758e4b2214"></a>
+<a class="anchor" id="aa702a74b5702f5fad67f280188eaeada"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -183,7 +183,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -193,7 +193,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a046ea9a4b22730dacfddfbca6313451d"></a>
+<a class="anchor" id="af8b6d13622d16ab7a3fb6158cba834db"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -220,7 +220,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -230,7 +230,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aab394e6e0c93aa2f258fb6ef0570933c"></a>
+<a class="anchor" id="ae4e31f855f767be61a9b120514fd277b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -246,7 +246,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -256,7 +256,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a230c7631eb85da0f14def419a3f56012"></a>
+<a class="anchor" id="a82ed9dfbce4058e538288981245c3e1d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -272,7 +272,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -282,7 +282,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a85756f4d7972a54e7b63eba98337b0e9"></a>
+<a class="anchor" id="a16ddbc19d671c5ec86301fdaa0f96a2d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -298,7 +298,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -315,7 +315,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:24 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:13 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

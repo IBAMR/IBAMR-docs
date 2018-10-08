@@ -128,18 +128,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9fad0f302ac123972731d23b00779d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62534e240c13b628d914df9715fae5b9"><td class="memItemLeft" align="right" valign="top">int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#a62534e240c13b628d914df9715fae5b9">getSourceIndex</a> ()</td></tr>
 <tr class="separator:a62534e240c13b628d914df9715fae5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a274b469597a7e457e837b7207a524de9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a274b469597a7e457e837b7207a524de9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#a274b469597a7e457e837b7207a524de9">getStreamableClassID</a> () const </td></tr>
-<tr class="memdesc:a274b469597a7e457e837b7207a524de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the unique identifier used to specify the <a class="el" href="class_i_b_t_k_1_1_streamable_factory.html" title="Class StreamableFactory is an abstract interface for classes that can unpack particular concrete Stre...">IBTK::StreamableFactory</a> object used by the <a class="el" href="class_i_b_t_k_1_1_streamable_manager.html" title="Class StreamableManager is a singleton manager class that organizes the actual packing and unpacking ...">IBTK::StreamableManager</a> to extract Streamable objects from data streams. <br/></td></tr>
-<tr class="separator:a274b469597a7e457e837b7207a524de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63666c005e53bb2a4ec18b6af618bfe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63666c005e53bb2a4ec18b6af618bfe1"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#a63666c005e53bb2a4ec18b6af618bfe1">getDataStreamSize</a> () const </td></tr>
-<tr class="memdesc:a63666c005e53bb2a4ec18b6af618bfe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an upper bound on the amount of space required to pack the object to a buffer. <br/></td></tr>
-<tr class="separator:a63666c005e53bb2a4ec18b6af618bfe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab980cae2507aee34e7c2bf3156f50be7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab980cae2507aee34e7c2bf3156f50be7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#ab980cae2507aee34e7c2bf3156f50be7">packStream</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream)</td></tr>
-<tr class="memdesc:ab980cae2507aee34e7c2bf3156f50be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pack data into the output stream. <br/></td></tr>
-<tr class="separator:ab980cae2507aee34e7c2bf3156f50be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabe4824a7f776fac5b6aeb0f4c3d495e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aabe4824a7f776fac5b6aeb0f4c3d495e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#aabe4824a7f776fac5b6aeb0f4c3d495e">getStreamableClassID</a> () const override</td></tr>
+<tr class="memdesc:aabe4824a7f776fac5b6aeb0f4c3d495e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the unique identifier used to specify the <a class="el" href="class_i_b_t_k_1_1_streamable_factory.html" title="Class StreamableFactory is an abstract interface for classes that can unpack particular concrete Stre...">IBTK::StreamableFactory</a> object used by the <a class="el" href="class_i_b_t_k_1_1_streamable_manager.html" title="Class StreamableManager is a singleton manager class that organizes the actual packing and unpacking ...">IBTK::StreamableManager</a> to extract Streamable objects from data streams. <br/></td></tr>
+<tr class="separator:aabe4824a7f776fac5b6aeb0f4c3d495e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeabf28f8588c8b45dbe7506a3703598"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abeabf28f8588c8b45dbe7506a3703598"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#abeabf28f8588c8b45dbe7506a3703598">getDataStreamSize</a> () const override</td></tr>
+<tr class="memdesc:abeabf28f8588c8b45dbe7506a3703598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an upper bound on the amount of space required to pack the object to a buffer. <br/></td></tr>
+<tr class="separator:abeabf28f8588c8b45dbe7506a3703598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b0cd075ed6b4a9e199a263e401c09a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96b0cd075ed6b4a9e199a263e401c09a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#a96b0cd075ed6b4a9e199a263e401c09a">packStream</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream) override</td></tr>
+<tr class="memdesc:a96b0cd075ed6b4a9e199a263e401c09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pack data into the output stream. <br/></td></tr>
+<tr class="separator:a96b0cd075ed6b4a9e199a263e401c09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_streamable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_streamable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_streamable.html">IBTK::Streamable</a></td></tr>
 <tr class="memitem:ad622395dbcdf1d48d63bd5a6c14094c4 inherit pub_methods_class_i_b_t_k_1_1_streamable"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad622395dbcdf1d48d63bd5a6c14094c4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_streamable.html#ad622395dbcdf1d48d63bd5a6c14094c4">Streamable</a> ()</td></tr>
@@ -323,7 +323,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:22 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:11 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

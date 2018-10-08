@@ -138,40 +138,40 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
 &lt; <a class="el" href="class_i_b_t_k_1_1_l_transaction_1_1_l_transaction_component.html">LTransactionComponent</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a8644886c4da91812d2096fee7e674041">getDestinationData</a> () const </td></tr>
 <tr class="memdesc:a8644886c4da91812d2096fee7e674041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a constant reference to the destination data. <br/></td></tr>
 <tr class="separator:a8644886c4da91812d2096fee7e674041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02cbf7b1ba19513eb13cc20e61b84791"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a02cbf7b1ba19513eb13cc20e61b84791">canEstimateIncomingMessageSize</a> ()</td></tr>
-<tr class="memdesc:a02cbf7b1ba19513eb13cc20e61b84791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a boolean indicating whether this transaction can estimate the size of an incoming message.  <a href="#a02cbf7b1ba19513eb13cc20e61b84791">More...</a><br/></td></tr>
-<tr class="separator:a02cbf7b1ba19513eb13cc20e61b84791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a773e4bc9845f340f396dc3d29b1ae5b8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a773e4bc9845f340f396dc3d29b1ae5b8">computeIncomingMessageSize</a> ()</td></tr>
-<tr class="memdesc:a773e4bc9845f340f396dc3d29b1ae5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the integer buffer space (in bytes) needed for the incoming message.  <a href="#a773e4bc9845f340f396dc3d29b1ae5b8">More...</a><br/></td></tr>
-<tr class="separator:a773e4bc9845f340f396dc3d29b1ae5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4acc4d8f65a40b0f7c0f7cb8da155553"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4acc4d8f65a40b0f7c0f7cb8da155553"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a4acc4d8f65a40b0f7c0f7cb8da155553">computeOutgoingMessageSize</a> ()</td></tr>
-<tr class="memdesc:a4acc4d8f65a40b0f7c0f7cb8da155553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the integer buffer space (in bytes) needed for the outgoing message. <br/></td></tr>
-<tr class="separator:a4acc4d8f65a40b0f7c0f7cb8da155553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae487a226487800ec2d98ce30b10923ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae487a226487800ec2d98ce30b10923ae"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#ae487a226487800ec2d98ce30b10923ae">getSourceProcessor</a> ()</td></tr>
-<tr class="memdesc:ae487a226487800ec2d98ce30b10923ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the sending processor number for the communications transaction. <br/></td></tr>
-<tr class="separator:ae487a226487800ec2d98ce30b10923ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a688a4f8348e1879242eaf71889f999e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a688a4f8348e1879242eaf71889f999e6"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a688a4f8348e1879242eaf71889f999e6">getDestinationProcessor</a> ()</td></tr>
-<tr class="memdesc:a688a4f8348e1879242eaf71889f999e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the receiving processor number for the communications transaction. <br/></td></tr>
-<tr class="separator:a688a4f8348e1879242eaf71889f999e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6375e94159179bef51fc9375617ce409"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6375e94159179bef51fc9375617ce409"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a6375e94159179bef51fc9375617ce409">packStream</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream)</td></tr>
-<tr class="memdesc:a6375e94159179bef51fc9375617ce409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pack the transaction data into the message stream. <br/></td></tr>
-<tr class="separator:a6375e94159179bef51fc9375617ce409"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc6bbf8267573d4c7bfcf9c69a5e6fb6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc6bbf8267573d4c7bfcf9c69a5e6fb6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#abc6bbf8267573d4c7bfcf9c69a5e6fb6">unpackStream</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream)</td></tr>
-<tr class="memdesc:abc6bbf8267573d4c7bfcf9c69a5e6fb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unpack the transaction data from the message stream. <br/></td></tr>
-<tr class="separator:abc6bbf8267573d4c7bfcf9c69a5e6fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49b41e9c3dd9268d94857a763927fd7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49b41e9c3dd9268d94857a763927fd7b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a49b41e9c3dd9268d94857a763927fd7b">copyLocalData</a> ()</td></tr>
-<tr class="memdesc:a49b41e9c3dd9268d94857a763927fd7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the local data copy for the transaction. <br/></td></tr>
-<tr class="separator:a49b41e9c3dd9268d94857a763927fd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89e0254d0c4c7ae5d0920db4a32a79e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89e0254d0c4c7ae5d0920db4a32a79e0"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a89e0254d0c4c7ae5d0920db4a32a79e0">printClassData</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01476.html#ga55d4c0674fbacb7514ae76310aeb4bf8">std::ostream</a> &amp;stream) const </td></tr>
-<tr class="memdesc:a89e0254d0c4c7ae5d0920db4a32a79e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out transaction information. <br/></td></tr>
-<tr class="separator:a89e0254d0c4c7ae5d0920db4a32a79e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8109be4c6ae39156ae42d91183beb35"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#aa8109be4c6ae39156ae42d91183beb35">canEstimateIncomingMessageSize</a> () override</td></tr>
+<tr class="memdesc:aa8109be4c6ae39156ae42d91183beb35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a boolean indicating whether this transaction can estimate the size of an incoming message.  <a href="#aa8109be4c6ae39156ae42d91183beb35">More...</a><br/></td></tr>
+<tr class="separator:aa8109be4c6ae39156ae42d91183beb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601c08b1cf7db09b3f219aa6d13bc1ea"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a601c08b1cf7db09b3f219aa6d13bc1ea">computeIncomingMessageSize</a> () override</td></tr>
+<tr class="memdesc:a601c08b1cf7db09b3f219aa6d13bc1ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the integer buffer space (in bytes) needed for the incoming message.  <a href="#a601c08b1cf7db09b3f219aa6d13bc1ea">More...</a><br/></td></tr>
+<tr class="separator:a601c08b1cf7db09b3f219aa6d13bc1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1595984c9aa24262aff85b921cc7b0c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1595984c9aa24262aff85b921cc7b0c"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#af1595984c9aa24262aff85b921cc7b0c">computeOutgoingMessageSize</a> () override</td></tr>
+<tr class="memdesc:af1595984c9aa24262aff85b921cc7b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the integer buffer space (in bytes) needed for the outgoing message. <br/></td></tr>
+<tr class="separator:af1595984c9aa24262aff85b921cc7b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16efa95d5c7cacd4afcdd2ca34102785"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16efa95d5c7cacd4afcdd2ca34102785"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a16efa95d5c7cacd4afcdd2ca34102785">getSourceProcessor</a> () override</td></tr>
+<tr class="memdesc:a16efa95d5c7cacd4afcdd2ca34102785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the sending processor number for the communications transaction. <br/></td></tr>
+<tr class="separator:a16efa95d5c7cacd4afcdd2ca34102785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f6702d4035fec5301a0d767ed51e54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70f6702d4035fec5301a0d767ed51e54"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a70f6702d4035fec5301a0d767ed51e54">getDestinationProcessor</a> () override</td></tr>
+<tr class="memdesc:a70f6702d4035fec5301a0d767ed51e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the receiving processor number for the communications transaction. <br/></td></tr>
+<tr class="separator:a70f6702d4035fec5301a0d767ed51e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72602de39646f9a5804dfafbef87231c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72602de39646f9a5804dfafbef87231c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a72602de39646f9a5804dfafbef87231c">packStream</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream) override</td></tr>
+<tr class="memdesc:a72602de39646f9a5804dfafbef87231c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pack the transaction data into the message stream. <br/></td></tr>
+<tr class="separator:a72602de39646f9a5804dfafbef87231c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f65d4af23468c8a46c73a63f750d1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a45f65d4af23468c8a46c73a63f750d1b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a45f65d4af23468c8a46c73a63f750d1b">unpackStream</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AbstractStream.html">SAMRAI::tbox::AbstractStream</a> &amp;stream) override</td></tr>
+<tr class="memdesc:a45f65d4af23468c8a46c73a63f750d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unpack the transaction data from the message stream. <br/></td></tr>
+<tr class="separator:a45f65d4af23468c8a46c73a63f750d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457a669d8f1d8705f2f1b93228e28555"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a457a669d8f1d8705f2f1b93228e28555"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a457a669d8f1d8705f2f1b93228e28555">copyLocalData</a> () override</td></tr>
+<tr class="memdesc:a457a669d8f1d8705f2f1b93228e28555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the local data copy for the transaction. <br/></td></tr>
+<tr class="separator:a457a669d8f1d8705f2f1b93228e28555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509a61571b10e6206782d4c8a581fa97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a509a61571b10e6206782d4c8a581fa97"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a509a61571b10e6206782d4c8a581fa97">printClassData</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01476.html#ga55d4c0674fbacb7514ae76310aeb4bf8">std::ostream</a> &amp;stream) const override</td></tr>
+<tr class="memdesc:a509a61571b10e6206782d4c8a581fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out transaction information. <br/></td></tr>
+<tr class="separator:a509a61571b10e6206782d4c8a581fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T&gt;<br/>
@@ -182,7 +182,7 @@ class IBTK::LTransaction&lt; T &gt;</h3>
 <dd>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Transaction.html">SAMRAI::tbox::Transaction</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a02cbf7b1ba19513eb13cc20e61b84791"></a>
+<a class="anchor" id="aa8109be4c6ae39156ae42d91183beb35"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -200,7 +200,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -212,7 +212,7 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a773e4bc9845f340f396dc3d29b1ae5b8"></a>
+<a class="anchor" id="a601c08b1cf7db09b3f219aa6d13bc1ea"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -230,14 +230,14 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Return the integer buffer space (in bytes) needed for the incoming message. </p>
 <p>This routine is only called if the transaction can estimate the size of the incoming message.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#a02cbf7b1ba19513eb13cc20e61b84791" title="Return a boolean indicating whether this transaction can estimate the size of an incoming message...">canEstimateIncomingMessageSize()</a> </dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_t_k_1_1_l_transaction.html#aa8109be4c6ae39156ae42d91183beb35" title="Return a boolean indicating whether this transaction can estimate the size of an incoming message...">canEstimateIncomingMessageSize()</a> </dd></dl>
 
 <p>Implements <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Transaction.html#cf3d2db83a5a9eb73e12df0962806f1b">SAMRAI::tbox::Transaction</a>.</p>
 
@@ -250,7 +250,7 @@ template&lt;class T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:25 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:14 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

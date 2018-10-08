@@ -118,37 +118,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a845b04dd078f0525cee78eb3f6c291cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
 <tr class="separator:a845b04dd078f0525cee78eb3f6c291cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">SAMRAI::xfer::RefinePatchStrategy interface.</div></td></tr>
-<tr class="memitem:a6f7c2ad124f720b8fe908f8110a8d571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a6f7c2ad124f720b8fe908f8110a8d571">setPhysicalBoundaryConditions</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, double fill_time, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_width_to_fill)</td></tr>
-<tr class="separator:a6f7c2ad124f720b8fe908f8110a8d571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17f5535b1dc6d674ea690babf9ff0be9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a17f5535b1dc6d674ea690babf9ff0be9">getRefineOpStencilWidth</a> () const </td></tr>
-<tr class="separator:a17f5535b1dc6d674ea690babf9ff0be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef874e7f6181a15858c828bfc1ba1331"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#aef874e7f6181a15858c828bfc1ba1331">preprocessRefine</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;fine_box, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>)</td></tr>
-<tr class="separator:aef874e7f6181a15858c828bfc1ba1331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad3736f35a5afc7d8ec730836f5a4f81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#aad3736f35a5afc7d8ec730836f5a4f81">postprocessRefine</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;fine_box, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>)</td></tr>
-<tr class="separator:aad3736f35a5afc7d8ec730836f5a4f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3151f937edb635d2fbb379799386697"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#ac3151f937edb635d2fbb379799386697">setPhysicalBoundaryConditions</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, double fill_time, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_width_to_fill) override</td></tr>
+<tr class="separator:ac3151f937edb635d2fbb379799386697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193f86b7218dda12fa24f79ea3f20815"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a193f86b7218dda12fa24f79ea3f20815">getRefineOpStencilWidth</a> () const override</td></tr>
+<tr class="separator:a193f86b7218dda12fa24f79ea3f20815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197a5365d66e0a6fde6f4546829f384a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a197a5365d66e0a6fde6f4546829f384a">preprocessRefine</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;fine_box, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>) override</td></tr>
+<tr class="separator:a197a5365d66e0a6fde6f4546829f384a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc0d3545df659661574943085aaeda6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a9dc0d3545df659661574943085aaeda6">postprocessRefine</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;fine_box, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>) override</td></tr>
+<tr class="separator:a9dc0d3545df659661574943085aaeda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Extension of SAMRAI::xfer::RefinePatchStrategy interface to support more</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>complex coarse-fine interface discretizations. </p>
 </div></td></tr>
-<tr class="memitem:ab687379f1aaaed52b18be59a6f584a51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#ab687379f1aaaed52b18be59a6f584a51">setConsistentInterpolationScheme</a> (bool consistent_type_2_bdry)</td></tr>
-<tr class="separator:ab687379f1aaaed52b18be59a6f584a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04068df7c8233eae5c571809aaccade7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04068df7c8233eae5c571809aaccade7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a04068df7c8233eae5c571809aaccade7">setPatchDataIndex</a> (int patch_data_index)</td></tr>
-<tr class="memdesc:a04068df7c8233eae5c571809aaccade7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data index operated upon by this class. <br/></td></tr>
-<tr class="separator:a04068df7c8233eae5c571809aaccade7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee4c7f70a8eab933df0d17eed306ef1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ee4c7f70a8eab933df0d17eed306ef1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a3ee4c7f70a8eab933df0d17eed306ef1">setPatchDataIndices</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06732.html">std::set</a>&lt; int &gt; &amp;patch_data_indices)</td></tr>
-<tr class="memdesc:a3ee4c7f70a8eab933df0d17eed306ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data indices operated upon by this class. <br/></td></tr>
-<tr class="separator:a3ee4c7f70a8eab933df0d17eed306ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf56c7f90117bdc6ce6d41de2b45794"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0bf56c7f90117bdc6ce6d41de2b45794"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a0bf56c7f90117bdc6ce6d41de2b45794">setPatchDataIndices</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1ComponentSelector.html">SAMRAI::hier::ComponentSelector</a> &amp;patch_data_indices)</td></tr>
-<tr class="memdesc:a0bf56c7f90117bdc6ce6d41de2b45794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data indices operated upon by this class. <br/></td></tr>
-<tr class="separator:a0bf56c7f90117bdc6ce6d41de2b45794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8e1d32656b9faa236856506e56ba5fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#ac8e1d32656b9faa236856506e56ba5fa">setPatchHierarchy</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy)</td></tr>
-<tr class="separator:ac8e1d32656b9faa236856506e56ba5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d034ceb130b383e999feb458fc62121"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a4d034ceb130b383e999feb458fc62121">clearPatchHierarchy</a> ()</td></tr>
-<tr class="separator:a4d034ceb130b383e999feb458fc62121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5251c8ed3ae775d52746d847023d983"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#aa5251c8ed3ae775d52746d847023d983">computeNormalExtension</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_width_to_fill)</td></tr>
-<tr class="separator:aa5251c8ed3ae775d52746d847023d983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954cb93425a3b19f00ea54fa2a058c4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a954cb93425a3b19f00ea54fa2a058c4b">setConsistentInterpolationScheme</a> (bool consistent_type_2_bdry) override</td></tr>
+<tr class="separator:a954cb93425a3b19f00ea54fa2a058c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be1c766912ce9aced7db457ddb76330"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2be1c766912ce9aced7db457ddb76330"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a2be1c766912ce9aced7db457ddb76330">setPatchDataIndex</a> (int patch_data_index) override</td></tr>
+<tr class="memdesc:a2be1c766912ce9aced7db457ddb76330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data index operated upon by this class. <br/></td></tr>
+<tr class="separator:a2be1c766912ce9aced7db457ddb76330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae57dd36a6146a8a5292ee91bd14bad72"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae57dd36a6146a8a5292ee91bd14bad72"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#ae57dd36a6146a8a5292ee91bd14bad72">setPatchDataIndices</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06732.html">std::set</a>&lt; int &gt; &amp;patch_data_indices) override</td></tr>
+<tr class="memdesc:ae57dd36a6146a8a5292ee91bd14bad72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data indices operated upon by this class. <br/></td></tr>
+<tr class="separator:ae57dd36a6146a8a5292ee91bd14bad72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbe8164a4b3c9922b69f71e68ebb9486"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbe8164a4b3c9922b69f71e68ebb9486"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#afbe8164a4b3c9922b69f71e68ebb9486">setPatchDataIndices</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1ComponentSelector.html">SAMRAI::hier::ComponentSelector</a> &amp;patch_data_indices) override</td></tr>
+<tr class="memdesc:afbe8164a4b3c9922b69f71e68ebb9486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data indices operated upon by this class. <br/></td></tr>
+<tr class="separator:afbe8164a4b3c9922b69f71e68ebb9486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c76bf880ce2d03baeaa77bfe77dbc2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a3c76bf880ce2d03baeaa77bfe77dbc2e">setPatchHierarchy</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy) override</td></tr>
+<tr class="separator:a3c76bf880ce2d03baeaa77bfe77dbc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1886cebb74d37ff73233e57638dc97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#a6b1886cebb74d37ff73233e57638dc97">clearPatchHierarchy</a> () override</td></tr>
+<tr class="separator:a6b1886cebb74d37ff73233e57638dc97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabae70faa341147f0e03b05fd6d2eb50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html#aabae70faa341147f0e03b05fd6d2eb50">computeNormalExtension</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#7aa523d98aacf910c40f8b9bd429b46b">ratio</a>, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_width_to_fill) override</td></tr>
+<tr class="separator:aabae70faa341147f0e03b05fd6d2eb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html">IBTK::CoarseFineBoundaryRefinePatchStrategy</a></td></tr>
 <tr class="memitem:ab26ae1d7544a3f051e2c68c8d58a0fc5 inherit pub_methods_class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab26ae1d7544a3f051e2c68c8d58a0fc5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#ab26ae1d7544a3f051e2c68c8d58a0fc5">CoarseFineBoundaryRefinePatchStrategy</a> ()</td></tr>
@@ -169,7 +169,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html" title="Class CartCellDoubleLinearCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which sets ...">CartCellDoubleLinearCFInterpolation</a> is a concrete <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a> which sets coarse-fine interface ghost cell values for cell-centered double precision patch data via linear interpolation in the normal and tangential directions at coarse-fine interfaces. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4d034ceb130b383e999feb458fc62121"></a>
+<a class="anchor" id="a6b1886cebb74d37ff73233e57638dc97"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -185,7 +185,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -195,7 +195,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
 
 </div>
 </div>
-<a class="anchor" id="aa5251c8ed3ae775d52746d847023d983"></a>
+<a class="anchor" id="aabae70faa341147f0e03b05fd6d2eb50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -228,7 +228,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -238,7 +238,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
 
 </div>
 </div>
-<a class="anchor" id="a17f5535b1dc6d674ea690babf9ff0be9"></a>
+<a class="anchor" id="a193f86b7218dda12fa24f79ea3f20815"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -254,17 +254,17 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Function to return maximum stencil width needed over user-defined data interpolation operations. This is needed to determine the correct interpolation data dependencies. </p>
 
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#aa63f000dfc673b08a1a04d476e209980">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
+<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a178cdc05b3a5236cb8dfbcf0fb05da85">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aad3736f35a5afc7d8ec730836f5a4f81"></a>
+<a class="anchor" id="a9dc0d3545df659661574943085aaeda6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -303,7 +303,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -318,11 +318,11 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a97be8e50604fc1b14185e12f6f3894c8">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
+<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a33b368f3043e864da770b1299c2dcc8a">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aef874e7f6181a15858c828bfc1ba1331"></a>
+<a class="anchor" id="a197a5365d66e0a6fde6f4546829f384a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -361,7 +361,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -377,11 +377,11 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#ac855ed9d5625558f4c58a817492a7ed1">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
+<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a490d1e7024a291ce7c417e783c647f27">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab687379f1aaaed52b18be59a6f584a51"></a>
+<a class="anchor" id="a954cb93425a3b19f00ea54fa2a058c4b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -398,7 +398,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -408,7 +408,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
 
 </div>
 </div>
-<a class="anchor" id="ac8e1d32656b9faa236856506e56ba5fa"></a>
+<a class="anchor" id="a3c76bf880ce2d03baeaa77bfe77dbc2e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -425,7 +425,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -435,7 +435,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
 
 </div>
 </div>
-<a class="anchor" id="a6f7c2ad124f720b8fe908f8110a8d571"></a>
+<a class="anchor" id="ac3151f937edb635d2fbb379799386697"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -468,7 +468,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -483,7 +483,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a338e523d31a06706a06bed2ab2bcc2b5">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
+<p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a54dadb6bab1c93e4472d6bac027dd90e">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
 </div>
 </div>
@@ -494,7 +494,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>postprocessRe
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:24 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:13 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

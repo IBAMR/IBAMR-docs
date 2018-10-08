@@ -118,23 +118,23 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#af6b5339bbd19582d575c06a123aa02c0">~KrylovLinearSolver</a> ()</td></tr>
 <tr class="memdesc:af6b5339bbd19582d575c06a123aa02c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty destructor. <br/></td></tr>
 <tr class="separator:af6b5339bbd19582d575c06a123aa02c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad431cae5aaa8b41c60868df94186fe9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aad431cae5aaa8b41c60868df94186fe9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#aad431cae5aaa8b41c60868df94186fe9">setHierarchyMathOps</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html">HierarchyMathOps</a> &gt; hier_math_ops)</td></tr>
-<tr class="memdesc:aad431cae5aaa8b41c60868df94186fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html" title="Class HierarchyMathOps provides functionality to perform &quot;composite-grid&quot; mathematical operations on ...">HierarchyMathOps</a> object used by the solver. <br/></td></tr>
-<tr class="separator:aad431cae5aaa8b41c60868df94186fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac464082da1fd255f337df508b0697a17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac464082da1fd255f337df508b0697a17"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#ac464082da1fd255f337df508b0697a17">setHierarchyMathOps</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html">HierarchyMathOps</a> &gt; hier_math_ops) override</td></tr>
+<tr class="memdesc:ac464082da1fd255f337df508b0697a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html" title="Class HierarchyMathOps provides functionality to perform &quot;composite-grid&quot; mathematical operations on ...">HierarchyMathOps</a> object used by the solver. <br/></td></tr>
+<tr class="separator:ac464082da1fd255f337df508b0697a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">General-purpose solver functionality.</div></td></tr>
-<tr class="memitem:a5f15a8d19ef4e7eeb34a872156af9e06"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f15a8d19ef4e7eeb34a872156af9e06"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a5f15a8d19ef4e7eeb34a872156af9e06">setHomogeneousBc</a> (bool homogeneous_bc)</td></tr>
-<tr class="memdesc:a5f15a8d19ef4e7eeb34a872156af9e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the solver should use homogeneous boundary conditions. <br/></td></tr>
-<tr class="separator:a5f15a8d19ef4e7eeb34a872156af9e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfb2eed8c264ab0d7be76698de72eeb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcfb2eed8c264ab0d7be76698de72eeb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#abcfb2eed8c264ab0d7be76698de72eeb">setSolutionTime</a> (double solution_time)</td></tr>
-<tr class="memdesc:abcfb2eed8c264ab0d7be76698de72eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the time at which the solution is to be evaluated. <br/></td></tr>
-<tr class="separator:abcfb2eed8c264ab0d7be76698de72eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a081bc2d246d5303c021f33cfbe309271"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a081bc2d246d5303c021f33cfbe309271"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a081bc2d246d5303c021f33cfbe309271">setTimeInterval</a> (double current_time, double new_time)</td></tr>
-<tr class="memdesc:a081bc2d246d5303c021f33cfbe309271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current time interval. <br/></td></tr>
-<tr class="separator:a081bc2d246d5303c021f33cfbe309271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb7be604c6b4fa6ab6fbe59c33f0787"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3cb7be604c6b4fa6ab6fbe59c33f0787"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a3cb7be604c6b4fa6ab6fbe59c33f0787">setHomogeneousBc</a> (bool homogeneous_bc) override</td></tr>
+<tr class="memdesc:a3cb7be604c6b4fa6ab6fbe59c33f0787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the solver should use homogeneous boundary conditions. <br/></td></tr>
+<tr class="separator:a3cb7be604c6b4fa6ab6fbe59c33f0787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b33a4c39b62a52f97f0b05a8c970234"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b33a4c39b62a52f97f0b05a8c970234"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a7b33a4c39b62a52f97f0b05a8c970234">setSolutionTime</a> (double solution_time) override</td></tr>
+<tr class="memdesc:a7b33a4c39b62a52f97f0b05a8c970234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the time at which the solution is to be evaluated. <br/></td></tr>
+<tr class="separator:a7b33a4c39b62a52f97f0b05a8c970234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6990305802fb495dfd4a02e3fac5ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e6990305802fb495dfd4a02e3fac5ff"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a7e6990305802fb495dfd4a02e3fac5ff">setTimeInterval</a> (double current_time, double new_time) override</td></tr>
+<tr class="memdesc:a7e6990305802fb495dfd4a02e3fac5ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current time interval. <br/></td></tr>
+<tr class="separator:a7e6990305802fb495dfd4a02e3fac5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Krylov solver functionality.</div></td></tr>
 <tr class="memitem:a54f3c32afdd1a452fd0e4a072411efe8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54f3c32afdd1a452fd0e4a072411efe8"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a54f3c32afdd1a452fd0e4a072411efe8">setOperator</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_operator.html">LinearOperator</a> &gt; A)</td></tr>
@@ -184,10 +184,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_linear_solver.html#a9106c4895d04ad31893a74525cceb447">getInitialGuessNonzero</a> () const </td></tr>
 <tr class="memdesc:a9106c4895d04ad31893a74525cceb447 inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether the initial guess is non-zero. <br/></td></tr>
 <tr class="separator:a9106c4895d04ad31893a74525cceb447 inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9b7dad18879b274c0efdd9488bc2bda inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9b7dad18879b274c0efdd9488bc2bda"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_linear_solver.html#ab9b7dad18879b274c0efdd9488bc2bda">printClassData</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01476.html#ga55d4c0674fbacb7514ae76310aeb4bf8">std::ostream</a> &amp;stream)</td></tr>
-<tr class="memdesc:ab9b7dad18879b274c0efdd9488bc2bda inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print class data to stream. <br/></td></tr>
-<tr class="separator:ab9b7dad18879b274c0efdd9488bc2bda inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1258c5d6319283d6411d1e93e202af inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a1258c5d6319283d6411d1e93e202af"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_linear_solver.html#a1a1258c5d6319283d6411d1e93e202af">printClassData</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01476.html#ga55d4c0674fbacb7514ae76310aeb4bf8">std::ostream</a> &amp;stream) override</td></tr>
+<tr class="memdesc:a1a1258c5d6319283d6411d1e93e202af inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print class data to stream. <br/></td></tr>
+<tr class="separator:a1a1258c5d6319283d6411d1e93e202af inherit pub_methods_class_i_b_t_k_1_1_linear_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_general_solver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_general_solver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_general_solver.html">IBTK::GeneralSolver</a></td></tr>
 <tr class="memitem:a22b1dcae6a87c4ca8a56644286a5e3f8 inherit pub_methods_class_i_b_t_k_1_1_general_solver"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22b1dcae6a87c4ca8a56644286a5e3f8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_general_solver.html#a22b1dcae6a87c4ca8a56644286a5e3f8">GeneralSolver</a> ()</td></tr>
@@ -392,7 +392,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 <p>Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_45.png"/>. </p>
 <dl class="section note"><dt>Note</dt><dd>If the preconditioner is NULL, no preconditioning is performed. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#aaad667b2a84c0fdd332cef6bf02b980d">IBTK::PETScKrylovLinearSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a0c1b37a745cb4c95fc5c1fda229ebff0">IBTK::PETScKrylovLinearSolver</a>.</p>
 
 </div>
 </div>
@@ -403,7 +403,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:25 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:13 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

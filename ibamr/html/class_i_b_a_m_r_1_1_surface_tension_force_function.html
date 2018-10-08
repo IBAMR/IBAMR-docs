@@ -142,13 +142,13 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="memdesc:a0c6d07ff4f06cd72175e4178a2daa8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of interface cells over which the surface tension force will be applied. <br/></td></tr>
 <tr class="separator:a0c6d07ff4f06cd72175e4178a2daa8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Methods to set the data.</div></td></tr>
-<tr class="memitem:a3e952cc6cd390f82edd3aaf05d2a0136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a3e952cc6cd390f82edd3aaf05d2a0136">isTimeDependent</a> () const </td></tr>
-<tr class="separator:a3e952cc6cd390f82edd3aaf05d2a0136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf918cfe54f186a6b392c4237a3e1eb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#acf918cfe54f186a6b392c4237a3e1eb5">setDataOnPatchHierarchy</a> (int data_idx, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, double data_time, bool initial_time=false, int coarsest_ln=-1, int finest_ln=-1)</td></tr>
-<tr class="memdesc:acf918cfe54f186a6b392c4237a3e1eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the function on the patch interiors on the specified levels of the patch hierarchy using the virtual function <a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a153037dfc70e9abf7f4216e4d57bdc6f">setDataOnPatch()</a>.  <a href="#acf918cfe54f186a6b392c4237a3e1eb5">More...</a><br/></td></tr>
-<tr class="separator:acf918cfe54f186a6b392c4237a3e1eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153037dfc70e9abf7f4216e4d57bdc6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a153037dfc70e9abf7f4216e4d57bdc6f">setDataOnPatch</a> (int data_idx, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, double data_time, bool initial_time=false, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; level=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</td></tr>
-<tr class="separator:a153037dfc70e9abf7f4216e4d57bdc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffc44151adb2ff7080c4ec74864b545"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a3ffc44151adb2ff7080c4ec74864b545">isTimeDependent</a> () const override</td></tr>
+<tr class="separator:a3ffc44151adb2ff7080c4ec74864b545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02b595e3889a658f509580453ffeadd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a02b595e3889a658f509580453ffeadd4">setDataOnPatchHierarchy</a> (int data_idx, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, double data_time, bool initial_time=false, int coarsest_ln=-1, int finest_ln=-1) override</td></tr>
+<tr class="memdesc:a02b595e3889a658f509580453ffeadd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the function on the patch interiors on the specified levels of the patch hierarchy using the virtual function <a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a1bdc3fb40570fd7f8d10ece566ea5051">setDataOnPatch()</a>.  <a href="#a02b595e3889a658f509580453ffeadd4">More...</a><br/></td></tr>
+<tr class="separator:a02b595e3889a658f509580453ffeadd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bdc3fb40570fd7f8d10ece566ea5051"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a1bdc3fb40570fd7f8d10ece566ea5051">setDataOnPatch</a> (int data_idx, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, double data_time, bool initial_time=false, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; level=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) override</td></tr>
+<tr class="separator:a1bdc3fb40570fd7f8d10ece566ea5051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_cart_grid_function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_cart_grid_function')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_cart_grid_function.html">IBTK::CartGridFunction</a></td></tr>
 <tr class="memitem:ab0f454d12fbaa3d0b1ed3484407dc288 inherit pub_methods_class_i_b_t_k_1_1_cart_grid_function"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab0f454d12fbaa3d0b1ed3484407dc288"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cart_grid_function.html#ab0f454d12fbaa3d0b1ed3484407dc288">CartGridFunction</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;object_name=&quot;&quot;)</td></tr>
@@ -174,7 +174,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>Presently, this class assumes that the indicator function is a cell centered level-set variable that is maintained by the advection-diffusion integrator. In general, the indicator variable can either be a level set function, a volume fraction function, or a phase field function.</dd></dl>
 <p>Reference Brackbill et. al, <a href="https://www.sciencedirect.com/science/article/pii/002199919290240Y">A continuum method for modeling surface tension</a> </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3e952cc6cd390f82edd3aaf05d2a0136"></a>
+<a class="anchor" id="a3ffc44151adb2ff7080c4ec74864b545"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -190,7 +190,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -200,7 +200,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a153037dfc70e9abf7f4216e4d57bdc6f"></a>
+<a class="anchor" id="a1bdc3fb40570fd7f8d10ece566ea5051"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -251,7 +251,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -261,7 +261,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acf918cfe54f186a6b392c4237a3e1eb5"></a>
+<a class="anchor" id="a02b595e3889a658f509580453ffeadd4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -318,13 +318,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Evaluate the function on the patch interiors on the specified levels of the patch hierarchy using the virtual function <a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a153037dfc70e9abf7f4216e4d57bdc6f">setDataOnPatch()</a>. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a153037dfc70e9abf7f4216e4d57bdc6f">setDataOnPatch</a> </dd></dl>
+<p>Evaluate the function on the patch interiors on the specified levels of the patch hierarchy using the virtual function <a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a1bdc3fb40570fd7f8d10ece566ea5051">setDataOnPatch()</a>. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#a1bdc3fb40570fd7f8d10ece566ea5051">setDataOnPatch</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_cart_grid_function.html#a0e668b2f6dab2bde34bb02a76cc4908c">IBTK::CartGridFunction</a>.</p>
 
@@ -337,7 +337,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:24 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:13 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

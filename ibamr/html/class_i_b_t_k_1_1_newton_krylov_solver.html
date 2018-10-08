@@ -118,23 +118,23 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a099eb2c89a8681ae93e4144f07729254">~NewtonKrylovSolver</a> ()</td></tr>
 <tr class="memdesc:a099eb2c89a8681ae93e4144f07729254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty virtual destructor. <br/></td></tr>
 <tr class="separator:a099eb2c89a8681ae93e4144f07729254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad69c8d0a8e32143284273bc44fe4f870"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad69c8d0a8e32143284273bc44fe4f870"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#ad69c8d0a8e32143284273bc44fe4f870">setHierarchyMathOps</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html">HierarchyMathOps</a> &gt; hier_math_ops)</td></tr>
-<tr class="memdesc:ad69c8d0a8e32143284273bc44fe4f870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html" title="Class HierarchyMathOps provides functionality to perform &quot;composite-grid&quot; mathematical operations on ...">HierarchyMathOps</a> object used by the solver. <br/></td></tr>
-<tr class="separator:ad69c8d0a8e32143284273bc44fe4f870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6e143df44875b5b4a5085b0c83ed391"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6e143df44875b5b4a5085b0c83ed391"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#aa6e143df44875b5b4a5085b0c83ed391">setHierarchyMathOps</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html">HierarchyMathOps</a> &gt; hier_math_ops) override</td></tr>
+<tr class="memdesc:aa6e143df44875b5b4a5085b0c83ed391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html" title="Class HierarchyMathOps provides functionality to perform &quot;composite-grid&quot; mathematical operations on ...">HierarchyMathOps</a> object used by the solver. <br/></td></tr>
+<tr class="separator:aa6e143df44875b5b4a5085b0c83ed391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">General-purpose solver functionality.</div></td></tr>
-<tr class="memitem:ae1cf5d41fd9b64ee1037798c6242e807"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1cf5d41fd9b64ee1037798c6242e807"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#ae1cf5d41fd9b64ee1037798c6242e807">setHomogeneousBc</a> (bool homogeneous_bc)</td></tr>
-<tr class="memdesc:ae1cf5d41fd9b64ee1037798c6242e807"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the solver should use homogeneous boundary conditions. <br/></td></tr>
-<tr class="separator:ae1cf5d41fd9b64ee1037798c6242e807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49b3f9155f320d847cd547a287c6c0fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49b3f9155f320d847cd547a287c6c0fe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a49b3f9155f320d847cd547a287c6c0fe">setSolutionTime</a> (double solution_time)</td></tr>
-<tr class="memdesc:a49b3f9155f320d847cd547a287c6c0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the time at which the solution is to be evaluated. <br/></td></tr>
-<tr class="separator:a49b3f9155f320d847cd547a287c6c0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae87e5de6308f31758f2fdbfa002525d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae87e5de6308f31758f2fdbfa002525d6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#ae87e5de6308f31758f2fdbfa002525d6">setTimeInterval</a> (double current_time, double new_time)</td></tr>
-<tr class="memdesc:ae87e5de6308f31758f2fdbfa002525d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current time interval. <br/></td></tr>
-<tr class="separator:ae87e5de6308f31758f2fdbfa002525d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6116e85a89957353c2b94a3b72e05c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb6116e85a89957353c2b94a3b72e05c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#abb6116e85a89957353c2b94a3b72e05c">setHomogeneousBc</a> (bool homogeneous_bc) override</td></tr>
+<tr class="memdesc:abb6116e85a89957353c2b94a3b72e05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the solver should use homogeneous boundary conditions. <br/></td></tr>
+<tr class="separator:abb6116e85a89957353c2b94a3b72e05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebe5f4401129455661181e1c0395e31"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaebe5f4401129455661181e1c0395e31"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#aaebe5f4401129455661181e1c0395e31">setSolutionTime</a> (double solution_time) override</td></tr>
+<tr class="memdesc:aaebe5f4401129455661181e1c0395e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the time at which the solution is to be evaluated. <br/></td></tr>
+<tr class="separator:aaebe5f4401129455661181e1c0395e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eea36e57f7082851e9d0413db4f5842"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eea36e57f7082851e9d0413db4f5842"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a7eea36e57f7082851e9d0413db4f5842">setTimeInterval</a> (double current_time, double new_time) override</td></tr>
+<tr class="memdesc:a7eea36e57f7082851e9d0413db4f5842"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current time interval. <br/></td></tr>
+<tr class="separator:a7eea36e57f7082851e9d0413db4f5842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Newton-Krylov solver functionality.</div></td></tr>
 <tr class="memitem:af0821917f74cb297b1169df584a28432"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0821917f74cb297b1169df584a28432"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#af0821917f74cb297b1169df584a28432">setOperator</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_general_operator.html">GeneralOperator</a> &gt; op)</td></tr>
@@ -402,7 +402,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 <p>Return the vector in which the nonlinear function evaluation is stored. </p>
 <dl class="section note"><dt>Note</dt><dd>Implementations of this member function are permitted to return a NULL pointer if the solver is not initialized. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#ab7a1bee2711703ead94dba853d156a0e">IBTK::PETScNewtonKrylovSolver</a>.</p>
+<p>Implemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#ae4f793498d1c81e31a4014fa99a958a6">IBTK::PETScNewtonKrylovSolver</a>.</p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 <p>Return the vector in which the approximate solution is stored. </p>
 <dl class="section note"><dt>Note</dt><dd>Implementations of this member function are permitted to return a NULL pointer if the solver is not initialized. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a111d7275bbb1af7e8d6e5da07dd810c7">IBTK::PETScNewtonKrylovSolver</a>.</p>
+<p>Implemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a7a2b196688366ab9372e12e25ff0c6be">IBTK::PETScNewtonKrylovSolver</a>.</p>
 
 </div>
 </div>
@@ -459,7 +459,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 <p>Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_133.png"/> used by the solver. </p>
 <dl class="section note"><dt>Note</dt><dd>Subclasses should be implemented so that if a Jacobian object is not explicitly provided to the solver, a Jacobian-free inexact Newton-Krylov method is employed to approximate the action of the Jacobian. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#a12172ea46196b2583cb3ddced038cc0f">IBTK::PETScNewtonKrylovSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#af76cb1c2be637abd86561b707d699cab">IBTK::PETScNewtonKrylovSolver</a>.</p>
 
 </div>
 </div>
@@ -470,7 +470,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 4 2018 20:47:25 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 8 2018 03:47:14 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
