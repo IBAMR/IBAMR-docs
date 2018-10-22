@@ -131,7 +131,7 @@ var searchData=
   ['vector_3c_20libmesh_3a_3aequationsystems_20_2a_20_3e',['vector&lt; libMesh::EquationSystems * &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20libmesh_3a_3afefamily_20_3e',['vector&lt; libMesh::FEFamily &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20libmesh_3a_3afetype_20_3e',['vector&lt; libMesh::FEType &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
-  ['vector_3c_20libmesh_3a_3amesh_20_2a_20_3e',['vector&lt; libMesh::Mesh * &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
+  ['vector_3c_20libmesh_3a_3ameshbase_20_2a_20_3e',['vector&lt; libMesh::MeshBase * &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20libmesh_3a_3anumericvector_3c_20double_20_3e_20_2a_20_3e',['vector&lt; libMesh::NumericVector&lt; double &gt; * &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20libmesh_3a_3aorder_20_3e',['vector&lt; libMesh::Order &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20libmesh_3a_3apetscvector_3c_20double_20_3e_20_2a_20_3e',['vector&lt; libMesh::PetscVector&lt; double &gt; * &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
