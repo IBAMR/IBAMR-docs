@@ -659,7 +659,7 @@ var searchData=
   ['_7estattransaction',['~StatTransaction',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1StatTransaction.html#68aa19dd75318404f84ba8e4f6e842fe',1,'SAMRAI::tbox::StatTransaction']]],
   ['_7estdio_5ffilebuf',['~stdio_filebuf',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09588.html#a331254f7330187859fb6d823bfa8b1a0',1,'__gnu_cxx::stdio_filebuf']]],
   ['_7estokesbccoefstrategy',['~StokesBcCoefStrategy',['../class_i_b_a_m_r_1_1_stokes_bc_coef_strategy.html#a77428a4b35a43d9cd5aecf961b770735',1,'IBAMR::StokesBcCoefStrategy']]],
-  ['_7estokesspecifications',['~StokesSpecifications',['../class_i_b_a_m_r_1_1_stokes_specifications.html#a03b97935c6752f89024b37ce30c42d87',1,'IBAMR::StokesSpecifications']]],
+  ['_7estokesspecifications',['~StokesSpecifications',['../class_i_b_a_m_r_1_1_stokes_specifications.html#aa55da267fe59b0eb4a88f27a570109c7',1,'IBAMR::StokesSpecifications']]],
   ['_7estreamable',['~Streamable',['../class_i_b_t_k_1_1_streamable.html#a5572cdd9379c74e3c82218cbb66afd14',1,'IBTK::Streamable']]],
   ['_7estreamablefactory',['~StreamableFactory',['../class_i_b_t_k_1_1_streamable_factory.html#a735c25d13917ca5c6fb681b227f48364',1,'IBTK::StreamableFactory']]],
   ['_7estreamablemanager',['~StreamableManager',['../class_i_b_t_k_1_1_streamable_manager.html#a08d0faa65286c77aee9e9924a2c68349',1,'IBTK::StreamableManager']]],
