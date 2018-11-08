@@ -6,7 +6,7 @@ var searchData=
   ['edgecomplexlineartimeinterpolateop',['EdgeComplexLinearTimeInterpolateOp',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeComplexLinearTimeInterpolateOp.html#bbd2c62d5119df5169d40b0039e95646',1,'SAMRAI::pdat::EdgeComplexLinearTimeInterpolateOp']]],
   ['edgedata',['EdgeData',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeData.html#dccba06a26d5cd86f68edb496f8525c4',1,'SAMRAI::pdat::EdgeData']]],
   ['edgedatafactory',['EdgeDataFactory',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeDataFactory.html#d5dd11acf5dad1d6f99b085557b22c39',1,'SAMRAI::pdat::EdgeDataFactory']]],
-  ['edgedatasynchronization',['EdgeDataSynchronization',['../class_i_b_t_k_1_1_edge_data_synchronization.html#abe3fbf4786188659e1a7f311cdfda26a',1,'IBTK::EdgeDataSynchronization']]],
+  ['edgedatasynchronization',['EdgeDataSynchronization',['../class_i_b_t_k_1_1_edge_data_synchronization.html#adc49aa5bbe41db9eb350e37ba1f64f47',1,'IBTK::EdgeDataSynchronization']]],
   ['edgedoubleconstantrefine',['EdgeDoubleConstantRefine',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeDoubleConstantRefine.html#25efde0274a08dbb29585076b7f184cc',1,'SAMRAI::pdat::EdgeDoubleConstantRefine']]],
   ['edgedoublelineartimeinterpolateop',['EdgeDoubleLinearTimeInterpolateOp',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeDoubleLinearTimeInterpolateOp.html#e8de7b92809b6d2cb0548ae16c54739e',1,'SAMRAI::pdat::EdgeDoubleLinearTimeInterpolateOp']]],
   ['edgefloatconstantrefine',['EdgeFloatConstantRefine',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeFloatConstantRefine.html#ed1d5208db3646d676d11adb6d4d8670',1,'SAMRAI::pdat::EdgeFloatConstantRefine']]],
@@ -100,5 +100,5 @@ var searchData=
   ['extendboxestodomainboundary',['extendBoxesToDomainBoundary',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1BoxUtilities.html#71aff42c7f9ed555dffc115da12a6106',1,'SAMRAI::hier::BoxUtilities']]],
   ['extendboxoutward',['extendBoxOutward',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryBoxUtils.html#3e996343e0164151b131b7175b320564',1,'SAMRAI::hier::BoundaryBoxUtils']]],
   ['extendboxtodomainboundary',['extendBoxToDomainBoundary',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1BoxUtilities.html#6ea1a8cb13c4aa67603adf700aa27aae',1,'SAMRAI::hier::BoxUtilities']]],
-  ['extendedrobinbccoefstrategy',['ExtendedRobinBcCoefStrategy',['../class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html#a9569e51eb89192b505a05bcd550d2afb',1,'IBTK::ExtendedRobinBcCoefStrategy']]]
+  ['extendedrobinbccoefstrategy',['ExtendedRobinBcCoefStrategy',['../class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html#a70d0744f35d9e0f098e865297ce5aa5f',1,'IBTK::ExtendedRobinBcCoefStrategy']]]
 ];

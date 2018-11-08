@@ -451,7 +451,7 @@ var searchData=
   ['robinbccoefstrategy_2eh',['RobinBcCoefStrategy.h',['../../../samrai/2.4.4/html/RobinBcCoefStrategy_8h.html',1,'']]],
   ['robinbccoefstrategy_3c_20ndim_20_3e',['RobinBcCoefStrategy&lt; NDIM &gt;',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html',1,'SAMRAI::solv']]],
   ['robinphysbdrypatchstrategy',['RobinPhysBdryPatchStrategy',['../class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html',1,'IBTK']]],
-  ['robinphysbdrypatchstrategy',['RobinPhysBdryPatchStrategy',['../class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html#a1eca916c8e5aee9bc90271ee139de29f',1,'IBTK::RobinPhysBdryPatchStrategy']]],
+  ['robinphysbdrypatchstrategy',['RobinPhysBdryPatchStrategy',['../class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html#a53bc10029b46d2416263c88656735b91',1,'IBTK::RobinPhysBdryPatchStrategy']]],
   ['rodspec',['RodSpec',['../struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_rod_spec.html',1,'IBAMR::IBRedundantInitializer']]],
   ['rope',['rope',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00851.html',1,'']]],
   ['rope',['rope',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08168.html',1,'__gnu_cxx']]],
