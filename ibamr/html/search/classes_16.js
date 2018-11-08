@@ -28,7 +28,7 @@ var searchData=
   ['vector_3c_20ao_20_3e',['vector&lt; AO &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20applygradientdetectorcallbackfcnptr_20_3e',['vector&lt; ApplyGradientDetectorCallbackFcnPtr &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20beamdata_20_3e',['vector&lt; BeamData &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
-  ['vector_3c_20block_5ftype_2c_20allocator_5ftype_20_3e',['vector&lt; block_type, allocator_type &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'vector&lt; block_type, allocator_type &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std::vector&lt; block_type, allocator_type &gt;']]],
+  ['vector_3c_20block_5ftype_2c_20allocator_5ftype_20_3e',['vector&lt; block_type, allocator_type &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std::vector&lt; block_type, allocator_type &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'vector&lt; block_type, allocator_type &gt;']]],
   ['vector_3c_20bool_20_3e',['vector&lt; bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20bool_2c_20_5falloc_20_3e',['vector&lt; bool, _Alloc &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06352.html',1,'std']]],
   ['vector_3c_20boost_3a_3amulti_5farray_3c_20double_2c_202_20_3e_20_3e',['vector&lt; boost::multi_array&lt; double, 2 &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],

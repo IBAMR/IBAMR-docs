@@ -259,7 +259,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_b_t_k_1_1_s_c_laplace_operator.html">IBTK::SCLaplaceOperator</a></td></tr>
 <tr class="memitem:abc364b744fc4478a58df921ef535138a inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc364b744fc4478a58df921ef535138a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>d_ncomp</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>d_ncomp</b> = 0</td></tr>
 <tr class="separator:abc364b744fc4478a58df921ef535138a inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0216ec60260d4c212343b0a79c8dbf8 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0216ec60260d4c212343b0a79c8dbf8"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
@@ -294,10 +294,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_ncomp</b></td></tr>
 &lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_hierarchy</b></td></tr>
 <tr class="separator:a0a48a158dc86d51b1d8e62054c521715 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8187706dfc975261fbe19292e1d29504 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8187706dfc975261fbe19292e1d29504"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>d_coarsest_ln</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>d_coarsest_ln</b> = IBTK::invalid_level_number</td></tr>
 <tr class="separator:a8187706dfc975261fbe19292e1d29504 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51571687b3eeff3343b85339e860a9f1 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51571687b3eeff3343b85339e860a9f1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>d_finest_ln</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>d_finest_ln</b> = IBTK::invalid_level_number</td></tr>
 <tr class="separator:a51571687b3eeff3343b85339e860a9f1 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7294874fa9be9132a8b2eec7abe3cb84 inherit pro_attribs_class_i_b_t_k_1_1_s_c_laplace_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7294874fa9be9132a8b2eec7abe3cb84"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
@@ -322,29 +322,29 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_finest_ln</b></td></
 const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_object_name</b></td></tr>
 <tr class="separator:a3c9aeeb589616e2446a13f6395da0120 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7a8497ac0301354fc3318c93ff40a1 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee7a8497ac0301354fc3318c93ff40a1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_initialized</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_initialized</b> = false</td></tr>
 <tr class="separator:aee7a8497ac0301354fc3318c93ff40a1 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2139f10b72c4465d436fd5eeda99cec inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2139f10b72c4465d436fd5eeda99cec"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_homogeneous_bc</b></td></tr>
 <tr class="separator:ae2139f10b72c4465d436fd5eeda99cec inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28953d84bbe23889a998bab172307a04 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28953d84bbe23889a998bab172307a04"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_solution_time</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_solution_time</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:a28953d84bbe23889a998bab172307a04 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7792c4b6105133903f57b885a9554240 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7792c4b6105133903f57b885a9554240"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_current_time</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_current_time</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:a7792c4b6105133903f57b885a9554240 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee2d9c19bfc33914b6e5d2ff6f88c3b1 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee2d9c19bfc33914b6e5d2ff6f88c3b1"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:aee2d9c19bfc33914b6e5d2ff6f88c3b1 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a4a5cd11076e722cb58345b27a487fe inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a4a5cd11076e722cb58345b27a487fe"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
 &lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html">HierarchyMathOps</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_hier_math_ops</b></td></tr>
 <tr class="separator:a9a4a5cd11076e722cb58345b27a487fe inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a511ef6b24549a6f521bf5905cb822a09 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a511ef6b24549a6f521bf5905cb822a09"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_hier_math_ops_external</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_hier_math_ops_external</b> = false</td></tr>
 <tr class="separator:a511ef6b24549a6f521bf5905cb822a09 inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48b12fa98cf45eb6e0042363bd46a60e inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48b12fa98cf45eb6e0042363bd46a60e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b> = false</td></tr>
 <tr class="separator:a48b12fa98cf45eb6e0042363bd46a60e inherit pro_attribs_class_i_b_t_k_1_1_general_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -491,7 +491,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b><
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 7 2018 15:02:16 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 8 2018 02:56:51 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

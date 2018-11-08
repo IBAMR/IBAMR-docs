@@ -370,7 +370,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a20b1a0995439c9ffcc0571fe8402054d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20b1a0995439c9ffcc0571fe8402054d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_do_log</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_do_log</b> = false</td></tr>
 <tr class="separator:a20b1a0995439c9ffcc0571fe8402054d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e3d25b2402dfc23e88e579514a31ef8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e3d25b2402dfc23e88e579514a31ef8"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
@@ -383,16 +383,16 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_do_log</b></td></tr
 &lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_gridding_alg</b></td></tr>
 <tr class="separator:ad9b2eb79476208f992c330263ef4cfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7283986d5b40e421fbcbc92a8fff9cc4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7283986d5b40e421fbcbc92a8fff9cc4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_initialized</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_initialized</b> = false</td></tr>
 <tr class="separator:a7283986d5b40e421fbcbc92a8fff9cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b25bc0b1b348b238279321d1d9b0809"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b25bc0b1b348b238279321d1d9b0809"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_current_time</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_current_time</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:a8b25bc0b1b348b238279321d1d9b0809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac56a84690c56d836191141bae9c04c32"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac56a84690c56d836191141bae9c04c32"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:ac56a84690c56d836191141bae9c04c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23934a7c6b03df7331c651b0f45e4b50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23934a7c6b03df7331c651b0f45e4b50"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_half_time</b></td></tr>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_half_time</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:a23934a7c6b03df7331c651b0f45e4b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab639185536c60809ca9e2fcb319bf463"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab639185536c60809ca9e2fcb319bf463"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::MeshBase * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_meshes</b></td></tr>
@@ -405,14 +405,14 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_max_level_number</b>
 &lt; libMesh::EquationSystems * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_equation_systems</b></td></tr>
 <tr class="separator:a7535a9f8eb054c6dd28548e21e0b8b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff1016e64a460152737ff01789c04fed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff1016e64a460152737ff01789c04fed"></a>
-const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_num_parts</b></td></tr>
+const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_num_parts</b> = 1</td></tr>
 <tr class="separator:aff1016e64a460152737ff01789c04fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437e27ccd553c9fb6c30e5c101a6cd62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a437e27ccd553c9fb6c30e5c101a6cd62"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
 &lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_data_managers</b></td></tr>
 <tr class="separator:a437e27ccd553c9fb6c30e5c101a6cd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac434b38a0581cb0e1bd0a1514864951c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac434b38a0581cb0e1bd0a1514864951c"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_ghosts</b></td></tr>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_ghosts</b> = 0</td></tr>
 <tr class="separator:ac434b38a0581cb0e1bd0a1514864951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa38dd1d6c981819b48de5901e1b733e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa38dd1d6c981819b48de5901e1b733e"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::System * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_X_systems</b></td></tr>
@@ -505,10 +505,10 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_num_p
 &lt; libMesh::PetscVector&lt; double &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_DP_IB_ghost_vecs</b></td></tr>
 <tr class="separator:a17adc7aa23334a9a89e8b4da636b5926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a545621599ae22384a908aa29ed854781"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a545621599ae22384a908aa29ed854781"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_equation_systems_initialized</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_equation_systems_initialized</b> = false</td></tr>
 <tr class="separator:a545621599ae22384a908aa29ed854781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae01aa454b91aa315b0f0494385ec7cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae01aa454b91aa315b0f0494385ec7cd"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_data_initialized</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_data_initialized</b> = false</td></tr>
 <tr class="separator:aae01aa454b91aa315b0f0494385ec7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae476524642a90cfd90f62ec994aed324"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae476524642a90cfd90f62ec994aed324"></a>
 <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">IBTK::FEDataManager::InterpSpec</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_default_interp_spec</b></td></tr>
@@ -525,13 +525,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_data_initialized
 &lt; <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">IBTK::FEDataManager::SpreadSpec</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_spread_spec</b></td></tr>
 <tr class="separator:a6d77a43c01fa1ad2c6c0cdff23975baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a802c015c2a77d71ef4a371ae54b81492"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a802c015c2a77d71ef4a371ae54b81492"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_jump_conditions</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_jump_conditions</b> = false</td></tr>
 <tr class="separator:a802c015c2a77d71ef4a371ae54b81492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab708963f6b32b362b799004d4afc4053"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab708963f6b32b362b799004d4afc4053"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_perturb_fe_mesh_nodes</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_perturb_fe_mesh_nodes</b> = true</td></tr>
 <tr class="separator:ab708963f6b32b362b799004d4afc4053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd6b3b6b28680aae21000edfcbf3d6a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd6b3b6b28680aae21000edfcbf3d6a7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_normalize_pressure_jump</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_normalize_pressure_jump</b> = false</td></tr>
 <tr class="separator:abd6b3b6b28680aae21000edfcbf3d6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f0a33a685ae1307dfbe6fe4806d4d87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f0a33a685ae1307dfbe6fe4806d4d87"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::FEFamily &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_family</b></td></tr>
@@ -547,10 +547,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_normalize_pressure_
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::Order &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_default_quad_order</b></td></tr>
 <tr class="separator:a43db6aa8cce7e288ee65323cc2c333c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e5e2ef46f0880fc156f3f0f7ea0023a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e5e2ef46f0880fc156f3f0f7ea0023a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_consistent_mass_matrix</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_consistent_mass_matrix</b> = true</td></tr>
 <tr class="separator:a5e5e2ef46f0880fc156f3f0f7ea0023a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec25f689c1755f85c74f67b1f3a15566"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec25f689c1755f85c74f67b1f3a15566"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_direct_forcing</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_direct_forcing</b> = false</td></tr>
 <tr class="separator:aec25f689c1755f85c74f67b1f3a15566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf396f46c89eb371eb6728c99bdee587"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf396f46c89eb371eb6728c99bdee587"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
@@ -1816,7 +1816,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_restart_rest
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 7 2018 15:02:11 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 8 2018 02:56:44 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
