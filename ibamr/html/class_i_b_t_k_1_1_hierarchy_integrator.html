@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 &lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a><br class="typebreak"/>
 &lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a98f3f1b97d50eada757f0e3f611ba3d7">getGriddingAlgorithm</a> () const </td></tr>
 <tr class="separator:a98f3f1b97d50eada757f0e3f611ba3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee515a5ab2672197d461cd2cf2f1308"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#abee515a5ab2672197d461cd2cf2f1308">registerLoadBalancer</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt; load_balancer)</td></tr>
+<tr class="separator:abee515a5ab2672197d461cd2cf2f1308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09f8bc452a3344c9760b9071679f2c95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a09f8bc452a3344c9760b9071679f2c95">registerVisItDataWriter</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt; visit_writer)</td></tr>
 <tr class="separator:a09f8bc452a3344c9760b9071679f2c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1441a3aa96a90bcb2172bc1f58d474"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
@@ -354,6 +356,19 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 &lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a><br class="typebreak"/>
 &lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_gridding_alg</b></td></tr>
 <tr class="separator:a52f86b70ecee91952e47a30b538a6c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c7b14f147e9e7308e019ec661b36c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2c7b14f147e9e7308e019ec661b36c8"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a><br class="typebreak"/>
+&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_load_balancer</b></td></tr>
+<tr class="separator:af2c7b14f147e9e7308e019ec661b36c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b576143c4c043358cd122111ce6d689"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b576143c4c043358cd122111ce6d689"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
+&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a><br class="typebreak"/>
+&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_workload_var</b></td></tr>
+<tr class="separator:a0b576143c4c043358cd122111ce6d689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f624211b7fb037a1b7873d197532756"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f624211b7fb037a1b7873d197532756"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>d_workload_idx</b> = IBTK::invalid_index</td></tr>
+<tr class="separator:a8f624211b7fb037a1b7873d197532756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af658ca9f2afc66311105360980246c1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af658ca9f2afc66311105360980246c1b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_hierarchy_is_initialized</b> = false</td></tr>
 <tr class="separator:af658ca9f2afc66311105360980246c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2347,6 +2362,34 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 
 </div>
 </div>
+<a class="anchor" id="abee515a5ab2672197d461cd2cf2f1308"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::HierarchyIntegrator::registerLoadBalancer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramname"><em>load_balancer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Register a load balancer for non-uniform load balancing.</p>
+<dl class="section note"><dt>Note</dt><dd>inheriting classes may reimplement this method in such a way that <code>load_balancer</code> is registered with another object; e.g., IBHierarchyIntegrator passes <code>load_balancer</code> to its IBStrategy object. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a791f6635e6195af99633616148a44f17">IBAMR::IBHierarchyIntegrator</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae62554a0debc2042ce923eaa38997b88"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3075,7 +3118,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 17 2018 21:18:18 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 17 2018 21:19:39 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
