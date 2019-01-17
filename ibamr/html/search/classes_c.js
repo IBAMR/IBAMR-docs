@@ -2,8 +2,8 @@ var searchData=
 [
   ['lagbodyforcefcndata',['LagBodyForceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_body_force_fcn_data.html',1,'IBAMR::IBFEMethod']]],
   ['lagbodysourcefcndata',['LagBodySourceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_body_source_fcn_data.html',1,'IBAMR::IBFEMethod']]],
-  ['lagsurfaceforcefcndata',['LagSurfaceForceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_surface_method_1_1_lag_surface_force_fcn_data.html',1,'IBAMR::IBFESurfaceMethod']]],
   ['lagsurfaceforcefcndata',['LagSurfaceForceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_surface_force_fcn_data.html',1,'IBAMR::IBFEMethod']]],
+  ['lagsurfaceforcefcndata',['LagSurfaceForceFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_surface_method_1_1_lag_surface_force_fcn_data.html',1,'IBAMR::IBFESurfaceMethod']]],
   ['lagsurfacepressurefcndata',['LagSurfacePressureFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_surface_pressure_fcn_data.html',1,'IBAMR::IBFEMethod']]],
   ['lagsurfacepressurefcndata',['LagSurfacePressureFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_surface_method_1_1_lag_surface_pressure_fcn_data.html',1,'IBAMR::IBFESurfaceMethod']]],
   ['laplaceoperator',['LaplaceOperator',['../class_i_b_t_k_1_1_laplace_operator.html',1,'IBTK']]],
