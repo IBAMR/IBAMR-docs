@@ -615,10 +615,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>mask_scratch_idx</b></
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a053377a2b60155ce107949e3e1b89871">computeStressNormalization</a> (libMesh::PetscVector&lt; double &gt; &amp;Phi_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:a053377a2b60155ce107949e3e1b89871 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the stress normalization field Phi. <br/></td></tr>
 <tr class="separator:a053377a2b60155ce107949e3e1b89871 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a550b7a8672549e1767692bb92db1dae6 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a550b7a8672549e1767692bb92db1dae6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a550b7a8672549e1767692bb92db1dae6">computeInteriorForceDensity</a> (libMesh::PetscVector&lt; double &gt; &amp;G_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, libMesh::PetscVector&lt; double &gt; *Phi_vec, double data_time, unsigned int part)</td></tr>
-<tr class="memdesc:a550b7a8672549e1767692bb92db1dae6 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the interior elastic density, possibly splitting off the normal component of the transmission force along the physical boundary of the Lagrangian structure. <br/></td></tr>
-<tr class="separator:a550b7a8672549e1767692bb92db1dae6 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3275a8cbe361397ab87f35b35276f3 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb3275a8cbe361397ab87f35b35276f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#adb3275a8cbe361397ab87f35b35276f3">assembleInteriorForceDensityRHS</a> (libMesh::PetscVector&lt; double &gt; &amp;G_rhs_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, libMesh::PetscVector&lt; double &gt; *Phi_vec, double data_time, unsigned int part)</td></tr>
+<tr class="memdesc:adb3275a8cbe361397ab87f35b35276f3 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assemble the RHS for the interior elastic density, possibly splitting off the normal component of the transmission force along the physical boundary of the Lagrangian structure. <br/></td></tr>
+<tr class="separator:adb3275a8cbe361397ab87f35b35276f3 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad48d172bfa2ae52257570ae839fadb19 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad48d172bfa2ae52257570ae839fadb19"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad48d172bfa2ae52257570ae839fadb19">resetOverlapNodalValues</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::NumericVector&lt; double &gt; * &gt; &amp;F_vecs)</td></tr>
 <tr class="memdesc:ad48d172bfa2ae52257570ae839fadb19 inherit pro_methods_class_i_b_a_m_r_1_1_i_b_f_e_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset positions in overlap regions. <br/></td></tr>
@@ -1345,7 +1345,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_free_dofs_map_updat
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 18 2019 23:12:06 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 28 2019 17:05:55 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
