@@ -255,6 +255,7 @@ var searchData=
   ['getfaceweightvariable',['getFaceWeightVariable',['../class_i_b_t_k_1_1_hierarchy_math_ops.html#ac2c5f41e47f28bf70c1ab7c09b2b8aec',1,'IBTK::HierarchyMathOps']]],
   ['getfacpreconditionerstrategy',['getFACPreconditionerStrategy',['../class_i_b_t_k_1_1_f_a_c_preconditioner.html#a3636c0794d29b9d7d434fc9d651bb1f5',1,'IBTK::FACPreconditioner']]],
   ['getfedatamanager',['getFEDataManager',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#aa0b4c15ff591aaf6cae7426e6b8cb136',1,'IBAMR::IBFEMethod::getFEDataManager()'],['../class_i_b_a_m_r_1_1_i_b_f_e_surface_method.html#aee7e8845f1cdf1152a626c65d6e330fe',1,'IBAMR::IBFESurfaceMethod::getFEDataManager()']]],
+  ['getfetype',['getFEType',['../class_i_b_t_k_1_1_f_e_cache.html#a1bc4ee8e29eebd8ad33be4c6a3e2bc6c',1,'IBTK::FECache']]],
   ['getfile',['getFILE',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1FileStream.html#5d04e4bd927b4113e6de38462414fb3a',1,'SAMRAI::tbox::FileStream']]],
   ['getfinalconvergencefactor',['getFinalConvergenceFactor',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1FACPreconditioner.html#e0aa7eb809943d4dca673013c9645dd9',1,'SAMRAI::solv::FACPreconditioner']]],
   ['getfinaltime',['getFinalTime',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1ImplicitIntegrator.html#207169652f36c0919e99ff984a19e0f9',1,'SAMRAI::algs::ImplicitIntegrator']]],

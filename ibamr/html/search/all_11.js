@@ -4,6 +4,7 @@ var searchData=
   ['qsortintcompare',['qsortIntCompare',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1BoxGraphUtilities.html#eb3320811ec1b8749b8fcd85acc039c1',1,'SAMRAI::hier::BoxGraphUtilities']]],
   ['quadratic_5fprobe_5ffn',['quadratic_probe_fn',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10068.html',1,'__gnu_pbds']]],
   ['quadratic_5fprobe_5ffn_5fimp_2ehpp',['quadratic_probe_fn_imp.hpp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01325.html',1,'']]],
+  ['quadratures',['quadratures',['../class_i_b_t_k_1_1_f_e_cache.html#aa3b3f50fee0df9859b35c8b4b7366b1f',1,'IBTK::FECache']]],
   ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html',1,'std']]],
   ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00119.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html#abdaacb8e25703a65fc79cbfa5fe6934b',1,'std::queue::queue()']]],
   ['queue_2eh',['queue.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00935.html',1,'']]],
