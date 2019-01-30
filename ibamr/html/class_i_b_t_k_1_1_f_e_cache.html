@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_i_b_t_k_1_1_f_e_cache-members.html">List of all members</a>  </div>
@@ -101,12 +102,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><code>#include &lt;ibtk/FECache.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a84bf5fa21bbaa68e16197d8a41263dcd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt;</td></tr>
+<tr class="separator:a84bf5fa21bbaa68e16197d8a41263dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d25e41bc8cdcb5fb96201e0062c7da"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a69d25e41bc8cdcb5fb96201e0062c7da">value_type</a> = libMesh::FEBase</td></tr>
+<tr class="separator:a69d25e41bc8cdcb5fb96201e0062c7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a11e00cc92a1e6cbc45f94322799839cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a11e00cc92a1e6cbc45f94322799839cf">FECache</a> (const unsigned int <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#ae840521281d5b5cae5d69bb1e6ce406e">dim</a>, const libMesh::FEType &amp;<a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#ae90d7597193b2663cf8226f43bc6b67e">fe_type</a>)</td></tr>
 <tr class="separator:a11e00cc92a1e6cbc45f94322799839cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dcb5c460fa0812ff487334ddf37f142"><td class="memItemLeft" align="right" valign="top">libMesh::FEBase &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a5dcb5c460fa0812ff487334ddf37f142">operator[]</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; libMesh::QuadratureType, libMesh::Order &gt; &amp;quad_key)</td></tr>
-<tr class="separator:a5dcb5c460fa0812ff487334ddf37f142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dedbb86cb722c10e2ad418d6b567084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a69d25e41bc8cdcb5fb96201e0062c7da">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a7dedbb86cb722c10e2ad418d6b567084">operator[]</a> (const <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a> &amp;quad_key)</td></tr>
+<tr class="separator:a7dedbb86cb722c10e2ad418d6b567084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bc4ee8e29eebd8ad33be4c6a3e2bc6c"><td class="memItemLeft" align="right" valign="top">libMesh::FEType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a1bc4ee8e29eebd8ad33be4c6a3e2bc6c">getFEType</a> () const </td></tr>
 <tr class="separator:a1bc4ee8e29eebd8ad33be4c6a3e2bc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -116,24 +124,47 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae840521281d5b5cae5d69bb1e6ce406e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae90d7597193b2663cf8226f43bc6b67e"><td class="memItemLeft" align="right" valign="top">const libMesh::FEType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#ae90d7597193b2663cf8226f43bc6b67e">fe_type</a></td></tr>
 <tr class="separator:ae90d7597193b2663cf8226f43bc6b67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3b3f50fee0df9859b35c8b4b7366b1f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a><br class="typebreak"/>
-&lt; libMesh::QuadratureType, <br class="typebreak"/>
-libMesh::Order &gt;<br class="typebreak"/>
-, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a><br class="typebreak"/>
-&lt; libMesh::QBase &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#aa3b3f50fee0df9859b35c8b4b7366b1f">quadratures</a></td></tr>
-<tr class="separator:aa3b3f50fee0df9859b35c8b4b7366b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a661bec9aa7edfb73d2db61dfad9b3e70"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a><br class="typebreak"/>
-&lt; libMesh::QuadratureType, <br class="typebreak"/>
-libMesh::Order &gt;<br class="typebreak"/>
-, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a><br class="typebreak"/>
-&lt; libMesh::FEBase &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a661bec9aa7edfb73d2db61dfad9b3e70">fes</a></td></tr>
-<tr class="separator:a661bec9aa7edfb73d2db61dfad9b3e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940dac23af94ddbbd5bf818931175caf"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a>, <br class="typebreak"/>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a><br class="typebreak"/>
+&lt; libMesh::QBase &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a940dac23af94ddbbd5bf818931175caf">quadratures</a></td></tr>
+<tr class="separator:a940dac23af94ddbbd5bf818931175caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592369d5c8d523fa3bcd4a2fb0d8ad97"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a>, <br class="typebreak"/>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a><br class="typebreak"/>
+&lt; libMesh::FEBase &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a592369d5c8d523fa3bcd4a2fb0d8ad97">fes</a></td></tr>
+<tr class="separator:a592369d5c8d523fa3bcd4a2fb0d8ad97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class storing multiple libMesh::FE objects, each corresponding to a different quadrature rule. Each FE object is configured with a quadrature rule corresponding to the provided <code>quad_key</code> parameter. </p>
 <p>The Lagrangian-Eulerian interaction code uses different quadrature rules on different Elems to account for the change in size, over time, of each corresponding grid cell. Since libMesh::FE objects cache values that are independent of the current cell (such as shape function values) but <em>dependent</em> upon the quadrature rule, it is much more efficient to store one FE object for each quadrature rule instead of constantly recomputing, e.g., shape function values.</p>
 <p>This class essentially provides a wrapper around <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a> to manage FE objects and the quadrature rules they use. The keys are descriptions of quadrature rules. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a84bf5fa21bbaa68e16197d8a41263dcd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">IBTK::FECache::key_type</a> =  <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt;libMesh::ElemType, libMesh::QuadratureType, libMesh::Order&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Key type. Completely describes (excepting p-refinement) a <a class="el" href="namespacelib_mesh.html">libMesh</a> quadrature rule. </p>
+
+</div>
+</div>
+<a class="anchor" id="a69d25e41bc8cdcb5fb96201e0062c7da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a69d25e41bc8cdcb5fb96201e0062c7da">IBTK::FECache::value_type</a> =  libMesh::FEBase</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Type of values stored by this class that are accessible through <code>operator[]</code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a11e00cc92a1e6cbc45f94322799839cf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +232,7 @@ libMesh::Order &gt;<br class="typebreak"/>
 
 </div>
 </div>
-<a class="anchor" id="a5dcb5c460fa0812ff487334ddf37f142"></a>
+<a class="anchor" id="a7dedbb86cb722c10e2ad418d6b567084"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -209,9 +240,9 @@ libMesh::Order &gt;<br class="typebreak"/>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">libMesh::FEBase &amp; IBTK::FECache::operator[] </td>
+          <td class="memname"><a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a69d25e41bc8cdcb5fb96201e0062c7da">FECache::value_type</a> &amp; IBTK::FECache::operator[] </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt; libMesh::QuadratureType, libMesh::Order &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a> &amp;&#160;</td>
           <td class="paramname"><em>quad_key</em></td><td>)</td>
           <td></td>
         </tr>
@@ -225,7 +256,7 @@ libMesh::Order &gt;<br class="typebreak"/>
 <p>Return a reference to an FE object that matches the specified quadrature rule type and order.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">quad_key</td><td>a pair of enums that completely describes a <a class="el" href="namespacelib_mesh.html">libMesh</a> quadrature rule. </td></tr>
+    <tr><td class="paramname">quad_key</td><td>a tuple of enums that completely describes a <a class="el" href="namespacelib_mesh.html">libMesh</a> quadrature rule. </td></tr>
   </table>
   </dd>
 </dl>
@@ -275,7 +306,7 @@ libMesh::Order &gt;<br class="typebreak"/>
 
 </div>
 </div>
-<a class="anchor" id="a661bec9aa7edfb73d2db61dfad9b3e70"></a>
+<a class="anchor" id="a592369d5c8d523fa3bcd4a2fb0d8ad97"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -283,7 +314,7 @@ libMesh::Order &gt;<br class="typebreak"/>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt;libMesh::QuadratureType, libMesh::Order&gt;, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;libMesh::FEBase&gt; &gt; IBTK::FECache::fes</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;libMesh::FEBase&gt; &gt; IBTK::FECache::fes</td>
         </tr>
       </table>
   </td>
@@ -296,7 +327,7 @@ libMesh::Order &gt;<br class="typebreak"/>
 
 </div>
 </div>
-<a class="anchor" id="aa3b3f50fee0df9859b35c8b4b7366b1f"></a>
+<a class="anchor" id="a940dac23af94ddbbd5bf818931175caf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -304,7 +335,7 @@ libMesh::Order &gt;<br class="typebreak"/>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html">std::pair</a>&lt;libMesh::QuadratureType, libMesh::Order&gt;, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;libMesh::QBase&gt; &gt; IBTK::FECache::quadratures</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_cache.html#a84bf5fa21bbaa68e16197d8a41263dcd">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;libMesh::QBase&gt; &gt; IBTK::FECache::quadratures</td>
         </tr>
       </table>
   </td>
@@ -323,7 +354,7 @@ libMesh::Order &gt;<br class="typebreak"/>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 29 2019 18:26:18 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 30 2019 18:40:05 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

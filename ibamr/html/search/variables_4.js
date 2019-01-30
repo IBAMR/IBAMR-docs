@@ -139,6 +139,6 @@ var searchData=
   ['denorm_5fpresent',['denorm_present',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01544.html#a5d4e3dd02abab45dde95b5bb4ae7fdbfa28c4fcc178853e4c66190bc2c5027de5',1,'std']]],
   ['digits',['digits',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02632.html#a6e3cb3ba2f8a6742d4759b989e5e3fed',1,'std::__numeric_limits_base::digits()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02632.html#a6e3cb3ba2f8a6742d4759b989e5e3fed',1,'std::numeric_limits::digits()']]],
   ['digits10',['digits10',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02632.html#acc2df72b67282d8ad4ca54cbb4826475',1,'std::__numeric_limits_base::digits10()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02632.html#acc2df72b67282d8ad4ca54cbb4826475',1,'std::numeric_limits::digits10()']]],
-  ['dim',['dim',['../class_i_b_t_k_1_1_f_e_cache.html#ae840521281d5b5cae5d69bb1e6ce406e',1,'IBTK::FECache']]],
+  ['dim',['dim',['../class_i_b_t_k_1_1_f_e_cache.html#ae840521281d5b5cae5d69bb1e6ce406e',1,'IBTK::FECache::dim()'],['../class_i_b_t_k_1_1_f_e_map_cache.html#a77ed491aaa52c42c90def5d6fe128d79',1,'IBTK::FEMapCache::dim()']]],
   ['distributed',['DISTRIBUTED',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerEdgeSet.html#16c7a3e816245aac62eda5fa36354ce4df2cc0623667ffde880ac3dc86f3021e',1,'SAMRAI::hier::LayerEdgeSet::DISTRIBUTED()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerNodeSet.html#273d3f3c9d38641045734339bfba202c0675794a42776493751b96e711e98889',1,'SAMRAI::hier::LayerNodeSet::DISTRIBUTED()']]]
 ];
