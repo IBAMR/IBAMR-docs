@@ -120,10 +120,8 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a77ed491aaa52c42c90def5d6fe128d79"><td class="memItemLeft" align="right" valign="top">const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#a77ed491aaa52c42c90def5d6fe128d79">dim</a></td></tr>
 <tr class="separator:a77ed491aaa52c42c90def5d6fe128d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af52150f768a9d351e81727aa0ddce6c6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#a9b5671065816c30b0a870b52c6200b78">key_type</a>, <br class="typebreak"/>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a><br class="typebreak"/>
-&lt; libMesh::QBase &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#af52150f768a9d351e81727aa0ddce6c6">quadratures</a></td></tr>
-<tr class="separator:af52150f768a9d351e81727aa0ddce6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68462ce2f9618e0acaf5ae83b6354a74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_b_t_k_1_1_quadrature_cache.html">QuadratureCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#a68462ce2f9618e0acaf5ae83b6354a74">quadrature_cache</a></td></tr>
+<tr class="separator:a68462ce2f9618e0acaf5ae83b6354a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f7fc69b1ea44c35cb23e6dc65681e2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#a9b5671065816c30b0a870b52c6200b78">key_type</a>, <br class="typebreak"/>
 libMesh::FEMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#a88f7fc69b1ea44c35cb23e6dc65681e2">fe_maps</a></td></tr>
 <tr class="separator:a88f7fc69b1ea44c35cb23e6dc65681e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,7 +266,7 @@ libMesh::FEMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class=
 
 </div>
 </div>
-<a class="anchor" id="af52150f768a9d351e81727aa0ddce6c6"></a>
+<a class="anchor" id="a68462ce2f9618e0acaf5ae83b6354a74"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -276,7 +274,7 @@ libMesh::FEMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class=
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_map_cache.html#a9b5671065816c30b0a870b52c6200b78">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;libMesh::QBase&gt; &gt; IBTK::FEMapCache::quadratures</td>
+          <td class="memname"><a class="el" href="class_i_b_t_k_1_1_quadrature_cache.html">QuadratureCache</a> IBTK::FEMapCache::quadrature_cache</td>
         </tr>
       </table>
   </td>
@@ -285,7 +283,7 @@ libMesh::FEMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class=
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Managed libMesh::Quadrature objects. These are attached to the FE objects. </p>
+<p>Managed libMesh::Quadrature objects. These are used to partially initialize (i.e., points but not weights are stored) the FEMap objects. </p>
 
 </div>
 </div>
@@ -295,7 +293,7 @@ libMesh::FEMap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class=
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 2 2019 03:00:46 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 4 2019 03:49:03 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
