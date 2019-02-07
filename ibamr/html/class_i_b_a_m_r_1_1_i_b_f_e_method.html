@@ -240,6 +240,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8e96a4de1462c8c3f9d138171d9cae4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1fdc5d05e0f9081066b8da0be0b7e9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ac1fdc5d05e0f9081066b8da0be0b7e9f">initializeFEData</a> ()</td></tr>
 <tr class="separator:ac1fdc5d05e0f9081066b8da0be0b7e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa69e419c6a949c4d9d136abbbf4f856f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#aa69e419c6a949c4d9d136abbbf4f856f">reinitializeFEData</a> ()</td></tr>
+<tr class="separator:aa69e419c6a949c4d9d136abbbf4f856f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3efe212b70056f71d887e3f173432d42"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3efe212b70056f71d887e3f173432d42"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a3efe212b70056f71d887e3f173432d42">registerEulerianVariables</a> () override</td></tr>
 <tr class="memdesc:a3efe212b70056f71d887e3f173432d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register Eulerian variables with the parent <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions...">IBHierarchyIntegrator</a>. <br/></td></tr>
@@ -2074,6 +2076,22 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_restart_rest
 
 </div>
 </div>
+<a class="anchor" id="aa69e419c6a949c4d9d136abbbf4f856f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBFEMethod::reinitializeFEData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reinitialize FE data by calling <code>reinit</code> on each part's EquationSystem, reassembling the system matrices, and setting boundary conditions. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0dd4f8a28b0cfebfe8ec7b7302bb627d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2415,7 +2433,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_restart_rest
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 6 2019 04:10:10 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 7 2019 02:26:38 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
