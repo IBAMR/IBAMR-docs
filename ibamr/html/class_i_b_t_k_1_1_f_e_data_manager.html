@@ -128,6 +128,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac3e5d4a3e7063e2e25890d6d4a44875e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ac3e5d4a3e7063e2e25890d6d4a44875e">setLoggingEnabled</a> (bool enable_logging=true)</td></tr>
+<tr class="memdesc:ac3e5d4a3e7063e2e25890d6d4a44875e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable logging.  <a href="#ac3e5d4a3e7063e2e25890d6d4a44875e">More...</a><br/></td></tr>
+<tr class="separator:ac3e5d4a3e7063e2e25890d6d4a44875e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6fdf512583d28256a617f6141bedcb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b6fdf512583d28256a617f6141bedcb"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a0b6fdf512583d28256a617f6141bedcb">getLoggingEnabled</a> () const </td></tr>
+<tr class="memdesc:a0b6fdf512583d28256a617f6141bedcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether logging is enabled or disabled. <br/></td></tr>
+<tr class="separator:a0b6fdf512583d28256a617f6141bedcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1a0a70fa3d4a343a8bdb63b7f89b9fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1a0a70fa3d4a343a8bdb63b7f89b9fb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ab1a0a70fa3d4a343a8bdb63b7f89b9fb">registerLoadBalancer</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt; load_balancer, int workload_data_idx)</td></tr>
 <tr class="memdesc:ab1a0a70fa3d4a343a8bdb63b7f89b9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a load balancer for non-uniform load balancing. <br/></td></tr>
@@ -945,6 +952,25 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac3e5d4a3e7063e2e25890d6d4a44875e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FEDataManager::setLoggingEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable_logging</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable or disable logging. </p>
+<dl class="section note"><dt>Note</dt><dd>This is usually set by the IBFEMethod which owns the current <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a>, which reads the relevant boolean from the database. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ad642f1a5b469f6fa128a97f843fb91cd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1177,7 +1203,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 8 2019 21:37:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 11 2019 16:47:49 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
