@@ -162,6 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa19551072cdff14186f1af11fae865a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d35d4037ec7b5837c8dd84dde6e0264"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a6d35d4037ec7b5837c8dd84dde6e0264">stepsRemaining</a> () const </td></tr>
 <tr class="separator:a6d35d4037ec7b5837c8dd84dde6e0264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca77a4b9154f178bcc5b759c5ac33409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aca77a4b9154f178bcc5b759c5ac33409">updateWorkloadEstimates</a> ()</td></tr>
+<tr class="separator:aca77a4b9154f178bcc5b759c5ac33409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c8fa37c580b6e3dc5305ab2269cb25a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
 &lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a><br class="typebreak"/>
 &lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a9c8fa37c580b6e3dc5305ab2269cb25a">getPatchHierarchy</a> () const </td></tr>
@@ -283,6 +285,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a692855d3982df504232d2dd70a5b46eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50775b336487c703984b33db64edbb49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a50775b336487c703984b33db64edbb49">putToDatabaseSpecialized</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db)</td></tr>
 <tr class="separator:a50775b336487c703984b33db64edbb49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0468a410ef6f604da1d3df5ff870460a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0468a410ef6f604da1d3df5ff870460a">addWorkloadEstimate</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const int workload_data_idx)</td></tr>
+<tr class="separator:a0468a410ef6f604da1d3df5ff870460a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b75686ce9dd26b40409f734743dbcd1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a7b75686ce9dd26b40409f734743dbcd1">executePreprocessIntegrateHierarchyCallbackFcns</a> (double current_time, double new_time, int num_cycles)</td></tr>
 <tr class="separator:a7b75686ce9dd26b40409f734743dbcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc2a4a64d6da28445c55d8df0999fa88"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#abc2a4a64d6da28445c55d8df0999fa88">executeIntegrateHierarchyCallbackFcns</a> (double current_time, double new_time, int cycle_num)</td></tr>
@@ -366,8 +370,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 &lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a><br class="typebreak"/>
 &lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_workload_var</b></td></tr>
 <tr class="separator:a0b576143c4c043358cd122111ce6d689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f624211b7fb037a1b7873d197532756"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f624211b7fb037a1b7873d197532756"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>d_workload_idx</b> = IBTK::invalid_index</td></tr>
+<tr class="memitem:a8f624211b7fb037a1b7873d197532756"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a8f624211b7fb037a1b7873d197532756">d_workload_idx</a> = IBTK::invalid_index</td></tr>
 <tr class="separator:a8f624211b7fb037a1b7873d197532756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af658ca9f2afc66311105360980246c1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af658ca9f2afc66311105360980246c1b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_hierarchy_is_initialized</b> = false</td></tr>
@@ -645,6 +648,44 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0468a410ef6f604da1d3df5ff870460a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::HierarchyIntegrator::addWorkloadEstimate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramname"><em>hierarchy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>workload_data_idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Virtual method to provide implementation-specific workload estimate calculations. This method will be called on each registered child integrator. The intent of this function is that any <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati...">HierarchyIntegrator</a> object that manages data whose work varies from <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/namespaceSAMRAI.html">SAMRAI</a> cell to <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/namespaceSAMRAI.html">SAMRAI</a> cell will represent its additional workload by summing estimates into the <code>workload_data_idx</code> variable.</p>
+<dl class="section note"><dt>Note</dt><dd>The default version of this function, i.e., <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0468a410ef6f604da1d3df5ff870460a">HierarchyIntegrator::addWorkloadEstimate()</a>, does nothing. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a13249645e4a940a84c7013022bdc1b3e">IBAMR::IBHierarchyIntegrator</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad03e2b9b63c8cc24cd65085a49593d19"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2384,7 +2425,9 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 </table>
 </div><div class="memdoc">
 <p>Register a load balancer for non-uniform load balancing.</p>
-<dl class="section note"><dt>Note</dt><dd>inheriting classes may reimplement this method in such a way that <code>load_balancer</code> is registered with another object; e.g., IBHierarchyIntegrator passes <code>load_balancer</code> to its IBStrategy object. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>inheriting classes may reimplement this method in such a way that <code>load_balancer</code> is registered with another object; e.g., IBHierarchyIntegrator passes <code>load_balancer</code> to its IBStrategy object. It will still usually be necessary to call <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#abee515a5ab2672197d461cd2cf2f1308">HierarchyIntegrator::registerLoadBalancer</a> at the beginning top of such overloaded functions.</dd>
+<dd>
+If it does not already exist, calling this function will also register a cell variable for containing workload estimates (and subsequently register that variable with the load balancer): The variable index is <code>d_workload_idx</code>. All inheriting classes assume that this is the cell variable associated with workload estimates and will write their own data into these arrays. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a791f6635e6195af99633616148a44f17">IBAMR::IBHierarchyIntegrator</a>.</p>
 
@@ -3026,6 +3069,25 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 
 </div>
 </div>
+<a class="anchor" id="aca77a4b9154f178bcc5b759c5ac33409"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::HierarchyIntegrator::updateWorkloadEstimates </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Update workload estimates on each level of the patch hierarchy. Does nothing unless a load balancer has previously been attached via HierarchyIntegrator::register_load_balancer. This function is usually called immediately before regridding so that, should a load balancer be registered with the current class, that load balancer can distribute patches in a way that gives each processor a roughly equal amount of work (instead of simply an equal number of cells).</p>
+<dl class="section note"><dt>Note</dt><dd>This function computes workloads by setting the estimated work value on all cells to 1 and then calling addWorkloadEstimate on the current object and on each child hierarchy integrator.</dd>
+<dd>
+The workload estimate itself is stored in the variable with index <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a8f624211b7fb037a1b7873d197532756">HierarchyIntegrator::d_workload_idx</a>. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a4b746c6b3e47b2dd0824d9f980c7a098"></a>
 <div class="memitem">
@@ -3090,6 +3152,28 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 
 </div>
 </div>
+<a class="anchor" id="a8f624211b7fb037a1b7873d197532756"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IBTK::HierarchyIntegrator::d_workload_idx = IBTK::invalid_index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The index of the workload estimate variable. If the current integrator is a child integrator then this variable index may not be set to the correct variable index since the parent is assumed to manage the variable, and the correct index is always provided when calling <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0468a410ef6f604da1d3df5ff870460a">HierarchyIntegrator::addWorkloadEstimate()</a> from parent integrators.</p>
+<p>If necessary, this variable can be retrieved from the variable database under the name <code>object_name + "::workload"</code>, where <code>object_name</code> is the name of the parent hierarchy integrator. </p>
+
+</div>
+</div>
 <a class="anchor" id="a2a71c9e24e273b7a91e6c27f845c1250"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3118,7 +3202,7 @@ This method is called <em>prior</em> to the initial construction of the patch hi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 12 2019 02:55:24 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 13 2019 20:35:15 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
