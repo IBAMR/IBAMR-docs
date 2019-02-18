@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a663ea6c326323191d2c3fd7ff3138c96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a663ea6c326323191d2c3fd7ff3138c96"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dof_indices</b> (const libMesh::Elem *const elem, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &amp;dof_indices, const unsigned int var=0)</td></tr>
 <tr class="separator:a663ea6c326323191d2c3fd7ff3138c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacde747cb6a4742f0e358a08f29d684"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a><br class="typebreak"/>
+&lt; libMesh::dof_id_type &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager_1_1_system_dof_map_cache.html#adacde747cb6a4742f0e358a08f29d684">dof_indices</a> (const libMesh::Elem *const elem)</td></tr>
+<tr class="separator:adacde747cb6a4742f0e358a08f29d684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class which enables fast lookup of dofs on a given <a class="el" href="namespacelib_mesh.html">libMesh</a> <code>elem</code>.</p>
@@ -134,13 +137,39 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>dof_indices</b> (cons
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adacde747cb6a4742f0e358a08f29d684"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;libMesh::dof_id_type&gt; &gt;&amp; IBTK::FEDataManager::SystemDofMapCache::dof_indices </td>
+          <td>(</td>
+          <td class="paramtype">const libMesh::Elem *const&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Alternative indexing operation: retrieve all dof indices of all variables in the given system at once by reference. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/IBAMR/IBAMR/ibtk/include/ibtk/FEDataManager.h</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 16 2019 14:23:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 18 2019 16:29:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
