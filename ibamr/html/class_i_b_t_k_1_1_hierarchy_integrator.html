@@ -174,6 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a98f3f1b97d50eada757f0e3f611ba3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abee515a5ab2672197d461cd2cf2f1308"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#abee515a5ab2672197d461cd2cf2f1308">registerLoadBalancer</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt; load_balancer)</td></tr>
 <tr class="separator:abee515a5ab2672197d461cd2cf2f1308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516d570fcd7f5fb69781e0f79496feb4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a516d570fcd7f5fb69781e0f79496feb4">getWorkloadDataIndex</a> () const </td></tr>
+<tr class="separator:a516d570fcd7f5fb69781e0f79496feb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09f8bc452a3344c9760b9071679f2c95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a09f8bc452a3344c9760b9071679f2c95">registerVisItDataWriter</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt; visit_writer)</td></tr>
 <tr class="separator:a09f8bc452a3344c9760b9071679f2c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1441a3aa96a90bcb2172bc1f58d474"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a><br class="typebreak"/>
@@ -1730,6 +1732,23 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 
 </div>
 </div>
+<a class="anchor" id="a516d570fcd7f5fb69781e0f79496feb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IBTK::HierarchyIntegrator::getWorkloadDataIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the workload variable's patch data index. If the workload variable has not yet been set up by this object (or, should it exist, this object's parent hierarchy integrator) then IBTK::invalid_index is returned instead.</p>
+<dl class="section note"><dt>Note</dt><dd>this is only implemented since this information is not readily available from the variable database and there is no other way to access this variable. The main use of this variable is for optionally adding the workload estimates to the VisIt data writer. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ae6f6d89935d424ca5ca49e769148d61a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3082,9 +3101,22 @@ If it does not already exist, calling this function will also register a cell va
       </table>
 </div><div class="memdoc">
 <p>Update workload estimates on each level of the patch hierarchy. Does nothing unless a load balancer has previously been attached via HierarchyIntegrator::register_load_balancer. This function is usually called immediately before regridding so that, should a load balancer be registered with the current class, that load balancer can distribute patches in a way that gives each processor a roughly equal amount of work (instead of simply an equal number of cells).</p>
-<dl class="section note"><dt>Note</dt><dd>This function computes workloads by setting the estimated work value on all cells to 1 and then calling addWorkloadEstimate on the current object and on each child hierarchy integrator.</dd>
+<p>If you want to visualize the workload then you will have to ensure that workload estimates are recomputed after regridding (by default they are not). This is because workload estimates are only used when moving data between processors: they are computed immediately before the domain is repartitioned and, therefore, their patch data is always invalid at points where output is written. The easiest way to get around this is to enable logging (which will result in workload estimates being updated after regridding) or to manually call updateWorkloadEstimates at points where output is written. The former is more efficient since most applications regrid less frequently than they write visualization files.</p>
+<p>Once the data is available, it can be attached to the visit data writer in the usual way. Here is one way to do set this up at the same time the visit data writer is registered: </p>
+<div class="fragment"><div class="line">Pointer&lt;VisItDataWriter&lt;NDIM&gt; &gt; visit_data_writer = app_initializer-&gt;getVisItDataWriter();</div>
+<div class="line"><span class="keywordflow">if</span> (uses_visit)</div>
+<div class="line">{</div>
+<div class="line">    time_integrator-&gt;registerVisItDataWriter(visit_data_writer);</div>
+<div class="line">    <span class="comment">// This is only valid if a load balancer has previously been attached</span></div>
+<div class="line">    <span class="comment">// to the time integrator or, should it exist, its parent integrator;</span></div>
+<div class="line">    <span class="comment">// otherwise no workload estimates are computed</span></div>
+<div class="line">    visit_data_writer-&gt;registerPlotQuantity(<span class="stringliteral">&quot;workload&quot;</span>, <span class="stringliteral">&quot;SCALAR&quot;</span>,</div>
+<div class="line">                                            time_integrator-&gt;getWorkloadDataIndex());</div>
+<div class="line">}</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This function computes workloads by setting the estimated work value on all cells to 1 and then calling addWorkloadEstimate on the current object and on each child hierarchy integrator.</dd>
 <dd>
-The workload estimate itself is stored in the variable with index <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a8f624211b7fb037a1b7873d197532756">HierarchyIntegrator::d_workload_idx</a>. </dd></dl>
+The workload estimate itself is stored in the variable with index <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a8f624211b7fb037a1b7873d197532756">HierarchyIntegrator::d_workload_idx</a>.</dd></dl>
+<p><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a516d570fcd7f5fb69781e0f79496feb4">HierarchyIntegrator::getWorkloadDataIndex()</a> </p>
 
 </div>
 </div>
@@ -3202,7 +3234,7 @@ The workload estimate itself is stored in the variable with index <a class="el" 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 18 2019 19:14:34 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 18 2019 22:28:12 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
