@@ -171,6 +171,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:aa6bcac630c5d01de43874c99f716ccf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28ee72e7fdd4007414c9f7f44afa2806"><td class="memItemLeft" align="right" valign="top">libMesh::NumericVector&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a28ee72e7fdd4007414c9f7f44afa2806">buildGhostedSolutionVector</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, bool localize_data=true)</td></tr>
 <tr class="separator:a28ee72e7fdd4007414c9f7f44afa2806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59dc3e053fd81278d7cd551c59a3418b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a><br class="typebreak"/>
+&lt; libMesh::PetscVector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a59dc3e053fd81278d7cd551c59a3418b">buildIBGhostedVector</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name) const </td></tr>
+<tr class="separator:a59dc3e053fd81278d7cd551c59a3418b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69c2939be6577b4f4061b7fa196e37b8"><td class="memItemLeft" align="right" valign="top">libMesh::NumericVector&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a69c2939be6577b4f4061b7fa196e37b8">getCoordsVector</a> () const </td></tr>
 <tr class="separator:a69c2939be6577b4f4061b7fa196e37b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea3e740109fb669d08420a059720028b"><td class="memItemLeft" align="right" valign="top">libMesh::NumericVector&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#aea3e740109fb669d08420a059720028b">buildGhostedCoordsVector</a> (bool localize_data=true)</td></tr>
@@ -293,28 +296,35 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a3e76a91c964c5e5ed8f631a261b8ed3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e76a91c964c5e5ed8f631a261b8ed3d"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a3e76a91c964c5e5ed8f631a261b8ed3d">ZERO_DISPLACEMENT_X_BDRY_ID</a> = 0x100</td></tr>
-<tr class="memdesc:a3e76a91c964c5e5ed8f631a261b8ed3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespacelib_mesh.html">libMesh</a> boundary IDs to use for specifying essential boundary conditions. <br/></td></tr>
-<tr class="separator:a3e76a91c964c5e5ed8f631a261b8ed3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa437e63c35365e1c8b86ddead67cbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7aa437e63c35365e1c8b86ddead67cbf"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_Y_BDRY_ID</b> = 0x200</td></tr>
-<tr class="separator:a7aa437e63c35365e1c8b86ddead67cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04f231043859560af58c3fc309b16c46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04f231043859560af58c3fc309b16c46"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_Z_BDRY_ID</b> = 0x400</td></tr>
-<tr class="separator:a04f231043859560af58c3fc309b16c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac35cdb96b7bc11f65e315721039336ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac35cdb96b7bc11f65e315721039336ee"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_XY_BDRY_ID</b> = 0x100 | 0x200</td></tr>
-<tr class="separator:ac35cdb96b7bc11f65e315721039336ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32430e790da64f774298c2383682fbab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32430e790da64f774298c2383682fbab"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_XZ_BDRY_ID</b> = 0x100 | 0x400</td></tr>
-<tr class="separator:a32430e790da64f774298c2383682fbab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a09c72a7de17785ecac1d48a49f9998"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a09c72a7de17785ecac1d48a49f9998"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_YZ_BDRY_ID</b> = 0x200 | 0x400</td></tr>
-<tr class="separator:a9a09c72a7de17785ecac1d48a49f9998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d96b0d039e51a9b7226d854cf72107e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d96b0d039e51a9b7226d854cf72107e"></a>
-static const short int&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_XYZ_BDRY_ID</b> = 0x100 | 0x200 | 0x400</td></tr>
-<tr class="separator:a9d96b0d039e51a9b7226d854cf72107e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3f90d769a5d6d04b5a48b94efd6b85"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c3f90d769a5d6d04b5a48b94efd6b85"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a2c3f90d769a5d6d04b5a48b94efd6b85">ZERO_DISPLACEMENT_X_BDRY_ID</a> = 0x100</td></tr>
+<tr class="memdesc:a2c3f90d769a5d6d04b5a48b94efd6b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespacelib_mesh.html">libMesh</a> boundary IDs to use for specifying essential boundary conditions. <br/></td></tr>
+<tr class="separator:a2c3f90d769a5d6d04b5a48b94efd6b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a92793b842562d54ebce5dec8f26bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31a92793b842562d54ebce5dec8f26bb"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_Y_BDRY_ID</b> = 0x200</td></tr>
+<tr class="separator:a31a92793b842562d54ebce5dec8f26bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9be53238346fd0d64b5cfd63be2b894"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9be53238346fd0d64b5cfd63be2b894"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_Z_BDRY_ID</b> = 0x400</td></tr>
+<tr class="separator:ae9be53238346fd0d64b5cfd63be2b894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632c7b512789d86dde2f2ee02bc169c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a632c7b512789d86dde2f2ee02bc169c1"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_XY_BDRY_ID</b> = 0x100 | 0x200</td></tr>
+<tr class="separator:a632c7b512789d86dde2f2ee02bc169c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6faedd7fbe833b1931a46127bc767c88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6faedd7fbe833b1931a46127bc767c88"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_XZ_BDRY_ID</b> = 0x100 | 0x400</td></tr>
+<tr class="separator:a6faedd7fbe833b1931a46127bc767c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457d48ef86c8c1e372b770794e6eba1a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a457d48ef86c8c1e372b770794e6eba1a"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_YZ_BDRY_ID</b> = 0x200 | 0x400</td></tr>
+<tr class="separator:a457d48ef86c8c1e372b770794e6eba1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6d1680884bc922d828965c49b86395"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e6d1680884bc922d828965c49b86395"></a>
+static const <br class="typebreak"/>
+libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign="bottom"><b>ZERO_DISPLACEMENT_XYZ_BDRY_ID</b> = 0x100 | 0x200 | 0x400</td></tr>
+<tr class="separator:a7e6d1680884bc922d828965c49b86395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -425,7 +435,8 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted coordinates (nodal position) vector. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted coordinates (nodal position) vector.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a59dc3e053fd81278d7cd551c59a3418b">buildIBGhostedVector()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -452,7 +463,26 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted solution vector associated with the specified system. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted solution vector associated with the specified system. The vector contains positions for values in the relevant IB ghost region which are populated if <code>localize_data</code> is <code>true</code>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The vector returned by pointer is owned by this class (i.e., no copying is done).</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Use buildIBGhostedVector instead which clones a vector with the same ghost region. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a59dc3e053fd81278d7cd551c59a3418b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; PetscVector&lt; double &gt; &gt; IBTK::FEDataManager::buildIBGhostedVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>system_name</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A pointer to a vector, with ghost entries corresponding to relevant IB data, associated with the specified system. </dd></dl>
 
 </div>
 </div>
@@ -1231,7 +1261,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 10 2019 16:41:00 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 12 2019 20:50:22 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -836,6 +836,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_f
 <tr class="separator:a4956967de7ecb8746eddcc1d54e24283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d173c9bc7d2bcd1c37c549a2075adca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6d173c9bc7d2bcd1c37c549a2075adca">get_nodal_dof_indices</a> (const libMesh::DofMap &amp;dof_map, const libMesh::Node *const node, const unsigned int variable_n, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::dof_id_type &gt; &amp;nodal_indices)</td></tr>
 <tr class="separator:a6d173c9bc7d2bcd1c37c549a2075adca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca9fab55956157fb2e0bc09f77c0f425"><td class="memTemplParams" colspan="2">template&lt;class MultiArray &gt; </td></tr>
+<tr class="memitem:aca9fab55956157fb2e0bc09f77c0f425"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#aca9fab55956157fb2e0bc09f77c0f425">get_max_edge_length</a> (const libMesh::Elem *const elem, const MultiArray &amp;X_node)</td></tr>
+<tr class="separator:aca9fab55956157fb2e0bc09f77c0f425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aceed8ef2e29cf7a38d720d5418751e73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#aceed8ef2e29cf7a38d720d5418751e73">write_elem_partitioning</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;file_name, const libMesh::System &amp;position_system)</td></tr>
 <tr class="separator:aceed8ef2e29cf7a38d720d5418751e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a07ede2ffd0f710fcf1b00c933cdc4da8">write_node_partitioning</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;file_name, const libMesh::System &amp;position_system)</td></tr>
@@ -860,6 +863,44 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aca9fab55956157fb2e0bc09f77c0f425"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class MultiArray &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBTK::get_max_edge_length </td>
+          <td>(</td>
+          <td class="paramtype">const libMesh::Elem *const&#160;</td>
+          <td class="paramname"><em>elem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MultiArray &amp;&#160;</td>
+          <td class="paramname"><em>X_node</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the maximum edge length of a given element with mapped nodes.</p>
+<p><code>elem</code> The given <a class="el" href="namespacelib_mesh.html">libMesh</a> element. <code>X_node</code> Mapped coordinates of the nodes. </p>
+
+</div>
+</div>
 <a class="anchor" id="a6d173c9bc7d2bcd1c37c549a2075adca"></a>
 <div class="memitem">
 <div class="memproto">
@@ -970,7 +1011,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 10 2019 16:40:59 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 12 2019 20:50:21 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

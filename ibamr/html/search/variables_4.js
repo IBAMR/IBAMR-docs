@@ -45,6 +45,7 @@ var searchData=
   ['d_5ferror_5fon_5fdt_5fchange',['d_error_on_dt_change',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a0ae88f36249acfb3058bfe9b2c0d5c5f',1,'IBAMR::IBHierarchyIntegrator']]],
   ['d_5feul_5flambda_5fvar',['d_eul_lambda_var',['../class_i_b_a_m_r_1_1_c_i_b_method.html#ae3f6f1686ce470277bb23c60374b65a4',1,'IBAMR::CIBMethod']]],
   ['d_5fext_5fforce_5ftorque_5ffcn_5fdata',['d_ext_force_torque_fcn_data',['../class_i_b_a_m_r_1_1_c_i_b_method.html#adb461721f468bcec1fb52111622ad6d1',1,'IBAMR::CIBMethod']]],
+  ['d_5ff_5fib_5fsolution_5fvecs',['d_F_IB_solution_vecs',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad0984238e82c1ed7118c24f86ea23fc2',1,'IBAMR::IBFEMethod']]],
   ['d_5ff_5fvar',['d_F_var',['../class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#a5a6786f843dc0089052e72ab7dab7b15',1,'IBAMR::AdvDiffHierarchyIntegrator']]],
   ['d_5ffill_5fafter_5fregrid_5fbc_5fidxs',['d_fill_after_regrid_bc_idxs',['../class_i_b_t_k_1_1_hierarchy_integrator.html#a1c39ac5f83a1d5cce38f66927931245a',1,'IBTK::HierarchyIntegrator']]],
   ['d_5ffilling_5fcoarse_5fscratch',['d_filling_coarse_scratch',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1MultiblockRefinePatchStrategy.html#89a42ae2034b745744d9784f34e6d9f0',1,'SAMRAI::xfer::MultiblockRefinePatchStrategy']]],
