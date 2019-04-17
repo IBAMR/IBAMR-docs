@@ -513,7 +513,7 @@ var searchData=
   ['collectmarkersonpatchhierarchy',['collectMarkersOnPatchHierarchy',['../class_i_b_t_k_1_1_l_marker_utilities.html#abd8f77fd440626bf51a9409cad2835e0',1,'IBTK::LMarkerUtilities']]],
   ['combine',['combine',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04952.html#a9806f062f79116a09c2ed0ad9449e58f',1,'std::locale']]],
   ['combine_5ftol',['combine_tol',['../../../samrai/2.4.4/html/structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#39f7c8392ef9779363886a6779a5c83f',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
-  ['comm',['comm',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1SAMRAI__MPI.html#5fb40f9528afc8d4a0afb38e0f240ab1',1,'SAMRAI::tbox::SAMRAI_MPI']]],
+  ['comm',['comm',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1SAMRAI__MPI.html#5fb40f9528afc8d4a0afb38e0f240ab1',1,'SAMRAI::tbox::SAMRAI_MPI::comm()'],['../struct_i_b_t_k_1_1_i_b_t_k___m_p_i.html#ae4af5d569c1a9fd970b92ce4d198ca0e',1,'IBTK::IBTK_MPI::comm()']]],
   ['commbuffersize',['commBufferSize',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LayerNode.html#075ebdac05d3e8aff454b8f5af469515',1,'SAMRAI::hier::LayerNode']]],
   ['commnull',['commNull',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1SAMRAI__MPI.html#322753a2efffaf770854808e25667d55',1,'SAMRAI::tbox::SAMRAI_MPI']]],
   ['commonparams',['CommonParams',['../../../samrai/2.4.4/html/structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#878fc74f5ee1b9816df49bf715b00379',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
