@@ -635,7 +635,7 @@ var searchData=
   ['_7estaggeredstokespetsclevelsolver',['~StaggeredStokesPETScLevelSolver',['../class_i_b_a_m_r_1_1_staggered_stokes_p_e_t_sc_level_solver.html#abed3268efe0155ba5d50d72c9241258e',1,'IBAMR::StaggeredStokesPETScLevelSolver']]],
   ['_7estaggeredstokesphysicalboundaryhelper',['~StaggeredStokesPhysicalBoundaryHelper',['../class_i_b_a_m_r_1_1_staggered_stokes_physical_boundary_helper.html#a3099353e7bd06779c6d6265e433757f4',1,'IBAMR::StaggeredStokesPhysicalBoundaryHelper']]],
   ['_7estaggeredstokesprojectionpreconditioner',['~StaggeredStokesProjectionPreconditioner',['../class_i_b_a_m_r_1_1_staggered_stokes_projection_preconditioner.html#a1dd7115b232a3f1e79b57d61b4476ca2',1,'IBAMR::StaggeredStokesProjectionPreconditioner']]],
-  ['_7estaggeredstokessolver',['~StaggeredStokesSolver',['../class_i_b_a_m_r_1_1_staggered_stokes_solver.html#ae58acab154fa31a966517bea5ac8e719',1,'IBAMR::StaggeredStokesSolver']]],
+  ['_7estaggeredstokessolver',['~StaggeredStokesSolver',['../class_i_b_a_m_r_1_1_staggered_stokes_solver.html#a9a8d9cf16aa2be7c1c03ada63751866f',1,'IBAMR::StaggeredStokesSolver']]],
   ['_7estaggeredstokessolvermanager',['~StaggeredStokesSolverManager',['../class_i_b_a_m_r_1_1_staggered_stokes_solver_manager.html#aafba0e458fa8a0b660a52ba83b3ec0a0',1,'IBAMR::StaggeredStokesSolverManager']]],
   ['_7estandardarena',['~StandardArena',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1StandardArena.html#82f4ee570e371856b96783a8959b28f1',1,'SAMRAI::tbox::StandardArena']]],
   ['_7estandardcoarsentransactionfactory',['~StandardCoarsenTransactionFactory',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1StandardCoarsenTransactionFactory.html#713b085f10d29af2997bd32ad8d74275',1,'SAMRAI::xfer::StandardCoarsenTransactionFactory']]],
