@@ -17,7 +17,7 @@ var searchData=
   ['vector',['vector',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07828.html',1,'std::__debug']]],
   ['vector',['vector',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20_5f_5fdiff_5ftype_20_3e',['vector&lt; __diff_type &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'']]],
-  ['vector_3c_20_5f_5fgnu_5fparallel_3a_3a_5fpiece_3c_20_5fdifferencetype_20_3e_20_3e',['vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std::vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;']]],
+  ['vector_3c_20_5f_5fgnu_5fparallel_3a_3a_5fpiece_3c_20_5fdifferencetype_20_3e_20_3e',['vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std::vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'vector&lt; __gnu_parallel::_Piece&lt; _DifferenceType &gt; &gt;']]],
   ['vector_3c_20_5fcharclasst_20_3e',['vector&lt; _CharClassT &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'']]],
   ['vector_3c_20_5fchart_20_3e',['vector&lt; _CharT &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'']]],
   ['vector_3c_20_5fcmpt_20_3e',['vector&lt; _Cmpt &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'']]],
