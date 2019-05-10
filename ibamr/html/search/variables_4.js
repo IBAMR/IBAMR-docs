@@ -16,6 +16,7 @@ var searchData=
   ['d_5fbytes_5fin_5fstream',['d_bytes_in_stream',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1Schedule_1_1ScheduleMessageStream.html#5b5102b89fbb6e297ac57ada3fd2d0ef',1,'SAMRAI::tbox::Schedule::ScheduleMessageStream']]],
   ['d_5fc2c_5ffunc',['d_c2c_func',['../../../samrai/2.4.4/html/structarith__functions.html#8b2dea25dd45b835b2d7451d66c075ba',1,'arith_functions']]],
   ['d_5fc2r_5ffunc',['d_c2r_func',['../../../samrai/2.4.4/html/structarith__functions.html#626bf51144619070ddf9d634e633cde4',1,'arith_functions']]],
+  ['d_5fcached_5feulerian_5fdata',['d_cached_eulerian_data',['../class_i_b_t_k_1_1_p_e_t_sc_level_solver.html#a0dfb223293c2b986c333c9b1516ff24b',1,'IBTK::PETScLevelSolver']]],
   ['d_5fcenter_5fof_5fmass_5finitial',['d_center_of_mass_initial',['../class_i_b_a_m_r_1_1_c_i_b_strategy.html#a8bd2ce286ee1cda1db1f23bbdf87c460',1,'IBAMR::CIBStrategy']]],
   ['d_5fcfl_5fmax',['d_cfl_max',['../class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#ad6bcccd9f37f64bad79695e03aa61ca2',1,'IBAMR::AdvDiffHierarchyIntegrator::d_cfl_max()'],['../class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a5210a458e89f6d386fffa7f99f9432fe',1,'IBAMR::INSHierarchyIntegrator::d_cfl_max()']]],
   ['d_5fchar',['d_char',['../../../samrai/2.4.4/html/structKeyData.html#25be08b7fd5cbe9de9174a6fc91cd961',1,'KeyData']]],

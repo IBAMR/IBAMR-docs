@@ -273,7 +273,6 @@ var searchData=
   ['resizeboxarray',['resizeBoxArray',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoxArray.html#06ba3c980ac060e7faa1baafacab38cf',1,'SAMRAI::hier::BoxArray']]],
   ['restartmanager',['RestartManager',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RestartManager.html#eb5c1dfea5581c61417542ce311e58d5',1,'SAMRAI::tbox::RestartManager']]],
   ['restorearrays',['restoreArrays',['../class_i_b_t_k_1_1_l_data.html#aa78d834678ec57baea3fc552bc2bc3c0',1,'IBTK::LData']]],
-  ['restorecachedpatchdataindex',['restoreCachedPatchDataIndex',['../class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html#add9c911946f2ade9c78127bff955c37f',1,'IBTK::SAMRAIDataCache']]],
   ['restoredataarray',['restoreDataArray',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1PETScAbstractVectorReal.html#31d87fb987b781c56da8f6ed0b625de1',1,'SAMRAI::solv::PETScAbstractVectorReal']]],
   ['restoredirichletdata',['restoreDirichletData',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SimpleCellRobinBcCoefs.html#b97d6c158eaf98c92ca1fa8bf6e5079f',1,'SAMRAI::solv::SimpleCellRobinBcCoefs']]],
   ['restoresamraivector',['restoreSAMRAIVector',['../class_i_b_t_k_1_1_p_e_t_sc_s_a_m_r_a_i_vector_real.html#aa1902b43fd2042ec9c953458337e3ca3',1,'IBTK::PETScSAMRAIVectorReal']]],

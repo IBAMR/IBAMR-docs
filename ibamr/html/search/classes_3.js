@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cachedpatchdataindex',['CachedPatchDataIndex',['../class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache_1_1_cached_patch_data_index.html',1,'IBTK::SAMRAIDataCache']]],
   ['cartcelldoubleboundspreservingconservativelinearrefine',['CartCellDoubleBoundsPreservingConservativeLinearRefine',['../class_i_b_t_k_1_1_cart_cell_double_bounds_preserving_conservative_linear_refine.html',1,'IBTK']]],
   ['cartcelldoublecubiccoarsen',['CartCellDoubleCubicCoarsen',['../class_i_b_t_k_1_1_cart_cell_double_cubic_coarsen.html',1,'IBTK']]],
   ['cartcelldoublelinearcfinterpolation',['CartCellDoubleLinearCFInterpolation',['../class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html',1,'IBTK']]],
@@ -150,8 +151,8 @@ var searchData=
   ['constpointer',['ConstPointer',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1ConstPointer.html',1,'SAMRAI::tbox']]],
   ['constpointer_3c_20ibtk_3a_3aibtk_3a_3afacpreconditioner_20_3e',['ConstPointer&lt; IBTK::IBTK::FACPreconditioner &gt;',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1ConstPointer.html',1,'SAMRAI::tbox']]],
   ['constpointerbase',['ConstPointerBase',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1ConstPointerBase.html',1,'SAMRAI::tbox']]],
-  ['constrainedvelocityfcnsdata',['ConstrainedVelocityFcnsData',['../struct_i_b_a_m_r_1_1_c_i_b_method_1_1_constrained_velocity_fcns_data.html',1,'IBAMR::CIBMethod']]],
   ['constrainedvelocityfcnsdata',['ConstrainedVelocityFcnsData',['../struct_i_b_a_m_r_1_1_c_i_b_f_e_method_1_1_constrained_velocity_fcns_data.html',1,'IBAMR::CIBFEMethod']]],
+  ['constrainedvelocityfcnsdata',['ConstrainedVelocityFcnsData',['../struct_i_b_a_m_r_1_1_c_i_b_method_1_1_constrained_velocity_fcns_data.html',1,'IBAMR::CIBMethod']]],
   ['constraintibkinematics',['ConstraintIBKinematics',['../class_i_b_a_m_r_1_1_constraint_i_b_kinematics.html',1,'IBAMR']]],
   ['constraintibmethod',['ConstraintIBMethod',['../class_i_b_a_m_r_1_1_constraint_i_b_method.html',1,'IBAMR']]],
   ['container_5fbase_5fdispatch',['container_base_dispatch',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10276.html',1,'__gnu_pbds::detail']]],
