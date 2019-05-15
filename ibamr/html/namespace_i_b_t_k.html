@@ -878,6 +878,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_f
 <tr class="separator:aceed8ef2e29cf7a38d720d5418751e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a07ede2ffd0f710fcf1b00c933cdc4da8">write_node_partitioning</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;file_name, const libMesh::System &amp;position_system)</td></tr>
 <tr class="separator:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fdfe0a5d6114b04e025c647f22883f"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a67fdfe0a5d6114b04e025c647f22883f">setup_petsc_vector</a> (const unsigned int num_local_nodes, const unsigned int <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#9caca90cc65f72a7168924922fa5d34e">depth</a>, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;nonlocal_petsc_indices)</td></tr>
+<tr class="separator:a67fdfe0a5d6114b04e025c647f22883f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aab901bde6055f89372825e50c731be"><td class="memTemplParams" colspan="2">template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </td></tr>
 <tr class="memitem:a7aab901bde6055f89372825e50c731be"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a7aab901bde6055f89372825e50c731be">sum_weighted_elem_solution_n_vars_n_basis</a> (const int qp_offset, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &gt; &amp;phi_F, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;weights, const boost::multi_array&lt; double, 2 &gt; &amp;F_node, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;F_w_qp)</td></tr>
 <tr class="memdesc:a7aab901bde6055f89372825e50c731be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the product of the finite element representation of the force and (optionally) a set of weights (e.g., JxW values) at all quadrature points on an element. See integrate_elem_rhs for details on the first two template arguments.  <a href="#a7aab901bde6055f89372825e50c731be">More...</a><br/></td></tr>
@@ -1136,6 +1138,47 @@ template&lt;int n_vars, int n_basis&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a67fdfe0a5d6114b04e025c647f22883f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec IBTK::setup_petsc_vector </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>num_local_nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>depth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>nonlocal_petsc_indices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Internal function for setting up a PETSc function of given size and depth. See the documentation of <a class="el" href="class_i_b_t_k_1_1_l_data.html" title="Class LData provides storage for a single scalar- or vector-valued Lagrangian quantity. ">LData</a> for more information. </p>
+
+</div>
+</div>
 <a class="anchor" id="a7aab901bde6055f89372825e50c731be"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1263,7 +1306,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 15 2019 16:03:54 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed May 15 2019 17:00:23 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
