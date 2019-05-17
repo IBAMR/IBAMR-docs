@@ -54,7 +54,7 @@ var searchData=
   ['cartsidedoubledivpreservingrefine',['CartSideDoubleDivPreservingRefine',['../class_i_b_t_k_1_1_cart_side_double_div_preserving_refine.html',1,'IBTK']]],
   ['cartsidedoublequadraticcfinterpolation',['CartSideDoubleQuadraticCFInterpolation',['../class_i_b_t_k_1_1_cart_side_double_quadratic_c_f_interpolation.html',1,'IBTK']]],
   ['cartsidedoublert0coarsen',['CartSideDoubleRT0Coarsen',['../class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html',1,'IBTK']]],
-  ['cartsidedoublespecializedconstantrefine',['CartSideDoubleSpecializedConstantRefine',['../class_i_b_t_k_1_1_cart_side_double_specialized_constant_refine.html',1,'IBTK']]],
+  ['cartsidedoublert0refine',['CartSideDoubleRT0Refine',['../class_i_b_t_k_1_1_cart_side_double_r_t0_refine.html',1,'IBTK']]],
   ['cartsidedoublespecializedlinearrefine',['CartSideDoubleSpecializedLinearRefine',['../class_i_b_t_k_1_1_cart_side_double_specialized_linear_refine.html',1,'IBTK']]],
   ['cartsiderobinphysbdryop',['CartSideRobinPhysBdryOp',['../class_i_b_t_k_1_1_cart_side_robin_phys_bdry_op.html',1,'IBTK']]],
   ['cauchy_5fdistribution',['cauchy_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05472.html',1,'std']]],

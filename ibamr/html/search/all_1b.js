@@ -126,7 +126,7 @@ var searchData=
   ['_7ecartsidedoubledivpreservingrefine',['~CartSideDoubleDivPreservingRefine',['../class_i_b_t_k_1_1_cart_side_double_div_preserving_refine.html#a77e5ba9d421e4c909142baf0ae0b6a98',1,'IBTK::CartSideDoubleDivPreservingRefine']]],
   ['_7ecartsidedoublequadraticcfinterpolation',['~CartSideDoubleQuadraticCFInterpolation',['../class_i_b_t_k_1_1_cart_side_double_quadratic_c_f_interpolation.html#a49b9b141733d641428b94704d0b28c5a',1,'IBTK::CartSideDoubleQuadraticCFInterpolation']]],
   ['_7ecartsidedoublert0coarsen',['~CartSideDoubleRT0Coarsen',['../class_i_b_t_k_1_1_cart_side_double_r_t0_coarsen.html#a2ec8d71a49532491ed54f8c7a0e3fd3c',1,'IBTK::CartSideDoubleRT0Coarsen']]],
-  ['_7ecartsidedoublespecializedconstantrefine',['~CartSideDoubleSpecializedConstantRefine',['../class_i_b_t_k_1_1_cart_side_double_specialized_constant_refine.html#ab6270ea15e9457040c299d580865a02f',1,'IBTK::CartSideDoubleSpecializedConstantRefine']]],
+  ['_7ecartsidedoublert0refine',['~CartSideDoubleRT0Refine',['../class_i_b_t_k_1_1_cart_side_double_r_t0_refine.html#ac94ccc28f46b1a6a5b0042b2471cff3f',1,'IBTK::CartSideDoubleRT0Refine']]],
   ['_7ecartsidedoublespecializedlinearrefine',['~CartSideDoubleSpecializedLinearRefine',['../class_i_b_t_k_1_1_cart_side_double_specialized_linear_refine.html#a48a4f5cdf22a8e1dce49dd9152f4d22c',1,'IBTK::CartSideDoubleSpecializedLinearRefine']]],
   ['_7ecartsiderobinphysbdryop',['~CartSideRobinPhysBdryOp',['../class_i_b_t_k_1_1_cart_side_robin_phys_bdry_op.html#aa0397f0285e8537f88bf61d8f3480a11',1,'IBTK::CartSideRobinPhysBdryOp']]],
   ['_7ecclaplaceoperator',['~CCLaplaceOperator',['../class_i_b_t_k_1_1_c_c_laplace_operator.html#a91c5556bb785b7145299c79da3fc2c59',1,'IBTK::CCLaplaceOperator']]],
