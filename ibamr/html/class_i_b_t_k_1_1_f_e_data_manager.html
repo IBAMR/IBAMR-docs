@@ -190,9 +190,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a799acbf460e4e1df9fb2ebdc8ac59469">prolongData</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, bool is_density=true, bool accumulate_on_grid=true, bool close_F=true, bool close_X=true)</td></tr>
 <tr class="memdesc:a799acbf460e4e1df9fb2ebdc8ac59469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prolong a value or a density from the FE mesh to the Cartesian grid. <br/></td></tr>
 <tr class="separator:a799acbf460e4e1df9fb2ebdc8ac59469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7cb3a78eb4576d22a9b00f7601faca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc7cb3a78eb4576d22a9b00f7601faca"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abc7cb3a78eb4576d22a9b00f7601faca">interpWeighted</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), double fill_data_time=0.0, bool close_F=true, bool close_X=true)</td></tr>
-<tr class="memdesc:abc7cb3a78eb4576d22a9b00f7601faca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using the default interpolation spec. This interpolation function does NOT do an L2-projection of the interpolated quantity. It does however weighs/filters the interpolated quantity at the quadrature points to the nodes. Here, the basis functions of the deformational field is used as the filter. <br/></td></tr>
+<tr class="memitem:abc7cb3a78eb4576d22a9b00f7601faca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abc7cb3a78eb4576d22a9b00f7601faca">interpWeighted</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), double fill_data_time=0.0, bool close_F=true, bool close_X=true)</td></tr>
+<tr class="memdesc:abc7cb3a78eb4576d22a9b00f7601faca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the right-hand side <code>F</code> of an L2 projection problem where Eulerian data given by <code>f_data_idx</code> is projected onto the finite element space given by <code>system_name</code>.  <a href="#abc7cb3a78eb4576d22a9b00f7601faca">More...</a><br/></td></tr>
 <tr class="separator:abc7cb3a78eb4576d22a9b00f7601faca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af150b78b5bd4fc2464ec88a883a8fb07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af150b78b5bd4fc2464ec88a883a8fb07"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#af150b78b5bd4fc2464ec88a883a8fb07">interpWeighted</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;interp_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), double fill_data_time=0.0, bool close_F=true, bool close_X=true)</td></tr>
@@ -909,6 +908,90 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abc7cb3a78eb4576d22a9b00f7601faca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FEDataManager::interpWeighted </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>f_data_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::NumericVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::NumericVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>system_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>f_refine_scheds</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;NDIM&gt;&#160;&gt;&#160;&gt;()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fill_data_time</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>close_F</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>close_X</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set up the right-hand side <code>F</code> of an L2 projection problem where Eulerian data given by <code>f_data_idx</code> is projected onto the finite element space given by <code>system_name</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">f_data_idx</td><td>Index of the variable being projected.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">IB-ghosted</td><td>position vector containing the current position of all dofs whose basis functions have support (in the deformed configuration) on the locally owned set of patches.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">F</td><td>Vector into which the L2-projection RHS vector will be assembled. If this vector is ghosted then off-processor entries are assembled into the ghost value region of the vector and callers should complete the assembly process with, e.g., <div class="fragment"><div class="line">ierr = VecGhostUpdateBegin(F.vec(), ADD_VALUES, SCATTER_REVERSE);</div>
+<div class="line">IBTK_CHKERRQ(ierr);</div>
+<div class="line">ierr = VecGhostUpdateEnd(F.vec(), INSERT_VALUES, SCATTER_FORWARD);</div>
+<div class="line">IBTK_CHKERRQ(ierr);</div>
+</div><!-- fragment --> otherwise values are added into the vector directly (which, for a libMesh::PetscVector, will involve the use of the PETSc VecCache object to track off-processor entries). It is strongly recommended, for performance reasons, that one assemble into a ghosted vector instead of the approach with VecCache.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">system_name</td><td>Name of the <a class="el" href="namespacelib_mesh.html">libMesh</a> system corresponding to the vector <code>F</code>.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">f_refine_scheds</td><td>Refinement schedules to process before actually running this function.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fill_data_time</td><td>Time at which the data in <code>f_data_idx</code> was filled.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Whether</td><td>or not to close <code>F</code> after assembly.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Whether</td><td>or not to close <code>X</code> before assembly.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>We recommend against using the last two booleans: it is usually better to do any vector communication before calling this function.</dd>
+<dd>
+This function is poorly named: it actually sets up a dual-space vector <code>F</code> which is the right-hand side of an L2 projection problem. Callers will still need to solve the resulting linear system. The result, therefore, is projected, not interpolated. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a9b8b18fdfa1f9fd279a1e3b7074e7743"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1261,7 +1344,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 22 2019 18:55:26 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 24 2019 14:11:21 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
