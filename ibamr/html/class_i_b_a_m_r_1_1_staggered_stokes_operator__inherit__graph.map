@@ -1,6 +1,6 @@
 <map id="IBAMR::StaggeredStokesOperator" name="IBAMR::StaggeredStokesOperator">
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_c_i_b_staggered_stokes_operator.html" title="Class CIBStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid..." alt="" coords="5,305,200,346"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_v_c_staggered_stokes_operator.html" title="Class VCStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid ..." alt="" coords="225,305,417,346"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_linear_operator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="139,155,284,181"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="135,80,288,107"/>
+<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_c_i_b_staggered_stokes_operator.html" title="Class CIBStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid..." alt="" coords="5,304,201,345"/>
+<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_v_c_staggered_stokes_operator.html" title="Class VCStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid ..." alt="" coords="226,304,418,345"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_linear_operator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="140,155,285,181"/>
+<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="135,80,290,107"/>
 </map>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['ibamr',['IBAMR',['../index.html',1,'']]],
   ['implicit_20time_2dmarching_20algorithms',['Implicit time-marching algorithms',['../../../samrai/2.4.4/html/package_algorithm_implicit.html',1,'']]],
   ['index_20patch_20data',['Index Patch Data',['../../../samrai/2.4.4/html/package_patchdata_index.html',1,'']]],
   ['interfaces_20to_20solver_20libraries',['Interfaces to Solver Libraries',['../../../samrai/2.4.4/html/package_solvers_packages.html',1,'']]],

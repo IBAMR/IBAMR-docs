@@ -9,12 +9,11 @@ var searchData=
   ['quadraturecache',['QuadratureCache',['../class_i_b_t_k_1_1_quadrature_cache.html',1,'IBTK']]],
   ['quadraturecache',['QuadratureCache',['../class_i_b_t_k_1_1_quadrature_cache.html#ae46a275abed17418aeda8ed3bd9be4bf',1,'IBTK::QuadratureCache']]],
   ['quadratures',['quadratures',['../class_i_b_t_k_1_1_quadrature_cache.html#a684f476ab817c4f5d34c4d5578a52f38',1,'IBTK::QuadratureCache']]],
-  ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00119.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html#abdaacb8e25703a65fc79cbfa5fe6934b',1,'std::queue::queue()']]],
   ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html',1,'std']]],
+  ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00119.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html#abdaacb8e25703a65fc79cbfa5fe6934b',1,'std::queue::queue()']]],
   ['queue_2eh',['queue.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00935.html',1,'']]],
   ['quicksort_2eh',['quicksort.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00938.html',1,'']]],
   ['quicksort_5ftag',['quicksort_tag',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08680.html',1,'__gnu_parallel']]],
   ['quiet_5fnan',['quiet_NaN',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html#a4a252b113edcbac0881a4ff30d94b1e1',1,'std::numeric_limits']]],
-  ['quoted',['quoted',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01544.html#a5bff62a35321654424cc1f6df8362cea',1,'std']]],
   ['quoted_5fstring_2eh',['quoted_string.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00443.html',1,'']]]
 ];

@@ -21,6 +21,5 @@ var searchData=
   ['writerestarttodatabase',['writeRestartToDatabase',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RestartManager.html#103ea11b10ad54fa5a02b63f588169d2',1,'SAMRAI::tbox::RestartManager']]],
   ['writestring',['writeString',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1XDRStream.html#6c859fd7f78300b4d9342efea1e1f2a2',1,'SAMRAI::tbox::XDRStream']]],
   ['writevertexfile',['writeVertexFile',['../class_i_b_a_m_r_1_1_i_m_p_initializer.html#ac52c02ece14286d4afdbb191f123380c',1,'IBAMR::IMPInitializer']]],
-  ['ws',['ws',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01544.html#ad864c3d25c6f09088c3a6e8d22151a5d',1,'std']]],
   ['wstring_5fconvert',['wstring_convert',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04976.html#ae3631014b5f2535fb0efa101fbc7193e',1,'std::wstring_convert::wstring_convert(_Codecvt *__pcvt=new _Codecvt())'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04976.html#ac63cbe7aac1dc89a72e1e40134545d41',1,'std::wstring_convert::wstring_convert(_Codecvt *__pcvt, state_type __state)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04976.html#aa7882cf7b53baff7d6d2cf9ca3386b3a',1,'std::wstring_convert::wstring_convert(const byte_string &amp;__byte_err, const wide_string &amp;__wide_err=wide_string())']]]
 ];

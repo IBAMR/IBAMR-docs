@@ -1,7 +1,7 @@
 <map id="IBTK::SCPoissonPETScLevelSolver" name="IBTK::SCPoissonPETScLevelSolver">
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_p_e_t_sc_level_solver.html" title="Class VCSCViscousPETScLevelSolver is a subclass of SCPoissonPETScLevelSolver class which solves vecto..." alt="" coords="72,395,291,437"/>
+<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_p_e_t_sc_level_solver.html" title="Class VCSCViscousPETScLevelSolver is a subclass of SCPoissonPETScLevelSolver class which solves vecto..." alt="" coords="72,393,291,435"/>
 <area shape="rect" id="node2" href="$class_i_b_t_k_1_1_p_e_t_sc_level_solver.html" title="Class PETScLevelSolver is an abstract LinearSolver for solving systems of linear equations on a singl..." alt="" coords="5,229,176,256"/>
 <area shape="rect" id="node3" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="43,155,175,181"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="90,80,232,107"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="90,80,233,107"/>
 <area shape="rect" id="node6" href="$class_i_b_t_k_1_1_poisson_solver.html" title="Class PoissonSolver is an abstract base class for Poisson solvers. " alt="" coords="200,229,344,256"/>
 </map>
