@@ -718,6 +718,7 @@ var searchData=
   ['getshiftedvertexposn',['getShiftedVertexPosn',['../class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#ae50bf85cb7789afddd43c6b9531114ab',1,'IBAMR::IBRedundantInitializer']]],
   ['getshiftsforlevel',['getShiftsForLevel',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html#802cf1efc3ab8963ad0b970d52b130ea',1,'SAMRAI::hier::PatchLevel']]],
   ['getshiftsforpatch',['getShiftsForPatch',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html#c2b12db920d7cda43dfd5b54f7917deb',1,'SAMRAI::hier::PatchLevel']]],
+  ['getsidecenter',['getSideCenter',['../class_i_b_t_k_1_1_index_utilities.html#a9335dabae2674bf0e7cf0462a054a221',1,'IBTK::IndexUtilities']]],
   ['getsideweightpatchdescriptorindex',['getSideWeightPatchDescriptorIndex',['../class_i_b_t_k_1_1_hierarchy_math_ops.html#acc58b568d86834fb0336757654e3208f',1,'IBTK::HierarchyMathOps']]],
   ['getsideweightvariable',['getSideWeightVariable',['../class_i_b_t_k_1_1_hierarchy_math_ops.html#acb7ec2d48ed15e5d2fbf6926707c7c35',1,'IBTK::HierarchyMathOps']]],
   ['getsignalingcomplexnan',['getSignalingComplexNaN',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1IEEE.html#42deb3c38ad760b943ade80310e2bf28',1,'SAMRAI::tbox::IEEE']]],

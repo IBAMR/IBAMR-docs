@@ -56,87 +56,88 @@
 \form#55:$y=F[x]$
 \form#56:$ [MM] = \alpha*[MM] + \beta*[I]. $
 \form#57:$ |\nabla Q | = 1 $
-\form#58:$ k $
-\form#59:$ l $
-\form#60:\[ \vec{F}_k = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|}, \]
-\form#61:\[ \vec{F}_l = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{l} - \vec{X}_{k}\|} = - \vec{F}_k, \]
-\form#62:$ \kappa_{k,l} $
-\form#63:$ r_{k,l} $
-\form#64:$ T_{k,l} $
-\form#65:\[ T_{k,l} = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right). \]
-\form#66:\[ \vec{F}_k = T_{k,l} \frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|} \]
-\form#67:\[ \vec{F}_l = T_{k,l} \frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{k} - \vec{X}_{l}\|}. \]
-\form#68:$ \eta $
-\form#69:$ b = (1-a) $
-\form#70:$a$
-\form#71:$b$
-\form#72:$(\frac{\partial \rho u}{\partial t} + N(\rho u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
-\form#73:$ N(u) = \nabla \cdot (\rho u u) $
-\form#74:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = 0 $
-\form#75:$rho^n$
-\form#76:$rho^{n+\frac{1}{2}}$
-\form#77:$N(\rho u)$
-\form#78:$rho^{n+1}$
-\form#79:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $
-\form#80:$ \nabla \cdot (\rho u u)$
-\form#81:$ S(x,t) $
-\form#82:$N = \nabla \cdot (u \rho u)$
-\form#83:$\rho$
-\form#84:$ c A + G(c x_p) = c b_u$
-\form#85:$ c $
-\form#86:$ c(\frac{\rho}{dt} - \frac{\mu}{dx^2}) \sim \frac{1}{dx} $
-\form#87:$ (\nabla \cdot) \sim \frac{1}{dx} $
-\form#88:$ dt \sim dx $
-\form#89:$ 1/dx = N $
-\form#90:$ c \sim \frac{1}{\rho - \mu N} $
-\form#91:$ N $
-\form#92:$ dx $
-\form#93:$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
-\form#94:$ N(u) = u \cdot \nabla u $
-\form#95:$ N(u) = \nabla \cdot (u u) $
-\form#96:$ Nx = [T M^{-1} T^{*}]x = b $
-\form#97:$ x $
-\form#98:$ M $
-\form#99:$ [T M^{-1} T^{*}]^{-1} $
-\form#100:$ Nx = b $
-\form#101:$ Mx = [J L^{-1} S]x = b $
-\form#102:$ Mx=b $
-\form#103:$ Mx = b $
-\form#104:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
-\form#105:$\tilde{Q}$
-\form#106:$Q = \tilde{Q} + \lambda_{ij}H'(Q^0)|\nabla Q^0|$
-\form#107:$Q^0$
-\form#108:$ (i,j,k,d):-> p $
-\form#109:$ L = C I + \nabla \cdot D \nabla$
-\form#110:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
-\form#111:\[ (C I + \nabla \cdot D \nabla) u = f \]
-\form#112:$ C $
-\form#113:$ D $
-\form#114:$ f $
-\form#115:$ u $
-\form#116:$ -\nabla^2 u = f $
-\form#117:$ (C I + \nabla \cdot D \nabla ) u = f $
-\form#118:$C$
-\form#119:$D$
-\form#120:$u$
-\form#121:$f$
-\form#122:$ y=F[x] $
-\form#123:$ z=F[x]+y $
-\form#124:$z=F[x]+y$
-\form#125:$F[x]=b$
-\form#126:$ F'[x]v $
-\form#127:$ y=Ax $
-\form#128:$ z=Ax+y $
-\form#129:$ y=A^{T} x $
-\form#130:$ z=A^{T}x+y $
-\form#131:$ F[x]=b $
-\form#132:$F[x]$
-\form#133:$J[x] = F'[x]$
-\form#134:$ \alpha $
-\form#135:$ r_0 = r $
-\form#136:$ r_1 = r_0 + 1 $
-\form#137:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
-\form#138:$ \mu $
-\form#139:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
-\form#140:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
-\form#141:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#58:$ \phi(s) = \partial \Omega $
+\form#59:$ k $
+\form#60:$ l $
+\form#61:\[ \vec{F}_k = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|}, \]
+\form#62:\[ \vec{F}_l = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right) *\frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{l} - \vec{X}_{k}\|} = - \vec{F}_k, \]
+\form#63:$ \kappa_{k,l} $
+\form#64:$ r_{k,l} $
+\form#65:$ T_{k,l} $
+\form#66:\[ T_{k,l} = \kappa_{k,l} \left( \|\vec{X}_{l} - \vec{X}_{k}\| - r_{k,l} \right). \]
+\form#67:\[ \vec{F}_k = T_{k,l} \frac{\vec{X}_{l} - \vec{X}_{k}}{\|\vec{X}_{l} - \vec{X}_{k}\|} \]
+\form#68:\[ \vec{F}_l = T_{k,l} \frac{\vec{X}_{k} - \vec{X}_{l}}{\|\vec{X}_{k} - \vec{X}_{l}\|}. \]
+\form#69:$ \eta $
+\form#70:$ b = (1-a) $
+\form#71:$a$
+\form#72:$b$
+\form#73:$(\frac{\partial \rho u}{\partial t} + N(\rho u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
+\form#74:$ N(u) = \nabla \cdot (\rho u u) $
+\form#75:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = 0 $
+\form#76:$rho^n$
+\form#77:$rho^{n+\frac{1}{2}}$
+\form#78:$N(\rho u)$
+\form#79:$rho^{n+1}$
+\form#80:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $
+\form#81:$ \nabla \cdot (\rho u u)$
+\form#82:$ S(x,t) $
+\form#83:$N = \nabla \cdot (u \rho u)$
+\form#84:$\rho$
+\form#85:$ c A + G(c x_p) = c b_u$
+\form#86:$ c $
+\form#87:$ c(\frac{\rho}{dt} - \frac{\mu}{dx^2}) \sim \frac{1}{dx} $
+\form#88:$ (\nabla \cdot) \sim \frac{1}{dx} $
+\form#89:$ dt \sim dx $
+\form#90:$ 1/dx = N $
+\form#91:$ c \sim \frac{1}{\rho - \mu N} $
+\form#92:$ N $
+\form#93:$ dx $
+\form#94:$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
+\form#95:$ N(u) = u \cdot \nabla u $
+\form#96:$ N(u) = \nabla \cdot (u u) $
+\form#97:$ Nx = [T M^{-1} T^{*}]x = b $
+\form#98:$ x $
+\form#99:$ M $
+\form#100:$ [T M^{-1} T^{*}]^{-1} $
+\form#101:$ Nx = b $
+\form#102:$ Mx = [J L^{-1} S]x = b $
+\form#103:$ Mx=b $
+\form#104:$ Mx = b $
+\form#105:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
+\form#106:$\tilde{Q}$
+\form#107:$Q = \tilde{Q} + \lambda_{ij}H'(Q^0)|\nabla Q^0|$
+\form#108:$Q^0$
+\form#109:$ (i,j,k,d):-> p $
+\form#110:$ L = C I + \nabla \cdot D \nabla$
+\form#111:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
+\form#112:\[ (C I + \nabla \cdot D \nabla) u = f \]
+\form#113:$ C $
+\form#114:$ D $
+\form#115:$ f $
+\form#116:$ u $
+\form#117:$ -\nabla^2 u = f $
+\form#118:$ (C I + \nabla \cdot D \nabla ) u = f $
+\form#119:$C$
+\form#120:$D$
+\form#121:$u$
+\form#122:$f$
+\form#123:$ y=F[x] $
+\form#124:$ z=F[x]+y $
+\form#125:$z=F[x]+y$
+\form#126:$F[x]=b$
+\form#127:$ F'[x]v $
+\form#128:$ y=Ax $
+\form#129:$ z=Ax+y $
+\form#130:$ y=A^{T} x $
+\form#131:$ z=A^{T}x+y $
+\form#132:$ F[x]=b $
+\form#133:$F[x]$
+\form#134:$J[x] = F'[x]$
+\form#135:$ \alpha $
+\form#136:$ r_0 = r $
+\form#137:$ r_1 = r_0 + 1 $
+\form#138:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
+\form#139:$ \mu $
+\form#140:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#141:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
+\form#142:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $

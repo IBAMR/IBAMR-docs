@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_c_c_poisson_box_relaxation_f_a_c_operator.html" title="Class CCPoissonBoxRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving el...">CCPoissonBoxRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_110.png"/> using a globally second-order accurate cell-centered finite-volume discretization, with support for Robin and periodic boundary conditions.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_c_c_poisson_box_relaxation_f_a_c_operator.html" title="Class CCPoissonBoxRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving el...">CCPoissonBoxRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_111.png"/> using a globally second-order accurate cell-centered finite-volume discretization, with support for Robin and periodic boundary conditions.  
  <a href="class_i_b_t_k_1_1_c_c_poisson_box_relaxation_f_a_c_operator.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/CCPoissonBoxRelaxationFACOperator.h&gt;</code></p>
@@ -414,19 +414,19 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>d_new_time</b> = <a
 <tr class="separator:a7cc38aa3f3b7c64c0b3236248ca804d4 inherit pro_attribs_class_i_b_t_k_1_1_f_a_c_preconditioner_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_c_c_poisson_box_relaxation_f_a_c_operator.html" title="Class CCPoissonBoxRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving el...">CCPoissonBoxRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_110.png"/> using a globally second-order accurate cell-centered finite-volume discretization, with support for Robin and periodic boundary conditions. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_c_c_poisson_box_relaxation_f_a_c_operator.html" title="Class CCPoissonBoxRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving el...">CCPoissonBoxRelaxationFACOperator</a> is a concrete <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner_strategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ...">PoissonFACPreconditionerStrategy</a> for solving elliptic equations of the form <img class="formulaInl" alt="$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $" src="form_111.png"/> using a globally second-order accurate cell-centered finite-volume discretization, with support for Robin and periodic boundary conditions. </p>
 <p>This class provides operators that are used by class <a class="el" href="class_i_b_t_k_1_1_f_a_c_preconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a> to solve scalar Poisson-type equations of the form </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ (C I + \nabla \cdot D \nabla) u = f \]" src="form_111.png"/>
+<img class="formulaDsp" alt="\[ (C I + \nabla \cdot D \nabla) u = f \]" src="form_112.png"/>
 </p>
 <p> using a cell-centered, globally second-order accurate finite-volume discretization, where</p>
 <ul>
-<li><img class="formulaInl" alt="$ C $" src="form_112.png"/>, <img class="formulaInl" alt="$ D $" src="form_113.png"/> and <img class="formulaInl" alt="$ f $" src="form_114.png"/> are independent of <img class="formulaInl" alt="$ u $" src="form_115.png"/>,</li>
-<li><img class="formulaInl" alt="$ C $" src="form_112.png"/> is a cell-centered scalar field,</li>
-<li><img class="formulaInl" alt="$ D $" src="form_113.png"/> is a side-centered scalar field of diffusion coefficients, and</li>
-<li><img class="formulaInl" alt="$ f $" src="form_114.png"/> is a cell-centered scalar function.</li>
+<li><img class="formulaInl" alt="$ C $" src="form_113.png"/>, <img class="formulaInl" alt="$ D $" src="form_114.png"/> and <img class="formulaInl" alt="$ f $" src="form_115.png"/> are independent of <img class="formulaInl" alt="$ u $" src="form_116.png"/>,</li>
+<li><img class="formulaInl" alt="$ C $" src="form_113.png"/> is a cell-centered scalar field,</li>
+<li><img class="formulaInl" alt="$ D $" src="form_114.png"/> is a side-centered scalar field of diffusion coefficients, and</li>
+<li><img class="formulaInl" alt="$ f $" src="form_115.png"/> is a cell-centered scalar function.</li>
 </ul>
 <p>Robin boundary conditions may be specified at physical boundaries; see class <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>.</p>
-<p>By default, the class is configured to solve the Poisson problem <img class="formulaInl" alt="$ -\nabla^2 u = f $" src="form_116.png"/>, subject to homogeneous Dirichlet boundary conditions.</p>
+<p>By default, the class is configured to solve the Poisson problem <img class="formulaInl" alt="$ -\nabla^2 u = f $" src="form_117.png"/>, subject to homogeneous Dirichlet boundary conditions.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "PATCH_GAUSS_SEIDEL"         // see setSmootherType()
 prolongation_method = "LINEAR_REFINE"        // see setProlongationMethod()
 restriction_method = "CONSERVATIVE_COARSEN"  // see setRestrictionMethod()
@@ -671,7 +671,7 @@ level solver
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 20 2019 21:37:17 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2019 15:03:36 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

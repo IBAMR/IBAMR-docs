@@ -189,12 +189,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_integrator.html" title="Class INSVCStaggeredConservativeMassMomentumIntegrator integrates the staggered density field...">INSVCStaggeredConservativeMassMomentumIntegrator</a> integrates the staggered density field. </p>
-<p><img class="formulaInl" alt="$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $" src="form_79.png"/></p>
-<p>and computes the conservative form of the convective operator <img class="formulaInl" alt="$ \nabla \cdot (\rho u u)$" src="form_80.png"/>.</p>
+<p><img class="formulaInl" alt="$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $" src="form_80.png"/></p>
+<p>and computes the conservative form of the convective operator <img class="formulaInl" alt="$ \nabla \cdot (\rho u u)$" src="form_81.png"/>.</p>
 <p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_integrator.html" title="Class INSVCStaggeredConservativeMassMomentumIntegrator integrates the staggered density field...">INSVCStaggeredConservativeMassMomentumIntegrator</a> computes the convective derivative of a side-centered velocity field using various bounded-limiters described by Patel and Natarajan.</p>
-<p>A side-centered density update is provided by this class, which is used in the conservative discretization of the incompressible Navier-Stokes equation. There is an optional mass density source term <img class="formulaInl" alt="$ S(x,t) $" src="form_81.png"/> that can be set to check the order of accuracy via manufactured solutions.</p>
+<p>A side-centered density update is provided by this class, which is used in the conservative discretization of the incompressible Navier-Stokes equation. There is an optional mass density source term <img class="formulaInl" alt="$ S(x,t) $" src="form_82.png"/> that can be set to check the order of accuracy via manufactured solutions.</p>
 <p>References Patel, JK. and Natarajan, G., <a href="https://www.sciencedirect.com/science/article/pii/S0045793014004009">A generic framework for design of interface capturing schemes for multi-fluid flows</a></p>
-<dl class="section note"><dt>Note</dt><dd>This class is specialized in that it computes a conservative discretization of the form <img class="formulaInl" alt="$N = \nabla \cdot (u \rho u)$" src="form_82.png"/>, where the density <img class="formulaInl" alt="$\rho$" src="form_83.png"/> can vary in space and time. This operator is to be used in conjuction with the conservative form of the variable coefficient Navier-Stokes equations, which will produce better results for high density ratio flows.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This class is specialized in that it computes a conservative discretization of the form <img class="formulaInl" alt="$N = \nabla \cdot (u \rho u)$" src="form_83.png"/>, where the density <img class="formulaInl" alt="$\rho$" src="form_84.png"/> can vary in space and time. This operator is to be used in conjuction with the conservative form of the variable coefficient Navier-Stokes equations, which will produce better results for high density ratio flows.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator.html" title="Class INSVCStaggeredHierarchyIntegrator provides an abstract interface for time integrator for a stag...">INSVCStaggeredHierarchyIntegrator</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a8bae0963a474e05bca695a838e3d3193"></a>
@@ -276,7 +276,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 20 2019 21:37:14 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2019 15:03:32 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
