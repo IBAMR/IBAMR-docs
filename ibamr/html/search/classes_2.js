@@ -115,8 +115,8 @@ var searchData=
   ['binomial_5fheap_5fbase',['binomial_heap_base',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10540.html',1,'__gnu_pbds::detail']]],
   ['binomial_5fheap_5ftag',['binomial_heap_tag',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10196.html',1,'__gnu_pbds']]],
   ['bitmap_5fallocator',['bitmap_allocator',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09212.html',1,'__gnu_cxx']]],
-  ['bitset',['bitset',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01816.html',1,'std']]],
   ['bitset',['bitset',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08024.html',1,'std::__profile']]],
+  ['bitset',['bitset',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01816.html',1,'std']]],
   ['bitset',['bitset',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07756.html',1,'std::__debug']]],
   ['bjacobipreconditioner',['BJacobiPreconditioner',['../class_i_b_t_k_1_1_b_jacobi_preconditioner.html',1,'IBTK']]],
   ['blockgridgeometry',['BlockGridGeometry',['../../../samrai/2.4.4/html/classSAMRAI_1_1geom_1_1BlockGridGeometry.html',1,'SAMRAI::geom']]],
@@ -146,5 +146,6 @@ var searchData=
   ['boxtreenode',['BoxTreeNode',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoxTreeNode.html',1,'SAMRAI::hier']]],
   ['boxutilities',['BoxUtilities',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1BoxUtilities.html',1,'SAMRAI::hier']]],
   ['branch_5fpolicy',['branch_policy',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10572.html',1,'__gnu_pbds::detail']]],
-  ['branch_5fpolicy_3c_20node_5fcitr_2c_20node_5fcitr_2c_20_5falloc_20_3e',['branch_policy&lt; Node_CItr, Node_CItr, _Alloc &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10576.html',1,'__gnu_pbds::detail']]]
+  ['branch_5fpolicy_3c_20node_5fcitr_2c_20node_5fcitr_2c_20_5falloc_20_3e',['branch_policy&lt; Node_CItr, Node_CItr, _Alloc &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10576.html',1,'__gnu_pbds::detail']]],
+  ['brinkmanpenalizationstrategy',['BrinkmanPenalizationStrategy',['../class_i_b_a_m_r_1_1_brinkman_penalization_strategy.html',1,'IBAMR']]]
 ];
