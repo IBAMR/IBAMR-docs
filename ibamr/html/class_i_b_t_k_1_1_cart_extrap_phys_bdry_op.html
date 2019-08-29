@@ -222,7 +222,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">patch_data_index</td><td>Patch data index requiring ghost cell filling. </td></tr>
-    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. </td></tr>
+    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. At codim 2 or 3 boundaries, "QUADRATIC" reduces to "LINEAR" extrapolation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -257,7 +257,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">patch_data_indices</td><td>Collection of patch data indices which require ghost cell filling. </td></tr>
-    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. </td></tr>
+    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. At codim 2 or 3 boundaries, "QUADRATIC" reduces to "LINEAR" extrapolation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -292,7 +292,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">patch_data_indices</td><td>Collection of patch data indices which require ghost cell filling. </td></tr>
-    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. </td></tr>
+    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. At codim 2 or 3 boundaries, "QUADRATIC" reduces to "LINEAR" extrapolation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -462,7 +462,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 <p>Set the extrapolation type employed by this class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. </td></tr>
+    <tr><td class="paramname">extrap_type</td><td>Type of extrapolation to perform: <code>"CONSTANT"</code> specifies constant extrapolation, <code>"LINEAR"</code> specifies linear extrapolation, and <code>"QUADRATIC"</code> specifies quadratic extrapolation. At codim 2 or 3 boundaries, "QUADRATIC" reduces to "LINEAR" extrapolation. </td></tr>
   </table>
   </dd>
 </dl>
@@ -527,7 +527,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Aug 27 2019 17:52:10 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 29 2019 02:39:52 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
