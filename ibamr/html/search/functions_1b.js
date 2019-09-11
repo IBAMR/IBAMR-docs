@@ -233,6 +233,7 @@ var searchData=
   ['_7efacpreconditioner',['~FACPreconditioner',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1FACPreconditioner.html#3bf5e08b9c64fbe3378ec694e451c4b1',1,'SAMRAI::solv::FACPreconditioner::~FACPreconditioner()'],['../class_i_b_t_k_1_1_f_a_c_preconditioner.html#a2e605be84c5ce70049fec358ec8870a0',1,'IBTK::FACPreconditioner::~FACPreconditioner()']]],
   ['_7efacpreconditionerstrategy',['~FACPreconditionerStrategy',['../class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html#ad7c3b34a9b1b7d4c59dbf0e6d815e211',1,'IBTK::FACPreconditionerStrategy']]],
   ['_7efastsweepinglsmethod',['~FastSweepingLSMethod',['../class_i_b_a_m_r_1_1_fast_sweeping_l_s_method.html#abc448f1226d2ce1489181d84e3ad95c0',1,'IBAMR::FastSweepingLSMethod']]],
+  ['_7efedata',['~FEData',['../class_i_b_t_k_1_1_f_e_data.html#a5893bcf246d24be7e29bddbd14baee6a',1,'IBTK::FEData']]],
   ['_7efedatamanager',['~FEDataManager',['../class_i_b_t_k_1_1_f_e_data_manager.html#a1e86c924e3092a94bc5cefd1ae64fa21',1,'IBTK::FEDataManager']]],
   ['_7efilestream',['~FileStream',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1FileStream.html#054f26e156598c180fc700efdf8d5a52',1,'SAMRAI::tbox::FileStream']]],
   ['_7efillboxset',['~FillBoxSet',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1FillBoxSet.html#35bde138cacf575c2916769645d4c6be',1,'SAMRAI::xfer::FillBoxSet']]],

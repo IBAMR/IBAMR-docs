@@ -182,7 +182,7 @@ var searchData=
   ['setdpatchdatainterpolationtype',['setDPatchDataInterpolationType',['../class_i_b_a_m_r_1_1_v_c_staggered_stokes_operator.html#a5a97374d907c8321f80756188eef9f44',1,'IBAMR::VCStaggeredStokesOperator::setDPatchDataInterpolationType()'],['../class_i_b_t_k_1_1_v_c_s_c_viscous_operator.html#a4c4505eacdb050074b6fada72db06bb8',1,'IBTK::VCSCViscousOperator::setDPatchDataInterpolationType()'],['../class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html#a6328d1e33c9c95429a3120a5158ace7d',1,'IBTK::VCSCViscousOpPointRelaxationFACOperator::setDPatchDataInterpolationType()']]],
   ['seteisenstatwalkerparameters',['setEisenstatWalkerParameters',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1KINSOLSolver.html#5672647456156c1d69fd88c97231d839',1,'SAMRAI::solv::KINSOLSolver']]],
   ['setempty',['setEmpty',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Box.html#f96e73f5c979453ada5ee889871a5080',1,'SAMRAI::hier::Box']]],
-  ['setequationsystems',['setEquationSystems',['../class_i_b_t_k_1_1_f_e_data_manager.html#a7ab2051403b2a6d0038cb5792c0017e1',1,'IBTK::FEDataManager']]],
+  ['setequationsystems',['setEquationSystems',['../class_i_b_t_k_1_1_f_e_data.html#ac8354fb9ce8f55173f56703196b20911',1,'IBTK::FEData']]],
   ['setequivalenceclasses',['setEquivalenceClasses',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineAlgorithm.html#4ed85f6233c367be9db2759e42bcc0fd',1,'SAMRAI::xfer::RefineAlgorithm']]],
   ['setewchoice2exponent',['setEWChoice2Exponent',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SNES__SAMRAIContext.html#27ebf3a32c824090ac37bb3616a158fd',1,'SAMRAI::solv::SNES_SAMRAIContext']]],
   ['setewchoice2safeguardexponent',['setEWChoice2SafeguardExponent',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SNES__SAMRAIContext.html#97c9f4075f96561c3db1f180a606a054',1,'SAMRAI::solv::SNES_SAMRAIContext']]],
@@ -680,5 +680,5 @@ var searchData=
   ['synchronizehierarchydataspecialized',['synchronizeHierarchyDataSpecialized',['../class_i_b_t_k_1_1_hierarchy_integrator.html#acf59436ba46515415117f6cecd1097bc',1,'IBTK::HierarchyIntegrator']]],
   ['synchronizelevelwithcoarser',['synchronizeLevelWithCoarser',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html#595e3d349474a5d05169b420fa7944f5',1,'SAMRAI::algs::HyperbolicLevelIntegrator']]],
   ['synchronizenewlevels',['synchronizeNewLevels',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html#d4e62168bcfa5f9d5ac3a4edc19db5aa',1,'SAMRAI::algs::HyperbolicLevelIntegrator::synchronizeNewLevels()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1TimeRefinementLevelStrategy.html#ab60d668b4eb7dc4fd9cf76f29741c35',1,'SAMRAI::algs::TimeRefinementLevelStrategy::synchronizeNewLevels()']]],
-  ['systemdofmapcache',['SystemDofMapCache',['../class_i_b_t_k_1_1_f_e_data_manager_1_1_system_dof_map_cache.html#ac8e534333b78255a27119c63f572198b',1,'IBTK::FEDataManager::SystemDofMapCache']]]
+  ['systemdofmapcache',['SystemDofMapCache',['../class_i_b_t_k_1_1_f_e_data_1_1_system_dof_map_cache.html#a5f8839c0e1cd341475aa58faf9eb0869',1,'IBTK::FEData::SystemDofMapCache']]]
 ];
