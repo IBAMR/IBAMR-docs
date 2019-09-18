@@ -99,7 +99,7 @@ var searchData=
   ['fedata',['FEData',['../class_i_b_t_k_1_1_f_e_data.html#a19deee1b6980f89960a9229b230fa176',1,'IBTK::FEData']]],
   ['fedata',['FEData',['../class_i_b_t_k_1_1_f_e_data.html',1,'IBTK']]],
   ['fedatainterpolation',['FEDataInterpolation',['../class_i_b_t_k_1_1_f_e_data_interpolation.html',1,'IBTK']]],
-  ['fedatamanager',['FEDataManager',['../class_i_b_t_k_1_1_f_e_data_manager.html#a695f21a34d6941f647670618cee31696',1,'IBTK::FEDataManager']]],
+  ['fedatamanager',['FEDataManager',['../class_i_b_t_k_1_1_f_e_data.html#a0562d9d0cd455cb025a5a4de995393ed',1,'IBTK::FEData::FEDataManager()'],['../class_i_b_t_k_1_1_f_e_data_manager.html#a695f21a34d6941f647670618cee31696',1,'IBTK::FEDataManager::FEDataManager()']]],
   ['fedatamanager',['FEDataManager',['../class_i_b_t_k_1_1_f_e_data_manager.html',1,'IBTK']]],
   ['femapcache',['FEMapCache',['../class_i_b_t_k_1_1_f_e_map_cache.html#abf69b00ddfceada1e0c88766ae3626a3',1,'IBTK::FEMapCache']]],
   ['femapcache',['FEMapCache',['../class_i_b_t_k_1_1_f_e_map_cache.html',1,'IBTK']]],

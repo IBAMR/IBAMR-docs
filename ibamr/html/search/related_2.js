@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['has_5ffacet',['has_facet',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04952.html#ad5bc3cddb6bb375329682cb211ba0441',1,'std::locale::has_facet()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04960.html#ad5bc3cddb6bb375329682cb211ba0441',1,'std::locale::id::has_facet()']]]
+  ['fedatamanager',['FEDataManager',['../class_i_b_t_k_1_1_f_e_data.html#a0562d9d0cd455cb025a5a4de995393ed',1,'IBTK::FEData']]]
 ];

@@ -52,6 +52,7 @@ var searchData=
   ['d_5ff_5fhalf_5fvecs',['d_F_half_vecs',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a29fb9ee5370980fc279a5eae82926f44',1,'IBAMR::IBFEMethod']]],
   ['d_5ff_5fib_5fsolution_5fvecs',['d_F_IB_solution_vecs',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad0984238e82c1ed7118c24f86ea23fc2',1,'IBAMR::IBFEMethod']]],
   ['d_5ff_5fvar',['d_F_var',['../class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#a5a6786f843dc0089052e72ab7dab7b15',1,'IBAMR::AdvDiffHierarchyIntegrator']]],
+  ['d_5ffe_5fdata',['d_fe_data',['../class_i_b_t_k_1_1_f_e_data_manager.html#a46ad4df2258656ae6d77d14e0326bd04',1,'IBTK::FEDataManager']]],
   ['d_5ffe_5fdata_5finitialized',['d_fe_data_initialized',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a1126fd04b001d4f1b40e749bd85310a5',1,'IBAMR::IBFEMethod']]],
   ['d_5ffe_5fdata_5fmanagers',['d_fe_data_managers',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ab4fda381772573698b33d78bb0f8505f',1,'IBAMR::IBFEMethod']]],
   ['d_5ffe_5fequation_5fsystems_5finitialized',['d_fe_equation_systems_initialized',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a36fa3b77201f63563b924a432f87d583',1,'IBAMR::IBFEMethod']]],
