@@ -200,12 +200,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a93a1f2e2135ba888c8097e48cd3872ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c6865a53daf368d2d31fd5e5429620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_lag_body_source_fcn_data.html">LagBodySourceFcnData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ab2c6865a53daf368d2d31fd5e5429620">getLagBodySourceFunction</a> (unsigned int part=0) const </td></tr>
 <tr class="separator:ab2c6865a53daf368d2d31fd5e5429620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c42a923014e7fccb3fcdb0ae06c1318"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a4c42a923014e7fccb3fcdb0ae06c1318">constrainPartOverlap</a> (unsigned int part1, unsigned int part2, double kappa, libMesh::QBase *qrule1=nullptr, libMesh::QBase *qrule2=nullptr)</td></tr>
-<tr class="separator:a4c42a923014e7fccb3fcdb0ae06c1318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dee0a339e286047e1a4a1b982d9d1c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a6dee0a339e286047e1a4a1b982d9d1c6">registerOverlappingVelocityReset</a> (unsigned int part1, unsigned int part2)</td></tr>
-<tr class="separator:a6dee0a339e286047e1a4a1b982d9d1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a139032cd28936aed8fab6ac297ebce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a9a139032cd28936aed8fab6ac297ebce">registerOverlappingForceConstraint</a> (unsigned int part1, unsigned int part2, double kappa, libMesh::QBase *qrule1=nullptr, libMesh::QBase *qrule2=nullptr)</td></tr>
-<tr class="separator:a9a139032cd28936aed8fab6ac297ebce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa723fc721c97d7e25b14a90b3d4a8fa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#aa723fc721c97d7e25b14a90b3d4a8fa6">registerDirectForcingKinematics</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_direct_forcing_kinematics.html">IBAMR::IBFEDirectForcingKinematics</a> &gt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#c8be7d23abc3f25417be1c1eaaf8a0a0">data</a>, unsigned int part=0)</td></tr>
 <tr class="separator:aa723fc721c97d7e25b14a90b3d4a8fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cf54a049a032c8da310fe36c27c57f8"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a5cf54a049a032c8da310fe36c27c57f8">getMinimumGhostCellWidth</a> () const override</td></tr>
@@ -371,22 +365,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#adb3275a8cbe361397ab87f35b35276f3">assembleInteriorForceDensityRHS</a> (libMesh::PetscVector&lt; double &gt; &amp;G_rhs_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, libMesh::PetscVector&lt; double &gt; *Phi_vec, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:adb3275a8cbe361397ab87f35b35276f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assemble the RHS for the interior elastic density, possibly splitting off the normal component of the transmission force along the physical boundary of the Lagrangian structure. <br /></td></tr>
 <tr class="separator:adb3275a8cbe361397ab87f35b35276f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad48d172bfa2ae52257570ae839fadb19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad48d172bfa2ae52257570ae839fadb19"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad48d172bfa2ae52257570ae839fadb19">resetOverlapNodalValues</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::NumericVector&lt; double &gt; * &gt; &amp;F_vecs)</td></tr>
-<tr class="memdesc:ad48d172bfa2ae52257570ae839fadb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset positions in overlap regions. <br /></td></tr>
-<tr class="separator:ad48d172bfa2ae52257570ae839fadb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add3c726ead657f2945155d4b1def3a2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add3c726ead657f2945155d4b1def3a2f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#add3c726ead657f2945155d4b1def3a2f">resetOverlapNodalValues</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &amp;F_vecs)</td></tr>
-<tr class="memdesc:add3c726ead657f2945155d4b1def3a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset positions in overlap regions. <br /></td></tr>
-<tr class="separator:add3c726ead657f2945155d4b1def3a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7640d68c54b7bf85bb4fbb3bbe67bf2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7640d68c54b7bf85bb4fbb3bbe67bf2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#af7640d68c54b7bf85bb4fbb3bbe67bf2">resetOverlapNodalValues</a> (unsigned int part, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, libMesh::NumericVector&lt; double &gt; *F_vec, libMesh::NumericVector&lt; double &gt; *F_master_vec)</td></tr>
-<tr class="memdesc:af7640d68c54b7bf85bb4fbb3bbe67bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset values in the specified part to equal the corresponding velocities of the overlapping part. <br /></td></tr>
-<tr class="separator:af7640d68c54b7bf85bb4fbb3bbe67bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3932961a5aa51fc568d48c95ea93dc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3932961a5aa51fc568d48c95ea93dc6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#af3932961a5aa51fc568d48c95ea93dc6">computeOverlapConstraintForceDensity</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &amp;G_vec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &amp;X_vec)</td></tr>
-<tr class="memdesc:af3932961a5aa51fc568d48c95ea93dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute constraint forces between pairs of overlapping bodies. <br /></td></tr>
-<tr class="separator:af3932961a5aa51fc568d48c95ea93dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67049821f3114a571a5eea4ab4c0ceaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67049821f3114a571a5eea4ab4c0ceaa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a67049821f3114a571a5eea4ab4c0ceaa">spreadTransmissionForceDensity</a> (int f_data_idx, libMesh::PetscVector&lt; double &gt; &amp;X_ghost_vec, <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:a67049821f3114a571a5eea4ab4c0ceaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread the transmission force density along the physical boundary of the Lagrangian structure. <br /></td></tr>
@@ -620,51 +598,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_has_stress_normaliz
 <tr class="memitem:a53deb14f171a7b6c5aaf9bf61ecfc8d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53deb14f171a7b6c5aaf9bf61ecfc8d1"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_stress_normalization_part</b></td></tr>
 <tr class="separator:a53deb14f171a7b6c5aaf9bf61ecfc8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaedf687d59928b57c699ae004ebc31a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaedf687d59928b57c699ae004ebc31a2"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_tolerance</b> = 0.0</td></tr>
-<tr class="separator:aaedf687d59928b57c699ae004ebc31a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec851be7c470231e2cb8646c616ccaaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec851be7c470231e2cb8646c616ccaaa"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_has_overlap_velocity_parts</b> = false</td></tr>
-<tr class="separator:aec851be7c470231e2cb8646c616ccaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a25403979b7b53f20405e3b49e2bb54"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a25403979b7b53f20405e3b49e2bb54"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_overlap_velocity_part</b></td></tr>
-<tr class="separator:a6a25403979b7b53f20405e3b49e2bb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6900e375705f23afe5f46d80bcb1079"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab6900e375705f23afe5f46d80bcb1079"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_overlap_velocity_master_part</b></td></tr>
-<tr class="separator:ab6900e375705f23afe5f46d80bcb1079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae641282477ef46ee192d791664b0b8b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae641282477ef46ee192d791664b0b8b9"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_velocity_master_part</b></td></tr>
-<tr class="separator:ae641282477ef46ee192d791664b0b8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af258ed57ef9891acff7167c51e6456fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af258ed57ef9891acff7167c51e6456fe"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; libMesh::dof_id_type, libMesh::dof_id_type &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_velocity_part_node_to_elem_map</b></td></tr>
-<tr class="separator:af258ed57ef9891acff7167c51e6456fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad65b0032bb46ef25751edc56f30f67ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad65b0032bb46ef25751edc56f30f67ab"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06732.html">std::set</a>&lt; libMesh::dof_id_type &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_velocity_part_ghost_idxs</b></td></tr>
-<tr class="separator:ad65b0032bb46ef25751edc56f30f67ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59967ed7110edc1e6f849a3d15460a33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59967ed7110edc1e6f849a3d15460a33"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_has_overlap_force_parts</b> = false</td></tr>
-<tr class="separator:a59967ed7110edc1e6f849a3d15460a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7739fb288f959ef9fc9690715640e968"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7739fb288f959ef9fc9690715640e968"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_is_overlap_force_part</b></td></tr>
-<tr class="separator:a7739fb288f959ef9fc9690715640e968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a948db9238a6413cda1f318764888575f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a948db9238a6413cda1f318764888575f"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06732.html">std::set</a>&lt; libMesh::dof_id_type &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_force_part_ghost_idxs</b></td></tr>
-<tr class="separator:a948db9238a6413cda1f318764888575f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4dfcf149a8a9d3d2d3a45a3a43b214"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b4dfcf149a8a9d3d2d3a45a3a43b214"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html">std::array</a>&lt; unsigned int, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_force_part_idxs</b></td></tr>
-<tr class="separator:a6b4dfcf149a8a9d3d2d3a45a3a43b214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48ebc0bccdc7ca9c825bf8916133e61a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a48ebc0bccdc7ca9c825bf8916133e61a"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html">std::array</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; libMesh::dof_id_type, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; unsigned int, libMesh::dof_id_type &gt; &gt;, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlapping_elem_map</b></td></tr>
-<tr class="separator:a48ebc0bccdc7ca9c825bf8916133e61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae189f593c2e2c57e1f64cd5ec95d1635"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae189f593c2e2c57e1f64cd5ec95d1635"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_force_part_kappa</b></td></tr>
-<tr class="separator:ae189f593c2e2c57e1f64cd5ec95d1635"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee1a9067d1ef1bf57356b0f088564d87"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee1a9067d1ef1bf57356b0f088564d87"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html">std::array</a>&lt; libMesh::QBase *, 2 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_force_part_qrule</b></td></tr>
-<tr class="separator:aee1a9067d1ef1bf57356b0f088564d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe71a08c34b50a1bbd248373662e4668"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe71a08c34b50a1bbd248373662e4668"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_overlap_force_part_max_displacement</b></td></tr>
-<tr class="separator:afe71a08c34b50a1bbd248373662e4668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae39d7a053c93cac21e763dcca5f89e0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae39d7a053c93cac21e763dcca5f89e0b"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_coordinate_mapping_fcn_data.html">CoordinateMappingFcnData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_coordinate_mapping_fcn_data</b></td></tr>
 <tr class="separator:ae39d7a053c93cac21e763dcca5f89e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1026,51 +959,6 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 <p>Compute the Lagrangian force at the specified time within the current time interval. </p>
 
 <p>Implements <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#aec6e7fc096c898aab511e8149940618a">IBAMR::IBStrategy</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4c42a923014e7fccb3fcdb0ae06c1318"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::IBFEMethod::constrainPartOverlap </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>part1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>part2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>kappa</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">libMesh::QBase *&#160;</td>
-          <td class="paramname"><em>qrule1</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">libMesh::QBase *&#160;</td>
-          <td class="paramname"><em>qrule2</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Use tether forces to constrain the motion of a pair of parts. </p>
 
 </div>
 </div>
@@ -1973,78 +1861,6 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 
 </div>
 </div>
-<a class="anchor" id="a9a139032cd28936aed8fab6ac297ebce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::IBFEMethod::registerOverlappingForceConstraint </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>part1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>part2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>kappa</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">libMesh::QBase *&#160;</td>
-          <td class="paramname"><em>qrule1</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">libMesh::QBase *&#160;</td>
-          <td class="paramname"><em>qrule2</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Set up forces to penalize relative motion between part1 and part2. </p>
-
-</div>
-</div>
-<a class="anchor" id="a6dee0a339e286047e1a4a1b982d9d1c6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::IBFEMethod::registerOverlappingVelocityReset </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>part1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>part2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Always reset the velocity of the nodes of part1 that overlap part2 to equal the velocity of part2. </p>
-
-</div>
-</div>
 <a class="anchor" id="adc982545286cb33e223a44342c5455aa"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2628,7 +2444,7 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 19 2019 15:23:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 19 2019 21:20:51 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
