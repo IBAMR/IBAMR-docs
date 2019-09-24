@@ -672,6 +672,11 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>LNodeTransaction</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ae8048f832efc6a3000180a8b59de9091"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a> { <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091a643d9c888b06a36de3593a171a6d456d">update_default</a> = 0, 
+<a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091a9f04987cef3783ee1f9329eca30c5558">update_phi</a> = 1, 
+<a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091acd49d3ad2cb8bd317153305be3d4245e">update_dphi</a> = 2
+ }</td></tr>
+<tr class="separator:ae8048f832efc6a3000180a8b59de9091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19008659d5b79c98ba2edfefb73b17a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19008659d5b79c98ba2edfefb73b17a0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a19008659d5b79c98ba2edfefb73b17a0">MGCycleType</a> { <br />
 &#160;&#160;<b>F_CYCLE</b>, 
 <b>FMG_CYCLE</b>, 
@@ -912,6 +917,32 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Eigen types have special alignment requirements and require a specific memory allocator. This is a convenience type alias for a <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a></code> with the correct allocator. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ae8048f832efc6a3000180a8b59de9091"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">IBTK::FEUpdateFlags</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Enumeration describing the various update options available for libMesh::FEBase objects stored by <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html" title="Class storing multiple libMesh::FE objects, each corresponding to a different quadrature rule...">FECache</a>. Multiple flags can be enabled with bitwise or operations, e.g.,</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> <a class="code" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">IBTK::FEUpdateFlags</a> update_flags = <a class="code" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091a9f04987cef3783ee1f9329eca30c5558">IBTK::update_phi</a> | <a class="code" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091acd49d3ad2cb8bd317153305be3d4245e">IBTK::update_dphi</a>;</div></div><!-- fragment --><p>See <a class="el" href="class_i_b_t_k_1_1_f_e_cache.html" title="Class storing multiple libMesh::FE objects, each corresponding to a different quadrature rule...">IBTK::FECache</a> for more information. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae8048f832efc6a3000180a8b59de9091a643d9c888b06a36de3593a171a6d456d"></a>update_default&#160;</td><td class="fielddoc">
+<p>Do not update anything. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae8048f832efc6a3000180a8b59de9091a9f04987cef3783ee1f9329eca30c5558"></a>update_phi&#160;</td><td class="fielddoc">
+<p>Update phi (shape function values). </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae8048f832efc6a3000180a8b59de9091acd49d3ad2cb8bd317153305be3d4245e"></a>update_dphi&#160;</td><td class="fielddoc">
+<p>Update dphi (shape function gradients). </p>
+</td></tr>
+</table>
 
 </div>
 </div>
@@ -1746,7 +1777,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 23 2019 19:50:49 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 24 2019 16:54:33 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

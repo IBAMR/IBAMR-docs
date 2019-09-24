@@ -5,7 +5,7 @@ var searchData=
   ['qsortintcompare',['qsortIntCompare',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1BoxGraphUtilities.html#eb3320811ec1b8749b8fcd85acc039c1',1,'SAMRAI::hier::BoxGraphUtilities']]],
   ['quadratic_5fprobe_5ffn',['quadratic_probe_fn',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10068.html',1,'__gnu_pbds']]],
   ['quadratic_5fprobe_5ffn_5fimp_2ehpp',['quadratic_probe_fn_imp.hpp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01325.html',1,'']]],
-  ['quadrature_5fcache',['quadrature_cache',['../class_i_b_t_k_1_1_f_e_cache.html#a3bf09bb497304d248ee4bb130b608bfd',1,'IBTK::FECache::quadrature_cache()'],['../class_i_b_t_k_1_1_f_e_map_cache.html#a68462ce2f9618e0acaf5ae83b6354a74',1,'IBTK::FEMapCache::quadrature_cache()']]],
+  ['quadrature_5fcache',['quadrature_cache',['../class_i_b_t_k_1_1_f_e_map_cache.html#a68462ce2f9618e0acaf5ae83b6354a74',1,'IBTK::FEMapCache']]],
   ['quadraturecache',['QuadratureCache',['../class_i_b_t_k_1_1_quadrature_cache.html',1,'IBTK']]],
   ['quadraturecache',['QuadratureCache',['../class_i_b_t_k_1_1_quadrature_cache.html#ae46a275abed17418aeda8ed3bd9be4bf',1,'IBTK::QuadratureCache']]],
   ['quadratures',['quadratures',['../class_i_b_t_k_1_1_quadrature_cache.html#a684f476ab817c4f5d34c4d5578a52f38',1,'IBTK::QuadratureCache']]],
