@@ -151,6 +151,7 @@ var searchData=
   ['clearallactivedatainfo',['clearAllActiveDataInfo',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LocallyActiveDataPatchLevelManager.html#de26d513f33bb45ca303d5a98ed8c130',1,'SAMRAI::hier::LocallyActiveDataPatchLevelManager']]],
   ['clearbccoefdata',['clearBcCoefData',['../class_i_b_t_k_1_1_staggered_physical_boundary_helper.html#aecb92d79d0d734bbb25c634c6273c8ed',1,'IBTK::StaggeredPhysicalBoundaryHelper']]],
   ['clearblocknumber',['clearBlockNumber',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1MultiblockRefinePatchStrategy.html#ba2dace11641dad5abe3d1d8d74ddb84',1,'SAMRAI::xfer::MultiblockRefinePatchStrategy']]],
+  ['clearcached',['clearCached',['../class_i_b_t_k_1_1_f_e_data.html#aa42e3a39e15095b11d0fbd7798095ffe',1,'IBTK::FEData']]],
   ['clearcoarsenblocknumber',['clearCoarsenBlockNumber',['../../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1MultiblockCoarsenPatchStrategy.html#f4d3a350f9c564c6f45b1125921ceed2',1,'SAMRAI::xfer::MultiblockCoarsenPatchStrategy']]],
   ['cleardatacontext',['clearDataContext',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html#1f0939649f2f49678cb846ccbc2482cd',1,'SAMRAI::algs::HyperbolicPatchStrategy']]],
   ['clearitems',['clearItems',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1List.html#058d5eaae8f21699754259070ff6c3c4',1,'SAMRAI::tbox::List']]],
