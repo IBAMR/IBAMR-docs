@@ -103,7 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> coordinates data required for Lagrangian-Eulerian interaction between a Lagrangian finite element (FE) mesh. In particular, the base class <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> stores the necessary FE data while this class stores additional data dependent on the Eulerian grid.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> coordinates data required for Lagrangian-Eulerian interaction between a Lagrangian finite element (FE) mesh. In particular, the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> member object stores the necessary finite element data while this class stores additional data dependent on the Eulerian grid.  
  <a href="class_i_b_t_k_1_1_f_e_data_manager.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/FEDataManager.h&gt;</code></p>
@@ -335,7 +335,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a46ad4df2258656ae6d77d14e0326bd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> coordinates data required for Lagrangian-Eulerian interaction between a Lagrangian finite element (FE) mesh. In particular, the base class <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> stores the necessary FE data while this class stores additional data dependent on the Eulerian grid. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> coordinates data required for Lagrangian-Eulerian interaction between a Lagrangian finite element (FE) mesh. In particular, the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> member object stores the necessary finite element data while this class stores additional data dependent on the Eulerian grid. </p>
 <h3>Parameters effecting workload estimate calculations</h3>
 <p><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> can estimate the amount of work done in IBFE calculations (such as <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a137108543cafe18e8535e917ff375586" title="Spread a density from the FE mesh to the Cartesian grid using the default spreading spec...">FEDataManager::spread</a>). Since most calculations use a variable number of quadrature points on each <a class="el" href="namespacelib_mesh.html">libMesh</a> element this estimate can vary quite a bit over different Eulerian cells corresponding to a single mesh. The current implementation estimates the workload on each cell of the background Eulerian grid by applying a background value representing the work on the Eulerian cell itself and a weight times the number of quadrature points on that cell. These values are set at the time of object construction through the <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html" title="Struct WorkloadSpec encapsulates the parameters used to calculate workload estimates (i...">FEDataManager::WorkloadSpec</a> object, which contains reasonable defaults.</p>
 <dl class="section note"><dt>Note</dt><dd>Multiple <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects may be instantiated simultaneously. </dd></dl>
@@ -349,7 +349,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Alias SystemDofMapCache for backwards compatibility. </p>
+<p>Alias <a class="el" href="class_i_b_t_k_1_1_f_e_data_1_1_system_dof_map_cache.html">FEData::SystemDofMapCache</a> for backwards compatibility. </p>
 
 </div>
 </div>
@@ -476,7 +476,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted solution vector associated with the specified system. The vector contains positions for values in the relevant IB ghost region which are populated if <code>localize_data</code> is <code>true</code>.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The vector returned by pointer is owned by this class (i.e., no copying is done).</dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Use buildIBGhostedVector instead which clones a vector with the same ghost region. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a59dc3e053fd81278d7cd551c59a3418b">buildIBGhostedVector()</a> instead which clones a vector with the same ghost region. </dd></dl>
 
 </div>
 </div>
@@ -757,7 +757,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a01d5f874330802d540881452a01186c9">getManager()</a> function.</p>
-<p>Note that when a manager is accessed for the first time, the freeAllManagers static method is registered with the ShutdownRegistry class. Consequently, all allocated managers are freed at program completion. Thus, users of this class do not explicitly allocate or deallocate the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> instances.</p>
+<p>Note that when a manager is accessed for the first time, the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">FEDataManager::freeAllManagers()</a> static method is registered with the <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1ShutdownRegistry.html">SAMRAI::tbox::ShutdownRegistry</a> class. Consequently, all allocated managers are freed at program completion. Thus, users of this class do not explicitly allocate or deallocate the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> instances.</p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
 
 </div>
@@ -912,8 +912,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Initialize data on a new level after it is inserted into an AMR patch hierarchy by the gridding algorithm. The level number indicates that of the new level. The old_level pointer corresponds to the level that resided in the hierarchy before the level with the specified number was introduced. If the pointer is null, there was no level in the hierarchy prior to the call and the level data is set based on the user routines and the simulation time. Otherwise, the specified level replaces the old level and the new level receives data from the old level appropriately before it is destroyed.</p>
-<p>The boolean argument initial_time indicates whether the level is being introduced for the first time (i.e., at initialization time) or after some regrid process during the calculation beyond the initial hierarchy construction. This information is provided since the initialization of the data on a patch may be different in each of those circumstances. The can_be_refined boolean argument indicates whether the level is the finest level allowed in the hierarchy. This may or may not affect the data initialization process depending on the problem.</p>
+<p>Initialize data on a new level after it is inserted into an AMR patch hierarchy by the gridding algorithm. The level number indicates that of the new level. The <code>old_level</code> pointer corresponds to the level that resided in the hierarchy before the level with the specified number was introduced. If the pointer is null, there was no level in the hierarchy prior to the call and the level data is set based on the user routines and the simulation time. Otherwise, the specified level replaces the old level and the new level receives data from the old level appropriately before it is destroyed.</p>
+<p>The boolean argument <code>initial_time</code> indicates whether the level is being introduced for the first time (i.e., at initialization time) or after some regrid process during the calculation beyond the initial hierarchy construction. This information is provided since the initialization of the data on a patch may be different in each of those circumstances. The <code>can_be_refined</code> boolean argument indicates whether the level is the finest level allowed in the hierarchy. This may or may not affect the data initialization process depending on the problem.</p>
 <p>When assertion checking is active, an unrecoverable exception will result if the hierarchy pointer is null, the level number does not match any level in the hierarchy, or the old level number does not match the level number (if the old level pointer is non-null). </p>
 
 <p>Implements <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#01feb177be312206e159858f33e6d332">SAMRAI::mesh::StandardTagAndInitStrategy&lt; NDIM &gt;</a>.</p>
@@ -1374,7 +1374,7 @@ This function is poorly named: it actually sets up a dual-space vector <code>F</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 4 2019 14:53:13 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Oct 5 2019 12:21:42 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
