@@ -184,6 +184,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a69c2939be6577b4f4061b7fa196e37b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea3e740109fb669d08420a059720028b"><td class="memItemLeft" align="right" valign="top">libMesh::NumericVector&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#aea3e740109fb669d08420a059720028b">buildGhostedCoordsVector</a> (bool localize_data=true)</td></tr>
 <tr class="separator:aea3e740109fb669d08420a059720028b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3edf42cfb2dc6c3bbfd758d7385d47"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abe3edf42cfb2dc6c3bbfd758d7385d47">getFEData</a> ()</td></tr>
+<tr class="separator:abe3edf42cfb2dc6c3bbfd758d7385d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8714de3e16ecf733bd8f095ffcfd6f"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a7e8714de3e16ecf733bd8f095ffcfd6f">getFEData</a> () const </td></tr>
+<tr class="separator:a7e8714de3e16ecf733bd8f095ffcfd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137108543cafe18e8535e917ff375586"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a137108543cafe18e8535e917ff375586"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a137108543cafe18e8535e917ff375586">spread</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html">RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, double fill_data_time, bool close_F=true, bool close_X=true)</td></tr>
 <tr class="memdesc:a137108543cafe18e8535e917ff375586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid using the default spreading spec. <br /></td></tr>
@@ -276,6 +280,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef"
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a01d5f874330802d540881452a01186c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a01d5f874330802d540881452a01186c9">getManager</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;default_workload_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), bool register_for_restart=true)</td></tr>
 <tr class="separator:a01d5f874330802d540881452a01186c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbea373bcee366ddcbd960e1e09b5254"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abbea373bcee366ddcbd960e1e09b5254">getManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;default_workload_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), bool register_for_restart=true)</td></tr>
+<tr class="separator:abbea373bcee366ddcbd960e1e09b5254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f1758b25d2c421aee5968036031189d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a0f1758b25d2c421aee5968036031189d">getManager</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), bool register_for_restart=true)</td></tr>
 <tr class="separator:a0f1758b25d2c421aee5968036031189d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88429e0a8a395f3552efeb71de52a01a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">freeAllManagers</a> ()</td></tr>
@@ -289,9 +295,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1a074b6d7fdbc4e48735e970b33100f4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a1a074b6d7fdbc4e48735e970b33100f4">COORDINATES_SYSTEM_NAME</a> = &quot;coordinates system&quot;</td></tr>
-<tr class="memdesc:a1a074b6d7fdbc4e48735e970b33100f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the equation system which stores the spatial position data.  <a href="#a1a074b6d7fdbc4e48735e970b33100f4">More...</a><br /></td></tr>
-<tr class="separator:a1a074b6d7fdbc4e48735e970b33100f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450f2ab850794758221e91baba82c9a7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a450f2ab850794758221e91baba82c9a7">COORDINATES_SYSTEM_NAME</a></td></tr>
+<tr class="memdesc:a450f2ab850794758221e91baba82c9a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the equation system which stores the spatial position data. The actual string is stored by <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a>.  <a href="#a450f2ab850794758221e91baba82c9a7">More...</a><br /></td></tr>
+<tr class="separator:a450f2ab850794758221e91baba82c9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -324,6 +330,10 @@ Protected Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a695f21a34d6941f647670618cee31696">FEDataManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> object_name, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> default_interp_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> default_spread_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> default_workload_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; ghost_width, bool register_for_restart=true)</td></tr>
 <tr class="memdesc:a695f21a34d6941f647670618cee31696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a695f21a34d6941f647670618cee31696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a682b3f954c19f3eafbb8a6c0aae98c9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a682b3f954c19f3eafbb8a6c0aae98c9e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a682b3f954c19f3eafbb8a6c0aae98c9e">FEDataManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> object_name, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> default_interp_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> default_spread_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> default_workload_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; ghost_width, bool register_for_restart=true)</td></tr>
+<tr class="memdesc:a682b3f954c19f3eafbb8a6c0aae98c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, where the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object owned by this class may be co-owned by other objects. <br /></td></tr>
+<tr class="separator:a682b3f954c19f3eafbb8a6c0aae98c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefddb2a11c0a9c77fdbcdf6f6be6896"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afefddb2a11c0a9c77fdbcdf6f6be6896"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#afefddb2a11c0a9c77fdbcdf6f6be6896">~FEDataManager</a> ()</td></tr>
 <tr class="memdesc:afefddb2a11c0a9c77fdbcdf6f6be6896"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> destructor cleans up any allocated data objects. <br /></td></tr>
@@ -669,6 +679,38 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abe3edf42cfb2dc6c3bbfd758d7385d47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; &amp; IBTK::FEDataManager::getFEData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The shared pointer to the object managing the Lagrangian data. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7e8714de3e16ecf733bd8f095ffcfd6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; &amp; IBTK::FEDataManager::getFEData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The shared pointer to the object managing the Lagrangian data. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a54a0c4134408f7d0c2027f70539c7d15"></a>
 <div class="memitem">
 <div class="memproto">
@@ -758,6 +800,73 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a01d5f874330802d540881452a01186c9">getManager()</a> function.</p>
 <p>Note that when a manager is accessed for the first time, the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">FEDataManager::freeAllManagers()</a> static method is registered with the <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1ShutdownRegistry.html">SAMRAI::tbox::ShutdownRegistry</a> class. Consequently, all allocated managers are freed at program completion. Thus, users of this class do not explicitly allocate or deallocate the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> instances.</p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abbea373bcee366ddcbd960e1e09b5254"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> * IBTK::FEDataManager::getManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt;&#160;</td>
+          <td class="paramname"><em>fe_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;&#160;</td>
+          <td class="paramname"><em>default_interp_spec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;&#160;</td>
+          <td class="paramname"><em>default_spread_spec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;&#160;</td>
+          <td class="paramname"><em>default_workload_spec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramname"><em>min_ghost_width</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt;NDIM&gt;(0)</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>register_for_restart</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a01d5f874330802d540881452a01186c9">getManager()</a> function.</p>
+<p>This is the same as the other methods except for the first argument: here the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object owned by the new <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> will, in most cases, be co-owned by another <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> object.</p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
 
 </div>
@@ -1330,17 +1439,17 @@ This function is poorly named: it actually sets up a dual-space vector <code>F</
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a1a074b6d7fdbc4e48735e970b33100f4"></a>
+<a class="anchor" id="a450f2ab850794758221e91baba82c9a7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> IBTK::FEDataManager::COORDINATES_SYSTEM_NAME = &quot;coordinates system&quot;</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&amp; IBTK::FEDataManager::COORDINATES_SYSTEM_NAME</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The name of the equation system which stores the spatial position data. </p>
+<p>The name of the equation system which stores the spatial position data. The actual string is stored by <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a>. </p>
 <dl class="section note"><dt>Note</dt><dd>The default value for this string is "coordinates system". </dd></dl>
 
 </div>
@@ -1374,7 +1483,7 @@ This function is poorly named: it actually sets up a dual-space vector <code>F</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Oct 5 2019 12:21:42 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 7 2019 16:58:35 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
