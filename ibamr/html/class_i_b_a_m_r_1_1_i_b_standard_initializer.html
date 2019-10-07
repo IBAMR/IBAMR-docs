@@ -120,9 +120,8 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#a8a82ef71c4bb80fe788b8fa9a6a97367">~IBStandardInitializer</a> ()</td></tr>
 <tr class="memdesc:a8a82ef71c4bb80fe788b8fa9a6a97367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a8a82ef71c4bb80fe788b8fa9a6a97367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab592d336cd6ff3aa90046095557f7513"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab592d336cd6ff3aa90046095557f7513"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#ab592d336cd6ff3aa90046095557f7513">init</a> () override</td></tr>
-<tr class="memdesc:ab592d336cd6ff3aa90046095557f7513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize structure specific configurations. <br /></td></tr>
+<tr class="memitem:ab592d336cd6ff3aa90046095557f7513"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_standard_initializer.html#ab592d336cd6ff3aa90046095557f7513">init</a> () override</td></tr>
+<tr class="memdesc:ab592d336cd6ff3aa90046095557f7513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize structure specific configurations.  <a href="#ab592d336cd6ff3aa90046095557f7513">More...</a><br /></td></tr>
 <tr class="separator:ab592d336cd6ff3aa90046095557f7513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html">IBAMR::IBRedundantInitializer</a></td></tr>
 <tr class="memitem:a1181654ddf6e3cfcd63bcf90c30c8646 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_redundant_initializer"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1181654ddf6e3cfcd63bcf90c30c8646"></a>
@@ -591,14 +590,43 @@ D0_x_2   D0_y_2   D0_z_2  # coordinates of director D0 associated with vertex 2
 D1_x_2   D1_y_2   D1_z_2  # coordinates of director D1 associated with vertex 2
 D2_x_2   D2_y_2   D2_z_2  # coordinates of director D2 associated with vertex 2
 ...
-</pre> </div><hr/>The documentation for this class was generated from the following files:<ul>
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ab592d336cd6ff3aa90046095557f7513"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBStandardInitializer::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize structure specific configurations. </p>
+<p>This function will attempt to load, in sequence, the vertex, spring, xspring, beam, rod, target point, anchor point, boundary mass, director, instrumentation, and source files. Of these, only the vertex files are required. The instrumentation and source files will only be loaded if both enable_instrumentation or enable_sources are enabled on the input database and the input files exist. The rest will only be loaded if files with matching suffixes (e.g., <code>.beam</code>) are in the current working directory. </p>
+
+<p>Reimplemented from <a class="el" href="class_i_b_a_m_r_1_1_i_b_redundant_initializer.html#aecae8c429fb6cdbb1037ab625711983a">IBAMR::IBRedundantInitializer</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/IBAMR/IBAMR/include/ibamr/IBStandardInitializer.h</li>
 <li>/home/travis/build/IBAMR/IBAMR/src/IB/IBStandardInitializer.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 7 2019 16:58:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 7 2019 18:29:32 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
