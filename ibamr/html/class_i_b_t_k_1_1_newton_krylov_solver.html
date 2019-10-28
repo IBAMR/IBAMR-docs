@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html" title="Class NewtonKrylovSolver provides an abstract interface for the implementation of inexact Newton-Kryl...">NewtonKrylovSolver</a> provides an abstract interface for the implementation of inexact Newton-Krylov solvers for nonlinear problems of the form <img class="formulaInl" alt="$ F[x]=b $" src="form_132.png"/>.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html" title="Class NewtonKrylovSolver provides an abstract interface for the implementation of inexact Newton-Kryl...">NewtonKrylovSolver</a> provides an abstract interface for the implementation of inexact Newton-Krylov solvers for nonlinear problems of the form <img class="formulaInl" alt="$ F[x]=b $" src="form_133.png"/>.  
  <a href="class_i_b_t_k_1_1_newton_krylov_solver.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/NewtonKrylovSolver.h&gt;</code></p>
@@ -141,11 +141,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr><td colspan="2"><div class="groupHeader">Newton-Krylov solver functionality.</div></td></tr>
 <tr class="memitem:af0821917f74cb297b1169df584a28432"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0821917f74cb297b1169df584a28432"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#af0821917f74cb297b1169df584a28432">setOperator</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_general_operator.html">GeneralOperator</a> &gt; op)</td></tr>
-<tr class="memdesc:af0821917f74cb297b1169df584a28432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_133.png"/> used by the solver. <br /></td></tr>
+<tr class="memdesc:af0821917f74cb297b1169df584a28432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_134.png"/> used by the solver. <br /></td></tr>
 <tr class="separator:af0821917f74cb297b1169df584a28432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33a9320ae47929037cb47ecc89b3e0f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33a9320ae47929037cb47ecc89b3e0f7"></a>
 virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_general_operator.html">GeneralOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a33a9320ae47929037cb47ecc89b3e0f7">getOperator</a> () const </td></tr>
-<tr class="memdesc:a33a9320ae47929037cb47ecc89b3e0f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_133.png"/> used by the solver. <br /></td></tr>
+<tr class="memdesc:a33a9320ae47929037cb47ecc89b3e0f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the nonlinear operator <img class="formulaInl" alt="$F[x]$" src="form_134.png"/> used by the solver. <br /></td></tr>
 <tr class="separator:a33a9320ae47929037cb47ecc89b3e0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af87e3c77baa4278c0fd908d8ed6b31d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#af87e3c77baa4278c0fd908d8ed6b31d1">getSolutionVector</a> () const =0</td></tr>
 <tr class="memdesc:af87e3c77baa4278c0fd908d8ed6b31d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the vector in which the approximate solution is stored.  <a href="#af87e3c77baa4278c0fd908d8ed6b31d1">More...</a><br /></td></tr>
@@ -154,11 +154,11 @@ virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:
 <tr class="memdesc:a05fef714fa15c384c3e5c8f17e8c3e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the vector in which the nonlinear function evaluation is stored.  <a href="#a05fef714fa15c384c3e5c8f17e8c3e76">More...</a><br /></td></tr>
 <tr class="separator:a05fef714fa15c384c3e5c8f17e8c3e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cc3d4d5fa85b48372496c08af9946f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a6cc3d4d5fa85b48372496c08af9946f9">setJacobian</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_jacobian_operator.html">JacobianOperator</a> &gt; J)</td></tr>
-<tr class="memdesc:a6cc3d4d5fa85b48372496c08af9946f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_134.png"/> used by the solver.  <a href="#a6cc3d4d5fa85b48372496c08af9946f9">More...</a><br /></td></tr>
+<tr class="memdesc:a6cc3d4d5fa85b48372496c08af9946f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_135.png"/> used by the solver.  <a href="#a6cc3d4d5fa85b48372496c08af9946f9">More...</a><br /></td></tr>
 <tr class="separator:a6cc3d4d5fa85b48372496c08af9946f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b8ef65b040de5990cbce279c1b917b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47b8ef65b040de5990cbce279c1b917b"></a>
 virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_jacobian_operator.html">JacobianOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a47b8ef65b040de5990cbce279c1b917b">getJacobian</a> () const </td></tr>
-<tr class="memdesc:a47b8ef65b040de5990cbce279c1b917b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_134.png"/> used by the solver. <br /></td></tr>
+<tr class="memdesc:a47b8ef65b040de5990cbce279c1b917b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_135.png"/> used by the solver. <br /></td></tr>
 <tr class="separator:a47b8ef65b040de5990cbce279c1b917b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49cec8caded7ce116ad151d3f12e7bc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49cec8caded7ce116ad151d3f12e7bc2"></a>
 virtual <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html">KrylovLinearSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a49cec8caded7ce116ad151d3f12e7bc2">getLinearSolver</a> () const </td></tr>
@@ -361,7 +361,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 <tr class="separator:a8c38f1c5d0b5f2bd4e6681ae7035cb45 inherit pro_methods_class_i_b_t_k_1_1_general_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html" title="Class NewtonKrylovSolver provides an abstract interface for the implementation of inexact Newton-Kryl...">NewtonKrylovSolver</a> provides an abstract interface for the implementation of inexact Newton-Krylov solvers for nonlinear problems of the form <img class="formulaInl" alt="$ F[x]=b $" src="form_132.png"/>. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html" title="Class NewtonKrylovSolver provides an abstract interface for the implementation of inexact Newton-Kryl...">NewtonKrylovSolver</a> provides an abstract interface for the implementation of inexact Newton-Krylov solvers for nonlinear problems of the form <img class="formulaInl" alt="$ F[x]=b $" src="form_133.png"/>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a05fef714fa15c384c3e5c8f17e8c3e76"></a>
 <div class="memitem">
@@ -441,7 +441,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 </table>
 </div><div class="memdoc">
 
-<p>Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_134.png"/> used by the solver. </p>
+<p>Set the Jacobian operator <img class="formulaInl" alt="$J[x] = F'[x]$" src="form_135.png"/> used by the solver. </p>
 <dl class="section note"><dt>Note</dt><dd>Subclasses should be implemented so that if a Jacobian object is not explicitly provided to the solver, a Jacobian-free inexact Newton-Krylov method is employed to approximate the action of the Jacobian. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html#af76cb1c2be637abd86561b707d699cab">IBTK::PETScNewtonKrylovSolver</a>.</p>
@@ -455,7 +455,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>initSpecializ
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 25 2019 16:40:43 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 28 2019 16:04:53 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

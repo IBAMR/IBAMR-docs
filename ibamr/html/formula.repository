@@ -126,18 +126,19 @@
 \form#125:$z=F[x]+y$
 \form#126:$F[x]=b$
 \form#127:$ F'[x]v $
-\form#128:$ y=Ax $
-\form#129:$ z=Ax+y $
-\form#130:$ y=A^{T} x $
-\form#131:$ z=A^{T}x+y $
-\form#132:$ F[x]=b $
-\form#133:$F[x]$
-\form#134:$J[x] = F'[x]$
-\form#135:$ \alpha $
-\form#136:$ r_0 = r $
-\form#137:$ r_1 = r_0 + 1 $
-\form#138:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
-\form#139:$ \mu $
-\form#140:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
-\form#141:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
-\form#142:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#128:\[ J(qp) = \sum_{i = 1}^n \xi_i \otimes \nabla_X \phi_i(qp) \]
+\form#129:$ y=Ax $
+\form#130:$ z=Ax+y $
+\form#131:$ y=A^{T} x $
+\form#132:$ z=A^{T}x+y $
+\form#133:$ F[x]=b $
+\form#134:$F[x]$
+\form#135:$J[x] = F'[x]$
+\form#136:$ \alpha $
+\form#137:$ r_0 = r $
+\form#138:$ r_1 = r_0 + 1 $
+\form#139:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
+\form#140:$ \mu $
+\form#141:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#142:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
+\form#143:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
