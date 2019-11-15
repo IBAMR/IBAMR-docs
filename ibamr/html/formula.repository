@@ -74,10 +74,10 @@
 \form#73:$(\frac{\partial \rho u}{\partial t} + N(\rho u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
 \form#74:$ N(u) = \nabla \cdot (\rho u u) $
 \form#75:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = 0 $
-\form#76:$rho^n$
-\form#77:$rho^{n+\frac{1}{2}}$
+\form#76:$\rho^n$
+\form#77:$\rho^{n+\frac{1}{2}}$
 \form#78:$N(\rho u)$
-\form#79:$rho^{n+1}$
+\form#79:$\rho^{n+1}$
 \form#80:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $
 \form#81:$ \nabla \cdot (\rho u u)$
 \form#82:$ S(x,t) $
