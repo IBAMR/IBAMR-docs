@@ -257,6 +257,15 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a> provides a generic interface for specifying the implementation details of a particular version of the IB method. </p>
+<h2>Options Controlling Interpolation and Spreading</h2>
+<p>All classes inheriting from <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a> read the following values from the input database to determine which interpolation and spreading delta functions should be used: </p><ul>
+<li>
+<code>interp_delta_fcn</code>: name of the interpolation kernel, provided as a string. Defaults to <code>"IB_4"</code>. </li>
+<li>
+<code>spread_delta_fcn</code>: name of the spreading kernel, provided as a string. Defaults to <code>"IB_4"</code>. </li>
+<li>
+<code>IB_delta_fcn</code>: overriding alias for the two previous entries - has the same default. </li>
+</ul>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a729cbb30c02fe0d6178f59bf356c25a1"></a>
 <div class="memitem">
@@ -2062,7 +2071,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 15 2019 14:40:44 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 15 2019 19:49:10 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

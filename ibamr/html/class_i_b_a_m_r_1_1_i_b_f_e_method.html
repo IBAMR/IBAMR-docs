@@ -708,6 +708,39 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_restart_rest
 <p>By default, the <a class="el" href="namespacelib_mesh.html">libMesh</a> data is partitioned once at the beginning of the computation by <a class="el" href="namespacelib_mesh.html">libMesh</a>'s default partitioner.</p>
 <h2>Options Controlling Finite Element Vector Data Layout</h2>
 <p><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali...">IBFEMethod</a> performs an L2 projection to transfer the velocity of the fluid from the Eulerian grid to the finite element representation. The parallel performance of this operation can be substantially improved by doing assembly into the ghost region of each vector (instead of accumulating into an internal PETSc object). By default this class will use the 'accumulate into the ghost region' assembly strategy. The assembly strategy can be selected by changing the database variable vector_assembly_accumulation from <code>GHOSTED</code>, the default, to <code>CACHE</code>, which will use PETSc's VecCache object to distribute data.</p>
+<h2>Options Controlling Interpolation and Spreading</h2>
+<p>Like other classes inheriting from <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a>, most options regarding the actual IB method implementation can be specified with the provided input database. Parameters starting with <code>IB_</code> set and override those with the same name starting with <code>interp_</code> or <code>spread_</code>: e.g., <code>IB_delta_fcn</code> overrides both <code>interp_delta_fcn</code> and <code>spread_delta_fcn</code>. </p><ul>
+<li>
+<code>interp_quad_type</code>: Quadrature type for interpolation, provided as a string. Can be any quadrature type known to <a class="el" href="namespacelib_mesh.html">libMesh</a>. Defaults to <code>"QGAUSS"</code>. </li>
+<li>
+<code>spread_quad_type</code>: Quadrature type for spreading, provided as a string. Parsed in the same was as <code>interp_quad_type</code>. </li>
+<li>
+<code>IB_quad_type</code>: overriding alias for the two previous entries - has the same default. </li>
+<li>
+<code>interp_use_adaptive_quadrature</code>: Whether or not the current deformation of each element should be considered when determining which quadrature rule to use. Defaults to <code>TRUE</code>. </li>
+<li>
+<code>spread_point_density</code>: Same as above, but for spreading. </li>
+<li>
+<code>IB_point_density</code>: overriding alias for the two previous entries - has the same default. </li>
+<li>
+<code>interp_point_density</code>: Parameter for adaptively computing the number of quadrature points in a quadrature rule. Defaults to <code>2.0</code>. See <a class="el" href="namespace_i_b_t_k.html#af60d5a97f333088f598958c116655068">IBTK::getQuadratureKey()</a> for a detailed description. </li>
+<li>
+<code>spread_point_density</code>: Same as above, but for spreading. </li>
+<li>
+<code>IB_point_density</code>: overriding alias for the two previous entries - has the same default. </li>
+<li>
+<code>interp_use_consistent_mass_matrix</code>: Whether or not mass lumping should be applied when solving the L2 projection for computing the velocity of the structure. Defaults to FALSE. Note that no linear system is solved when computing forces so this parameter does not have a spreading equivalent. </li>
+<li>
+<code>use_consistent_mass_matrix</code>: Overriding alias of the previous entry. </li>
+<li>
+<code>IB_use_consistent_mass_matrix</code>: Overriding alias of the previous entry. </li>
+<li>
+<code>interp_use_nodal_quadrature</code>: Whether or not nodal quadrature should be used, which is essentially interpolation instead of projection. This is an experimental feature. Defaults to <code>FALSE</code>. </li>
+<li>
+<code>spread_use_nodal_quadrature</code>: Same as above, but for spreading. </li>
+<li>
+<code>IB_use_nodal_quadrature</code>: overriding alias for the two previous entries - has the same default. </li>
+</ul>
 <h2>Options Controlling <a class="el" href="namespacelib_mesh.html">libMesh</a> Partitioning</h2>
 <p>This class can repartition <a class="el" href="namespacelib_mesh.html">libMesh</a> data in a way that matches <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a>'s distribution of patches; put another way, if a certain region of space on the finest level is assigned to processor N, then all <a class="el" href="namespacelib_mesh.html">libMesh</a> nodes and elements within that region will also be assigned to processor N. The actual partitioning here is done by the <a class="el" href="class_i_b_t_k_1_1_box_partitioner.html" title="A libMesh partitioner that partitions a mesh based on PartitioningBox objects owned by each processor...">IBTK::BoxPartitioner</a> class. See the discussion in HierarchyIntegrator and FEDataManager for descriptions on how this partitioning is performed.</p>
 <p>The choice of <a class="el" href="namespacelib_mesh.html">libMesh</a> partitioner depends on the libmesh_partitioner_type parameter in the input database and whether or not workload estimates are available (it is assumed that if workload estimates are available then a load balancer is being used). More exactly: </p><ul>
@@ -2703,7 +2736,7 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 15 2019 14:40:43 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 15 2019 19:49:09 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
