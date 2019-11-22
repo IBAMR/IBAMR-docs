@@ -1,8 +1,10 @@
 var searchData=
 [
   ['jacobian',['jacobian',['../namespace_i_b_t_k.html#a9028293137d8bfcafec9ac4a39d5381e',1,'IBTK']]],
-  ['jacobianoperator',['JacobianOperator',['../class_i_b_t_k_1_1_jacobian_operator.html',1,'IBTK']]],
+  ['jacobiancalculator',['JacobianCalculator',['../class_jacobian_calculator.html',1,'JacobianCalculator'],['../class_jacobian_calculator.html#a9a2423547afb54c622fd371df25f338f',1,'JacobianCalculator::JacobianCalculator()']]],
+  ['jacobiancalculatorcache',['JacobianCalculatorCache',['../class_i_b_t_k_1_1_jacobian_calculator_cache.html',1,'IBTK']]],
   ['jacobianoperator',['JacobianOperator',['../class_i_b_t_k_1_1_jacobian_operator.html#afade69625fe08dc41dad0b54dbf4651c',1,'IBTK::JacobianOperator']]],
+  ['jacobianoperator',['JacobianOperator',['../class_i_b_t_k_1_1_jacobian_operator.html',1,'IBTK']]],
   ['jacobiantimesvector',['jacobianTimesVector',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SNESAbstractFunctions.html#196fe919ca77d555b32f28d03d5d6ffd',1,'SAMRAI::solv::SNESAbstractFunctions::jacobianTimesVector()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1KINSOLAbstractFunctions.html#0a6608ac3c0c16ffdf3a6a47d85edffa',1,'SAMRAI::solv::KINSOLAbstractFunctions::jacobianTimesVector()']]],
   ['jdown_5fidown_5fkdown',['JDOWN_IDOWN_KDOWN',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1MultiblockPatchHierarchy.html#c676b6e0a14772a2e04b396131353d8d2ccb5fb84be6d30071d97f36d2fec0f3',1,'SAMRAI::hier::MultiblockPatchHierarchy']]],
   ['jdown_5fiup',['JDOWN_IUP',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1MultiblockPatchHierarchy.html#c676b6e0a14772a2e04b396131353d8d1a49ddbe7bd16ed963cc840cd0b5ccad',1,'SAMRAI::hier::MultiblockPatchHierarchy']]],

@@ -3,6 +3,8 @@ var searchData=
   ['q_5fpoint_5fweight',['q_point_weight',['../struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html#af6dcd423c3fceddaed6d157401be90b4',1,'IBTK::FEDataManager::WorkloadSpec']]],
   ['qsb_5fsteals',['qsb_steals',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08624.html#ad2087c371858b65ed5af5070e82fc80b',1,'__gnu_parallel::_Settings']]],
   ['qsortintcompare',['qsortIntCompare',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1BoxGraphUtilities.html#eb3320811ec1b8749b8fcd85acc039c1',1,'SAMRAI::hier::BoxGraphUtilities']]],
+  ['quad4jacobiancalculator',['Quad4JacobianCalculator',['../class_quad4_jacobian_calculator.html',1,'']]],
+  ['quad9jacobiancalculator',['Quad9JacobianCalculator',['../class_quad9_jacobian_calculator.html',1,'Quad9JacobianCalculator'],['../class_quad9_jacobian_calculator.html#a9847f850b7d4669bc737669332b31e46',1,'Quad9JacobianCalculator::Quad9JacobianCalculator()']]],
   ['quadratic_5fprobe_5ffn',['quadratic_probe_fn',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10068.html',1,'__gnu_pbds']]],
   ['quadratic_5fprobe_5ffn_5fimp_2ehpp',['quadratic_probe_fn_imp.hpp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01325.html',1,'']]],
   ['quadrature_5fcache',['quadrature_cache',['../class_i_b_t_k_1_1_f_e_map_cache.html#a68462ce2f9618e0acaf5ae83b6354a74',1,'IBTK::FEMapCache']]],
