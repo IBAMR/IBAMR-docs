@@ -154,7 +154,6 @@ var searchData=
   ['_7ecellpoissonfacsolver',['~CellPoissonFACSolver',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1CellPoissonFACSolver.html#7f369c0842f67d81fc0a1bd096fb07df',1,'SAMRAI::solv::CellPoissonFACSolver']]],
   ['_7ecellpoissonhypresolver',['~CellPoissonHypreSolver',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1CellPoissonHypreSolver.html#2e43bfeef10af6b76fc32b162d8c3a61',1,'SAMRAI::solv::CellPoissonHypreSolver']]],
   ['_7ecellvariable',['~CellVariable',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html#151b684432804176d11dae4ccd160205',1,'SAMRAI::pdat::CellVariable']]],
-  ['_7ecibfemethod',['~CIBFEMethod',['../class_i_b_a_m_r_1_1_c_i_b_f_e_method.html#adc278252523c0e949d2a1f3deb18db8d',1,'IBAMR::CIBFEMethod']]],
   ['_7ecibmethod',['~CIBMethod',['../class_i_b_a_m_r_1_1_c_i_b_method.html#af3ec96154b38bbd49bd651caa8017562',1,'IBAMR::CIBMethod']]],
   ['_7ecibmobilitysolver',['~CIBMobilitySolver',['../class_i_b_a_m_r_1_1_c_i_b_mobility_solver.html#aaebe8078cb46dc6dc0c09a15b898a577',1,'IBAMR::CIBMobilitySolver']]],
   ['_7ecibsaddlepointsolver',['~CIBSaddlePointSolver',['../class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#adba595afff39acb74273a06ca8809542',1,'IBAMR::CIBSaddlePointSolver']]],

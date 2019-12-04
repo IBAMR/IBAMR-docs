@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_i_b_a_m_r_1_1_staggered_stokes_p_e_t_sc_vec_utilities.html" title="Class StaggeredStokesPETScVecUtilities provides utility functions for PETSc Vec objects. " alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node1" href="$class_i_b_a_m_r_1_1_stokes_wave_generator_strategy.html" title="Strategy class for generating Stokes wave. " alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_fifth_order_stokes_wave_generator.html" title="Class for generating fifth order Stokes wave using Fenton&#39;s (Stokes) wave theory. ..." alt="" coords="259,5,465,47"/>
 </map>
