@@ -5,7 +5,7 @@ var searchData=
   ['pair_3c_20_5fbi_5fiter_2c_20_5fbi_5fiter_20_3e',['pair&lt; _Bi_iter, _Bi_iter &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'']]],
   ['pair_3c_20_5fbiiter_2c_20_5fbiiter_20_3e',['pair&lt; _BiIter, _BiIter &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'']]],
   ['pair_3c_20_5fiterator1_2c_20_5fiterator2_20_3e',['pair&lt; _Iterator1, _Iterator2 &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'']]],
-  ['pair_3c_20_5fraiter_2c_20_5fraiter_20_3e',['pair&lt; _RAIter, _RAIter &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'pair&lt; _RAIter, _RAIter &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'std::pair&lt; _RAIter, _RAIter &gt;']]],
+  ['pair_3c_20_5fraiter_2c_20_5fraiter_20_3e',['pair&lt; _RAIter, _RAIter &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'std::pair&lt; _RAIter, _RAIter &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'pair&lt; _RAIter, _RAIter &gt;']]],
   ['pair_3c_20char_2c_20_5ftokent_20_3e',['pair&lt; char, _TokenT &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'']]],
   ['pair_3c_20char_2c_20char_20_3e',['pair&lt; char, char &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'']]],
   ['pair_3c_20entry_5fpointer_2c_20typename_20_5falloc_3a_3asize_5ftype_20_3e',['pair&lt; entry_pointer, typename _Alloc::size_type &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06756.html',1,'']]],
