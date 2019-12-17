@@ -773,6 +773,8 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 <li>
 <code>skip_initial_workload_log</code>: For testing purposes (see d_skip_initial_workload_log) it is necessary to disable some output: this option disables logging of workload data (quadrature point counts, etc.) before the first time step if set to <code>TRUE</code>. Defaults to <code>false</code>. </li>
 </ol>
+<h2>Handling Restart Data</h2>
+<p>The caching of the IBFE restart data is not managed by <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a>'s RestartManager. It is instead handled by <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a36bc7a74eab641f79ed97f689af3f2ef">IBFEMethod::writeFEDataToRestartFile()</a> given a restart_dump_dirname and time_step_number. Each instance of <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali...">IBFEMethod</a> is registered for restart by default, but the this option can be turned off. During a restart, the data is handled by the RestartManager automatically to reinitiate the <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali...">IBFEMethod</a>. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a82c43e95fcf78a0fe94a3fa1ee312bf6"></a>
 <div class="memitem">
@@ -2438,8 +2440,8 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write the equation_systems data to a restart file in the specified directory. </p>
-
+<p>For technical reasons this class does not use <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a>'s RestartManager, so restart files must be separately written for the IBFE objects. This function saves the solutions to the defined EquationSystems in an xdr file in restart_dump_dirname for each FE part. An example snippet is included below to show the distinct IBFE restart data saving step. The data will then be automatically read back into the system along with the RestartManager data during restart.</p>
+<div class="fragment"><div class="line"><span class="keywordflow">if</span> (dump_restart_data &amp;&amp; (iteration_num % restart_dump_interval == 0 || last_step))</div><div class="line">{</div><div class="line">    RestartManager::getManager()-&gt;writeRestartFile(restart_dump_dirname, iteration_num);</div><div class="line">    ib_method_ops-&gt;writeFEDataToRestartFile(restart_dump_dirname, iteration_num);</div><div class="line">}</div></div><!-- fragment --> 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -2808,7 +2810,7 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 17 2019 18:33:15 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 17 2019 21:21:31 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

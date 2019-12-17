@@ -442,7 +442,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the restart dump directory name. </p>
+<p>Return the restart dump directory name. This is set in the Main database of the input file. This can be defined in the input file as restart_dump_dirname, restart_dirname, or restart_write_dirname. </p>
 
 </div>
 </div>
@@ -458,7 +458,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the restart dump interval. </p>
+<p>Return the restart dump interval. This is set in the Main database of the input file. This can be defined in the input file as restart_interval, restart_dump_interval, or restart_write_interval. </p>
 
 </div>
 </div>
@@ -474,7 +474,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the restart directory. If we are not starting from restart, this method returns an empty string. </p>
+<p>Return the restart directory. If we are not starting from restart, this method returns an empty string. This value is set by the second command line argument to the executable. </p>
 
 </div>
 </div>
@@ -490,7 +490,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the restart restore number. If we are not starting from restart, this method returns 0. </p>
+<p>Return the restart restore number. If we are not starting from restart, this method returns 0. This value is set by the third command line argument to the executable. </p>
 
 </div>
 </div>
@@ -587,7 +587,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return a boolean value indicating whether this is a restarted run. </p>
+<p>Return a boolean value indicating whether this is a restarted run. This is defined as true when the program recognizes command line arguments for restart_restore_num and restart_dump_dirname. </p>
 
 </div>
 </div>
@@ -598,7 +598,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 17 2019 18:33:19 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 17 2019 21:21:35 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
