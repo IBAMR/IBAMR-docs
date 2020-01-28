@@ -84,7 +84,7 @@ var searchData=
   ['vector_3c_20ibtk_3a_3atensormeshfcnptr_20_3e',['vector&lt; IBTK::TensorMeshFcnPtr &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20ibtk_3a_3avector_20_3e',['vector&lt; IBTK::Vector &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20ibtk_3a_3avectormeshfcnptr_20_3e',['vector&lt; IBTK::VectorMeshFcnPtr &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
-  ['vector_3c_20int_20_3e',['vector&lt; int &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std::vector&lt; int &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'vector&lt; int &gt;']]],
+  ['vector_3c_20int_20_3e',['vector&lt; int &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'vector&lt; int &gt;'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std::vector&lt; int &gt;']]],
   ['vector_3c_20integratehierarchycallbackfcnptr_20_3e',['vector&lt; IntegrateHierarchyCallbackFcnPtr &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20is_20_3e',['vector&lt; IS &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
   ['vector_3c_20ksp_20_3e',['vector&lt; KSP &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html',1,'std']]],
