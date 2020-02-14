@@ -186,13 +186,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:abe3edf42cfb2dc6c3bbfd758d7385d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e8714de3e16ecf733bd8f095ffcfd6f"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a7e8714de3e16ecf733bd8f095ffcfd6f">getFEData</a> () const </td></tr>
 <tr class="separator:a7e8714de3e16ecf733bd8f095ffcfd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee2005092bda7e38759f8c28c609d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a1ee2005092bda7e38759f8c28c609d90">spread</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name)</td></tr>
+<tr class="memdesc:a1ee2005092bda7e38759f8c28c609d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid using the default spreading spec.  <a href="#a1ee2005092bda7e38759f8c28c609d90">More...</a><br /></td></tr>
+<tr class="separator:a1ee2005092bda7e38759f8c28c609d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8198f8cf9fb226a442280d3b5bf8088f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a8198f8cf9fb226a442280d3b5bf8088f">spread</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;spread_spec)</td></tr>
+<tr class="memdesc:a8198f8cf9fb226a442280d3b5bf8088f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid.  <a href="#a8198f8cf9fb226a442280d3b5bf8088f">More...</a><br /></td></tr>
+<tr class="separator:a8198f8cf9fb226a442280d3b5bf8088f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137108543cafe18e8535e917ff375586"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a137108543cafe18e8535e917ff375586"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a137108543cafe18e8535e917ff375586">spread</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html">RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, double fill_data_time, bool close_F=true, bool close_X=true)</td></tr>
-<tr class="memdesc:a137108543cafe18e8535e917ff375586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid using the default spreading spec. <br /></td></tr>
+<tr class="memdesc:a137108543cafe18e8535e917ff375586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid using the default spreading spec. This is a convenience overload of spread where <code>f_phys_bdry_op</code> is used to correctly accumulate force values spread outside the physical domain into it. <br /></td></tr>
 <tr class="separator:a137108543cafe18e8535e917ff375586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a165498e1d6e45be24d5fb21f96d71cf6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a165498e1d6e45be24d5fb21f96d71cf6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a165498e1d6e45be24d5fb21f96d71cf6">spread</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;spread_spec, <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html">RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, double fill_data_time, bool close_F=true, bool close_X=true)</td></tr>
-<tr class="memdesc:a165498e1d6e45be24d5fb21f96d71cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid using a specified spreading spec. <br /></td></tr>
+<tr class="memdesc:a165498e1d6e45be24d5fb21f96d71cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread a density from the FE mesh to the Cartesian grid using a specified spreading spec. This is a convenience overload of spread where <code>f_phys_bdry_op</code> is used to correctly accumulate force values spread outside the physical domain into it. <br /></td></tr>
 <tr class="separator:a165498e1d6e45be24d5fb21f96d71cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a799acbf460e4e1df9fb2ebdc8ac59469"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a799acbf460e4e1df9fb2ebdc8ac59469"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a799acbf460e4e1df9fb2ebdc8ac59469">prolongData</a> (int f_data_idx, libMesh::NumericVector&lt; double &gt; &amp;F, libMesh::NumericVector&lt; double &gt; &amp;X, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;system_name, bool is_density=true, bool accumulate_on_grid=true, bool close_F=true, bool close_X=true)</td></tr>
@@ -322,7 +328,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> coordinates data required for Lagrangian-Eulerian interaction between a Lagrangian finite element (FE) mesh. In particular, the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> member object stores the necessary finite element data while this class stores additional data dependent on the Eulerian grid. </p>
 <h3>Parameters effecting workload estimate calculations</h3>
-<p><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> can estimate the amount of work done in IBFE calculations (such as <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a137108543cafe18e8535e917ff375586" title="Spread a density from the FE mesh to the Cartesian grid using the default spreading spec...">FEDataManager::spread</a>). Since most calculations use a variable number of quadrature points on each <a class="el" href="namespacelib_mesh.html">libMesh</a> element this estimate can vary quite a bit over different Eulerian cells corresponding to a single mesh. The current implementation estimates the workload on each cell of the background Eulerian grid by applying a background value representing the work on the Eulerian cell itself and a weight times the number of quadrature points on that cell. These values are set at the time of object construction through the <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html" title="Struct WorkloadSpec encapsulates the parameters used to calculate workload estimates (i...">FEDataManager::WorkloadSpec</a> object, which contains reasonable defaults.</p>
+<p><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> can estimate the amount of work done in IBFE calculations (such as <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a1ee2005092bda7e38759f8c28c609d90" title="Spread a density from the FE mesh to the Cartesian grid using the default spreading spec...">FEDataManager::spread</a>). Since most calculations use a variable number of quadrature points on each <a class="el" href="namespacelib_mesh.html">libMesh</a> element this estimate can vary quite a bit over different Eulerian cells corresponding to a single mesh. The current implementation estimates the workload on each cell of the background Eulerian grid by applying a background value representing the work on the Eulerian cell itself and a weight times the number of quadrature points on that cell. These values are set at the time of object construction through the <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html" title="Struct WorkloadSpec encapsulates the parameters used to calculate workload estimates (i...">FEDataManager::WorkloadSpec</a> object, which contains reasonable defaults.</p>
 <dl class="section note"><dt>Note</dt><dd>Multiple <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects may be instantiated simultaneously. </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a11864a323c95e0830a6df1723ae9a1b2"></a>
@@ -1123,6 +1129,104 @@ This function is poorly named: it actually sets up a dual-space vector <code>F</
 
 </div>
 </div>
+<a class="anchor" id="a1ee2005092bda7e38759f8c28c609d90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FEDataManager::spread </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>f_data_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::NumericVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::NumericVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>system_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Spread a density from the FE mesh to the Cartesian grid using the default spreading spec. </p>
+<dl class="section note"><dt>Note</dt><dd>This function may spread forces from points near the physical boundary into ghost cells outside the physical domain. To account for these forces one should usually call <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html#ad7c9ec034342035573d709a0c271455a">IBTK::RobinPhysBdryPatchStrategy::accumulateFromPhysicalBoundaryData()</a> after this function to move said force values into the physical domain. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8198f8cf9fb226a442280d3b5bf8088f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FEDataManager::spread </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>f_data_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::NumericVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::NumericVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>system_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;&#160;</td>
+          <td class="paramname"><em>spread_spec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Spread a density from the FE mesh to the Cartesian grid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">f_data_idx</td><td><a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a> index into the <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a> object owned by this class. The spread force values will be added into this index. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>Finite element solution vector containing the field which will be spread onto the Eulerian grid. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">X</td><td>Finite element solution vector containing the current position of the mesh. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">system_name</td><td>name of the system corresponding to <code>F</code>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Both <code>X</code> and <code>F</code> should contain ghost values corresponding to the IB partitioning of the Lagrangian data, i.e., vectors returned from buildIBGhostedVector.</p>
+<dl class="section note"><dt>Note</dt><dd>This function may spread forces from points near the physical boundary into ghost cells outside the physical domain. To account for these forces one should usually call <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html#ad7c9ec034342035573d709a0c271455a">IBTK::RobinPhysBdryPatchStrategy::accumulateFromPhysicalBoundaryData()</a> after this function to move said force values into the physical domain. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a7042eb71c5971a028bbd88c9a4ec7751"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1348,7 +1452,7 @@ This function is poorly named: it actually sets up a dual-space vector <code>F</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 14 2020 13:43:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 14 2020 13:50:05 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
