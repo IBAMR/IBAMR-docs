@@ -126,6 +126,7 @@ var searchData=
   ['d_5foprefine',['d_oprefine',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#693bd99927b2b3150d2567606b79709f',1,'SAMRAI::xfer::RefineClasses::Data']]],
   ['d_5foptime',['d_optime',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#d4ec8a2982a11177e3226a93b0dfd686',1,'SAMRAI::xfer::RefineClasses::Data']]],
   ['d_5foutput_5feul_5flambda',['d_output_eul_lambda',['../class_i_b_a_m_r_1_1_c_i_b_method.html#a1fe02ebc9b0bbea7548fa04254b8e235',1,'IBAMR::CIBMethod']]],
+  ['d_5fpart_5fis_5factive',['d_part_is_active',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a2a1325c6c9e2019537356ca82fb2a3cb',1,'IBAMR::IBFEMethod']]],
   ['d_5fpartitioning_5fboxes',['d_partitioning_boxes',['../class_i_b_t_k_1_1_box_partitioner.html#a83e1ffdafac1351982de85133a495e6d',1,'IBTK::BoxPartitioner']]],
   ['d_5fpatch',['d_patch',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1MultiblockRefineSchedule_1_1SingularityPatch.html#91341a798fbeb6c6b09bd1887437760f',1,'SAMRAI::xfer::MultiblockRefineSchedule::SingularityPatch']]],
   ['d_5fphi',['d_phi',['../class_i_b_t_k_1_1_quad9_jacobian_calculator.html#a481f45ba2b797a5f8a9efd4fa10804cd',1,'IBTK::Quad9JacobianCalculator']]],
