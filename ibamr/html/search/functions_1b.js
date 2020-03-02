@@ -594,6 +594,7 @@ var searchData=
   ['_7erobinbccoefstrategy',['~RobinBcCoefStrategy',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html#e3036dc731f48fddfa6a0ae36068ddfd',1,'SAMRAI::solv::RobinBcCoefStrategy']]],
   ['_7erobinphysbdrypatchstrategy',['~RobinPhysBdryPatchStrategy',['../class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html#ad22425e34ff65d52c26616a923cd8b53',1,'IBTK::RobinPhysBdryPatchStrategy']]],
   ['_7esamraidatacache',['~SAMRAIDataCache',['../class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html#ac45812bc63861b11734da401d3ca560b',1,'IBTK::SAMRAIDataCache']]],
+  ['_7esamraighostdataaccumulator',['~SAMRAIGhostDataAccumulator',['../class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a8ceb4d55c330c232e553e4731f1db018',1,'IBTK::SAMRAIGhostDataAccumulator']]],
   ['_7esamraivectorreal',['~SAMRAIVectorReal',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html#859ceced0e95a23539389d94768a4f2a',1,'SAMRAI::solv::SAMRAIVectorReal']]],
   ['_7eschedule',['~Schedule',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Schedule.html#4efb3117bed2753d5ac5be10055e6129',1,'SAMRAI::tbox::Schedule']]],
   ['_7esclaplaceoperator',['~SCLaplaceOperator',['../class_i_b_t_k_1_1_s_c_laplace_operator.html#ae859c4fd0feed7788808352c7c5967e1',1,'IBTK::SCLaplaceOperator']]],

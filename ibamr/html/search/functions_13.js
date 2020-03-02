@@ -15,6 +15,7 @@ var searchData=
   ['sample_5ftrie_5fnode_5fupdate',['sample_trie_node_update',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a11004.html#a303d518c5c155beff935af9eb5c5d5f1',1,'__gnu_pbds::sample_trie_node_update']]],
   ['sample_5fupdate_5fpolicy',['sample_update_policy',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10780.html#a8e0be7e3ad0a78c29f0ae1815fffb724',1,'__gnu_pbds::sample_update_policy::sample_update_policy()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10780.html#a2bc99546d773781197d013405b68d6e5',1,'__gnu_pbds::sample_update_policy::sample_update_policy(const sample_update_policy &amp;)']]],
   ['samraidatacache',['SAMRAIDataCache',['../class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html#ac75fa131a520e487137f1d2d00cc8496',1,'IBTK::SAMRAIDataCache']]],
+  ['samraighostdataaccumulator',['SAMRAIGhostDataAccumulator',['../class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#ac1a9fe7ae070bfe4eaba4443fb89c6cc',1,'IBTK::SAMRAIGhostDataAccumulator']]],
   ['samraivectorreal',['SAMRAIVectorReal',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html#02d4fca339d2ea4f062dd8759b45f0bd',1,'SAMRAI::solv::SAMRAIVectorReal']]],
   ['savecelldata',['saveCellData',['../class_i_b_t_k_1_1_debugging_utilities.html#ad34b913fb71daec0c4b9c81e6a18784f',1,'IBTK::DebuggingUtilities']]],
   ['savefacedata',['saveFaceData',['../class_i_b_t_k_1_1_debugging_utilities.html#a64afd2e85c4bb296a3f808586ca64507',1,'IBTK::DebuggingUtilities']]],

@@ -148,12 +148,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>d_cached_eulerian_data
 : <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_level_solver.html#a0dfb223293c2b986c333c9b1516ff24b">IBTK::PETScLevelSolver</a>
 </li>
+<li>d_cc_data
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a8fd25dc2bbfa3cc2faaabba47180372b">IBTK::SAMRAIGhostDataAccumulator</a>
+</li>
 <li>d_center_of_mass_initial
 : <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_strategy.html#a8bd2ce286ee1cda1db1f23bbdf87c460">IBAMR::CIBStrategy</a>
 </li>
 <li>d_cfl_max
 : <a class="el" href="class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#ad6bcccd9f37f64bad79695e03aa61ca2">IBAMR::AdvDiffHierarchyIntegrator</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a5210a458e89f6d386fffa7f99f9432fe">IBAMR::INSHierarchyIntegrator</a>
+</li>
+<li>d_coarsest_ln
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#ab4e5ee24ff0e3eeb9831b7e69cb73827">IBTK::SAMRAIGhostDataAccumulator</a>
 </li>
 <li>d_coarsest_reset_ln
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#adb4b0289e8699f18e581be24c096f3dc">IBAMR::INSHierarchyIntegrator</a>
@@ -300,8 +306,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>d_fill_after_regrid_bc_idxs
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a1c39ac5f83a1d5cce38f66927931245a">IBTK::HierarchyIntegrator</a>
 </li>
+<li>d_finest_ln
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a13e756c3fbf19296255bb3dc72b4bc59">IBTK::SAMRAIGhostDataAccumulator</a>
+</li>
+<li>d_gcw
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a37c4983ccb0ea441277e8faba2355231">IBTK::SAMRAIGhostDataAccumulator</a>
+</li>
 <li>d_ghosts
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a9c1fe0de6f7c9e118b0608ea41834805">IBAMR::IBFEMethod</a>
+</li>
+<li>d_global_dof_idx
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a744e69a942214945e6c98d9521a7c0ef">IBTK::SAMRAIGhostDataAccumulator</a>
 </li>
 <li>d_has_lag_body_source_parts
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad11ad4ff4587cd58b39ff7a018b21571">IBAMR::IBFEMethod</a>
@@ -312,6 +327,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>d_hierarchy
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad13aa22a9be802d10049f67d40e59e66">IBAMR::IBFEMethod</a>
 , <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_level_solver.html#a3198c09483925129caa99c8cb5aed0a1">IBTK::PETScLevelSolver</a>
+, <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#ae83da776f23778b793ca2a588c0dc90f">IBTK::SAMRAIGhostDataAccumulator</a>
 , <a class="el" href="class_i_b_t_k_1_1_staggered_physical_boundary_helper.html#a47cd4028cd0ac69a36c745e3f43866d4">IBTK::StaggeredPhysicalBoundaryHelper</a>
 </li>
 <li>d_ib_solver
@@ -352,6 +368,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>d_load_balancer
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a7a9c28208a6097d4b68bebe3a557bc32">IBAMR::IBFEMethod</a>
+</li>
+<li>d_local_dof_idx
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#ae74238c61245f5bac6daeb2494a87b40">IBTK::SAMRAIGhostDataAccumulator</a>
 </li>
 <li>d_mesh
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a185d12c9d948fa74589a556bb5b71fb3">IBAMR::IBFEPostProcessor</a>
@@ -574,8 +593,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>d_using_vorticity_tagging
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a5b1c616621428979719b88c88ba6446c">IBAMR::INSHierarchyIntegrator</a>
 </li>
+<li>d_var
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#aa6e53332cb0e28bf3fccc8d1246069e4">IBTK::SAMRAIGhostDataAccumulator</a>
+</li>
 <li>d_var_systems
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#a2f923b373bde32b3a6152c67c3022011">IBAMR::IBFEPostProcessor</a>
+</li>
+<li>d_vecs
+: <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#af34d2993c3d033571209b05b173eb6c8">IBTK::SAMRAIGhostDataAccumulator</a>
 </li>
 <li>d_vector_var_systems
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_post_processor.html#afe45f871a6f47b0fdb619b028d27e717">IBAMR::IBFEPostProcessor</a>
@@ -743,7 +768,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>div()
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html#a14fc391101588392a8d7c8f4773c92b8">IBTK::HierarchyMathOps</a>
-, <a class="el" href="class_i_b_t_k_1_1_patch_math_ops.html#a58796e2e2d00d1968e265c89227029a7">IBTK::PatchMathOps</a>
+, <a class="el" href="class_i_b_t_k_1_1_patch_math_ops.html#ac3f2039505ad380e35c592e44c3043ce">IBTK::PatchMathOps</a>
 </li>
 <li>dof_indices()
 : <a class="el" href="class_i_b_t_k_1_1_f_e_data_1_1_system_dof_map_cache.html#aa09a86be8c24902fdd311e25ab19bd75">IBTK::FEData::SystemDofMapCache</a>
@@ -764,7 +789,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 1 2020 13:29:53 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 2 2020 21:18:22 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
