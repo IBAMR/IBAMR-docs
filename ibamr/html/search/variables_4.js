@@ -105,6 +105,7 @@ var searchData=
   ['d_5flibmesh_5fpartitioner_5ftype',['d_libmesh_partitioner_type',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ada551795c3394f50cb14ea519857872d',1,'IBAMR::IBFEMethod']]],
   ['d_5flibmesh_5frestart_5ffile_5fextension',['d_libmesh_restart_file_extension',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#af85dd03bd680a9da39c92f5af814ca1d',1,'IBAMR::IBFEMethod']]],
   ['d_5flibmesh_5frestart_5fread_5fdir',['d_libmesh_restart_read_dir',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#aaba52f2d3578b71d54af7fe52b4dd163',1,'IBAMR::IBFEMethod']]],
+  ['d_5flibmesh_5fuse_5famr',['d_libmesh_use_amr',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ab574546ea92c841bbe73ae61c6e95f8d',1,'IBAMR::IBFEMethod']]],
   ['d_5flo',['d_lo',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1DatabaseBox__POD.html#2852ef5f85a0d49eb93337979baeb2e7',1,'SAMRAI::tbox::DatabaseBox_POD']]],
   ['d_5fload_5fbalancer',['d_load_balancer',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a7a9c28208a6097d4b68bebe3a557bc32',1,'IBAMR::IBFEMethod']]],
   ['d_5flocal_5fdof_5fidx',['d_local_dof_idx',['../class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#ae74238c61245f5bac6daeb2494a87b40',1,'IBTK::SAMRAIGhostDataAccumulator']]],
