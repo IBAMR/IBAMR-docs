@@ -552,10 +552,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a0e71a4711e1e5e2d95ed9b4440a87dbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e71a4711e1e5e2d95ed9b4440a87dbf"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_prefluidsolve_callback_fcns_ctx</b></td></tr>
 <tr class="separator:a0e71a4711e1e5e2d95ed9b4440a87dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af09a94731272c280e2d878265a2831ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#af09a94731272c280e2d878265a2831ed">d_constraint_force_is_initialized</a></td></tr>
+<tr class="memitem:af09a94731272c280e2d878265a2831ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#af09a94731272c280e2d878265a2831ed">d_constraint_force_is_initialized</a> = false</td></tr>
 <tr class="separator:af09a94731272c280e2d878265a2831ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a914388092b314af99239bd8fe8856a46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a914388092b314af99239bd8fe8856a46"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_lag_velvec_is_initialized</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_lag_velvec_is_initialized</b> = false</td></tr>
 <tr class="separator:a914388092b314af99239bd8fe8856a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a73298c80cbc74b93bb604492571b90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#a3a73298c80cbc74b93bb604492571b90">d_time_integrator_needs_regrid</a> = false</td></tr>
 <tr class="separator:a3a73298c80cbc74b93bb604492571b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -584,9 +584,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_eul_lambda_idx</b> =
 <tr class="memitem:a1b7881063615a4908e29c2ee7f35d836"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b7881063615a4908e29c2ee7f35d836"></a>
 <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>d_u_phys_bdry_op</b> = nullptr</td></tr>
 <tr class="separator:a1b7881063615a4908e29c2ee7f35d836"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da538595ec541ae3bbb5a4200413869"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3da538595ec541ae3bbb5a4200413869"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_rho</b></td></tr>
-<tr class="separator:a3da538595ec541ae3bbb5a4200413869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ee663a6ab6e6dc5ac3fc17fafe873c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28ee663a6ab6e6dc5ac3fc17fafe873c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_use_steady_stokes</b> = false</td></tr>
+<tr class="separator:a28ee663a6ab6e6dc5ac3fc17fafe873c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_i_b_a_m_r_1_1_i_b_method"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_i_b_a_m_r_1_1_i_b_method')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html">IBAMR::IBMethod</a></td></tr>
 <tr class="memitem:a8bc67cf48dc84f63fce5814763579b50 inherit pro_attribs_class_i_b_a_m_r_1_1_i_b_method"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8bc67cf48dc84f63fce5814763579b50"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_do_log</b> = false</td></tr>
@@ -1094,7 +1094,7 @@ static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><b>comp
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool IBAMR::CIBMethod::d_constraint_force_is_initialized</td>
+          <td class="memname">bool IBAMR::CIBMethod::d_constraint_force_is_initialized = false</td>
         </tr>
       </table>
   </td>
@@ -1282,7 +1282,7 @@ static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><b>comp
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 25 2020 18:41:40 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 25 2020 21:05:18 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
