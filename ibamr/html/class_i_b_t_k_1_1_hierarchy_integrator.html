@@ -139,6 +139,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a85121614573b955a6345d2f90092ebea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5fa85df0df9c2c010397a6ad0ced46f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">ApplyGradientDetectorCallbackFcnPtr</a> = void(*)(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too, void *ctx)</td></tr>
 <tr class="separator:ae5fa85df0df9c2c010397a6ad0ced46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0313377e91308fe73b1b34ca9c92e9ce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0313377e91308fe73b1b34ca9c92e9ce">RegridHierarchyCallbackFcnPtr</a> = void(*)(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, double data_time, bool initial_time, void *ctx)</td></tr>
+<tr class="separator:a0313377e91308fe73b1b34ca9c92e9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -218,6 +220,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a15416c824ce6c5742b3f767d254f50f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e03250b4fa2c9721459be28ec8c3ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a6e03250b4fa2c9721459be28ec8c3ae9">registerApplyGradientDetectorCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae5fa85df0df9c2c010397a6ad0ced46f">ApplyGradientDetectorCallbackFcnPtr</a> callback, void *ctx=nullptr)</td></tr>
 <tr class="separator:a6e03250b4fa2c9721459be28ec8c3ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399be5b50697d03484af7bdf3a1bc0f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a399be5b50697d03484af7bdf3a1bc0f3">registerRegridHierarchyCallback</a> (<a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0313377e91308fe73b1b34ca9c92e9ce">RegridHierarchyCallbackFcnPtr</a>, void *ctx=nullptr)</td></tr>
+<tr class="separator:a399be5b50697d03484af7bdf3a1bc0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6f6d89935d424ca5ca49e769148d61a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ae6f6d89935d424ca5ca49e769148d61a">initializeCompositeHierarchyData</a> (double init_data_time, bool initial_time)</td></tr>
 <tr class="separator:ae6f6d89935d424ca5ca49e769148d61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62dd1915c8875c81dd7a433dccf82597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a62dd1915c8875c81dd7a433dccf82597">initializeLevelData</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt; &gt; old_level=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt; &gt;(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>), bool allocate_data=true) override</td></tr>
@@ -308,6 +312,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a02c4cb8da4a402b481a6f8d70101058a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49fd60c3de06c89917322fe2157b0b6e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a49fd60c3de06c89917322fe2157b0b6e">executeApplyGradientDetectorCallbackFcns</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too)</td></tr>
 <tr class="separator:a49fd60c3de06c89917322fe2157b0b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac52f13b955e114e3612ca32c784e7c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#aac52f13b955e114e3612ca32c784e7c0">executeRegridHierarchyCallbackFcns</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, double data_time, bool initial_time)</td></tr>
+<tr class="separator:aac52f13b955e114e3612ca32c784e7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11b9c6193edded679e97b11bdd953f59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a11b9c6193edded679e97b11bdd953f59">registerGhostfillRefineAlgorithm</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt; ghostfill_alg, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt; ghostfill_patch_strategy=nullptr)</td></tr>
 <tr class="separator:a11b9c6193edded679e97b11bdd953f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28d15f02123c25596ba92f46c927c26b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a28d15f02123c25596ba92f46c927c26b">registerProlongRefineAlgorithm</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt; prolong_alg, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt; prolong_patch_strategy=nullptr)</td></tr>
@@ -502,6 +508,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_manage_hier_math_op
 <tr class="memitem:a2737487200b7d88909dd1ab260b69820"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2737487200b7d88909dd1ab260b69820"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_apply_gradient_detector_callback_ctxs</b></td></tr>
 <tr class="separator:a2737487200b7d88909dd1ab260b69820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7675f6434edf174c65238770b3405198"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7675f6434edf174c65238770b3405198"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0313377e91308fe73b1b34ca9c92e9ce">RegridHierarchyCallbackFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_regrid_hierarchy_callbacks</b></td></tr>
+<tr class="separator:a7675f6434edf174c65238770b3405198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b75c9d30b6b11290abf7ca4087bd83a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b75c9d30b6b11290abf7ca4087bd83a"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_regrid_hierarchy_callback_ctxs</b></td></tr>
+<tr class="separator:a7b75c9d30b6b11290abf7ca4087bd83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -563,6 +575,19 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
       </table>
 </div><div class="memdoc">
 <p>Callback function specification to enable further specialization of <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#ad37decc9a9cb33397c30b1b885324a0c">preprocessIntegrateHierarchy()</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0313377e91308fe73b1b34ca9c92e9ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0313377e91308fe73b1b34ca9c92e9ce">IBTK::HierarchyIntegrator::RegridHierarchyCallbackFcnPtr</a> =  void (*)(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt;NDIM&gt; &gt; hierarchy, double data_time, bool initial_time, void* ctx)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Callback function specification to enable further specialization of <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a40f8bd640570540e221243aa29832527">regridHierarchy()</a>. </p>
 
 </div>
 </div>
@@ -1155,6 +1180,47 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </table>
 </div><div class="memdoc">
 <p>Execute any user-specified preprocessIntegrateHierarchy callback functions. </p>
+
+</div>
+</div>
+<a class="anchor" id="aac52f13b955e114e3612ca32c784e7c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::HierarchyIntegrator::executeRegridHierarchyCallbackFcns </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramname"><em>hierarchy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>data_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>initial_time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Execute any user-specified regridHierarchy callback functions. </p>
 
 </div>
 </div>
@@ -2540,6 +2606,34 @@ If it does not already exist, calling this function will also register a cell va
 
 </div>
 </div>
+<a class="anchor" id="a399be5b50697d03484af7bdf3a1bc0f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::HierarchyIntegrator::registerRegridHierarchyCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a0313377e91308fe73b1b34ca9c92e9ce">RegridHierarchyCallbackFcnPtr</a>&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ctx</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Register a callback function to enable further specialization of <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a40f8bd640570540e221243aa29832527">regridHierarchy()</a>.</p>
+<dl class="section note"><dt>Note</dt><dd>This function will be called after all data owned by the hierarchy is initialized and set, but before the data is synchronized. If data owned by the integrator is used in this function, it should be synchronized prior to use by an appropriate coarsening operation. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a2b2ce04d072210438e34aab7de9f97e1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3247,7 +3341,7 @@ The workload estimate itself is stored in the variable with index <a class="el" 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 25 2020 18:36:42 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Mar 25 2020 18:41:46 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

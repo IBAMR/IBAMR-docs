@@ -85,6 +85,7 @@ var searchData=
   ['executeintegratehierarchycallbackfcns',['executeIntegrateHierarchyCallbackFcns',['../class_i_b_t_k_1_1_hierarchy_integrator.html#abc2a4a64d6da28445c55d8df0999fa88',1,'IBTK::HierarchyIntegrator']]],
   ['executepostprocessintegratehierarchycallbackfcns',['executePostprocessIntegrateHierarchyCallbackFcns',['../class_i_b_t_k_1_1_hierarchy_integrator.html#a02c4cb8da4a402b481a6f8d70101058a',1,'IBTK::HierarchyIntegrator']]],
   ['executepreprocessintegratehierarchycallbackfcns',['executePreprocessIntegrateHierarchyCallbackFcns',['../class_i_b_t_k_1_1_hierarchy_integrator.html#a7b75686ce9dd26b40409f734743dbcd1',1,'IBTK::HierarchyIntegrator']]],
+  ['executeregridhierarchycallbackfcns',['executeRegridHierarchyCallbackFcns',['../class_i_b_t_k_1_1_hierarchy_integrator.html#aac52f13b955e114e3612ca32c784e7c0',1,'IBTK::HierarchyIntegrator']]],
   ['exp',['exp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01473.html#ga89579637d83fe041c9963cdcab272edd',1,]]],
   ['expint',['expint',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01514.html#gac555d8d9bf9256070f2238a6a788727c',1,'std::tr1::expint()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01500.html#ga88ba17f5d050a6973ca4db1bf6e90590',1,'expint(_Tp __x)(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01514.html#gac555d8d9bf9256070f2238a6a788727c',1,'expint(_Tp __x)(Global Namespace)']]],
   ['expintf',['expintf',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01500.html#ga5842816f6eed2594e0a327df4e4a2a47',1,]]],
