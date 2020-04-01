@@ -87,6 +87,7 @@ var searchData=
   ['d_5ffinest_5fln',['d_finest_ln',['../class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a13e756c3fbf19296255bb3dc72b4bc59',1,'IBTK::SAMRAIGhostDataAccumulator']]],
   ['d_5fgcw',['d_gcw',['../class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a37c4983ccb0ea441277e8faba2355231',1,'IBTK::SAMRAIGhostDataAccumulator']]],
   ['d_5fgcw_5fto_5fcoarsen',['d_gcw_to_coarsen',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1CoarsenClasses_1_1Data.html#29db28f8d6e6284e412abd88d266e7ba',1,'SAMRAI::xfer::CoarsenClasses::Data']]],
+  ['d_5fghost_5fdata_5faccumulator',['d_ghost_data_accumulator',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a52f23e5e904a79c441e8ca88fffe908b',1,'IBAMR::IBFEMethod']]],
   ['d_5fghosts',['d_ghosts',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchDataFactory.html#a82123dcd5c289b5add21398aab05466',1,'SAMRAI::hier::PatchDataFactory::d_ghosts()'],['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a9c1fe0de6f7c9e118b0608ea41834805',1,'IBAMR::IBFEMethod::d_ghosts()']]],
   ['d_5fglobal_5fdof_5fidx',['d_global_dof_idx',['../class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html#a744e69a942214945e6c98d9521a7c0ef',1,'IBTK::SAMRAIGhostDataAccumulator']]],
   ['d_5fhas_5flag_5fbody_5fsource_5fparts',['d_has_lag_body_source_parts',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad11ad4ff4587cd58b39ff7a018b21571',1,'IBAMR::IBFEMethod']]],

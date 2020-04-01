@@ -372,10 +372,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#adb3275a8cbe361397ab87f35b35276f3">assembleInteriorForceDensityRHS</a> (libMesh::PetscVector&lt; double &gt; &amp;G_rhs_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, libMesh::PetscVector&lt; double &gt; *Phi_vec, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:adb3275a8cbe361397ab87f35b35276f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assemble the RHS for the interior elastic density, possibly splitting off the normal component of the transmission force along the physical boundary of the Lagrangian structure. <br /></td></tr>
 <tr class="separator:adb3275a8cbe361397ab87f35b35276f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67049821f3114a571a5eea4ab4c0ceaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a67049821f3114a571a5eea4ab4c0ceaa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a67049821f3114a571a5eea4ab4c0ceaa">spreadTransmissionForceDensity</a> (int f_data_idx, libMesh::PetscVector&lt; double &gt; &amp;X_ghost_vec, <a class="el" href="class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, double data_time, unsigned int part)</td></tr>
-<tr class="memdesc:a67049821f3114a571a5eea4ab4c0ceaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread the transmission force density along the physical boundary of the Lagrangian structure. <br /></td></tr>
-<tr class="separator:a67049821f3114a571a5eea4ab4c0ceaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a9855d31db62b5372486bf2db1c9812"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a9855d31db62b5372486bf2db1c9812"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a6a9855d31db62b5372486bf2db1c9812">spreadTransmissionForceDensity</a> (int f_data_idx, libMesh::PetscVector&lt; double &gt; &amp;X_ghost_vec, double data_time, unsigned int part)</td></tr>
+<tr class="memdesc:a6a9855d31db62b5372486bf2db1c9812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spread the transmission force density along the physical boundary of the Lagrangian structure. <br /></td></tr>
+<tr class="separator:a6a9855d31db62b5372486bf2db1c9812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6b21ebfb951f37d4c927785db0b64ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6b21ebfb951f37d4c927785db0b64ab"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#af6b21ebfb951f37d4c927785db0b64ab">imposeJumpConditions</a> (int f_data_idx, libMesh::PetscVector&lt; double &gt; &amp;F_ghost_vec, libMesh::PetscVector&lt; double &gt; &amp;X_ghost_vec, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:af6b21ebfb951f37d4c927785db0b64ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose jump conditions determined from the interior and transmission force densities along the physical boundary of the Lagrangian structure. <br /></td></tr>
@@ -506,6 +506,10 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <tr class="separator:a5b641354628b04baf0ab7c0c35cedc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad39cffd776f9be31da9c69c786191e6b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad39cffd776f9be31da9c69c786191e6b">d_active_fe_data_managers</a></td></tr>
 <tr class="separator:ad39cffd776f9be31da9c69c786191e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f23e5e904a79c441e8ca88fffe908b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52f23e5e904a79c441e8ca88fffe908b"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_ghost_data_accumulator.html">IBTK::SAMRAIGhostDataAccumulator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a52f23e5e904a79c441e8ca88fffe908b">d_ghost_data_accumulator</a></td></tr>
+<tr class="memdesc:a52f23e5e904a79c441e8ca88fffe908b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to object used to accumulate forces during spreading. <br /></td></tr>
+<tr class="separator:a52f23e5e904a79c441e8ca88fffe908b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1fe0de6f7c9e118b0608ea41834805"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c1fe0de6f7c9e118b0608ea41834805"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a9c1fe0de6f7c9e118b0608ea41834805">d_ghosts</a> = 0</td></tr>
 <tr class="memdesc:a9c1fe0de6f7c9e118b0608ea41834805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum ghost cell width. <br /></td></tr>
@@ -3557,7 +3561,7 @@ If <code>libmesh_partitioner_type</code> is <code>SAMRAI_BOX</code> then this cl
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 1 2020 14:54:10 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 1 2020 15:01:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
