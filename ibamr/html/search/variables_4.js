@@ -102,6 +102,7 @@ var searchData=
   ['d_5finteger',['d_integer',['../../../samrai/2.4.4/html/structKeyData.html#130b0544158187dc5cd492be08bd646b',1,'KeyData']]],
   ['d_5fis_5fsingularity',['d_is_singularity',['../../../samrai/2.4.4/html/structSAMRAI_1_1hier_1_1MultiblockPatchHierarchy_1_1Neighbor.html#4537c766adc75e96f14af7d4aec13bc9',1,'SAMRAI::hier::MultiblockPatchHierarchy::Neighbor']]],
   ['d_5fjacobian_5fcalculators',['d_jacobian_calculators',['../class_i_b_t_k_1_1_jacobian_calculator_cache.html#a9ae2520341146c17bd005bf9dfe5394d',1,'IBTK::JacobianCalculatorCache']]],
+  ['d_5fl2_5fproj_5fmatrix_5fdiag',['d_L2_proj_matrix_diag',['../class_i_b_t_k_1_1_f_e_data_manager.html#ae41a228285fce2d32b22dc7f49431445',1,'IBTK::FEDataManager']]],
   ['d_5fl2_5fproj_5fsolver',['d_L2_proj_solver',['../class_i_b_t_k_1_1_f_e_data.html#a40229c206afd6966db7f77a9d559f5d8',1,'IBTK::FEData']]],
   ['d_5flag_5fbody_5fforce_5ffcn_5fdata',['d_lag_body_force_fcn_data',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a8eefdae00fdefbfc409abfaab127a0e9',1,'IBAMR::IBFEMethod']]],
   ['d_5flambda_5fdump_5finterval',['d_lambda_dump_interval',['../class_i_b_a_m_r_1_1_c_i_b_method.html#adf6b4224208c1a5004ee6ee56abbceda',1,'IBAMR::CIBMethod']]],
