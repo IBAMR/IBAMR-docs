@@ -817,6 +817,7 @@ var searchData=
   ['gettimer',['getTimer',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1TimerManager.html#dc21c89cbf644063b7766db1d41d9b0a',1,'SAMRAI::tbox::TimerManager']]],
   ['gettimerdumpinterval',['getTimerDumpInterval',['../class_i_b_t_k_1_1_app_initializer.html#a5dc228ae54205ab50fba1af30e2e5ca0',1,'IBTK::AppInitializer']]],
   ['gettimestep',['getTimestep',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1MethodOfLinesIntegrator.html#cc87edd5e2fb332430faa75753ad966c',1,'SAMRAI::algs::MethodOfLinesIntegrator']]],
+  ['gettimesteppingtype',['getTimeSteppingType',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a35a860c9b3beb403d1045ca5fd5a7da8',1,'IBAMR::IBHierarchyIntegrator']]],
   ['gettotallineariterationcount',['getTotalLinearIterationCount',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SNES__SAMRAIContext.html#b0c43a781670d49f8cf8a5c33a005af4',1,'SAMRAI::solv::SNES_SAMRAIContext']]],
   ['gettotalnodes',['getTotalNodes',['../class_i_b_a_m_r_1_1_constraint_i_b_kinematics_1_1_structure_parameters.html#a2634048519ab391100c8a43d707839e8',1,'IBAMR::ConstraintIBKinematics::StructureParameters']]],
   ['gettotalnumberofbacktracks',['getTotalNumberOfBacktracks',['../../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1KINSOLSolver.html#41ed9764f6047f73f7e2afdc27be1600',1,'SAMRAI::solv::KINSOLSolver']]],
