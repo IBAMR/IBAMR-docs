@@ -102,11 +102,14 @@ Inheritance diagram for IBTK::JacobianCalculator:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_b_t_k_1_1_jacobian_calculator__inherit__graph.png" border="0" usemap="#_i_b_t_k_1_1_jacobian_calculator_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_b_t_k_1_1_jacobian_calculator_inherit__map" id="_i_b_t_k_1_1_jacobian_calculator_inherit__map">
-<area shape="rect" id="node2" href="class_i_b_t_k_1_1_lagrange_jacobian_calculator.html" title="IBTK::LagrangeJacobianCalculator\l\&lt; dim, spacedim \&gt;" alt="" coords="224,5,448,47"/>
-<area shape="rect" id="node3" href="class_i_b_t_k_1_1_quad4_jacobian_calculator.html" title="IBTK::Quad4JacobianCalculator" alt="" coords="231,71,441,98"/>
-<area shape="rect" id="node4" href="class_i_b_t_k_1_1_quad9_jacobian_calculator.html" title="IBTK::Quad9JacobianCalculator" alt="" coords="231,122,441,149"/>
-<area shape="rect" id="node5" href="class_i_b_t_k_1_1_tet4_jacobian_calculator.html" title="IBTK::Tet4JacobianCalculator" alt="" coords="237,173,435,199"/>
-<area shape="rect" id="node6" href="class_i_b_t_k_1_1_tri3_jacobian_calculator.html" title="IBTK::Tri3JacobianCalculator" alt="" coords="239,223,433,250"/>
+<area shape="rect" id="node2" href="class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; dim,\l spacedim \&gt;" alt="" coords="192,81,339,123"/>
+<area shape="rect" id="node4" href="class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; 2, 2 \&gt;" alt="" coords="371,193,525,219"/>
+<area shape="rect" id="node8" href="class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; 3, 3 \&gt;" alt="" coords="5,193,160,219"/>
+<area shape="rect" id="node3" href="class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; dim, spacedim \&gt;" alt="" coords="184,185,347,227"/>
+<area shape="rect" id="node5" href="class_i_b_t_k_1_1_quad4_mapping.html" title="IBTK::Quad4Mapping" alt="" coords="375,276,521,303"/>
+<area shape="rect" id="node6" href="class_i_b_t_k_1_1_quad9_mapping.html" title="IBTK::Quad9Mapping" alt="" coords="545,276,692,303"/>
+<area shape="rect" id="node7" href="class_i_b_t_k_1_1_tri3_mapping.html" title="IBTK::Tri3Mapping" alt="" coords="220,276,351,303"/>
+<area shape="rect" id="node9" href="class_i_b_t_k_1_1_tet4_mapping.html" title="IBTK::Tet4Mapping" alt="" coords="15,276,150,303"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -119,8 +122,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af66c8aff554b6d2e874c34b9b17d81b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#af66c8aff554b6d2e874c34b9b17d81b1">JacobianCalculator</a> (const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d610167b33dc1d7951f82c297113">key_type</a> quad_key)</td></tr>
 <tr class="separator:af66c8aff554b6d2e874c34b9b17d81b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78da3c4690837ca428c7c4f003bf9629"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a78da3c4690837ca428c7c4f003bf9629">get_JxW</a> (const libMesh::Elem *elem)=0</td></tr>
-<tr class="separator:a78da3c4690837ca428c7c4f003bf9629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4bae5f5fd27d746068532d5a00626ac"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#aa4bae5f5fd27d746068532d5a00626ac">get_JxW</a> (const libMesh::Elem *elem)=0</td></tr>
+<tr class="separator:aa4bae5f5fd27d746068532d5a00626ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -133,9 +136,6 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
 <tr class="memitem:a2dcacf960970f5066dae99d1fb99d095"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2dcacf960970f5066dae99d1fb99d095"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_quad_weights</b></td></tr>
 <tr class="separator:a2dcacf960970f5066dae99d1fb99d095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd74d2e6d0d9e364b8f6b12348b6ec4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd74d2e6d0d9e364b8f6b12348b6ec4c"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_JxW</b></td></tr>
-<tr class="separator:acd74d2e6d0d9e364b8f6b12348b6ec4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a38c8d610167b33dc1d7951f82c297113"></a>
@@ -170,7 +170,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a78da3c4690837ca428c7c4f003bf9629"></a>
+<a class="anchor" id="aa4bae5f5fd27d746068532d5a00626ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -178,7 +178,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp; IBTK::JacobianCalculator::get_JxW </td>
+          <td class="memname">virtual const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt;double&gt;&amp; IBTK::JacobianCalculator::get_JxW </td>
           <td>(</td>
           <td class="paramtype">const libMesh::Elem *&#160;</td>
           <td class="paramname"><em>elem</em></td><td>)</td>
@@ -193,7 +193,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
 </div><div class="memdoc">
 <p>Calculate the JxW values on the given element and return a reference to the result. </p>
 
-<p>Implemented in <a class="el" href="class_i_b_t_k_1_1_tet4_jacobian_calculator.html#a4b327e78f2937e678a0917d616c67615">IBTK::Tet4JacobianCalculator</a>, <a class="el" href="class_i_b_t_k_1_1_quad9_jacobian_calculator.html#a1b116307a91a5812d716767229db0621">IBTK::Quad9JacobianCalculator</a>, <a class="el" href="class_i_b_t_k_1_1_quad4_jacobian_calculator.html#a7bee6411b98bbe1da6991641d720a13e">IBTK::Quad4JacobianCalculator</a>, <a class="el" href="class_i_b_t_k_1_1_tri3_jacobian_calculator.html#a0bde79ee6f78bd53d0660e128e70d1d3">IBTK::Tri3JacobianCalculator</a>, and <a class="el" href="class_i_b_t_k_1_1_lagrange_jacobian_calculator.html#a5a9e03b7862e98ae7f03b2a4fa44e757">IBTK::LagrangeJacobianCalculator&lt; dim, spacedim &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_i_b_t_k_1_1_mapping.html#accc86b4d8fd3fd931d809b636adc918c">IBTK::Mapping&lt; dim, spacedim &gt;</a>, <a class="el" href="class_i_b_t_k_1_1_mapping.html#accc86b4d8fd3fd931d809b636adc918c">IBTK::Mapping&lt; 2, 2 &gt;</a>, and <a class="el" href="class_i_b_t_k_1_1_mapping.html#accc86b4d8fd3fd931d809b636adc918c">IBTK::Mapping&lt; 3, 3 &gt;</a>.</p>
 
 </div>
 </div>
@@ -204,7 +204,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 6 2020 19:05:15 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 7 2020 13:38:48 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
