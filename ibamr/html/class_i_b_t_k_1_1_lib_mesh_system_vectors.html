@@ -91,6 +91,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_i_b_t_k_1_1_lib_mesh_system_vectors-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -98,26 +99,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html" title="Class LibMeshSystemVectors is a convenience class that manages access to libMesh vectors for the same...">LibMeshSystemVectors</a> is a convenience class that manages access to <a class="el" href="namespacelib_mesh.html">libMesh</a> vectors for the same system defined on multiple parts. This class supports access to vectors ghosted with the Lagrangian partitioning (i.e., <a class="el" href="namespacelib_mesh.html">libMesh</a>'s computed partitioning) as well as the IB partitioning (i.e., the partitioning based on the distribution of <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a> data).  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html" title="Class LibMeshSystemVectors is a convenience class that manages access to libMesh vectors for the same...">LibMeshSystemVectors</a> is a convenience class that manages access to <a class="el" href="namespacelib_mesh.html">libMesh</a> vectors for the same system defined on multiple parts. This class only supports access to vectors ghosted with the Lagrangian partitioning (i.e., <a class="el" href="namespacelib_mesh.html">libMesh</a>'s computed partitioning). The subclass <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_i_b_vectors.html" title="Class LibMeshSystemIBVectors is a convenience class that manages access to libMesh vectors for the sa...">LibMeshSystemIBVectors</a> provides access to the IB partitioning (i.e., the partitioning based on the distribution of <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a> data).  
  <a href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/LibMeshSystemVectors.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for IBTK::LibMeshSystemVectors:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_i_b_t_k_1_1_lib_mesh_system_vectors__inherit__graph.png" border="0" usemap="#_i_b_t_k_1_1_lib_mesh_system_vectors_inherit__map" alt="Inheritance graph"/></div>
+<map name="_i_b_t_k_1_1_lib_mesh_system_vectors_inherit__map" id="_i_b_t_k_1_1_lib_mesh_system_vectors_inherit__map">
+<area shape="rect" id="node2" href="class_i_b_t_k_1_1_lib_mesh_system_i_b_vectors.html" title="Class LibMeshSystemIBVectors is a convenience class that manages access to libMesh vectors for the sa..." alt="" coords="5,80,217,107"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a692bdef670c7d1536cadbbd19e286fe4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a692bdef670c7d1536cadbbd19e286fe4">LibMeshSystemVectors</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt; &amp;fe_data_managers, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> system_name)</td></tr>
-<tr class="separator:a692bdef670c7d1536cadbbd19e286fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73db26ce8f9ba1b8dcb44116dbe7cc65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a73db26ce8f9ba1b8dcb44116dbe7cc65">LibMeshSystemVectors</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt; &amp;fe_data_managers, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt; &amp;part_mask, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> system_name)</td></tr>
-<tr class="separator:a73db26ce8f9ba1b8dcb44116dbe7cc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7f4459dd8ac37379838425107fb29a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#ab7f4459dd8ac37379838425107fb29a3">LibMeshSystemVectors</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::EquationSystems * &gt; &amp;equation_systems, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt; &amp;part_mask, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> system_name)</td></tr>
+<tr class="separator:ab7f4459dd8ac37379838425107fb29a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2583527db98b3e1710403a30ce9b269"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#ad2583527db98b3e1710403a30ce9b269">LibMeshSystemVectors</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::EquationSystems * &gt; &amp;equation_systems, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> system_name)</td></tr>
+<tr class="separator:ad2583527db98b3e1710403a30ce9b269"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83fbbc7a7414f25b6c8a7ff770999b83"><td class="memItemLeft" align="right" valign="top">libMesh::PetscVector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a83fbbc7a7414f25b6c8a7ff770999b83">get</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name, const unsigned int part)</td></tr>
 <tr class="separator:a83fbbc7a7414f25b6c8a7ff770999b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e26363e4068260f9d5373467c8394c7"><td class="memItemLeft" align="right" valign="top">libMesh::PetscVector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a6e26363e4068260f9d5373467c8394c7">getIBGhosted</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name, const unsigned int part)</td></tr>
-<tr class="separator:a6e26363e4068260f9d5373467c8394c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265098a0d064fa73e0e9981b8e78e5ee"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a265098a0d064fa73e0e9981b8e78e5ee">get</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name)</td></tr>
 <tr class="separator:a265098a0d064fa73e0e9981b8e78e5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97e6c2ed257d9eb93dfb4ee6d57a63cd"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a97e6c2ed257d9eb93dfb4ee6d57a63cd">getIBGhosted</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name)</td></tr>
-<tr class="separator:a97e6c2ed257d9eb93dfb4ee6d57a63cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a912b1d6eb26671ec7875d92bee870b0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a912b1d6eb26671ec7875d92bee870b0d">reinit</a> ()</td></tr>
+<tr class="memitem:a912b1d6eb26671ec7875d92bee870b0d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a912b1d6eb26671ec7875d92bee870b0d">reinit</a> ()</td></tr>
 <tr class="separator:a912b1d6eb26671ec7875d92bee870b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a891eaac2d82aeb0fb0f6310b2976dd7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a891eaac2d82aeb0fb0f6310b2976dd7c">copy</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;source, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;dests)</td></tr>
 <tr class="separator:a891eaac2d82aeb0fb0f6310b2976dd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,17 +135,16 @@ Protected Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a03ebf657e7365661ad9bf4b82dc96455">maybeAdd</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name)</td></tr>
 <tr class="memdesc:a03ebf657e7365661ad9bf4b82dc96455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a vector exists and, if not, add it. <br /></td></tr>
 <tr class="separator:a03ebf657e7365661ad9bf4b82dc96455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30097476d44abf1d0765da8a298824cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30097476d44abf1d0765da8a298824cd"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; libMesh::PetscVector&lt; double &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a30097476d44abf1d0765da8a298824cd">maybeAddIBGhosted</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name)</td></tr>
-<tr class="memdesc:a30097476d44abf1d0765da8a298824cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an IB ghosted vector. <br /></td></tr>
-<tr class="separator:a30097476d44abf1d0765da8a298824cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a914864c044fed1366c99d1b5154c6a78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a914864c044fed1366c99d1b5154c6a78"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a914864c044fed1366c99d1b5154c6a78">vec_stored_in_map</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vec_name)</td></tr>
+<tr class="memdesc:a914864c044fed1366c99d1b5154c6a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns false if a standard <a class="el" href="namespacelib_mesh.html">libMesh</a> vector; otherwise returns true. <br /></td></tr>
+<tr class="separator:a914864c044fed1366c99d1b5154c6a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a2cb9415496405094a8881b1d29328d84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cb9415496405094a8881b1d29328d84"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a2cb9415496405094a8881b1d29328d84">d_fe_data_managers</a></td></tr>
-<tr class="memdesc:a2cb9415496405094a8881b1d29328d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointers to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">IBTK::FEDataManager</a> objects. These are needed to get IB ghosted vectors. <br /></td></tr>
-<tr class="separator:a2cb9415496405094a8881b1d29328d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b5fc760fcca8123c71ae661c57da98f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b5fc760fcca8123c71ae661c57da98f"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a3b5fc760fcca8123c71ae661c57da98f">d_part_mask</a></td></tr>
 <tr class="memdesc:a3b5fc760fcca8123c71ae661c57da98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask indicating which parts actually have a system with the given name. <br /></td></tr>
@@ -153,61 +157,22 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::System * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#aef4d8464337a83d77601f0b9044a8fea">d_systems</a></td></tr>
 <tr class="memdesc:aef4d8464337a83d77601f0b9044a8fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">libMesh::System objects. <br /></td></tr>
 <tr class="separator:aef4d8464337a83d77601f0b9044a8fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d5a7aed57cfa4d42a6cc0ed4fe5ff8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d5a7aed57cfa4d42a6cc0ed4fe5ff8b"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; libMesh::PetscVector&lt; double &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a5d5a7aed57cfa4d42a6cc0ed4fe5ff8b">d_ib_ghosted_vectors</a></td></tr>
-<tr class="memdesc:a5d5a7aed57cfa4d42a6cc0ed4fe5ff8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previously computed IB ghosted vectors. <br /></td></tr>
-<tr class="separator:a5d5a7aed57cfa4d42a6cc0ed4fe5ff8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html" title="Class LibMeshSystemVectors is a convenience class that manages access to libMesh vectors for the same...">LibMeshSystemVectors</a> is a convenience class that manages access to <a class="el" href="namespacelib_mesh.html">libMesh</a> vectors for the same system defined on multiple parts. This class supports access to vectors ghosted with the Lagrangian partitioning (i.e., <a class="el" href="namespacelib_mesh.html">libMesh</a>'s computed partitioning) as well as the IB partitioning (i.e., the partitioning based on the distribution of <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a> data). </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html" title="Class LibMeshSystemVectors is a convenience class that manages access to libMesh vectors for the same...">LibMeshSystemVectors</a> is a convenience class that manages access to <a class="el" href="namespacelib_mesh.html">libMesh</a> vectors for the same system defined on multiple parts. This class only supports access to vectors ghosted with the Lagrangian partitioning (i.e., <a class="el" href="namespacelib_mesh.html">libMesh</a>'s computed partitioning). The subclass <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_i_b_vectors.html" title="Class LibMeshSystemIBVectors is a convenience class that manages access to libMesh vectors for the sa...">LibMeshSystemIBVectors</a> provides access to the IB partitioning (i.e., the partitioning based on the distribution of <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a> data). </p>
 <p>A libMesh::System stores vectors in two different ways: the <code>solution</code> and <code>current_local_solution</code> vectors are stored explicitly by the System object (see libMesh::System::solution and libMesh::System::current_local_solution). They are <em>not</em> accessible by libMesh::System::request_vector() and related functions. All other vectors (including the right-hand side) are stored inside a map and are accessible by <code>request_vector()</code>. <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a83fbbc7a7414f25b6c8a7ff770999b83">IBTK::LibMeshSystemVectors::get()</a>, for the sake of a uniform interface, is inconsistent with <a class="el" href="namespacelib_mesh.html">libMesh</a> in this regard: the vector name <code>"solution"</code> refers to the solution vector (which is not stored in the map). The same is true for <code>"current_local_solution"</code>. For convenience, this class also accepts <code>"current"</code> as an alias for <code>"current_local_solution"</code>. All other vector names are stored in the libMesh::System vector map.</p>
 <p>All vectors added to a libMesh::System by this class are ghosted (with ghost data computed by the System) and registered for projection (i.e., if the mesh changes, these vectors will be automatically updated).</p>
-<p>This class stores information that depends on <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a>'s parallel partitioning: <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a912b1d6eb26671ec7875d92bee870b0d">LibMeshSystemVectors::reinit()</a> should be called after regridding to clear this data.</p>
 <dl class="section note"><dt>Note</dt><dd>This class is intended for internal use in <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a>. It is used in IBFEMethod and IBFESurfaceMethod. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a692bdef670c7d1536cadbbd19e286fe4"></a>
+<a class="anchor" id="ab7f4459dd8ac37379838425107fb29a3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">IBTK::LibMeshSystemVectors::LibMeshSystemVectors </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fe_data_managers</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td>
-          <td class="paramname"><em>system_name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Constructor.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fe_data_managers</td><td><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">IBTK::FEDataManager</a> objects for each part. These are used to get <a class="el" href="namespacelib_mesh.html">libMesh</a> vectors with ghost regions corresponding to the Eulerian partitioning.</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">system_name</td><td>Name of the libMesh::System whose vectors we are accessing. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a73db26ce8f9ba1b8dcb44116dbe7cc65"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">IBTK::LibMeshSystemVectors::LibMeshSystemVectors </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">IBTK::FEDataManager</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fe_data_managers</em>, </td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::EquationSystems * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>equation_systems</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -228,11 +193,45 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor, taking a mask argument indicating which systems actually exist.</p>
+<p>Constructor.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">fe_data_managers</td><td><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">IBTK::FEDataManager</a> objects for each part. These are used to get <a class="el" href="namespacelib_mesh.html">libMesh</a> vectors with ghost regions corresponding to the Eulerian partitioning.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">equation_systems</td><td>libMesh::EquationSystems objects for each part.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">part_mask</td><td>A vector indicating on which parts the given system actually exists (for example, only some parts have fluid sources)</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">system_name</td><td>Name of the libMesh::System whose vectors we are accessing. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad2583527db98b3e1710403a30ce9b269"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IBTK::LibMeshSystemVectors::LibMeshSystemVectors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::EquationSystems * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>equation_systems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td>
+          <td class="paramname"><em>system_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">equation_systems</td><td>libMesh::EquationSystems objects for each part.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">system_name</td><td>Name of the libMesh::System whose vectors we are accessing. </td></tr>
   </table>
   </dd>
@@ -332,61 +331,12 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
 
 </div>
 </div>
-<a class="anchor" id="a6e26363e4068260f9d5373467c8394c7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">libMesh::PetscVector&lt; double &gt; &amp; IBTK::LibMeshSystemVectors::getIBGhosted </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>part</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Get an IB-ghosted vector for a specific part.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">vec_name</td><td>Name of the vector.</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">part</td><td>Part number. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a97e6c2ed257d9eb93dfb4ee6d57a63cd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; IBTK::LibMeshSystemVectors::getIBGhosted </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec_name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Get, for each part, the IB-ghosted vectors corresponding to the name <code>vec_name</code> These vectors are ghosted with values determined by <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">IBTK::FEDataManager</a> (i.e., based on <a class="el" href="namespace_s_a_m_r_a_i.html">SAMRAI</a>'s parallel partitioning).</p>
-<dl class="section note"><dt>Note</dt><dd>These vectors are managed by this object: the ghosted information will not be valid after a regrid. </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a912b1d6eb26671ec7875d92bee870b0d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void IBTK::LibMeshSystemVectors::reinit </td>
@@ -395,8 +345,15 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>Reinitialize the object. This method must be called after the Eulerian data is updated. </p>
+<p>Reinitialize the object. </p>
+
+<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_i_b_vectors.html#a39a6438b320416d8f4bc42aa5d893f4a">IBTK::LibMeshSystemIBVectors</a>.</p>
 
 </div>
 </div>
@@ -424,7 +381,7 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 10 2020 12:41:26 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Apr 14 2020 22:25:52 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
