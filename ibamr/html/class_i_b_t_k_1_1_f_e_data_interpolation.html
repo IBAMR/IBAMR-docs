@@ -96,16 +96,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html" title="Class FEDataInterpolation manages data requred to evaluate one or more FE field variables at a collec...">FEDataInterpolation</a> manages data requred to evaluate one or more FE field variables at a collection of points, possibly (not not necessarily) corresponding to the points of a quadrature rule.  
+<p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html" title="Class FEDataInterpolation manages data required to evaluate one or more FE field variables at a colle...">FEDataInterpolation</a> manages data required to evaluate one or more FE field variables at a collection of points, possibly (not not necessarily) corresponding to the points of a quadrature rule.  
  <a href="class_i_b_t_k_1_1_f_e_data_interpolation.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/FEDataInterpolation.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a38ad665f3c620848d426de394082938f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38ad665f3c620848d426de394082938f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FEDataInterpolation</b> (unsigned int dim, <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *const fe_data_manager)</td></tr>
-<tr class="separator:a38ad665f3c620848d426de394082938f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2972795cfda0e0045fd27b080842b987"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2972795cfda0e0045fd27b080842b987"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FEDataInterpolation</b> (unsigned int dim, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data)</td></tr>
+<tr class="separator:a2972795cfda0e0045fd27b080842b987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28a16f39adf2783fe6106a685cb24a21"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28a16f39adf2783fe6106a685cb24a21"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>attachQuadratureRule</b> (libMesh::QBase *qrule)</td></tr>
 <tr class="separator:a28a16f39adf2783fe6106a685cb24a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,9 +163,9 @@ const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag
 <tr class="memitem:aa8e19f95a9e8a360819a10fbde493502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#aa8e19f95a9e8a360819a10fbde493502">registerSystem</a> (const libMesh::System &amp;system, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;phi_vars=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;(1, 0), const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;dphi_vars=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;(1, 0))</td></tr>
 <tr class="memdesc:aa8e19f95a9e8a360819a10fbde493502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the class to evaluate the requested shape functions / derivatives for the given system.  <a href="#aa8e19f95a9e8a360819a10fbde493502">More...</a><br /></td></tr>
 <tr class="separator:aa8e19f95a9e8a360819a10fbde493502"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b9242e0c9f0a7585772568b890f2e73"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a8b9242e0c9f0a7585772568b890f2e73">registerInterpolatedSystem</a> (const libMesh::System &amp;system, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;vars=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;(1, 0), const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;grad_vars=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;(), libMesh::NumericVector&lt; double &gt; *system_data=nullptr)</td></tr>
-<tr class="memdesc:a8b9242e0c9f0a7585772568b890f2e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the class to interpolate the requested variables / gradients for the given system.  <a href="#a8b9242e0c9f0a7585772568b890f2e73">More...</a><br /></td></tr>
-<tr class="separator:a8b9242e0c9f0a7585772568b890f2e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f304d7bd32a4c2beccc65dc2535cdd"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a28f304d7bd32a4c2beccc65dc2535cdd">registerInterpolatedSystem</a> (const libMesh::System &amp;system, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;vars=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;(1, 0), const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;grad_vars=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt;(), libMesh::NumericVector&lt; double &gt; *system_vec=nullptr)</td></tr>
+<tr class="memdesc:a28f304d7bd32a4c2beccc65dc2535cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure the class to interpolate the requested variables / gradients for the given system.  <a href="#a28f304d7bd32a4c2beccc65dc2535cdd">More...</a><br /></td></tr>
+<tr class="separator:a28f304d7bd32a4c2beccc65dc2535cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7b4232b4ab90e1ed22a6fae551cf426"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#ad7b4232b4ab90e1ed22a6fae551cf426">getVarInterpolation</a> ()</td></tr>
 <tr class="memdesc:ad7b4232b4ab90e1ed22a6fae551cf426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the variable data for all of the systems.  <a href="#ad7b4232b4ab90e1ed22a6fae551cf426">More...</a><br /></td></tr>
 <tr class="separator:ad7b4232b4ab90e1ed22a6fae551cf426"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,14 +180,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a9dd75674ba78d2e35a219a7f23cde807">setInterpolatedDataPointers</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; * &gt; &amp;var_data, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::VectorValue&lt; double &gt; &gt; * &gt; &amp;grad_var_data, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; size_t &gt; &amp;system_idxs, const libMesh::Elem *const elem, const unsigned int qp)</td></tr>
 <tr class="memdesc:a9dd75674ba78d2e35a219a7f23cde807"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up pointers to the interpolated data to be evaluated. <br /></td></tr>
 <tr class="separator:a9dd75674ba78d2e35a219a7f23cde807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab361b455aaf9b9b126c43c0a6d615f02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#ab361b455aaf9b9b126c43c0a6d615f02">init</a> (bool use_IB_ghosted_vecs)</td></tr>
-<tr class="memdesc:ab361b455aaf9b9b126c43c0a6d615f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all of the data structures requred to evaluate the FE shape functions, quadrature rules, etc.  <a href="#ab361b455aaf9b9b126c43c0a6d615f02">More...</a><br /></td></tr>
-<tr class="separator:ab361b455aaf9b9b126c43c0a6d615f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9dd0a50fc760665811d8f4bdc1a0b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#adc9dd0a50fc760665811d8f4bdc1a0b2">init</a> ()</td></tr>
+<tr class="memdesc:adc9dd0a50fc760665811d8f4bdc1a0b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all of the data structures required to evaluate the FE shape functions, quadrature rules, etc.  <a href="#adc9dd0a50fc760665811d8f4bdc1a0b2">More...</a><br /></td></tr>
+<tr class="separator:adc9dd0a50fc760665811d8f4bdc1a0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae647e747ef26eb05d639668e6af6c3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#aae647e747ef26eb05d639668e6af6c3c">reinit</a> (const libMesh::Elem *elem, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::Point &gt; *const points=nullptr, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; *weights=nullptr)</td></tr>
 <tr class="memdesc:aae647e747ef26eb05d639668e6af6c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitialize the FE shape functions, quadrature rules, etc. for the specified element.  <a href="#aae647e747ef26eb05d639668e6af6c3c">More...</a><br /></td></tr>
 <tr class="separator:aae647e747ef26eb05d639668e6af6c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98e8a1ae39696f46ef640560ab16736f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a98e8a1ae39696f46ef640560ab16736f">reinit</a> (const libMesh::Elem *elem, unsigned int side, double tol=libMesh::TOLERANCE, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::Point &gt; *points=nullptr, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; *weights=nullptr)</td></tr>
-<tr class="memdesc:a98e8a1ae39696f46ef640560ab16736f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitialize the FE shape functions, quadrature rules, etc. for the specified side of the specificed element.  <a href="#a98e8a1ae39696f46ef640560ab16736f">More...</a><br /></td></tr>
+<tr class="memdesc:a98e8a1ae39696f46ef640560ab16736f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitialize the FE shape functions, quadrature rules, etc. for the specified side of the specified element.  <a href="#a98e8a1ae39696f46ef640560ab16736f">More...</a><br /></td></tr>
 <tr class="separator:a98e8a1ae39696f46ef640560ab16736f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43c78490cded4ca673946f4c6caffdab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43c78490cded4ca673946f4c6caffdab"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a43c78490cded4ca673946f4c6caffdab">collectDataForInterpolation</a> (const libMesh::Elem *elem)</td></tr>
@@ -205,7 +205,7 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
 <tr class="separator:a6eaff997bd9cb124c0d6f504893f4556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html" title="Class FEDataInterpolation manages data requred to evaluate one or more FE field variables at a collec...">FEDataInterpolation</a> manages data requred to evaluate one or more FE field variables at a collection of points, possibly (not not necessarily) corresponding to the points of a quadrature rule. </p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html" title="Class FEDataInterpolation manages data required to evaluate one or more FE field variables at a colle...">FEDataInterpolation</a> manages data required to evaluate one or more FE field variables at a collection of points, possibly (not not necessarily) corresponding to the points of a quadrature rule. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a9912a6c76887e39ff1002618177c44e2"></a>
 <div class="memitem">
@@ -259,21 +259,20 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
 
 </div>
 </div>
-<a class="anchor" id="ab361b455aaf9b9b126c43c0a6d615f02"></a>
+<a class="anchor" id="adc9dd0a50fc760665811d8f4bdc1a0b2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void IBTK::FEDataInterpolation::init </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>use_IB_ghosted_vecs</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialize all of the data structures requred to evaluate the FE shape functions, quadrature rules, etc. </p>
+<p>Initialize all of the data structures required to evaluate the FE shape functions, quadrature rules, etc. </p>
 <p>NOTE: This method must be called before reinitializing data on individual elements. </p>
 
 </div>
@@ -326,7 +325,7 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
 
 </div>
 </div>
-<a class="anchor" id="a8b9242e0c9f0a7585772568b890f2e73"></a>
+<a class="anchor" id="a28f304d7bd32a4c2beccc65dc2535cdd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -352,7 +351,7 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">libMesh::NumericVector&lt; double &gt; *&#160;</td>
-          <td class="paramname"><em>system_data</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramname"><em>system_vec</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -400,7 +399,7 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
 </div><div class="memdoc">
 
 <p>Configure the class to evaluate the requested shape functions / derivatives for the given system. </p>
-<p>NOTE: To interpolate variables associated with the system, use <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a8b9242e0c9f0a7585772568b890f2e73" title="Configure the class to interpolate the requested variables / gradients for the given system...">registerInterpolatedSystem()</a>. </p>
+<p>NOTE: To interpolate variables associated with the system, use <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a28f304d7bd32a4c2beccc65dc2535cdd" title="Configure the class to interpolate the requested variables / gradients for the given system...">registerInterpolatedSystem()</a>. </p>
 
 </div>
 </div>
@@ -481,7 +480,7 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
       </table>
 </div><div class="memdoc">
 
-<p>Reinitialize the FE shape functions, quadrature rules, etc. for the specified side of the specificed element. </p>
+<p>Reinitialize the FE shape functions, quadrature rules, etc. for the specified side of the specified element. </p>
 <p>NOTE: Nodal values are set by calling <a class="el" href="class_i_b_t_k_1_1_f_e_data_interpolation.html#a43c78490cded4ca673946f4c6caffdab" title="Get the local (element) data to be interpolated from the global vectors. ">collectDataForInterpolation()</a>. </p>
 
 </div>
@@ -493,7 +492,7 @@ const boost::multi_array&lt; double, 2 &gt; &amp;&#160;</td><td class="memItemRi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 16 2020 17:40:46 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Apr 16 2020 20:14:05 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
