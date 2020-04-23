@@ -147,17 +147,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_level_solver.html#ae3a2431b1487d9c4743e57f5212aa0ec">IBTK::PETScLevelSolver</a>
 </li>
 <li>get()
-: <a class="el" href="class_i_b_t_k_1_1_lagrange_mapping.html#a250f45b11f5e18dc41080ec0d5e34e45">IBTK::LagrangeMapping&lt; dim, spacedim &gt;</a>
-, <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a83fbbc7a7414f25b6c8a7ff770999b83">IBTK::LibMeshSystemVectors</a>
-, <a class="el" href="class_i_b_t_k_1_1_mapping.html#adac3b8495f0fd2a66aa4c73562745c90">IBTK::Mapping&lt; dim, spacedim &gt;</a>
-, <a class="el" href="class_i_b_t_k_1_1_quad4_mapping.html#ae9f2d10698d068678ae3afb7d680f930">IBTK::Quad4Mapping</a>
-, <a class="el" href="class_i_b_t_k_1_1_quad9_mapping.html#a7be849b8529ff80b7e718d6cee08f762">IBTK::Quad9Mapping</a>
-, <a class="el" href="class_i_b_t_k_1_1_tet4_mapping.html#a658f53eb029a94ab2b73a2fb681f4cfb">IBTK::Tet4Mapping</a>
-, <a class="el" href="class_i_b_t_k_1_1_tri3_mapping.html#acaf54e948598a4835e7ed2a350a2dc15">IBTK::Tri3Mapping</a>
+: <a class="el" href="class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a83fbbc7a7414f25b6c8a7ff770999b83">IBTK::LibMeshSystemVectors</a>
 </li>
 <li>get_JxW()
 : <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#aa4bae5f5fd27d746068532d5a00626ac">IBTK::JacobianCalculator</a>
-, <a class="el" href="class_i_b_t_k_1_1_mapping.html#accc86b4d8fd3fd931d809b636adc918c">IBTK::Mapping&lt; dim, spacedim &gt;</a>
+, <a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#af50413afe1dcdddc9e3b27487bc1f46c">IBTK::NodalMapping&lt; dim, spacedim, n_nodes &gt;</a>
 </li>
 <li>getA()
 : <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#a0e6aa7c654d8821f8d42923f38a05f98">IBAMR::CIBSaddlePointSolver</a>
@@ -701,6 +695,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>getJacobian()
 : <a class="el" href="class_i_b_t_k_1_1_newton_krylov_solver.html#a47b8ef65b040de5990cbce279c1b917b">IBTK::NewtonKrylovSolver</a>
 </li>
+<li>getJxW()
+: <a class="el" href="class_i_b_t_k_1_1_mapping.html#a2a04815a951700e23607961e71b99664">IBTK::Mapping&lt; dim, spacedim &gt;</a>
+, <a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#adab0db3b6f45884c9aa27b98bea0142b">IBTK::NodalMapping&lt; dim, spacedim, n_nodes &gt;</a>
+</li>
 <li>getKinematicsVelocity()
 : <a class="el" href="class_i_b_a_m_r_1_1_constraint_i_b_kinematics.html#a6a818d8435f755f4bf4746d4478c7aea">IBAMR::ConstraintIBKinematics</a>
 </li>
@@ -845,6 +843,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>getMap()
 : <a class="el" href="class_i_b_t_k_1_1_parallel_map.html#a6edf369ec3d56933376d82acf37204b7">IBTK::ParallelMap</a>
 </li>
+<li>getMappedQuadraturePoints()
+: <a class="el" href="class_i_b_t_k_1_1_point_map.html#a957ce815995240795baf95366d3397bd">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a>
+</li>
 <li>getMassDensityVariable()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator.html#a7ba7b6d1e71c167265534287a9438a7f">IBAMR::INSVCStaggeredHierarchyIntegrator</a>
 </li>
@@ -977,7 +978,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_t_k_1_1_l_node.html#a823f68dd9b99896ca97cfc129b71c468">IBTK::LNode</a>
 </li>
 <li>getNodeIndex()
-: <a class="el" href="class_i_b_a_m_r_1_1_i_b_anchor_point_spec.html#aa940a5df3abc8374b5509b69e9eb44be">IBAMR::IBAnchorPointSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_anchor_point_spec.html#a282bd8fb3382a6b58d33aea001deedea">IBAMR::IBAnchorPointSpec</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_instrumentation_spec.html#af9933c8158c064c5d1636ee9af131285">IBAMR::IBInstrumentationSpec</a>
 </li>
 <li>getNodes()
@@ -1170,7 +1171,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_instrument_panel.html#acf7958dcf0c70886ed47a493d7defe22">IBAMR::IBFEInstrumentPanel</a>
 </li>
 <li>getPointIndex()
-: <a class="el" href="class_i_b_a_m_r_1_1_material_point_spec.html#aa68866d73442ca2682e46f231cd2ca3d">IBAMR::MaterialPointSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_material_point_spec.html#ad1a97e54e4000f87f2e8c7208028104a">IBAMR::MaterialPointSpec</a>
 </li>
 <li>getPointwisePressureValues()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_instrument_panel.html#af4d25de39a0c176b86cef25a3eb3068a">IBAMR::IBInstrumentPanel</a>
@@ -1239,6 +1240,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>getQIntegralData()
 : <a class="el" href="class_i_b_a_m_r_1_1_advector_predictor_corrector_hyperbolic_patch_ops.html#ad1110df212d46be26cc977b7523067ac">IBAMR::AdvectorPredictorCorrectorHyperbolicPatchOps</a>
+</li>
+<li>getQuadraturePoints()
+: <a class="el" href="class_i_b_t_k_1_1_mapping.html#ac9cadeeb934892c97cbf38a9a2e7ecc4">IBTK::Mapping&lt; dim, spacedim &gt;</a>
+, <a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#abb6e13f3ef438368caae51504b8da84e">IBTK::NodalMapping&lt; dim, spacedim, n_nodes &gt;</a>
 </li>
 <li>getRank()
 : <a class="el" href="struct_i_b_t_k_1_1_i_b_t_k___m_p_i.html#ab069a4b37c042878a3279cb99897894b">IBTK::IBTK_MPI</a>
@@ -1345,7 +1350,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_t_k_1_1_l_set_data_factory.html#a51f4523f727a884fc6387a11ce81faef">IBTK::LSetDataFactory&lt; T &gt;</a>
 </li>
 <li>getSlaveNodeIndices()
-: <a class="el" href="class_i_b_a_m_r_1_1_i_b_spring_force_spec.html#a607c64d4e6feaba9135816848d80c7fa">IBAMR::IBSpringForceSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_spring_force_spec.html#a4370c292c88fc1eb851f262a71ffaef8">IBAMR::IBSpringForceSpec</a>
 </li>
 <li>getSmoother()
 : <a class="el" href="class_i_b_a_m_r_1_1_surface_tension_force_function.html#adef8463e5dcf339bba84765af0f44362">IBAMR::SurfaceTensionForceFunction</a>
@@ -1370,7 +1375,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_t_k_1_1_l_transaction.html#afeabd8f74de498e6b336c7f0408c2c49">IBTK::LTransaction&lt; T &gt;</a>
 </li>
 <li>getSourceIndex()
-: <a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#a9fad0f302ac123972731d23b00779d42">IBAMR::IBSourceSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_source_spec.html#a62534e240c13b628d914df9715fae5b9">IBAMR::IBSourceSpec</a>
 </li>
 <li>getSourceLocations()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_b_lagrangian_source_strategy.html#a2f0bbeeff91ed5e18ae8dbeabb51dde6">IBAMR::IBLagrangianSourceStrategy</a>
@@ -1403,7 +1408,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>getStableTimestep()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_collocated_hierarchy_integrator.html#a37f7513ac77cac1dd1763e28005a88a1">IBAMR::INSCollocatedHierarchyIntegrator</a>
-, <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#aadab46eac1f9da13b441dd31277953e6">IBAMR::INSHierarchyIntegrator</a>
+, <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#afc0ac0b0a89903257b422b8755a72829">IBAMR::INSHierarchyIntegrator</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_staggered_hierarchy_integrator.html#a46e9d397922b00820d0a482a1f60c9cc">IBAMR::INSStaggeredHierarchyIntegrator</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator.html#a4cefe61ff485ca1c7b1af5eb8696cbab">IBAMR::INSVCStaggeredHierarchyIntegrator</a>
 </li>
@@ -1487,7 +1492,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="class_i_b_a_m_r_1_1_i_b_interpolant_method.html#a693f4860e3ee9d7ae5dafc95bd779fae">IBAMR::IBInterpolantMethod</a>
 </li>
 <li>getSubdomainId()
-: <a class="el" href="class_i_b_a_m_r_1_1_material_point_spec.html#a576452930a2ccffd09d541626cac3784">IBAMR::MaterialPointSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_material_point_spec.html#a8f295c3d6fbf7ab5464c27b9a62190a3">IBAMR::MaterialPointSpec</a>
 </li>
 <li>getSurfaceElevation()
 : <a class="el" href="class_i_b_a_m_r_1_1_fifth_order_stokes_wave_generator.html#a0f158f3a66eafc46336b6fb63ac30a15">IBAMR::FifthOrderStokesWaveGenerator</a>
@@ -1504,7 +1509,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_a_m_r_1_1_constraint_i_b_kinematics_1_1_structure_parameters.html#a4502d790ffd6c5ff7894e419ee28a122">IBAMR::ConstraintIBKinematics::StructureParameters</a>
 </li>
 <li>getTargetPointPosition()
-: <a class="el" href="class_i_b_a_m_r_1_1_i_b_target_point_force_spec.html#a0b22b02a30165074f3047e3e94f4fe28">IBAMR::IBTargetPointForceSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_i_b_target_point_force_spec.html#a326c681b2904a7021605ea8abc9501eb">IBAMR::IBTargetPointForceSpec</a>
 </li>
 <li>getTimeInterval()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_integrator.html#a6106cde1b5b7a05b6e3b5466dc7daae0">IBAMR::INSVCStaggeredConservativeMassMomentumIntegrator</a>
@@ -1555,7 +1560,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_a_m_r_1_1_fifth_order_stokes_wave_generator.html#ad860e7f38973822fbc5e84d2a68e7e90">IBAMR::FifthOrderStokesWaveGenerator</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_irregular_wave_generator.html#a093368cd3b0f62a6db0e82596e299aef">IBAMR::IrregularWaveGenerator</a>
 , <a class="el" href="class_i_b_a_m_r_1_1_stokes_wave_generator_strategy.html#ac8c4cc0424c425752cd7c16b8a9fae4f">IBAMR::StokesWaveGeneratorStrategy</a>
-, <a class="el" href="class_i_b_t_k_1_1_l_marker.html#a30397970d17f70e96077e2022a335d4f">IBTK::LMarker</a>
+, <a class="el" href="class_i_b_t_k_1_1_l_marker.html#a01a6bad93fccc66a37fc69e580e88d0c">IBTK::LMarker</a>
 </li>
 <li>getVelocityBoundaryConditions()
 : <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#ab3a58da2c5b934a54f69ab220988311c">IBAMR::INSHierarchyIntegrator</a>
@@ -1633,7 +1638,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html#a631b1ce26adc223b515b337a28ebba4e">IBTK::HierarchyMathOps</a>
 </li>
 <li>getWeight()
-: <a class="el" href="class_i_b_a_m_r_1_1_material_point_spec.html#a5a840225665d97560a80fda4c4f7965d">IBAMR::MaterialPointSpec</a>
+: <a class="el" href="class_i_b_a_m_r_1_1_material_point_spec.html#ac241ea1e12fcdc5b013c1d0a7be6dc38">IBAMR::MaterialPointSpec</a>
 </li>
 <li>getWorkloadDataIndex()
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a516d570fcd7f5fb69781e0f79496feb4">IBTK::HierarchyIntegrator</a>
@@ -1642,14 +1647,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#ac2025d2865d330a55cd86a204d44cfc1">IBTK::LDataManager</a>
 </li>
 <li>grad()
-: <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html#a4fc22298ce1a1113df8b922b6a524291">IBTK::HierarchyMathOps</a>
-, <a class="el" href="class_i_b_t_k_1_1_patch_math_ops.html#a88033b813f3e6679d73904a31ab7efe7">IBTK::PatchMathOps</a>
+: <a class="el" href="class_i_b_t_k_1_1_hierarchy_math_ops.html#a37628cd821fef66c4e028a8e393cd0c8">IBTK::HierarchyMathOps</a>
+, <a class="el" href="class_i_b_t_k_1_1_patch_math_ops.html#a9672ce98853eedcff9b9824a804865ec">IBTK::PatchMathOps</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 16 2020 20:14:23 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Apr 23 2020 18:26:57 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>IBAMR: IBTK::Mapping&lt; dim, spacedim &gt;::MappingData Struct Reference</title>
+<title>IBAMR: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,41 +84,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespace_i_b_t_k.html">IBTK</a></li><li class="navelem"><a class="el" href="class_i_b_t_k_1_1_mapping.html">Mapping</a></li><li class="navelem"><a class="el" href="struct_i_b_t_k_1_1_mapping_1_1_mapping_data.html">MappingData</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespace_i_b_t_k.html">IBTK</a></li><li class="navelem"><a class="el" href="class_i_b_t_k_1_1_point_map.html">PointMap</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="struct_i_b_t_k_1_1_mapping_1_1_mapping_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IBTK::Mapping&lt; dim, spacedim &gt;::MappingData Struct Reference</div>  </div>
+<div class="title">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;ibtk/JacobianCalculator.h&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:abb086b459cbe1cfd100e2f244461ebf8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb086b459cbe1cfd100e2f244461ebf8"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_JxW</b></td></tr>
-<tr class="separator:abb086b459cbe1cfd100e2f244461ebf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f4f9bdab372c5bd0dbb04c9bc2b284b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f4f9bdab372c5bd0dbb04c9bc2b284b"></a>
-<a class="el" href="namespace_i_b_t_k.html#a454b0ed65ab2ecf794a6521c9544167a">EigenAlignedVector</a>&lt; Eigen::Matrix&lt; double, spacedim, dim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_contravariants</b></td></tr>
-<tr class="separator:a4f4f9bdab372c5bd0dbb04c9bc2b284b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;int dim, int spacedim = dim&gt;<br />
-struct IBTK::Mapping&lt; dim, spacedim &gt;::MappingData</h3>
-
-<p>Actual data computed on an element. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/home/travis/build/IBAMR/IBAMR/ibtk/include/ibtk/JacobianCalculator.h</li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="class_i_b_t_k_1_1_point_map.html">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html#a53c767ad405aaff5be150be08f9e9247">d_phi</a></td><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html#a72a5eea9445ec6caa135a5da562dd3f6">d_reference_q_points</a></td><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html#a957ce815995240795baf95366d3397bd">getMappedQuadraturePoints</a>(const libMesh::Point *begin, const libMesh::Point *end, std::vector&lt; libMesh::Point &gt; &amp;physical_q_points)</td><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>PointMap</b>(const libMesh::ElemType elem_type, const std::vector&lt; libMesh::Point &gt; &amp;q_points) (defined in <a class="el" href="class_i_b_t_k_1_1_point_map.html">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a>)</td><td class="entry"><a class="el" href="class_i_b_t_k_1_1_point_map.html">IBTK::PointMap&lt; dim, spacedim, n_nodes &gt;</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 16 2020 20:14:06 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Apr 23 2020 18:26:41 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

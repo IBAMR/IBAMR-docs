@@ -1,10 +1,19 @@
 <map id="IBTK::Mapping&lt; dim, spacedim &gt;" name="IBTK::Mapping&lt; dim, spacedim &gt;">
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; dim, spacedim \&gt;" alt="" coords="15,185,177,227"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; 2, 2 \&gt;" alt="" coords="201,193,356,219"/>
-<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; 3, 3 \&gt;" alt="" coords="432,193,587,219"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_jacobian_calculator.html" title="IBTK::JacobianCalculator" alt="" coords="193,5,364,32"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_quad4_mapping.html" title="IBTK::Quad4Mapping" alt="" coords="5,276,152,303"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_quad9_mapping.html" title="IBTK::Quad9Mapping" alt="" coords="176,276,323,303"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_tri3_mapping.html" title="IBTK::Tri3Mapping" alt="" coords="347,276,477,303"/>
-<area shape="rect" id="node9" href="$class_i_b_t_k_1_1_tet4_mapping.html" title="IBTK::Tet4Mapping" alt="" coords="502,276,637,303"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; dim, spacedim \&gt;" alt="" coords="213,229,356,270"/>
+<area shape="rect" id="node11" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="NodalMapping\&lt; 2, 2, 3 \&gt;" alt="" coords="392,5,559,32"/>
+<area shape="rect" id="node12" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="NodalMapping\&lt; 2, 2, 4 \&gt;" alt="" coords="201,97,368,124"/>
+<area shape="rect" id="node13" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="NodalMapping\&lt; 2, 2, 9 \&gt;" alt="" coords="392,345,559,372"/>
+<area shape="rect" id="node14" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="NodalMapping\&lt; 3, 3, 4 \&gt;" alt="" coords="392,404,559,431"/>
+<area shape="rect" id="node15" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="NodalMapping\&lt; dim,\l spacedim \&gt;" alt="" coords="213,462,356,503"/>
+<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 3, 3, 4 \&gt;" alt="" coords="593,294,735,335"/>
+<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 2, 2, 9 \&gt;" alt="" coords="593,229,735,270"/>
+<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 2, 2, 3 \&gt;" alt="" coords="593,98,735,139"/>
+<area shape="rect" id="node9" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 2, 2, 4 \&gt;" alt="" coords="593,163,735,205"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_tet4_mapping.html" title="IBTK::Tet4Mapping" alt="" coords="858,385,993,412"/>
+<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_quad9_mapping.html" title="IBTK::Quad9Mapping" alt="" coords="852,284,999,311"/>
+<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_tri3_mapping.html" title="IBTK::Tri3Mapping" alt="" coords="860,79,991,105"/>
+<area shape="rect" id="node10" href="$class_i_b_t_k_1_1_quad4_mapping.html" title="IBTK::Quad4Mapping" alt="" coords="852,143,999,169"/>
+<area shape="rect" id="node16" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; dim, spacedim \&gt;" alt="" coords="583,462,745,503"/>
+<area shape="rect" id="node17" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3 \&gt;" alt="" coords="844,491,1007,533"/>
+<area shape="rect" id="node18" href="$class_i_b_t_k_1_1_tet10_mapping.html" title="IBTK::Tet10Mapping" alt="" coords="1056,499,1199,525"/>
 </map>
