@@ -198,7 +198,7 @@ var searchData=
   ['container_5ftraits_5fbase_3c_20thin_5fheap_5ftag_20_3e',['container_traits_base&lt; thin_heap_tag &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10256.html',1,'__gnu_pbds']]],
   ['convectiveoperator',['ConvectiveOperator',['../class_i_b_a_m_r_1_1_convective_operator.html',1,'IBAMR']]],
   ['coordinatemappingfcndata',['CoordinateMappingFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_surface_method_1_1_coordinate_mapping_fcn_data.html',1,'IBAMR::IBFESurfaceMethod']]],
-  ['coordinatemappingfcndata',['CoordinateMappingFcnData',['../struct_i_b_a_m_r_1_1_i_b_f_e_method_1_1_coordinate_mapping_fcn_data.html',1,'IBAMR::IBFEMethod']]],
+  ['coordinatemappingfcndata',['CoordinateMappingFcnData',['../struct_i_b_a_m_r_1_1_f_e_mechanics_base_1_1_coordinate_mapping_fcn_data.html',1,'IBAMR::FEMechanicsBase']]],
   ['copyoperation',['CopyOperation',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CopyOperation.html',1,'SAMRAI::pdat']]],
   ['copytorootschedule',['CopyToRootSchedule',['../class_i_b_t_k_1_1_copy_to_root_schedule.html',1,'IBTK']]],
   ['copytoroottransaction',['CopyToRootTransaction',['../class_i_b_t_k_1_1_copy_to_root_transaction.html',1,'IBTK']]],
