@@ -59,6 +59,7 @@ var searchData=
   ['hash_5fstandard_5fresize_5fpolicy',['hash_standard_resize_policy',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10096.html',1,'__gnu_pbds']]],
   ['hdfdatabase',['HDFDatabase',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1HDFDatabase.html',1,'SAMRAI::tbox']]],
   ['hdfdatabasefactory',['HDFDatabaseFactory',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1HDFDatabaseFactory.html',1,'SAMRAI::tbox']]],
+  ['hex27mapping',['Hex27Mapping',['../class_i_b_t_k_1_1_hex27_mapping.html',1,'IBTK']]],
   ['hierarchycelldataopscomplex',['HierarchyCellDataOpsComplex',['../../../samrai/2.4.4/html/classSAMRAI_1_1math_1_1HierarchyCellDataOpsComplex.html',1,'SAMRAI::math']]],
   ['hierarchycelldataopsinteger',['HierarchyCellDataOpsInteger',['../../../samrai/2.4.4/html/classSAMRAI_1_1math_1_1HierarchyCellDataOpsInteger.html',1,'SAMRAI::math']]],
   ['hierarchycelldataopsreal',['HierarchyCellDataOpsReal',['../../../samrai/2.4.4/html/classSAMRAI_1_1math_1_1HierarchyCellDataOpsReal.html',1,'SAMRAI::math']]],

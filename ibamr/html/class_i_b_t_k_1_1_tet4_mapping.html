@@ -112,8 +112,8 @@ Inheritance diagram for IBTK::Tet4Mapping:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a70f1d9c772cacea86c19d4a20dfffb57"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_tet4_mapping.html#a70f1d9c772cacea86c19d4a20dfffb57">fillContravariants</a> (const libMesh::Elem *elem) override</td></tr>
-<tr class="separator:a70f1d9c772cacea86c19d4a20dfffb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b98442bf2a2490843170f27b3954be7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_tet4_mapping.html#a9b98442bf2a2490843170f27b3954be7">fillTransforms</a> (const libMesh::Elem *elem) override</td></tr>
+<tr class="separator:a9b98442bf2a2490843170f27b3954be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9b04b1d2533f017b5285b95e802dfd4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_tet4_mapping.html#ab9b04b1d2533f017b5285b95e802dfd4">isAffine</a> () const override</td></tr>
 <tr class="separator:ab9b04b1d2533f017b5285b95e802dfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_i_b_t_k_1_1_nodal_mapping"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_i_b_t_k_1_1_nodal_mapping')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html">IBTK::NodalMapping&lt; 3, 3, 4 &gt;</a></td></tr>
@@ -152,6 +152,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:adab0db3b6f45884c9aa27b98bea0142b inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb6e13f3ef438368caae51504b8da84e inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::Point &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getQuadraturePoints</b> () const override</td></tr>
 <tr class="separator:abb6e13f3ef438368caae51504b8da84e inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fae41311c86f94e289233cc8ea930e4 inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespace_i_b_t_k.html#a454b0ed65ab2ecf794a6521c9544167a">EigenAlignedVector</a>&lt; Eigen::Matrix&lt; double, spacedim, dim &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getContravariants</b> () const override</td></tr>
+<tr class="separator:a3fae41311c86f94e289233cc8ea930e4 inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d36834e8480377e84de0852d1a583d8 inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespace_i_b_t_k.html#a454b0ed65ab2ecf794a6521c9544167a">EigenAlignedVector</a>&lt; Eigen::Matrix&lt; double, spacedim, dim &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCovariants</b> () const override</td></tr>
+<tr class="separator:a0d36834e8480377e84de0852d1a583d8 inherit pub_methods_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_t_k_1_1_mapping"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_t_k_1_1_mapping')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_mapping.html">IBTK::Mapping&lt; dim, spacedim &gt;</a></td></tr>
 <tr class="memitem:a796c7d416b5e32deaefeb544434afeff inherit pub_methods_class_i_b_t_k_1_1_mapping"><td class="memTemplParams" colspan="2"><a class="anchor" id="a796c7d416b5e32deaefeb544434afeff"></a>
 template&lt;&gt; </td></tr>
@@ -180,6 +184,8 @@ template&lt;&gt; </td></tr>
 <tr class="separator:ac4253002edcb5e331bf11027566d67d1 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3eee6e477547cdf21b4edc29f182dc2 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_i_b_t_k.html#a454b0ed65ab2ecf794a6521c9544167a">EigenAlignedVector</a>&lt; Eigen::Matrix&lt; double, spacedim, dim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#ab3eee6e477547cdf21b4edc29f182dc2">d_contravariants</a></td></tr>
 <tr class="separator:ab3eee6e477547cdf21b4edc29f182dc2 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e785a99c66a23208523066de0c37195 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_i_b_t_k.html#a454b0ed65ab2ecf794a6521c9544167a">EigenAlignedVector</a>&lt; Eigen::Matrix&lt; double, spacedim, dim &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#a8e785a99c66a23208523066de0c37195">d_covariants</a></td></tr>
+<tr class="separator:a8e785a99c66a23208523066de0c37195 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a239638f843a56a73320d3267d612b0c2 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#a239638f843a56a73320d3267d612b0c2">d_Jacobians</a></td></tr>
 <tr class="separator:a239638f843a56a73320d3267d612b0c2 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb35006f9cc896edf4824b7d5547ab09 inherit pro_attribs_class_i_b_t_k_1_1_nodal_mapping"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_nodal_mapping.html#adb35006f9cc896edf4824b7d5547ab09">d_JxW</a></td></tr>
@@ -202,7 +208,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Specialization for TET4 elements. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a70f1d9c772cacea86c19d4a20dfffb57"></a>
+<a class="anchor" id="a9b98442bf2a2490843170f27b3954be7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -210,7 +216,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void IBTK::Tet4Mapping::fillContravariants </td>
+          <td class="memname">void IBTK::Tet4Mapping::fillTransforms </td>
           <td>(</td>
           <td class="paramtype">const libMesh::Elem *&#160;</td>
           <td class="paramname"><em>elem</em></td><td>)</td>
@@ -223,9 +229,9 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Compute the contravariants. In general each mapping will have to overload this function. </p>
+<p>Compute the contravariants and covariants. In general each mapping will have to overload this function. </p>
 
-<p>Implements <a class="el" href="class_i_b_t_k_1_1_mapping.html#a374f372af6db99ab4f90fcbd517b14ba">IBTK::Mapping&lt; dim, spacedim &gt;</a>.</p>
+<p>Implements <a class="el" href="class_i_b_t_k_1_1_mapping.html#a3349d3b1e1c84360d3a47fa8ed3a50c0">IBTK::Mapping&lt; dim, spacedim &gt;</a>.</p>
 
 </div>
 </div>
@@ -262,7 +268,7 @@ const <a class="el" href="class_i_b_t_k_1_1_jacobian_calculator.html#a38c8d61016
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 13 2020 13:53:14 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri May 15 2020 13:59:51 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

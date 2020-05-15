@@ -80,6 +80,7 @@ var searchData=
   ['eigenalignedvector',['EigenAlignedVector',['../namespace_i_b_t_k.html#a454b0ed65ab2ecf794a6521c9544167a',1,'IBTK']]],
   ['eigentordv',['eigenToRDV',['../class_i_b_a_m_r_1_1_c_i_b_strategy.html#af235024d7e246bdcf736a5a4ffbfa593',1,'IBAMR::CIBStrategy']]],
   ['elem_5fis_5faffine',['elem_is_affine',['../class_i_b_t_k_1_1_tet10_mapping.html#a914e750766f8eed142c8851bcd25ebfe',1,'IBTK::Tet10Mapping']]],
+  ['elem_5fis_5ftrilinear',['elem_is_trilinear',['../class_i_b_t_k_1_1_hex27_mapping.html#ad3e46cdcf8714b2c26d75dc6d90a64a5',1,'IBTK::Hex27Mapping']]],
   ['element_5ftype',['element_type',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07444.html#a7c925143715c359436b453e524dd9fc1',1,'std::auto_ptr::element_type()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05380.html#a2952524002a6723ff9bec4c5dbee8367',1,'std::pointer_traits::element_type()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05392.html#ac702e82a55f07abb4e8992a4c9c3d5c1',1,'std::pointer_traits&lt; _Tp * &gt;::element_type()']]],
   ['elevenpatchinterface',['ElevenPatchInterface',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1ElevenPatchInterface.html',1,'SAMRAI::appu']]],
   ['elevenpatchinterface',['ElevenPatchInterface',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1ElevenPatchInterface.html#81ba24b59565fa96c302f52e999cf9d0',1,'SAMRAI::appu::ElevenPatchInterface']]],
