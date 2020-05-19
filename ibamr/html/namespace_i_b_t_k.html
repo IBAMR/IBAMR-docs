@@ -235,6 +235,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_values.html">FEValues</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_values_base.html">FEValuesBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_fixed_sized_stream.html">FixedSizedStream</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="class_i_b_t_k_1_1_fixed_sized_stream.html" title="Class FixedSizedStream provides a fixed-size message buffer used by various communication routines...">FixedSizedStream</a> provides a fixed-size message buffer used by various communication routines.  <a href="class_i_b_t_k_1_1_fixed_sized_stream.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -989,10 +991,10 @@ template&lt;int n_vars&gt; </td></tr>
 <tr class="memitem:a9f784acee6887b9ab0e5aff709472983"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f784acee6887b9ab0e5aff709472983"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>integrate_elem_rhs</b> (const int n_vars, const int n_basis, const int qp_offset, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &gt; &amp;phi_F, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;JxW_F, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;F_qp, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &amp;F_rhs_concatenated)</td></tr>
 <tr class="separator:a9f784acee6887b9ab0e5aff709472983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956e1a4ed9e6b1888bca21eb949a3f7e"><td class="memTemplParams" colspan="2"><a class="anchor" id="a956e1a4ed9e6b1888bca21eb949a3f7e"></a>
+<tr class="memitem:aa2a93b29c3c7082c05d341446e477230"><td class="memTemplParams" colspan="2"><a class="anchor" id="aa2a93b29c3c7082c05d341446e477230"></a>
 template&lt;int dim, int spacedim&gt; </td></tr>
-<tr class="memitem:a956e1a4ed9e6b1888bca21eb949a3f7e"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, dim, spacedim &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>getCovariant</b> (const Eigen::Matrix&lt; double, dim, spacedim &gt; &amp;contravariant)</td></tr>
-<tr class="separator:a956e1a4ed9e6b1888bca21eb949a3f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a93b29c3c7082c05d341446e477230"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, spacedim, dim &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>getCovariant</b> (const Eigen::Matrix&lt; double, spacedim, dim &gt; &amp;contravariant)</td></tr>
+<tr class="separator:aa2a93b29c3c7082c05d341446e477230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2e6d56546214fc1af840d482f2bfe0a"><td class="memTemplParams" colspan="2"><a class="anchor" id="ab2e6d56546214fc1af840d482f2bfe0a"></a>
 template&lt;int dim&gt; </td></tr>
 <tr class="memitem:ab2e6d56546214fc1af840d482f2bfe0a"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, dim, dim &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>getCovariant</b> (const Eigen::Matrix&lt; double, dim, dim &gt; &amp;contravariant)</td></tr>
@@ -2315,7 +2317,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 15 2020 16:20:50 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 19 2020 22:10:46 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
