@@ -251,7 +251,7 @@ var searchData=
   ['_5fdeque_5fiterator',['_Deque_iterator',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06376.html',1,'std']]],
   ['_5fdeque_5fiterator_3c_20_5ftp_2c_20_5ftp_20_26_2c_20_5fptr_20_3e',['_Deque_iterator&lt; _Tp, _Tp &amp;, _Ptr &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06376.html',1,'']]],
   ['_5fdistance_5fprecision',['_Distance_precision',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01572.html#a3817879cb58c2db9f22712a634ef0b92',1,'__gnu_debug']]],
-  ['_5fdo_5fpartition',['_do_partition',['../class_i_b_t_k_1_1_box_partitioner.html#a3c93f40117921ada68cba6f0eed62dbe',1,'IBTK::BoxPartitioner']]],
+  ['_5fdo_5fpartition',['_do_partition',['../class_i_b_t_k_1_1_box_partitioner.html#a3c93f40117921ada68cba6f0eed62dbe',1,'IBTK::BoxPartitioner::_do_partition()'],['../class_i_b_t_k_1_1_stable_centroid_partitioner.html#aa9744b21bcc112695eb0a284cb4c394c',1,'IBTK::StableCentroidPartitioner::_do_partition()']]],
   ['_5fdrandomshufflingglobaldata',['_DRandomShufflingGlobalData',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08600.html',1,'__gnu_parallel']]],
   ['_5fdrandomshufflingglobaldata',['_DRandomShufflingGlobalData',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08600.html#a49c246799f069b451b53333929d4084b',1,'__gnu_parallel::_DRandomShufflingGlobalData']]],
   ['_5fdrssorterpu',['_DRSSorterPU',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08604.html',1,'__gnu_parallel']]],
