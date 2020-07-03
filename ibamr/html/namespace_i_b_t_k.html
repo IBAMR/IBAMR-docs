@@ -897,6 +897,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_updat
 <tr class="memitem:abbd21f0ce38740f36c527bd51d00cea2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abbd21f0ce38740f36c527bd51d00cea2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_update</b> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &gt; &amp;vecs, const InsertMode insert_mode, const ScatterMode scatter_mode)</td></tr>
 <tr class="separator:abbd21f0ce38740f36c527bd51d00cea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6e1b936ae530a4aacdc032c8edbb3475">apply_transposed_constraint_matrix</a> (const libMesh::DofMap &amp;dof_map, libMesh::PetscVector&lt; double &gt; &amp;rhs)</td></tr>
+<tr class="separator:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60d5a97f333088f598958c116655068"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#af60d5a97f333088f598958c116655068">getQuadratureKey</a> (const libMesh::QuadratureType quad_type, libMesh::Order order, const bool use_adaptive_quadrature, const double point_density, const libMesh::Elem *const elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, const double dx_min)</td></tr>
 <tr class="separator:af60d5a97f333088f598958c116655068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed5aca02cba73e5d78468ef40470e7d"><td class="memTemplParams" colspan="2">template&lt;class MultiArray , class Array &gt; </td></tr>
@@ -959,16 +961,16 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_f
 <tr class="separator:aceed8ef2e29cf7a38d720d5418751e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a07ede2ffd0f710fcf1b00c933cdc4da8">write_node_partitioning</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;file_name, const libMesh::System &amp;position_system)</td></tr>
 <tr class="separator:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14f22d4925da47f4a20383c6402525f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#ad14f22d4925da47f4a20383c6402525f">get_local_active_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system, const libMesh::QuadratureType quad_type, const libMesh::Order quad_order, const bool use_adaptive_quadrature, const double point_density, const double patch_dx_min)</td></tr>
-<tr class="separator:ad14f22d4925da47f4a20383c6402525f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12e90ae8dd6167d27dce90df6588aa99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12e90ae8dd6167d27dce90df6588aa99"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_local_active_element_bounding_boxes</b> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system)</td></tr>
-<tr class="separator:a12e90ae8dd6167d27dce90df6588aa99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5446a09ef85401fa4718f49b202e80a6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a5446a09ef85401fa4718f49b202e80a6">get_global_active_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; &amp;local_bboxes)</td></tr>
-<tr class="separator:a5446a09ef85401fa4718f49b202e80a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ecd3e17f665c07cfe18be421084fc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49ecd3e17f665c07cfe18be421084fc6"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_global_active_element_bounding_boxes</b> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system)</td></tr>
-<tr class="separator:a49ecd3e17f665c07cfe18be421084fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20213424de99aca6b976224bf17c77e1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a20213424de99aca6b976224bf17c77e1">get_local_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system, const libMesh::QuadratureType quad_type, const libMesh::Order quad_order, const bool use_adaptive_quadrature, const double point_density, const double patch_dx_min)</td></tr>
+<tr class="separator:a20213424de99aca6b976224bf17c77e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e1b23efff7abb15fbfd89896fb9604"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87e1b23efff7abb15fbfd89896fb9604"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_local_element_bounding_boxes</b> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system)</td></tr>
+<tr class="separator:a87e1b23efff7abb15fbfd89896fb9604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894055678a38538bbd74ba497090fad5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a894055678a38538bbd74ba497090fad5">get_global_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; &amp;local_bboxes)</td></tr>
+<tr class="separator:a894055678a38538bbd74ba497090fad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2464c2d8828a6216cc50d1fe8e89fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c2464c2d8828a6216cc50d1fe8e89fe"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_global_element_bounding_boxes</b> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system)</td></tr>
+<tr class="separator:a6c2464c2d8828a6216cc50d1fe8e89fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67fdfe0a5d6114b04e025c647f22883f"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a67fdfe0a5d6114b04e025c647f22883f">setup_petsc_vector</a> (const unsigned int num_local_nodes, const unsigned int <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/algs__nodeouternodeops3d_8f.html#9caca90cc65f72a7168924922fa5d34e">depth</a>, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; int &gt; &amp;nonlocal_petsc_indices)</td></tr>
 <tr class="separator:a67fdfe0a5d6114b04e025c647f22883f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aab901bde6055f89372825e50c731be"><td class="memTemplParams" colspan="2">template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </td></tr>
@@ -1063,6 +1065,44 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a6e1b936ae530a4aacdc032c8edbb3475"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::apply_transposed_constraint_matrix </td>
+          <td>(</td>
+          <td class="paramtype">const libMesh::DofMap &amp;&#160;</td>
+          <td class="paramname"><em>dof_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">libMesh::PetscVector&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Apply in-place the action of the transpose of the constraint matrix stored by <code>dof_map</code> to <code>rhs</code>.</p>
+<p>This function is necessary (instead of the usual procedure, where we apply constraints to element vectors during assembly) when assembly is done with the IB partitioning since, in that case, the constraints corresponding to the elements used for assembly are not available. To resolve this problem we recommend doing the following:</p>
+<ol>
+<li>
+Assemble a RHS vector without considering the constraints (this is done, for example, in <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abc7cb3a78eb4576d22a9b00f7601faca" title="Set up the right-hand side F of an L2 projection problem where Eulerian data given by f_data_idx is p...">FEDataManager::interpWeighted()</a>). </li>
+<li>
+Assemble the vector in parallel in the normal way (i.e., via VecGhostUpdateBegin() and VecGhostUpdateEnd()). <em>This function assumes that the input vector contains up-to-date ghost data for all entries relevant to resolving constraints.</em> </li>
+<li>
+Call this function. This function replaces the ghost values in the input vector with entries that need to be summed into off-processor entries (i.e., the values generated during constraint resolution when a locally owned dof is constrained by values of off-processor dofs.) </li>
+<li>
+Do assembly a second time (i.e., again with VecGhostUpdateBegin() and VecGhostUpdateEnd()). </li>
+</ol>
+
+</div>
+</div>
 <a class="anchor" id="a7726626d63e9010519ec81caa7ad6aec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1113,12 +1153,12 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a5446a09ef85401fa4718f49b202e80a6"></a>
+<a class="anchor" id="a894055678a38538bbd74ba497090fad5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; IBTK::get_global_active_element_bounding_boxes </td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; IBTK::get_global_element_bounding_boxes </td>
           <td>(</td>
           <td class="paramtype">const libMesh::MeshBase &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
@@ -1136,16 +1176,17 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get the global list of bounding boxes from the local list. </p>
+<p>Get the global list of bounding boxes from the local list.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Since non-active elements do not have degrees of freedom assigned to them, this function assigns them bounding boxes that cover the complete range of finite double precision values. They are still included in the output vector so that that vector can be indexed by element ids. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ad14f22d4925da47f4a20383c6402525f"></a>
+<a class="anchor" id="a20213424de99aca6b976224bf17c77e1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; IBTK::get_local_active_element_bounding_boxes </td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; IBTK::get_local_element_bounding_boxes </td>
           <td>(</td>
           <td class="paramtype">const libMesh::MeshBase &amp;&#160;</td>
           <td class="paramname"><em>mesh</em>, </td>
@@ -1193,7 +1234,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute bounding boxes based on where an elements quadrature points are. See getQuadratureKey for descriptions of the last five arguments. </p>
+<p>Compute bounding boxes based on where an elements quadrature points are. See getQuadratureKey for descriptions of the last five arguments.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Since non-active elements do not have degrees of freedom assigned to them, this function assigns them bounding boxes that cover the complete range of finite double precision values. They are still included in the output vector so that that vector can be indexed by element ids. </dd></dl>
 
 </div>
 </div>
@@ -2320,7 +2362,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 2 2020 16:23:01 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 3 2020 01:53:06 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

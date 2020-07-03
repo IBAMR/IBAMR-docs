@@ -1047,7 +1047,9 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>We recommend against using the last two booleans: it is usually better to do any vector communication before calling this function.</dd>
 <dd>
-This function is poorly named: it actually sets up a dual-space vector <code>F</code> which is the right-hand side of an L2 projection problem. Callers will still need to solve the resulting linear system. The result, therefore, is projected, not interpolated. </dd></dl>
+This function is poorly named: it actually sets up a dual-space vector <code>F</code> which is the right-hand side of an L2 projection problem. Callers will still need to solve the resulting linear system. The result, therefore, is projected, not interpolated.</dd>
+<dd>
+The vector set up by this function is set up without applying any constraints (e.g., hanging node or periodicity constraints) during assembly. This is because we do not store the constraints on the IB data partitioning, only on <a class="el" href="namespacelib_mesh.html">libMesh</a>'s own data partitioning. For more information on how to assemble RHS vectors in this case, see the documentation of the function <a class="el" href="namespace_i_b_t_k.html#a6e1b936ae530a4aacdc032c8edbb3475">apply_transposed_constraint_matrix()</a>. </dd></dl>
 
 </div>
 </div>
@@ -1571,7 +1573,7 @@ This function is poorly named: it actually sets up a dual-space vector <code>F</
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 2 2020 16:23:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 3 2020 01:53:07 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
