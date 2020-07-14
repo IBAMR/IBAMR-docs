@@ -229,7 +229,6 @@ var searchData=
   ['d_5fu_5fvecs',['d_U_vecs',['../class_i_b_a_m_r_1_1_f_e_mechanics_base.html#af61b0b724451de7c82d80aec13151c3b',1,'IBAMR::FEMechanicsBase']]],
   ['d_5fupdate_5fflags',['d_update_flags',['../class_i_b_t_k_1_1_f_e_cache.html#afaedc165a5245b2a9feb761488100f8a',1,'IBTK::FECache::d_update_flags()'],['../class_i_b_t_k_1_1_nodal_mapping.html#ac4253002edcb5e331bf11027566d67d1',1,'IBTK::NodalMapping::d_update_flags()']]],
   ['d_5fuse_5ffixed_5fcoupling_5fops',['d_use_fixed_coupling_ops',['../class_i_b_a_m_r_1_1_i_b_strategy.html#a56c7fcd98c652f7e3f4b17e0bc59388d',1,'IBAMR::IBStrategy']]],
-  ['d_5fuse_5fghosted_5fvelocity_5frhs',['d_use_ghosted_velocity_rhs',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a186b3bc89b83863d636d4eb35e4e66ee',1,'IBAMR::IBFEMethod']]],
   ['d_5fuse_5fscratch_5fhierarchy',['d_use_scratch_hierarchy',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a19f3fd3541f49dc16f44c71ed6091273',1,'IBAMR::IBFEMethod']]],
   ['d_5fuse_5fstructure_5fpredictor',['d_use_structure_predictor',['../class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a5950332b52f47d191b2f9e4d4ee56d3c',1,'IBAMR::IBHierarchyIntegrator']]],
   ['d_5fusing_5fvorticity_5ftagging',['d_using_vorticity_tagging',['../class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a5b1c616621428979719b88c88ba6446c',1,'IBAMR::INSHierarchyIntegrator']]],
