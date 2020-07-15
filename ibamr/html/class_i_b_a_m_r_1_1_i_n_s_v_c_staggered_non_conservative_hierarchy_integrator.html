@@ -1373,7 +1373,7 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_non_conservative_hierarchy_integrator.html" title="Class INSVCStaggeredNonConservativeHierarchyIntegrator provides a staggered-grid solver for the incom...">INSVCStaggeredNonConservativeHierarchyIntegrator</a> provides a staggered-grid solver for the incompressible Navier-Stokes equations on an AMR grid hierarchy, with variable coefficients. </p>
-<p>This class always uses a non-conservative discretization of the form of the momentum equation <img class="formulaInl" alt="$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$" src="form_94.png"/> where <img class="formulaInl" alt="$ N(u) = u \cdot \nabla u $" src="form_95.png"/> for convective_difference_form = ADVECTIVE and <img class="formulaInl" alt="$ N(u) = \nabla \cdot (u u) $" src="form_96.png"/> for convective_difference_form = CONSERVATIVE.</p>
+<p>This class always uses a non-conservative discretization of the form of the momentum equation <img class="formulaInl" alt="$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$" src="form_102.png"/> where <img class="formulaInl" alt="$ N(u) = u \cdot \nabla u $" src="form_103.png"/> for convective_difference_form = ADVECTIVE and <img class="formulaInl" alt="$ N(u) = \nabla \cdot (u u) $" src="form_104.png"/> for convective_difference_form = CONSERVATIVE.</p>
 <p>In other words, this class will NEVER treat the left-hand side of the momentum equation in conservative form i.e. {  u}{ t} +   ( u u)</p>
 <p>In this class, both the density and viscosity are required to be cell centered quantities, which are then interpolated onto the required degrees of freedom (side-centers for rho and node(edge)-centers for mu in 2D(3D))</p>
 <p>Note that this class is suitable for low density ratio flows. At high density ratios, the non-conservative form can lead to instabilities, and <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_hierarchy_integrator.html" title="Class INSVCStaggeredConservativeHierarchyIntegrator provides a staggered-grid solver for the incompre...">INSVCStaggeredConservativeHierarchyIntegrator</a> should be used instead. </p>
@@ -1894,7 +1894,7 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 15 2020 00:01:19 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 15 2020 17:55:55 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

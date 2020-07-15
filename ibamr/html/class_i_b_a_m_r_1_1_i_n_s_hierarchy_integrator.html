@@ -1579,7 +1579,11 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Supply a physical boundary conditions specificaion for the velocity field. </p>
+<p>Supply a physical boundary conditions specificaion for the velocity field. Boundary conditions take the form of <img class="formulaInl" alt="$ a\mathbf{u} + b\tau\cdot\mathbf{n} = \mathbf{g}$" src="form_73.png"/> where <img class="formulaInl" alt="$\tau = -p\mathbf{I} + \frac{\mu}{2}\left(\nabla\mathbf{u} + \nabla\mathbf{u}^T\right)$" src="form_74.png"/> is the Newtonian fluid stress and <img class="formulaInl" alt="$\mu$" src="form_75.png"/> is the fluid viscosity.</p>
+<dl class="section note"><dt>Note</dt><dd>Periodic boundaries take presidence over physical boundaries. The type of boundary can be adjusted through the <code>CartesianGeometry</code> database in the input file, specifically with the flag <code>periodic_dimension</code>.</dd>
+<dd>
+Current implementations of physical boundary conditions require that at any physical location the values of <img class="formulaInl" alt="$ a$" src="form_76.png"/> and <img class="formulaInl" alt="$ b $" src="form_77.png"/> stasify that either <img class="formulaInl" alt="$ a = 1 $" src="form_78.png"/> or <img class="formulaInl" alt="$b = 1$" src="form_79.png"/> as well as <img class="formulaInl" alt="$a + b = 1$" src="form_80.png"/>. An error will occur if this does not happen.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_b_t_k_1_1mu_parser_robin_bc_coefs.html" title="Class muParserRobinBcCoefs is an implementation of the strategy class SAMRAI::solv::RobinBcCoefStrate...">IBTK::muParserRobinBcCoefs</a> </dd></dl>
 
 </div>
 </div>
@@ -2120,7 +2124,7 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 15 2020 00:01:17 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 15 2020 17:55:54 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

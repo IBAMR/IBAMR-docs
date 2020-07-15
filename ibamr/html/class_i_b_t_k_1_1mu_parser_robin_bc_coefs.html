@@ -126,6 +126,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1mu_parser_robin_bc_coefs.html" title="Class muParserRobinBcCoefs is an implementation of the strategy class SAMRAI::solv::RobinBcCoefStrate...">muParserRobinBcCoefs</a> is an implementation of the strategy class <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a> that allows for the run-time specification of (possibly spatially- and temporally-varying) Robin boundary conditions. </p>
+<p>This class uses the muParser library to parse strings into mathematical functions. This class is the most common method to specify boundary conditions uses in the examples. The database in the input file contains strings for each coefficient ( <img class="formulaInl" alt="$a$" src="form_71.png"/>, <img class="formulaInl" alt="$b$" src="form_72.png"/>, and <img class="formulaInl" alt="$g$" src="form_144.png"/>) at each face of the physical boundary. Strings ending in 0 and 1 are for the <img class="formulaInl" alt="$x$" src="form_46.png"/>-faces, 2 and 3 are for the <img class="formulaInl" alt="$y$" src="form_145.png"/>-faces, and 4 and 5 are for the <img class="formulaInl" alt="$z$" src="form_146.png"/>-faces. These strings can contain spatial and temporal variables using the variable names <code>X_0</code>, <code>X_1</code>, <code>X_2</code>, and <code>t</code>. These strings can also contain <code>if</code> statements using the conditional operator <code>condition ? result_if_true : result_if_false</code>. For more exotic boundary conditions, one would need to create an extension of the class <code>RobinBcCoefStrategy</code>.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Not all linear solvers in <a class="el" href="namespace_i_b_t_k.html">IBTK</a> properly handle time-varying <em>homogeneous</em> Robin boundary condition coefficients. Note, however, that all linear solvers in <a class="el" href="namespace_i_b_t_k.html">IBTK</a> are presently designed to support spatially and temporally varying <em>inhomogeneous</em> boundary coefficients. </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a6bb57ad6e4c484a2f100ce7fa41932f0"></a>
@@ -216,7 +217,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 15 2020 00:01:22 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 15 2020 17:56:00 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

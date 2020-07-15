@@ -71,77 +71,88 @@
 \form#70:$ b = (1-a) $
 \form#71:$a$
 \form#72:$b$
-\form#73:$(\frac{\partial \rho u}{\partial t} + N(\rho u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
-\form#74:$ N(u) = \nabla \cdot (\rho u u) $
-\form#75:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = 0 $
-\form#76:$\rho^n$
-\form#77:$\rho^{n+\frac{1}{2}}$
-\form#78:$N(\rho u)$
-\form#79:$\rho^{n+1}$
-\form#80:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $
-\form#81:$ \nabla \cdot (\rho u u)$
-\form#82:$ S(x,t) $
-\form#83:$N = \nabla \cdot (u \rho u)$
-\form#84:$\rho$
-\form#85:$ c A + G(c x_p) = c b_u$
-\form#86:$ c $
-\form#87:$ c(\frac{\rho}{dt} - \frac{\mu}{dx^2}) \sim \frac{1}{dx} $
-\form#88:$ (\nabla \cdot) \sim \frac{1}{dx} $
-\form#89:$ dt \sim dx $
-\form#90:$ 1/dx = N $
-\form#91:$ c \sim \frac{1}{\rho - \mu N} $
-\form#92:$ N $
-\form#93:$ dx $
-\form#94:$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
-\form#95:$ N(u) = u \cdot \nabla u $
-\form#96:$ N(u) = \nabla \cdot (u u) $
-\form#97:$ \pi $
-\form#98:$ Nx = [T M^{-1} T^{*}]x = b $
-\form#99:$ x $
-\form#100:$ M $
-\form#101:$ [T M^{-1} T^{*}]^{-1} $
-\form#102:$ Nx = b $
-\form#103:$ Mx = [J L^{-1} S]x = b $
-\form#104:$ Mx=b $
-\form#105:$ Mx = b $
-\form#106:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
-\form#107:$\tilde{Q}$
-\form#108:$Q = \tilde{Q} + \lambda_{ij}H'(Q^0)|\nabla Q^0|$
-\form#109:$Q^0$
-\form#110:$ (i,j,k,d):-> p $
-\form#111:$ y $
-\form#112:$ z $
-\form#113:$ L = C I + \nabla \cdot D \nabla$
-\form#114:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
-\form#115:\[ (C I + \nabla \cdot D \nabla) u = f \]
-\form#116:$ C $
-\form#117:$ D $
-\form#118:$ f $
-\form#119:$ u $
-\form#120:$ -\nabla^2 u = f $
-\form#121:$ (C I + \nabla \cdot D \nabla ) u = f $
-\form#122:$C$
-\form#123:$D$
-\form#124:$u$
-\form#125:$f$
-\form#126:$ y=F[x] $
-\form#127:$ z=F[x]+y $
-\form#128:$z=F[x]+y$
-\form#129:$F[x]=b$
-\form#130:$ F'[x]v $
-\form#131:\[ J(qp) = \sum_{i = 1}^n \xi_i \otimes \nabla_X \phi_i(qp) \]
-\form#132:$ y=Ax $
-\form#133:$ z=Ax+y $
-\form#134:$ y=A^{T} x $
-\form#135:$ z=A^{T}x+y $
-\form#136:$ F[x]=b $
-\form#137:$F[x]$
-\form#138:$J[x] = F'[x]$
-\form#139:$ \alpha $
-\form#140:$ r_0 = r $
-\form#141:$ r_1 = r_0 + 1 $
-\form#142:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
-\form#143:$ \mu $
-\form#144:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
-\form#145:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
-\form#146:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#73:$ a\mathbf{u} + b\tau\cdot\mathbf{n} = \mathbf{g}$
+\form#74:$\tau = -p\mathbf{I} + \frac{\mu}{2}\left(\nabla\mathbf{u} + \nabla\mathbf{u}^T\right)$
+\form#75:$\mu$
+\form#76:$ a$
+\form#77:$ b $
+\form#78:$ a = 1 $
+\form#79:$b = 1$
+\form#80:$a + b = 1$
+\form#81:$(\frac{\partial \rho u}{\partial t} + N(\rho u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
+\form#82:$ N(u) = \nabla \cdot (\rho u u) $
+\form#83:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = 0 $
+\form#84:$\rho^n$
+\form#85:$\rho^{n+\frac{1}{2}}$
+\form#86:$N(\rho u)$
+\form#87:$\rho^{n+1}$
+\form#88:$ \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho u) = S(x,t) $
+\form#89:$ \nabla \cdot (\rho u u)$
+\form#90:$ S(x,t) $
+\form#91:$N = \nabla \cdot (u \rho u)$
+\form#92:$\rho$
+\form#93:$ c A + G(c x_p) = c b_u$
+\form#94:$ c $
+\form#95:$ c(\frac{\rho}{dt} - \frac{\mu}{dx^2}) \sim \frac{1}{dx} $
+\form#96:$ (\nabla \cdot) \sim \frac{1}{dx} $
+\form#97:$ dt \sim dx $
+\form#98:$ 1/dx = N $
+\form#99:$ c \sim \frac{1}{\rho - \mu N} $
+\form#100:$ N $
+\form#101:$ dx $
+\form#102:$\rho(\frac{\partial u}{\partial t} + N(u)) = -\nabla p + \nabla \cdot \mu (\nabla u) + (\nabla u)^T )$
+\form#103:$ N(u) = u \cdot \nabla u $
+\form#104:$ N(u) = \nabla \cdot (u u) $
+\form#105:$ \pi $
+\form#106:$ Nx = [T M^{-1} T^{*}]x = b $
+\form#107:$ x $
+\form#108:$ M $
+\form#109:$ [T M^{-1} T^{*}]^{-1} $
+\form#110:$ Nx = b $
+\form#111:$ Mx = [J L^{-1} S]x = b $
+\form#112:$ Mx=b $
+\form#113:$ Mx = b $
+\form#114:$\frac{\partial Q}{\partial \tau}+sgn(Q^0)(|\nabla Q | - 1) = 0$
+\form#115:$\tilde{Q}$
+\form#116:$Q = \tilde{Q} + \lambda_{ij}H'(Q^0)|\nabla Q^0|$
+\form#117:$Q^0$
+\form#118:$ (i,j,k,d):-> p $
+\form#119:$ y $
+\form#120:$ z $
+\form#121:$ L = C I + \nabla \cdot D \nabla$
+\form#122:$ \mbox{$L u$} = \mbox{$(C I + \nabla \cdot D \nabla) u$} = f $
+\form#123:\[ (C I + \nabla \cdot D \nabla) u = f \]
+\form#124:$ C $
+\form#125:$ D $
+\form#126:$ f $
+\form#127:$ u $
+\form#128:$ -\nabla^2 u = f $
+\form#129:$ (C I + \nabla \cdot D \nabla ) u = f $
+\form#130:$C$
+\form#131:$D$
+\form#132:$u$
+\form#133:$f$
+\form#134:$ y=F[x] $
+\form#135:$ z=F[x]+y $
+\form#136:$z=F[x]+y$
+\form#137:$F[x]=b$
+\form#138:$ F'[x]v $
+\form#139:\[ J(qp) = \sum_{i = 1}^n \xi_i \otimes \nabla_X \phi_i(qp) \]
+\form#140:$ y=Ax $
+\form#141:$ z=Ax+y $
+\form#142:$ y=A^{T} x $
+\form#143:$ z=A^{T}x+y $
+\form#144:$g$
+\form#145:$y$
+\form#146:$z$
+\form#147:$ F[x]=b $
+\form#148:$F[x]$
+\form#149:$J[x] = F'[x]$
+\form#150:$ \alpha $
+\form#151:$ r_0 = r $
+\form#152:$ r_1 = r_0 + 1 $
+\form#153:$ L = \beta C I + \alpha \nabla \cdot \mu ( (\nabla u) + (\nabla u)^T ) $
+\form#154:$ \mu $
+\form#155:$ \mbox{$L u$} = C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
+\form#156:\[ C u + \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f \]
+\form#157:$ \beta C u + \alpha \nabla \cdot \mu (\nabla u + (\nabla u)^T) = f $
