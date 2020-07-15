@@ -237,8 +237,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDiffusionCoefficien
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#a17bf124ac2695d007ff1732989f266ff">registerResetFunction</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt; &gt; Q_var, <a class="el" href="class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#ade4e3a68be5f5461c2d43453608ca7df">ResetPropertiesFcnPtr</a> callback, void *ctx)</td></tr>
 <tr class="memdesc:a17bf124ac2695d007ff1732989f266ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a reset callback function for a specified variable. <br /></td></tr>
 <tr class="separator:a17bf124ac2695d007ff1732989f266ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ac0d156f67309dd217b097265fbea75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ac0d156f67309dd217b097265fbea75"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setResetPriority</b> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt; &gt; Q_var, int priority)</td></tr>
+<tr class="memitem:a2ac0d156f67309dd217b097265fbea75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#a2ac0d156f67309dd217b097265fbea75">setResetPriority</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt; &gt; Q_var, int priority)</td></tr>
+<tr class="memdesc:a2ac0d156f67309dd217b097265fbea75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a reset priority for a particular variable.  <a href="#a2ac0d156f67309dd217b097265fbea75">More...</a><br /></td></tr>
 <tr class="separator:a2ac0d156f67309dd217b097265fbea75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6eb058a908da4f27195834c34397dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f6eb058a908da4f27195834c34397dc"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#ade4e3a68be5f5461c2d43453608ca7df">ResetPropertiesFcnPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#a9f6eb058a908da4f27195834c34397dc">getResetFunctions</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt; &gt; Q_var) const </td></tr>
@@ -1967,6 +1967,35 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 
 </div>
 </div>
+<a class="anchor" id="a2ac0d156f67309dd217b097265fbea75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::AdvDiffHierarchyIntegrator::setResetPriority </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt; &gt;&#160;</td>
+          <td class="paramname"><em>Q_var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>priority</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set a reset priority for a particular variable. </p>
+<dl class="section note"><dt>Note</dt><dd>Variables will be reset sequentially according to their priority, from lowest to highest. The reset functions registered to each variable will be called according to the order in which they were registered. If no priority is set for a variable, its reset functions will be called after those with priority, in no particular order. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="acac8f69ecdc2452794bc8d889d2183c9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2198,7 +2227,7 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 14 2020 16:50:49 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jul 15 2020 00:01:15 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
