@@ -93,5 +93,6 @@ var searchData=
   ['buildibghosteddiagonall2massmatrix',['buildIBGhostedDiagonalL2MassMatrix',['../class_i_b_t_k_1_1_f_e_data_manager.html#aceab967f9bd9fc423541bcdb8fb9195c',1,'IBTK::FEDataManager']]],
   ['buildibghostedvector',['buildIBGhostedVector',['../class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85',1,'IBTK::FEDataManager']]],
   ['buildl2projectionsolver',['buildL2ProjectionSolver',['../class_i_b_t_k_1_1_f_e_data_manager.html#a76580a213d9b47f044c1c9d2da100ef3',1,'IBTK::FEDataManager::buildL2ProjectionSolver()'],['../class_i_b_t_k_1_1_f_e_projector.html#aa18c061bb6969b558e28a85867627cbd',1,'IBTK::FEProjector::buildL2ProjectionSolver()']]],
+  ['buildlumpedl2projectionsolver',['buildLumpedL2ProjectionSolver',['../class_i_b_t_k_1_1_f_e_projector.html#ab3f1d64b07fe911eb965ebe0d23b0eda',1,'IBTK::FEProjector']]],
   ['buildparticipatingcommunicator',['buildParticipatingCommunicator',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BinaryTree.html#6678017bad5e9516da5f36dad61d4d7c',1,'SAMRAI::hier::BinaryTree']]]
 ];
