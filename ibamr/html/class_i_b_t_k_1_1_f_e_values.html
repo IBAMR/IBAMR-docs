@@ -115,9 +115,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a16b4a059420e9e774f4a904a01089182"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16b4a059420e9e774f4a904a01089182"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FEValues</b> (libMesh::QBase *qrule, const <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a> update_flags)</td></tr>
-<tr class="separator:a16b4a059420e9e774f4a904a01089182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc240f1f017f47efb4682668fb2c97f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dc240f1f017f47efb4682668fb2c97f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>FEValues</b> (libMesh::QBase *qrule, const libMesh::FEType fe_type, const <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a> update_flags)</td></tr>
+<tr class="separator:a9dc240f1f017f47efb4682668fb2c97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fe3d6b166023083bab8a70331fb90f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fe3d6b166023083bab8a70331fb90f4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reinit</b> (const libMesh::Elem *elem) override</td></tr>
 <tr class="separator:a7fe3d6b166023083bab8a70331fb90f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +140,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aeb199b3cffa732663a70600e09ba3499"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb199b3cffa732663a70600e09ba3499"></a>
 libMesh::QBase *&#160;</td><td class="memItemRight" valign="bottom"><b>d_qrule</b></td></tr>
 <tr class="separator:aeb199b3cffa732663a70600e09ba3499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba5f526f8c7eac9a4a4e5a99a1133669"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba5f526f8c7eac9a4a4e5a99a1133669"></a>
+const libMesh::FEType&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_type</b></td></tr>
+<tr class="separator:aba5f526f8c7eac9a4a4e5a99a1133669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f8c1186a2ec29310ae49262e2b6c16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9f8c1186a2ec29310ae49262e2b6c16"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; libMesh::ElemType, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_mapping.html">Mapping</a>&lt; dim, spacedim &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_mappings</b></td></tr>
 <tr class="separator:ab9f8c1186a2ec29310ae49262e2b6c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,9 +171,9 @@ libMesh::QBase *&#160;</td><td class="memItemRight" valign="bottom"><b>d_qrule</
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_i_b_t_k_1_1_f_e_values_base"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_i_b_t_k_1_1_f_e_values_base')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_i_b_t_k_1_1_f_e_values_base.html">IBTK::FEValuesBase</a></td></tr>
-<tr class="memitem:a0f0012865d3a701752e2f04169a46b2a inherit pub_static_methods_class_i_b_t_k_1_1_f_e_values_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f0012865d3a701752e2f04169a46b2a"></a>
-static <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_values_base.html">FEValuesBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>build</b> (const int dim, const int spacedim, libMesh::QBase *qrule, const <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a> update_flags)</td></tr>
-<tr class="separator:a0f0012865d3a701752e2f04169a46b2a inherit pub_static_methods_class_i_b_t_k_1_1_f_e_values_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa548665d2787121d89916b3561cde565 inherit pub_static_methods_class_i_b_t_k_1_1_f_e_values_base"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa548665d2787121d89916b3561cde565"></a>
+static <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_values_base.html">FEValuesBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>build</b> (const int dim, const int spacedim, libMesh::QBase *qrule, const libMesh::FEType fe_type, const <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a> update_flags)</td></tr>
+<tr class="separator:aa548665d2787121d89916b3561cde565 inherit pub_static_methods_class_i_b_t_k_1_1_f_e_values_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;int dim, int spacedim = dim&gt;<br />
@@ -208,7 +211,7 @@ template&lt;int dim, int spacedim = dim&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 30 2020 19:21:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 31 2020 17:53:41 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

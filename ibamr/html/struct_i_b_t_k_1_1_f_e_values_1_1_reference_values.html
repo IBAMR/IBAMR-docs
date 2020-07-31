@@ -101,15 +101,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a57e8e1408a80f1fd49aab8d43641361f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57e8e1408a80f1fd49aab8d43641361f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceValues</b> (const libMesh::QBase &amp;quadrature)</td></tr>
-<tr class="separator:a57e8e1408a80f1fd49aab8d43641361f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3db901a335ba1ad56f71363731fc9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc3db901a335ba1ad56f71363731fc9a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ReferenceValues</b> (const libMesh::QBase &amp;quadrature, const libMesh::FEType &amp;fe_type)</td></tr>
+<tr class="separator:adc3db901a335ba1ad56f71363731fc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0905b7e125a20d506add5a9cec88f327"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0905b7e125a20d506add5a9cec88f327"></a>
 const libMesh::ElemType&#160;</td><td class="memItemRight" valign="bottom"><b>d_elem_type</b></td></tr>
 <tr class="separator:a0905b7e125a20d506add5a9cec88f327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26610baef49338d05b28ccbc73b27420"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26610baef49338d05b28ccbc73b27420"></a>
+const libMesh::FEType&#160;</td><td class="memItemRight" valign="bottom"><b>d_fe_type</b></td></tr>
+<tr class="separator:a26610baef49338d05b28ccbc73b27420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7b9bc8f14a48ab23d18166eaa3ec168"><td class="memItemLeft" align="right" valign="top">boost::multi_array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i_b_t_k_1_1_f_e_values_1_1_reference_values.html#ac7b9bc8f14a48ab23d18166eaa3ec168">d_reference_shape_values</a></td></tr>
 <tr class="separator:ac7b9bc8f14a48ab23d18166eaa3ec168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef120fd85366a4e7a62ccec63057eb15"><td class="memItemLeft" align="right" valign="top">boost::multi_array&lt; libMesh::VectorValue&lt; double &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i_b_t_k_1_1_f_e_values_1_1_reference_values.html#aef120fd85366a4e7a62ccec63057eb15">d_reference_shape_gradients</a></td></tr>
@@ -158,7 +161,7 @@ template&lt;int dim, int spacedim = dim&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 30 2020 19:21:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jul 31 2020 17:53:41 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
