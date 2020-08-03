@@ -1,10 +1,9 @@
 <map id="IBTK::LagrangeMapping&lt; dim, spacedim, n_nodes &gt;" name="IBTK::LagrangeMapping&lt; dim, spacedim, n_nodes &gt;">
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3, 27 \&gt;" alt="" coords="772,5,935,47"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3, 8 \&gt;" alt="" coords="772,71,935,112"/>
-<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3, 10 \&gt;" alt="" coords="772,136,935,177"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="225,71,413,112"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; dim,\l spacedim \&gt;" alt="" coords="17,41,164,83"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_jacobian_calculator.html" title="IBTK::JacobianCalculator" alt="" coords="5,107,176,134"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_hex27_mapping.html" title="IBTK::Hex27Mapping" alt="" coords="984,13,1131,39"/>
-<area shape="rect" id="node9" href="$class_i_b_t_k_1_1_tet10_mapping.html" title="IBTK::Tet10Mapping" alt="" coords="986,143,1129,170"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3, 27 \&gt;" alt="" coords="748,5,911,47"/>
+<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3, 8 \&gt;" alt="" coords="748,71,911,112"/>
+<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_lagrange_mapping.html" title="IBTK::LagrangeMapping\l\&lt; 3, 3, 10 \&gt;" alt="" coords="748,136,911,177"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="201,71,389,112"/>
+<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; dim,\l spacedim \&gt;" alt="" coords="5,71,152,112"/>
+<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_hex27_mapping.html" title="IBTK::Hex27Mapping" alt="" coords="960,13,1107,39"/>
+<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_tet10_mapping.html" title="IBTK::Tet10Mapping" alt="" coords="962,143,1105,170"/>
 </map>

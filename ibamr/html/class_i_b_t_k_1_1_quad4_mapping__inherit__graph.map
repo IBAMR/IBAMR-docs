@@ -1,6 +1,5 @@
 <map id="IBTK::Quad4Mapping" name="IBTK::Quad4Mapping">
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 2, 2, 4 \&gt;" alt="" coords="527,40,669,81"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; dim,\l spacedim \&gt;" alt="" coords="17,5,164,47"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="225,40,413,81"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_jacobian_calculator.html" title="IBTK::JacobianCalculator" alt="" coords="5,81,176,107"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 2, 2, 4 \&gt;" alt="" coords="7,200,150,241"/>
+<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; dim,\l spacedim \&gt;" alt="" coords="25,5,172,47"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="95,96,283,137"/>
 </map>

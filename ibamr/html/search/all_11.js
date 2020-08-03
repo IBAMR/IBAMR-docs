@@ -10,6 +10,8 @@ var searchData=
   ['quadratic_5fprobe_5ffn_5fimp_2ehpp',['quadratic_probe_fn_imp.hpp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01325.html',1,'']]],
   ['quadraturecache',['QuadratureCache',['../class_i_b_t_k_1_1_quadrature_cache.html',1,'IBTK']]],
   ['quadraturecache',['QuadratureCache',['../class_i_b_t_k_1_1_quadrature_cache.html#ae46a275abed17418aeda8ed3bd9be4bf',1,'IBTK::QuadratureCache']]],
+  ['quadraturedata',['QuadratureData',['../struct_i_b_t_k_1_1_quadrature_data.html#adf9333d138047b996e2db08b58c65300',1,'IBTK::QuadratureData']]],
+  ['quadraturedata',['QuadratureData',['../struct_i_b_t_k_1_1_quadrature_data.html',1,'IBTK']]],
   ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html',1,'std']]],
   ['queue',['queue',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00119.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06760.html#abdaacb8e25703a65fc79cbfa5fe6934b',1,'std::queue::queue()']]],
   ['queue_2eh',['queue.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00935.html',1,'']]],
