@@ -1,5 +1,5 @@
 <map id="IBTK::Tet4Mapping" name="IBTK::Tet4Mapping">
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; 3, 3, 4 \&gt;" alt="" coords="5,200,148,241"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_mapping.html" title="IBTK::Mapping\&lt; dim,\l spacedim \&gt;" alt="" coords="23,5,170,47"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_nodal_mapping.html" title="IBTK::NodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="93,96,281,137"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; 3, 3, 4 \&gt;" alt="" coords="5,200,165,241"/>
+<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_f_e_mapping.html" title="IBTK::FEMapping\&lt; dim,\l spacedim \&gt;" alt="" coords="24,5,187,47"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="102,96,290,137"/>
 </map>

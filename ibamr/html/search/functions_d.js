@@ -29,7 +29,6 @@ var searchData=
   ['maplocationindex',['mapLocationIndex',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoundaryLookupTable.html#7885b220d56557f7c335a386c3052f46',1,'SAMRAI::hier::BoundaryLookupTable']]],
   ['mapnametoindex',['mapNameToIndex',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchDescriptor.html#898bafee136dc4c36927c6841f09a12d',1,'SAMRAI::hier::PatchDescriptor']]],
   ['mappetsctolagrangian',['mapPETScToLagrangian',['../class_i_b_t_k_1_1_l_data_manager.html#ac4f25818730b643481c00c5c3bf56417',1,'IBTK::LDataManager']]],
-  ['mappingcache',['MappingCache',['../class_i_b_t_k_1_1_mapping_cache.html#add5fa80bdc9572b084a95bf20b7d9f95',1,'IBTK::MappingCache']]],
   ['mapvariableandcontexttoindex',['mapVariableAndContextToIndex',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1VariableDatabase.html#badd81752be9e7e25518003415db7763',1,'SAMRAI::hier::VariableDatabase']]],
   ['mapvariabletoindex',['mapVariableToIndex',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1LocallyActiveVariableDatabase.html#06d5b95eb5fc9fa69dabd31f7278a582',1,'SAMRAI::hier::LocallyActiveVariableDatabase']]],
   ['mark_5fcount',['mark_count',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05780.html#a63d9a3b40af6aa139542ab152f18936c',1,'std::basic_regex']]],
