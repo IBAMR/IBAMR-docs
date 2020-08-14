@@ -897,6 +897,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_updat
 <tr class="memitem:abbd21f0ce38740f36c527bd51d00cea2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abbd21f0ce38740f36c527bd51d00cea2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_update</b> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &gt; &amp;vecs, const InsertMode insert_mode, const ScatterMode scatter_mode)</td></tr>
 <tr class="separator:abbd21f0ce38740f36c527bd51d00cea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec4cec789418371ab0cacc1d4a1acb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a0ec4cec789418371ab0cacc1d4a1acb4">copy_dof_ids_to_vector</a> (const int var_n, const boost::multi_array&lt; libMesh::dof_id_type, 2 &gt; &amp;elem_dofs, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::dof_id_type &gt; &amp;dofs)</td></tr>
+<tr class="separator:a0ec4cec789418371ab0cacc1d4a1acb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6e1b936ae530a4aacdc032c8edbb3475">apply_transposed_constraint_matrix</a> (const libMesh::DofMap &amp;dof_map, libMesh::PetscVector&lt; double &gt; &amp;rhs)</td></tr>
 <tr class="separator:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60d5a97f333088f598958c116655068"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#af60d5a97f333088f598958c116655068">getQuadratureKey</a> (const libMesh::QuadratureType quad_type, libMesh::Order order, const bool use_adaptive_quadrature, const double point_density, const libMesh::Elem *const elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, const double dx_min)</td></tr>
@@ -904,15 +906,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_updat
 <tr class="memitem:abed5aca02cba73e5d78468ef40470e7d"><td class="memTemplParams" colspan="2">template&lt;class MultiArray , class Array &gt; </td></tr>
 <tr class="memitem:abed5aca02cba73e5d78468ef40470e7d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#abed5aca02cba73e5d78468ef40470e7d">get_values_for_interpolation</a> (MultiArray &amp;U_node, const libMesh::PetscVector&lt; double &gt; &amp;U_petsc_vec, const Array &amp;U_local_soln, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &amp;dof_indices)</td></tr>
 <tr class="separator:abed5aca02cba73e5d78468ef40470e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fb1caa3fb7923e19777b08eab2b0d41"><td class="memTemplParams" colspan="2">template&lt;class MultiArray , class Array &gt; </td></tr>
-<tr class="memitem:a6fb1caa3fb7923e19777b08eab2b0d41"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6fb1caa3fb7923e19777b08eab2b0d41">get_values_for_interpolation</a> (MultiArray &amp;U_node, const libMesh::PetscVector&lt; double &gt; &amp;U_petsc_vec, const Array &amp;U_local_soln, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &gt; &amp;dof_indices)</td></tr>
-<tr class="separator:a6fb1caa3fb7923e19777b08eab2b0d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5566c2958f93c08e9f6f9581fbf8a96"><td class="memTemplParams" colspan="2">template&lt;class MultiArray_1 , class MultiArray_2 , class Array &gt; </td></tr>
+<tr class="memitem:ac5566c2958f93c08e9f6f9581fbf8a96"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#ac5566c2958f93c08e9f6f9581fbf8a96">get_values_for_interpolation</a> (MultiArray_1 &amp;U_node, const libMesh::PetscVector&lt; double &gt; &amp;U_petsc_vec, const Array &amp;U_local_soln, const MultiArray_2 &amp;dof_indices)</td></tr>
+<tr class="separator:ac5566c2958f93c08e9f6f9581fbf8a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85814a33961cc7772ab4ce8d5ba38f06"><td class="memTemplParams" colspan="2">template&lt;class MultiArray &gt; </td></tr>
 <tr class="memitem:a85814a33961cc7772ab4ce8d5ba38f06"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a85814a33961cc7772ab4ce8d5ba38f06">get_values_for_interpolation</a> (MultiArray &amp;U_node, libMesh::NumericVector&lt; double &gt; &amp;U_vec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &amp;dof_indices)</td></tr>
 <tr class="separator:a85814a33961cc7772ab4ce8d5ba38f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7276a7c7f7a05886d3c8c057d0263b1"><td class="memTemplParams" colspan="2">template&lt;class MultiArray &gt; </td></tr>
-<tr class="memitem:aa7276a7c7f7a05886d3c8c057d0263b1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#aa7276a7c7f7a05886d3c8c057d0263b1">get_values_for_interpolation</a> (MultiArray &amp;U_node, libMesh::NumericVector&lt; double &gt; &amp;U_vec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &gt; &amp;dof_indices)</td></tr>
-<tr class="separator:aa7276a7c7f7a05886d3c8c057d0263b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7af807f024e42d14c9afa7ba41cda42"><td class="memTemplParams" colspan="2">template&lt;class MultiArray_1 , class MultiArray_2 &gt; </td></tr>
+<tr class="memitem:ac7af807f024e42d14c9afa7ba41cda42"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#ac7af807f024e42d14c9afa7ba41cda42">get_values_for_interpolation</a> (MultiArray_1 &amp;U_node, libMesh::NumericVector&lt; double &gt; &amp;U_vec, const MultiArray_2 &amp;dof_indices)</td></tr>
+<tr class="separator:ac7af807f024e42d14c9afa7ba41cda42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e621904d431a494ee6d70939ea3517b"><td class="memTemplParams" colspan="2">template&lt;class MultiArray &gt; </td></tr>
 <tr class="memitem:a6e621904d431a494ee6d70939ea3517b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6e621904d431a494ee6d70939ea3517b">interpolate</a> (double &amp;U, const int qp, const MultiArray &amp;U_node, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; &gt; &amp;phi)</td></tr>
 <tr class="separator:a6e621904d431a494ee6d70939ea3517b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1100,6 +1102,55 @@ Call this function. This function replaces the ghost values in the input vector 
 <li>
 Do assembly a second time (i.e., again with VecGhostUpdateBegin() and VecGhostUpdateEnd()). </li>
 </ol>
+
+</div>
+</div>
+<a class="anchor" id="a0ec4cec789418371ab0cacc1d4a1acb4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::copy_dof_ids_to_vector </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>var_n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const boost::multi_array&lt; libMesh::dof_id_type, 2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>elem_dofs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::dof_id_type &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dofs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Utility function for copying dofs from the format used by <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a> for caching to the format <a class="el" href="namespacelib_mesh.html">libMesh</a> expects.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">var_n</td><td>The variable number.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">elem_dofs</td><td>Dofs on the current element, indexed first by variable.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">dofs</td><td>vector containing the dofs for the given vector. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1413,11 +1464,11 @@ template&lt;class MultiArray , class Array &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6fb1caa3fb7923e19777b08eab2b0d41"></a>
+<a class="anchor" id="ac5566c2958f93c08e9f6f9581fbf8a96"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class MultiArray , class Array &gt; </div>
+template&lt;class MultiArray_1 , class MultiArray_2 , class Array &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1425,7 +1476,7 @@ template&lt;class MultiArray , class Array &gt; </div>
         <tr>
           <td class="memname">void IBTK::get_values_for_interpolation </td>
           <td>(</td>
-          <td class="paramtype">MultiArray &amp;&#160;</td>
+          <td class="paramtype">MultiArray_1 &amp;&#160;</td>
           <td class="paramname"><em>U_node</em>, </td>
         </tr>
         <tr>
@@ -1443,7 +1494,7 @@ template&lt;class MultiArray , class Array &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const MultiArray_2 &amp;&#160;</td>
           <td class="paramname"><em>dof_indices</em>&#160;</td>
         </tr>
         <tr>
@@ -1522,11 +1573,11 @@ template&lt;class MultiArray &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa7276a7c7f7a05886d3c8c057d0263b1"></a>
+<a class="anchor" id="ac7af807f024e42d14c9afa7ba41cda42"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class MultiArray &gt; </div>
+template&lt;class MultiArray_1 , class MultiArray_2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1534,7 +1585,7 @@ template&lt;class MultiArray &gt; </div>
         <tr>
           <td class="memname">void IBTK::get_values_for_interpolation </td>
           <td>(</td>
-          <td class="paramtype">MultiArray &amp;&#160;</td>
+          <td class="paramtype">MultiArray_1 &amp;&#160;</td>
           <td class="paramname"><em>U_node</em>, </td>
         </tr>
         <tr>
@@ -1546,7 +1597,7 @@ template&lt;class MultiArray &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const MultiArray_2 &amp;&#160;</td>
           <td class="paramname"><em>dof_indices</em>&#160;</td>
         </tr>
         <tr>
@@ -2362,7 +2413,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 12 2020 20:00:03 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 14 2020 15:08:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
