@@ -897,8 +897,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_updat
 <tr class="memitem:abbd21f0ce38740f36c527bd51d00cea2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abbd21f0ce38740f36c527bd51d00cea2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_update</b> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &gt; &amp;vecs, const InsertMode insert_mode, const ScatterMode scatter_mode)</td></tr>
 <tr class="separator:abbd21f0ce38740f36c527bd51d00cea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ec4cec789418371ab0cacc1d4a1acb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a0ec4cec789418371ab0cacc1d4a1acb4">copy_dof_ids_to_vector</a> (const int var_n, const boost::multi_array&lt; libMesh::dof_id_type, 2 &gt; &amp;elem_dofs, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::dof_id_type &gt; &amp;dofs)</td></tr>
-<tr class="separator:a0ec4cec789418371ab0cacc1d4a1acb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf0ebd2eaf6f0e5da22eb24321914c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a4cf0ebd2eaf6f0e5da22eb24321914c3">copy_dof_ids_to_vector</a> (const unsigned int var_n, const boost::multi_array&lt; libMesh::dof_id_type, 2 &gt; &amp;elem_dofs, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::dof_id_type &gt; &amp;dofs)</td></tr>
+<tr class="separator:a4cf0ebd2eaf6f0e5da22eb24321914c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6e1b936ae530a4aacdc032c8edbb3475">apply_transposed_constraint_matrix</a> (const libMesh::DofMap &amp;dof_map, libMesh::PetscVector&lt; double &gt; &amp;rhs)</td></tr>
 <tr class="separator:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60d5a97f333088f598958c116655068"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#af60d5a97f333088f598958c116655068">getQuadratureKey</a> (const libMesh::QuadratureType quad_type, libMesh::Order order, const bool use_adaptive_quadrature, const double point_density, const libMesh::Elem *const elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, const double dx_min)</td></tr>
@@ -1105,7 +1105,7 @@ Do assembly a second time (i.e., again with VecGhostUpdateBegin() and VecGhostUp
 
 </div>
 </div>
-<a class="anchor" id="a0ec4cec789418371ab0cacc1d4a1acb4"></a>
+<a class="anchor" id="a4cf0ebd2eaf6f0e5da22eb24321914c3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1115,7 +1115,7 @@ Do assembly a second time (i.e., again with VecGhostUpdateBegin() and VecGhostUp
         <tr>
           <td class="memname">void IBTK::copy_dof_ids_to_vector </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">const unsigned int&#160;</td>
           <td class="paramname"><em>var_n</em>, </td>
         </tr>
         <tr>
@@ -2413,7 +2413,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 17 2020 17:49:41 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 17 2020 20:04:52 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
