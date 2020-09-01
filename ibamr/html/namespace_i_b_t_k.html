@@ -762,6 +762,12 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:aca0e485ab1820bbc97d938e4131d3972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerated type for different interpolation types for the material properties of the viscous solver. <br /></td></tr>
 </td></tr>
 <tr class="separator:aca0e485ab1820bbc97d938e4131d3972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f11b6d5086d88dfb13c1518bf8b6afd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f11b6d5086d88dfb13c1518bf8b6afd"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>NodeOutsidePatchCheckType</b> { <b>NODE_OUTSIDE_PERMIT</b> = 1, 
+<b>NODE_OUTSIDE_WARN</b> = 2, 
+<b>NODE_OUTSIDE_ERROR</b> = 3, 
+<b>UNKNOWN_NODE_OUTSIDE_PATCH_CHECK_TYPE</b> = -1
+ }</td></tr>
+<tr class="separator:a4f11b6d5086d88dfb13c1518bf8b6afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -817,6 +823,14 @@ template&lt;&gt; </td></tr>
 template&lt;&gt; </td></tr>
 <tr class="memitem:a031c25dc335135dda3025f2705d3f04a"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><b>enum_to_string&lt; VCInterpType &gt;</b> (<a class="el" href="namespace_i_b_t_k.html#aca0e485ab1820bbc97d938e4131d3972">VCInterpType</a> val)</td></tr>
 <tr class="separator:a031c25dc335135dda3025f2705d3f04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1008d47ad40da2288b3ba08307784a"><td class="memTemplParams" colspan="2"><a class="anchor" id="a6f1008d47ad40da2288b3ba08307784a"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:a6f1008d47ad40da2288b3ba08307784a"><td class="memTemplItemLeft" align="right" valign="top">NodeOutsidePatchCheckType&#160;</td><td class="memTemplItemRight" valign="bottom"><b>string_to_enum&lt; NodeOutsidePatchCheckType &gt;</b> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;val)</td></tr>
+<tr class="separator:a6f1008d47ad40da2288b3ba08307784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbfaff651ceafd14e9c2d55955a09e53"><td class="memTemplParams" colspan="2"><a class="anchor" id="abbfaff651ceafd14e9c2d55955a09e53"></a>
+template&lt;&gt; </td></tr>
+<tr class="memitem:abbfaff651ceafd14e9c2d55955a09e53"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><b>enum_to_string&lt; NodeOutsidePatchCheckType &gt;</b> (NodeOutsidePatchCheckType val)</td></tr>
+<tr class="separator:abbfaff651ceafd14e9c2d55955a09e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ddabfcd34ababf0834ec38c2a7c4c39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ddabfcd34ababf0834ec38c2a7c4c39"></a>
 MPI_Datatype&#160;</td><td class="memItemRight" valign="bottom"><b>mpi_type_id</b> (const double)</td></tr>
 <tr class="separator:a6ddabfcd34ababf0834ec38c2a7c4c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2413,7 +2427,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 1 2020 18:05:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 1 2020 18:28:10 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
