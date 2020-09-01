@@ -163,9 +163,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a399773b98a282d356bc8e7d2c55bc6db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a399773b98a282d356bc8e7d2c55bc6db"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; libMesh::PetscLinearSolver&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_lumped_L2_proj_solver</b></td></tr>
 <tr class="separator:a399773b98a282d356bc8e7d2c55bc6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5521fab28ad848aeccc712b54c1b76c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5521fab28ad848aeccc712b54c1b76c"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; libMesh::PetscVector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_L2_proj_matrix_diag</b></td></tr>
-<tr class="separator:ab5521fab28ad848aeccc712b54c1b76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a622e46bb5e274213ec62717fb35b57e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a622e46bb5e274213ec62717fb35b57e3"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; libMesh::PetscVector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_diag_L2_proj_matrix</b></td></tr>
+<tr class="separator:a622e46bb5e274213ec62717fb35b57e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_projector.html" title="Class FEProjector coordinates data structures for projecting fields in FE models. ...">FEProjector</a> coordinates data structures for projecting fields in FE models. </p>
@@ -264,7 +264,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Data structures for lumped mass matrices. These are computed in the same way as the normal mass matrix, except the quadrature rule used to compute matrix entries has it's points at the finite element nodes: i.e., in the absence of constraints, the matrix is diagonal.</p>
-<p>Here we refer to the unconstrained matrix (which is always diagonal) as proj_matrix_diag and the constrained (should there be contraints) matrix as lumped_L2_proj_matrix. </p>
+<p>Here we refer to the unconstrained matrix (which is always diagonal) as proj_matrix_diag and the constrained (should there be constraints) matrix as lumped_L2_proj_matrix. </p>
 
 </div>
 </div>
@@ -275,7 +275,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 1 2020 17:57:24 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 1 2020 18:05:28 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
