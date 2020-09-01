@@ -153,6 +153,7 @@ var searchData=
   ['d_5fpart_5fmask',['d_part_mask',['../class_i_b_t_k_1_1_lib_mesh_system_vectors.html#a3b5fc760fcca8123c71ae661c57da98f',1,'IBTK::LibMeshSystemVectors']]],
   ['d_5fpartitioning_5fboxes',['d_partitioning_boxes',['../class_i_b_t_k_1_1_box_partitioner.html#a83e1ffdafac1351982de85133a495e6d',1,'IBTK::BoxPartitioner']]],
   ['d_5fpatch',['d_patch',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1MultiblockRefineSchedule_1_1SingularityPatch.html#91341a798fbeb6c6b09bd1887437760f',1,'SAMRAI::xfer::MultiblockRefineSchedule::SingularityPatch']]],
+  ['d_5fpatch_5fassocation_5fcfl',['d_patch_assocation_cfl',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ae2b87effbe70980205e4d073d0e92868',1,'IBAMR::IBFEMethod']]],
   ['d_5fphi',['d_phi',['../class_i_b_t_k_1_1_point_map.html#a53c767ad405aaff5be150be08f9e9247',1,'IBTK::PointMap::d_phi()'],['../class_i_b_t_k_1_1_quad9_mapping.html#ad47a6f3d2ba29bc3557d52d33e88e36e',1,'IBTK::Quad9Mapping::d_phi()']]],
   ['d_5fpk1_5fstress_5ffcn_5fdata',['d_PK1_stress_fcn_data',['../class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a2119c71b12fea4d6f8fc429acbd6e596',1,'IBAMR::FEMechanicsBase']]],
   ['d_5fpoint_5fmap',['d_point_map',['../class_i_b_t_k_1_1_f_e_nodal_mapping.html#ae999665eccbfd08178edae90470d114c',1,'IBTK::FENodalMapping']]],
