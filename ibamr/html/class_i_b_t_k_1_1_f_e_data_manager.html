@@ -153,9 +153,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a0b6fdf512583d28256a617f6141bedcb">getLoggingEnabled</a> () const </td></tr>
 <tr class="memdesc:a0b6fdf512583d28256a617f6141bedcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine whether logging is enabled or disabled. <br /></td></tr>
 <tr class="separator:a0b6fdf512583d28256a617f6141bedcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a0a70fa3d4a343a8bdb63b7f89b9fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ab1a0a70fa3d4a343a8bdb63b7f89b9fb">registerLoadBalancer</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt; load_balancer, int workload_data_idx)</td></tr>
-<tr class="memdesc:ab1a0a70fa3d4a343a8bdb63b7f89b9fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a load balancer for non-uniform load balancing.  <a href="#ab1a0a70fa3d4a343a8bdb63b7f89b9fb">More...</a><br /></td></tr>
-<tr class="separator:ab1a0a70fa3d4a343a8bdb63b7f89b9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03eeee1f8a83928b7454a254c13fcce4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a03eeee1f8a83928b7454a254c13fcce4">getLevelNumber</a> () const </td></tr>
 <tr class="separator:a03eeee1f8a83928b7454a254c13fcce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a0c4134408f7d0c2027f70539c7d15"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a54a0c4134408f7d0c2027f70539c7d15">getGhostCellWidth</a> () const </td></tr>
@@ -450,7 +447,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted coordinates (nodal position) vector.</dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -479,7 +476,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted solution vector associated with the specified system. The vector contains positions for values in the relevant IB ghost region which are populated if <code>localize_data</code> is <code>true</code>.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The vector returned by pointer is owned by this class (i.e., no copying is done).</dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead which clones a vector with the same ghost region. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead which clones a vector with the same ghost region. </dd></dl>
 
 </div>
 </div>
@@ -1171,35 +1168,6 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a class="anchor" id="ab1a0a70fa3d4a343a8bdb63b7f89b9fb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::FEDataManager::registerLoadBalancer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>load_balancer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>workload_data_idx</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Register a load balancer for non-uniform load balancing. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Since the correct workload index is passed in via addWorkloadEstimate this function is no longer necessary. </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="ac3e5d4a3e7063e2e25890d6d4a44875e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1663,7 +1631,7 @@ The vector set up by this function is set up without applying any constraints (e
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 2 2020 13:06:00 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 4 2020 13:46:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
