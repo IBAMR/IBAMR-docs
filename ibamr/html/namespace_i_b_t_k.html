@@ -908,6 +908,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_updat
 <tr class="memitem:abbd21f0ce38740f36c527bd51d00cea2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abbd21f0ce38740f36c527bd51d00cea2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_update</b> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::PetscVector&lt; double &gt; * &gt; &gt; &amp;vecs, const InsertMode insert_mode, const ScatterMode scatter_mode)</td></tr>
 <tr class="separator:abbd21f0ce38740f36c527bd51d00cea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b41be6d36de9d935548318a7c6dfacf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a4b41be6d36de9d935548318a7c6dfacf">setup_system_vectors</a> (libMesh::EquationSystems *equation_systems, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;system_names, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;vector_names, const bool from_restart)</td></tr>
+<tr class="separator:a4b41be6d36de9d935548318a7c6dfacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c7364c1bce910e24678a0db1cbe084"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a18c7364c1bce910e24678a0db1cbe084">setup_system_vector</a> (libMesh::System &amp;system, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;vector_name, const bool from_restart)</td></tr>
+<tr class="separator:a18c7364c1bce910e24678a0db1cbe084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cf0ebd2eaf6f0e5da22eb24321914c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a4cf0ebd2eaf6f0e5da22eb24321914c3">copy_dof_ids_to_vector</a> (const unsigned int var_n, const boost::multi_array&lt; libMesh::dof_id_type, 2 &gt; &amp;elem_dofs, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::dof_id_type &gt; &amp;dofs)</td></tr>
 <tr class="separator:a4cf0ebd2eaf6f0e5da22eb24321914c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6e1b936ae530a4aacdc032c8edbb3475">apply_transposed_constraint_matrix</a> (const libMesh::DofMap &amp;dof_map, libMesh::PetscVector&lt; double &gt; &amp;rhs)</td></tr>
@@ -2252,6 +2256,84 @@ template&lt;class MultiArray &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a18c7364c1bce910e24678a0db1cbe084"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::setup_system_vector </td>
+          <td>(</td>
+          <td class="paramtype">libMesh::System &amp;&#160;</td>
+          <td class="paramname"><em>system</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
+          <td class="paramname"><em>vector_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>from_restart</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Setup the vector with name <code>vector_name</code> in the libMesh::System object named <code>system_name</code>.</p>
+<p>The behavior of this function depends on whether or not we are working with restart data: </p><ol>
+<li>
+If <code>from_restart</code> is false then the vector is added to the system in the normal way. </li>
+<li>
+If <code>from_restart</code> is true then the vector stored in the System corresponding to the given name is overwritten and has its type changed from PARALLEL to GHOSTED. This works around a bug in <a class="el" href="namespacelib_mesh.html">libMesh</a> where vectors are always serialized as PARALLEL. </li>
+</ol>
+
+</div>
+</div>
+<a class="anchor" id="a4b41be6d36de9d935548318a7c6dfacf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::setup_system_vectors </td>
+          <td>(</td>
+          <td class="paramtype">libMesh::EquationSystems *&#160;</td>
+          <td class="paramname"><em>equation_systems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>system_names</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vector_names</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>from_restart</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convenience function that calls setup_system_vector for all specified systems and vector names. This function is aware of System::rhs and will reset it correctly. </p>
+
+</div>
+</div>
 <a class="anchor" id="a7aab901bde6055f89372825e50c731be"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2427,7 +2509,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 4 2020 13:57:21 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Sep 4 2020 17:12:31 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
