@@ -64,6 +64,7 @@ var searchData=
   ['d_5fdomain_5fxhi',['d_domain_xhi',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1CubesPatchInterface.html#677b4acbb768844b2c48cf8094b4f457',1,'SAMRAI::appu::CubesPatchInterface']]],
   ['d_5fdomain_5fxlo',['d_domain_xlo',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1CubesPatchInterface.html#0374201300de2e2fa977bd18edb38947',1,'SAMRAI::appu::CubesPatchInterface']]],
   ['d_5fdouble',['d_double',['../../../samrai/2.4.4/html/structKeyData.html#642aabda30294210bbadab51480b46e5',1,'KeyData']]],
+  ['d_5fdp_5fvecs',['d_DP_vecs',['../class_i_b_a_m_r_1_1_i_b_f_e_surface_method.html#ac1d9c967a869ee5bbbf38d7a0de5dca8',1,'IBAMR::IBFESurfaceMethod']]],
   ['d_5fdphi',['d_dphi',['../class_i_b_t_k_1_1_f_e_lagrange_mapping.html#a67b34cbfca66d42e6e051874fdec8933',1,'IBTK::FELagrangeMapping::d_dphi()'],['../class_i_b_t_k_1_1_quad9_mapping.html#a53e21e919c81cbb3f156b0298c97d182',1,'IBTK::Quad9Mapping::d_dphi()']]],
   ['d_5fdst',['d_dst',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1CoarsenClasses_1_1Data.html#f1b45e9b4c4700fd150ba77d0eddbf50',1,'SAMRAI::xfer::CoarsenClasses::Data::d_dst()'],['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#f754b856be1e98b48c4269e4ad048bb6',1,'SAMRAI::xfer::RefineClasses::Data::d_dst()']]],
   ['d_5fenable_5flogging',['d_enable_logging',['../class_i_b_t_k_1_1_box_partitioner.html#af5184db2180b20816d9934720baf6ed3',1,'IBTK::BoxPartitioner']]],
