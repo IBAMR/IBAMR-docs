@@ -136,9 +136,8 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ab2051403b2a6d0038cb5792c0017e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ab2051403b2a6d0038cb5792c0017e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a7ab2051403b2a6d0038cb5792c0017e1">setEquationSystems</a> (libMesh::EquationSystems *equation_systems, int level_number)</td></tr>
-<tr class="memdesc:a7ab2051403b2a6d0038cb5792c0017e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the equations systems object that is associated with the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object. Currently, each set of equation systems must be assigned to a particular level of the AMR grid. <br /></td></tr>
+<tr class="memitem:a7ab2051403b2a6d0038cb5792c0017e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a7ab2051403b2a6d0038cb5792c0017e1">setEquationSystems</a> (libMesh::EquationSystems *equation_systems, int level_number)</td></tr>
+<tr class="memdesc:a7ab2051403b2a6d0038cb5792c0017e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the equations systems object that is associated with the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object. Currently, each set of equation systems must be assigned to a particular level of the AMR grid.  <a href="#a7ab2051403b2a6d0038cb5792c0017e1">More...</a><br /></td></tr>
 <tr class="separator:a7ab2051403b2a6d0038cb5792c0017e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75fdc4552da15952615ecfadefb19fa1"><td class="memItemLeft" align="right" valign="top">libMesh::EquationSystems *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a75fdc4552da15952615ecfadefb19fa1">getEquationSystems</a> () const </td></tr>
 <tr class="separator:a75fdc4552da15952615ecfadefb19fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,14 +257,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad7c227038152fde5822c91142c65d640"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ad7c227038152fde5822c91142c65d640">getManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;input_db, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;default_workload_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache=nullptr, bool register_for_restart=true)</td></tr>
-<tr class="separator:ad7c227038152fde5822c91142c65d640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae23f695c1425b8998d7f57bb60b6c3a2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ae23f695c1425b8998d7f57bb60b6c3a2">getManager</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;default_workload_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache=nullptr, bool register_for_restart=true)</td></tr>
-<tr class="separator:ae23f695c1425b8998d7f57bb60b6c3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a822d08406911752bdada21a06b1c9dde"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a822d08406911752bdada21a06b1c9dde">getManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;default_workload_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache=nullptr, bool register_for_restart=true)</td></tr>
-<tr class="separator:a822d08406911752bdada21a06b1c9dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f1758b25d2c421aee5968036031189d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a0f1758b25d2c421aee5968036031189d">getManager</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), bool register_for_restart=true)</td></tr>
-<tr class="separator:a0f1758b25d2c421aee5968036031189d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fe071eb2761d90b8063e64403ddda5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ae6fe071eb2761d90b8063e64403ddda5">getManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;input_db, const int max_levels, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;default_interp_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;default_spread_spec, const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;default_workload_spec, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;min_ghost_width=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache=nullptr, bool register_for_restart=true)</td></tr>
+<tr class="separator:ae6fe071eb2761d90b8063e64403ddda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88429e0a8a395f3552efeb71de52a01a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">freeAllManagers</a> ()</td></tr>
 <tr class="separator:a88429e0a8a395f3552efeb71de52a01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe6333c87d4963f084def902e654e5e7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abe6333c87d4963f084def902e654e5e7">updateQuadratureRule</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; libMesh::QBase &gt; &amp;qrule, libMesh::QuadratureType quad_type, libMesh::Order quad_order, bool use_adaptive_quadrature, double point_density, const libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
@@ -311,14 +304,10 @@ static const libMesh::boundary_id_type&#160;</td><td class="memItemRight" valign
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aa73a415432c9413d39954bd78d620cb5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa73a415432c9413d39954bd78d620cb5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#aa73a415432c9413d39954bd78d620cb5">FEDataManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> object_name, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> default_interp_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> default_spread_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> default_workload_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; ghost_width, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache, bool register_for_restart=true)</td></tr>
-<tr class="memdesc:aa73a415432c9413d39954bd78d620cb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:aa73a415432c9413d39954bd78d620cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a577c06532a95a258d5ea69c47bfb41b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a577c06532a95a258d5ea69c47bfb41b0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a577c06532a95a258d5ea69c47bfb41b0">FEDataManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> object_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;input_db, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> default_interp_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> default_spread_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> default_workload_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; ghost_width, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, bool register_for_restart=true)</td></tr>
-<tr class="memdesc:a577c06532a95a258d5ea69c47bfb41b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, where the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object owned by this class may be co-owned by other objects. <br /></td></tr>
-<tr class="separator:a577c06532a95a258d5ea69c47bfb41b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a442100d56686cf0756922696c7ce73c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a442100d56686cf0756922696c7ce73c4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a442100d56686cf0756922696c7ce73c4">FEDataManager</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> object_name, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;input_db, const int max_levels, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> default_interp_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> default_spread_spec, <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> default_workload_spec, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; ghost_width, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt; eulerian_data_cache, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt; fe_data, bool register_for_restart=true)</td></tr>
+<tr class="memdesc:a442100d56686cf0756922696c7ce73c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, where the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object owned by this class may be co-owned by other objects. <br /></td></tr>
+<tr class="separator:a442100d56686cf0756922696c7ce73c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afefddb2a11c0a9c77fdbcdf6f6be6896"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afefddb2a11c0a9c77fdbcdf6f6be6896"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#afefddb2a11c0a9c77fdbcdf6f6be6896">~FEDataManager</a> ()</td></tr>
 <tr class="memdesc:afefddb2a11c0a9c77fdbcdf6f6be6896"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> destructor cleans up any allocated data objects. <br /></td></tr>
@@ -447,7 +436,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted coordinates (nodal position) vector.</dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -476,7 +465,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the ghosted solution vector associated with the specified system. The vector contains positions for values in the relevant IB ghost region which are populated if <code>localize_data</code> is <code>true</code>.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The vector returned by pointer is owned by this class (i.e., no copying is done).</dd></dl>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead which clones a vector with the same ghost region. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000011">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a70f8a7123740c926cfcc5bc78bf53d85">buildIBGhostedVector()</a> instead which clones a vector with the same ghost region. </dd></dl>
 
 </div>
 </div>
@@ -751,7 +740,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad7c227038152fde5822c91142c65d640"></a>
+<a class="anchor" id="ae6fe071eb2761d90b8063e64403ddda5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -779,6 +768,12 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>max_levels</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;&#160;</td>
           <td class="paramname"><em>default_interp_spec</em>, </td>
         </tr>
@@ -824,201 +819,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ad7c227038152fde5822c91142c65d640">getManager()</a> function.</p>
-<p>The difference between this and the other <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ad7c227038152fde5822c91142c65d640">getManager()</a> functions is that this overload permits adding an input database as an argument for setting non-default parameters. The old overloads are kept for compatibility.</p>
+<p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ae6fe071eb2761d90b8063e64403ddda5">getManager()</a> function.</p>
+<p>The difference between this and the other <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ae6fe071eb2761d90b8063e64403ddda5">getManager()</a> functions is that this overload permits adding an input database as an argument for setting non-default parameters. The old overloads are kept for compatibility.</p>
 <dl class="section note"><dt>Note</dt><dd>When a manager is accessed for the first time, the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">FEDataManager::freeAllManagers()</a> static method is registered with the <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1ShutdownRegistry.html">SAMRAI::tbox::ShutdownRegistry</a> class. Consequently, all allocated managers are freed at program completion. Thus, users of this class do not explicitly allocate or deallocate the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> instances.</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ae23f695c1425b8998d7f57bb60b6c3a2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> * IBTK::FEDataManager::getManager </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_interp_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_spread_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_workload_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>min_ghost_width</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt;NDIM&gt;(0)</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt;&#160;</td>
-          <td class="paramname"><em>eulerian_data_cache</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>register_for_restart</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ad7c227038152fde5822c91142c65d640">getManager()</a> function.</p>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a822d08406911752bdada21a06b1c9dde"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> * IBTK::FEDataManager::getManager </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> &gt;&#160;</td>
-          <td class="paramname"><em>fe_data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_interp_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_spread_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_workload_spec.html">WorkloadSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_workload_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>min_ghost_width</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt;NDIM&gt;(0)</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_s_a_m_r_a_i_data_cache.html">SAMRAIDataCache</a> &gt;&#160;</td>
-          <td class="paramname"><em>eulerian_data_cache</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>register_for_restart</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ad7c227038152fde5822c91142c65d640">getManager()</a> function.</p>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a0f1758b25d2c421aee5968036031189d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html">FEDataManager</a> * IBTK::FEDataManager::getManager </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_interp_spec.html">InterpSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_interp_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="struct_i_b_t_k_1_1_f_e_data_manager_1_1_spread_spec.html">SpreadSpec</a> &amp;&#160;</td>
-          <td class="paramname"><em>default_spread_spec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>min_ghost_width</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt;NDIM&gt;(0)</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>register_for_restart</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Same as the last function, but uses a default workload specification for compatibility.</p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
 
 </div>
@@ -1165,6 +968,35 @@ The vector set up by this function is set up without applying any constraints (e
 <p>When assertion checking is active, database pointer must be non-null. </p>
 
 <p>Implements <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Serializable.html#d90b74ae3fd7af9a7bb9cbf7f3ebc08a">SAMRAI::tbox::Serializable</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ab2051403b2a6d0038cb5792c0017e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FEDataManager::setEquationSystems </td>
+          <td>(</td>
+          <td class="paramtype">libMesh::EquationSystems *&#160;</td>
+          <td class="paramname"><em>equation_systems</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level_number</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the equations systems object that is associated with the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> object. Currently, each set of equation systems must be assigned to a particular level of the AMR grid. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated:</a></b></dt><dd>This function is deprecated since the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> constructor now requires an EquationSystems argument. </dd></dl>
 
 </div>
 </div>
@@ -1631,7 +1463,7 @@ The vector set up by this function is set up without applying any constraints (e
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 10 2020 19:11:32 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 10 2020 19:55:45 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
