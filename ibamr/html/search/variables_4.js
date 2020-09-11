@@ -203,6 +203,7 @@ var searchData=
   ['d_5fsrc',['d_src',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1CoarsenClasses_1_1Data.html#aba51381f0289cfc8668b634cf719188',1,'SAMRAI::xfer::CoarsenClasses::Data::d_src()'],['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#44df082eeaca12d28dd5cea2aba6cf04',1,'SAMRAI::xfer::RefineClasses::Data::d_src()']]],
   ['d_5fsrc_5ftnew',['d_src_tnew',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#8eef44364a4b7b20a6e711f72a0ee7c9',1,'SAMRAI::xfer::RefineClasses::Data']]],
   ['d_5fsrc_5ftold',['d_src_told',['../../../samrai/2.4.4/html/structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#657120c4b5f6cff40be7bb6939b4c5ec',1,'SAMRAI::xfer::RefineClasses::Data']]],
+  ['d_5fstab_5fl2_5fproj_5fmatrix',['d_stab_L2_proj_matrix',['../class_i_b_t_k_1_1_f_e_projector.html#a17f84177bab2ab46b283df938f8c8764',1,'IBTK::FEProjector']]],
   ['d_5fstart',['d_start',['../../../samrai/2.4.4/html/classMDA__IndexRange.html#dea021f7c256dceb831713a1bfca7cae',1,'MDA_IndexRange']]],
   ['d_5fstarted_5ftime_5fintegration',['d_started_time_integration',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#abcfc661159c028247f8e0628e108af24',1,'IBAMR::IBFEMethod']]],
   ['d_5fstop',['d_stop',['../../../samrai/2.4.4/html/classMDA__IndexRange.html#8047894adf97e4d7ff6c59c948132597',1,'MDA_IndexRange']]],
