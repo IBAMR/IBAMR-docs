@@ -155,6 +155,7 @@ var searchData=
   ['registersparsematerialnames',['registerSparseMaterialNames',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisItDataWriter.html#8a75ae791792f3df690e2454991e9a6b',1,'SAMRAI::appu::VisItDataWriter']]],
   ['registerspeciesnames',['registerSpeciesNames',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisItDataWriter.html#5b2a7a56854555f3793371bf567504dd',1,'SAMRAI::appu::VisItDataWriter']]],
   ['registerspringforcefunction',['registerSpringForceFunction',['../class_i_b_a_m_r_1_1_i_b_standard_force_gen.html#a0834b0cd0c18955297613f9b73a299b2',1,'IBAMR::IBStandardForceGen']]],
+  ['registerstaticpressurepart',['registerStaticPressurePart',['../class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a41259c83b8ea01ab829153d7a61412be',1,'IBAMR::FEMechanicsBase::registerStaticPressurePart()'],['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ac82c2e77d3c5a13f4b9b398c81d2a703',1,'IBAMR::IBFEMethod::registerStaticPressurePart()']]],
   ['registerstressnormalizationpart',['registerStressNormalizationPart',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a1c304ea034959b89d1de5bb41dc0353b',1,'IBAMR::IBFEMethod']]],
   ['registerstructidswithmobilitymat',['registerStructIDsWithMobilityMat',['../class_i_b_a_m_r_1_1_direct_mobility_solver.html#a30fb335d96e2da6c6edeb09569f0d472',1,'IBAMR::DirectMobilitySolver']]],
   ['registerstructure',['registerStructure',['../class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#a10aafe45988d0f6366d7b83b9eb2c610',1,'IBAMR::IBHydrodynamicForceEvaluator']]],
