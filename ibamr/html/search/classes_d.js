@@ -2,8 +2,8 @@ var searchData=
 [
   ['malloc_5fallocator',['malloc_allocator',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09320.html',1,'__gnu_cxx']]],
   ['map',['map',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07660.html',1,'std::__debug']]],
-  ['map',['map',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map',['map',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07848.html',1,'std::__profile']]],
+  ['map',['map',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20int_2c_20ibamr_3a_3aibhydrodynamicforceevaluator_3a_3aibhydrodynamicforceobject_20_3e',['map&lt; int, IBAMR::IBHydrodynamicForceEvaluator::IBHydrodynamicForceObject &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20int_2c_20int_20_3e',['map&lt; int, int &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20int_2c_20samrai_3a_3atbox_3a_3apointer_3c_20ibtk_3a_3astreamable_20_3e_20_3e',['map&lt; int, SAMRAI::tbox::Pointer&lt; IBTK::Streamable &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
@@ -15,6 +15,7 @@ var searchData=
   ['map_3c_20libmesh_3a_3aelemtype_2c_20ibtk_3a_3afevalues_3a_3areferencevalues_20_3e',['map&lt; libMesh::ElemType, IBTK::FEValues::ReferenceValues &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20libmesh_3a_3aelemtype_2c_20std_3a_3aunique_5fptr_3c_20ibtk_3a_3afemapping_3c_20dim_2c_20spacedim_20_3e_20_3e_20_3e',['map&lt; libMesh::ElemType, std::unique_ptr&lt; IBTK::FEMapping&lt; dim, spacedim &gt; &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20libmesh_3a_3anode_20_2a_2c_20std_3a_3aset_3c_20libmesh_3a_3aelem_20_2a_20_3e_20_3e',['map&lt; libMesh::Node *, std::set&lt; libMesh::Elem * &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
+  ['map_3c_20libmesh_3a_3asubdomain_5fid_5ftype_2c_20int_20_3e',['map&lt; libMesh::subdomain_id_type, int &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20samrai_3a_3ahier_3a_3avariable_3c_20ndim_20_3e_20_2a_2c_20samrai_3a_3atbox_3a_3apointer_3c_20ibtk_3a_3acartgridfunction_20_3e_20_3e',['map&lt; SAMRAI::hier::Variable&lt; NDIM &gt; *, SAMRAI::tbox::Pointer&lt; IBTK::CartGridFunction &gt; &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20samrai_3a_3apdat_3a_3acellindex_3c_20ndim_20_3e_2c_20std_3a_3aset_3c_20libmesh_3a_3aelem_20_2a_20_3e_2c_20ibtk_3a_3acellindexfortranorder_20_3e',['map&lt; SAMRAI::pdat::CellIndex&lt; NDIM &gt;, std::set&lt; libMesh::Elem * &gt;, IBTK::CellIndexFortranOrder &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
   ['map_3c_20samrai_3a_3atbox_3a_3apointer_3c_20samrai_3a_3apdat_3a_3acellvariable_3c_20ndim_2c_20double_20_3e_20_3e_2c_20bool_20_3e',['map&lt; SAMRAI::tbox::Pointer&lt; SAMRAI::pdat::CellVariable&lt; NDIM, double &gt; &gt;, bool &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html',1,'std']]],
