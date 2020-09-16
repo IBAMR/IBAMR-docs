@@ -821,7 +821,6 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Return a pointer to the instance of the Lagrangian data manager corresponding to the specified name. Access to <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> objects is mediated by the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ae6fe071eb2761d90b8063e64403ddda5">getManager()</a> function.</p>
-<p>The difference between this and the other <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#ae6fe071eb2761d90b8063e64403ddda5">getManager()</a> functions is that this overload permits adding an input database as an argument for setting non-default parameters. The old overloads are kept for compatibility.</p>
 <dl class="section note"><dt>Note</dt><dd>When a manager is accessed for the first time, the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a88429e0a8a395f3552efeb71de52a01a">FEDataManager::freeAllManagers()</a> static method is registered with the <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1ShutdownRegistry.html">SAMRAI::tbox::ShutdownRegistry</a> class. Consequently, all allocated managers are freed at program completion. Thus, users of this class do not explicitly allocate or deallocate the <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> instances.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the data manager instance. </dd></dl>
 
@@ -1464,7 +1463,7 @@ The vector set up by this function is set up without applying any constraints (e
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 15 2020 22:22:53 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 16 2020 14:25:29 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
