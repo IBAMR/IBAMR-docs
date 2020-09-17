@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a72d6da4c0058e2d05bb9fecf86be6538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ae087d0ec43a08f9d68c74b055d94f9"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_subdomain_to_level_translation.html#a2ae087d0ec43a08f9d68c74b055d94f9">operator[]</a> (const libMesh::subdomain_id_type id) const </td></tr>
 <tr class="separator:a2ae087d0ec43a08f9d68c74b055d94f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23762a352643c819659a8b817b036309"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_subdomain_to_level_translation.html#a23762a352643c819659a8b817b036309">levelHasElements</a> (const int level_number) const </td></tr>
+<tr class="separator:a23762a352643c819659a8b817b036309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -117,6 +119,31 @@ Static Public Attributes</h2></td></tr>
 <p>The overwhelming majority of subdomain IDs used with <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a> come from block IDs set by ExodusII - these are numbered sequentially from zero. However, in principle, a subdomain ID could be any signed 64-bit integer so we cannot use a small fixed length array.</p>
 <p>Since we look up element levels a lot optimize for the common case by using a fixed-length array and a map for everything else. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a23762a352643c819659a8b817b036309"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::SubdomainToLevelTranslation::levelHasElements </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>level_number</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return whether or not there are any elements on a given level. </p>
+
+</div>
+</div>
 <a class="anchor" id="a2ae087d0ec43a08f9d68c74b055d94f9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +198,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2020 20:01:33 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 17 2020 13:34:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

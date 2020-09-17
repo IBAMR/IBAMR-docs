@@ -325,7 +325,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html" title="Class FEDataManager coordinates data required for Lagrangian-Eulerian interaction between a Lagrangia...">FEDataManager</a> coordinates data required for Lagrangian-Eulerian interaction between a Lagrangian finite element (FE) mesh. In particular, the <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">FEData</a> member object stores the necessary finite element data while this class stores additional data dependent on the Eulerian grid. </p>
 <h2>Parameters read from the input database</h2>
-<p><code>node_outside_patch_check</code>: parameter controling how this class responds to mesh nodes outside the finest patch level. In all cases, for backwards compatibility, nodes that are outside the computational domain are permitted and are ignored by this check. Possible values are: </p><ol>
+<p><code>node_outside_patch_check</code>: parameter controlling how this class responds to mesh nodes outside the finest patch level. In all cases, for backwards compatibility, nodes that are outside the computational domain are permitted and are ignored by this check. Possible values are: </p><ol>
 <li>
 <code>node_outside_permit</code>: Permit nodes to be outside the finest patch level. </li>
 <li>
@@ -1267,7 +1267,7 @@ The vector set up by this function is set up without applying any constraints (e
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Update the quarature rule for the current element. If the provided qrule is already configured appropriately, it is not modified.</p>
+<p>Update the quadrature rule for the current element. If the provided qrule is already configured appropriately, it is not modified.</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the quadrature rule is updated or otherwise requires reinitialization (e.g. because the element type or p_level changed); false otherwise. </dd></dl>
 
 </div>
@@ -1463,7 +1463,7 @@ The vector set up by this function is set up without applying any constraints (e
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 16 2020 20:01:32 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 17 2020 13:34:26 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
