@@ -402,6 +402,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#af6b21ebfb951f37d4c927785db0b64ab">imposeJumpConditions</a> (int f_data_idx, libMesh::PetscVector&lt; double &gt; &amp;F_ghost_vec, libMesh::PetscVector&lt; double &gt; &amp;X_ghost_vec, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:af6b21ebfb951f37d4c927785db0b64ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose jump conditions determined from the interior and transmission force densities along the physical boundary of the Lagrangian structure. <br /></td></tr>
 <tr class="separator:af6b21ebfb951f37d4c927785db0b64ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1eac926754da68f1e49b586fe723b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a9f1eac926754da68f1e49b586fe723b1">getCoarsestPatchLevelNumber</a> () const </td></tr>
+<tr class="separator:a9f1eac926754da68f1e49b586fe723b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d9592eec6a6cb701b70d92599d7c22d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a3d9592eec6a6cb701b70d92599d7c22d">getFinestPatchLevelNumber</a> () const </td></tr>
+<tr class="separator:a3d9592eec6a6cb701b70d92599d7c22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a187211596b579c8de3884d5ae47a02fc"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a187211596b579c8de3884d5ae47a02fc">getPrimaryToScratchSchedule</a> (int level_number, int primary_data_idx, int scratch_data_idx, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; *patch_strategy=nullptr)</td></tr>
 <tr class="separator:a187211596b579c8de3884d5ae47a02fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbb3297133fd732d7fd217eed3399052"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#adbb3297133fd732d7fd217eed3399052">getScratchToPrimarySchedule</a> (int level_number, int primary_data_idx, int scratch_data_idx, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; *patch_strategy=nullptr)</td></tr>
@@ -1237,6 +1241,30 @@ The value d_patch_assocation_cfl, which determines how frequently we regrid pure
 
 </div>
 </div>
+<a class="anchor" id="a9f1eac926754da68f1e49b586fe723b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IBAMR::IBFEMethod::getCoarsestPatchLevelNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the coarsest patch level number on which elements (including all parts) are assigned. </p>
+
+</div>
+</div>
 <a class="anchor" id="a935ac34b44f165491d23c089ca395c0b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1283,6 +1311,30 @@ The value d_patch_assocation_cfl, which determines how frequently we regrid pure
       </table>
 </div><div class="memdoc">
 <p>Return a pointer to the finite element data manager object for the specified part. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d9592eec6a6cb701b70d92599d7c22d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IBAMR::IBFEMethod::getFinestPatchLevelNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the finest patch level number on which elements (including all parts) are assigned. </p>
 
 </div>
 </div>
@@ -3052,7 +3104,7 @@ The value d_patch_assocation_cfl, which determines how frequently we regrid pure
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 18 2020 16:24:43 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 23 2020 03:25:19 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
