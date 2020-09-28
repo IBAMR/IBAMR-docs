@@ -164,6 +164,7 @@ var searchData=
   ['d_5fprimary_5feulerian_5fdata_5fcache',['d_primary_eulerian_data_cache',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#af8e395b934394119c772d87d12817cbe',1,'IBAMR::IBFEMethod']]],
   ['d_5fprimary_5ffe_5fdata_5fmanagers',['d_primary_fe_data_managers',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a6f651fc2de5a11c9989ad8d40b78123c',1,'IBAMR::IBFEMethod']]],
   ['d_5fproblem_5fcoefs',['d_problem_coefs',['../class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#aa428d2ebcf601eccc0068aefb9a7c175',1,'IBAMR::INSHierarchyIntegrator']]],
+  ['d_5fprolongation_5fschedules',['d_prolongation_schedules',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#ad95090469df737a843f7df48b70eef58',1,'IBAMR::IBFEMethod']]],
   ['d_5fq_5fib_5fvecs',['d_Q_IB_vecs',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#aed4cf94f6e039e50a33712c3e6263674',1,'IBAMR::IBFEMethod']]],
   ['d_5fq_5freset_5ffcns',['d_Q_reset_fcns',['../class_i_b_a_m_r_1_1_adv_diff_hierarchy_integrator.html#ab5c2bc7884fb5f875a55e15d8bdefb7f',1,'IBAMR::AdvDiffHierarchyIntegrator']]],
   ['d_5fq_5fsystems',['d_Q_systems',['../class_i_b_a_m_r_1_1_i_b_f_e_method.html#a79fee7da573eebd030472119b8fcb8ce',1,'IBAMR::IBFEMethod']]],
