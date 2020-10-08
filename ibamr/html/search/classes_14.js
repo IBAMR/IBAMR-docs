@@ -49,6 +49,7 @@ var searchData=
   ['tree_5ftraits_3c_20key_2c_20null_5ftype_2c_20cmp_5ffn_2c_20node_5fupdate_2c_20rb_5ftree_5ftag_2c_20_5falloc_20_3e',['tree_traits&lt; Key, null_type, Cmp_Fn, Node_Update, rb_tree_tag, _Alloc &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10904.html',1,'__gnu_pbds::detail']]],
   ['tree_5ftraits_3c_20key_2c_20null_5ftype_2c_20cmp_5ffn_2c_20node_5fupdate_2c_20splay_5ftree_5ftag_2c_20_5falloc_20_3e',['tree_traits&lt; Key, null_type, Cmp_Fn, Node_Update, splay_tree_tag, _Alloc &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10956.html',1,'__gnu_pbds::detail']]],
   ['tri3mapping',['Tri3Mapping',['../class_i_b_t_k_1_1_tri3_mapping.html',1,'IBTK']]],
+  ['tri6mapping',['Tri6Mapping',['../class_i_b_t_k_1_1_tri6_mapping.html',1,'IBTK']]],
   ['trie',['trie',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10040.html',1,'__gnu_pbds']]],
   ['trie_5fmetadata_5fhelper',['trie_metadata_helper',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10984.html',1,'__gnu_pbds::detail']]],
   ['trie_5fmetadata_5fhelper_3c_20node_5fupdate_2c_20false_20_3e',['trie_metadata_helper&lt; Node_Update, false &gt;',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a10988.html',1,'__gnu_pbds::detail']]],

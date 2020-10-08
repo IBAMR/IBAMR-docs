@@ -4,15 +4,17 @@
 <area shape="rect" id="node4" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; 2, 2, 4 \&gt;" alt="" coords="230,71,390,112"/>
 <area shape="rect" id="node6" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; 2, 2, 9 \&gt;" alt="" coords="230,136,390,177"/>
 <area shape="rect" id="node8" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; 3, 3, 4 \&gt;" alt="" coords="230,201,390,243"/>
-<area shape="rect" id="node10" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="216,317,404,359"/>
+<area shape="rect" id="node10" href="$class_i_b_t_k_1_1_f_e_nodal_mapping.html" title="IBTK::FENodalMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="216,351,404,392"/>
 <area shape="rect" id="node3" href="$class_i_b_t_k_1_1_tri3_mapping.html" title="IBTK::Tri3Mapping" alt="" coords="481,13,611,39"/>
 <area shape="rect" id="node5" href="$class_i_b_t_k_1_1_quad4_mapping.html" title="IBTK::Quad4Mapping" alt="" coords="473,78,619,105"/>
 <area shape="rect" id="node7" href="$class_i_b_t_k_1_1_quad9_mapping.html" title="IBTK::Quad9Mapping" alt="" coords="473,143,619,170"/>
 <area shape="rect" id="node9" href="$class_i_b_t_k_1_1_tet4_mapping.html" title="IBTK::Tet4Mapping" alt="" coords="479,201,613,227"/>
-<area shape="rect" id="node11" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 3, 3, 10 \&gt;" alt="" coords="457,252,635,293"/>
-<area shape="rect" id="node13" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 3, 3, 27 \&gt;" alt="" coords="457,317,635,359"/>
-<area shape="rect" id="node15" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 3, 3, 8 \&gt;" alt="" coords="457,383,635,424"/>
-<area shape="rect" id="node16" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="452,448,640,489"/>
-<area shape="rect" id="node12" href="$class_i_b_t_k_1_1_tet10_mapping.html" title="IBTK::Tet10Mapping" alt="" coords="690,259,833,286"/>
-<area shape="rect" id="node14" href="$class_i_b_t_k_1_1_hex27_mapping.html" title="IBTK::Hex27Mapping" alt="" coords="688,325,835,351"/>
+<area shape="rect" id="node11" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 2, 2, 6 \&gt;" alt="" coords="457,252,635,293"/>
+<area shape="rect" id="node13" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 3, 3, 10 \&gt;" alt="" coords="457,317,635,359"/>
+<area shape="rect" id="node15" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 3, 3, 27 \&gt;" alt="" coords="457,383,635,424"/>
+<area shape="rect" id="node17" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; 3, 3, 8 \&gt;" alt="" coords="457,448,635,489"/>
+<area shape="rect" id="node18" href="$class_i_b_t_k_1_1_f_e_lagrange_mapping.html" title="IBTK::FELagrangeMapping\l\&lt; dim, spacedim, n_nodes \&gt;" alt="" coords="452,513,640,555"/>
+<area shape="rect" id="node12" href="$class_i_b_t_k_1_1_tri6_mapping.html" title="IBTK::Tri6Mapping" alt="" coords="696,259,827,286"/>
+<area shape="rect" id="node14" href="$class_i_b_t_k_1_1_tet10_mapping.html" title="IBTK::Tet10Mapping" alt="" coords="690,325,833,351"/>
+<area shape="rect" id="node16" href="$class_i_b_t_k_1_1_hex27_mapping.html" title="IBTK::Hex27Mapping" alt="" coords="688,390,835,417"/>
 </map>
