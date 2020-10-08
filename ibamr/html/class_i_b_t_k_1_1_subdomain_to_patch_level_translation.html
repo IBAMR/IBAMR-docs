@@ -100,8 +100,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad1647e426ca78011f12ff109be7995b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_subdomain_to_patch_level_translation.html#ad1647e426ca78011f12ff109be7995b2">SubdomainToPatchLevelTranslation</a> (const int max_level_number, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;input_db)</td></tr>
-<tr class="separator:ad1647e426ca78011f12ff109be7995b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d4859ba9b3a4b0921fee942876f0cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_subdomain_to_patch_level_translation.html#a79d4859ba9b3a4b0921fee942876f0cc">SubdomainToPatchLevelTranslation</a> (const int max_level_number, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06732.html">std::set</a>&lt; libMesh::subdomain_id_type &gt; &amp;subdomain_ids, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;input_db)</td></tr>
+<tr class="separator:a79d4859ba9b3a4b0921fee942876f0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b564efd8e7a391777efc128daeed78"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_subdomain_to_patch_level_translation.html#aa6b564efd8e7a391777efc128daeed78">operator[]</a> (const libMesh::subdomain_id_type id) const </td></tr>
 <tr class="separator:aa6b564efd8e7a391777efc128daeed78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c47a201d3542909225421a696465417"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_subdomain_to_patch_level_translation.html#a2c47a201d3542909225421a696465417">levelHasElements</a> (const int level_number) const </td></tr>
@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Class that can translate <a class="el" href="namespacelib_mesh.html">libMesh</a> subdomain IDs into patch level numbers.</p>
 <p>The primary use of this class is multilevel IBFE - i.e., enabling a finite element mesh to interact with multiple patch levels. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad1647e426ca78011f12ff109be7995b2"></a>
+<a class="anchor" id="a79d4859ba9b3a4b0921fee942876f0cc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -120,6 +120,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>max_level_number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06732.html">std::set</a>&lt; libMesh::subdomain_id_type &gt; &amp;&#160;</td>
+          <td class="paramname"><em>subdomain_ids</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -134,7 +140,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor. Takes as argument the maximum level number in the Cartesian grid patch hierarchy and an input database enumerating the level-to-subdomain mapping, e.g., </p><div class="fragment"><div class="line">{</div><div class="line">  level_1 = 1, 2</div><div class="line">  level_2 = 3</div><div class="line">}</div></div><!-- fragment --><p> Any unspecified subdomain ids will be assigned to the finest patch level. Duplicated assignments are not permitted. </p>
+<p>Constructor. Takes as argument the maximum level number in the Cartesian grid patch hierarchy, a set of all subdomain ids (including those not on the current processor), and an input database enumerating the level-to-subdomain mapping, e.g., </p><div class="fragment"><div class="line">{</div><div class="line">  level_1 = 1, 2</div><div class="line">  level_2 = 3</div><div class="line">}</div></div><!-- fragment --><p> Any unspecified subdomain ids will be assigned to the finest patch level. Duplicated assignments are not permitted. </p>
 
 </div>
 </div>
@@ -196,7 +202,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 8 2020 19:50:56 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 8 2020 20:28:24 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
