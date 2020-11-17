@@ -371,12 +371,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_warn_on_dt_change</
 <tr class="memitem:a31674d7d692ad6b65435d991357ce0eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31674d7d692ad6b65435d991357ce0eb"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html">INSHierarchyIntegrator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_ins_hier_integrator</b></td></tr>
 <tr class="separator:a31674d7d692ad6b65435d991357ce0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1cebf42f065fbd5c219b6046e192c8b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1cebf42f065fbd5c219b6046e192c8b"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_regrid_cfl_interval</b> = 0.0</td></tr>
-<tr class="separator:ab1cebf42f065fbd5c219b6046e192c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae549deef6eda441bb23abf3e9a640817"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae549deef6eda441bb23abf3e9a640817"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>d_regrid_cfl_estimate</b> = 0.0</td></tr>
-<tr class="separator:ae549deef6eda441bb23abf3e9a640817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f3bbd6ad480fd655c923ac6d1cb77e8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a7f3bbd6ad480fd655c923ac6d1cb77e8">d_regrid_fluid_cfl_interval</a> = -1.0</td></tr>
+<tr class="separator:a7f3bbd6ad480fd655c923ac6d1cb77e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ccc5699029932cf96fd97d5cb9f85e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3ccc5699029932cf96fd97d5cb9f85e"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_regrid_structure_cfl_interval</b> = -1.0</td></tr>
+<tr class="separator:aa3ccc5699029932cf96fd97d5cb9f85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd1820dad4b1b5c288b5f5040df56abd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#acd1820dad4b1b5c288b5f5040df56abd">d_regrid_fluid_cfl_estimate</a> = 0.0</td></tr>
+<tr class="separator:acd1820dad4b1b5c288b5f5040df56abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0566dfea7caf72a1cb5907997ae036de"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a0566dfea7caf72a1cb5907997ae036de">d_regrid_structure_cfl_estimate</a> = 0.0</td></tr>
+<tr class="separator:a0566dfea7caf72a1cb5907997ae036de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac07638e7623aba6c744982fc87d48aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac07638e7623aba6c744982fc87d48aa"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html">IBStrategy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_ib_method_ops</b></td></tr>
 <tr class="separator:aac07638e7623aba6c744982fc87d48aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -685,6 +688,19 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions...">IBHierarchyIntegrator</a> provides an abstract interface for a time integrator for various versions of the immersed boundary method on an AMR grid hierarchy, along with basic data management for variables defined on that hierarchy. </p>
+<h2>Options Controlling Regridding</h2>
+<p>Most <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a> applications involve structure meshes defined on the finest level of the patch hierarchy. These structures move: in particular, they can potentially move off the finest grid level, causing the interaction routines to no longer work.</p>
+<p>This class offers two different strategies for calculating how much the structure has moved (which it then uses to specify that a regrid is required):</p>
+<ol>
+<li>
+<p class="startli"><em>Estimation based on the fluid</em>: The structure is assumed to move at the maximum velocity of the fluid at each time step. This class will regrid once a single fluid point has moved at least <code>regrid_fluid_cfl_interval</code> cell widths since the last regrid.</p>
+<p class="endli"></p>
+</li>
+<li>
+<em>Estimation based on the structure</em>: The structure's displacement is calculated directly from its position vector and that value is used to determine the number of cell widths the structure has moved. In this case we will regrid once a point on the structure has moved at least <code>regrid_structure_cfl_interval</code> cell widths since the last regrid. </li>
+</ol>
+<p>Both <code>regrid_fluid_cfl_interval</code> and <code>regrid_structure_cfl_interval</code> can be specified in the input database. For backwards compatibility the value <code>regrid_cfl_interval</code> is equivalent to <code>regrid_fluid_cfl_interval</code>. <em>At the present time <code>regrid_structure_cfl_interval</code> is not implemented for all <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a> classes.</em></p>
+<p>Alternatively, one can request that the solver (regardless of any computed displacement or velocity) regrid every time a fixed number of timesteps have occurred by specifying <code>regrid_interval</code> in the input database. <em>If either <code>regrid_structure_cfl_interval</code> or <code>regrid_fluid_cfl_interval</code> are provided in the input database then <code>regrid_interval</code> is ignored.</em> </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a22604a035724d69aac7931321027b492"></a>
 <div class="memitem">
@@ -1469,6 +1485,70 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 
 </div>
 </div>
+<a class="anchor" id="acd1820dad4b1b5c288b5f5040df56abd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::IBHierarchyIntegrator::d_regrid_fluid_cfl_estimate = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Estimation on the maximum fraction of fluid cells the structure has moved based on the maximum fluid velocity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7f3bbd6ad480fd655c923ac6d1cb77e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::IBHierarchyIntegrator::d_regrid_fluid_cfl_interval = -1.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The regrid CFL interval indicates the number of meshwidths a particle may move in any coordinate direction between invocations of the regridding process.</p>
+<dl class="section note"><dt>Note</dt><dd>Currently, when the CFL-based regrid interval is specified, it is always used instead of the fixed-step regrid interval. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0566dfea7caf72a1cb5907997ae036de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::IBHierarchyIntegrator::d_regrid_structure_cfl_estimate = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Estimation on the maximum fraction of fluid cells the structure has moved based on the infinity norm of the structure's displacement. </p>
+
+</div>
+</div>
 <a class="anchor" id="af6e3966b28f211928949a659e7b77572"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1518,7 +1598,7 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 11 2020 14:41:26 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 22:53:57 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

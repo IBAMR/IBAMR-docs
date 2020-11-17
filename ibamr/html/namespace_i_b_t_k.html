@@ -866,6 +866,8 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a41f0d16e02dcc4734ef6fb35bb70b0ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41f0d16e02dcc4734ef6fb35bb70b0ba"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_data_time_str</b> (const double data_time, const double current_time, const double new_time)</td></tr>
 <tr class="separator:a41f0d16e02dcc4734ef6fb35bb70b0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6cf75ea2f6fb03d09bc32341d9c0a09"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#aa6cf75ea2f6fb03d09bc32341d9c0a09">get_min_patch_dx</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;patch_level)</td></tr>
+<tr class="separator:aa6cf75ea2f6fb03d09bc32341d9c0a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745d00f9bbbb00d11e989436f8ce7911"><td class="memTemplParams" colspan="2"><a class="anchor" id="a745d00f9bbbb00d11e989436f8ce7911"></a>
 template&lt;class T , unsigned N&gt; </td></tr>
 <tr class="memitem:a745d00f9bbbb00d11e989436f8ce7911"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html">std::array</a>&lt; T, N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>array_constant</b> (const T &amp;v)</td></tr>
@@ -1407,6 +1409,23 @@ template&lt;class MultiArray &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="aa6cf75ea2f6fb03d09bc32341d9c0a09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBTK::get_min_patch_dx </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramname"><em>patch_level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the smallest cell width on the specified level. This operation is collective. </p>
 
 </div>
 </div>
@@ -2567,7 +2586,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 11 2020 14:41:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 22:54:02 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

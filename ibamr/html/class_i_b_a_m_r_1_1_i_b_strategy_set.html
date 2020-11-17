@@ -130,6 +130,8 @@ template&lt;typename InputIterator &gt; </td></tr>
 <tr class="separator:aea428851d00a5cd133efea0883c76a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5bfae797ee055e3cba84c4323a89c2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html#ad5bfae797ee055e3cba84c4323a89c2f">setupTagBuffer</a> (<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; int &gt; &amp;tag_buffer, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) const override</td></tr>
 <tr class="separator:ad5bfae797ee055e3cba84c4323a89c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf21d0093ba077b48fab4957be84f3f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html#a0cf21d0093ba077b48fab4957be84f3f">getMaxPointDisplacement</a> () const override</td></tr>
+<tr class="separator:a0cf21d0093ba077b48fab4957be84f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd7d12183a38b7a39d8f088414d389dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html#afd7d12183a38b7a39d8f088414d389dc">preprocessIntegrateData</a> (double current_time, double new_time, int num_cycles) override</td></tr>
 <tr class="separator:afd7d12183a38b7a39d8f088414d389dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a244b4cb97b8ed406ea0fa9191af5b939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html#a244b4cb97b8ed406ea0fa9191af5b939">postprocessIntegrateData</a> (double current_time, double new_time, int num_cycles) override</td></tr>
@@ -518,6 +520,32 @@ Additional Inherited Members</h2></td></tr>
 <p>Advance the positions of the Lagrangian structure using the forward Euler method. </p>
 
 <p>Implements <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#ada6b78bba869c8f042d51a44bf3593af">IBAMR::IBStrategy</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0cf21d0093ba077b48fab4957be84f3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::IBStrategySet::getMaxPointDisplacement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Same as the base class: considers all owned <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a> objects. </p>
+
+<p>Reimplemented from <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#acaaa6e9f31f769853d86d45ce665b9fe">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
@@ -1441,7 +1469,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 11 2020 14:41:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 22:53:59 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

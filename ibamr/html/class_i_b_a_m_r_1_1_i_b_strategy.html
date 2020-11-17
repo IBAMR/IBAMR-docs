@@ -148,6 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae48a2c4ed6accf9a8b08ffdb03c125d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a673b3d9468620b5b47dad47ccbb00541"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#a673b3d9468620b5b47dad47ccbb00541">getLagrangianStructureIsActivated</a> (int structure_number=0, int level_number=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt; int &gt;::<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01488.html#ga2a22232a7bcd3b1f87a45a5fb01ac9c3">max</a>()) const </td></tr>
 <tr class="separator:a673b3d9468620b5b47dad47ccbb00541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaaa6e9f31f769853d86d45ce665b9fe"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#acaaa6e9f31f769853d86d45ce665b9fe">getMaxPointDisplacement</a> () const </td></tr>
+<tr class="separator:acaaa6e9f31f769853d86d45ce665b9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33a850e94dd2fa44854c7c99328bfb90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#a33a850e94dd2fa44854c7c99328bfb90">preprocessIntegrateData</a> (double current_time, double new_time, int num_cycles)</td></tr>
 <tr class="separator:a33a850e94dd2fa44854c7c99328bfb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace0b6b640b496f34a9953569bbcb3757"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#ace0b6b640b496f34a9953569bbcb3757">postprocessIntegrateData</a> (double current_time, double new_time, int num_cycles)</td></tr>
@@ -819,6 +821,33 @@ Protected Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This method should be implemented by inheriting classes for which the notion of activating and inactivating a structure 'owned' by this class makes sense (for example, <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html" title="Class IBStrategySet is a utility class that allows multiple IBStrategy objects to be employed by a si...">IBAMR::IBStrategySet</a> does not directly own any structures, but <a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct...">IBAMR::IBMethod</a> and <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali...">IBAMR::IBFEMethod</a> both do). The default implementation unconditionally aborts the program. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a9e75d9c00f2162ac0885dfdcd0c10c63">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#a1d979c3527c21957a262e4a86679bf69">IBAMR::IBMethod</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acaaa6e9f31f769853d86d45ce665b9fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::IBStrategy::getMaxPointDisplacement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the ratio of the maximum point displacement of all the structures owned by the current class to the cell width of the grid level on which the structure is assigned. This value is useful for determining if the Eulerian patch hierarchy needs to be regridded.</p>
+<dl class="section note"><dt>Note</dt><dd>The process of regridding is distinct, for some <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul...">IBStrategy</a> objects (like <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali...">IBFEMethod</a>), from forming (or reforming) the association between Lagrangian structures and patches. In particular, this function computes the distance between the current position of the structure and the structure at the point of the last regrid, which may not be the same point at which we last rebuilt the structure-to-patch mappings. The reassociation check should be implemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#ace0b6b640b496f34a9953569bbcb3757">postprocessIntegrateData()</a>. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a3bc76a461379d51da6936a883013b428">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy_set.html#a0cf21d0093ba077b48fab4957be84f3f">IBAMR::IBStrategySet</a>.</p>
 
 </div>
 </div>
@@ -2213,7 +2242,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 11 2020 14:41:27 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 17 2020 22:53:58 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
