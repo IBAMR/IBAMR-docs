@@ -191,6 +191,7 @@ var searchData=
   ['reinitializeoperatorstate',['reinitializeOperatorState',['../class_i_b_t_k_1_1_hierarchy_ghost_cell_interpolation.html#a4e33acdab6fce4bd5b17c6a62ee19625',1,'IBTK::HierarchyGhostCellInterpolation']]],
   ['reinitlagrangianstructure',['reinitLagrangianStructure',['../class_i_b_t_k_1_1_l_data_manager.html#afdaafde7e8e58a5f2ab5ee5deaeb5ca0',1,'IBTK::LDataManager']]],
   ['reinitmidpointdata',['reinitMidpointData',['../class_i_b_a_m_r_1_1_i_b_method.html#ab050ce36e0f3284b508e02d702ccf5fd',1,'IBAMR::IBMethod::reinitMidpointData()'],['../class_i_b_a_m_r_1_1_i_m_p_method.html#a593fabb6a03ec40c4f3559c8b8c54234',1,'IBAMR::IMPMethod::reinitMidpointData()']]],
+  ['rel_5fequal_5feps',['rel_equal_eps',['../namespace_i_b_t_k.html#a9af5457aa7b50c3efa4126055ae1c5a6',1,'IBTK']]],
   ['relaunchablejob',['RelaunchableJob',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RelaunchableJob.html#37157fc533bf5955c8e86b97cb4aa36b',1,'SAMRAI::tbox::RelaunchableJob']]],
   ['relaxationlsbccoefs',['RelaxationLSBcCoefs',['../class_i_b_a_m_r_1_1_relaxation_l_s_bc_coefs.html#aeaf38abb357ece3a704a58f82e18a7ee',1,'IBAMR::RelaxationLSBcCoefs']]],
   ['relaxationlsmethod',['RelaxationLSMethod',['../class_i_b_a_m_r_1_1_relaxation_l_s_method.html#ae3660e60d5f123f9b2186668a6d622da',1,'IBAMR::RelaxationLSMethod']]],

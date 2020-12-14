@@ -870,6 +870,11 @@ template&lt;typename T &gt; </td></tr>
 <tr class="separator:a41f0d16e02dcc4734ef6fb35bb70b0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6cf75ea2f6fb03d09bc32341d9c0a09"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#aa6cf75ea2f6fb03d09bc32341d9c0a09">get_min_patch_dx</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;patch_level)</td></tr>
 <tr class="separator:aa6cf75ea2f6fb03d09bc32341d9c0a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9af5457aa7b50c3efa4126055ae1c5a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a9af5457aa7b50c3efa4126055ae1c5a6">rel_equal_eps</a> (double <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#453a82a7a55a9a28e2c19962f1abf6fa">a</a>, double <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>, double eps=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01473.html#gaf91cd3409ab242d469bcc1b2d06624c3">std::sqrt</a>(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt; double &gt;::epsilon()))</td></tr>
+<tr class="separator:a9af5457aa7b50c3efa4126055ae1c5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb9571d83ab737535a849cbb0803c43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#aebb9571d83ab737535a849cbb0803c43">abs_equal_eps</a> (double <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#453a82a7a55a9a28e2c19962f1abf6fa">a</a>, double <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>, double eps=<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01473.html#gaf91cd3409ab242d469bcc1b2d06624c3">std::sqrt</a>(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt; double &gt;::epsilon()))</td></tr>
+<tr class="memdesc:aebb9571d83ab737535a849cbb0803c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the absolute difference between a and b are within the threshold eps.  <a href="#aebb9571d83ab737535a849cbb0803c43">More...</a><br /></td></tr>
+<tr class="separator:aebb9571d83ab737535a849cbb0803c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745d00f9bbbb00d11e989436f8ce7911"><td class="memTemplParams" colspan="2"><a class="anchor" id="a745d00f9bbbb00d11e989436f8ce7911"></a>
 template&lt;class T , unsigned N&gt; </td></tr>
 <tr class="memitem:a745d00f9bbbb00d11e989436f8ce7911"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html">std::array</a>&lt; T, N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>array_constant</b> (const T &amp;v)</td></tr>
@@ -1091,6 +1096,49 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aebb9571d83ab737535a849cbb0803c43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::abs_equal_eps </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>eps</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01473.html#gaf91cd3409ab242d469bcc1b2d06624c3">std::sqrt</a>(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::epsilon())</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check whether the absolute difference between a and b are within the threshold eps. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be used with caution to check numbers that have large magnitudes. In these cases, consider using the rel_equal_eps function. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a6e1b936ae530a4aacdc032c8edbb3475"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2294,6 +2342,48 @@ template&lt;class MultiArray &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a9af5457aa7b50c3efa4126055ae1c5a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::rel_equal_eps </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>eps</em> = <code><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01473.html#gaf91cd3409ab242d469bcc1b2d06624c3">std::sqrt</a>(<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02636.html">std::numeric_limits</a>&lt;double&gt;::epsilon())</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check whether the relative difference between a and b are within the threshold eps.</p>
+<dl class="section note"><dt>Note</dt><dd>This function should be used with caution to check numbers close to zero. In this case, consider using the abs_equal_eps function. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a67fdfe0a5d6114b04e025c647f22883f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2588,7 +2678,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Dec 8 2020 18:03:30 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 14 2020 20:03:52 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
