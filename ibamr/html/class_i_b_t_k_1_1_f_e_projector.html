@@ -184,6 +184,11 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_f_e_projector.html" title="Class FEProjector coordinates data structures for projecting fields in FE models. ...">FEProjector</a> coordinates data structures for projecting fields in FE models. </p>
+<h2>Parameters read from the input database</h2>
+<ol>
+<li>
+num_fischer_vectors: Number of previous solution and RHS pairs stored for use in computing the initial guess to each linear system. Defaults to five. Using more vectors will require additional computational work when computing the initial guess (roughly N*N dot products, where N is the number of stored vector pairs) but will decrease the number of solver iterations. The default value lowers the number of solver iterations to, typically, no more than two or three, so its usually the right value. </li>
+</ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a70995dafa4c261c138a2025163dc8496"></a>
 <div class="memitem">
@@ -385,7 +390,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 16 2020 16:56:31 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 21 2020 19:38:18 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

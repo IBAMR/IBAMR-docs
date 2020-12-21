@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_i_b_a_m_r_1_1_f_e_mechanics_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IBAMR::FEMechanicsBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">IBAMR::FEMechanicsBase Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -111,9 +111,10 @@ Inheritance diagram for IBAMR::FEMechanicsBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_b_a_m_r_1_1_f_e_mechanics_base__inherit__graph.png" border="0" usemap="#_i_b_a_m_r_1_1_f_e_mechanics_base_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_b_a_m_r_1_1_f_e_mechanics_base_inherit__map" id="_i_b_a_m_r_1_1_f_e_mechanics_base_inherit__map">
-<area shape="rect" id="node4" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali..." alt="" coords="23,229,170,256"/>
-<area shape="rect" id="node2" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Serializable.html" title="SAMRAI::tbox::Serializable" alt="" coords="5,80,188,107"/>
-<area shape="rect" id="node3" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classtbox_1_1DescribedClass.html" title="tbox::DescribedClass" alt="" coords="23,5,171,32"/>
+<area shape="rect" id="node4" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html" title="Class FEMechanicsExplicitIntegrator is an implementation of the abstract base class FEMechanicsBase t..." alt="" coords="5,229,201,271"/>
+<area shape="rect" id="node5" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali..." alt="" coords="226,237,373,263"/>
+<area shape="rect" id="node2" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Serializable.html" title="SAMRAI::tbox::Serializable" alt="" coords="109,80,292,107"/>
+<area shape="rect" id="node3" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classtbox_1_1DescribedClass.html" title="tbox::DescribedClass" alt="" coords="127,5,275,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -163,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aec16c38e870672b742ab8b4682d317c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3736e6bdaac6e0c69d1d2babf49d5d6f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a3736e6bdaac6e0c69d1d2babf49d5d6f">~FEMechanicsBase</a> () override</td></tr>
 <tr class="separator:a3736e6bdaac6e0c69d1d2babf49d5d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde6f5adea91e14f3bea2db4cec9cd2b"><td class="memItemLeft" align="right" valign="top">libMesh::EquationSystems *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#afde6f5adea91e14f3bea2db4cec9cd2b">getEquationSystems</a> (unsigned int part=0) const </td></tr>
+<tr class="separator:afde6f5adea91e14f3bea2db4cec9cd2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c059e61c29fa3d894f948e5ed71d5b7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05936.html">std::shared_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_data.html">IBTK::FEData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a7c059e61c29fa3d894f948e5ed71d5b7">getFEData</a> (unsigned int part=0) const </td></tr>
 <tr class="separator:a7c059e61c29fa3d894f948e5ed71d5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5254c050e7c702546c9d21b254a74a29"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a5254c050e7c702546c9d21b254a74a29">registerInitialCoordinateMappingFunction</a> (const <a class="el" href="struct_i_b_a_m_r_1_1_f_e_mechanics_base_1_1_coordinate_mapping_fcn_data.html">CoordinateMappingFcnData</a> &amp;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#c8be7d23abc3f25417be1c1eaaf8a0a0">data</a>, unsigned int part=0)</td></tr>
@@ -189,8 +192,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a16d69b96006980bf8a25690005626352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeec85cefd3cc28be13d4b7c92a1128e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_i_b_a_m_r_1_1_f_e_mechanics_base_1_1_lag_surface_force_fcn_data.html">LagSurfaceForceFcnData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#adeec85cefd3cc28be13d4b7c92a1128e">getLagSurfaceForceFunction</a> (unsigned int part=0) const </td></tr>
 <tr class="separator:adeec85cefd3cc28be13d4b7c92a1128e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41259c83b8ea01ab829153d7a61412be"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a41259c83b8ea01ab829153d7a61412be">registerStaticPressurePart</a> (<a class="el" href="namespace_i_b_a_m_r.html#a62309df2b45664a6805692d7ed20e3a9">PressureProjectionType</a> projection_type=CONSISTENT_PROJECTION, <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a> U_prime_fcn=nullptr, unsigned int part=0)</td></tr>
-<tr class="separator:a41259c83b8ea01ab829153d7a61412be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a355dad1de2bea36b515f4f1f3b7e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#af4a355dad1de2bea36b515f4f1f3b7e1">registerStaticPressurePart</a> (<a class="el" href="namespace_i_b_a_m_r.html#a62309df2b45664a6805692d7ed20e3a9">PressureProjectionType</a> projection_type=CONSISTENT_PROJECTION, <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a> dU_dJ_fcn=nullptr, unsigned int part=0)</td></tr>
+<tr class="separator:af4a355dad1de2bea36b515f4f1f3b7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75d32b99244f587deb8d4ac3b405718"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#ac75d32b99244f587deb8d4ac3b405718">registerDynamicPressurePart</a> (<a class="el" href="namespace_i_b_a_m_r.html#a62309df2b45664a6805692d7ed20e3a9">PressureProjectionType</a> projection_type=CONSISTENT_PROJECTION, <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a> d2U_dJ2_fcn=nullptr, unsigned int part=0)</td></tr>
+<tr class="separator:ac75d32b99244f587deb8d4ac3b405718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75533a9740a4ce4f1e8758c5728ced3e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a75533a9740a4ce4f1e8758c5728ced3e">preprocessIntegrateData</a> (double current_time, double new_time, int num_cycles)</td></tr>
 <tr class="separator:a75533a9740a4ce4f1e8758c5728ced3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d55be15a693dfb483da473c3fd54f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a05d55be15a693dfb483da473c3fd54f0">postprocessIntegrateData</a> (double current_time, double new_time, int num_cycles)</td></tr>
@@ -226,14 +231,20 @@ static const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstd
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac96ad74f791799423f1216e92e6f4699"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#ac96ad74f791799423f1216e92e6f4699">doInitializeFEEquationSystems</a> ()=0</td></tr>
-<tr class="separator:ac96ad74f791799423f1216e92e6f4699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac96e8590affc407667946dd3f2aa26ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#ac96e8590affc407667946dd3f2aa26ce">doInitializeFEData</a> (bool use_present_data)=0</td></tr>
-<tr class="separator:ac96e8590affc407667946dd3f2aa26ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504dda62bf4462bbd8086e3142034650"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a504dda62bf4462bbd8086e3142034650">doInitializeFEEquationSystems</a> ()</td></tr>
+<tr class="separator:a504dda62bf4462bbd8086e3142034650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894232d53d1b586d5c735749f6da6312"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a894232d53d1b586d5c735749f6da6312">doInitializeFESystemVectors</a> ()</td></tr>
+<tr class="separator:a894232d53d1b586d5c735749f6da6312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4efefc0c38f7876f944ca7b45e82cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aac4efefc0c38f7876f944ca7b45e82cb">doInitializeFEData</a> (bool use_present_data)</td></tr>
+<tr class="separator:aac4efefc0c38f7876f944ca7b45e82cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c06b9300d48ddccef246ff043b94bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11c06b9300d48ddccef246ff043b94bc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a11c06b9300d48ddccef246ff043b94bc">computeStaticPressure</a> (libMesh::PetscVector&lt; double &gt; &amp;P_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, double data_time, unsigned int part)</td></tr>
 <tr class="memdesc:a11c06b9300d48ddccef246ff043b94bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the static pressure field. <br /></td></tr>
 <tr class="separator:a11c06b9300d48ddccef246ff043b94bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86e47012e4d7a442e6299b169b40107"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac86e47012e4d7a442e6299b169b40107"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#ac86e47012e4d7a442e6299b169b40107">computeDynamicPressureRateOfChange</a> (libMesh::PetscVector&lt; double &gt; &amp;dP_dt_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, libMesh::PetscVector&lt; double &gt; &amp;U_vec, double data_time, unsigned int part)</td></tr>
+<tr class="memdesc:ac86e47012e4d7a442e6299b169b40107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the dynamic pressure time rate of change. <br /></td></tr>
+<tr class="separator:ac86e47012e4d7a442e6299b169b40107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78d8ec0d79343f88192f87abe059c933"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a78d8ec0d79343f88192f87abe059c933">assembleInteriorForceDensityRHS</a> (libMesh::PetscVector&lt; double &gt; &amp;F_rhs_vec, libMesh::PetscVector&lt; double &gt; &amp;X_vec, libMesh::PetscVector&lt; double &gt; *P_vec, double data_time, unsigned int part)</td></tr>
 <tr class="separator:a78d8ec0d79343f88192f87abe059c933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b0b363bc633d366718fa3c4533b11a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a95b0b363bc633d366718fa3c4533b11a">initializeCoordinates</a> (unsigned int part)</td></tr>
@@ -254,6 +265,8 @@ Static Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a2f1716ee970c4af06c105a6c5738fd3c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a2f1716ee970c4af06c105a6c5738fd3c">d_fe_projector_db</a></td></tr>
+<tr class="separator:a2f1716ee970c4af06c105a6c5738fd3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e7498fcf3ccb999ebdac344214f5598"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a5e7498fcf3ccb999ebdac344214f5598">d_do_log</a> = false</td></tr>
 <tr class="separator:a5e7498fcf3ccb999ebdac344214f5598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea7dcd81d3fbe901e4a469ef1dfeec48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea7dcd81d3fbe901e4a469ef1dfeec48"></a>
@@ -384,9 +397,26 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_has_static_pressure
 <tr class="memitem:a40ca6f074bec7031ec601d78a6467f6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40ca6f074bec7031ec601d78a6467f6f"></a>
 <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="namespace_i_b_a_m_r.html#a62309df2b45664a6805692d7ed20e3a9">PressureProjectionType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_static_pressure_proj_type</b></td></tr>
 <tr class="separator:a40ca6f074bec7031ec601d78a6467f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea0bc1b8c56567ff7a3e7006d55bc083"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea0bc1b8c56567ff7a3e7006d55bc083"></a>
-<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_static_pressure_vol_energy_deriv_fcn</b></td></tr>
-<tr class="separator:aea0bc1b8c56567ff7a3e7006d55bc083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec84a2b4ee0f0f55242c4bc84b12be2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1ec84a2b4ee0f0f55242c4bc84b12be2"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_static_pressure_dU_dJ_fcn</b></td></tr>
+<tr class="separator:a1ec84a2b4ee0f0f55242c4bc84b12be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aeaa3c6538ec86103a924114e4896c2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a0aeaa3c6538ec86103a924114e4896c2">d_dynamic_pressure_kappa</a> = 0.0</td></tr>
+<tr class="separator:a0aeaa3c6538ec86103a924114e4896c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816711fb1658133a8942bde4ab9c1d92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a816711fb1658133a8942bde4ab9c1d92"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>d_dynamic_pressure_stab_param</b> = 0.0</td></tr>
+<tr class="separator:a816711fb1658133a8942bde4ab9c1d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ab267bca6e8600e772790da3809902"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6ab267bca6e8600e772790da3809902"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_has_dynamic_pressure_parts</b> = false</td></tr>
+<tr class="separator:ac6ab267bca6e8600e772790da3809902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9879a265bf94ba77d319fc4b81bd205b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9879a265bf94ba77d319fc4b81bd205b"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_dynamic_pressure_part</b></td></tr>
+<tr class="separator:a9879a265bf94ba77d319fc4b81bd205b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccfecd03b1edcf42f60c3146382f0e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ccfecd03b1edcf42f60c3146382f0e4"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="namespace_i_b_a_m_r.html#a62309df2b45664a6805692d7ed20e3a9">PressureProjectionType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_dynamic_pressure_proj_type</b></td></tr>
+<tr class="separator:a8ccfecd03b1edcf42f60c3146382f0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0dc173bf45d43eddf7af4d7cc18da02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0dc173bf45d43eddf7af4d7cc18da02"></a>
+<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_dynamic_pressure_d2U_dJ2_fcn</b></td></tr>
+<tr class="separator:ac0dc173bf45d43eddf7af4d7cc18da02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6f586abd18a6284f8ebad0a92bbf1c2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#ac6f586abd18a6284f8ebad0a92bbf1c2">d_object_name</a></td></tr>
 <tr class="separator:ac6f586abd18a6284f8ebad0a92bbf1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b1f861aa28fc6f0b5249947993e014a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#a8b1f861aa28fc6f0b5249947993e014a">d_registered_for_restart</a></td></tr>
@@ -401,6 +431,11 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html" title="Class FEMechanicsBase provides core finite element mechanics functionality and data management...">FEMechanicsBase</a> provides core finite element mechanics functionality and data management. </p>
+<h2>Parameters read from the input database</h2>
+<ol>
+<li>
+FEProjector: Input database passed along to the object responsible for computing projections onto the finite element space. See the documentation of <a class="el" href="class_i_b_t_k_1_1_f_e_projector.html" title="Class FEProjector coordinates data structures for projecting fields in FE models. ...">IBTK::FEProjector</a> for more information. </li>
+</ol>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a98dc8aeb4a300f9f33a83c35084ce477"></a>
 <div class="memitem">
@@ -723,7 +758,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 
 </div>
 </div>
-<a class="anchor" id="ac96e8590affc407667946dd3f2aa26ce"></a>
+<a class="anchor" id="aac4efefc0c38f7876f944ca7b45e82cb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -731,7 +766,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void IBAMR::FEMechanicsBase::doInitializeFEData </td>
+          <td class="memname">void IBAMR::FEMechanicsBase::doInitializeFEData </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>use_present_data</em></td><td>)</td>
@@ -740,17 +775,17 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Do the actual work in reinitializeFEData and initializeFEData. if <code>use_present_data</code> is <code>true</code> then the current content of the solution vectors is used: more exactly, the coordinates and velocities (computed by initializeCoordinates and initializeVelocity) are considered as being up to date. </p>
 
-<p>Implemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a0de5fda6b4a6e5c6afdab460d273e4f5">IBAMR::IBFEMethod</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a0de5fda6b4a6e5c6afdab460d273e4f5">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html#aaed4ffc81a2f55e7676d1d01dd3b903d">IBAMR::FEMechanicsExplicitIntegrator</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac96ad74f791799423f1216e92e6f4699"></a>
+<a class="anchor" id="a504dda62bf4462bbd8086e3142034650"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -758,7 +793,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void IBAMR::FEMechanicsBase::doInitializeFEEquationSystems </td>
+          <td class="memname">void IBAMR::FEMechanicsBase::doInitializeFEEquationSystems </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -766,13 +801,56 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Do the actual work in initializeFEEquationSystems. </p>
 
-<p>Implemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a89ec71bb7a3098acd70afc71258f597c">IBAMR::IBFEMethod</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a89ec71bb7a3098acd70afc71258f597c">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html#a26b0c90c5ddbabc5751f2f1917bdfd9c">IBAMR::FEMechanicsExplicitIntegrator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a894232d53d1b586d5c735749f6da6312"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::FEMechanicsBase::doInitializeFESystemVectors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Do the actual work of setting up <a class="el" href="namespacelib_mesh.html">libMesh</a> system vectors. </p>
+
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a0f207371be2997586424ff392cb1aa1c">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html#af67978295875d3c23425c1e03de53be8">IBAMR::FEMechanicsExplicitIntegrator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afde6f5adea91e14f3bea2db4cec9cd2b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">libMesh::EquationSystems * IBAMR::FEMechanicsBase::getEquationSystems </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>part</em> = <code>0</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return a pointer to the equations system object for the specified part. </p>
 
 </div>
 </div>
@@ -1104,7 +1182,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 </div><div class="memdoc">
 <p>Method to clean up data following call(s) to integrateHierarchy(). </p>
 
-<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a8cf49eb718d9b0b9dc17b711eb9ccfe0">IBAMR::IBFEMethod</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a8cf49eb718d9b0b9dc17b711eb9ccfe0">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html#a2446dd4ba58687db8836ab9d45b03653">IBAMR::FEMechanicsExplicitIntegrator</a>.</p>
 
 </div>
 </div>
@@ -1147,7 +1225,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 </div><div class="memdoc">
 <p>Method to prepare to advance data from current_time to new_time. </p>
 
-<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a29507964e0fb82f935ca7d9a49569cd2">IBAMR::IBFEMethod</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#a29507964e0fb82f935ca7d9a49569cd2">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html#ab12ed20c714327d87dfbd2ed3da66485">IBAMR::FEMechanicsExplicitIntegrator</a>.</p>
 
 </div>
 </div>
@@ -1176,7 +1254,53 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 
 <p>Implements <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Serializable.html#d90b74ae3fd7af9a7bb9cbf7f3ebc08a">SAMRAI::tbox::Serializable</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#aed478d4d5214191cd99a63f221537fbf">IBAMR::IBFEMethod</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#aed478d4d5214191cd99a63f221537fbf">IBAMR::IBFEMethod</a>, and <a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_explicit_integrator.html#a879d4217afc74a6e96528d5a9b0987ca">IBAMR::FEMechanicsExplicitIntegrator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac75d32b99244f587deb8d4ac3b405718"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::FEMechanicsBase::registerDynamicPressurePart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_i_b_a_m_r.html#a62309df2b45664a6805692d7ed20e3a9">PressureProjectionType</a>&#160;</td>
+          <td class="paramname"><em>projection_type</em> = <code>CONSISTENT_PROJECTION</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a>&#160;</td>
+          <td class="paramname"><em>d2U_dJ2_fcn</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>part</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Indicate that a part should include a dynamic pressure.</p>
+<p>The pressure is determined via (P-dot, Q) = (J U''(J) (FF : Grad U), Q), using either a consistent or lumped mass matrix, or via a locally stabilized projection of the form (P, Q) + epsilon (P - Pi P, Q - Pi Q) = (U'(J), Q), in which P is the pressure and Q is an arbitrary test function.</p>
+<p>Users can provide a function to evaluate U''(J). If no function is provided, we default to using U(J) = -kappa (J ln(J) − J + 1), so that U'(J) = -kappa ln J and U''(J) = -kappa J^{-1}. (Ref: C.H. Liu, G. Hofstetter, H.A. Mang, 3D finite element analysis of rubber-like materials at finite strains, Eng. Comput. 11 (2) (1994) 111–128.)</p>
+<p>The sign convention used in the implementation generates a PK1 stress of the form PP = -J P FF^{-T}.</p>
+<dl class="section note"><dt>Note</dt><dd>The same part cannot have both static and dynamic pressures.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#af4a355dad1de2bea36b515f4f1f3b7e1">registerStaticPressurePart</a> </dd></dl>
 
 </div>
 </div>
@@ -1396,7 +1520,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 
 </div>
 </div>
-<a class="anchor" id="a41259c83b8ea01ab829153d7a61412be"></a>
+<a class="anchor" id="af4a355dad1de2bea36b515f4f1f3b7e1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1413,7 +1537,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#aeda305fe47cf0aa2699cff49769fe49e">VolumetricEnergyDerivativeFcn</a>&#160;</td>
-          <td class="paramname"><em>U_prime_fcn</em> = <code>nullptr</code>, </td>
+          <td class="paramname"><em>dU_dJ_fcn</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1436,7 +1560,9 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 <p>Indicate that a part should include a static pressure.</p>
 <p>The pressure is determined via (P, Q) = (U'(J), Q), using either a consistent or lumped mass matrix, or via a locally stabilized projection of the form (P, Q) + epsilon (P - Pi P, Q - Pi Q) = (U'(J), Q), in which P is the pressure and Q is an arbitrary test function.</p>
 <p>Users can provide a function to evaluate U'(J). If no function is provided, we default to using U(J) = -kappa (J ln(J) − J + 1), so that U'(J) = -kappa ln J. (Ref: C.H. Liu, G. Hofstetter, H.A. Mang, 3D finite element analysis of rubber-like materials at finite strains, Eng. Comput. 11 (2) (1994) 111–128.)</p>
-<p>The sign convention used in the implementation generates a PK1 stress of the form PP = -J P FF^{-T}. </p>
+<p>The sign convention used in the implementation generates a PK1 stress of the form PP = -J P FF^{-T}.</p>
+<dl class="section note"><dt>Note</dt><dd>The same part cannot have both static and dynamic pressures.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_b_a_m_r_1_1_f_e_mechanics_base.html#ac75d32b99244f587deb8d4ac3b405718">registerDynamicPressurePart</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_i_b_a_m_r_1_1_i_b_f_e_method.html#ac82c2e77d3c5a13f4b9b398c81d2a703">IBAMR::IBFEMethod</a>.</p>
 
@@ -1643,7 +1769,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The <a class="el" href="namespacelib_mesh.html">libMesh</a> Systems set up by this system (for example, for velocity projection) consist of one variable per spatial component. By default, <a class="el" href="namespacelib_mesh.html">libMesh</a> assumes that all variables in a given System couple to eachother which, since we only ever solve projection problems in this class, is not the case. Hence we can save some memory by explicitly informing <a class="el" href="namespacelib_mesh.html">libMesh</a> that the variables in a system only couple to themselves by providing a diagonal coupling matrix to each System. </p>
+<p>The <a class="el" href="namespacelib_mesh.html">libMesh</a> Systems set up by this system (for example, for velocity projection) consist of one variable per spatial component. By default, <a class="el" href="namespacelib_mesh.html">libMesh</a> assumes that all variables in a given System couple to each other which, since we only ever solve projection problems in this class, is not the case. Hence we can save some memory by explicitly informing <a class="el" href="namespacelib_mesh.html">libMesh</a> that the variables in a system only couple to themselves by providing a diagonal coupling matrix to each System. </p>
 
 </div>
 </div>
@@ -1665,6 +1791,27 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 </table>
 </div><div class="memdoc">
 <p>Indicates whether the integrator should output logging messages. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0aeaa3c6538ec86103a924114e4896c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::FEMechanicsBase::d_dynamic_pressure_kappa = 0.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Data related to handling dynamic pressures. </p>
 
 </div>
 </div>
@@ -1770,6 +1917,27 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 </table>
 </div><div class="memdoc">
 <p>Method parameters. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2f1716ee970c4af06c105a6c5738fd3c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a>&gt; IBAMR::FEMechanicsBase::d_fe_projector_db</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Cached input databases. </p>
 
 </div>
 </div>
@@ -2095,7 +2263,7 @@ unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_res
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 16 2020 16:56:26 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Dec 21 2020 19:38:12 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
