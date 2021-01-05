@@ -650,6 +650,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>IndexFortranOrder</b
 <tr class="memitem:a98bbac2eaf9010f28398d4c6a27cef96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98bbac2eaf9010f28398d4c6a27cef96"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>CellIndexFortranOrder</b> = struct <a class="el" href="struct_i_b_t_k_1_1_index_order.html">IndexOrder</a>&lt; <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag:../../samrai/2.4.4/html/" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellIndex.html">SAMRAI::pdat::CellIndex</a>&lt; NDIM &gt; &gt;</td></tr>
 <tr class="separator:a98bbac2eaf9010f28398d4c6a27cef96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dcbdcaac090060b5a4ee6d10120911b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8dcbdcaac090060b5a4ee6d10120911b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>quadrature_key_type</b> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order, bool &gt;</td></tr>
+<tr class="separator:a8dcbdcaac090060b5a4ee6d10120911b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f04732f2606c4a49ff92ca5b3c514b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f04732f2606c4a49ff92ca5b3c514b9"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>ScalarMeshFcnPtr</b> = void(*)(double &amp;F, const libMesh::TensorValue&lt; double &gt; &amp;FF, const libMesh::Point &amp;x, const libMesh::Point &amp;X, libMesh::Elem *elem, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; double &gt; * &gt; &amp;system_var_data, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMesh::VectorValue&lt; double &gt; &gt; * &gt; &amp;system_grad_var_data, double data_time, void *ctx)</td></tr>
 <tr class="separator:a3f04732f2606c4a49ff92ca5b3c514b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -929,8 +932,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>batch_vec_ghost_updat
 <tr class="separator:a4cf0ebd2eaf6f0e5da22eb24321914c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a6e1b936ae530a4aacdc032c8edbb3475">apply_transposed_constraint_matrix</a> (const libMesh::DofMap &amp;dof_map, libMesh::PetscVector&lt; double &gt; &amp;rhs)</td></tr>
 <tr class="separator:a6e1b936ae530a4aacdc032c8edbb3475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60d5a97f333088f598958c116655068"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#af60d5a97f333088f598958c116655068">getQuadratureKey</a> (const libMesh::QuadratureType quad_type, libMesh::Order order, const bool use_adaptive_quadrature, const double point_density, const libMesh::Elem *const elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, const double dx_min)</td></tr>
-<tr class="separator:af60d5a97f333088f598958c116655068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a492518a5170b5fa7e076f6634a7a935b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">quadrature_key_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a492518a5170b5fa7e076f6634a7a935b">getQuadratureKey</a> (libMesh::QuadratureType quad_type, libMesh::Order order, bool use_adaptive_quadrature, double point_density, bool allow_rules_with_negative_weights, const libMesh::Elem *elem, const boost::multi_array&lt; double, 2 &gt; &amp;X_node, double dx_min)</td></tr>
+<tr class="separator:a492518a5170b5fa7e076f6634a7a935b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed5aca02cba73e5d78468ef40470e7d"><td class="memTemplParams" colspan="2">template&lt;class MultiArray , class Array &gt; </td></tr>
 <tr class="memitem:abed5aca02cba73e5d78468ef40470e7d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#abed5aca02cba73e5d78468ef40470e7d">get_values_for_interpolation</a> (MultiArray &amp;U_node, const libMesh::PetscVector&lt; double &gt; &amp;U_petsc_vec, const Array &amp;U_local_soln, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; unsigned int &gt; &amp;dof_indices)</td></tr>
 <tr class="separator:abed5aca02cba73e5d78468ef40470e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -991,8 +994,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>intersect_line_with_f
 <tr class="separator:aceed8ef2e29cf7a38d720d5418751e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a07ede2ffd0f710fcf1b00c933cdc4da8">write_node_partitioning</a> (const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01512.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a> &amp;file_name, const libMesh::System &amp;position_system)</td></tr>
 <tr class="separator:a07ede2ffd0f710fcf1b00c933cdc4da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20213424de99aca6b976224bf17c77e1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a20213424de99aca6b976224bf17c77e1">get_local_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system, const libMesh::QuadratureType quad_type, const libMesh::Order quad_order, const bool use_adaptive_quadrature, const double point_density, const double patch_dx_min)</td></tr>
-<tr class="separator:a20213424de99aca6b976224bf17c77e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21576ab2dd27edd3cda014b66c6d92a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#af21576ab2dd27edd3cda014b66c6d92a">get_local_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system, libMesh::QuadratureType quad_type, libMesh::Order quad_order, bool use_adaptive_quadrature, double point_density, bool allow_rules_with_negative_weights, double patch_dx_min)</td></tr>
+<tr class="separator:af21576ab2dd27edd3cda014b66c6d92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87e1b23efff7abb15fbfd89896fb9604"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a87e1b23efff7abb15fbfd89896fb9604">get_local_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const libMesh::System &amp;X_system)</td></tr>
 <tr class="separator:a87e1b23efff7abb15fbfd89896fb9604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a894055678a38538bbd74ba497090fad5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_i_b_t_k.html#a894055678a38538bbd74ba497090fad5">get_global_element_bounding_boxes</a> (const libMesh::MeshBase &amp;mesh, const <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06912.html">std::vector</a>&lt; libMeshWrappers::BoundingBox &gt; &amp;local_bboxes)</td></tr>
@@ -1332,7 +1335,7 @@ Do assembly a second time (i.e., again with VecGhostUpdateBegin() and VecGhostUp
 
 </div>
 </div>
-<a class="anchor" id="a20213424de99aca6b976224bf17c77e1"></a>
+<a class="anchor" id="af21576ab2dd27edd3cda014b66c6d92a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1351,31 +1354,37 @@ Do assembly a second time (i.e., again with VecGhostUpdateBegin() and VecGhostUp
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const libMesh::QuadratureType&#160;</td>
+          <td class="paramtype">libMesh::QuadratureType&#160;</td>
           <td class="paramname"><em>quad_type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const libMesh::Order&#160;</td>
+          <td class="paramtype">libMesh::Order&#160;</td>
           <td class="paramname"><em>quad_order</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const bool&#160;</td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>use_adaptive_quadrature</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>point_density</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow_rules_with_negative_weights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>patch_dx_min</em>&#160;</td>
         </tr>
         <tr>
@@ -1769,14 +1778,14 @@ template&lt;class MultiArray_1 , class MultiArray_2 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af60d5a97f333088f598958c116655068"></a>
+<a class="anchor" id="a492518a5170b5fa7e076f6634a7a935b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt; IBTK::getQuadratureKey </td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">quadrature_key_type</a> IBTK::getQuadratureKey </td>
           <td>(</td>
-          <td class="paramtype">const libMesh::QuadratureType&#160;</td>
+          <td class="paramtype">libMesh::QuadratureType&#160;</td>
           <td class="paramname"><em>quad_type</em>, </td>
         </tr>
         <tr>
@@ -1788,19 +1797,25 @@ template&lt;class MultiArray_1 , class MultiArray_2 &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const bool&#160;</td>
+          <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>use_adaptive_quadrature</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>point_density</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const libMesh::Elem *const&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>allow_rules_with_negative_weights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const libMesh::Elem *&#160;</td>
           <td class="paramname"><em>elem</em>, </td>
         </tr>
         <tr>
@@ -1812,7 +1827,7 @@ template&lt;class MultiArray_1 , class MultiArray_2 &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>dx_min</em>&#160;</td>
         </tr>
         <tr>
@@ -1829,13 +1844,14 @@ template&lt;class MultiArray_1 , class MultiArray_2 &gt; </div>
     <tr><td class="paramdir">[in]</td><td class="paramname">order</td><td>The order of the quadrature rule.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">use_adaptive_quadrature</td><td>Whether or not the element data should be read (and <code>order</code> possibly modified) to get the correct quadrature point spacing.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">point_density</td><td>Parameter for computing the number of points in the quadrature rule. The number of points is computed as <code>ceil(point_density * hmax / dx_min)</code>, where <code>hmax</code> is the maximum edge length of the deformed element (i.e., with nodal coordinates given by <code>X_node</code>).</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">allow_rules_with_negative_weights</td><td>Whether the quadrature rule is allowed to have any negative weights.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">elem</td><td>The <a class="el" href="namespacelib_mesh.html">libMesh</a> element. The quadrature rule generated by this function will always have enough points to integrate the basis functions defined on the element exactly.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">X_node</td><td>Values of <code>elem's</code> shape functions of the structure location field (i.e., X): for interpolatory finite elements (e.g., libMesh::LAGRANGE) these the actual coordinates of the node (since shape functions will either be one or zero at nodes). <code>X_node</code> is assumed to be a two-dimensional array whose rows correspond to node number and whose columns correspond to x, y, and (in 3D) z coordinates.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">dx_min</td><td>See <code>point_density</code>.</td></tr>
   </table>
   </dd>
 </dl>
-<p><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#abe6333c87d4963f084def902e654e5e7">FEDataManager::updateQuadratureRule</a>. </p>
+<p><a class="el" href="class_i_b_t_k_1_1_f_e_data_manager.html#a08a285341def63afb598bec5650ec590">FEDataManager::updateQuadratureRule</a>. </p>
 
 </div>
 </div>
@@ -2678,7 +2694,7 @@ template&lt;int n_vars, int n_basis, bool weights_are_unity = false&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 4 2021 17:52:17 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 5 2021 18:21:55 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

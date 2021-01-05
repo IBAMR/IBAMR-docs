@@ -105,8 +105,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a79d0221dd55dbb7f76c1b67e5c7291f4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a79d0221dd55dbb7f76c1b67e5c7291f4">key_type</a> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt; libMesh::ElemType, libMesh::QuadratureType, libMesh::Order &gt;</td></tr>
-<tr class="separator:a79d0221dd55dbb7f76c1b67e5c7291f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c92bbec72162f84f6d6d55aef0a1ce5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a2c92bbec72162f84f6d6d55aef0a1ce5">key_type</a> = <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">quadrature_key_type</a></td></tr>
+<tr class="separator:a2c92bbec72162f84f6d6d55aef0a1ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d7827617601ea03e53d4246f2ce7efa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a4d7827617601ea03e53d4246f2ce7efa">value_type</a> = <a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">FEMapping</a>&lt; dim, spacedim &gt;</td></tr>
 <tr class="separator:a4d7827617601ea03e53d4246f2ce7efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -114,7 +114,7 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a835688172bb320f84af2a200c4531cb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a835688172bb320f84af2a200c4531cb8">FEMappingCache</a> (const <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a> update_flags)</td></tr>
 <tr class="separator:a835688172bb320f84af2a200c4531cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb5f4850277b0ccea87ae1898f8fd942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a4d7827617601ea03e53d4246f2ce7efa">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#afb5f4850277b0ccea87ae1898f8fd942">operator[]</a> (const <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a79d0221dd55dbb7f76c1b67e5c7291f4">key_type</a> &amp;quad_key)</td></tr>
+<tr class="memitem:afb5f4850277b0ccea87ae1898f8fd942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a4d7827617601ea03e53d4246f2ce7efa">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#afb5f4850277b0ccea87ae1898f8fd942">operator[]</a> (const <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a2c92bbec72162f84f6d6d55aef0a1ce5">key_type</a> &amp;quad_key)</td></tr>
 <tr class="separator:afb5f4850277b0ccea87ae1898f8fd942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32cdf277e84f98c80396681e03e482a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a32cdf277e84f98c80396681e03e482a0">clear</a> ()</td></tr>
 <tr class="separator:a32cdf277e84f98c80396681e03e482a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,7 +123,7 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a296d7c263e0b9f8611569d30d067f5ff"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_i_b_t_k.html#ae8048f832efc6a3000180a8b59de9091">FEUpdateFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a296d7c263e0b9f8611569d30d067f5ff">d_update_flags</a></td></tr>
 <tr class="separator:a296d7c263e0b9f8611569d30d067f5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d39b24b4dea25fac46fc41ee4c61f7c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a79d0221dd55dbb7f76c1b67e5c7291f4">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">FEMapping</a>&lt; dim, spacedim &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a9d39b24b4dea25fac46fc41ee4c61f7c">d_mappings</a></td></tr>
+<tr class="memitem:a9d39b24b4dea25fac46fc41ee4c61f7c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a2c92bbec72162f84f6d6d55aef0a1ce5">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">FEMapping</a>&lt; dim, spacedim &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a9d39b24b4dea25fac46fc41ee4c61f7c">d_mappings</a></td></tr>
 <tr class="separator:a9d39b24b4dea25fac46fc41ee4c61f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -133,14 +133,14 @@ class IBTK::FEMappingCache&lt; dim, spacedim &gt;</h3>
 <p>Class storing multiple <a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">IBTK::FEMapping</a> objects. We assume that quadrature rules are uniquely determined by the element type, quadrature type, and approximation order. There are several places in <a class="el" href="namespace_i_b_t_k.html">IBTK</a> where we make this assumption, e.g., we will use data from two quadrature rules assumed to be equal (by this metric) to initialize different <a class="el" href="namespacelib_mesh.html">libMesh</a> objects. </p>
 <p>This class essentially provides a wrapper around <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a> to manage <a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">IBTK::FEMapping</a> (and classes inheriting from it) objects. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a79d0221dd55dbb7f76c1b67e5c7291f4"></a>
+<a class="anchor" id="a2c92bbec72162f84f6d6d55aef0a1ce5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;int dim, int spacedim = dim&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html">IBTK::FEMappingCache</a>&lt; dim, spacedim &gt;::<a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a79d0221dd55dbb7f76c1b67e5c7291f4">key_type</a> =  <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">std::tuple</a>&lt;libMesh::ElemType, libMesh::QuadratureType, libMesh::Order&gt;</td>
+          <td class="memname">using <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html">IBTK::FEMappingCache</a>&lt; dim, spacedim &gt;::<a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a2c92bbec72162f84f6d6d55aef0a1ce5">key_type</a> =  <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a02996.html">quadrature_key_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -222,7 +222,7 @@ template&lt;int dim, int spacedim = dim&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html">FEMappingCache</a>&lt; dim, spacedim &gt;::<a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a4d7827617601ea03e53d4246f2ce7efa">value_type</a> &amp; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html">IBTK::FEMappingCache</a>&lt; dim, spacedim &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a79d0221dd55dbb7f76c1b67e5c7291f4">key_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a2c92bbec72162f84f6d6d55aef0a1ce5">key_type</a> &amp;&#160;</td>
           <td class="paramname"><em>quad_key</em></td><td>)</td>
           <td></td>
         </tr>
@@ -254,7 +254,7 @@ template&lt;int dim, int spacedim = dim&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a79d0221dd55dbb7f76c1b67e5c7291f4">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">FEMapping</a>&lt;dim, spacedim&gt; &gt; &gt; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html">IBTK::FEMappingCache</a>&lt; dim, spacedim &gt;::d_mappings</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06720.html">std::map</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html#a2c92bbec72162f84f6d6d55aef0a1ce5">key_type</a>, <a class="elRef" doxygen="/home/travis/build/IBAMR/IBAMR/doc/libstdc++.tag:http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a06956.html">std::unique_ptr</a>&lt;<a class="el" href="class_i_b_t_k_1_1_f_e_mapping.html">FEMapping</a>&lt;dim, spacedim&gt; &gt; &gt; <a class="el" href="class_i_b_t_k_1_1_f_e_mapping_cache.html">IBTK::FEMappingCache</a>&lt; dim, spacedim &gt;::d_mappings</td>
         </tr>
       </table>
   </td>
@@ -296,7 +296,7 @@ template&lt;int dim, int spacedim = dim&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 4 2021 17:52:18 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 5 2021 18:21:56 for IBAMR by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
