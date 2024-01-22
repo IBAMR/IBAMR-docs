@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['indexdata_8114',['IndexData',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexDataNode.html#704d65a065aa0f1a47a3b237659feb09',1,'SAMRAI::pdat::IndexDataNode::IndexData()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexIterator.html#704d65a065aa0f1a47a3b237659feb09',1,'SAMRAI::pdat::IndexIterator::IndexData()']]],
-  ['indexiterator_8115',['IndexIterator',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexData.html#0a04c5e0dc057d536f5669ccf78e4676',1,'SAMRAI::pdat::IndexData::IndexIterator()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexDataNode.html#0a04c5e0dc057d536f5669ccf78e4676',1,'SAMRAI::pdat::IndexDataNode::IndexIterator()']]]
+  ['has_5ffacet_15109',['has_facet',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05991.html#ad5bc3cddb6bb375329682cb211ba0441',1,'std::locale::id::has_facet()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05983.html#ad5bc3cddb6bb375329682cb211ba0441',1,'std::locale::has_facet()']]]
 ];

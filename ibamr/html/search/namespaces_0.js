@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['algs_4378',['algs',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1algs.html',1,'SAMRAI']]],
-  ['appu_4379',['appu',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1appu.html',1,'SAMRAI']]],
-  ['geom_4380',['geom',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1geom.html',1,'SAMRAI']]],
-  ['hier_4381',['hier',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1hier.html',1,'SAMRAI']]],
-  ['math_4382',['math',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1math.html',1,'SAMRAI']]],
-  ['mesh_4383',['mesh',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1mesh.html',1,'SAMRAI']]],
-  ['pdat_4384',['pdat',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1pdat.html',1,'SAMRAI']]],
-  ['samrai_4385',['SAMRAI',['../../../samrai/2.4.4/html/namespaceSAMRAI.html',1,'']]],
-  ['solv_4386',['solv',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1solv.html',1,'SAMRAI']]],
-  ['std_4387',['std',['../../../samrai/2.4.4/html/namespacestd.html',1,'']]],
-  ['tbox_4388',['tbox',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1tbox.html',1,'SAMRAI']]],
-  ['xfer_4389',['xfer',['../../../samrai/2.4.4/html/namespaceSAMRAI_1_1xfer.html',1,'SAMRAI']]]
+  ['_5f_5fcxxabiv1_8893',['__cxxabiv1',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05611.html',1,'']]],
+  ['_5f_5fdetail_8894',['__detail',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01669.html',1,'__gnu_cxx']]],
+  ['_5f_5fgnu_5fcxx_8895',['__gnu_cxx',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01668.html',1,'']]],
+  ['_5f_5fgnu_5fdebug_8896',['__gnu_debug',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01696.html',1,'']]],
+  ['_5f_5fgnu_5finternal_8897',['__gnu_internal',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01670.html',1,'']]],
+  ['_5f_5fgnu_5fparallel_8898',['__gnu_parallel',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01713.html',1,'']]],
+  ['_5f_5fgnu_5fpbds_8899',['__gnu_pbds',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01734.html',1,'']]],
+  ['_5f_5fgnu_5fsequential_8900',['__gnu_sequential',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01714.html',1,'']]],
+  ['_5flosertreebase_8901',['_LoserTreeBase',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09911.html',1,'__gnu_parallel']]],
+  ['_5flosertreepointerbase_8902',['_LoserTreePointerBase',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09927.html',1,'__gnu_parallel']]],
+  ['detail_8903',['detail',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a13295.html',1,'__gnu_pbds']]],
+  ['limit_5fcondition_8904',['limit_condition',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a12107.html',1,'__gnu_cxx']]],
+  ['ov_5ftree_5fmap_8905',['ov_tree_map',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a13231.html',1,'__gnu_pbds::detail']]],
+  ['pat_5ftrie_5fbase_8906',['pat_trie_base',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a13295.html',1,'__gnu_pbds::detail']]],
+  ['random_5fcondition_8907',['random_condition',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a12131.html',1,'__gnu_cxx']]],
+  ['typelist_8908',['typelist',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01732.html',1,'__gnu_cxx']]]
 ];

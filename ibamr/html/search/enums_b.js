@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['streammode_8112',['StreamMode',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1FileStream.html#cda3f06dbe58980c084a9bac62b23518',1,'SAMRAI::tbox::FileStream::StreamMode()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1MessageStream.html#17874a3aabaea0d0fe1a1d5e0fb3d63b',1,'SAMRAI::tbox::MessageStream::StreamMode()']]]
+  ['node_5ftype_15026',['node_type',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a13259.html#a3df5e43907830910e3ce34d411088940',1,'__gnu_pbds::detail::pat_trie_base::node_type()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a13259.html#a3df5e43907830910e3ce34d411088940',1,'__gnu_pbds::detail::pat_trie_map::node_type()']]],
+  ['node_5ftype_15027',['NODE_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryDefines.html#163759bec09cec3db134daaa6004f713',1,'SAMRAI::appu::EmbeddedBoundaryDefines::NODE_TYPE()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryGeometry.html#b021888e318c696d9deca59ec102eac6',1,'SAMRAI::appu::EmbeddedBoundaryGeometry::NODE_TYPE()']]]
 ];
