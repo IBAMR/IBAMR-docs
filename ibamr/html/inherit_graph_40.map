@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_box_partitioner.html" title="A libMesh partitioner that partitions a mesh based on PartitioningBox objects owned by each processor..." alt="" coords="166,5,309,32"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_stable_centroid_partitioner.html" title="A libMesh partitioner that partitions a mesh based on the x coordinate of each centroid in a numerica..." alt="" coords="135,56,340,83"/>
-</map>
