@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['outeredge_20patch_20data_8172',['Outeredge Patch Data',['../../../samrai/2.4.4/html/package_patchdata_outeredge.html',1,'']]],
-  ['outerface_20patch_20data_8173',['Outerface Patch Data',['../../../samrai/2.4.4/html/package_patchdata_outerface.html',1,'']]],
-  ['outernode_20data_20constant_20operators_8174',['Outernode Data Constant Operators',['../../../samrai/2.4.4/html/package_patchdata_operators_constant_outernode.html',1,'']]],
-  ['outernode_20patch_20data_8175',['Outernode Patch Data',['../../../samrai/2.4.4/html/package_patchdata_outernode.html',1,'']]],
-  ['outerside_20patch_20data_8176',['Outerside Patch Data',['../../../samrai/2.4.4/html/package_patchdata_outerside.html',1,'']]]
+  ['node_20patch_20data',['Node Patch Data',['../../../samrai/2.4.4/html/package_patchdata_node.html',1,'']]],
+  ['nonlinear_20solver',['Nonlinear solver',['../../../samrai/2.4.4/html/package_solvers_nonlinear.html',1,'']]]
 ];

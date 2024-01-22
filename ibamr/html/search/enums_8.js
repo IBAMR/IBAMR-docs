@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ownermode_8108',['OwnerMode',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#fab20a2c874a9b9f2362b4bb68a27b56',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]]
+  ['jobstate',['JobState',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RelaunchableJob.html#6ce670ebbc08220a5eada460d10cd78c',1,'SAMRAI::tbox::RelaunchableJob']]]
 ];

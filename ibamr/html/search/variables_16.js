@@ -1,16 +1,8 @@
 var searchData=
 [
-  ['y_8059',['Y',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1EdgeIndex.html#3f73838539fc36ceebd627cefdf30ddeded9c469003484303d5c9b9966440204',1,'SAMRAI::pdat::EdgeIndex::Y()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1FaceIndex.html#56254dd63766a45921b1e285289bcef1c9214cf2cbcb0ab175889ba9170b9e36',1,'SAMRAI::pdat::FaceIndex::Y()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1SideIndex.html#36c5a92ae5b55ae6dd26d5fc795cc706858e29e92ff55ca4698297a7175aab6f',1,'SAMRAI::pdat::SideIndex::Y()']]],
-  ['yy_5fat_5fbol_8060',['yy_at_bol',['../../../samrai/2.4.4/html/structyy__buffer__state.html#9d60c60af6e1a6f69de16871fd64f85f',1,'yy_buffer_state']]],
-  ['yy_5fbuf_5fpos_8061',['yy_buf_pos',['../../../samrai/2.4.4/html/structyy__buffer__state.html#58aa927f098b99d99e75da80f9b681ef',1,'yy_buffer_state']]],
-  ['yy_5fbuf_5fsize_8062',['yy_buf_size',['../../../samrai/2.4.4/html/structyy__buffer__state.html#48302f5f3477a9c78bbddf56d356ef54',1,'yy_buffer_state']]],
-  ['yy_5fbuffer_5fstatus_8063',['yy_buffer_status',['../../../samrai/2.4.4/html/structyy__buffer__state.html#70fd925d37a2f0454fbd0def675d106c',1,'yy_buffer_state']]],
-  ['yy_5fch_5fbuf_8064',['yy_ch_buf',['../../../samrai/2.4.4/html/structyy__buffer__state.html#d7b8df8d8a4688e57b0b8d3ca75adc85',1,'yy_buffer_state']]],
-  ['yy_5ffill_5fbuffer_8065',['yy_fill_buffer',['../../../samrai/2.4.4/html/structyy__buffer__state.html#63d2afbb1d79a3fc63df9e12626f827d',1,'yy_buffer_state']]],
-  ['yy_5finput_5ffile_8066',['yy_input_file',['../../../samrai/2.4.4/html/structyy__buffer__state.html#4843d1422e3276b636d475a3095bd948',1,'yy_buffer_state']]],
-  ['yy_5fis_5finteractive_8067',['yy_is_interactive',['../../../samrai/2.4.4/html/structyy__buffer__state.html#bf5c70eea75581b58c0ee7bd31b14490',1,'yy_buffer_state']]],
-  ['yy_5fis_5four_5fbuffer_8068',['yy_is_our_buffer',['../../../samrai/2.4.4/html/structyy__buffer__state.html#80ce2431c70dc4f89ced487f18449465',1,'yy_buffer_state']]],
-  ['yy_5fn_5fchars_8069',['yy_n_chars',['../../../samrai/2.4.4/html/structyy__buffer__state.html#06406208824817acfec2183b79080945',1,'yy_buffer_state']]],
-  ['yyss_8070',['yyss',['../../../samrai/2.4.4/html/unionyyalloc.html#0aedfeff0ed4542f957821a4474d8d2a',1,'yyalloc']]],
-  ['yyvs_8071',['yyvs',['../../../samrai/2.4.4/html/unionyyalloc.html#9494cc8d8cd0eba1b44ca20fe89de5d2',1,'yyalloc']]]
+  ['value',['value',['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1Statistic_1_1PatchStatRecord.html#0e0e45ef8b023475968ed951aab73990',1,'SAMRAI::tbox::Statistic::PatchStatRecord::value()'],['../../../samrai/2.4.4/html/structSAMRAI_1_1tbox_1_1Statistic_1_1ProcStat.html#9f8593b02710cc39508659bcbcbfd3c5',1,'SAMRAI::tbox::Statistic::ProcStat::value()']]],
+  ['vel_5fdata_5fname',['VEL_DATA_NAME',['../class_i_b_t_k_1_1_l_data_manager.html#a04e7f66b3437a4b69237fef346348ad6',1,'IBTK::LDataManager']]],
+  ['visit_5fallone',['VISIT_ALLONE',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html#e828832a338243edaf88517027ea7c81ae5481bc876508a18facc0bbf5605e0d',1,'SAMRAI::appu::VisMaterialsDataStrategy']]],
+  ['visit_5fallzero',['VISIT_ALLZERO',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html#e828832a338243edaf88517027ea7c81e0dc861bba1bca0d4a7d1602b2686347',1,'SAMRAI::appu::VisMaterialsDataStrategy']]],
+  ['visit_5fmixed',['VISIT_MIXED',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html#e828832a338243edaf88517027ea7c813289f7b93460ae282a3f8d98da3f9f26',1,'SAMRAI::appu::VisMaterialsDataStrategy']]]
 ];

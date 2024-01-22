@@ -1,0 +1,8 @@
+<map id="IBAMR::IBFEMethod" name="IBAMR::IBFEMethod">
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_f_e_mechanics_base.html" title="Class FEMechanicsBase provides core finite element mechanics functionality and data management..." alt="" coords="225,200,408,227"/>
+<area shape="rect" id="node3" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title="SAMRAI::tbox::Serializable" alt="" coords="225,117,408,143"/>
+<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="67,200,201,227"/>
+<area shape="rect" id="node4" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classtbox_1_1DescribedClass.html" title="tbox::DescribedClass" alt="" coords="243,13,391,39"/>
+<area shape="rect" id="node6" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title="SAMRAI::mesh::StandardTag\lAndInitStrategy\&lt; NDIM \&gt;" alt="" coords="5,109,201,151"/>
+<area shape="rect" id="node7" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title="SAMRAI::mesh::StandardTag\lAndInitStrategy\&lt; DIM \&gt;" alt="" coords="5,5,201,47"/>
+</map>

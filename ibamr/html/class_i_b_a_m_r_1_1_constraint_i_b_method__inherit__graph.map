@@ -1,0 +1,9 @@
+<map id="IBAMR::ConstraintIBMethod" name="IBAMR::ConstraintIBMethod">
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="167,352,296,379"/>
+<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_i_b_implicit_strategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="143,276,320,303"/>
+<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="164,200,299,227"/>
+<area shape="rect" id="node5" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title="SAMRAI::mesh::StandardTag\lAndInitStrategy\&lt; NDIM \&gt;" alt="" coords="5,109,201,151"/>
+<area shape="rect" id="node6" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title="SAMRAI::mesh::StandardTag\lAndInitStrategy\&lt; DIM \&gt;" alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node7" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title="SAMRAI::tbox::Serializable" alt="" coords="225,117,408,143"/>
+<area shape="rect" id="node8" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classtbox_1_1DescribedClass.html" title="tbox::DescribedClass" alt="" coords="243,13,391,39"/>
+</map>

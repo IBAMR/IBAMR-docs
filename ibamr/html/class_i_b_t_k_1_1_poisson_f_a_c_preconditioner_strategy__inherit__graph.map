@@ -1,0 +1,8 @@
+<map id="IBTK::PoissonFACPreconditionerStrategy" name="IBTK::PoissonFACPreconditionerStrategy">
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_c_c_poisson_box_relaxation_f_a_c_operator.html" title="Class CCPoissonBoxRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving el..." alt="" coords="704,5,916,47"/>
+<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_c_c_poisson_level_relaxation_f_a_c_operator.html" title="Class CCPoissonLevelRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ..." alt="" coords="700,71,920,112"/>
+<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_c_c_poisson_point_relaxation_f_a_c_operator.html" title="Class CCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ..." alt="" coords="701,136,919,177"/>
+<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ..." alt="" coords="701,201,919,243"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem&#45;specific operations ..." alt="" coords="168,111,387,138"/>
+<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_op_point_relaxation_f_a_c_operator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera..." alt="" coords="968,201,1160,243"/>
+</map>
