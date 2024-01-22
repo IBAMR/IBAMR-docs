@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hierarchy_20data_20operation_20base_20classes_15246',['Hierarchy Data Operation Base Classes',['../../../samrai/2.4.4/html/package_mathops_hierarchy.html',1,'']]],
-  ['hyperbolic_20conservation_20law_20integration_15247',['Hyperbolic Conservation Law Integration',['../../../samrai/2.4.4/html/package_algorithm_hyperbolic.html',1,'']]]
+  ['generic_20database_20support_19378',['Generic Database Support',['../../../samrai/2.4.4/html/package_toolbox_database.html',1,'']]]
 ];

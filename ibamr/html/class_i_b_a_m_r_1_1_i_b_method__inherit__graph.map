@@ -1,0 +1,13 @@
+<map id="IBAMR::IBMethod" name="IBAMR::IBMethod">
+<area shape="rect" id="node1" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="1029,81,1164,108"/>
+<area shape="rect" id="node8" href="$class_i_b_a_m_r_1_1_c_i_b_method.html" title="Class CIBMethod is a concrete CIBStrategy and IBMethod class which implements the motion of rigid bod..." alt="" coords="1248,5,1392,32"/>
+<area shape="rect" id="node9" href="$class_i_b_a_m_r_1_1_constraint_i_b_method.html" title="Class ConstraintIBMethod implements the rigidity constraint for rigid and deforming bodies using the ..." alt="" coords="1219,56,1421,83"/>
+<area shape="rect" id="node10" href="$class_i_b_a_m_r_1_1_generalized_i_b_method.html" title="Class GeneralizedIBMethod is an extension of class IBMethod that provides functionality required by t..." alt="" coords="1213,107,1427,133"/>
+<area shape="rect" id="node11" href="$class_i_b_a_m_r_1_1_penalty_i_b_method.html" title="Class PenaltyIBMethod is an implementation of the abstract base class IBStrategy that provides functi..." alt="" coords="1228,157,1412,184"/>
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_i_b_implicit_strategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="789,81,980,108"/>
+<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="599,81,740,108"/>
+<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="343,43,549,85"/>
+<area shape="rect" id="node5" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="11,43,218,85"/>
+<area shape="rect" id="node6" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="349,109,543,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,109,224,136"/>
+</map>

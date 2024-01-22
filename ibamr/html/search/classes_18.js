@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['xdr_8888',['XDR',['../../../samrai/2.4.4/html/structXDR.html',1,'']]],
-  ['xdrstream_8889',['XDRStream',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1XDRStream.html',1,'SAMRAI::tbox']]]
+  ['xdr_11532',['XDR',['../../../samrai/2.4.4/html/structXDR.html',1,'']]],
+  ['xdrstream_11533',['XDRStream',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1XDRStream.html',1,'SAMRAI::tbox']]],
+  ['xspringspec_11534',['XSpringSpec',['../struct_i_b_a_m_r_1_1_i_b_redundant_initializer_1_1_x_spring_spec.html',1,'IBAMR::IBRedundantInitializer']]]
 ];
