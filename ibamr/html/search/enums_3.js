@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['datatype',['DataType',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html#77ab7a307331e041363ac40d97e14554',1,'SAMRAI::tbox::Database']]]
+  ['hyp_5fvar_5ftype_8103',['HYP_VAR_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html#2b942773b6adae963741add627777f4d',1,'SAMRAI::algs::HyperbolicLevelIntegrator']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['indexdata',['IndexData',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexDataNode.html#704d65a065aa0f1a47a3b237659feb09',1,'SAMRAI::pdat::IndexDataNode::IndexData()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexIterator.html#704d65a065aa0f1a47a3b237659feb09',1,'SAMRAI::pdat::IndexIterator::IndexData()']]],
-  ['indexiterator',['IndexIterator',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexData.html#0a04c5e0dc057d536f5669ccf78e4676',1,'SAMRAI::pdat::IndexData::IndexIterator()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1IndexDataNode.html#0a04c5e0dc057d536f5669ccf78e4676',1,'SAMRAI::pdat::IndexDataNode::IndexIterator()']]]
+  ['stagedgroup_8122',['StagedGroup',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1AsyncCommStage.html#bd8193bd78625cb42940385c4982c7b5',1,'SAMRAI::tbox::AsyncCommStage']]],
+  ['statistician_8123',['Statistician',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Statistic.html#0fbf7d2e506f52d934addc74ed59843a',1,'SAMRAI::tbox::Statistic::Statistician()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1StatisticRestartDatabase.html#0fbf7d2e506f52d934addc74ed59843a',1,'SAMRAI::tbox::StatisticRestartDatabase::Statistician()']]],
+  ['statisticrestartdatabase_8124',['StatisticRestartDatabase',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Statistician.html#28427759aee8640b06292903cbb217d9',1,'SAMRAI::tbox::Statistician']]]
 ];

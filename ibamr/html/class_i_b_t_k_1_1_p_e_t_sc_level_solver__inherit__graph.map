@@ -1,8 +1,0 @@
-<map id="IBTK::PETScLevelSolver" name="IBTK::PETScLevelSolver">
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_staggered_stokes_p_e_t_sc_level_solver.html" title="Class StaggeredStokesPETScLevelSolver is a concrete PETScLevelSolver for a staggered&#45;grid (MAC) discr..." alt="" coords="757,5,972,47"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_c_c_poisson_p_e_t_sc_level_solver.html" title="Class CCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ..." alt="" coords="765,71,965,112"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_s_c_poisson_p_e_t_sc_level_solver.html" title="Class SCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ..." alt="" coords="765,136,964,177"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="359,78,491,105"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="168,78,311,105"/>
-<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_p_e_t_sc_level_solver.html" title="Class VCSCViscousPETScLevelSolver is a subclass of SCPoissonPETScLevelSolver class which solves vecto..." alt="" coords="1020,136,1239,177"/>
-</map>

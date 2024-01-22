@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iotype',['IOTYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1BoxIOUtility.html#3a3f501e437689da316de5c0c8f687d8',1,'SAMRAI::hier::BoxIOUtility']]]
+  ['node_5ftype_8107',['NODE_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryDefines.html#163759bec09cec3db134daaa6004f713',1,'SAMRAI::appu::EmbeddedBoundaryDefines::NODE_TYPE()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryGeometry.html#b021888e318c696d9deca59ec102eac6',1,'SAMRAI::appu::EmbeddedBoundaryGeometry::NODE_TYPE()']]]
 ];

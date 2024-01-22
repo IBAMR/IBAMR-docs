@@ -1,6 +1,0 @@
-<map id="IBTK::LDataManager" name="IBTK::LDataManager">
-<area shape="rect" id="node2" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title="SAMRAI::tbox::Serializable" alt="" coords="5,117,188,143"/>
-<area shape="rect" id="node3" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classtbox_1_1DescribedClass.html" title="tbox::DescribedClass" alt="" coords="23,13,171,39"/>
-<area shape="rect" id="node4" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title="SAMRAI::mesh::StandardTag\lAndInitStrategy\&lt; NDIM \&gt;" alt="" coords="212,109,408,151"/>
-<area shape="rect" id="node5" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title="SAMRAI::mesh::StandardTag\lAndInitStrategy\&lt; DIM \&gt;" alt="" coords="212,5,408,47"/>
-</map>

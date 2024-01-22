@@ -1,6 +1,0 @@
-<map id="IBAMR::INSVCStaggeredPressureBcCoef" name="IBAMR::INSVCStaggeredPressureBcCoef">
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_stokes_bc_coef_strategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="15,291,222,317"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="22,200,215,241"/>
-<area shape="rect" id="node4" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="SAMRAI::solv::RobinBcCoef\lStrategy\&lt; NDIM \&gt;" alt="" coords="23,109,215,151"/>
-<area shape="rect" id="node5" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="SAMRAI::solv::RobinBcCoef\lStrategy\&lt; DIM \&gt;" alt="" coords="23,5,215,47"/>
-</map>

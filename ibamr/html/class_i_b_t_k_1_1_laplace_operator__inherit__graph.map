@@ -1,7 +1,0 @@
-<map id="IBTK::LaplaceOperator" name="IBTK::LaplaceOperator">
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_c_c_laplace_operator.html" title="Class CCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="5,304,180,331"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_s_c_laplace_operator.html" title="Class SCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="204,304,379,331"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_linear_operator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="119,155,264,181"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="114,80,269,107"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_operator.html" title="Class VCSCViscousOperator is a subclass of SCLaplaceOperator which implements a globally second&#45;order..." alt="" coords="194,379,389,405"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="IBAMR::CFRelaxationOperator" name="IBAMR::CFRelaxationOperator">
-<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_c_f_giesekus_relaxation.html" title="Class CFGiesekusRelaxation is a concrete CFRelaxationOperator that computes the relaxation function f..." alt="" coords="626,5,834,32"/>
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_c_f_oldroyd_b_relaxation.html" title="Class CFOldroydBRelaxation is a concrete CFRelaxationOperator that computes the relaxation function f..." alt="" coords="627,56,833,83"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_c_f_rolie_poly_relaxation.html" title="Class CFRoliePolyRelaxation is a concrete CFRelaxationOperator that computes the relaxation function ..." alt="" coords="625,107,835,133"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_cart_grid_function.html" title="Class CartGridFunction provides an abstract interface for objects for evaluating functions to set val..." alt="" coords="168,56,327,83"/>
-</map>

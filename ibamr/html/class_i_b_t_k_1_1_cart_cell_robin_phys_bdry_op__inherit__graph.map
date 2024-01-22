@@ -1,5 +1,0 @@
-<map id="IBTK::CartCellRobinPhysBdryOp" name="IBTK::CartCellRobinPhysBdryOp">
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="21,200,206,241"/>
-<area shape="rect" id="node3" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="SAMRAI::xfer::RefinePatch\lStrategy\&lt; NDIM \&gt;" alt="" coords="21,109,205,151"/>
-<area shape="rect" id="node4" href="/home/travis/build/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="SAMRAI::xfer::RefinePatch\lStrategy\&lt; DIM \&gt;" alt="" coords="21,5,205,47"/>
-</map>
