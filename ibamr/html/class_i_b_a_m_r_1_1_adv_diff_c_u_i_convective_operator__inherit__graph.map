@@ -1,7 +1,0 @@
-<map id="IBAMR::AdvDiffCUIConvectiveOperator" name="IBAMR::AdvDiffCUIConvectiveOperator">
-<area shape="rect" id="node1" title="Class AdvDiffCUIConvectiveOperator is a concrete ConvectiveOperator that implements a upwind convecti..." alt="" coords="11,304,228,345"/>
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_cell_convective_operator.html" title="Class CellConvectiveOperator is an abstract class for an implementation of a convective differencing ..." alt="" coords="5,229,233,256"/>
-<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="18,155,221,181"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="35,80,203,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="10,5,229,32"/>
-</map>

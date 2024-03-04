@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['parallel_20toolbox_20classes_19406',['Parallel Toolbox Classes',['../../../samrai/2.4.4/html/package_toolbox_parallel.html',1,'']]],
-  ['patch_20adjacency_20graph_20structures_19407',['Patch Adjacency Graph Structures',['../../../samrai/2.4.4/html/package_hierarchy_dlbg.html',1,'']]],
-  ['patch_20data_20transfer_20operators_19408',['Patch Data Transfer Operators',['../../../samrai/2.4.4/html/package_transfer_operators.html',1,'']]],
-  ['patch_20hierarchy_20construction_20and_20adaptive_20meshing_19409',['Patch Hierarchy Construction and Adaptive Meshing',['../../../samrai/2.4.4/html/package_mesh_gridding.html',1,'']]],
-  ['petsc_20vector_20interface_19410',['PETSc Vector Interface',['../../../samrai/2.4.4/html/package_solvers_packages_petsc.html',1,'']]],
-  ['poisson_20solvers_20on_20a_20samrai_20hierarchy_19411',['Poisson solvers on a SAMRAI hierarchy',['../../../samrai/2.4.4/html/package_solvers_poisson.html',1,'']]]
+  ['restart_20database_15278',['Restart Database',['../../../samrai/2.4.4/html/package_toolbox_restartdb.html',1,'']]],
+  ['rudimentary_20support_20for_20finite_20element_20operations_20on_20samr_20meshes_15279',['Rudimentary Support for Finite Element Operations on SAMR Meshes',['../../../samrai/2.4.4/html/package_algorithm_femutils.html',1,'']]]
 ];

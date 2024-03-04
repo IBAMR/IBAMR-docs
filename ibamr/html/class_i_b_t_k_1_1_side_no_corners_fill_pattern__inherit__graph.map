@@ -1,5 +1,0 @@
-<map id="IBTK::SideNoCornersFillPattern" name="IBTK::SideNoCornersFillPattern">
-<area shape="rect" id="node1" title="Class SideCellNoCornersFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="5,200,227,227"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="22,109,210,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="22,5,210,47"/>
-</map>

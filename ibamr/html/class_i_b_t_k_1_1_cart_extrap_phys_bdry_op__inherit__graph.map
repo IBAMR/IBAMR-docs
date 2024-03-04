@@ -1,5 +1,0 @@
-<map id="IBTK::CartExtrapPhysBdryOp" name="IBTK::CartExtrapPhysBdryOp">
-<area shape="rect" id="node1" title="Class CartExtrapPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting ghost cell val..." alt="" coords="5,200,213,227"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="13,109,205,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="13,5,205,47"/>
-</map>

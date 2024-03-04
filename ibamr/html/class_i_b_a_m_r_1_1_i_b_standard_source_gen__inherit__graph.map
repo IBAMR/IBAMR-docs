@@ -1,6 +1,0 @@
-<map id="IBAMR::IBStandardSourceGen" name="IBAMR::IBStandardSourceGen">
-<area shape="rect" id="node1" title="Class IBStandardSourceGen provides support for distributed internal fluid sources/sinks." alt="" coords="110,169,325,196"/>
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_i_b_lagrangian_source_strategy.html" title="Class IBLagrangianForceStrategy provides a generic interface for specifying the positions and magnitu..." alt="" coords="5,80,208,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="108,5,327,32"/>
-<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="232,87,427,114"/>
-</map>

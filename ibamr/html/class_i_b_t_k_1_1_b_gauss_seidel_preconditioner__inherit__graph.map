@@ -1,6 +1,0 @@
-<map id="IBTK::BGaussSeidelPreconditioner" name="IBTK::BGaussSeidelPreconditioner">
-<area shape="rect" id="node1" title="Class BGaussSeidelPreconditioner is a block Gauss&#45;Seidel preconditioner which implements the abstract..." alt="" coords="5,229,248,256"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="56,155,197,181"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="51,80,203,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="17,5,236,32"/>
-</map>

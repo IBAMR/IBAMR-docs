@@ -1,6 +1,0 @@
-<map id="IBAMR::SurfaceTensionForceFunction" name="IBAMR::SurfaceTensionForceFunction">
-<area shape="rect" id="node1" title="Class SurfaceTensionForceFunction provides surface tension forcing using the continuum surface tensio..." alt="" coords="22,155,229,196"/>
-<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_marangoni_surface_tension_force_function.html" title="Class MarangoniSurfaceTensionForceFunction provides Marangoni forcing due to temperature variations...." alt="" coords="5,244,245,285"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_cart_grid_function.html" title="Class CartGridFunction provides an abstract interface for objects for evaluating functions to set val..." alt="" coords="41,80,210,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="16,5,235,32"/>
-</map>

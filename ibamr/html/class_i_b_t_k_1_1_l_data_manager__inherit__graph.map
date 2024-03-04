@@ -1,7 +1,0 @@
-<map id="IBTK::LDataManager" name="IBTK::LDataManager">
-<area shape="rect" id="node1" title="Class LDataManager coordinates the irregular distribution of LNode and LData on the patch hierarchy." alt="" coords="153,200,308,227"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="21,117,216,143"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,13,224,39"/>
-<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="246,109,453,151"/>
-<area shape="rect" id="node5" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="249,5,455,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="IBTK::CartSideDoubleCubicCoarsen" name="IBTK::CartSideDoubleCubicCoarsen">
-<area shape="rect" id="node1" title="Class CartSideDoubleCubicCoarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting side&#45;cen..." alt="" coords="20,200,217,241"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1CoarsenOperator.html" title=" " alt="" coords="5,109,232,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1CoarsenOperator.html" title=" " alt="" coords="5,5,232,47"/>
-</map>
