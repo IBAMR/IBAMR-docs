@@ -1,0 +1,5 @@
+<map id="IBTK::CartCellDoubleQuadraticRefine" name="IBTK::CartCellDoubleQuadraticRefine">
+<area shape="rect" id="node1" title="Class CartCellDoubleQuadraticRefine is a concrete SAMRAI::xfer::RefineOperator object which prolongs ..." alt="" coords="5,200,227,241"/>
+<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="9,109,223,151"/>
+<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="9,5,223,47"/>
+</map>

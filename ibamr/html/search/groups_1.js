@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['base_20and_20implementation_20classes_15140',['Base and Implementation Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01609.html',1,'']]],
-  ['base_20and_20policy_20classes_15141',['Base and Policy Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01644.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01642.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01648.html',1,'(Global Namespace)']]],
-  ['bernoulli_20distributions_15142',['Bernoulli Distributions',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01658.html',1,'']]],
-  ['binary_20search_15143',['Binary Search',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01601.html',1,'']]],
-  ['binder_20classes_15144',['Binder Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01625.html',1,'']]],
-  ['bit_20manipulation_15145',['Bit manipulation',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01576.html',1,'']]],
-  ['boolean_20operations_20classes_15146',['Boolean Operations Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01616.html',1,'']]],
-  ['branch_2dbased_15147',['Branch-Based',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01643.html',1,'']]]
+  ['base_20and_20implementation_20classes_19272',['Base and Implementation Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01609.html',1,'']]],
+  ['base_20and_20policy_20classes_19273',['Base and Policy Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01644.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01642.html',1,'(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01648.html',1,'(Global Namespace)']]],
+  ['bernoulli_20distributions_19274',['Bernoulli Distributions',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01658.html',1,'']]],
+  ['binary_20search_19275',['Binary Search',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01601.html',1,'']]],
+  ['binder_20classes_19276',['Binder Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01625.html',1,'']]],
+  ['bit_20manipulation_19277',['Bit manipulation',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01576.html',1,'']]],
+  ['boolean_20operations_20classes_19278',['Boolean Operations Classes',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01616.html',1,'']]],
+  ['branch_2dbased_19279',['Branch-Based',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01643.html',1,'']]]
 ];

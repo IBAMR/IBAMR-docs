@@ -1,0 +1,5 @@
+<map id="IBAMR::IBInstrumentationSpec" name="IBAMR::IBInstrumentationSpec">
+<area shape="rect" id="node1" title="Class IBInstrumentationSpec encapsulates the data required to initialize distributed internal flow me..." alt="" coords="5,155,227,181"/>
+<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS..." alt="" coords="49,80,183,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="7,5,225,32"/>
+</map>

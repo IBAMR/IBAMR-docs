@@ -1,0 +1,7 @@
+<map id="IBAMR::AdvDiffCenteredConvectiveOperator" name="IBAMR::AdvDiffCenteredConvectiveOperator">
+<area shape="rect" id="node1" title="Class AdvDiffCenteredConvectiveOperator is a concrete ConvectiveOperator that implements a centered c..." alt="" coords="5,304,259,345"/>
+<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_cell_convective_operator.html" title="Class CellConvectiveOperator is an abstract class for an implementation of a convective differencing ..." alt="" coords="18,229,246,256"/>
+<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="31,155,233,181"/>
+<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="48,80,216,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="23,5,241,32"/>
+</map>
