@@ -74,7 +74,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Class <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html" title="Class CIBSaddlePointSolver solves for the fluid velocity , fluid pressure , and the Lagrange multipli...">CIBSaddlePointSolver</a> solves for the fluid velocity <img class="formulaInl" alt="$ \vec{v} $" src="form_51.png"/>, fluid pressure <img class="formulaInl" alt="$ p $" src="form_52.png"/>, and the Lagrange multiplier <img class="formulaInl" alt="$ \vec{\lambda} $" src="form_53.png"/> maintaining the rigidity constraint.  
+<p>Class <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html" title="Class CIBSaddlePointSolver solves for the fluid velocity , fluid pressure , and the Lagrange multipli...">CIBSaddlePointSolver</a> solves for the fluid velocity <img class="formulaInl" alt="$ \vec{v} $" src="form_63.png"/>, fluid pressure <img class="formulaInl" alt="$ p $" src="form_64.png"/>, and the Lagrange multiplier <img class="formulaInl" alt="$ \vec{\lambda} $" src="form_65.png"/> maintaining the rigidity constraint.  
  <a href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#details">More...</a></p>
 
 <p><code>#include &lt;/home/runner/work/IBAMR/IBAMR/include/ibamr/CIBSaddlePointSolver.h&gt;</code></p>
@@ -142,11 +142,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a19ba032c50e0ceb30f4c8d3fd3aa9bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the spread force is to be normalized. <br /></td></tr>
 <tr class="separator:a19ba032c50e0ceb30f4c8d3fd3aa9bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd42ad602b0e0d4697b8877ef5d3a7f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#acd42ad602b0e0d4697b8877ef5d3a7f6">solveSystem</a> (Vec x, Vec <a class="elRef" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>)</td></tr>
-<tr class="memdesc:acd42ad602b0e0d4697b8877ef5d3a7f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/> for <img class="formulaInl" alt="$x$" src="form_66.png"/>.  <a href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#acd42ad602b0e0d4697b8877ef5d3a7f6">More...</a><br /></td></tr>
+<tr class="memdesc:acd42ad602b0e0d4697b8877ef5d3a7f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/> for <img class="formulaInl" alt="$x$" src="form_78.png"/>.  <a href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#acd42ad602b0e0d4697b8877ef5d3a7f6">More...</a><br /></td></tr>
 <tr class="separator:acd42ad602b0e0d4697b8877ef5d3a7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa42c61fae250badd10a17e09b4124b84"><td class="memItemLeft" align="right" valign="top"><a id="aa42c61fae250badd10a17e09b4124b84"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#aa42c61fae250badd10a17e09b4124b84">initializeSolverState</a> (Vec x, Vec <a class="elRef" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>)</td></tr>
-<tr class="memdesc:aa42c61fae250badd10a17e09b4124b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/>. <br /></td></tr>
+<tr class="memdesc:aa42c61fae250badd10a17e09b4124b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. <br /></td></tr>
 <tr class="separator:aa42c61fae250badd10a17e09b4124b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32635f311ca4166ab83515db04ee36af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#a32635f311ca4166ab83515db04ee36af">deallocateSolverState</a> ()</td></tr>
 <tr class="memdesc:a32635f311ca4166ab83515db04ee36af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#aa42c61fae250badd10a17e09b4124b84" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>.  <a href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html#a32635f311ca4166ab83515db04ee36af">More...</a><br /></td></tr>
@@ -165,21 +165,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a2c80328e1807ab3514c4b0f962d16a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html" title="Class CIBSaddlePointSolver solves for the fluid velocity , fluid pressure , and the Lagrange multipli...">CIBSaddlePointSolver</a> solves for the fluid velocity <img class="formulaInl" alt="$ \vec{v} $" src="form_51.png"/>, fluid pressure <img class="formulaInl" alt="$ p $" src="form_52.png"/>, and the Lagrange multiplier <img class="formulaInl" alt="$ \vec{\lambda} $" src="form_53.png"/> maintaining the rigidity constraint. </p>
-<p>For free-moving (self-moving bodies) it also solves for the rigid body translational and rotational velocities <img class="formulaInl" alt="$ \vec{U} $" src="form_54.png"/>.</p>
+<div class="textblock"><p>Class <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_saddle_point_solver.html" title="Class CIBSaddlePointSolver solves for the fluid velocity , fluid pressure , and the Lagrange multipli...">CIBSaddlePointSolver</a> solves for the fluid velocity <img class="formulaInl" alt="$ \vec{v} $" src="form_63.png"/>, fluid pressure <img class="formulaInl" alt="$ p $" src="form_64.png"/>, and the Lagrange multiplier <img class="formulaInl" alt="$ \vec{\lambda} $" src="form_65.png"/> maintaining the rigidity constraint. </p>
+<p>For free-moving (self-moving bodies) it also solves for the rigid body translational and rotational velocities <img class="formulaInl" alt="$ \vec{U} $" src="form_66.png"/>.</p>
 <ul>
 <li>For free-moving case, the class solves a saddle-point problem of the type:</li>
 </ul>
 <p class="formulaDsp">
-<img class="formulaDsp" alt="\begin{eqnarray*} A \vec{v} + \nabla p - \gamma S \vec{\lambda} &amp;=&amp; \vec{g} \\ -\nabla \cdot \vec{v} &amp;=&amp; (h = 0) \\ -\beta J \vec{v} + \beta T^{*} \vec{U} -\beta \delta \vec{\lambda} &amp;=&amp; (\vec{w} = -\beta \vec{U}_{\mbox{\scriptsize def}}) \\ T \vec{\lambda} &amp;=&amp; \vec{F} \end{eqnarray*}" src="form_55.png"/>
+<img class="formulaDsp" alt="\begin{eqnarray*} A \vec{v} + \nabla p - \gamma S \vec{\lambda} &amp;=&amp; \vec{g} \\ -\nabla \cdot \vec{v} &amp;=&amp; (h = 0) \\ -\beta J \vec{v} + \beta T^{*} \vec{U} -\beta \delta \vec{\lambda} &amp;=&amp; (\vec{w} = -\beta \vec{U}_{\mbox{\scriptsize def}}) \\ T \vec{\lambda} &amp;=&amp; \vec{F} \end{eqnarray*}" src="form_67.png"/>
 </p>
 <ul>
 <li>For imposed kinematics case, the class solves:</li>
 </ul>
 <p class="formulaDsp">
-<img class="formulaDsp" alt="\begin{eqnarray*} A \vec{v} + \nabla p - \gamma S \vec{\lambda} &amp;=&amp; \vec{g} \\ -\nabla \cdot \vec{v} &amp;=&amp; (h = 0) \\ -\beta J \vec{v} - \beta \delta \vec{\lambda} &amp;=&amp; (w = -\beta (T^{*}\vec{U}+ \vec{U}_{\mbox{\scriptsize def}}) = -\beta \vec{U}_{\mbox{\scriptsize imposed}}) \end{eqnarray*}" src="form_56.png"/>
+<img class="formulaDsp" alt="\begin{eqnarray*} A \vec{v} + \nabla p - \gamma S \vec{\lambda} &amp;=&amp; \vec{g} \\ -\nabla \cdot \vec{v} &amp;=&amp; (h = 0) \\ -\beta J \vec{v} - \beta \delta \vec{\lambda} &amp;=&amp; (w = -\beta (T^{*}\vec{U}+ \vec{U}_{\mbox{\scriptsize def}}) = -\beta \vec{U}_{\mbox{\scriptsize imposed}}) \end{eqnarray*}" src="form_68.png"/>
 </p>
-<p>Here, <img class="formulaInl" alt="$ A $" src="form_57.png"/> is the Helmholtz operator, <img class="formulaInl" alt="$ S $" src="form_46.png"/> is the spreading operator, <img class="formulaInl" alt="$ G $" src="form_58.png"/> is the gradient operator, <img class="formulaInl" alt="$ J $" src="form_45.png"/> is the interpolation operator, and <img class="formulaInl" alt="$ T $" src="form_48.png"/> is the rigid body operator (with <img class="formulaInl" alt="$ T^{*} $" src="form_59.png"/> denoting its adjoint), <img class="formulaInl" alt="$ \vec{F} $" src="form_50.png"/> is the net external force/torque on the body (excluding the hydrodynamic force/torque), <img class="formulaInl" alt="$ \vec{U}_{\mbox{\scriptsize def}} $" src="form_60.png"/> is the deformational velocity of the body, and <img class="formulaInl" alt="$ \vec{U}_{\mbox{\scriptsize imposed}} $" src="form_61.png"/> is the velocity imposed on the body. <img class="formulaInl" alt="$ \gamma $" src="form_62.png"/> and <img class="formulaInl" alt="$ \beta $" src="form_63.png"/> are two scaling parameters to make the system well-scaled. <img class="formulaInl" alt="$ \delta $" src="form_64.png"/> is the regularization parameter that regularizes the problem in presence of many IB/control points in a grid cell.</p>
+<p>Here, <img class="formulaInl" alt="$ A $" src="form_69.png"/> is the Helmholtz operator, <img class="formulaInl" alt="$ S $" src="form_58.png"/> is the spreading operator, <img class="formulaInl" alt="$ G $" src="form_70.png"/> is the gradient operator, <img class="formulaInl" alt="$ J $" src="form_57.png"/> is the interpolation operator, and <img class="formulaInl" alt="$ T $" src="form_60.png"/> is the rigid body operator (with <img class="formulaInl" alt="$ T^{*} $" src="form_71.png"/> denoting its adjoint), <img class="formulaInl" alt="$ \vec{F} $" src="form_62.png"/> is the net external force/torque on the body (excluding the hydrodynamic force/torque), <img class="formulaInl" alt="$ \vec{U}_{\mbox{\scriptsize def}} $" src="form_72.png"/> is the deformational velocity of the body, and <img class="formulaInl" alt="$ \vec{U}_{\mbox{\scriptsize imposed}} $" src="form_73.png"/> is the velocity imposed on the body. <img class="formulaInl" alt="$ \gamma $" src="form_74.png"/> and <img class="formulaInl" alt="$ \beta $" src="form_75.png"/> are two scaling parameters to make the system well-scaled. <img class="formulaInl" alt="$ \delta $" src="form_76.png"/> is the regularization parameter that regularizes the problem in presence of many IB/control points in a grid cell.</p>
 <p>Here, we employ the Krylov solver to solve the above saddle-point problem. We use Schur complement preconditioner to precondition the iterative solver. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a32635f311ca4166ab83515db04ee36af"></a>
@@ -267,7 +267,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 
-<p>Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/> for <img class="formulaInl" alt="$x$" src="form_66.png"/>. </p>
+<p>Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/> for <img class="formulaInl" alt="$x$" src="form_78.png"/>. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if the solver converged to the specified tolerances, <code>false</code> otherwise </dd></dl>
 
 </div>
@@ -279,7 +279,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 6 2024 17:53:13 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Mar 18 2024 14:03:03 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

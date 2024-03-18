@@ -104,6 +104,9 @@ $(function() {
 <li>~AdvectorPredictorCorrectorHyperbolicPatchOps()
 : <a class="el" href="class_i_b_a_m_r_1_1_advector_predictor_corrector_hyperbolic_patch_ops.html#a307fb26bef2e16684d86b0c5588455d3">IBAMR::AdvectorPredictorCorrectorHyperbolicPatchOps</a>
 </li>
+<li>~AllenCahnHierarchyIntegrator()
+: <a class="el" href="class_i_b_a_m_r_1_1_allen_cahn_hierarchy_integrator.html#a73c5445ac38ae57ec2a20a2cf6f139a1">IBAMR::AllenCahnHierarchyIntegrator</a>
+</li>
 <li>~AppInitializer()
 : <a class="el" href="class_i_b_t_k_1_1_app_initializer.html#ac3c0ff485bd7f2e7016fe2d84f654fdf">IBTK::AppInitializer</a>
 </li>
@@ -194,20 +197,8 @@ $(function() {
 <li>~CellNoCornersFillPattern()
 : <a class="el" href="class_i_b_t_k_1_1_cell_no_corners_fill_pattern.html#a221e50cc5e471ce2736d2ad96958e215">IBTK::CellNoCornersFillPattern</a>
 </li>
-<li>~CFGiesekusRelaxation()
-: <a class="el" href="class_i_b_a_m_r_1_1_c_f_giesekus_relaxation.html#a6aae2d7dd6ccd8091099f1967dbb96a5">IBAMR::CFGiesekusRelaxation</a>
-</li>
 <li>~CFINSForcing()
 : <a class="el" href="class_i_b_a_m_r_1_1_c_f_i_n_s_forcing.html#a505c0eea9f65fe4c033609ec3160b2f0">IBAMR::CFINSForcing</a>
-</li>
-<li>~CFOldroydBRelaxation()
-: <a class="el" href="class_i_b_a_m_r_1_1_c_f_oldroyd_b_relaxation.html#a6f3e1e0fa9dcd69b276a8f78a1df32c0">IBAMR::CFOldroydBRelaxation</a>
-</li>
-<li>~CFRelaxationOperator()
-: <a class="el" href="class_i_b_a_m_r_1_1_c_f_relaxation_operator.html#a96e1535d863901474654017a9d0f11cd">IBAMR::CFRelaxationOperator</a>
-</li>
-<li>~CFRoliePolyRelaxation()
-: <a class="el" href="class_i_b_a_m_r_1_1_c_f_rolie_poly_relaxation.html#a6ac421e3a3e04326b5df0ff07a88c147">IBAMR::CFRoliePolyRelaxation</a>
 </li>
 <li>~CIBMethod()
 : <a class="el" href="class_i_b_a_m_r_1_1_c_i_b_method.html#af3ec96154b38bbd49bd651caa8017562">IBAMR::CIBMethod</a>
@@ -257,6 +248,9 @@ $(function() {
 <li>~EdgeSynchCopyFillPattern()
 : <a class="el" href="class_i_b_t_k_1_1_edge_synch_copy_fill_pattern.html#a2103e61dbeefb490a4008e70c97df2ed">IBTK::EdgeSynchCopyFillPattern</a>
 </li>
+<li>~EnthalpyHierarchyIntegrator()
+: <a class="el" href="class_i_b_a_m_r_1_1_enthalpy_hierarchy_integrator.html#a48db0eefcdf518444bbeacd8d81e9c5e">IBAMR::EnthalpyHierarchyIntegrator</a>
+</li>
 <li>~ExtendedRobinBcCoefStrategy()
 : <a class="el" href="class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html#adb788da7e48c04b7763768dd46a214ac">IBTK::ExtendedRobinBcCoefStrategy</a>
 </li>
@@ -289,6 +283,9 @@ $(function() {
 </li>
 <li>~GeneralSolver()
 : <a class="el" href="class_i_b_t_k_1_1_general_solver.html#ab7cbc7d45ba8fefd1d18e9cd3806ce98">IBTK::GeneralSolver</a>
+</li>
+<li>~HeavisideForcingFunction()
+: <a class="el" href="class_i_b_a_m_r_1_1_heaviside_forcing_function.html#a9c9eb7e39308d5fb8eedc18ec31fa44c">IBAMR::HeavisideForcingFunction</a>
 </li>
 <li>~HierarchyGhostCellInterpolation()
 : <a class="el" href="class_i_b_t_k_1_1_hierarchy_ghost_cell_interpolation.html#accde30040f037ac1c29c07690f56a3d5">IBTK::HierarchyGhostCellInterpolation</a>
@@ -620,6 +617,9 @@ $(function() {
 <li>~PETScSNESJacobianJOWrapper()
 : <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_s_n_e_s_jacobian_j_o_wrapper.html#a8aa1e6dbe62796de03153c65913909fe">IBTK::PETScSNESJacobianJOWrapper</a>
 </li>
+<li>~PhaseChangeDivUSourceFunction()
+: <a class="el" href="class_i_b_a_m_r_1_1_phase_change_div_u_source_function.html#a7f5dd288a06bee9957f83402acf408f0">IBAMR::PhaseChangeDivUSourceFunction</a>
+</li>
 <li>~PoissonFACPreconditioner()
 : <a class="el" href="class_i_b_t_k_1_1_poisson_f_a_c_preconditioner.html#ad23bdae0d7c1743ce45a4a00a147bcb0">IBTK::PoissonFACPreconditioner</a>
 </li>
@@ -780,7 +780,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 6 2024 17:53:14 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Mar 18 2024 14:03:04 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

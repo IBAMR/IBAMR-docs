@@ -118,10 +118,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:ad16861526fe07c16792c210018df24fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Linear solver functionality.</div></td></tr>
 <tr class="memitem:a48ed12fcecd22df2d02c30d7ad5c0882"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a48ed12fcecd22df2d02c30d7ad5c0882">solveSystem</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;<a class="elRef" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>) override</td></tr>
-<tr class="memdesc:a48ed12fcecd22df2d02c30d7ad5c0882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/> for <img class="formulaInl" alt="$x$" src="form_66.png"/>.  <a href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a48ed12fcecd22df2d02c30d7ad5c0882">More...</a><br /></td></tr>
+<tr class="memdesc:a48ed12fcecd22df2d02c30d7ad5c0882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/> for <img class="formulaInl" alt="$x$" src="form_78.png"/>.  <a href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a48ed12fcecd22df2d02c30d7ad5c0882">More...</a><br /></td></tr>
 <tr class="separator:a48ed12fcecd22df2d02c30d7ad5c0882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f208665f41f85e043f11d33b510c915"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a9f208665f41f85e043f11d33b510c915">initializeSolverState</a> (const <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, const <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;<a class="elRef" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper3d_8f.html#e621b6d97e8da0c5028d78a69a4452bf">b</a>) override</td></tr>
-<tr class="memdesc:a9f208665f41f85e043f11d33b510c915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/>.  <a href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a9f208665f41f85e043f11d33b510c915">More...</a><br /></td></tr>
+<tr class="memdesc:a9f208665f41f85e043f11d33b510c915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>.  <a href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a9f208665f41f85e043f11d33b510c915">More...</a><br /></td></tr>
 <tr class="separator:a9f208665f41f85e043f11d33b510c915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d57217f16d05721288bd6053a80ed7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#ab0d57217f16d05721288bd6053a80ed7">deallocateSolverState</a> () override</td></tr>
 <tr class="memdesc:ab0d57217f16d05721288bd6053a80ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a9f208665f41f85e043f11d33b510c915" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>.  <a href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#ab0d57217f16d05721288bd6053a80ed7">More...</a><br /></td></tr>
@@ -395,7 +395,7 @@ max_iterations = 1                 // see setMaxIterations()
 </table>
 </div><div class="memdoc">
 
-<p>Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/>. </p>
+<p>Compute hierarchy dependent data required for solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. </p>
 <p>By default, the <a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a48ed12fcecd22df2d02c30d7ad5c0882" title="Solve the linear system of equations  for .">solveSystem()</a> method computes some required hierarchy dependent data before solving and removes that data after the solve. For multiple solves that use the same hierarchy configuration, it is more efficient to:</p>
 <ol type="1">
 <li>initialize the hierarchy-dependent data required by the solver via <a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a9f208665f41f85e043f11d33b510c915" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>,</li>
@@ -462,7 +462,7 @@ max_iterations = 1                 // see setMaxIterations()
 </table>
 </div><div class="memdoc">
 
-<p>Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_65.png"/> for <img class="formulaInl" alt="$x$" src="form_66.png"/>. </p>
+<p>Solve the linear system of equations <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/> for <img class="formulaInl" alt="$x$" src="form_78.png"/>. </p>
 <p>Before calling <a class="el" href="class_i_b_t_k_1_1_b_gauss_seidel_preconditioner.html#a48ed12fcecd22df2d02c30d7ad5c0882" title="Solve the linear system of equations  for .">solveSystem()</a>, the form of the solution <em>x</em> and right-hand-side <em>b</em> vectors must be set properly by the user on all patch interiors on the specified range of levels in the patch hierarchy. The user is responsible for all data management for the quantities associated with the solution and right-hand-side vectors. In particular, patch data in these vectors must be allocated prior to calling this method.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -499,7 +499,7 @@ max_iterations = 1                 // see setMaxIterations()
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 6 2024 17:53:13 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Mar 18 2024 14:03:03 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

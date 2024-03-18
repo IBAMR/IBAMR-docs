@@ -1,5 +1,5 @@
 <map id="IBAMR::ConstraintIBKinematics" name="IBAMR::ConstraintIBKinematics">
 <area shape="rect" id="node1" title="Class ConstraintIBKinematics encapsulates structure information and provides abstraction to get kinem..." alt="" coords="5,155,232,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="9,5,228,32"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="89,80,284,107"/>
+<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="21,80,216,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="9,5,228,32"/>
 </map>

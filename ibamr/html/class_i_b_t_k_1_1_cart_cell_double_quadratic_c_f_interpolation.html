@@ -152,6 +152,36 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html" title="Class CartCellDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se...">CartCellDoubleQuadraticCFInterpolation</a> is a concrete <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a> which sets coarse-fine interface ghost cell values for cell-centered double precision patch data via quadratic interpolation in the normal and tangential directions at coarse-fine interfaces. </p>
+<p>The <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html#a099ba5a179b34a2b01a7e70cb4d613ae">postprocessRefine()</a> function performs quadratic interpolation in the tangential direction using the values from O to fill in an approximation to A. The function <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a> must be called to fill in a value at location G, which computes a quadratic interpolation using interior values x and the approximation at A.</p>
+<hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+<ul>
+<li>O ******************* <hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+</li>
+<li>| * * * *</li>
+<li>A G * x * x * x *</li>
+<li>| * * * *</li>
+<li>O--&mdash;******************* <hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+</li>
+<li>O ******************* <hr  />
+ <hr  />
+ <hr  />
+ <hr  />
+</li>
+</ul>
+<p>Note: If this class is used in conjunction with RefineAlgorithm, to correctly fill in ghost cells, <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a> must be called after RefineAlgorithm::refine() is completed.</p>
+<p>Note: This class is specialized for the case of a single ghost cell width. Additional ghost cells are not guaranteed to be filled correctly. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a00449e722a7cb314618b0e0aac18a7f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00449e722a7cb314618b0e0aac18a7f2">&#9670;&nbsp;</a></span>clearPatchHierarchy()</h2>
@@ -220,7 +250,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Compute the normal extension of fine data at coarse-fine interfaces. </p>
+<p>Compute the normal extension of fine data at coarse-fine interfaces. Performs quadratic interpolation in the normal direction to fill in ghost cells.</p>
+<p>This function assumes that the first ghost cell is filled with a reasonable value, see the class description. </p>
 
 <p>Implements <a class="el" href="class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html#a2593302c8125bc1b79d1f2e9dd3a5caf">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
@@ -300,6 +331,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table>
 </div><div class="memdoc">
 <p>Function to perform user-defined postprocess data refine operations. This member function is called after standard refine operations (expressed using concrete subclasses of the <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineOperator.html">SAMRAI::xfer::RefineOperator</a> base class). The postprocess function must refine data from the scratch components of the coarse patch into the scratch components of the fine patch on the specified fine box region. Recall that the scratch components are specified in calls to the registerRefine() function in the <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a> class.</p>
+<p>This function computes a quadratic approximation in the tangential direction. To complete the approximation of ghost cells, <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a> must be called after <a class="el" href="class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html#a099ba5a179b34a2b01a7e70cb4d613ae">postprocessRefine()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fine</td><td>Fine patch containing destination data. </td></tr>
@@ -494,7 +526,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 6 2024 17:53:13 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Mon Mar 18 2024 14:03:04 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
