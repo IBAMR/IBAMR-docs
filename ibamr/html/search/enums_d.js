@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ownermode_19209',['OwnerMode',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#fab20a2c874a9b9f2362b4bb68a27b56',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]]
+  ['ownermode_19210',['OwnerMode',['../../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#fab20a2c874a9b9f2362b4bb68a27b56',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]]
 ];
