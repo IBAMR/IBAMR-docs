@@ -1738,10 +1738,10 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Supply a physical boundary conditions specificaion for the velocity field. Boundary conditions take the form of <img class="formulaInl" alt="$ a\mathbf{u} + b\tau\cdot\mathbf{n} = \mathbf{g}$" src="form_108.png"/> where <img class="formulaInl" alt="$\tau = -p\mathbf{I} + \frac{\mu}{2}\left(\nabla\mathbf{u} + \nabla\mathbf{u}^T\right)$" src="form_109.png"/> is the Newtonian fluid stress and <img class="formulaInl" alt="$\mu$" src="form_110.png"/> is the fluid viscosity.</p>
+<p>Supply a physical boundary conditions specificaion for the velocity field. Boundary conditions take the form of <img class="formulaInl" alt="$ a\mathbf{u} + b\tau\cdot\mathbf{n} = \mathbf{g}$" src="form_109.png"/> where <img class="formulaInl" alt="$\tau = -p\mathbf{I} + \frac{\mu}{2}\left(\nabla\mathbf{u} + \nabla\mathbf{u}^T\right)$" src="form_110.png"/> is the Newtonian fluid stress and <img class="formulaInl" alt="$\mu$" src="form_111.png"/> is the fluid viscosity.</p>
 <dl class="section note"><dt>Note</dt><dd>Periodic boundaries take presidence over physical boundaries. The type of boundary can be adjusted through the <code>CartesianGeometry</code> database in the input file, specifically with the flag <code>periodic_dimension</code>.</dd>
 <dd>
-Current implementations of physical boundary conditions require that at any physical location the values of <img class="formulaInl" alt="$ a$" src="form_111.png"/> and <img class="formulaInl" alt="$ b $" src="form_112.png"/> stasify that either <img class="formulaInl" alt="$ a = 1 $" src="form_113.png"/> or <img class="formulaInl" alt="$b = 1$" src="form_114.png"/> as well as <img class="formulaInl" alt="$a + b = 1$" src="form_115.png"/>. An error will occur if this does not happen.</dd></dl>
+Current implementations of physical boundary conditions require that at any physical location the values of <img class="formulaInl" alt="$ a$" src="form_112.png"/> and <img class="formulaInl" alt="$ b $" src="form_113.png"/> stasify that either <img class="formulaInl" alt="$ a = 1 $" src="form_114.png"/> or <img class="formulaInl" alt="$b = 1$" src="form_115.png"/> as well as <img class="formulaInl" alt="$a + b = 1$" src="form_116.png"/>. An error will occur if this does not happen.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_b_t_k_1_1mu_parser_robin_bc_coefs.html" title="Class muParserRobinBcCoefs is an implementation of the strategy class SAMRAI::solv::RobinBcCoefStrate...">IBTK::muParserRobinBcCoefs</a> </dd></dl>
 
 </div>
@@ -1781,11 +1781,11 @@ Current implementations of physical boundary conditions require that at any phys
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Supply a CartGridFunction that specifies <img class="formulaInl" alt="$ \nabla \cdot \mathbf{u} $" src="form_116.png"/>.</p>
+<p>Supply a CartGridFunction that specifies <img class="formulaInl" alt="$ \nabla \cdot \mathbf{u} $" src="form_117.png"/>.</p>
 <dl class="section note"><dt>Note</dt><dd>If</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Q_fcn</td><td>is not specified, then <img class="formulaInl" alt="$ \nabla \cdot \mathbf{u} = 0 $" src="form_117.png"/> is imposed. </td></tr>
+    <tr><td class="paramname">Q_fcn</td><td>is not specified, then <img class="formulaInl" alt="$ \nabla \cdot \mathbf{u} = 0 $" src="form_118.png"/> is imposed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2424,7 +2424,7 @@ Current implementations of physical boundary conditions require that at any phys
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 4 2024 06:31:20 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Fri Apr 5 2024 17:14:13 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
