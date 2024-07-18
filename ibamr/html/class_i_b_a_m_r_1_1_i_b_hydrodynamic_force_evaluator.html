@@ -127,9 +127,9 @@ const <a class="el" href="struct_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator_
 <tr class="memitem:ae57d27d71b5cad4a94a1fdbb7002e4f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#ae57d27d71b5cad4a94a1fdbb7002e4f0">updateStructureMomentum</a> (const IBTK::Vector3d &amp;P_strct_new, const IBTK::Vector3d &amp;L_strct_new, int strct_id=0)</td></tr>
 <tr class="memdesc:ae57d27d71b5cad4a94a1fdbb7002e4f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the new momenta of the bodies within the structure. This should be called after advancing the hierarchy.  <a href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#ae57d27d71b5cad4a94a1fdbb7002e4f0">More...</a><br /></td></tr>
 <tr class="separator:ae57d27d71b5cad4a94a1fdbb7002e4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbab5feb58055252ca82fa345c17676d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#afbab5feb58055252ca82fa345c17676d">computeHydrodynamicForce</a> (int u_idx, int p_idx, int f_idx, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, double dt, const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08551.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef=<a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08551.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;(), <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *p_src_bc_coef=<a class="elRef" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="memdesc:afbab5feb58055252ca82fa345c17676d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hydrodynamic force. This should be called after advancing the hierarchy.  <a href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#afbab5feb58055252ca82fa345c17676d">More...</a><br /></td></tr>
-<tr class="separator:afbab5feb58055252ca82fa345c17676d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78039b49ade8199f646d705bd3c5118b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#a78039b49ade8199f646d705bd3c5118b">computeHydrodynamicForce</a> (int u_idx, int p_idx, int f_idx, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, double dt, const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08551.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef=<a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08551.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;(), <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *p_src_bc_coef=nullptr)</td></tr>
+<tr class="memdesc:a78039b49ade8199f646d705bd3c5118b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hydrodynamic force. This should be called after advancing the hierarchy.  <a href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#a78039b49ade8199f646d705bd3c5118b">More...</a><br /></td></tr>
+<tr class="separator:a78039b49ade8199f646d705bd3c5118b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a159afe6b7e35c790d3cbb898325c651a"><td class="memItemLeft" align="right" valign="top"><a id="a159afe6b7e35c790d3cbb898325c651a"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_hydrodynamic_force_evaluator.html#a159afe6b7e35c790d3cbb898325c651a">postprocessIntegrateData</a> (double current_time, double new_time)</td></tr>
 <tr class="memdesc:a159afe6b7e35c790d3cbb898325c651a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postprocess data for the next timestep. <br /></td></tr>
@@ -207,8 +207,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afbab5feb58055252ca82fa345c17676d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbab5feb58055252ca82fa345c17676d">&#9670;&nbsp;</a></span>computeHydrodynamicForce()</h2>
+<a id="a78039b49ade8199f646d705bd3c5118b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78039b49ade8199f646d705bd3c5118b">&#9670;&nbsp;</a></span>computeHydrodynamicForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +256,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td>
-          <td class="paramname"><em>p_src_bc_coef</em> = <code><a class="elRef" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></code>&#160;</td>
+          <td class="paramname"><em>p_src_bc_coef</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -604,7 +604,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 18 2024 22:05:39 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Jul 18 2024 22:07:44 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

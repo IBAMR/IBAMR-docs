@@ -279,9 +279,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PETScNewtonKrylovSol
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#aa0c8d130bb1c0e3b7a86afd60433885f">setOperator</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_operator.html">LinearOperator</a> &gt; A) override</td></tr>
 <tr class="memdesc:aa0c8d130bb1c0e3b7a86afd60433885f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the linear operator used when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. <br /></td></tr>
 <tr class="separator:aa0c8d130bb1c0e3b7a86afd60433885f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c1b37a745cb4c95fc5c1fda229ebff0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a0c1b37a745cb4c95fc5c1fda229ebff0">setPreconditioner</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt; pc_solver=<a class="elRef" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) override</td></tr>
-<tr class="memdesc:a0c1b37a745cb4c95fc5c1fda229ebff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>.  <a href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a0c1b37a745cb4c95fc5c1fda229ebff0">More...</a><br /></td></tr>
-<tr class="separator:a0c1b37a745cb4c95fc5c1fda229ebff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac535178f6d7d2ae5c92ab3d93c2f9101"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ac535178f6d7d2ae5c92ab3d93c2f9101">setPreconditioner</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt; pc_solver=nullptr) override</td></tr>
+<tr class="memdesc:ac535178f6d7d2ae5c92ab3d93c2f9101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>.  <a href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ac535178f6d7d2ae5c92ab3d93c2f9101">More...</a><br /></td></tr>
+<tr class="separator:ac535178f6d7d2ae5c92ab3d93c2f9101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d6810734752491d5277a75b2c5b2a9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a3d6810734752491d5277a75b2c5b2a9a">setNullspace</a> (bool contains_constant_vec, const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08551.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt; &amp;nullspace_basis_vecs=<a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a08551.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;()) override</td></tr>
 <tr class="memdesc:a3d6810734752491d5277a75b2c5b2a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nullspace of the linear system.  <a href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a3d6810734752491d5277a75b2c5b2a9a">More...</a><br /></td></tr>
 <tr class="separator:a3d6810734752491d5277a75b2c5b2a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -458,7 +458,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </div><div class="memdoc">
 
 <p>Remove all hierarchy dependent data allocated by <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ae36404a55e88a5530118720a5388ced6" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>. </p>
-<p>When linear operator or preconditioner objects have been registered with this class via <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#aa0c8d130bb1c0e3b7a86afd60433885f" title="Set the linear operator used when solving .">setOperator()</a> and <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a0c1b37a745cb4c95fc5c1fda229ebff0" title="Set the preconditioner used by the Krylov subspace method when solving .">setPreconditioner()</a>, they are also deallocated by this member function.</p>
+<p>When linear operator or preconditioner objects have been registered with this class via <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#aa0c8d130bb1c0e3b7a86afd60433885f" title="Set the linear operator used when solving .">setOperator()</a> and <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ac535178f6d7d2ae5c92ab3d93c2f9101" title="Set the preconditioner used by the Krylov subspace method when solving .">setPreconditioner()</a>, they are also deallocated by this member function.</p>
 <dl class="section note"><dt>Note</dt><dd>It is safe to call <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a3d64402662ba7250f80b35b4618fa236" title="Remove all hierarchy dependent data allocated by initializeSolverState().">deallocateSolverState()</a> when the solver state is already deallocated.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ae36404a55e88a5530118720a5388ced6" title="Compute hierarchy dependent data required for solving .">initializeSolverState</a> </dd></dl>
 
@@ -508,7 +508,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 <li>remove the hierarchy-dependent data via <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a3d64402662ba7250f80b35b4618fa236" title="Remove all hierarchy dependent data allocated by initializeSolverState().">deallocateSolverState()</a>.</li>
 </ol>
 <p>Note that it is generally necessary to reinitialize the solver state when the hierarchy configuration changes.</p>
-<p>When linear operator or preconditioner objects have been registered with this class via <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#aa0c8d130bb1c0e3b7a86afd60433885f" title="Set the linear operator used when solving .">setOperator()</a> and <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a0c1b37a745cb4c95fc5c1fda229ebff0" title="Set the preconditioner used by the Krylov subspace method when solving .">setPreconditioner()</a>, they are also initialized by this member function.</p>
+<p>When linear operator or preconditioner objects have been registered with this class via <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#aa0c8d130bb1c0e3b7a86afd60433885f" title="Set the linear operator used when solving .">setOperator()</a> and <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ac535178f6d7d2ae5c92ab3d93c2f9101" title="Set the preconditioner used by the Krylov subspace method when solving .">setPreconditioner()</a>, they are also initialized by this member function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>solution vector </td></tr>
@@ -575,8 +575,8 @@ enable_logging = FALSE        // see setLoggingEnabled()
 
 </div>
 </div>
-<a id="a0c1b37a745cb4c95fc5c1fda229ebff0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c1b37a745cb4c95fc5c1fda229ebff0">&#9670;&nbsp;</a></span>setPreconditioner()</h2>
+<a id="ac535178f6d7d2ae5c92ab3d93c2f9101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac535178f6d7d2ae5c92ab3d93c2f9101">&#9670;&nbsp;</a></span>setPreconditioner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,7 +588,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
           <td class="memname">void IBTK::PETScKrylovLinearSolver::setPreconditioner </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt;&#160;</td>
-          <td class="paramname"><em>pc_solver</em> = <code><a class="elRef" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></code></td><td>)</td>
+          <td class="paramname"><em>pc_solver</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -600,9 +600,9 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </div><div class="memdoc">
 
 <p>Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. </p>
-<dl class="section note"><dt>Note</dt><dd>If the preconditioner is NULL, no preconditioning is performed. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If the preconditioner is nullptr, no preconditioning is performed. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a427ec5564a20480e0c3a79311585843b">IBTK::KrylovLinearSolver</a>.</p>
+<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#afa8c76a3b906f597fbc5a8ac6b4a80e6">IBTK::KrylovLinearSolver</a>.</p>
 
 </div>
 </div>
@@ -677,7 +677,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 18 2024 22:05:39 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Jul 18 2024 22:07:44 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

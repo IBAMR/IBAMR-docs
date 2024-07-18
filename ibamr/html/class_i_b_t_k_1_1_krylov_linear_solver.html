@@ -260,9 +260,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 virtual <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_operator.html">LinearOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a7b1092af2fdf0ef36f095fdb4bf5a9c0">getOperator</a> () const</td></tr>
 <tr class="memdesc:a7b1092af2fdf0ef36f095fdb4bf5a9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the linear operator used when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. <br /></td></tr>
 <tr class="separator:a7b1092af2fdf0ef36f095fdb4bf5a9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a427ec5564a20480e0c3a79311585843b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#a427ec5564a20480e0c3a79311585843b">setPreconditioner</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt; pc_solver=<a class="elRef" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="memdesc:a427ec5564a20480e0c3a79311585843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>.  <a href="class_i_b_t_k_1_1_krylov_linear_solver.html#a427ec5564a20480e0c3a79311585843b">More...</a><br /></td></tr>
-<tr class="separator:a427ec5564a20480e0c3a79311585843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8c76a3b906f597fbc5a8ac6b4a80e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#afa8c76a3b906f597fbc5a8ac6b4a80e6">setPreconditioner</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt; pc_solver=nullptr)</td></tr>
+<tr class="memdesc:afa8c76a3b906f597fbc5a8ac6b4a80e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>.  <a href="class_i_b_t_k_1_1_krylov_linear_solver.html#afa8c76a3b906f597fbc5a8ac6b4a80e6">More...</a><br /></td></tr>
+<tr class="separator:afa8c76a3b906f597fbc5a8ac6b4a80e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b33ef0b49ef7871ebac75902a97b0f"><td class="memItemLeft" align="right" valign="top"><a id="ac2b33ef0b49ef7871ebac75902a97b0f"></a>
 virtual <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html#ac2b33ef0b49ef7871ebac75902a97b0f">getPreconditioner</a> () const</td></tr>
 <tr class="memdesc:ac2b33ef0b49ef7871ebac75902a97b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. <br /></td></tr>
@@ -334,8 +334,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b> 
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class <a class="el" href="class_i_b_t_k_1_1_krylov_linear_solver.html" title="Class KrylovLinearSolver provides an abstract interface for the implementation of Krylov subspace sol...">KrylovLinearSolver</a> provides an abstract interface for the implementation of Krylov subspace solvers for linear problems of the form <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a427ec5564a20480e0c3a79311585843b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a427ec5564a20480e0c3a79311585843b">&#9670;&nbsp;</a></span>setPreconditioner()</h2>
+<a id="afa8c76a3b906f597fbc5a8ac6b4a80e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa8c76a3b906f597fbc5a8ac6b4a80e6">&#9670;&nbsp;</a></span>setPreconditioner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +347,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b> 
           <td class="memname">void IBTK::KrylovLinearSolver::setPreconditioner </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_linear_solver.html">LinearSolver</a> &gt;&#160;</td>
-          <td class="paramname"><em>pc_solver</em> = <code><a class="elRef" href="../../samrai/2.4.4/html/Geometry_8C.html#070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></code></td><td>)</td>
+          <td class="paramname"><em>pc_solver</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -359,9 +359,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b> 
 </div><div class="memdoc">
 
 <p>Set the preconditioner used by the Krylov subspace method when solving <img class="formulaInl" alt="$Ax=b$" src="form_77.png"/>. </p>
-<dl class="section note"><dt>Note</dt><dd>If the preconditioner is NULL, no preconditioning is performed. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If the preconditioner is nullptr, no preconditioning is performed. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#a0c1b37a745cb4c95fc5c1fda229ebff0">IBTK::PETScKrylovLinearSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html#ac535178f6d7d2ae5c92ab3d93c2f9101">IBTK::PETScKrylovLinearSolver</a>.</p>
 
 </div>
 </div>
@@ -372,7 +372,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_enable_logging</b> 
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 18 2024 22:05:39 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Jul 18 2024 22:07:44 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
