@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tbox_11660',['tbox',['../../../samrai/2.4.4/html/classtbox_1_1DescribedClass.html',1,'']]]
+  ['tbox_11664',['tbox',['../../../samrai/2.4.4/html/classtbox_1_1DescribedClass.html',1,'']]]
 ];
