@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['little_19318',['little',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01576.html#gaea2f4cbe7ac47c1b6be6c2494c218ac4aaae6635e044ac56046b2893a529b5114',1,'little()(Global Namespace)'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01576.html#gaea2f4cbe7ac47c1b6be6c2494c218ac4aaae6635e044ac56046b2893a529b5114',1,'little()(Global Namespace)']]]
+  ['mask_19149',['mask',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01683.html#ga6acbc7f8d98096bb9453b2f4b9850553af2ce11ebf110993621bedd8e747d7b1b',1,'std::filesystem::mask()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01683.html#ga6acbc7f8d98096bb9453b2f4b9850553af2ce11ebf110993621bedd8e747d7b1b',1,'std::filesystem::mask()']]]
 ];
