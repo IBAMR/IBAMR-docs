@@ -1,5 +1,7 @@
 <map id="IBTK::CopyToRootTransaction" name="IBTK::CopyToRootTransaction">
-<area shape="rect" id="node1" title="Class CopyToRootTransaction is a concrete implementation of the abstract base class SAMRAI::tbox::Tra..." alt="" coords="9,155,220,181"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Transaction.html" title=" " alt="" coords="18,80,211,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="Class CopyToRootTransaction is a concrete implementation of the abstract base class SAMRAI::tbox::Tra..." alt="" coords="9,152,220,177"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Transaction.html" title=" " alt="" coords="18,79,211,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

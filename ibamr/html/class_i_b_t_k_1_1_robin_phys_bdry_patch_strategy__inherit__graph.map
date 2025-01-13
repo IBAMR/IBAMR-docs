@@ -1,7 +1,11 @@
 <map id="IBTK::RobinPhysBdryPatchStrategy" name="IBTK::RobinPhysBdryPatchStrategy">
-<area shape="rect" id="node1" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="149,200,343,241"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_cart_cell_robin_phys_bdry_op.html" title="Class CartCellRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="5,291,233,317"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_cart_side_robin_phys_bdry_op.html" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="257,291,488,317"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="150,109,342,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="150,5,342,47"/>
+<area shape="rect" id="Node000001" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="149,197,343,237"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_cart_cell_robin_phys_bdry_op.html" title="Class CartCellRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="5,287,233,312"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,247,139,289,136,284,203,242"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_cart_side_robin_phys_bdry_op.html" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="257,287,488,312"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="289,242,356,284,353,289,286,247"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="150,108,342,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,162,249,197,243,197,243,162"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="150,5,342,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,59,249,108,243,108,243,59"/>
 </map>

@@ -1,8 +1,13 @@
 <map id="IBAMR::StaggeredStokesFACPreconditionerStrategy" name="IBAMR::StaggeredStokesFACPreconditionerStrategy">
-<area shape="rect" id="node1" title="Class StaggeredStokesFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing ..." alt="" coords="553,71,853,112"/>
-<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_staggered_stokes_box_relaxation_f_a_c_operator.html" title="Class StaggeredStokesBoxRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrategy ..." alt="" coords="913,5,1120,47"/>
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_staggered_stokes_i_b_level_relaxation_f_a_c_operator.html" title="Class StaggeredStokesIBLevelRelaxationFACOperator is a concrete FACPreconditionerStrategy class that ..." alt="" coords="901,71,1132,112"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_staggered_stokes_level_relaxation_f_a_c_operator.html" title="Class StaggeredStokesLevelRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrateg..." alt="" coords="908,136,1125,177"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem&#45;specific operations ..." alt="" coords="272,78,505,105"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,78,224,105"/>
+<area shape="rect" id="Node000001" title="Class StaggeredStokesFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing ..." alt="" coords="553,69,853,109"/>
+<area shape="rect" id="Node000004" href="$class_i_b_a_m_r_1_1_staggered_stokes_box_relaxation_f_a_c_operator.html" title="Class StaggeredStokesBoxRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrategy ..." alt="" coords="913,5,1120,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="815,64,918,43,919,48,816,69"/>
+<area shape="rect" id="Node000005" href="$class_i_b_a_m_r_1_1_staggered_stokes_i_b_level_relaxation_f_a_c_operator.html" title="Class StaggeredStokesIBLevelRelaxationFACOperator is a concrete FACPreconditionerStrategy class that ..." alt="" coords="901,69,1132,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="867,87,901,87,901,92,867,92"/>
+<area shape="rect" id="Node000006" href="$class_i_b_a_m_r_1_1_staggered_stokes_level_relaxation_f_a_c_operator.html" title="Class StaggeredStokesLevelRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrateg..." alt="" coords="908,133,1125,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="816,110,919,131,918,136,815,115"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_f_a_c_preconditioner_strategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem&#45;specific operations ..." alt="" coords="272,77,505,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="519,87,553,87,553,92,519,92"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,77,224,102"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,87,272,87,272,92,238,92"/>
 </map>

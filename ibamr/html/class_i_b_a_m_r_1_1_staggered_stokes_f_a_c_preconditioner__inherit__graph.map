@@ -1,8 +1,14 @@
 <map id="IBAMR::StaggeredStokesFACPreconditioner" name="IBAMR::StaggeredStokesFACPreconditioner">
-<area shape="rect" id="node1" title="Class StaggeredStokesFACPreconditioner is a FACPreconditioner that has been specialized for Stokes pr..." alt="" coords="57,304,357,331"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_f_a_c_preconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon..." alt="" coords="5,229,184,256"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="83,155,224,181"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="131,80,283,107"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="209,229,431,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="97,5,316,32"/>
+<area shape="rect" id="Node000001" title="Class StaggeredStokesFACPreconditioner is a FACPreconditioner that has been specialized for Stokes pr..." alt="" coords="57,299,357,324"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_f_a_c_preconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon..." alt="" coords="5,225,184,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,256,190,296,187,301,123,260"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="83,152,224,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,190,106,227,102,224,133,186"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="131,79,283,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="192,117,164,153,160,150,188,113"/>
+<area shape="rect" id="Node000006" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="209,225,431,251"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="226,113,313,223,309,227,222,117"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="97,5,316,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="209,44,209,79,204,79,204,44"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="291,260,227,301,224,296,288,256"/>
 </map>

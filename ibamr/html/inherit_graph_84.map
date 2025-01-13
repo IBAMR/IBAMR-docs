@@ -1,13 +1,23 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="5,122,197,163"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_cart_extrap_phys_bdry_op.html" title="Class CartExtrapPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting ghost cell val..." alt="" coords="267,5,475,32"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_cart_side_double_div_preserving_refine.html" title="Class CartSideDoubleDivPreservingRefine is a concrete SAMRAI::xfer::RefinePatchStrategy which prolong..." alt="" coords="245,57,497,98"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re..." alt="" coords="274,122,469,163"/>
-<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_refine_patch_strategy_set.html" title="Class RefinePatchStrategySet is a utility class that allows multiple SAMRAI::xfer::RefinePatchStrateg..." alt="" coords="265,188,477,215"/>
-<area shape="rect" id="node9" href="$class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="275,242,468,283"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html" title="Class CartCellDoubleLinearCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which sets ..." alt="" coords="561,53,760,94"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html" title="Class CartCellDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="550,118,771,159"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_cart_side_double_quadratic_c_f_interpolation.html" title="Class CartSideDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="549,183,773,225"/>
-<area shape="rect" id="node10" href="$class_i_b_t_k_1_1_cart_cell_robin_phys_bdry_op.html" title="Class CartCellRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="547,249,775,276"/>
-<area shape="rect" id="node11" href="$class_i_b_t_k_1_1_cart_side_robin_phys_bdry_op.html" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="545,300,776,327"/>
+<area shape="rect" id="Node000000" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="5,119,197,159"/>
+<area shape="rect" id="Node000001" href="$class_i_b_t_k_1_1_cart_extrap_phys_bdry_op.html" title="Class CartExtrapPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting ghost cell val..." alt="" coords="267,5,475,31"/>
+<area shape="poly" id="edge255_Node000000_Node000001" title=" " alt="" coords="135,108,185,73,244,41,283,28,285,33,246,46,188,77,138,113"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_cart_side_double_div_preserving_refine.html" title="Class CartSideDoubleDivPreservingRefine is a concrete SAMRAI::xfer::RefinePatchStrategy which prolong..." alt="" coords="245,55,497,95"/>
+<area shape="poly" id="edge256_Node000000_Node000002" title=" " alt="" coords="199,113,286,93,287,98,200,119"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re..." alt="" coords="274,119,469,159"/>
+<area shape="poly" id="edge257_Node000000_Node000003" title=" " alt="" coords="211,137,274,137,274,142,211,142"/>
+<area shape="rect" id="Node000007" href="$class_i_b_t_k_1_1_refine_patch_strategy_set.html" title="Class RefinePatchStrategySet is a utility class that allows multiple SAMRAI::xfer::RefinePatchStrateg..." alt="" coords="265,184,477,209"/>
+<area shape="poly" id="edge261_Node000000_Node000007" title=" " alt="" coords="205,160,246,169,306,181,305,187,245,174,204,165"/>
+<area shape="rect" id="Node000008" href="$class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="275,237,468,277"/>
+<area shape="poly" id="edge262_Node000000_Node000008" title=" " alt="" coords="145,164,193,193,246,220,287,234,286,239,244,224,190,198,142,169"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_cart_cell_double_linear_c_f_interpolation.html" title="Class CartCellDoubleLinearCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which sets ..." alt="" coords="561,51,760,91"/>
+<area shape="poly" id="edge258_Node000003_Node000004" title=" " alt="" coords="470,114,574,89,576,94,471,119"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_cart_cell_double_quadratic_c_f_interpolation.html" title="Class CartCellDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="550,115,771,155"/>
+<area shape="poly" id="edge259_Node000003_Node000005" title=" " alt="" coords="482,135,550,134,550,140,483,140"/>
+<area shape="rect" id="Node000006" href="$class_i_b_t_k_1_1_cart_side_double_quadratic_c_f_interpolation.html" title="Class CartSideDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="549,179,773,219"/>
+<area shape="poly" id="edge260_Node000003_Node000006" title=" " alt="" coords="482,160,564,177,563,182,481,165"/>
+<area shape="rect" id="Node000009" href="$class_i_b_t_k_1_1_cart_cell_robin_phys_bdry_op.html" title="Class CartCellRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="547,244,775,269"/>
+<area shape="poly" id="edge263_Node000008_Node000009" title=" " alt="" coords="482,254,546,254,546,259,482,259"/>
+<area shape="rect" id="Node000010" href="$class_i_b_t_k_1_1_cart_side_robin_phys_bdry_op.html" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="545,293,776,319"/>
+<area shape="poly" id="edge264_Node000008_Node000010" title=" " alt="" coords="482,273,586,291,585,296,481,278"/>
 </map>

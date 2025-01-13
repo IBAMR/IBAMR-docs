@@ -1,11 +1,19 @@
 <map id="IBAMR::AdvDiffHierarchyIntegrator" name="IBAMR::AdvDiffHierarchyIntegrator">
-<area shape="rect" id="node1" title="Class AdvDiffHierarchyIntegrator provides an abstract interface for a time integrator for advection&#45;d..." alt="" coords="835,46,1083,73"/>
-<area shape="rect" id="node7" href="$class_i_b_a_m_r_1_1_adv_diff_predictor_corrector_hierarchy_integrator.html" title="Class AdvDiffPredictorCorrectorHierarchyIntegrator manages the spatial discretization and time integr..." alt="" coords="1132,5,1371,47"/>
-<area shape="rect" id="node8" href="$class_i_b_a_m_r_1_1_adv_diff_semi_implicit_hierarchy_integrator.html" title="Class AdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time integration ..." alt="" coords="1150,71,1353,112"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_hierarchy_integrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="599,46,785,73"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="343,8,549,49"/>
-<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="11,8,218,49"/>
-<area shape="rect" id="node5" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="349,74,543,101"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,74,224,101"/>
-<area shape="rect" id="node9" href="$class_i_b_a_m_r_1_1_brinkman_adv_diff_semi_implicit_hierarchy_integrator.html" title="Class BrinkmanAdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time inte..." alt="" coords="1420,71,1637,112"/>
+<area shape="rect" id="Node000001" title="Class AdvDiffHierarchyIntegrator provides an abstract interface for a time integrator for advection&#45;d..." alt="" coords="835,45,1083,70"/>
+<area shape="rect" id="Node000007" href="$class_i_b_a_m_r_1_1_adv_diff_predictor_corrector_hierarchy_integrator.html" title="Class AdvDiffPredictorCorrectorHierarchyIntegrator manages the spatial discretization and time integr..." alt="" coords="1132,5,1371,45"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1088,40,1131,36,1132,41,1089,46"/>
+<area shape="rect" id="Node000008" href="$class_i_b_a_m_r_1_1_adv_diff_semi_implicit_hierarchy_integrator.html" title="Class AdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time integration ..." alt="" coords="1150,69,1353,109"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1089,69,1150,76,1149,81,1088,74"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_hierarchy_integrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="599,45,785,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="799,55,834,55,834,60,799,60"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="343,8,549,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="563,39,599,44,598,49,563,45"/>
+<area shape="rect" id="Node000004" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="11,8,218,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="232,25,343,25,343,31,232,31"/>
+<area shape="rect" id="Node000005" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="349,73,543,98"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="557,70,598,65,599,71,557,75"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,73,224,98"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="238,83,348,83,348,88,238,88"/>
+<area shape="rect" id="Node000009" href="$class_i_b_a_m_r_1_1_brinkman_adv_diff_semi_implicit_hierarchy_integrator.html" title="Class BrinkmanAdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time inte..." alt="" coords="1420,69,1637,109"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1366,87,1420,87,1420,92,1366,92"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="IBAMR::INSIntermediateVelocityBcCoef" name="IBAMR::INSIntermediateVelocityBcCoef">
-<area shape="rect" id="node1" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="5,291,236,332"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="19,200,223,241"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="21,109,220,151"/>
-<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="21,5,220,47"/>
+<area shape="rect" id="Node000001" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="5,287,236,327"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="19,197,223,237"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,251,123,287,118,287,118,251"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="21,108,220,148"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,162,123,197,118,197,118,162"/>
+<area shape="rect" id="Node000004" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="21,5,220,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,59,123,108,118,108,118,59"/>
 </map>

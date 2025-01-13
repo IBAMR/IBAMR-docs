@@ -1,5 +1,7 @@
 <map id="IBAMR::IBHierarchyIntegrator::IBEulerianForceFunction" name="IBAMR::IBHierarchyIntegrator::IBEulerianForceFunction">
-<area shape="rect" id="node1" title="A class to communicate the Eulerian body force computed by class IBHierarchyIntegrator to the incompr..." alt="" coords="8,155,221,196"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_cart_grid_function.html" title="Class CartGridFunction provides an abstract interface for objects for evaluating functions to set val..." alt="" coords="30,80,199,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="A class to communicate the Eulerian body force computed by class IBHierarchyIntegrator to the incompr..." alt="" coords="8,152,221,192"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_cart_grid_function.html" title="Class CartGridFunction provides an abstract interface for objects for evaluating functions to set val..." alt="" coords="30,79,199,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

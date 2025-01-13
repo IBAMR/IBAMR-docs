@@ -1,11 +1,20 @@
 <map id="IBAMR::CIBMethod" name="IBAMR::CIBMethod">
-<area shape="rect" id="node1" title="Class CIBMethod is a concrete CIBStrategy and IBMethod class which implements the motion of rigid bod..." alt="" coords="339,453,483,480"/>
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="288,377,423,404"/>
-<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_i_b_implicit_strategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="239,301,429,328"/>
-<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="263,225,405,252"/>
-<area shape="rect" id="node5" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,109,212,151"/>
-<area shape="rect" id="node6" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,5,212,47"/>
-<area shape="rect" id="node7" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="237,117,431,143"/>
-<area shape="rect" id="node8" title=" " alt="" coords="318,13,537,39"/>
-<area shape="rect" id="node9" href="$class_i_b_a_m_r_1_1_c_i_b_strategy.html" title="Class CIBStrategy is a lightweight abstract strategy class which provides support for constraint base..." alt="" coords="392,175,543,201"/>
+<area shape="rect" id="Node000001" title="Class CIBMethod is a concrete CIBStrategy and IBMethod class which implements the motion of rigid bod..." alt="" coords="339,445,483,471"/>
+<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_i_b_method.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="288,371,423,396"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="375,406,404,443,400,447,371,409"/>
+<area shape="rect" id="Node000003" href="$class_i_b_a_m_r_1_1_i_b_implicit_strategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="239,296,429,321"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,334,354,370,349,371,339,336"/>
+<area shape="rect" id="Node000004" href="$class_i_b_a_m_r_1_1_i_b_strategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="263,221,405,247"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,261,337,296,331,296,331,261"/>
+<area shape="rect" id="Node000005" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,108,212,148"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="163,151,310,219,308,224,161,156"/>
+<area shape="rect" id="Node000006" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,5,212,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="111,59,111,108,106,108,106,59"/>
+<area shape="rect" id="Node000007" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="237,115,431,141"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="337,154,337,221,331,221,331,154"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="318,13,537,38"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="409,50,347,117,343,114,405,47"/>
+<area shape="rect" id="Node000009" href="$class_i_b_a_m_r_1_1_c_i_b_strategy.html" title="Class CIBStrategy is a lightweight abstract strategy class which provides support for constraint base..." alt="" coords="392,172,543,197"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="436,51,467,171,462,173,431,52"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="470,211,470,271,470,385,466,404,456,421,430,447,427,443,452,418,461,402,465,384,465,271,465,211"/>
 </map>

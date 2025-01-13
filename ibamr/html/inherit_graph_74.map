@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_i_b_t_k_1_1_streamable_manager.html" title="Class StreamableManager is a singleton manager class that organizes the actual packing and unpacking ..." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,45,243,70"/>
+<area shape="rect" id="Node000001" href="$class_i_b_a_m_r_1_1_allen_cahn_hierarchy_integrator.html" title="Class AllenCahnHierarchyIntegrator is a concrete class that manages the time integration of the Allen..." alt="" coords="291,5,493,45"/>
+<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="244,40,290,35,291,40,244,46"/>
+<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_enthalpy_hierarchy_integrator.html" title="Class EnthalpyHierarchyIntegrator is a concrete class that manages the time integration of energy and..." alt="" coords="295,69,489,109"/>
+<area shape="poly" id="edge8_Node000000_Node000002" title=" " alt="" coords="244,69,295,75,295,80,244,74"/>
 </map>

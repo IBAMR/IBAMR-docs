@@ -1,6 +1,9 @@
 <map id="IBAMR::RelaxationLSMethod" name="IBAMR::RelaxationLSMethod">
-<area shape="rect" id="node1" title="Class RelaxationLSMethod provides a relaxation algorithm implementation of the level set method...." alt="" coords="11,229,218,256"/>
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_l_s_init_strategy.html" title="Class LSInitStrategy provides a generic interface for initializing the implementation details of a pa..." alt="" coords="33,155,197,181"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="17,80,212,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="Class RelaxationLSMethod provides a relaxation algorithm implementation of the level set method...." alt="" coords="11,225,218,251"/>
+<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_l_s_init_strategy.html" title="Class LSInitStrategy provides a generic interface for initializing the implementation details of a pa..." alt="" coords="33,152,197,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,191,117,225,112,225,112,191"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="17,79,212,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

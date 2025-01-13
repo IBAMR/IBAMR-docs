@@ -1,13 +1,23 @@
 <map id="IBTK::PoissonSolver" name="IBTK::PoissonSolver">
-<area shape="rect" id="node1" title="Class PoissonSolver is an abstract base class for Poisson solvers." alt="" coords="472,173,623,199"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_c_c_poisson_hypre_level_solver.html" title="Class CCPoissonHypreLevelSolver is a concrete LinearSolver for solving elliptic equations of the form..." alt="" coords="683,5,886,47"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_c_c_poisson_p_e_t_sc_level_solver.html" title="Class CCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ..." alt="" coords="683,71,886,112"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_krylov_linear_solver_poisson_solver_interface.html" title="Class KrylovLinearSolverPoissonSolverInterface provides an interface for KrylovLinearSolvers that are..." alt="" coords="693,136,876,177"/>
-<area shape="rect" id="node8" href="$class_i_b_t_k_1_1_poisson_f_a_c_preconditioner.html" title="Class PoissonFACPreconditioner is a FACPreconditioner that has been specialized for Poisson problems." alt="" coords="671,202,899,229"/>
-<area shape="rect" id="node9" href="$class_i_b_t_k_1_1_s_c_poisson_hypre_level_solver.html" title="Class SCPoissonHypreLevelSolver is a concrete LinearSolver for solving elliptic equations of the form..." alt="" coords="684,253,885,295"/>
-<area shape="rect" id="node10" href="$class_i_b_t_k_1_1_s_c_poisson_p_e_t_sc_level_solver.html" title="Class SCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ..." alt="" coords="684,319,885,360"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="272,173,424,199"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,173,224,199"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_p_e_t_sc_krylov_poisson_solver.html" title="Class PETScKrylovPoissonSolver is an extension of class PETScKrylovLinearSolver that provides an impl..." alt="" coords="961,136,1151,177"/>
-<area shape="rect" id="node11" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_p_e_t_sc_level_solver.html" title="Class VCSCViscousPETScLevelSolver is a subclass of SCPoissonPETScLevelSolver class which solves vecto..." alt="" coords="947,319,1165,360"/>
+<area shape="rect" id="Node000001" title="Class PoissonSolver is an abstract base class for Poisson solvers." alt="" coords="472,170,623,195"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_c_c_poisson_hypre_level_solver.html" title="Class CCPoissonHypreLevelSolver is a concrete LinearSolver for solving elliptic equations of the form..." alt="" coords="683,5,886,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="563,157,607,106,637,78,669,55,694,43,696,48,672,60,640,83,611,109,568,161"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_c_c_poisson_p_e_t_sc_level_solver.html" title="Class CCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ..." alt="" coords="683,69,886,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="582,161,670,119,704,107,706,112,672,124,584,165"/>
+<area shape="rect" id="Node000006" href="$class_i_b_t_k_1_1_krylov_linear_solver_poisson_solver_interface.html" title="Class KrylovLinearSolverPoissonSolverInterface provides an interface for KrylovLinearSolvers that are..." alt="" coords="693,133,876,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="636,169,693,162,693,167,637,174"/>
+<area shape="rect" id="Node000008" href="$class_i_b_t_k_1_1_poisson_f_a_c_preconditioner.html" title="Class PoissonFACPreconditioner is a FACPreconditioner that has been specialized for Poisson problems." alt="" coords="671,198,899,223"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="637,190,677,195,677,201,636,196"/>
+<area shape="rect" id="Node000009" href="$class_i_b_t_k_1_1_s_c_poisson_hypre_level_solver.html" title="Class SCPoissonHypreLevelSolver is a concrete LinearSolver for solving elliptic equations of the form..." alt="" coords="684,248,885,288"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="588,199,672,233,708,245,706,250,670,239,586,204"/>
+<area shape="rect" id="Node000010" href="$class_i_b_t_k_1_1_s_c_poisson_p_e_t_sc_level_solver.html" title="Class SCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ..." alt="" coords="684,312,885,352"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="569,204,613,252,641,277,672,298,697,309,695,314,669,302,638,281,609,256,565,208"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="272,170,424,195"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="438,180,472,180,472,185,438,185"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,170,224,195"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,180,272,180,272,185,238,185"/>
+<area shape="rect" id="Node000007" href="$class_i_b_t_k_1_1_p_e_t_sc_krylov_poisson_solver.html" title="Class PETScKrylovPoissonSolver is an extension of class PETScKrylovLinearSolver that provides an impl..." alt="" coords="961,133,1151,173"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="890,151,961,151,961,156,890,156"/>
+<area shape="rect" id="Node000011" href="$class_i_b_t_k_1_1_v_c_s_c_viscous_p_e_t_sc_level_solver.html" title="Class VCSCViscousPETScLevelSolver is a subclass of SCPoissonPETScLevelSolver class which solves vecto..." alt="" coords="947,312,1165,352"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="899,329,947,329,947,335,899,335"/>
 </map>

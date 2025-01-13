@@ -1,6 +1,9 @@
 <map id="IBAMR::INSCollocatedWavePropConvectiveOperator" name="IBAMR::INSCollocatedWavePropConvectiveOperator">
-<area shape="rect" id="node1" title="Class INSCollocatedWavePropConvectiveOperator is a concrete ConvectiveOperator that implements a conv..." alt="" coords="15,229,215,271"/>
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="13,155,216,181"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="31,80,199,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="Class INSCollocatedWavePropConvectiveOperator is a concrete ConvectiveOperator that implements a conv..." alt="" coords="15,225,215,265"/>
+<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_convective_operator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="13,152,216,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,191,117,225,112,225,112,191"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="31,79,199,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

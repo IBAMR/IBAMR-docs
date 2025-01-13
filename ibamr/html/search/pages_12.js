@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['visualization_20data_20file_20generation_19389',['Visualization Data File Generation',['../../../samrai/2.4.4/html/package_apputils_plotting.html',1,'']]]
+  ['utilities_20package_0',['The Application Utilities Package',['../../../samrai/2.4.4/html/package_apputils.html',1,'']]]
 ];

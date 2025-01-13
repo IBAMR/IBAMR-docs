@@ -1,5 +1,7 @@
 <map id="IBTK::CartExtrapPhysBdryOp" name="IBTK::CartExtrapPhysBdryOp">
-<area shape="rect" id="node1" title="Class CartExtrapPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting ghost cell val..." alt="" coords="5,200,213,227"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="13,109,205,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="13,5,205,47"/>
+<area shape="rect" id="Node000001" title="Class CartExtrapPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting ghost cell val..." alt="" coords="5,197,213,223"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="13,108,205,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,162,112,197,107,197,107,162"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="13,5,205,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,59,112,108,107,108,107,59"/>
 </map>

@@ -1,13 +1,23 @@
 <map id="IBTK::ExtendedRobinBcCoefStrategy" name="IBTK::ExtendedRobinBcCoefStrategy">
-<area shape="rect" id="node1" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="571,85,775,127"/>
-<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_i_n_s_intermediate_velocity_bc_coef.html" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="824,27,1055,68"/>
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_i_n_s_projection_bc_coef.html" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="836,93,1043,119"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_stokes_bc_coef_strategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="831,143,1048,170"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="323,85,521,127"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="5,85,204,127"/>
-<area shape="rect" id="node7" href="$class_i_b_a_m_r_1_1_i_n_s_collocated_velocity_bc_coef.html" title="Class INSCollocatedVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocity..." alt="" coords="1113,5,1329,47"/>
-<area shape="rect" id="node8" href="$class_i_b_a_m_r_1_1_i_n_s_staggered_pressure_bc_coef.html" title="Class INSStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressure ..." alt="" coords="1113,71,1330,112"/>
-<area shape="rect" id="node9" href="$class_i_b_a_m_r_1_1_i_n_s_staggered_velocity_bc_coef.html" title="Class INSStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocity ..." alt="" coords="1115,136,1328,177"/>
-<area shape="rect" id="node10" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_pressure_bc_coef.html" title="Class INSVCStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressur..." alt="" coords="1104,201,1339,243"/>
-<area shape="rect" id="node11" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_velocity_bc_coef.html" title="Class INSVCStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocit..." alt="" coords="1106,267,1337,308"/>
+<area shape="rect" id="Node000001" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="571,84,775,124"/>
+<area shape="rect" id="Node000004" href="$class_i_b_a_m_r_1_1_i_n_s_intermediate_velocity_bc_coef.html" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="824,27,1055,67"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="779,78,845,64,846,69,780,84"/>
+<area shape="rect" id="Node000005" href="$class_i_b_a_m_r_1_1_i_n_s_projection_bc_coef.html" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="836,91,1043,117"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="789,101,836,101,836,107,789,107"/>
+<area shape="rect" id="Node000006" href="$class_i_b_a_m_r_1_1_stokes_bc_coef_strategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="831,141,1048,166"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="789,123,870,138,869,143,788,128"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="323,84,521,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="535,101,570,101,570,107,535,107"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="5,84,204,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,101,323,101,323,107,218,107"/>
+<area shape="rect" id="Node000007" href="$class_i_b_a_m_r_1_1_i_n_s_collocated_velocity_bc_coef.html" title="Class INSCollocatedVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocity..." alt="" coords="1113,5,1329,45"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1044,133,1053,127,1069,111,1077,93,1085,74,1102,55,1124,43,1126,48,1106,59,1090,77,1082,95,1074,114,1056,131,1046,137"/>
+<area shape="rect" id="Node000008" href="$class_i_b_a_m_r_1_1_i_n_s_staggered_pressure_bc_coef.html" title="Class INSStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressure ..." alt="" coords="1113,69,1330,109"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1016,135,1054,127,1139,107,1140,112,1055,132,1017,140"/>
+<area shape="rect" id="Node000009" href="$class_i_b_a_m_r_1_1_i_n_s_staggered_velocity_bc_coef.html" title="Class INSStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocity ..." alt="" coords="1115,133,1328,173"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="1062,151,1114,151,1114,156,1062,156"/>
+<area shape="rect" id="Node000010" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_pressure_bc_coef.html" title="Class INSVCStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressur..." alt="" coords="1104,197,1339,237"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="1010,166,1133,195,1132,200,1009,172"/>
+<area shape="rect" id="Node000011" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_velocity_bc_coef.html" title="Class INSVCStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocit..." alt="" coords="1106,261,1337,301"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="971,172,1032,209,1105,247,1138,259,1136,264,1103,252,1029,214,969,176"/>
 </map>

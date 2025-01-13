@@ -1,7 +1,11 @@
 <map id="IBAMR::INSStaggeredPressureBcCoef" name="IBAMR::INSStaggeredPressureBcCoef">
-<area shape="rect" id="node1" title="Class INSStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressure ..." alt="" coords="5,367,223,408"/>
-<area shape="rect" id="node2" href="$class_i_b_a_m_r_1_1_stokes_bc_coef_strategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="5,291,223,317"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="12,200,216,241"/>
-<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="15,109,213,151"/>
-<area shape="rect" id="node5" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="15,5,213,47"/>
+<area shape="rect" id="Node000001" title="Class INSStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressure ..." alt="" coords="5,361,223,401"/>
+<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_stokes_bc_coef_strategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="5,287,223,312"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,326,117,361,111,361,111,326"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_extended_robin_bc_coef_strategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="12,197,216,237"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,251,117,286,111,286,111,251"/>
+<area shape="rect" id="Node000004" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="15,108,213,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,162,117,197,111,197,111,162"/>
+<area shape="rect" id="Node000005" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="15,5,213,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="117,59,117,108,111,108,111,59"/>
 </map>

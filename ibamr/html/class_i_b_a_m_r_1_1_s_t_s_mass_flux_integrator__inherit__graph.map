@@ -1,7 +1,11 @@
 <map id="IBAMR::STSMassFluxIntegrator" name="IBAMR::STSMassFluxIntegrator">
-<area shape="rect" id="node1" title="Class STSMassFluxIntegrator is an abstract class which integrates the density field." alt="" coords="272,46,495,73"/>
-<area shape="rect" id="node3" href="$class_i_b_a_m_r_1_1_adv_diff_conservative_mass_scalar_transport_r_k_integrator.html" title="Class AdvDiffConservativeMassScalarTransportRKIntegrator is a concrete class that integrates the coll..." alt="" coords="556,5,795,47"/>
-<area shape="rect" id="node4" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_r_k_integrator.html" title="Class INSVCStaggeredConservativeMassMomentumRKIntegrator integrates the staggered density field." alt="" coords="543,71,808,112"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,46,224,73"/>
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_s_s_p_r_k_integrator.html" title="Class INSVCStaggeredConservativeMassMomentumSSPRKIntegrator is a derived class that integrates the st..." alt="" coords="856,71,1121,112"/>
+<area shape="rect" id="Node000001" title="Class STSMassFluxIntegrator is an abstract class which integrates the density field." alt="" coords="272,45,495,70"/>
+<area shape="rect" id="Node000003" href="$class_i_b_a_m_r_1_1_adv_diff_conservative_mass_scalar_transport_r_k_integrator.html" title="Class AdvDiffConservativeMassScalarTransportRKIntegrator is a concrete class that integrates the coll..." alt="" coords="556,5,795,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="508,41,556,36,556,41,509,46"/>
+<area shape="rect" id="Node000004" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_r_k_integrator.html" title="Class INSVCStaggeredConservativeMassMomentumRKIntegrator integrates the staggered density field." alt="" coords="543,69,808,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="509,68,543,72,542,77,508,74"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,45,224,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,55,272,55,272,60,238,60"/>
+<area shape="rect" id="Node000005" href="$class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_mass_momentum_s_s_p_r_k_integrator.html" title="Class INSVCStaggeredConservativeMassMomentumSSPRKIntegrator is a derived class that integrates the st..." alt="" coords="856,69,1121,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="822,87,856,87,856,92,822,92"/>
 </map>

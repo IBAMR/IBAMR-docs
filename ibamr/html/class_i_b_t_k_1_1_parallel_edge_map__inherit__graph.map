@@ -1,4 +1,5 @@
 <map id="IBTK::ParallelEdgeMap" name="IBTK::ParallelEdgeMap">
-<area shape="rect" id="node1" title="Class ParallelEdgeMap is a utility class for managing edge maps (i.e., maps from vertices to links be..." alt="" coords="31,80,199,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="Class ParallelEdgeMap is a utility class for managing edge maps (i.e., maps from vertices to links be..." alt="" coords="31,79,199,104"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

@@ -1,7 +1,12 @@
 <map id="IBTK::LSetData&lt; T &gt;" name="IBTK::LSetData&lt; T &gt;">
-<area shape="rect" id="node1" title="Class LSetData is a specialization of the templated class SAMRAI::pdat::IndexData that provides acces..." alt="" coords="46,335,203,361"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_l_index_set_data.html" title="Class LIndexSetData is a specialization of the templated class LSetData that is intended to be used w..." alt="" coords="28,411,221,437"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="5,229,244,285"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1hier_1_1PatchData.html" title=" " alt="" coords="29,5,210,47"/>
-<area shape="rect" id="node4" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="141,96,375,137"/>
+<area shape="rect" id="Node000001" title="Class LSetData is a specialization of the templated class SAMRAI::pdat::IndexData that provides acces..." alt="" coords="46,331,203,356"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_l_index_set_data.html" title="Class LIndexSetData is a specialization of the templated class LSetData that is intended to be used w..." alt="" coords="28,405,221,431"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="127,370,127,405,122,405,122,370"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="5,227,244,281"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,295,127,330,122,330,122,295"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1hier_1_1PatchData.html" title=" " alt="" coords="29,5,210,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,59,127,226,121,227,117,59"/>
+<area shape="rect" id="Node000004" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="141,95,375,135"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="162,50,229,92,227,97,159,55"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="232,147,152,228,148,224,228,143"/>
 </map>

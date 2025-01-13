@@ -1,9 +1,15 @@
 <map id="IBTK::PETScKrylovLinearSolver" name="IBTK::PETScKrylovLinearSolver">
-<area shape="rect" id="node1" title="Class PETScKrylovLinearSolver provides a KrylovLinearSolver interface for a PETSc Krylov subspace ite..." alt="" coords="119,304,341,331"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_p_e_t_sc_krylov_staggered_stokes_solver.html" title="Class PETScKrylovStaggeredStokesSolver is an extension of class PETScKrylovLinearSolver that provides..." alt="" coords="5,379,225,420"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_p_e_t_sc_krylov_poisson_solver.html" title="Class PETScKrylovPoissonSolver is an extension of class PETScKrylovLinearSolver that provides an impl..." alt="" coords="249,379,440,420"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_krylov_linear_solver.html" title="Class KrylovLinearSolver provides an abstract interface for the implementation of Krylov subspace sol..." alt="" coords="139,229,321,256"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="159,155,301,181"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="154,80,306,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="121,5,339,32"/>
+<area shape="rect" id="Node000001" title="Class PETScKrylovLinearSolver provides a KrylovLinearSolver interface for a PETSc Krylov subspace ite..." alt="" coords="119,299,341,324"/>
+<area shape="rect" id="Node000006" href="$class_i_b_a_m_r_1_1_p_e_t_sc_krylov_staggered_stokes_solver.html" title="Class PETScKrylovStaggeredStokesSolver is an extension of class PETScKrylovLinearSolver that provides..." alt="" coords="5,372,225,412"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="203,334,144,374,141,370,200,330"/>
+<area shape="rect" id="Node000007" href="$class_i_b_t_k_1_1_p_e_t_sc_krylov_poisson_solver.html" title="Class PETScKrylovPoissonSolver is an extension of class PETScKrylovLinearSolver that provides an impl..." alt="" coords="249,372,440,412"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="260,330,319,370,316,374,257,334"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_krylov_linear_solver.html" title="Class KrylovLinearSolver provides an abstract interface for the implementation of Krylov subspace sol..." alt="" coords="139,225,321,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,264,233,299,227,299,227,264"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="159,152,301,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="233,191,233,225,227,225,227,191"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="154,79,306,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="233,118,233,152,227,152,227,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="121,5,339,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="233,44,233,79,227,79,227,44"/>
 </map>

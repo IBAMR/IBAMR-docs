@@ -1,8 +1,13 @@
 <map id="IBTK::VCSCViscousOperator" name="IBTK::VCSCViscousOperator">
-<area shape="rect" id="node1" title="Class VCSCViscousOperator is a subclass of SCLaplaceOperator which implements a globally second&#45;order..." alt="" coords="13,379,216,405"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_s_c_laplace_operator.html" title="Class SCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="23,304,207,331"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_laplace_operator.html" title="Class LaplaceOperator is an abstract base class for a Laplace&#45;type operators." alt="" coords="31,229,198,256"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_linear_operator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="36,155,193,181"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="31,80,199,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="Class VCSCViscousOperator is a subclass of SCLaplaceOperator which implements a globally second&#45;order..." alt="" coords="13,372,216,397"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_s_c_laplace_operator.html" title="Class SCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="23,299,207,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,338,117,372,112,372,112,338"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_laplace_operator.html" title="Class LaplaceOperator is an abstract base class for a Laplace&#45;type operators." alt="" coords="31,225,198,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,264,117,299,112,299,112,264"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_linear_operator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="36,152,193,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,191,117,225,112,225,112,191"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_general_operator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="31,79,199,104"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

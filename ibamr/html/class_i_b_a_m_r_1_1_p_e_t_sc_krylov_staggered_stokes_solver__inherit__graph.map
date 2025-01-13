@@ -1,10 +1,18 @@
 <map id="IBAMR::PETScKrylovStaggeredStokesSolver" name="IBAMR::PETScKrylovStaggeredStokesSolver">
-<area shape="rect" id="node1" title="Class PETScKrylovStaggeredStokesSolver is an extension of class PETScKrylovLinearSolver that provides..." alt="" coords="1252,27,1472,69"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html" title="Class PETScKrylovLinearSolver provides a KrylovLinearSolver interface for a PETSc Krylov subspace ite..." alt="" coords="977,5,1200,32"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_krylov_linear_solver.html" title="Class KrylovLinearSolver provides an abstract interface for the implementation of Krylov subspace sol..." alt="" coords="743,8,925,35"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="513,9,654,36"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="272,35,424,61"/>
-<area shape="rect" id="node8" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="472,60,695,87"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,35,224,61"/>
-<area shape="rect" id="node7" href="$class_i_b_a_m_r_1_1_krylov_linear_solver_staggered_stokes_solver_interface.html" title="Class KrylovLinearSolverStaggeredStokesSolverInterface provides an interface for KrylovLinearSolvers ..." alt="" coords="973,57,1204,98"/>
+<area shape="rect" id="Node000001" title="Class PETScKrylovStaggeredStokesSolver is an extension of class PETScKrylovLinearSolver that provides..." alt="" coords="1252,27,1472,67"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_p_e_t_sc_krylov_linear_solver.html" title="Class PETScKrylovLinearSolver provides a KrylovLinearSolver interface for a PETSc Krylov subspace ite..." alt="" coords="977,5,1200,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1214,29,1252,33,1252,38,1213,34"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_krylov_linear_solver.html" title="Class KrylovLinearSolver provides an abstract interface for the implementation of Krylov subspace sol..." alt="" coords="743,8,925,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="939,17,977,17,977,22,939,22"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="513,9,654,35"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="668,19,743,18,743,24,668,24"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="272,36,424,61"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="437,36,512,27,513,33,438,41"/>
+<area shape="rect" id="Node000008" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="472,60,695,85"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="438,55,472,59,471,64,437,60"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,36,224,61"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="238,46,272,46,272,51,238,51"/>
+<area shape="rect" id="Node000007" href="$class_i_b_a_m_r_1_1_krylov_linear_solver_staggered_stokes_solver_interface.html" title="Class KrylovLinearSolverStaggeredStokesSolverInterface provides an interface for KrylovLinearSolvers ..." alt="" coords="973,55,1204,95"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1217,59,1252,56,1252,61,1218,65"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="709,71,973,72,973,77,709,76"/>
 </map>

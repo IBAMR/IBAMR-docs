@@ -1,6 +1,9 @@
 <map id="IBTK::NewtonKrylovSolver" name="IBTK::NewtonKrylovSolver">
-<area shape="rect" id="node1" title="Class NewtonKrylovSolver provides an abstract interface for the implementation of inexact Newton&#45;Kryl..." alt="" coords="25,155,218,181"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html" title="Class PETScNewtonKrylovSolver provides a NewtonKrylovSolver interface for a PETSc inexact Newton&#45;Kryl..." alt="" coords="5,229,237,256"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="45,80,197,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="12,5,231,32"/>
+<area shape="rect" id="Node000001" title="Class NewtonKrylovSolver provides an abstract interface for the implementation of inexact Newton&#45;Kryl..." alt="" coords="25,152,218,177"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_p_e_t_sc_newton_krylov_solver.html" title="Class PETScNewtonKrylovSolver provides a NewtonKrylovSolver interface for a PETSc inexact Newton&#45;Kryl..." alt="" coords="5,225,237,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="124,191,124,225,119,225,119,191"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="45,79,197,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,118,124,152,119,152,119,118"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="12,5,231,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,44,124,79,119,79,119,44"/>
 </map>

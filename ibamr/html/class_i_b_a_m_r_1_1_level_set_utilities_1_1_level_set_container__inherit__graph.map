@@ -1,4 +1,5 @@
 <map id="IBAMR::LevelSetUtilities::LevelSetContainer" name="IBAMR::LevelSetUtilities::LevelSetContainer">
-<area shape="rect" id="node1" title="A lightweight class to hold the level set variable and the associated hierarchy integrator (AdvDiffHi..." alt="" coords="25,80,205,121"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="A lightweight class to hold the level set variable and the associated hierarchy integrator (AdvDiffHi..." alt="" coords="25,79,205,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,224,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
 </map>

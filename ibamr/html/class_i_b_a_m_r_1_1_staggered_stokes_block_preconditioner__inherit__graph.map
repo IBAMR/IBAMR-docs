@@ -1,10 +1,18 @@
 <map id="IBAMR::StaggeredStokesBlockPreconditioner" name="IBAMR::StaggeredStokesBlockPreconditioner">
-<area shape="rect" id="node1" title="Class StaggeredStokesBlockPreconditioner is an abstract base class for Stokes solvers that are implem..." alt="" coords="743,71,961,112"/>
-<area shape="rect" id="node6" href="$class_i_b_a_m_r_1_1_staggered_stokes_block_factorization_preconditioner.html" title="Class StaggeredStokesBlockFactorizationPreconditioner is a concrete StaggeredStokesBlockPreconditione..." alt="" coords="1023,5,1242,47"/>
-<area shape="rect" id="node7" href="$class_i_b_a_m_r_1_1_staggered_stokes_projection_preconditioner.html" title="Class StaggeredStokesProjectionPreconditioner is a concrete StokesSolver that implements a staggered ..." alt="" coords="1009,71,1256,112"/>
-<area shape="rect" id="node8" href="$class_i_b_a_m_r_1_1_v_c_staggered_stokes_projection_preconditioner.html" title="Class VCStaggeredStokesProjectionPreconditioner is a concrete StokesSolver that implements a staggere..." alt="" coords="1033,136,1233,177"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="513,53,654,79"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="272,78,424,105"/>
-<area shape="rect" id="node5" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="472,103,695,130"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,78,224,105"/>
+<area shape="rect" id="Node000001" title="Class StaggeredStokesBlockPreconditioner is an abstract base class for Stokes solvers that are implem..." alt="" coords="743,69,961,109"/>
+<area shape="rect" id="Node000006" href="$class_i_b_a_m_r_1_1_staggered_stokes_block_factorization_preconditioner.html" title="Class StaggeredStokesBlockFactorizationPreconditioner is a concrete StaggeredStokesBlockPreconditione..." alt="" coords="1023,5,1242,45"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="953,64,1044,43,1045,48,954,69"/>
+<area shape="rect" id="Node000007" href="$class_i_b_a_m_r_1_1_staggered_stokes_projection_preconditioner.html" title="Class StaggeredStokesProjectionPreconditioner is a concrete StokesSolver that implements a staggered ..." alt="" coords="1009,69,1256,109"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="975,87,1009,87,1009,92,975,92"/>
+<area shape="rect" id="Node000008" href="$class_i_b_a_m_r_1_1_v_c_staggered_stokes_projection_preconditioner.html" title="Class VCStaggeredStokesProjectionPreconditioner is a concrete StokesSolver that implements a staggere..." alt="" coords="1033,133,1233,173"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="954,110,1045,131,1044,136,953,115"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_linear_solver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="513,51,654,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="668,69,743,76,742,82,668,75"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_general_solver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="272,77,424,102"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,77,512,69,513,74,438,82"/>
+<area shape="rect" id="Node000005" href="$class_i_b_a_m_r_1_1_staggered_stokes_solver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="472,101,695,126"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="438,96,472,99,471,105,437,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,77,224,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="238,87,272,87,272,92,238,92"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="708,100,742,96,743,102,708,105"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="IBTK::FaceSynchCopyFillPattern" name="IBTK::FaceSynchCopyFillPattern">
-<area shape="rect" id="node1" title="Class FaceCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="5,200,232,227"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="25,109,213,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="25,5,213,47"/>
+<area shape="rect" id="Node000001" title="Class FaceCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="5,197,232,223"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="25,108,213,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,162,121,197,116,197,116,162"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="25,5,213,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,59,121,108,116,108,116,59"/>
 </map>

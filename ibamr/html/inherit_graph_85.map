@@ -1,9 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="5,125,193,166"/>
-<area shape="rect" id="node2" href="$class_i_b_t_k_1_1_cell_no_corners_fill_pattern.html" title="Class CellCellNoCornersFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="247,5,466,32"/>
-<area shape="rect" id="node3" href="$class_i_b_t_k_1_1_edge_synch_copy_fill_pattern.html" title="Class EdgeCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="242,56,471,83"/>
-<area shape="rect" id="node4" href="$class_i_b_t_k_1_1_face_synch_copy_fill_pattern.html" title="Class FaceCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="243,107,470,133"/>
-<area shape="rect" id="node5" href="$class_i_b_t_k_1_1_node_synch_copy_fill_pattern.html" title="Class NodeCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="241,157,472,184"/>
-<area shape="rect" id="node6" href="$class_i_b_t_k_1_1_side_no_corners_fill_pattern.html" title="Class SideCellNoCornersFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="246,208,467,235"/>
-<area shape="rect" id="node7" href="$class_i_b_t_k_1_1_side_synch_copy_fill_pattern.html" title="Class SideCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="244,259,469,285"/>
+<area shape="rect" id="Node000000" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1VariableFillPattern.html" title=" " alt="" coords="5,122,193,162"/>
+<area shape="rect" id="Node000001" href="$class_i_b_t_k_1_1_cell_no_corners_fill_pattern.html" title="Class CellCellNoCornersFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="247,5,466,31"/>
+<area shape="poly" id="edge265_Node000000_Node000001" title=" " alt="" coords="132,111,181,73,240,40,273,28,275,33,242,44,184,78,135,115"/>
+<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_edge_synch_copy_fill_pattern.html" title="Class EdgeCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="242,55,471,80"/>
+<area shape="poly" id="edge266_Node000000_Node000002" title=" " alt="" coords="163,115,241,89,287,77,288,83,242,94,165,120"/>
+<area shape="rect" id="Node000003" href="$class_i_b_t_k_1_1_face_synch_copy_fill_pattern.html" title="Class FaceCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="243,104,470,129"/>
+<area shape="poly" id="edge267_Node000000_Node000003" title=" " alt="" coords="207,129,243,125,243,130,207,134"/>
+<area shape="rect" id="Node000004" href="$class_i_b_t_k_1_1_node_synch_copy_fill_pattern.html" title="Class NodeCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="241,153,472,179"/>
+<area shape="poly" id="edge268_Node000000_Node000004" title=" " alt="" coords="208,149,242,153,241,158,207,155"/>
+<area shape="rect" id="Node000005" href="$class_i_b_t_k_1_1_side_no_corners_fill_pattern.html" title="Class SideCellNoCornersFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="246,203,467,228"/>
+<area shape="poly" id="edge269_Node000000_Node000005" title=" " alt="" coords="169,164,242,187,293,200,292,205,241,193,167,169"/>
+<area shape="rect" id="Node000006" href="$class_i_b_t_k_1_1_side_synch_copy_fill_pattern.html" title="Class SideCellSynchCopyFillPattern is a concrete implementation of the abstract base class SAMRAI::xf..." alt="" coords="244,252,469,277"/>
+<area shape="poly" id="edge270_Node000000_Node000006" title=" " alt="" coords="136,169,185,205,242,237,279,249,278,254,240,242,182,209,133,173"/>
 </map>

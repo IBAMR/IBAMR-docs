@@ -1,5 +1,7 @@
 <map id="IBTK::CartCellDoubleBoundsPreservingConservativeLinearRefine" name="IBTK::CartCellDoubleBoundsPreservingConservativeLinearRefine">
-<area shape="rect" id="node1" title="Class CartCellDoubleBoundsPreservingConservativeLinearRefine is a concrete SAMRAI::xfer::RefineOperat..." alt="" coords="5,200,264,241"/>
-<area shape="rect" id="node2" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="27,109,242,151"/>
-<area shape="rect" id="node3" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="27,5,242,47"/>
+<area shape="rect" id="Node000001" title="Class CartCellDoubleBoundsPreservingConservativeLinearRefine is a concrete SAMRAI::xfer::RefineOperat..." alt="" coords="5,197,264,237"/>
+<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="27,108,242,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,162,137,197,132,197,132,162"/>
+<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="27,5,242,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,59,137,108,132,108,132,59"/>
 </map>
