@@ -223,6 +223,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3b00b4f8b8e6e01f2418aa18daab496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac63675ad91b18d9cab43069fe69ebf4e" id="r_ac63675ad91b18d9cab43069fe69ebf4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#ac63675ad91b18d9cab43069fe69ebf4e">putToDatabase</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db) override</td></tr>
 <tr class="separator:ac63675ad91b18d9cab43069fe69ebf4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42927ec87683f4481357b5f368091410" id="r_a42927ec87683f4481357b5f368091410"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#a42927ec87683f4481357b5f368091410">convertTimeEnumToDouble</a> (IBTK::TimePoint time_pt)</td></tr>
+<tr class="memdesc:a42927ec87683f4481357b5f368091410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the enum TimePoint to it respective value.  <br /></td></tr>
+<tr class="separator:a42927ec87683f4481357b5f368091410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12ca96393cb896e977dc664c2989f4b4" id="r_a12ca96393cb896e977dc664c2989f4b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#a12ca96393cb896e977dc664c2989f4b4">getPositionData</a> (<a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; &gt; **X_data, bool **X_needs_ghost_fill, IBTK::TimePoint time_pt)</td></tr>
+<tr class="memdesc:a12ca96393cb896e977dc664c2989f4b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the structure position data at the specified time point.  <br /></td></tr>
+<tr class="separator:a12ca96393cb896e977dc664c2989f4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f20794e7326fbc271f21eb66b42901c" id="r_a6f20794e7326fbc271f21eb66b42901c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#a6f20794e7326fbc271f21eb66b42901c">getVelocityData</a> (<a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; &gt; **U_data, IBTK::TimePoint time_pt)</td></tr>
+<tr class="memdesc:a6f20794e7326fbc271f21eb66b42901c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current structure velocity data at the specified time point.  <br /></td></tr>
+<tr class="separator:a6f20794e7326fbc271f21eb66b42901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345d082bf603a689eab8c1988a283713" id="r_a345d082bf603a689eab8c1988a283713"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#a345d082bf603a689eab8c1988a283713">getForceData</a> (<a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; &gt; **F_data, bool **F_needs_ghost_fill, IBTK::TimePoint time_pt)</td></tr>
+<tr class="memdesc:a345d082bf603a689eab8c1988a283713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current structure force data at the specified time point.  <br /></td></tr>
+<tr class="separator:a345d082bf603a689eab8c1988a283713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_i_b_a_m_r_1_1_i_b_implicit_strategy"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_i_b_a_m_r_1_1_i_b_implicit_strategy')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_b_implicit_strategy.html">IBAMR::IBImplicitStrategy</a></td></tr>
 <tr class="memitem:aa2fe51e6db2f5387649818571bdaa4b4 inherit pub_methods_class_i_b_a_m_r_1_1_i_b_implicit_strategy" id="r_aa2fe51e6db2f5387649818571bdaa4b4"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>IBImplicitStrategy</b> ()=default</td></tr>
@@ -1009,6 +1021,27 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 
 </div>
 </div>
+<a id="a42927ec87683f4481357b5f368091410" name="a42927ec87683f4481357b5f368091410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42927ec87683f4481357b5f368091410">&#9670;&#160;</a></span>convertTimeEnumToDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::IBMethod::convertTimeEnumToDouble </td>
+          <td>(</td>
+          <td class="paramtype">IBTK::TimePoint&#160;</td>
+          <td class="paramname"><em>time_pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert the enum TimePoint to it respective value. </p>
+<p>If TimePoint is not one of CURRENT_TIME, HALF_TIME, or NEW_TIME, this returns NaN. </p>
+
+</div>
+</div>
 <a id="aec17e9417c4f5a34719b0979baf1707f" name="aec17e9417c4f5a34719b0979baf1707f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec17e9417c4f5a34719b0979baf1707f">&#9670;&#160;</a></span>createSolverVecs()</h2>
 
@@ -1147,7 +1180,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 </div>
 </div>
 <a id="ab4443dbb8b862b96dcaef6714bfb109d" name="ab4443dbb8b862b96dcaef6714bfb109d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4443dbb8b862b96dcaef6714bfb109d">&#9670;&#160;</a></span>getForceData()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4443dbb8b862b96dcaef6714bfb109d">&#9670;&#160;</a></span>getForceData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1185,7 +1218,45 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the current structure force data. </p>
+<p>Get the current structure force data.</p>
+<p>data_time must be equal to one of current time, new time, or half time. If this condition is met, F_data is set to the data at that respective time, otherwise the F_data pointers are unchanged. </p>
+
+</div>
+</div>
+<a id="a345d082bf603a689eab8c1988a283713" name="a345d082bf603a689eab8c1988a283713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a345d082bf603a689eab8c1988a283713">&#9670;&#160;</a></span>getForceData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBMethod::getForceData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; &gt; **&#160;</td>
+          <td class="paramname"><em>F_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool **&#160;</td>
+          <td class="paramname"><em>F_needs_ghost_fill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IBTK::TimePoint&#160;</td>
+          <td class="paramname"><em>time_pt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current structure force data at the specified time point. </p>
+<p>The time point should be one of CURRENT_TIME, HALF_TIME, or NEW_TIME. If this condition is met, F_data is set to the data at that respective time, otherwise the F_data pointers are unchanged. </p>
 
 </div>
 </div>
@@ -1303,7 +1374,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the current interpolation/spreading position data. </p>
+<p>Get the current interpolation/spreading position data.</p>
+<p>data_time must be equal to one of current time, new time, or half time. If this condition is met, X_LE_data is set to the data at that respective time, otherwise the X_LE_data is unchanged.</p>
+<p>If this class is not set up to use fixed coupling, this returns data from <a class="el" href="class_i_b_a_m_r_1_1_i_b_method.html#a12ca96393cb896e977dc664c2989f4b4" title="Get the structure position data at the specified time point.">getPositionData()</a>. </p>
 
 </div>
 </div>
@@ -1340,7 +1413,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the linearized structure force data. </p>
+<p>Get the linearized structure force data.</p>
+<p>If the linearized force data does not exist, it will be created. </p>
 
 </div>
 </div>
@@ -1377,7 +1451,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the linearized structure position data. </p>
+<p>Get the linearized structure position data.</p>
+<p>If the linearized position data does not exist, it will be created. </p>
 
 </div>
 </div>
@@ -1404,7 +1479,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the linearized structure velocity data. </p>
+<p>Get the linearized structure velocity data.</p>
+<p>If the linearized velocity data does not exist, it will be created. </p>
 
 </div>
 </div>
@@ -1437,7 +1513,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 </div>
 </div>
 <a id="a3918e04a644d5672f1e625e5975af6a3" name="a3918e04a644d5672f1e625e5975af6a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3918e04a644d5672f1e625e5975af6a3">&#9670;&#160;</a></span>getPositionData()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3918e04a644d5672f1e625e5975af6a3">&#9670;&#160;</a></span>getPositionData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1475,12 +1551,50 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the current structure position data. </p>
+<p>Get the current structure position data.</p>
+<p>data_time must be equal to one of current time, new time, or half time. If this condition is met, X_data is set to the data at that respective time, otherwise the X_data pointers are unchanged. </p>
+
+</div>
+</div>
+<a id="a12ca96393cb896e977dc664c2989f4b4" name="a12ca96393cb896e977dc664c2989f4b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12ca96393cb896e977dc664c2989f4b4">&#9670;&#160;</a></span>getPositionData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBMethod::getPositionData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; &gt; **&#160;</td>
+          <td class="paramname"><em>X_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool **&#160;</td>
+          <td class="paramname"><em>X_needs_ghost_fill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IBTK::TimePoint&#160;</td>
+          <td class="paramname"><em>time_pt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the structure position data at the specified time point. </p>
+<p>The time point should be one of CURRENT_TIME, HALF_TIME, or NEW_TIME. If this condition is met, X_data is set to the data at that respective time, otherwise the X_data pointers are unchanged. </p>
 
 </div>
 </div>
 <a id="a35ad74f359990098f827396f7509b381" name="a35ad74f359990098f827396f7509b381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35ad74f359990098f827396f7509b381">&#9670;&#160;</a></span>getVelocityData()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ad74f359990098f827396f7509b381">&#9670;&#160;</a></span>getVelocityData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1512,7 +1626,39 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the current structure velocity data. </p>
+<p>Get the current structure velocity data.</p>
+<p>data_time must be equal to one of current time, new time, or half time. If this condition is met, U_data is set to the data at that respective time, otherwise the U_data pointers are unchanged. </p>
+
+</div>
+</div>
+<a id="a6f20794e7326fbc271f21eb66b42901c" name="a6f20794e7326fbc271f21eb66b42901c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f20794e7326fbc271f21eb66b42901c">&#9670;&#160;</a></span>getVelocityData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBMethod::getVelocityData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_data.html">IBTK::LData</a> &gt; &gt; **&#160;</td>
+          <td class="paramname"><em>U_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IBTK::TimePoint&#160;</td>
+          <td class="paramname"><em>time_pt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current structure velocity data at the specified time point. </p>
+<p>The time point should be one of CURRENT_TIME, HALF_TIME, or NEW_TIME. If this condition is met, U_data is set to the data at that respective time, otherwise the U_data pointers are unchanged. </p>
 
 </div>
 </div>
@@ -2722,7 +2868,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>d_registered_for_rest
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 13 2025 17:43:02 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Jan 13 2025 20:05:10 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

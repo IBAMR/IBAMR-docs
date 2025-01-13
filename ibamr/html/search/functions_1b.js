@@ -374,7 +374,7 @@ var searchData=
   ['_7elinearoperator_371',['~LinearOperator',['../class_i_b_t_k_1_1_linear_operator.html#ad7f1730a4aa2346452a1707ddeea393e',1,'IBTK::LinearOperator']]],
   ['_7elinearsolver_372',['~LinearSolver',['../class_i_b_t_k_1_1_linear_solver.html#a91367d051f4406590fffa677d6d2a4fe',1,'IBTK::LinearSolver']]],
   ['_7elinitstrategy_373',['~LInitStrategy',['../class_i_b_t_k_1_1_l_init_strategy.html#ae294b4ee1af38e75499e936d9b82bd15',1,'IBTK::LInitStrategy']]],
-  ['_7elist_374',['~list',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07254.html#a6520eeff66a82d7b6e5eacffdcb2da6e',1,'std::list::~list()'],['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1List.html#2a182d8969c0d7ec506d3c0a8bdb9296',1,'SAMRAI::tbox::List::~List()']]],
+  ['_7elist_374',['~list',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1List.html#2a182d8969c0d7ec506d3c0a8bdb9296',1,'SAMRAI::tbox::List::~List()'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07254.html#a6520eeff66a82d7b6e5eacffdcb2da6e',1,'std::list::~list()']]],
   ['_7elistiterator_375',['~ListIterator',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1ListIterator.html#10d5735b08e4b2a2106192cd88eb6f0f',1,'SAMRAI::tbox::ListIterator']]],
   ['_7elmesh_376',['~LMesh',['../class_i_b_t_k_1_1_l_mesh.html#af1cddad0625a3dda5c97490711ed2a2f',1,'IBTK::LMesh']]],
   ['_7elnode_377',['~LNode',['../class_i_b_t_k_1_1_l_node.html#a28840b99b6c23150dad683fd8824ee38',1,'IBTK::LNode']]],
