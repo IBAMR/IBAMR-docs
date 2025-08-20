@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae84c7056a3802af3ded806a0c64a886f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92e3944883d731ffde9cf6a004d16c9e" id="r_a92e3944883d731ffde9cf6a004d16c9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a92e3944883d731ffde9cf6a004d16c9e">initializeHierarchyIntegrator</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) override</td></tr>
 <tr class="separator:a92e3944883d731ffde9cf6a004d16c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55abe3d1706a31ade47e361c4bc64134" id="r_a55abe3d1706a31ade47e361c4bc64134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a55abe3d1706a31ade47e361c4bc64134">initializePatchHierarchy</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) override</td></tr>
+<tr class="separator:a55abe3d1706a31ade47e361c4bc64134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d3da31f041b56d7699d3e63a9895936" id="r_a7d3da31f041b56d7699d3e63a9895936"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a7d3da31f041b56d7699d3e63a9895936">getNumberOfMarkers</a> () const</td></tr>
 <tr class="separator:a7d3da31f041b56d7699d3e63a9895936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c14e1c7548dd6a18b792cec566a2016" id="r_a0c14e1c7548dd6a18b792cec566a2016"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a0c14e1c7548dd6a18b792cec566a2016">setMarkers</a> (const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; IBTK::Point &gt; &amp;markers)</td></tr>
@@ -842,9 +844,49 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
 </table>
 </div><div class="memdoc">
 <p>Initialize the variables, basic communications algorithms, solvers, and other data structures used by this time integrator object.</p>
-<p>This method is called automatically by <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a8eab8e8e0267b1887abea0770d486958">initializePatchHierarchy()</a> prior to the construction of the patch hierarchy. It is also possible for users to make an explicit call to <a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a92e3944883d731ffde9cf6a004d16c9e">initializeHierarchyIntegrator()</a> prior to calling <a class="el" href="class_i_b_a_m_r_1_1_i_b_hierarchy_integrator.html#a8eab8e8e0267b1887abea0770d486958">initializePatchHierarchy()</a>. </p>
+<p>This method is called automatically by <a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a55abe3d1706a31ade47e361c4bc64134">initializePatchHierarchy()</a> prior to the construction of the patch hierarchy. It is also possible for users to make an explicit call to <a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a92e3944883d731ffde9cf6a004d16c9e">initializeHierarchyIntegrator()</a> prior to calling <a class="el" href="class_i_b_a_m_r_1_1_i_b_explicit_hierarchy_integrator.html#a55abe3d1706a31ade47e361c4bc64134">initializePatchHierarchy()</a>. </p>
 
 <p>Implements <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a6fe5881b1214ae1796b2c48cbb5943b0">IBTK::HierarchyIntegrator</a>.</p>
+
+</div>
+</div>
+<a id="a55abe3d1706a31ade47e361c4bc64134" name="a55abe3d1706a31ade47e361c4bc64134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55abe3d1706a31ade47e361c4bc64134">&#9670;&#160;</a></span>initializePatchHierarchy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBExplicitHierarchyIntegrator::initializePatchHierarchy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramname"><em>hierarchy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramname"><em>gridding_alg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Initialize the PatchHierarchy and initialize any markers from restart.</p>
+<p>Markers cannot be initialized without a patch hierarchy, and getFromRestart() is called in the constructor before this class has a patch hierarchy. Hence, this is the earliest the restart marker data can be used to create the marker points. </p>
+
+<p>Reimplemented from <a class="el" href="class_i_b_t_k_1_1_hierarchy_integrator.html#a3483a9cd8e7943b6409f184593ad49bd">IBTK::HierarchyIntegrator</a>.</p>
 
 </div>
 </div>
@@ -1267,7 +1309,7 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jul 21 2025 20:22:48 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Wed Aug 20 2025 17:09:22 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
