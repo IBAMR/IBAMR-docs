@@ -449,8 +449,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a03a0c8b694e80faa73dbb677ed41fb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa36080e02b3aae0143880d742771ad79" id="r_aa36080e02b3aae0143880d742771ad79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_hierarchy_integrator.html#aa36080e02b3aae0143880d742771ad79">setupPlotDataSpecialized</a> () override</td></tr>
 <tr class="separator:aa36080e02b3aae0143880d742771ad79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2fe59ddecfaed76f56bcad4a0da1754" id="r_aa2fe59ddecfaed76f56bcad4a0da1754"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_hierarchy_integrator.html#aa2fe59ddecfaed76f56bcad4a0da1754">regridProjection</a> () override</td></tr>
-<tr class="separator:aa2fe59ddecfaed76f56bcad4a0da1754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5cceec2d7288ec150531aa2c670e75" id="r_a5b5cceec2d7288ec150531aa2c670e75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_conservative_hierarchy_integrator.html#a5b5cceec2d7288ec150531aa2c670e75">regridProjection</a> (const bool initial_time) override</td></tr>
+<tr class="separator:a5b5cceec2d7288ec150531aa2c670e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator.html">IBAMR::INSVCStaggeredHierarchyIntegrator</a></td></tr>
 <tr class="memitem:a4cefe61ff485ca1c7b1af5eb8696cbab inherit pro_methods_class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator" id="r_a4cefe61ff485ca1c7b1af5eb8696cbab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator.html#a4cefe61ff485ca1c7b1af5eb8696cbab">getStableTimestep</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch) const override</td></tr>
 <tr class="separator:a4cefe61ff485ca1c7b1af5eb8696cbab inherit pro_methods_class_i_b_a_m_r_1_1_i_n_s_v_c_staggered_hierarchy_integrator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1909,8 +1909,8 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
 
 </div>
 </div>
-<a id="aa2fe59ddecfaed76f56bcad4a0da1754" name="aa2fe59ddecfaed76f56bcad4a0da1754"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2fe59ddecfaed76f56bcad4a0da1754">&#9670;&#160;</a></span>regridProjection()</h2>
+<a id="a5b5cceec2d7288ec150531aa2c670e75" name="a5b5cceec2d7288ec150531aa2c670e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5cceec2d7288ec150531aa2c670e75">&#9670;&#160;</a></span>regridProjection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1921,7 +1921,8 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
         <tr>
           <td class="memname">void IBAMR::INSVCStaggeredConservativeHierarchyIntegrator::regridProjection </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>initial_time</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1933,7 +1934,7 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
 </div><div class="memdoc">
 <p>Project the velocity field following a regridding operation. </p>
 
-<p>Implements <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a9929834b6d19ef0b1b6ee5658b9ac311">IBAMR::INSHierarchyIntegrator</a>.</p>
+<p>Implements <a class="el" href="class_i_b_a_m_r_1_1_i_n_s_hierarchy_integrator.html#a9660ab0920f5f5b1a4bd4139eabde07c">IBAMR::INSHierarchyIntegrator</a>.</p>
 
 </div>
 </div>
@@ -2036,7 +2037,7 @@ static const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/late
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 28 2025 15:12:53 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Thu Aug 28 2025 17:54:56 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
