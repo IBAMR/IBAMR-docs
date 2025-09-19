@@ -200,12 +200,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>interp</b> (int f_dat
 <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>registerLSiloDataWriter</b> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="class_i_b_t_k_1_1_l_silo_data_writer.html">LSiloDataWriter</a> &gt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">silo_writer</a>)</td></tr>
 <tr class="memdesc:aa9946bcc90dc2bd5841fca70b8fa82a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a Silo data writer with the manager. <br /></td></tr>
 <tr class="separator:aa9946bcc90dc2bd5841fca70b8fa82a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4091bdb848f92c5ee87d5c6eb92145d0" id="r_a4091bdb848f92c5ee87d5c6eb92145d0"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a4091bdb848f92c5ee87d5c6eb92145d0">registerLoadBalancer</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">NDIM</a> &gt; &gt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">load_balancer</a>, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">int</a> <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">workload_data_idx</a>)</td></tr>
-<tr class="memdesc:a4091bdb848f92c5ee87d5c6eb92145d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a load balancer for non-uniform load balancing.  <br /></td></tr>
-<tr class="separator:a4091bdb848f92c5ee87d5c6eb92145d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd16f75b4748368af21aae6ea2f6ef9" id="r_adfd16f75b4748368af21aae6ea2f6ef9"><td class="memItemLeft" align="right" valign="top"><a id="adfd16f75b4748368af21aae6ea2f6ef9" name="adfd16f75b4748368af21aae6ea2f6ef9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>levelContainsLagrangianData</b> (int level_number) const</td></tr>
-<tr class="memdesc:adfd16f75b4748368af21aae6ea2f6ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether there is Lagrangian data on the given patch hierarchy level. <br /></td></tr>
+<tr class="memitem:adfd16f75b4748368af21aae6ea2f6ef9" id="r_adfd16f75b4748368af21aae6ea2f6ef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a12b3694fea2944855b845a258be171d5">IBTK_DEPRECATED</a>(&quot;This method is deprecated since the current strategy for handling &quot; &quot;non-uniform load balancing does not require that this object store <a class="elRef" href="../../samrai/2.4.4/html/solv__cartesianrobinbchelper2d_8f.html#453a82a7a55a9a28e2c19962f1abf6fa">a</a> &quot; &quot;pointer to the load balancer.&quot;) void registerLoadBalancer(SAMRAI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#adfd16f75b4748368af21aae6ea2f6ef9">levelContainsLagrangianData</a> (int level_number) const</td></tr>
+<tr class="memdesc:adfd16f75b4748368af21aae6ea2f6ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a load balancer for non-uniform load balancing.  <br /></td></tr>
 <tr class="separator:adfd16f75b4748368af21aae6ea2f6ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e8a86979d02d8009ca0626c2758da7" id="r_a74e8a86979d02d8009ca0626c2758da7"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a74e8a86979d02d8009ca0626c2758da7">getNumberOfNodes</a> (int level_number) const</td></tr>
 <tr class="separator:a74e8a86979d02d8009ca0626c2758da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,9 +226,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>levelContainsLagrangi
 int&#160;</td><td class="memItemRight" valign="bottom"><b>getLNodePatchDescriptorIndex</b> () const</td></tr>
 <tr class="memdesc:a95f008aacfafaa0a84536764c46fbe06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the patch data descriptor index for the Lagrangian index data. <br /></td></tr>
 <tr class="separator:a95f008aacfafaa0a84536764c46fbe06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad1c394e98949baf2d46bc9a0d2d5733" id="r_aad1c394e98949baf2d46bc9a0d2d5733"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#aad1c394e98949baf2d46bc9a0d2d5733">getWorkloadPatchDescriptorIndex</a> () const</td></tr>
-<tr class="memdesc:aad1c394e98949baf2d46bc9a0d2d5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the patch data descriptor index for the workload cell data.  <br /></td></tr>
-<tr class="separator:aad1c394e98949baf2d46bc9a0d2d5733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b3694fea2944855b845a258be171d5" id="r_a12b3694fea2944855b845a258be171d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_l_data_manager.html#a12b3694fea2944855b845a258be171d5">IBTK_DEPRECATED</a> (&quot;This method is deprecated since, in future versions of IBAMR, &quot; &quot;this value will no longer be stored and will only be available &quot; &quot;via the parent hierarchy integrator.&quot;) int getWorkloadPatchDescriptorIndex() const</td></tr>
+<tr class="memdesc:a12b3694fea2944855b845a258be171d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the patch data descriptor index for the workload cell data.  <br /></td></tr>
+<tr class="separator:a12b3694fea2944855b845a258be171d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c68b1859783756cb1d07306268faf31" id="r_a2c68b1859783756cb1d07306268faf31"><td class="memItemLeft" align="right" valign="top"><a id="a2c68b1859783756cb1d07306268faf31" name="a2c68b1859783756cb1d07306268faf31"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>getNodeCountPatchDescriptorIndex</b> () const</td></tr>
 <tr class="memdesc:a2c68b1859783756cb1d07306268faf31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the patch data descriptor index for the Lagrangian node count cell data. <br /></td></tr>
@@ -394,7 +390,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa07426_html_aad5f353afd4e55321e07e5516faea08c"><div class="ttname"><a href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html#aad5f353afd4e55321e07e5516faea08c">std::vector::end</a></div><div class="ttdeci">constexpr const_iterator end() const noexcept</div></div>
 <div class="ttc" id="aa07426_html_ab547528b49a234720493fce03da17d45"><div class="ttname"><a href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html#ab547528b49a234720493fce03da17d45">std::vector::insert</a></div><div class="ttdeci">constexpr iterator insert(const_iterator __position, _InputIterator __first, _InputIterator __last)</div></div>
 <div class="ttc" id="aclass_i_b_t_k_1_1_l_data_manager_html"><div class="ttname"><a href="class_i_b_t_k_1_1_l_data_manager.html">IBTK::LDataManager</a></div><div class="ttdoc">Class LDataManager coordinates the irregular distribution of LNode and LData on the patch hierarchy.</div><div class="ttdef"><b>Definition</b> LDataManager.h:175</div></div>
-<div class="ttc" id="aclass_i_b_t_k_1_1_l_data_manager_html_aa0b2cd7d9ef2b9009bf294671e8f107d"><div class="ttname"><a href="class_i_b_t_k_1_1_l_data_manager.html#aa0b2cd7d9ef2b9009bf294671e8f107d">IBTK::LDataManager::getLagrangianStructureIndexRange</a></div><div class="ttdeci">std::pair&lt; int, int &gt; getLagrangianStructureIndexRange(int structure_id, int level_number) const</div><div class="ttdoc">Get the range of Lagrangian indices for the Lagrangian structure with the specified ID.</div><div class="ttdef"><b>Definition</b> LDataManager-inl.h:215</div></div>
+<div class="ttc" id="aclass_i_b_t_k_1_1_l_data_manager_html_aa0b2cd7d9ef2b9009bf294671e8f107d"><div class="ttname"><a href="class_i_b_t_k_1_1_l_data_manager.html#aa0b2cd7d9ef2b9009bf294671e8f107d">IBTK::LDataManager::getLagrangianStructureIndexRange</a></div><div class="ttdeci">std::pair&lt; int, int &gt; getLagrangianStructureIndexRange(int structure_id, int level_number) const</div><div class="ttdoc">Get the range of Lagrangian indices for the Lagrangian structure with the specified ID.</div><div class="ttdef"><b>Definition</b> LDataManager-inl.h:214</div></div>
 <div class="ttc" id="aclass_i_b_t_k_1_1_l_data_manager_html_aa25ad98658d45fbf72e9a1fbe695b4ee"><div class="ttname"><a href="class_i_b_t_k_1_1_l_data_manager.html#aa25ad98658d45fbf72e9a1fbe695b4ee">IBTK::LDataManager::getLMesh</a></div><div class="ttdeci">SAMRAI::tbox::Pointer&lt; LMesh &gt; getLMesh(int level_number) const</div><div class="ttdoc">Get the Lagrangian mesh associated with the given patch hierarchy level.</div><div class="ttdef"><b>Definition</b> LDataManager-inl.h:108</div></div>
 </div><!-- fragment --><p>For some applications, it might be useful to get the Eulerian data of the Lagrangian points. To do this, it is important to understand the Lagrangian and PETSc index ordering. The Lagrangian ordering is fixed at the beginning of the simulation and is set by the reading of the vertices, whether through an input file or programmatically. The PETSc ordering, however, will change over the course of the simulation. Whenever a regridding operation is triggered, the PETSc indexing is changed to ensure efficient memory usage. The Eulerian data is stored in PETSc ordering, so in order to access that data, we need to map Lagrangian indices to their corresponding PETSc indices. We can then access the corresponding components of the PETSc data vector which is wrapped in an <a class="el" href="class_i_b_t_k_1_1_l_data.html" title="Class LData provides storage for a single scalar- or vector-valued Lagrangian quantity.">LData</a> object. As an example, here we loop over and print out the physical coordinates of all the Lagrangian points on the finest level.</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span></div>
@@ -1182,31 +1178,40 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aad1c394e98949baf2d46bc9a0d2d5733" name="aad1c394e98949baf2d46bc9a0d2d5733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad1c394e98949baf2d46bc9a0d2d5733">&#9670;&#160;</a></span>getWorkloadPatchDescriptorIndex()</h2>
+<a id="a12b3694fea2944855b845a258be171d5" name="a12b3694fea2944855b845a258be171d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b3694fea2944855b845a258be171d5">&#9670;&#160;</a></span>IBTK_DEPRECATED()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int IBTK::LDataManager::getWorkloadPatchDescriptorIndex </td>
+          <td class="memname">IBTK::LDataManager::IBTK_DEPRECATED </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">&quot;This method is deprecated&#160;</td>
+          <td class="paramname"><em>since</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in future versions of&#160;</td>
+          <td class="paramname"><em>IBAMR</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot; &quot;this value will no longer be stored and will only be available &quot; &quot;via the parent hierarchy integrator.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Get the patch data descriptor index for the workload cell data. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000010">Deprecated:</a></b></dt><dd>This method is deprecated since, in future versions of <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a>, this value will no longer be stored and will only be available via the parent hierarchy integrator. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>This method is deprecated since, in future versions of <a class="el" href="namespace_i_b_a_m_r.html">IBAMR</a>, this value will no longer be stored and will only be available via the parent hierarchy integrator. </dd></dl>
 
 </div>
 </div>
@@ -1312,6 +1317,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="adfd16f75b4748368af21aae6ea2f6ef9" name="adfd16f75b4748368af21aae6ea2f6ef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd16f75b4748368af21aae6ea2f6ef9">&#9670;&#160;</a></span>levelContainsLagrangianData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::LDataManager::levelContainsLagrangianData </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level_number</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a load balancer for non-uniform load balancing. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated:</a></b></dt><dd>This method is deprecated since the current strategy for handling non-uniform load balancing does not require that this object store a pointer to the load balancer. </dd></dl>
+<p>Indicates whether there is Lagrangian data on the given patch hierarchy level. </p>
+
+</div>
+</div>
 <a id="aa6bb93939023933dd4231b8cd705b457" name="aa6bb93939023933dd4231b8cd705b457"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6bb93939023933dd4231b8cd705b457">&#9670;&#160;</a></span>putToDatabase()</h2>
 
@@ -1359,37 +1394,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Register a concrete strategy object with the integrator that specifies the initial configuration of the curvilinear mesh nodes.</p>
 <dl class="section note"><dt>Note</dt><dd>This function calls <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html#ad7c66e95e4e4fc801408a82f9cbf07d1" title="Initialize structure specific configurations.">LInitStrategy::init()</a>. All preprocessing should be completed before registering a <a class="el" href="class_i_b_t_k_1_1_l_init_strategy.html" title="Class LInitStrategy provides a mechanism for specifying the initial configuration of the curvilinear ...">LInitStrategy</a> object. </dd></dl>
-
-</div>
-</div>
-<a id="a4091bdb848f92c5ee87d5c6eb92145d0" name="a4091bdb848f92c5ee87d5c6eb92145d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4091bdb848f92c5ee87d5c6eb92145d0">&#9670;&#160;</a></span>registerLoadBalancer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">void</a> IBTK::LDataManager::registerLoadBalancer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">NDIM</a> &gt; &gt;&#160;</td>
-          <td class="paramname"><em>load_balancer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">int</a>&#160;</td>
-          <td class="paramname"><em>workload_data_idx</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Register a load balancer for non-uniform load balancing. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>This method is deprecated since the current strategy for handling non-uniform load balancing does not require that this object store a pointer to the load balancer. </dd></dl>
 
 </div>
 </div>
@@ -2469,7 +2473,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 18 2025 21:10:39 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 19 2025 15:52:45 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>

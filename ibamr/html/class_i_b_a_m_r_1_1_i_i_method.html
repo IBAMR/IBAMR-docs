@@ -210,8 +210,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7149f779094b45a4877004846350dc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8e95839d2975f017180cf4c3ba93fd" id="r_a1e8e95839d2975f017180cf4c3ba93fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_i_method.html#a1e8e95839d2975f017180cf4c3ba93fd">initializePatchHierarchy</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg, int u_data_idx, const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;u_synch_scheds, const <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a07426.html">std::vector</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;u_ghost_fill_scheds, int integrator_step, double init_data_time, bool initial_time) override</td></tr>
 <tr class="separator:a1e8e95839d2975f017180cf4c3ba93fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf4b7bc5ec198d53a9d78ce1a49d4f6c" id="r_acf4b7bc5ec198d53a9d78ce1a49d4f6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_i_method.html#acf4b7bc5ec198d53a9d78ce1a49d4f6c">registerLoadBalancer</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt; load_balancer, int workload_data_idx) override</td></tr>
-<tr class="separator:acf4b7bc5ec198d53a9d78ce1a49d4f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06db8c691d21b040064d200132ea1a28" id="r_a06db8c691d21b040064d200132ea1a28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_i_method.html#a06db8c691d21b040064d200132ea1a28">addWorkloadEstimate</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const int workload_data_idx) override</td></tr>
 <tr class="separator:a06db8c691d21b040064d200132ea1a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0efea5e811a473fd7ae607623f516e20" id="r_a0efea5e811a473fd7ae607623f516e20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_a_m_r_1_1_i_i_method.html#a0efea5e811a473fd7ae607623f516e20">beginDataRedistribution</a> (<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) override</td></tr>
@@ -675,12 +673,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>d_mesh_perturb_tol<
 <tr class="memitem:aee0d3cdd480117e88a6c9a30cd713278" id="r_aee0d3cdd480117e88a6c9a30cd713278"><td class="memItemLeft" align="right" valign="top"><a id="aee0d3cdd480117e88a6c9a30cd713278" name="aee0d3cdd480117e88a6c9a30cd713278"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>d_p_scratch_idx</b> = IBTK::invalid_index</td></tr>
 <tr class="separator:aee0d3cdd480117e88a6c9a30cd713278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79072570ffd2058ecec20538288331f2" id="r_a79072570ffd2058ecec20538288331f2"><td class="memItemLeft" align="right" valign="top"><a id="a79072570ffd2058ecec20538288331f2" name="a79072570ffd2058ecec20538288331f2"></a>
-<a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>d_load_balancer</b></td></tr>
-<tr class="separator:a79072570ffd2058ecec20538288331f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee23347125d1cdf02d33968cc16a749c" id="r_aee23347125d1cdf02d33968cc16a749c"><td class="memItemLeft" align="right" valign="top"><a id="aee23347125d1cdf02d33968cc16a749c" name="aee23347125d1cdf02d33968cc16a749c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>d_workload_idx</b> = IBTK::invalid_index</td></tr>
-<tr class="separator:aee23347125d1cdf02d33968cc16a749c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a999a04a97e1b7cb85305e359120c3e78" id="r_a999a04a97e1b7cb85305e359120c3e78"><td class="memItemLeft" align="right" valign="top"><a id="a999a04a97e1b7cb85305e359120c3e78" name="a999a04a97e1b7cb85305e359120c3e78"></a>
 <a class="elRef" href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01653.html#ga32db3d9898c44d3b3a578b560f7758cc">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><b>d_object_name</b></td></tr>
 <tr class="separator:a999a04a97e1b7cb85305e359120c3e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1921,46 +1913,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_restart_rest
 
 </div>
 </div>
-<a id="acf4b7bc5ec198d53a9d78ce1a49d4f6c" name="acf4b7bc5ec198d53a9d78ce1a49d4f6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf4b7bc5ec198d53a9d78ce1a49d4f6c">&#9670;&#160;</a></span>registerLoadBalancer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::IIMethod::registerLoadBalancer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>load_balancer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>workload_data_idx</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Register a load balancer and work load patch data index with the IB strategy object.</p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>This method is no longer necessary with the current workload estimation scheme. </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_i_b_a_m_r_1_1_i_b_strategy.html#a2d7cb774d87cdd04e2ccda9f4f7daddb">IBAMR::IBStrategy</a>.</p>
-
-</div>
-</div>
 <a id="a29183811135d0428396a8ce96e979c7d" name="a29183811135d0428396a8ce96e979c7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29183811135d0428396a8ce96e979c7d">&#9670;&#160;</a></span>registerPressureJumpNormalization()</h2>
 
@@ -2300,7 +2252,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>d_libmesh_restart_rest
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 18 2025 21:10:39 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Sep 19 2025 15:52:44 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
