@@ -36,7 +36,7 @@ var searchData=
   ['scattertozero_33',['scatterToZero',['../class_i_b_t_k_1_1_l_data_manager.html#a321687e02e581f7741239c31b5c0f7af',1,'IBTK::LDataManager']]],
   ['schedule_34',['Schedule',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Schedule.html#1353a344b9e1e1e3edade2717776a126',1,'SAMRAI::tbox::Schedule']]],
   ['scientific_35',['scientific',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01692.html#a0120096cb012c2d6e575d82b33518d5c',1,'std']]],
-  ['sclaplaceoperator_36',['SCLaplaceOperator',['../class_i_b_t_k_1_1_s_c_laplace_operator.html#a97456579e902cf620821cfbc39ff48ee',1,'IBTK::SCLaplaceOperator']]],
+  ['sclaplaceoperator_36',['SCLaplaceOperator',['../class_i_b_t_k_1_1_s_c_laplace_operator.html#abf311c910262a4ac5640922774f34c4f',1,'IBTK::SCLaplaceOperator']]],
   ['scpoissonhyprelevelsolver_37',['SCPoissonHypreLevelSolver',['../class_i_b_t_k_1_1_s_c_poisson_hypre_level_solver.html#abfabf414f81e736e3be9c66dc77b3249',1,'IBTK::SCPoissonHypreLevelSolver']]],
   ['scpoissonpetsclevelsolver_38',['SCPoissonPETScLevelSolver',['../class_i_b_t_k_1_1_s_c_poisson_p_e_t_sc_level_solver.html#a5643225e8bc756a14714e87ed12c80e7',1,'IBTK::SCPoissonPETScLevelSolver']]],
   ['scpoissonpointrelaxationfacoperator_39',['SCPoissonPointRelaxationFACOperator',['../class_i_b_t_k_1_1_s_c_poisson_point_relaxation_f_a_c_operator.html#a3d9a591d76113f24d04c0c943acd6916',1,'IBTK::SCPoissonPointRelaxationFACOperator']]],
