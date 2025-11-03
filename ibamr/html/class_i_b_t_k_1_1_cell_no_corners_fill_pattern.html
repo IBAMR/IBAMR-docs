@@ -81,7 +81,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Class CellCellNoCornersFillPattern is a concrete implementation of the abstract base class <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html">SAMRAI::xfer::VariableFillPattern</a>. It is used to calculate overlaps according to a pattern which limits overlaps to the cell-centered ghost region surrounding a patch, excluding all corners. In 3D, it is also possible to configure this fill pattern object also to exclude all edges.  
+<p>Class CellCellNoCornersFillPattern is a concrete implementation of the abstract base class <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html">SAMRAI::xfer::VariableFillPattern</a>. It is used to calculate overlaps according to a pattern that limits overlaps to the cell-centered ghost region surrounding a patch on the target level, excluding all corners (and, in 3D, patch edges).  
  <a href="class_i_b_t_k_1_1_cell_no_corners_fill_pattern.html#details">More...</a></p>
 
 <p><code>#include &lt;/home/runner/work/IBAMR/IBAMR/ibtk/include/ibtk/CellNoCornersFillPattern.h&gt;</code></p>
@@ -100,9 +100,9 @@ Inheritance diagram for IBTK::CellNoCornersFillPattern:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7abc5c689b3eb63f1dd9fea0763141fa" id="r_a7abc5c689b3eb63f1dd9fea0763141fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cell_no_corners_fill_pattern.html#a7abc5c689b3eb63f1dd9fea0763141fa">CellNoCornersFillPattern</a> (int stencil_width, bool include_dst_patch_box, bool include_edges_on_dst_level, bool include_edges_on_src_level)</td></tr>
-<tr class="memdesc:a7abc5c689b3eb63f1dd9fea0763141fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
-<tr class="separator:a7abc5c689b3eb63f1dd9fea0763141fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0f6c794ba180e11ca73d29c65dc05d" id="r_a7a0f6c794ba180e11ca73d29c65dc05d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_b_t_k_1_1_cell_no_corners_fill_pattern.html#a7a0f6c794ba180e11ca73d29c65dc05d">CellNoCornersFillPattern</a> (int stencil_width, bool overwrite_interior)</td></tr>
+<tr class="memdesc:a7a0f6c794ba180e11ca73d29c65dc05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
+<tr class="separator:a7a0f6c794ba180e11ca73d29c65dc05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a221e50cc5e471ce2736d2ad96958e215" id="r_a221e50cc5e471ce2736d2ad96958e215"><td class="memItemLeft" align="right" valign="top"><a id="a221e50cc5e471ce2736d2ad96958e215" name="a221e50cc5e471ce2736d2ad96958e215"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~CellNoCornersFillPattern</b> ()=default</td></tr>
 <tr class="memdesc:a221e50cc5e471ce2736d2ad96958e215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
@@ -119,10 +119,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a842c60ade3ee7392101ca2933b8526ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class CellCellNoCornersFillPattern is a concrete implementation of the abstract base class <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html">SAMRAI::xfer::VariableFillPattern</a>. It is used to calculate overlaps according to a pattern which limits overlaps to the cell-centered ghost region surrounding a patch, excluding all corners. In 3D, it is also possible to configure this fill pattern object also to exclude all edges. </p>
+<div class="textblock"><p>Class CellCellNoCornersFillPattern is a concrete implementation of the abstract base class <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1xfer_1_1VariableFillPattern.html">SAMRAI::xfer::VariableFillPattern</a>. It is used to calculate overlaps according to a pattern that limits overlaps to the cell-centered ghost region surrounding a patch on the target level, excluding all corners (and, in 3D, patch edges). </p>
+<p>On levels other than the target level (or in cases in which the target level cannot be determined), the overlap pattern defaults to that provided by class <a class="elRef" href="../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1CellOverlap.html">SAMRAI::pdat::CellOverlap</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7abc5c689b3eb63f1dd9fea0763141fa" name="a7abc5c689b3eb63f1dd9fea0763141fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7abc5c689b3eb63f1dd9fea0763141fa">&#9670;&#160;</a></span>CellNoCornersFillPattern()</h2>
+<a id="a7a0f6c794ba180e11ca73d29c65dc05d" name="a7a0f6c794ba180e11ca73d29c65dc05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0f6c794ba180e11ca73d29c65dc05d">&#9670;&#160;</a></span>CellNoCornersFillPattern()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137,19 +138,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>include_dst_patch_box</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>include_edges_on_dst_level</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>include_edges_on_src_level</em>&#160;</td>
+          <td class="paramname"><em>overwrite_interior</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -160,7 +149,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<dl class="section note"><dt>Note</dt><dd>Parameters include_edges_on_dst_level and include_edges_on_src_level have no effect for 2D problems. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stencil_width</td><td>the width to fill </td></tr>
+    <tr><td class="paramname">overwrite_interior</td><td>whether to include the patch interior</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The parameter overwrite_interior takes precedence over the value passed in to the function calculateOverlap on the target patch level. </dd></dl>
 
 </div>
 </div>
@@ -417,7 +413,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 30 2025 00:21:30 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Mon Nov 3 2025 17:27:26 for IBAMR by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
