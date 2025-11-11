@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['launch_0',['launch',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01613.html#ga6f4ad125d364f01560e2ed20a3c8bb5b',1,'std::launch'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01613.html#ga6f4ad125d364f01560e2ed20a3c8bb5b',1,'std::launch']]],
-  ['levelsetorder_1',['LevelSetOrder',['../namespace_i_b_a_m_r.html#a4303b0d6ea72eece82ef765e0fec539d',1,'IBAMR']]],
-  ['levelsettimestepping_2',['LevelSetTimeStepping',['../namespace_i_b_a_m_r.html#a9ad34d5851751cdcb3cc341dbf5d31ad',1,'IBAMR']]],
-  ['levelsettype_3',['LevelSetType',['../namespace_i_b_a_m_r.html#a5186ca79b7b1876da9f3edf3509bd870',1,'IBAMR']]],
-  ['libmeshpartitionertype_4',['LibmeshPartitionerType',['../namespace_i_b_a_m_r.html#ad62923877ca089bebe86fae9330c3807',1,'IBAMR']]],
-  ['limitertype_5',['LimiterType',['../namespace_i_b_a_m_r.html#ac561f6320b68e45cbd3395220a51a4f4',1,'IBAMR']]]
+  ['match_5fflag_5ftype_0',['match_flag_type',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01726.html#aaa717c7c94d1075dfb06f79feb4ca11c',1,'std::regex_constants']]],
+  ['memory_5forder_1',['memory_order',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01631.html#gaee2ca844349947692087e6436affd285',1,'std::memory_order'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01631.html#gaee2ca844349947692087e6436affd285',1,'std::memory_order']]],
+  ['mgcycletype_2',['MGCycleType',['../namespace_i_b_t_k.html#a19008659d5b79c98ba2edfefb73b17a0',1,'IBTK']]],
+  ['mol_5fvar_5ftype_3',['MOL_VAR_TYPE',['../../../samrai/2.4.4/html/classSAMRAI_1_1algs_1_1MethodOfLinesIntegrator.html#25ed25ae080357a46aaac785496e1775',1,'SAMRAI::algs::MethodOfLinesIntegrator']]]
 ];

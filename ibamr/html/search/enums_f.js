@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['regridmode_0',['RegridMode',['../namespace_i_b_t_k.html#afe95f73a473353d18098f9fbf7ba8567',1,'IBTK']]],
-  ['rotationidentifier_1',['RotationIdentifier',['../../../samrai/2.4.4/html/classSAMRAI_1_1hier_1_1MultiblockPatchHierarchy.html#c676b6e0a14772a2e04b396131353d8d',1,'SAMRAI::hier::MultiblockPatchHierarchy']]]
+  ['streammode_0',['streammode',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1FileStream.html#cda3f06dbe58980c084a9bac62b23518',1,'SAMRAI::tbox::FileStream::StreamMode'],['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1MessageStream.html#17874a3aabaea0d0fe1a1d5e0fb3d63b',1,'SAMRAI::tbox::MessageStream::StreamMode']]],
+  ['syntax_5foption_5ftype_1',['syntax_option_type',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01726.html#a510caedb3e640b81620023a85c1280bb',1,'std::regex_constants']]]
 ];

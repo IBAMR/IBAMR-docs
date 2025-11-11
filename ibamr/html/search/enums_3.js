@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['cell_5ftype_0',['cell_type',['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryDefines.html#448851fec226a292a580b241d3799fc2',1,'SAMRAI::appu::EmbeddedBoundaryDefines::CELL_TYPE'],['../../../samrai/2.4.4/html/classSAMRAI_1_1appu_1_1EmbeddedBoundaryGeometry.html#2aa7906385f93b18d8655c26d76953d2',1,'SAMRAI::appu::EmbeddedBoundaryGeometry::CELL_TYPE']]],
-  ['chars_5fformat_1',['chars_format',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01692.html#a16b30bf2bdcce2aee61f514c6f7912a7',1,'std']]],
-  ['convectivedifferencingtype_2',['ConvectiveDifferencingType',['../namespace_i_b_a_m_r.html#aacfdadd56d211dd54b249b5066b9ace3',1,'IBAMR']]],
-  ['copy_5foptions_3',['copy_options',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01683.html#ga1d66286a6303c95303bba370da55c119',1,'std::filesystem::copy_options'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01683.html#ga1d66286a6303c95303bba370da55c119',1,'std::filesystem::copy_options'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01658.html#ga67e62e740e17772bdd02c16c494f8298',1,'std::experimental::filesystem::v1::copy_options']]],
-  ['corner_4',['Corner',['../../../samrai/2.4.4/html/classSAMRAI_1_1pdat_1_1NodeIndex.html#b378de6757245444a06d3a721df6ab98',1,'SAMRAI::pdat::NodeIndex']]],
-  ['cv_5fstatus_5',['cv_status',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01612.html#gad3ce465ffb10e354aa30c4ce93b68bee',1,'std::cv_status'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01612.html#gad3ce465ffb10e354aa30c4ce93b68bee',1,'std::cv_status']]]
+  ['datatype_0',['DataType',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1Database.html#77ab7a307331e041363ac40d97e14554',1,'SAMRAI::tbox::Database']]],
+  ['directory_5foptions_1',['directory_options',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01683.html#ga79f68196d30e4a3ae935caa163fcc1d8',1,'std::filesystem::directory_options'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01683.html#ga79f68196d30e4a3ae935caa163fcc1d8',1,'std::filesystem::directory_options'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01658.html#ga8f9cea62d2492a317effdd425ca8fe53',1,'std::experimental::filesystem::v1::directory_options']]]
 ];

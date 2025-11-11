@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jobstate_0',['JobState',['../../../samrai/2.4.4/html/classSAMRAI_1_1tbox_1_1RelaunchableJob.html#6ce670ebbc08220a5eada460d10cd78c',1,'SAMRAI::tbox::RelaunchableJob']]]
+  ['launch_0',['launch',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01613.html#ga6f4ad125d364f01560e2ed20a3c8bb5b',1,'std::launch'],['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01613.html#ga6f4ad125d364f01560e2ed20a3c8bb5b',1,'std::launch']]]
 ];
