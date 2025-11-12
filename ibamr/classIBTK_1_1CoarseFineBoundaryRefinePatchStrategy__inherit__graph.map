@@ -1,0 +1,9 @@
+<map id="IBTK::CoarseFineBoundaryRefinePatchStrategy" name="IBTK::CoarseFineBoundaryRefinePatchStrategy">
+<area shape="rect" id="node1" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re..." alt="" coords="825,71,1020,112"/>
+<area shape="rect" id="node5" href="$classIBTK_1_1CartCellDoubleLinearCFInterpolation.html" title="Class CartCellDoubleLinearCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which sets ..." alt="" coords="1082,5,1281,47"/>
+<area shape="rect" id="node6" href="$classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html" title="Class CartCellDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="1071,71,1292,112"/>
+<area shape="rect" id="node7" href="$classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html" title="Class CartSideDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="1069,136,1293,177"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="584,71,776,112"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,83,224,110"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="273,105,465,147"/>
+</map>

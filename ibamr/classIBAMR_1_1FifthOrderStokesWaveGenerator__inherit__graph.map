@@ -1,0 +1,4 @@
+<map id="IBAMR::FifthOrderStokesWaveGenerator" name="IBAMR::FifthOrderStokesWaveGenerator">
+<area shape="rect" id="node1" title="Class for generating fifth order Stokes wave using Fenton&#39;s (Stokes) wave theory." alt="" coords="6,95,222,136"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StokesWaveGeneratorStrategy.html" title="Strategy class for generating Stokes wave." alt="" coords="5,5,223,47"/>
+</map>

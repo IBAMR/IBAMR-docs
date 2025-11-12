@@ -1,0 +1,16 @@
+<map id="IBTK::LinearOperator" name="IBTK::LinearOperator">
+<area shape="rect" id="node1" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="488,213,645,239"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1StaggeredStokesOperator.html" title="Class StaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid (M..." alt="" coords="693,78,932,105"/>
+<area shape="rect" id="node7" href="$classIBTK_1_1JacobianOperator.html" title="Class JacobianOperator provides an abstract interface for the specification of general operators to c..." alt="" coords="727,187,899,214"/>
+<area shape="rect" id="node10" href="$classIBTK_1_1LaplaceOperator.html" title="Class LaplaceOperator is an abstract base class for a Laplace&#45;type operators." alt="" coords="729,238,896,265"/>
+<area shape="rect" id="node14" href="$classIBTK_1_1PETScMatLOWrapper.html" title="Class PETScMatLOWrapper provides a LinearOperator interface for a PETSc Mat object." alt="" coords="715,289,911,315"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1GeneralOperator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="272,213,440,239"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,213,224,239"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1CIBStaggeredStokesOperator.html" title="Class CIBStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid..." alt="" coords="1007,5,1211,47"/>
+<area shape="rect" id="node6" href="$classIBAMR_1_1VCStaggeredStokesOperator.html" title="Class VCStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid ..." alt="" coords="1009,71,1209,112"/>
+<area shape="rect" id="node8" href="$classIBTK_1_1PETScMFFDJacobianOperator.html" title="Class PETScMFFDJacobianOperator provides a method for computing Jacobian&#45;vector products,..." alt="" coords="984,137,1233,163"/>
+<area shape="rect" id="node9" href="$classIBTK_1_1PETScSNESJacobianJOWrapper.html" title="Class PETScSNESJacobianJOWrapper provides a JacobianOperator interface for a PETSc SNES Jacobian." alt="" coords="980,187,1237,214"/>
+<area shape="rect" id="node11" href="$classIBTK_1_1CCLaplaceOperator.html" title="Class CCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="1016,238,1201,265"/>
+<area shape="rect" id="node12" href="$classIBTK_1_1SCLaplaceOperator.html" title="Class SCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="1017,289,1201,315"/>
+<area shape="rect" id="node13" href="$classIBTK_1_1VCSCViscousOperator.html" title="Class VCSCViscousOperator is a subclass of SCLaplaceOperator which implements a globally second&#45;order..." alt="" coords="1285,289,1488,315"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="IBTK::RobinPhysBdryPatchStrategy" name="IBTK::RobinPhysBdryPatchStrategy">
+<area shape="rect" id="node1" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="149,276,343,317"/>
+<area shape="rect" id="node5" href="$classIBTK_1_1CartCellRobinPhysBdryOp.html" title="Class CartCellRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="5,367,233,393"/>
+<area shape="rect" id="node6" href="$classIBTK_1_1CartSideRobinPhysBdryOp.html" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="257,367,488,393"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="150,185,342,227"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="131,5,350,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="262,81,454,123"/>
+</map>

@@ -1,7 +1,0 @@
-<map id="IBTK::StaggeredPhysicalBoundaryHelper" name="IBTK::StaggeredPhysicalBoundaryHelper">
-<area shape="rect" id="Node000001" title="Class StaggeredPhysicalBoundaryHelper provides helper functions to handle physical boundary condition..." alt="" coords="5,79,248,119"/>
-<area shape="rect" id="Node000003" href="$class_i_b_a_m_r_1_1_staggered_stokes_physical_boundary_helper.html" title="Class StaggeredStokesPhysicalBoundaryHelper provides helper functions to enforce physical boundary co..." alt="" coords="9,167,245,207"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,133,129,166,124,166,124,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="17,5,236,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,44,129,79,124,79,124,44"/>
-</map>

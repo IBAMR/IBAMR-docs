@@ -1,0 +1,5 @@
+<map id="SAMRAI::xfer::CoarsenAlgorithm&lt; DIM &gt;" name="SAMRAI::xfer::CoarsenAlgorithm&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class CoarsenAlgorithm&lt;DIM&gt; encapsulates the AMR communication pattern to coarsen data from a finer l..." alt="" coords="5,81,239,123"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1xfer_1_1CoarsenAlgorithm.html" title=" " alt="" coords="5,185,239,227"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="13,5,231,32"/>
+</map>

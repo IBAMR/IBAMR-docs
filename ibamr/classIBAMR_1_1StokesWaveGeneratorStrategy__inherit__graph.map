@@ -1,0 +1,6 @@
+<map id="IBAMR::StokesWaveGeneratorStrategy" name="IBAMR::StokesWaveGeneratorStrategy">
+<area shape="rect" id="node1" title="Strategy class for generating Stokes wave." alt="" coords="5,71,223,112"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1FifthOrderStokesWaveGenerator.html" title="Class for generating fifth order Stokes wave using Fenton&#39;s (Stokes) wave theory." alt="" coords="277,5,493,47"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1FirstOrderStokesWaveGenerator.html" title="Class for generating first order water waves based upon linear wave theory." alt="" coords="277,71,493,112"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1IrregularWaveGenerator.html" title="Class for generating Irregular waves." alt="" coords="271,137,500,163"/>
+</map>

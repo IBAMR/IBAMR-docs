@@ -1,0 +1,9 @@
+<map id="SAMRAI::math::HierarchyDataOpsInteger&lt; DIM &gt;" name="SAMRAI::math::HierarchyDataOpsInteger&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="272,136,491,177"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1math_1_1HierarchyCellDataOpsInteger.html" title=" " alt="" coords="543,5,755,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1math_1_1HierarchyEdgeDataOpsInteger.html" title=" " alt="" coords="540,71,759,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1math_1_1HierarchyFaceDataOpsInteger.html" title=" " alt="" coords="541,136,757,177"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1math_1_1HierarchyNodeDataOpsInteger.html" title=" " alt="" coords="539,201,760,243"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1math_1_1HierarchySideDataOpsInteger.html" title=" " alt="" coords="542,267,757,308"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,143,224,170"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="SAMRAI::solv::FACOperatorStrategy&lt; DIM &gt;" name="SAMRAI::solv::FACOperatorStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Defines a Strategy pattern interface to problem&#45;specific operations needed to implement the FAC preco..." alt="" coords="5,5,203,47"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1solv_1_1CellPoissonFACOps.html" title="FAC operator class to solve Poisson&#39;s equation on a SAMR grid, using cell&#45;centered,..." alt="" coords="9,95,199,136"/>
+</map>

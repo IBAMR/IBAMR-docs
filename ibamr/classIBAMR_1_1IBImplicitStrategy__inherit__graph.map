@@ -1,0 +1,13 @@
+<map id="IBAMR::IBImplicitStrategy" name="IBAMR::IBImplicitStrategy">
+<area shape="rect" id="node1" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="1169,81,1360,108"/>
+<area shape="rect" id="node7" href="$classIBAMR_1_1IBMethod.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="1409,81,1544,108"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1IBStrategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="979,81,1120,108"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="723,38,929,79"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,45,224,72"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="273,38,480,79"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="504,104,699,131"/>
+<area shape="rect" id="node8" href="$classIBAMR_1_1CIBMethod.html" title="Class CIBMethod is a concrete CIBStrategy and IBMethod class which implements the motion of rigid bod..." alt="" coords="1628,5,1772,32"/>
+<area shape="rect" id="node9" href="$classIBAMR_1_1ConstraintIBMethod.html" title="Class ConstraintIBMethod implements the rigidity constraint for rigid and deforming bodies using the ..." alt="" coords="1599,56,1801,83"/>
+<area shape="rect" id="node10" href="$classIBAMR_1_1GeneralizedIBMethod.html" title="Class GeneralizedIBMethod is an extension of class IBMethod that provides functionality required by t..." alt="" coords="1593,107,1807,133"/>
+<area shape="rect" id="node11" href="$classIBAMR_1_1PenaltyIBMethod.html" title="Class PenaltyIBMethod is an implementation of the abstract base class IBStrategy that provides functi..." alt="" coords="1608,157,1792,184"/>
+</map>

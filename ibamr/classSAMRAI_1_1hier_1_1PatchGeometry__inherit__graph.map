@@ -1,0 +1,7 @@
+<map id="SAMRAI::hier::PatchGeometry&lt; DIM &gt;" name="SAMRAI::hier::PatchGeometry&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="272,71,487,112"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1geom_1_1BlockPatchGeometry.html" title=" " alt="" coords="547,5,746,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1geom_1_1CartesianPatchGeometry.html" title=" " alt="" coords="535,71,759,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1geom_1_1SkeletonPatchGeometry.html" title=" " alt="" coords="537,136,756,177"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,78,224,105"/>
+</map>

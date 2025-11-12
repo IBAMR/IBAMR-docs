@@ -1,0 +1,4 @@
+<map id="SAMRAI::mesh::AsyncBergerRigoutsosNode&lt; DIM &gt;" name="SAMRAI::mesh::AsyncBergerRigoutsosNode&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Node in the asynchronous Berger&#45;Rigoutsos (BR) dendogram." alt="" coords="15,80,223,121"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1RelaunchableJob.html" title="Define interface for a relaunchable job managed by JobRelauncher." alt="" coords="5,5,232,32"/>
+</map>

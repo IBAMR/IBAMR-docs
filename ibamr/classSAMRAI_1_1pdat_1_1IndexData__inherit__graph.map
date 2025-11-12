@@ -1,0 +1,8 @@
+<map id="SAMRAI::pdat::IndexData&lt; DIM, TYPE, BOX_GEOMETRY &gt;" name="SAMRAI::pdat::IndexData&lt; DIM, TYPE, BOX_GEOMETRY &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="504,63,737,105"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="977,5,1216,61"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="988,86,1205,157"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1hier_1_1PatchData.html" title=" " alt="" coords="273,63,455,105"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,71,224,97"/>
+<area shape="rect" id="node5" href="$classIBTK_1_1LSetData.html" title="Class LSetData is a specialization of the templated class SAMRAI::pdat::IndexData that provides acces..." alt="" coords="1265,20,1423,47"/>
+</map>

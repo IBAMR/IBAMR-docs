@@ -1,0 +1,14 @@
+<map id="IBTK::FACPreconditionerStrategy" name="IBTK::FACPreconditionerStrategy">
+<area shape="rect" id="node1" title="Class FACPreconditionerStrategy provides an interface for specifying the problem&#45;specific operations ..." alt="" coords="272,209,505,235"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html" title="Class StaggeredStokesFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing ..." alt="" coords="553,104,853,145"/>
+<area shape="rect" id="node7" href="$classIBTK_1_1PoissonFACPreconditionerStrategy.html" title="Class PoissonFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing many of ..." alt="" coords="589,267,817,308"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,209,224,235"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html" title="Class StaggeredStokesBoxRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrategy ..." alt="" coords="915,5,1121,47"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1StaggeredStokesIBLevelRelaxationFACOperator.html" title="Class StaggeredStokesIBLevelRelaxationFACOperator is a concrete FACPreconditionerStrategy class that ..." alt="" coords="903,71,1133,112"/>
+<area shape="rect" id="node6" href="$classIBAMR_1_1StaggeredStokesLevelRelaxationFACOperator.html" title="Class StaggeredStokesLevelRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrateg..." alt="" coords="909,136,1127,177"/>
+<area shape="rect" id="node8" href="$classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html" title="Class CCPoissonBoxRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving el..." alt="" coords="907,201,1129,243"/>
+<area shape="rect" id="node9" href="$classIBTK_1_1CCPoissonLevelRelaxationFACOperator.html" title="Class CCPoissonLevelRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ..." alt="" coords="901,267,1135,308"/>
+<area shape="rect" id="node10" href="$classIBTK_1_1CCPoissonPointRelaxationFACOperator.html" title="Class CCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ..." alt="" coords="903,332,1133,373"/>
+<area shape="rect" id="node11" href="$classIBTK_1_1SCPoissonPointRelaxationFACOperator.html" title="Class SCPoissonPointRelaxationFACOperator is a concrete PoissonFACPreconditionerStrategy for solving ..." alt="" coords="903,397,1133,439"/>
+<area shape="rect" id="node12" href="$classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html" title="Class VCSCViscousOpPointRelaxationFACOperator is a specialization of SCPoissonPointRelaxationFACOpera..." alt="" coords="1183,397,1379,439"/>
+</map>

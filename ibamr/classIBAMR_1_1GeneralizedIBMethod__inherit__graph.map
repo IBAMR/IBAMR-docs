@@ -1,0 +1,10 @@
+<map id="IBAMR::GeneralizedIBMethod" name="IBAMR::GeneralizedIBMethod">
+<area shape="rect" id="node1" title="Class GeneralizedIBMethod is an extension of class IBMethod that provides functionality required by t..." alt="" coords="81,516,294,543"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1IBMethod.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="120,440,255,467"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1IBImplicitStrategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="92,364,283,391"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1IBStrategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="117,288,258,315"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,197,212,239"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="33,5,251,32"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="39,81,245,123"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="186,147,381,173"/>
+</map>

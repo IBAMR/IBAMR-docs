@@ -1,0 +1,7 @@
+<map id="IBTK::LSetData&lt; T &gt;" name="IBTK::LSetData&lt; T &gt;">
+<area shape="rect" id="node1" title="Class LSetData is a specialization of the templated class SAMRAI::pdat::IndexData that provides acces..." alt="" coords="46,411,203,437"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="5,305,244,361"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1hier_1_1PatchData.html" title=" " alt="" coords="29,81,210,123"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1pdat_1_1IndexData.html" title=" " alt="" coords="141,172,375,213"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="10,5,229,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="SAMRAI::mesh::BoxGeneratorStrategy&lt; DIM &gt;" name="SAMRAI::mesh::BoxGeneratorStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="273,71,489,112"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsos.html" title="Asynchronous Berger&#45;Rigoutsos implementation. This class is derived from the abstract base class mesh..." alt="" coords="621,5,829,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1BergerRigoutsos.html" title="BergerRigoutsos&lt;DIM&gt; provides operations that construct boxes to cover a collection of tagged cells o..." alt="" coords="608,71,841,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1BoxGeneratorStrategy.html" title=" " alt="" coords="617,136,833,177"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,78,224,105"/>
+</map>

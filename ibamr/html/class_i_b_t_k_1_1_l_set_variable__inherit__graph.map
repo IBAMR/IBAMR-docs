@@ -1,7 +1,0 @@
-<map id="IBTK::LSetVariable&lt; T &gt;" name="IBTK::LSetVariable&lt; T &gt;">
-<area shape="rect" id="Node000001" title="Class LSetVariable provides a SAMRAI::hier::Variable class corresponding to patch data of type LSetDa..." alt="" coords="5,197,184,223"/>
-<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1hier_1_1Variable.html" title=" " alt="" coords="11,108,179,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,162,97,197,92,197,92,162"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1hier_1_1Variable.html" title=" " alt="" coords="11,5,179,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,59,97,108,92,108,92,59"/>
-</map>

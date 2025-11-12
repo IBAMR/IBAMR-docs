@@ -1,0 +1,7 @@
+<map id="SAMRAI::tbox::Database" name="SAMRAI::tbox::Database">
+<area shape="rect" id="node1" title="Class Database is an abstract base class for the input, restart, and visualization databases." alt="" coords="266,80,447,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1HDFDatabase.html" title=" " alt="" coords="5,155,215,181"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1MemoryDatabase.html" title=" " alt="" coords="239,155,474,181"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1NullDatabase.html" title=" " alt="" coords="499,155,705,181"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="247,5,466,32"/>
+</map>

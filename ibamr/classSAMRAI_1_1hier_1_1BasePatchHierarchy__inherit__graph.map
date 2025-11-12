@@ -1,0 +1,10 @@
+<map id="SAMRAI::hier::BasePatchHierarchy&lt; DIM &gt;" name="SAMRAI::hier::BasePatchHierarchy&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="517,74,763,115"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1hier_1_1PatchHierarchy.html" title=" " alt="" coords="911,5,1097,32"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1hier_1_1MultiblockPatchHierarchy.html" title="Class MultiblockPatchHierarchy&lt;DIM&gt; manages an array of patch hierarchies that represent a multiblock..." alt="" coords="913,57,1095,98"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1hier_1_1PatchHierarchy.html" title=" " alt="" coords="897,122,1111,163"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1hier_1_1BasePatchHierarchy.html" title=" " alt="" coords="881,187,1127,229"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,85,224,112"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="273,111,468,137"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1hier_1_1PatchHierarchy.html" title=" " alt="" coords="1245,122,1459,163"/>
+</map>

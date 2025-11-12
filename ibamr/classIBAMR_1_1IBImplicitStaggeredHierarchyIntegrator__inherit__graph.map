@@ -1,0 +1,9 @@
+<map id="IBAMR::IBImplicitStaggeredHierarchyIntegrator" name="IBAMR::IBImplicitStaggeredHierarchyIntegrator">
+<area shape="rect" id="node1" title="Class IBImplicitStaggeredHierarchyIntegrator is an implementation of a formally second&#45;order accurate..." alt="" coords="87,440,288,481"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1IBHierarchyIntegrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions..." alt="" coords="81,364,294,391"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1HierarchyIntegrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="94,288,281,315"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,197,212,239"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="33,5,251,32"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="39,81,245,123"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="186,147,381,173"/>
+</map>

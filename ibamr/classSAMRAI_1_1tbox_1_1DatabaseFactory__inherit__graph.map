@@ -1,0 +1,7 @@
+<map id="SAMRAI::tbox::DatabaseFactory" name="SAMRAI::tbox::DatabaseFactory">
+<area shape="rect" id="node1" title="Abstract base class factory used to build Database objects." alt="" coords="272,78,500,105"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1HDFDatabaseFactory.html" title="HDFDatabase factory." alt="" coords="561,5,770,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1MemoryDatabaseFactory.html" title="MemoryDatabase factory." alt="" coords="548,71,783,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1SiloDatabaseFactory.html" title="SiloDatabase factory." alt="" coords="563,136,768,177"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,78,224,105"/>
+</map>

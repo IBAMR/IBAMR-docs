@@ -1,0 +1,6 @@
+<map id="IBTK::CartSideDoubleDivPreservingRefine" name="IBTK::CartSideDoubleDivPreservingRefine">
+<area shape="rect" id="node1" title="Class CartSideDoubleDivPreservingRefine is a concrete SAMRAI::xfer::RefinePatchStrategy which prolong..." alt="" coords="5,276,257,317"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="35,185,227,227"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="17,5,235,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="147,81,339,123"/>
+</map>

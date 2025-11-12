@@ -1,0 +1,5 @@
+<map id="IBAMR::IBSourceSpec::Factory" name="IBAMR::IBSourceSpec::Factory">
+<area shape="rect" id="node1" title="A factory class to rebuild IBSourceSpec objects from SAMRAI::tbox::AbstractStream data streams." alt="" coords="34,155,195,196"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1StreamableFactory.html" title="Class StreamableFactory is an abstract interface for classes that can unpack particular concrete Stre..." alt="" coords="23,80,206,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

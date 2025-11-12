@@ -1,0 +1,4 @@
+<map id="SAMRAI::hier::ComponentSelector" name="SAMRAI::hier::ComponentSelector">
+<area shape="rect" id="node1" title="Class ComponentSelector implements a simple bit vector of a fixed length and is typically used to app..." alt="" coords="5,80,248,107"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="17,5,236,32"/>
+</map>

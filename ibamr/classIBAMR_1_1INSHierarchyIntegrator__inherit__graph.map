@@ -1,0 +1,13 @@
+<map id="IBAMR::INSHierarchyIntegrator" name="IBAMR::INSHierarchyIntegrator">
+<area shape="rect" id="node1" title="Class INSHierarchyIntegrator provides an abstract interface for a time integrator for the incompressi..." alt="" coords="1215,78,1437,105"/>
+<area shape="rect" id="node7" href="$classIBAMR_1_1INSCollocatedHierarchyIntegrator.html" title="Class INSCollocatedHierarchyIntegrator provides a collocated projection method&#45;based solver for the i..." alt="" coords="1495,5,1721,47"/>
+<area shape="rect" id="node8" href="$classIBAMR_1_1INSStaggeredHierarchyIntegrator.html" title="Class INSStaggeredHierarchyIntegrator provides a staggered&#45;grid solver for the incompressible Navier&#45;..." alt="" coords="1496,71,1720,112"/>
+<area shape="rect" id="node9" href="$classIBAMR_1_1INSVCStaggeredHierarchyIntegrator.html" title="Class INSVCStaggeredHierarchyIntegrator provides an abstract interface for time integrator for a stag..." alt="" coords="1487,136,1729,177"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1HierarchyIntegrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="979,78,1165,105"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="723,35,929,76"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,42,224,69"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="273,35,480,76"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="504,101,699,127"/>
+<area shape="rect" id="node10" href="$classIBAMR_1_1INSVCStaggeredConservativeHierarchyIntegrator.html" title="Class INSVCStaggeredConservativeHierarchyIntegrator provides a staggered&#45;grid solver for the incompre..." alt="" coords="1779,103,2044,144"/>
+<area shape="rect" id="node11" href="$classIBAMR_1_1INSVCStaggeredNonConservativeHierarchyIntegrator.html" title="Class INSVCStaggeredNonConservativeHierarchyIntegrator provides a staggered&#45;grid solver for the incom..." alt="" coords="1794,168,2029,209"/>
+</map>

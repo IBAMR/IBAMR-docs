@@ -1,0 +1,8 @@
+<map id="IBAMR::StaggeredStokesBlockFactorizationPreconditioner" name="IBAMR::StaggeredStokesBlockFactorizationPreconditioner">
+<area shape="rect" id="node1" title="Class StaggeredStokesBlockFactorizationPreconditioner is a concrete StaggeredStokesBlockPreconditione..." alt="" coords="69,319,288,360"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StaggeredStokesBlockPreconditioner.html" title="Class StaggeredStokesBlockPreconditioner is an abstract base class for Stokes solvers that are implem..." alt="" coords="69,229,288,271"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1LinearSolver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="5,155,147,181"/>
+<area shape="rect" id="node4" href="$classIBTK_1_1GeneralSolver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="103,80,255,107"/>
+<area shape="rect" id="node6" href="$classIBAMR_1_1StaggeredStokesSolver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="171,155,394,181"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="69,5,288,32"/>
+</map>

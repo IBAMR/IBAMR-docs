@@ -1,0 +1,5 @@
+<map id="SAMRAI::pdat::OuternodeDoubleConstantCoarsen&lt; DIM &gt;" name="SAMRAI::pdat::OuternodeDoubleConstantCoarsen&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class OuternodeDoubleConstantCoarsen implements constant averaging (i.e., injection) for outernode&#45;ce..." alt="" coords="5,169,239,211"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1CoarsenOperator.html" title=" " alt="" coords="9,80,235,121"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="13,5,231,32"/>
+</map>

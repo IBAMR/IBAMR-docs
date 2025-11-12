@@ -1,0 +1,5 @@
+<map id="IBAMR::RelaxationLSBcCoefs" name="IBAMR::RelaxationLSBcCoefs">
+<area shape="rect" id="node1" title="Class RelaxationLSBcCoefs is an implementation of the strategy class RobinBcCoefStrategy that is used..." alt="" coords="5,200,216,227"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="11,109,210,151"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions." alt="" coords="11,5,210,47"/>
+</map>

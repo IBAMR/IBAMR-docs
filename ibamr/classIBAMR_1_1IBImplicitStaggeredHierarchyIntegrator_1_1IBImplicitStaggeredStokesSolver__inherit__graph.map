@@ -1,0 +1,6 @@
+<map id="IBAMR::IBImplicitStaggeredHierarchyIntegrator::IBImplicitStaggeredStokesSolver" name="IBAMR::IBImplicitStaggeredHierarchyIntegrator::IBImplicitStaggeredStokesSolver">
+<area shape="rect" id="node1" title="Partial solver for the Stokes&#45;IB equations." alt="" coords="7,229,226,285"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StaggeredStokesSolver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="5,155,228,181"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1GeneralSolver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="41,80,193,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="7,5,226,32"/>
+</map>

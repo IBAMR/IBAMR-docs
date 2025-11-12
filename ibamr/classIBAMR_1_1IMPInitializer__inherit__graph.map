@@ -1,0 +1,5 @@
+<map id="IBAMR::IMPInitializer" name="IBAMR::IMPInitializer">
+<area shape="rect" id="node1" title="Class IMPInitializer is a concrete LInitStrategy that initializes the configuration of one or more La..." alt="" coords="35,155,194,181"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1LInitStrategy.html" title="Class LInitStrategy provides a mechanism for specifying the initial configuration of the curvilinear ..." alt="" coords="43,80,186,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

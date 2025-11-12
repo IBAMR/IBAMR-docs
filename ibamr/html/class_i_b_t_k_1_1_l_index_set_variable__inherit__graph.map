@@ -1,7 +1,0 @@
-<map id="IBTK::LIndexSetVariable&lt; T &gt;" name="IBTK::LIndexSetVariable&lt; T &gt;">
-<area shape="rect" id="Node000001" title="Class LIndexSetVariable provides a SAMRAI::hier::Variable class corresponding to patch data of type L..." alt="" coords="5,197,220,223"/>
-<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1hier_1_1Variable.html" title=" " alt="" coords="29,108,197,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,162,115,197,110,197,110,162"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1hier_1_1Variable.html" title=" " alt="" coords="29,5,197,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,59,115,108,110,108,110,59"/>
-</map>

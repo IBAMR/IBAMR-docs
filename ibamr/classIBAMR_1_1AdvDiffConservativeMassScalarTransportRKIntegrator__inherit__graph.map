@@ -1,0 +1,5 @@
+<map id="IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator" name="IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator">
+<area shape="rect" id="node1" title="Class AdvDiffConservativeMassScalarTransportRKIntegrator is a concrete class that integrates the coll..." alt="" coords="5,155,244,196"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1STSMassFluxIntegrator.html" title="Class STSMassFluxIntegrator is an abstract class which integrates the density field." alt="" coords="13,80,236,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="15,5,234,32"/>
+</map>

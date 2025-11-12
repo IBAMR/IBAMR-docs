@@ -1,0 +1,7 @@
+<map id="IBAMR::INSVCStaggeredVelocityBcCoef" name="IBAMR::INSVCStaggeredVelocityBcCoef">
+<area shape="rect" id="node1" title="Class INSVCStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocit..." alt="" coords="5,367,236,408"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StokesBcCoefStrategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="12,291,229,317"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1ExtendedRobinBcCoefStrategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="19,200,223,241"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="21,109,220,151"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions." alt="" coords="21,5,220,47"/>
+</map>

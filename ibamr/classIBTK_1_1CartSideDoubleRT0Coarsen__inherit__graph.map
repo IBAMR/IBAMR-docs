@@ -1,0 +1,6 @@
+<map id="IBTK::CartSideDoubleRT0Coarsen" name="IBTK::CartSideDoubleRT0Coarsen">
+<area shape="rect" id="node1" title="Class CartSideDoubleRT0Coarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting side&#45;cente..." alt="" coords="5,276,244,303"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1CoarsenOperator.html" title=" " alt="" coords="11,185,238,227"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="10,5,229,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1CoarsenOperator.html" title=" " alt="" coords="141,81,367,123"/>
+</map>

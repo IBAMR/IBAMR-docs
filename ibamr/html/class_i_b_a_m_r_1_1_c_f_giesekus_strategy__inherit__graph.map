@@ -1,7 +1,0 @@
-<map id="IBAMR::CFGiesekusStrategy" name="IBAMR::CFGiesekusStrategy">
-<area shape="rect" id="Node000001" title="Class CFGiesekusStrategy is a concrete CFStrategy that computes the relaxation function for the Giese..." alt="" coords="13,152,217,177"/>
-<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_c_f_strategy.html" title="Class CFStrategy is an abstract class that provides an interface for specifying the details of a comp..." alt="" coords="43,79,187,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,224,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
-</map>

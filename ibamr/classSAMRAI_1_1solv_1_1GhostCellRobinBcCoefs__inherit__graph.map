@@ -1,0 +1,4 @@
+<map id="SAMRAI::solv::GhostCellRobinBcCoefs&lt; DIM &gt;" name="SAMRAI::solv::GhostCellRobinBcCoefs&lt; DIM &gt;">
+<area shape="rect" id="node1" title="A prefabricated Robin boundary condition coefficients for the case where cell&#45;centered data is fixed ..." alt="" coords="5,95,221,136"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions." alt="" coords="14,5,213,47"/>
+</map>

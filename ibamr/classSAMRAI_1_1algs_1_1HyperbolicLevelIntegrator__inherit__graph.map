@@ -1,0 +1,8 @@
+<map id="SAMRAI::algs::HyperbolicLevelIntegrator&lt; DIM &gt;" name="SAMRAI::algs::HyperbolicLevelIntegrator&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="548,71,735,112"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html" title=" " alt="" coords="853,71,1040,112"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1algs_1_1TimeRefinementLevelStrategy.html" title=" " alt="" coords="273,5,499,47"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,78,224,105"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="283,71,489,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="289,137,483,163"/>
+</map>

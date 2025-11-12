@@ -1,0 +1,4 @@
+<map id="SAMRAI::xfer::LocallyActiveDataRefineSchedule&lt; DIM &gt;" name="SAMRAI::xfer::LocallyActiveDataRefineSchedule&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class LocallyActiveDataRefineSchedule&lt;DIM&gt; performs the communication operations that refine data to,..." alt="" coords="10,80,219,121"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

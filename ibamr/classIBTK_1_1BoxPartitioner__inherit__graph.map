@@ -1,0 +1,4 @@
+<map id="IBTK::BoxPartitioner" name="IBTK::BoxPartitioner">
+<area shape="rect" id="node1" title="A libMesh partitioner that partitions a mesh based on PartitioningBox objects owned by each processor..." alt="" coords="5,80,157,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,5,126,32"/>
+</map>

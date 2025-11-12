@@ -1,0 +1,10 @@
+<map id="IBAMR::AdvDiffSemiImplicitHierarchyIntegrator" name="IBAMR::AdvDiffSemiImplicitHierarchyIntegrator">
+<area shape="rect" id="node1" title="Class AdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time integration ..." alt="" coords="86,440,289,481"/>
+<area shape="rect" id="node8" href="$classIBAMR_1_1BrinkmanAdvDiffSemiImplicitHierarchyIntegrator.html" title="Class BrinkmanAdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time inte..." alt="" coords="79,531,296,572"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1AdvDiffHierarchyIntegrator.html" title="Class AdvDiffHierarchyIntegrator provides an abstract interface for a time integrator for advection&#45;d..." alt="" coords="63,364,311,391"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1HierarchyIntegrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="94,288,281,315"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,197,212,239"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="33,5,251,32"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="39,81,245,123"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="186,147,381,173"/>
+</map>

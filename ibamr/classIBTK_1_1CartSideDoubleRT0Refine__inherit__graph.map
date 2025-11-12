@@ -1,0 +1,6 @@
+<map id="IBTK::CartSideDoubleRT0Refine" name="IBTK::CartSideDoubleRT0Refine">
+<area shape="rect" id="node1" title="Class CartSideDoubleRT0Refine is a concrete SAMRAI::xfer::RefineOperator object that prolongs side&#45;ce..." alt="" coords="7,276,233,303"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="13,185,227,227"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="137,81,351,123"/>
+</map>

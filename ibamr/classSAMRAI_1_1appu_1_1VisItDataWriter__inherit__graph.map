@@ -1,0 +1,5 @@
+<map id="SAMRAI::appu::VisItDataWriter&lt; DIM &gt;" name="SAMRAI::appu::VisItDataWriter&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class VisItDataWriter&lt;DIM&gt; is used by SAMRAI&#45;based application codes to generate VisIt data files...." alt="" coords="5,81,228,123"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1appu_1_1VisItDataWriter.html" title=" " alt="" coords="5,185,228,227"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="7,5,226,32"/>
+</map>

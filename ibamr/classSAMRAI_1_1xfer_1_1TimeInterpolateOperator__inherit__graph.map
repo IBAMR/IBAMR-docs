@@ -1,0 +1,25 @@
+<map id="SAMRAI::xfer::TimeInterpolateOperator&lt; DIM &gt;" name="SAMRAI::xfer::TimeInterpolateOperator&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="272,715,492,756"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1pdat_1_1CellComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="541,5,781,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1pdat_1_1CellDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="565,71,756,127"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1pdat_1_1CellFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="552,152,769,193"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1pdat_1_1EdgeComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="541,217,781,259"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1pdat_1_1EdgeDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="562,283,759,339"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1pdat_1_1EdgeFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="549,364,773,405"/>
+<area shape="rect" id="node9" href="$classSAMRAI_1_1pdat_1_1FaceComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="541,429,781,471"/>
+<area shape="rect" id="node10" href="$classSAMRAI_1_1pdat_1_1FaceDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="563,495,758,551"/>
+<area shape="rect" id="node11" href="$classSAMRAI_1_1pdat_1_1FaceFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="550,576,771,617"/>
+<area shape="rect" id="node12" href="$classSAMRAI_1_1pdat_1_1NodeComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="541,641,781,683"/>
+<area shape="rect" id="node13" href="$classSAMRAI_1_1pdat_1_1NodeDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="561,707,760,763"/>
+<area shape="rect" id="node14" href="$classSAMRAI_1_1pdat_1_1NodeFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="547,788,774,829"/>
+<area shape="rect" id="node15" href="$classSAMRAI_1_1pdat_1_1OuterfaceComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="540,853,781,895"/>
+<area shape="rect" id="node16" href="$classSAMRAI_1_1pdat_1_1OuterfaceDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="541,919,781,960"/>
+<area shape="rect" id="node17" href="$classSAMRAI_1_1pdat_1_1OuterfaceFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="541,984,781,1025"/>
+<area shape="rect" id="node18" href="$classSAMRAI_1_1pdat_1_1OutersideComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="541,1049,781,1091"/>
+<area shape="rect" id="node19" href="$classSAMRAI_1_1pdat_1_1OutersideDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="541,1115,781,1156"/>
+<area shape="rect" id="node20" href="$classSAMRAI_1_1pdat_1_1OutersideFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="541,1180,781,1221"/>
+<area shape="rect" id="node21" href="$classSAMRAI_1_1pdat_1_1SideComplexLinearTimeInterpolateOp.html" title=" " alt="" coords="541,1245,781,1287"/>
+<area shape="rect" id="node22" href="$classSAMRAI_1_1pdat_1_1SideDoubleLinearTimeInterpolateOp.html" title=" " alt="" coords="564,1311,757,1367"/>
+<area shape="rect" id="node23" href="$classSAMRAI_1_1pdat_1_1SideFloatLinearTimeInterpolateOp.html" title=" " alt="" coords="551,1392,771,1433"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,722,224,749"/>
+</map>

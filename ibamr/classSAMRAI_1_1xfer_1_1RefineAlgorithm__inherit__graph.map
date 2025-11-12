@@ -1,0 +1,5 @@
+<map id="SAMRAI::xfer::RefineAlgorithm&lt; DIM &gt;" name="SAMRAI::xfer::RefineAlgorithm&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class RefineAlgorithm&lt;DIM&gt; encapsulates the AMR communication pattern to refine data to,..." alt="" coords="5,81,227,123"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1xfer_1_1RefineAlgorithm.html" title=" " alt="" coords="5,185,227,227"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="7,5,225,32"/>
+</map>

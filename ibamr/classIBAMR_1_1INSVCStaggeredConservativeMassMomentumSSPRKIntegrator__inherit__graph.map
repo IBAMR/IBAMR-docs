@@ -1,0 +1,6 @@
+<map id="IBAMR::INSVCStaggeredConservativeMassMomentumSSPRKIntegrator" name="IBAMR::INSVCStaggeredConservativeMassMomentumSSPRKIntegrator">
+<area shape="rect" id="node1" title="Class INSVCStaggeredConservativeMassMomentumSSPRKIntegrator is a derived class that integrates the st..." alt="" coords="5,244,271,285"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1INSVCStaggeredConservativeMassMomentumRKIntegrator.html" title="Class INSVCStaggeredConservativeMassMomentumRKIntegrator integrates the staggered density field." alt="" coords="5,155,271,196"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1STSMassFluxIntegrator.html" title="Class STSMassFluxIntegrator is an abstract class which integrates the density field." alt="" coords="27,80,249,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="29,5,247,32"/>
+</map>

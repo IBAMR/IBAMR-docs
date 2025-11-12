@@ -1,0 +1,6 @@
+<map id="IBAMR::BrinkmanPenalizationStrategy" name="IBAMR::BrinkmanPenalizationStrategy">
+<area shape="rect" id="node1" title="BrinkmanPenalizationStrategy is an abstract class that provides an interface to implement Brinkman pe..." alt="" coords="16,155,232,196"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1CarmanKozenyDragForce.html" title="CarmanKozenyDragForce provides an implementation of Carman&#45;Kozeny drag force to impose zero velocity ..." alt="" coords="5,244,243,271"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="27,80,221,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="15,5,233,32"/>
+</map>

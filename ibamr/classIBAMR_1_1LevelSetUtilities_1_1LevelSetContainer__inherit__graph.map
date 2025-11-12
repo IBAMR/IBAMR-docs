@@ -1,0 +1,4 @@
+<map id="IBAMR::LevelSetUtilities::LevelSetContainer" name="IBAMR::LevelSetUtilities::LevelSetContainer">
+<area shape="rect" id="node1" title="A lightweight class to hold the level set variable and the associated hierarchy integrator (AdvDiffHi..." alt="" coords="25,80,205,121"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

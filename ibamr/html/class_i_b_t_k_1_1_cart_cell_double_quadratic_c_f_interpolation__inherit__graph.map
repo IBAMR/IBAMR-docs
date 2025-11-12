@@ -1,9 +1,0 @@
-<map id="IBTK::CartCellDoubleQuadraticCFInterpolation" name="IBTK::CartCellDoubleQuadraticCFInterpolation">
-<area shape="rect" id="Node000001" title="Class CartCellDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="5,287,227,327"/>
-<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_coarse_fine_boundary_refine_patch_strategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re..." alt="" coords="19,197,213,237"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,251,119,287,113,287,113,251"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="20,108,212,148"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,162,119,197,113,197,113,162"/>
-<area shape="rect" id="Node000004" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="20,5,212,45"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,59,119,108,113,108,113,59"/>
-</map>

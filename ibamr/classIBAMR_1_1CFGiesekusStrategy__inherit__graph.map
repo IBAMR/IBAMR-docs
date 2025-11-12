@@ -1,0 +1,5 @@
+<map id="IBAMR::CFGiesekusStrategy" name="IBAMR::CFGiesekusStrategy">
+<area shape="rect" id="node1" title="Class CFGiesekusStrategy is a concrete CFStrategy that computes the relaxation function for the Giese..." alt="" coords="13,155,217,181"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1CFStrategy.html" title="Class CFStrategy is an abstract class that provides an interface for specifying the details of a comp..." alt="" coords="43,80,187,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

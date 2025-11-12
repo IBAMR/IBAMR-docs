@@ -1,0 +1,25 @@
+<map id="SAMRAI::xfer::RefinePatchStrategy&lt; DIM &gt;" name="SAMRAI::xfer::RefinePatchStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="273,195,465,236"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="861,5,1044,47"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="617,64,804,105"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1algs_1_1MethodOfLinesPatchStrategy.html" title=" " alt="" coords="603,129,818,171"/>
+<area shape="rect" id="node9" href="$classSAMRAI_1_1appu_1_1EmbeddedBoundaryGeometry.html" title="Class EmbeddedBoundaryGeometry provides embedded boundary mesh construction, storage,..." alt="" coords="584,195,837,236"/>
+<area shape="rect" id="node10" href="$classSAMRAI_1_1solv_1_1CartesianRobinBcHelper.html" title="Helper utility for setting Robin boundary conditions." alt="" coords="603,260,818,301"/>
+<area shape="rect" id="node11" href="$classSAMRAI_1_1xfer_1_1MultiblockRefinePatchStrategy.html" title="Class MultiblockRefinePatchStrategy is a virtual base class that provides interfaces for users to pro..." alt="" coords="606,325,815,367"/>
+<area shape="rect" id="node13" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="615,433,807,475"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,202,224,229"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1AdvectorPredictorCorrectorHyperbolicPatchOps.html" title="Class AdvectorPredictorCorrectorHyperbolicPatchOps is a concrete SAMRAI::algs::HyperbolicPatchStrateg..." alt="" coords="1379,35,1591,76"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1AdvDiffPredictorCorrectorHyperbolicPatchOps.html" title="Class AdvDiffPredictorCorrectorHyperbolicPatchOps is a specialization of class AdvectorPredictorCorre..." alt="" coords="1649,35,1888,76"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="1101,64,1287,105"/>
+<area shape="rect" id="node12" href="$classSAMRAI_1_1mesh_1_1MultiblockGriddingTagger.html" title="Class MultiblockGriddingTagger&lt;DIM&gt; is a concrete implementation of MultiblockRefinePatchStrategy&lt;DIM..." alt="" coords="1097,299,1291,340"/>
+<area shape="rect" id="node14" href="$classIBTK_1_1CartExtrapPhysBdryOp.html" title="Class CartExtrapPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting ghost cell val..." alt="" coords="1090,365,1298,391"/>
+<area shape="rect" id="node15" href="$classIBTK_1_1CartSideDoubleDivPreservingRefine.html" title="Class CartSideDoubleDivPreservingRefine is a concrete SAMRAI::xfer::RefinePatchStrategy which prolong..." alt="" coords="1068,416,1320,457"/>
+<area shape="rect" id="node16" href="$classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re..." alt="" coords="1097,481,1291,523"/>
+<area shape="rect" id="node20" href="$classIBTK_1_1RefinePatchStrategySet.html" title="Class RefinePatchStrategySet is a utility class that allows multiple SAMRAI::xfer::RefinePatchStrateg..." alt="" coords="1088,547,1300,574"/>
+<area shape="rect" id="node21" href="$classIBTK_1_1RobinPhysBdryPatchStrategy.html" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="1097,601,1291,643"/>
+<area shape="rect" id="node17" href="$classIBTK_1_1CartCellDoubleLinearCFInterpolation.html" title="Class CartCellDoubleLinearCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which sets ..." alt="" coords="1385,412,1584,453"/>
+<area shape="rect" id="node18" href="$classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html" title="Class CartCellDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="1374,477,1595,519"/>
+<area shape="rect" id="node19" href="$classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html" title="Class CartSideDoubleQuadraticCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which se..." alt="" coords="1373,543,1597,584"/>
+<area shape="rect" id="node22" href="$classIBTK_1_1CartCellRobinPhysBdryOp.html" title="Class CartCellRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="1371,609,1599,635"/>
+<area shape="rect" id="node23" href="$classIBTK_1_1CartSideRobinPhysBdryOp.html" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="1369,659,1600,686"/>
+</map>

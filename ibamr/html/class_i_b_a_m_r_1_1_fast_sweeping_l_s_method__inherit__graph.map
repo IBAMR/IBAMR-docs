@@ -1,9 +1,0 @@
-<map id="IBAMR::FastSweepingLSMethod" name="IBAMR::FastSweepingLSMethod">
-<area shape="rect" id="Node000001" title="Class FastSweepingLSMethod provides a fast&#45;sweeping algorithm implementation of the level set method...." alt="" coords="5,225,232,251"/>
-<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_l_s_init_strategy.html" title="Class LSInitStrategy provides a generic interface for initializing the implementation details of a pa..." alt="" coords="37,152,201,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,191,121,225,116,225,116,191"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="21,79,216,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,118,121,152,116,152,116,118"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="9,5,228,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,44,121,79,116,79,116,44"/>
-</map>

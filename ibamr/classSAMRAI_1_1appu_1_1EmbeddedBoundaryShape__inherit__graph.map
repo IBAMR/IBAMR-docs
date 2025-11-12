@@ -1,0 +1,5 @@
+<map id="SAMRAI::appu::EmbeddedBoundaryShape&lt; DIM &gt;" name="SAMRAI::appu::EmbeddedBoundaryShape&lt; DIM &gt;">
+<area shape="rect" id="node1" title="An abstract base class from which the different embedded boundary analytic shapes used in SAMRAI are ..." alt="" coords="5,39,259,80"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1appu_1_1EmbeddedBoundaryShapePolygon.html" title="Provides an analytic description of a convex polygon. It inherets from the EmbeddedBoundaryShape base..." alt="" coords="307,5,560,47"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1appu_1_1EmbeddedBoundaryShapeSphere.html" title="Provides an analytic description of a sphere. It inherets from the EmbeddedBoundaryShape base class a..." alt="" coords="307,71,560,112"/>
+</map>

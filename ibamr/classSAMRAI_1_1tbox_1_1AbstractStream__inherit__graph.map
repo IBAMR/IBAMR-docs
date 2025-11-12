@@ -1,0 +1,8 @@
+<map id="SAMRAI::tbox::AbstractStream" name="SAMRAI::tbox::AbstractStream">
+<area shape="rect" id="node1" title=" " alt="" coords="207,80,427,107"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1FixedSizedStream.html" title="Class FixedSizedStream provides a fixed&#45;size message buffer used by various communication routines." alt="" coords="5,155,181,181"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1MessageStream.html" title=" " alt="" coords="205,155,429,181"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1XDRStream.html" title=" " alt="" coords="453,155,648,181"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="208,5,427,32"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1tbox_1_1FileStream.html" title=" " alt="" coords="456,229,645,256"/>
+</map>

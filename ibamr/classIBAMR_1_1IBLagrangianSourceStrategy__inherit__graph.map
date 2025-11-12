@@ -1,0 +1,5 @@
+<map id="IBAMR::IBLagrangianSourceStrategy" name="IBAMR::IBLagrangianSourceStrategy">
+<area shape="rect" id="node1" title="Class IBLagrangianForceStrategy provides a generic interface for specifying the positions and magnitu..." alt="" coords="13,80,216,121"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1IBStandardSourceGen.html" title="Class IBStandardSourceGen provides support for distributed internal fluid sources/sinks." alt="" coords="7,169,222,196"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

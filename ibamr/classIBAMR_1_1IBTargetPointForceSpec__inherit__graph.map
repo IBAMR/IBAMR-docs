@@ -1,0 +1,5 @@
+<map id="IBAMR::IBTargetPointForceSpec" name="IBAMR::IBTargetPointForceSpec">
+<area shape="rect" id="node1" title="Class IBTargetPointForceSpec encapsulates the data necessary to compute the penalty force generated b..." alt="" coords="5,155,231,181"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1Streamable.html" title="Class Streamable is an abstract interface for objects that can be packed into SAMRAI::tbox::AbstractS..." alt="" coords="51,80,185,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="9,5,227,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="IBAMR::INSStaggeredPPMConvectiveOperator" name="IBAMR::INSStaggeredPPMConvectiveOperator">
+<area shape="rect" id="node1" title="Class INSStaggeredPPMConvectiveOperator is a concrete ConvectiveOperator that implements a upwind con..." alt="" coords="5,229,268,271"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1ConvectiveOperator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="35,155,238,181"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1GeneralOperator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="53,80,221,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="27,5,246,32"/>
+</map>

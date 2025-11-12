@@ -1,9 +1,0 @@
-<map id="IBTK::CartSideRobinPhysBdryOp" name="IBTK::CartSideRobinPhysBdryOp">
-<area shape="rect" id="Node000001" title="Class CartSideRobinPhysBdryOp is a concrete SAMRAI::xfer::RefinePatchStrategy for setting Robin bound..." alt="" coords="5,287,236,312"/>
-<area shape="rect" id="Node000002" href="$class_i_b_t_k_1_1_robin_phys_bdry_patch_strategy.html" title="Class RobinPhysBdryPatchStrategy is an abstract strategy class that extends the SAMRAI::xfer::RefineP..." alt="" coords="24,197,217,237"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,251,123,286,118,286,118,251"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="25,108,217,148"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,162,123,197,118,197,118,162"/>
-<area shape="rect" id="Node000004" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="25,5,217,45"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,59,123,108,118,108,118,59"/>
-</map>

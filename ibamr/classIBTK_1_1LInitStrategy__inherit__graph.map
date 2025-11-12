@@ -1,0 +1,7 @@
+<map id="IBTK::LInitStrategy" name="IBTK::LInitStrategy">
+<area shape="rect" id="node1" title="Class LInitStrategy provides a mechanism for specifying the initial configuration of the curvilinear ..." alt="" coords="148,80,291,107"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1IBRedundantInitializer.html" title="Class IBRedundantInitializer is an abstract LInitStrategy that initializes the configuration of one o..." alt="" coords="5,155,223,181"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1IMPInitializer.html" title="Class IMPInitializer is a concrete LInitStrategy that initializes the configuration of one or more La..." alt="" coords="247,155,405,181"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="110,5,329,32"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1IBStandardInitializer.html" title="Class IBStandardInitializer is a concrete LInitStrategy that initializes the configuration of one or ..." alt="" coords="11,229,217,256"/>
+</map>

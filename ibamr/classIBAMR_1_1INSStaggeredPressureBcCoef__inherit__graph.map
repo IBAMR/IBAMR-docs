@@ -1,0 +1,7 @@
+<map id="IBAMR::INSStaggeredPressureBcCoef" name="IBAMR::INSStaggeredPressureBcCoef">
+<area shape="rect" id="node1" title="Class INSStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressure ..." alt="" coords="5,367,223,408"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StokesBcCoefStrategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="5,291,223,317"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1ExtendedRobinBcCoefStrategy.html" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="12,200,216,241"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="15,109,213,151"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions." alt="" coords="15,5,213,47"/>
+</map>

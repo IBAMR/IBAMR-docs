@@ -1,0 +1,7 @@
+<map id="IBTK::CartCellDoubleLinearCFInterpolation" name="IBTK::CartCellDoubleLinearCFInterpolation">
+<area shape="rect" id="node1" title="Class CartCellDoubleLinearCFInterpolation is a concrete SAMRAI::xfer::RefinePatchStrategy which sets ..." alt="" coords="21,367,219,408"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re..." alt="" coords="23,276,217,317"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title=" " alt="" coords="24,185,216,227"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="136,81,328,123"/>
+</map>

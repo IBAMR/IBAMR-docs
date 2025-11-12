@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_i_b_a_m_r_1_1_stokes_wave_generator_strategy.html" title="Strategy class for generating Stokes wave." alt="" coords="5,69,223,109"/>
-<area shape="rect" id="Node000001" href="$class_i_b_a_m_r_1_1_fifth_order_stokes_wave_generator.html" title="Class for generating fifth order Stokes wave using Fenton&#39;s (Stokes) wave theory." alt="" coords="277,5,493,45"/>
-<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="212,63,299,43,301,48,214,69"/>
-<area shape="rect" id="Node000002" href="$class_i_b_a_m_r_1_1_first_order_stokes_wave_generator.html" title="Class for generating first order water waves based upon linear wave theory." alt="" coords="277,69,493,109"/>
-<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="236,87,277,87,277,92,236,92"/>
-<area shape="rect" id="Node000003" href="$class_i_b_a_m_r_1_1_irregular_wave_generator.html" title="Class for generating Irregular waves." alt="" coords="271,134,500,159"/>
-<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="223,110,325,131,324,137,222,115"/>
-</map>

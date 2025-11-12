@@ -1,0 +1,6 @@
+<map id="IBTK::StandardTagAndInitStrategySet" name="IBTK::StandardTagAndInitStrategySet">
+<area shape="rect" id="node1" title="Class StandardTagAndInitStrategySet is a utility class that allows multiple SAMRAI::mesh::StandardTag..." alt="" coords="27,276,213,317"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="17,185,223,227"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="137,81,343,123"/>
+</map>

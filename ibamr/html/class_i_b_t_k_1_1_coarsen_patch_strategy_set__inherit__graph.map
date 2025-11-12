@@ -1,7 +1,0 @@
-<map id="IBTK::CoarsenPatchStrategySet" name="IBTK::CoarsenPatchStrategySet">
-<area shape="rect" id="Node000001" title="Class CoarsenPatchStrategySet is a utility class that allows multiple SAMRAI::xfer::CoarsenPatchStrat..." alt="" coords="5,197,229,223"/>
-<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title=" " alt="" coords="15,108,219,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,162,120,197,115,197,115,162"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title=" " alt="" coords="15,5,219,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,59,120,108,115,108,115,59"/>
-</map>

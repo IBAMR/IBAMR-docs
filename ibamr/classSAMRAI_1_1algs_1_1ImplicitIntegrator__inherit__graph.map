@@ -1,0 +1,5 @@
+<map id="SAMRAI::algs::ImplicitIntegrator&lt; DIM &gt;" name="SAMRAI::algs::ImplicitIntegrator&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Manage implicit time integration over an AMR patch hierarchy." alt="" coords="5,155,236,196"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="23,80,218,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="11,5,230,32"/>
+</map>

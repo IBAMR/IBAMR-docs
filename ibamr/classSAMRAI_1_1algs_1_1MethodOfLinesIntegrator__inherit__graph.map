@@ -1,0 +1,6 @@
+<map id="SAMRAI::algs::MethodOfLinesIntegrator&lt; DIM &gt;" name="SAMRAI::algs::MethodOfLinesIntegrator&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class MethodOfLinesIntegrator&lt;DIM&gt; implements a spatially adaptive version of the Strong Stability Pr..." alt="" coords="107,169,322,211"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="5,87,200,114"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="105,5,324,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="225,80,431,121"/>
+</map>

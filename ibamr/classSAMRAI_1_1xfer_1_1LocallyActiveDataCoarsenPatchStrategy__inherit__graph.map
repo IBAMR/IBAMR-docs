@@ -1,0 +1,4 @@
+<map id="SAMRAI::xfer::LocallyActiveDataCoarsenPatchStrategy&lt; DIM &gt;" name="SAMRAI::xfer::LocallyActiveDataCoarsenPatchStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class LocallyActiveDataCoarsenPatchStrategy is an abstract base class that defines a Strategy pattern..." alt="" coords="5,80,257,121"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="22,5,241,32"/>
+</map>

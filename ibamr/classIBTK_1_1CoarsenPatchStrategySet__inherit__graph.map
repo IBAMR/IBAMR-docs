@@ -1,0 +1,6 @@
+<map id="IBTK::CoarsenPatchStrategySet" name="IBTK::CoarsenPatchStrategySet">
+<area shape="rect" id="node1" title="Class CoarsenPatchStrategySet is a utility class that allows multiple SAMRAI::xfer::CoarsenPatchStrat..." alt="" coords="8,276,232,303"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title=" " alt="" coords="18,185,222,227"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title="Class CoarsenPatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface f..." alt="" coords="137,81,341,123"/>
+</map>

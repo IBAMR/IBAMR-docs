@@ -1,0 +1,5 @@
+<map id="SAMRAI::geom::CartesianFaceFloatConservativeLinearRefine&lt; DIM &gt;" name="SAMRAI::geom::CartesianFaceFloatConservativeLinearRefine&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,284,211"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="37,80,252,121"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="35,5,254,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="SAMRAI::xfer::MultiblockCoarsenSchedule&lt; DIM &gt;" name="SAMRAI::xfer::MultiblockCoarsenSchedule&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class MultiblockCoarsenSchedule&lt;DIM&gt; encapsulates the AMR communication pattern to coarsen data from ..." alt="" coords="19,80,210,121"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

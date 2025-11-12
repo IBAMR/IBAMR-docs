@@ -1,0 +1,21 @@
+<map id="IBTK::HierarchyIntegrator" name="IBTK::HierarchyIntegrator">
+<area shape="rect" id="node1" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="979,209,1165,235"/>
+<area shape="rect" id="node6" href="$classIBAMR_1_1AdvDiffHierarchyIntegrator.html" title="Class AdvDiffHierarchyIntegrator provides an abstract interface for a time integrator for advection&#45;d..." alt="" coords="1215,78,1463,105"/>
+<area shape="rect" id="node10" href="$classIBAMR_1_1IBHierarchyIntegrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions..." alt="" coords="1232,209,1445,235"/>
+<area shape="rect" id="node14" href="$classIBAMR_1_1INSHierarchyIntegrator.html" title="Class INSHierarchyIntegrator provides an abstract interface for a time integrator for the incompressi..." alt="" coords="1227,371,1450,398"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="723,165,929,207"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,173,224,199"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="273,165,480,207"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="504,231,699,258"/>
+<area shape="rect" id="node7" href="$classIBAMR_1_1AdvDiffPredictorCorrectorHierarchyIntegrator.html" title="Class AdvDiffPredictorCorrectorHierarchyIntegrator manages the spatial discretization and time integr..." alt="" coords="1514,5,1753,47"/>
+<area shape="rect" id="node8" href="$classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html" title="Class AdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time integration ..." alt="" coords="1532,71,1735,112"/>
+<area shape="rect" id="node9" href="$classIBAMR_1_1BrinkmanAdvDiffSemiImplicitHierarchyIntegrator.html" title="Class BrinkmanAdvDiffSemiImplicitHierarchyIntegrator manages the spatial discretization and time inte..." alt="" coords="1828,71,2045,112"/>
+<area shape="rect" id="node11" href="$classIBAMR_1_1IBExplicitHierarchyIntegrator.html" title="Class IBExplicitHierarchyIntegrator is an implementation of a formally second&#45;order accurate,..." alt="" coords="1535,136,1732,177"/>
+<area shape="rect" id="node12" href="$classIBAMR_1_1IBImplicitStaggeredHierarchyIntegrator.html" title="Class IBImplicitStaggeredHierarchyIntegrator is an implementation of a formally second&#45;order accurate..." alt="" coords="1533,201,1734,243"/>
+<area shape="rect" id="node13" href="$classIBAMR_1_1IBInterpolantHierarchyIntegrator.html" title="Class IBInterpolantHierarchyIntegrator is an implementation of Brinkman penalization immersed boundar..." alt="" coords="1523,267,1743,308"/>
+<area shape="rect" id="node15" href="$classIBAMR_1_1INSCollocatedHierarchyIntegrator.html" title="Class INSCollocatedHierarchyIntegrator provides a collocated projection method&#45;based solver for the i..." alt="" coords="1520,332,1747,373"/>
+<area shape="rect" id="node16" href="$classIBAMR_1_1INSStaggeredHierarchyIntegrator.html" title="Class INSStaggeredHierarchyIntegrator provides a staggered&#45;grid solver for the incompressible Navier&#45;..." alt="" coords="1521,397,1745,439"/>
+<area shape="rect" id="node17" href="$classIBAMR_1_1INSVCStaggeredHierarchyIntegrator.html" title="Class INSVCStaggeredHierarchyIntegrator provides an abstract interface for time integrator for a stag..." alt="" coords="1512,463,1755,504"/>
+<area shape="rect" id="node18" href="$classIBAMR_1_1INSVCStaggeredConservativeHierarchyIntegrator.html" title="Class INSVCStaggeredConservativeHierarchyIntegrator provides a staggered&#45;grid solver for the incompre..." alt="" coords="1804,429,2069,471"/>
+<area shape="rect" id="node19" href="$classIBAMR_1_1INSVCStaggeredNonConservativeHierarchyIntegrator.html" title="Class INSVCStaggeredNonConservativeHierarchyIntegrator provides a staggered&#45;grid solver for the incom..." alt="" coords="1819,495,2054,536"/>
+</map>

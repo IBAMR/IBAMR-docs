@@ -1,0 +1,7 @@
+<map id="IBAMR::FEMechanicsBase" name="IBAMR::FEMechanicsBase">
+<area shape="rect" id="node1" title="Class FEMechanicsBase provides core finite element mechanics functionality and data management." alt="" coords="115,155,305,181"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1FEMechanicsExplicitIntegrator.html" title="Class FEMechanicsExplicitIntegrator is an implementation of the abstract base class FEMechanicsBase t..." alt="" coords="5,229,212,271"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1IBFEMethod.html" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali..." alt="" coords="236,237,387,263"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="113,80,307,107"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="101,5,319,32"/>
+</map>

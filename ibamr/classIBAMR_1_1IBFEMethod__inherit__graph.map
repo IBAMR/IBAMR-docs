@@ -1,0 +1,9 @@
+<map id="IBAMR::IBFEMethod" name="IBAMR::IBFEMethod">
+<area shape="rect" id="node1" title="Class IBFEMethod is an implementation of the abstract base class IBStrategy that provides functionali..." alt="" coords="122,352,273,379"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1FEMechanicsBase.html" title="Class FEMechanicsBase provides core finite element mechanics functionality and data management." alt="" coords="7,276,198,303"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="5,193,200,219"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1IBStrategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="223,276,364,303"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="77,5,296,32"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="225,185,431,227"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="225,81,431,123"/>
+</map>

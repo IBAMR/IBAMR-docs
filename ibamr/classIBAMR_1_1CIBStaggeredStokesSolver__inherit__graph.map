@@ -1,0 +1,6 @@
+<map id="IBAMR::CIBStaggeredStokesSolver" name="IBAMR::CIBStaggeredStokesSolver">
+<area shape="rect" id="node1" title="Class CIBStaggeredStokesSolver is an extension of IBAMR::StaggeredStokesSolver class that solves for ..." alt="" coords="15,229,219,271"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StaggeredStokesSolver.html" title="Class StaggeredStokesSolver is an abstract base class for staggered&#45;grid Stokes solvers." alt="" coords="5,155,228,181"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1GeneralSolver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="41,80,193,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="7,5,226,32"/>
+</map>

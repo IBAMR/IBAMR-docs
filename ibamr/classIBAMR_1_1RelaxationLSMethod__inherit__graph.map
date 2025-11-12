@@ -1,0 +1,6 @@
+<map id="IBAMR::RelaxationLSMethod" name="IBAMR::RelaxationLSMethod">
+<area shape="rect" id="node1" title="Class RelaxationLSMethod provides a relaxation algorithm implementation of the level set method...." alt="" coords="11,229,218,256"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1LSInitStrategy.html" title="Class LSInitStrategy provides a generic interface for initializing the implementation details of a pa..." alt="" coords="33,155,197,181"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="17,80,212,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

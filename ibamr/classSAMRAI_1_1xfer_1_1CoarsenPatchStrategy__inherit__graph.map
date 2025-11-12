@@ -1,0 +1,13 @@
+<map id="SAMRAI::xfer::CoarsenPatchStrategy&lt; DIM &gt;" name="SAMRAI::xfer::CoarsenPatchStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class CoarsenPatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface f..." alt="" coords="273,129,477,171"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="841,5,1024,47"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="613,64,800,105"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1algs_1_1MethodOfLinesPatchStrategy.html" title=" " alt="" coords="599,129,814,171"/>
+<area shape="rect" id="node9" href="$classSAMRAI_1_1xfer_1_1MultiblockCoarsenPatchStrategy.html" title="Class MultiblockCoarsenPatchStrategy is an abstract base class that provides interfaces between coars..." alt="" coords="596,195,817,236"/>
+<area shape="rect" id="node10" href="$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title=" " alt="" coords="605,260,809,301"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,137,224,163"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1AdvectorPredictorCorrectorHyperbolicPatchOps.html" title="Class AdvectorPredictorCorrectorHyperbolicPatchOps is a concrete SAMRAI::algs::HyperbolicPatchStrateg..." alt="" coords="1321,35,1533,76"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1AdvDiffPredictorCorrectorHyperbolicPatchOps.html" title="Class AdvDiffPredictorCorrectorHyperbolicPatchOps is a specialization of class AdvectorPredictorCorre..." alt="" coords="1583,35,1821,76"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="1067,64,1253,105"/>
+<area shape="rect" id="node11" href="$classIBTK_1_1CoarsenPatchStrategySet.html" title="Class CoarsenPatchStrategySet is a utility class that allows multiple SAMRAI::xfer::CoarsenPatchStrat..." alt="" coords="1048,267,1272,294"/>
+</map>

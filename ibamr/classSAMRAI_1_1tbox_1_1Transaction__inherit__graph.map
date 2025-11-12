@@ -1,0 +1,12 @@
+<map id="SAMRAI::tbox::Transaction" name="SAMRAI::tbox::Transaction">
+<area shape="rect" id="node1" title=" " alt="" coords="272,209,465,236"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1CopyToRootTransaction.html" title="Class CopyToRootTransaction is a concrete implementation of the abstract base class SAMRAI::tbox::Tra..." alt="" coords="517,5,728,32"/>
+<area shape="rect" id="node4" href="$classIBTK_1_1LTransaction.html" title="Class LTransaction represents a communication transaction between two processors or a local data copy..." alt="" coords="533,56,712,83"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1algs_1_1OuteredgeSumTransaction.html" title="Class OuteredgeSumTransaction&lt;DIM&gt; represents a single outeredge data sum communication transaction b..." alt="" coords="515,107,730,149"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1algs_1_1OuternodeSumTransaction.html" title="Class OuternodeSumTransaction&lt;DIM&gt; represents a single outernode data sum communication transaction b..." alt="" coords="515,173,730,214"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1tbox_1_1StatTransaction.html" title=" " alt="" coords="513,239,732,265"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1xfer_1_1CoarsenCopyTransaction.html" title="Class CoarsenCopyTransaction&lt;DIM&gt; represents a single copy communication transaction between two proc..." alt="" coords="521,290,724,331"/>
+<area shape="rect" id="node9" href="$classSAMRAI_1_1xfer_1_1RefineCopyTransaction.html" title="Class RefineCopyTransaction&lt;DIM&gt; represents a single copy communication transaction between two proce..." alt="" coords="527,355,718,397"/>
+<area shape="rect" id="node10" href="$classSAMRAI_1_1xfer_1_1RefineTimeTransaction.html" title="Class RefineTimeTransaction&lt;DIM&gt; represents a single time interpolation communication transaction bet..." alt="" coords="527,421,718,462"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,209,224,236"/>
+</map>

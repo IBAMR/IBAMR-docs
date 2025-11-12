@@ -1,0 +1,5 @@
+<map id="SAMRAI::pdat::OuternodeDataFactory&lt; DIM, TYPE &gt;" name="SAMRAI::pdat::OuternodeDataFactory&lt; DIM, TYPE &gt;">
+<area shape="rect" id="node1" title="Class OuternodeDataFactory is a factory class used to allocate new instances of OuternodeData objects..." alt="" coords="10,169,229,211"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1hier_1_1PatchDataFactory.html" title=" " alt="" coords="5,80,233,121"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="10,5,229,32"/>
+</map>

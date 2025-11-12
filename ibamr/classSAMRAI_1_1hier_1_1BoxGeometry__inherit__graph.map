@@ -1,0 +1,12 @@
+<map id="SAMRAI::hier::BoxGeometry&lt; DIM &gt;" name="SAMRAI::hier::BoxGeometry&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="272,235,477,276"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1pdat_1_1CellGeometry.html" title=" " alt="" coords="547,5,756,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1pdat_1_1EdgeGeometry.html" title=" " alt="" coords="543,71,759,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1pdat_1_1FaceGeometry.html" title=" " alt="" coords="545,136,758,177"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1pdat_1_1NodeGeometry.html" title=" " alt="" coords="542,201,761,243"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1pdat_1_1OuteredgeGeometry.html" title=" " alt="" coords="525,267,777,308"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1pdat_1_1OuterfaceGeometry.html" title=" " alt="" coords="527,332,775,373"/>
+<area shape="rect" id="node9" href="$classSAMRAI_1_1pdat_1_1OuternodeGeometry.html" title=" " alt="" coords="525,397,777,439"/>
+<area shape="rect" id="node10" href="$classSAMRAI_1_1pdat_1_1OutersideGeometry.html" title=" " alt="" coords="528,463,775,504"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,242,224,269"/>
+</map>

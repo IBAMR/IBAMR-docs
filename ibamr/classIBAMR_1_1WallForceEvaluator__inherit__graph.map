@@ -1,0 +1,5 @@
+<map id="IBAMR::WallForceEvaluator" name="IBAMR::WallForceEvaluator">
+<area shape="rect" id="node1" title=" " alt="" coords="15,169,214,196"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1IBLagrangianForceStrategy.html" title="Class IBLagrangianForceStrategy provides a generic interface for specifying nodal forces (not force d..." alt="" coords="18,80,211,121"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

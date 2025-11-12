@@ -1,0 +1,5 @@
+<map id="SAMRAI::xfer::CoarsenTransactionFactory&lt; DIM &gt;" name="SAMRAI::xfer::CoarsenTransactionFactory&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Abstract base class defining the interface for all concrete transaction factory objects that generate..." alt="" coords="5,80,248,121"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1xfer_1_1StandardCoarsenTransactionFactory.html" title="Concrete subclass of CoarsenTransactionFactory&lt;DIM&gt; base class that allocates CoarsenCopyTransaction&lt;..." alt="" coords="13,169,240,211"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="17,5,236,32"/>
+</map>

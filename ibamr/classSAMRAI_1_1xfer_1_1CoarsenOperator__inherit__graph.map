@@ -1,0 +1,34 @@
+<map id="SAMRAI::xfer::CoarsenOperator&lt; DIM &gt;" name="SAMRAI::xfer::CoarsenOperator&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="273,789,500,831"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1geom_1_1CartesianCellDoubleWeightedAverage.html" title=" " alt="" coords="637,5,853,47"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1geom_1_1CartesianSideDoubleWeightedAverage.html" title=" " alt="" coords="636,71,855,112"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1geom_1_1CartesianCellComplexWeightedAverage.html" title=" " alt="" coords="620,136,871,177"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1geom_1_1CartesianCellDoubleWeightedAverage.html" title=" " alt="" coords="626,201,865,243"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1geom_1_1CartesianCellFloatWeightedAverage.html" title=" " alt="" coords="633,267,858,308"/>
+<area shape="rect" id="node9" href="$classSAMRAI_1_1geom_1_1CartesianEdgeComplexWeightedAverage.html" title=" " alt="" coords="620,332,871,373"/>
+<area shape="rect" id="node10" href="$classSAMRAI_1_1geom_1_1CartesianEdgeDoubleWeightedAverage.html" title=" " alt="" coords="626,397,865,439"/>
+<area shape="rect" id="node11" href="$classSAMRAI_1_1geom_1_1CartesianEdgeFloatWeightedAverage.html" title=" " alt="" coords="633,463,858,504"/>
+<area shape="rect" id="node12" href="$classSAMRAI_1_1geom_1_1CartesianFaceComplexWeightedAverage.html" title=" " alt="" coords="620,528,871,569"/>
+<area shape="rect" id="node13" href="$classSAMRAI_1_1geom_1_1CartesianFaceDoubleWeightedAverage.html" title=" " alt="" coords="626,593,865,635"/>
+<area shape="rect" id="node14" href="$classSAMRAI_1_1geom_1_1CartesianFaceFloatWeightedAverage.html" title=" " alt="" coords="633,659,858,700"/>
+<area shape="rect" id="node15" href="$classSAMRAI_1_1geom_1_1CartesianOuterfaceComplexWeightedAverage.html" title=" " alt="" coords="619,724,872,765"/>
+<area shape="rect" id="node16" href="$classSAMRAI_1_1geom_1_1CartesianOuterfaceDoubleWeightedAverage.html" title=" " alt="" coords="619,789,872,831"/>
+<area shape="rect" id="node17" href="$classSAMRAI_1_1geom_1_1CartesianOuterfaceFloatWeightedAverage.html" title=" " alt="" coords="619,855,872,896"/>
+<area shape="rect" id="node18" href="$classSAMRAI_1_1geom_1_1CartesianOutersideDoubleWeightedAverage.html" title=" " alt="" coords="619,920,871,961"/>
+<area shape="rect" id="node19" href="$classSAMRAI_1_1geom_1_1CartesianSideComplexWeightedAverage.html" title=" " alt="" coords="620,985,871,1027"/>
+<area shape="rect" id="node20" href="$classSAMRAI_1_1geom_1_1CartesianSideDoubleWeightedAverage.html" title=" " alt="" coords="626,1051,865,1092"/>
+<area shape="rect" id="node22" href="$classSAMRAI_1_1geom_1_1CartesianSideFloatWeightedAverage.html" title=" " alt="" coords="633,1116,858,1157"/>
+<area shape="rect" id="node23" href="$classSAMRAI_1_1geom_1_1SkeletonCoarsen.html" title=" " alt="" coords="627,1181,863,1223"/>
+<area shape="rect" id="node24" href="$classSAMRAI_1_1pdat_1_1NodeComplexInjection.html" title=" " alt="" coords="640,1247,851,1288"/>
+<area shape="rect" id="node25" href="$classSAMRAI_1_1pdat_1_1NodeDoubleInjection.html" title=" " alt="" coords="646,1312,845,1353"/>
+<area shape="rect" id="node26" href="$classSAMRAI_1_1pdat_1_1NodeFloatInjection.html" title=" " alt="" coords="624,1377,867,1419"/>
+<area shape="rect" id="node27" href="$classSAMRAI_1_1pdat_1_1NodeIntegerInjection.html" title=" " alt="" coords="646,1443,845,1484"/>
+<area shape="rect" id="node28" href="$classSAMRAI_1_1pdat_1_1OuternodeDoubleConstantCoarsen.html" title="Class OuternodeDoubleConstantCoarsen implements constant averaging (i.e., injection) for outernode&#45;ce..." alt="" coords="629,1508,862,1549"/>
+<area shape="rect" id="node29" href="$classSAMRAI_1_1xfer_1_1CoarsenOperator.html" title=" " alt="" coords="632,1573,859,1615"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,797,224,823"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1geom_1_1CartesianCellDoubleWeightedAverage.html" title=" " alt="" coords="991,201,1239,243"/>
+<area shape="rect" id="node21" href="$classSAMRAI_1_1geom_1_1CartesianSideDoubleWeightedAverage.html" title=" " alt="" coords="991,1051,1239,1092"/>
+<area shape="rect" id="node30" href="$classIBTK_1_1CartCellDoubleCubicCoarsen.html" title="Class CartCellDoubleCubicCoarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting cell&#45;cen..." alt="" coords="1017,1508,1212,1549"/>
+<area shape="rect" id="node31" href="$classIBTK_1_1CartSideDoubleCubicCoarsen.html" title="Class CartSideDoubleCubicCoarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting side&#45;cen..." alt="" coords="1016,1573,1213,1615"/>
+<area shape="rect" id="node32" href="$classIBTK_1_1CartSideDoubleRT0Coarsen.html" title="Class CartSideDoubleRT0Coarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting side&#45;cente..." alt="" coords="995,1639,1234,1666"/>
+</map>

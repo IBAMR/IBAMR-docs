@@ -1,0 +1,5 @@
+<map id="IBAMR::StokesFirstOrderWaveBcCoef" name="IBAMR::StokesFirstOrderWaveBcCoef">
+<area shape="rect" id="node1" title="Class StokesFirstOrderWaveBcCoef is an implementation of the strategy class SAMRAI::solv::RobinBcCoef..." alt="" coords="5,200,221,241"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="14,109,213,151"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions." alt="" coords="14,5,213,47"/>
+</map>

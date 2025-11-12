@@ -1,0 +1,6 @@
+<map id="SAMRAI::tbox::FileStream" name="SAMRAI::tbox::FileStream">
+<area shape="rect" id="node1" title=" " alt="" coords="21,229,210,256"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1XDRStream.html" title=" " alt="" coords="18,155,213,181"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1AbstractStream.html" title=" " alt="" coords="5,80,225,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="6,5,225,32"/>
+</map>

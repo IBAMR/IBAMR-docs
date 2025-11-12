@@ -1,0 +1,9 @@
+<map id="SAMRAI::algs::HyperbolicPatchStrategy&lt; DIM &gt;" name="SAMRAI::algs::HyperbolicPatchStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="527,35,713,76"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1algs_1_1HyperbolicPatchStrategy.html" title=" " alt="" coords="832,35,1019,76"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="279,5,471,47"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,46,224,73"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title="Class CoarsenPatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface f..." alt="" coords="273,71,477,112"/>
+<area shape="rect" id="node6" href="$classIBAMR_1_1AdvectorPredictorCorrectorHyperbolicPatchOps.html" title="Class AdvectorPredictorCorrectorHyperbolicPatchOps is a concrete SAMRAI::algs::HyperbolicPatchStrateg..." alt="" coords="1068,35,1280,76"/>
+<area shape="rect" id="node7" href="$classIBAMR_1_1AdvDiffPredictorCorrectorHyperbolicPatchOps.html" title="Class AdvDiffPredictorCorrectorHyperbolicPatchOps is a specialization of class AdvectorPredictorCorre..." alt="" coords="1329,35,1568,76"/>
+</map>

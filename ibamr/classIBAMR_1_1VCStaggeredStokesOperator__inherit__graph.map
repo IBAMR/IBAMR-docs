@@ -1,0 +1,7 @@
+<map id="IBAMR::VCStaggeredStokesOperator" name="IBAMR::VCStaggeredStokesOperator">
+<area shape="rect" id="node1" title="Class VCStaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid ..." alt="" coords="25,304,225,345"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1StaggeredStokesOperator.html" title="Class StaggeredStokesOperator is a concrete IBTK::LinearOperator which implements a staggered&#45;grid (M..." alt="" coords="5,229,244,256"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1LinearOperator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="46,155,203,181"/>
+<area shape="rect" id="node4" href="$classIBTK_1_1GeneralOperator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="41,80,209,107"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="15,5,234,32"/>
+</map>

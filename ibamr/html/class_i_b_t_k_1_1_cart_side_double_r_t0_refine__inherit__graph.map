@@ -1,7 +1,0 @@
-<map id="IBTK::CartSideDoubleRT0Refine" name="IBTK::CartSideDoubleRT0Refine">
-<area shape="rect" id="Node000001" title="Class CartSideDoubleRT0Refine is a concrete SAMRAI::xfer::RefineOperator object that prolongs side&#45;ce..." alt="" coords="5,197,232,223"/>
-<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="11,108,226,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,162,121,197,116,197,116,162"/>
-<area shape="rect" id="Node000003" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1xfer_1_1RefineOperator.html" title=" " alt="" coords="11,5,226,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,59,121,108,116,108,116,59"/>
-</map>

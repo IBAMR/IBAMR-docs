@@ -1,0 +1,7 @@
+<map id="SAMRAI::mesh::GriddingAlgorithm&lt; DIM &gt;" name="SAMRAI::mesh::GriddingAlgorithm&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class GriddingAlgorithm&lt;DIM&gt; manages gridding operations in SAMRAI. Specifically, it provides AMR pat..." alt="" coords="5,248,251,289"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html" title=" " alt="" coords="5,352,251,393"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1mesh_1_1BaseGriddingAlgorithm.html" title="Virtual base class providing interface for gridding algorithm." alt="" coords="21,157,235,199"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="31,81,225,108"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="19,5,237,32"/>
+</map>

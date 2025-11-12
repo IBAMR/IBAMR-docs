@@ -1,0 +1,11 @@
+<map id="IBAMR::CIBMethod" name="IBAMR::CIBMethod">
+<area shape="rect" id="node1" title="Class CIBMethod is a concrete CIBStrategy and IBMethod class which implements the motion of rigid bod..." alt="" coords="273,541,417,568"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1IBMethod.html" title="Class IBMethod is an implementation of the abstract base class IBImplicitStrategy that provides funct..." alt="" coords="221,465,356,492"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1IBImplicitStrategy.html" title="Class IBImplicitStrategy provides a generic interface for specifying the implementation details of a ..." alt="" coords="172,389,363,416"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1IBStrategy.html" title="Class IBStrategy provides a generic interface for specifying the implementation details of a particul..." alt="" coords="197,313,338,340"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,197,212,239"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="170,5,389,32"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="71,81,277,123"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="186,147,381,173"/>
+<area shape="rect" id="node9" href="$classIBAMR_1_1CIBStrategy.html" title="Class CIBStrategy is a lightweight abstract strategy class which provides support for constraint base..." alt="" coords="325,263,476,289"/>
+</map>

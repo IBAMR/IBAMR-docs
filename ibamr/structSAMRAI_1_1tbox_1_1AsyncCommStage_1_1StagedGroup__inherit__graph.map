@@ -1,0 +1,4 @@
+<map id="SAMRAI::tbox::AsyncCommStage::StagedGroup" name="SAMRAI::tbox::AsyncCommStage::StagedGroup">
+<area shape="rect" id="node1" title="Augmented AsyncCommGroup, to operate on a stage." alt="" coords="6,80,245,121"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1AsyncCommGroup.html" title="Supports many&#45;to&#45;one and one&#45;to&#45;many asynchronous communication operations within a given group of pr..." alt="" coords="5,5,245,32"/>
+</map>

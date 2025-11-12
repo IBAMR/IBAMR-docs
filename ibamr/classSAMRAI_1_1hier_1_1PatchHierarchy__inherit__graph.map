@@ -1,0 +1,7 @@
+<map id="SAMRAI::hier::PatchHierarchy&lt; DIM &gt;" name="SAMRAI::hier::PatchHierarchy&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="21,248,235,289"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1hier_1_1PatchHierarchy.html" title=" " alt="" coords="21,352,235,393"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1hier_1_1BasePatchHierarchy.html" title=" " alt="" coords="5,157,251,199"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="19,5,237,32"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="149,81,344,108"/>
+</map>

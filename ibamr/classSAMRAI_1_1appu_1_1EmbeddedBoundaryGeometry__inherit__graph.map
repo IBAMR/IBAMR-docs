@@ -1,0 +1,7 @@
+<map id="SAMRAI::appu::EmbeddedBoundaryGeometry&lt; DIM &gt;" name="SAMRAI::appu::EmbeddedBoundaryGeometry&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Class EmbeddedBoundaryGeometry provides embedded boundary mesh construction, storage,..." alt="" coords="523,71,776,112"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1appu_1_1VisMaterialsDataStrategy.html" title="Class VisMaterialsDataStrategy&lt;DIM&gt; is an abstract base class that defines an interface allowing an V..." alt="" coords="272,5,475,47"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="277,71,469,112"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,107,224,134"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="276,137,471,163"/>
+</map>

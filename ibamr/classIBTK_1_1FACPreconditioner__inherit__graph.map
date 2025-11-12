@@ -1,0 +1,8 @@
+<map id="IBTK::FACPreconditioner" name="IBTK::FACPreconditioner">
+<area shape="rect" id="node1" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon..." alt="" coords="210,229,389,256"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1StaggeredStokesFACPreconditioner.html" title="Class StaggeredStokesFACPreconditioner is a FACPreconditioner that has been specialized for Stokes pr..." alt="" coords="5,304,305,331"/>
+<area shape="rect" id="node6" href="$classIBTK_1_1PoissonFACPreconditioner.html" title="Class PoissonFACPreconditioner is a FACPreconditioner that has been specialized for Poisson problems." alt="" coords="329,304,557,331"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1LinearSolver.html" title="Class LinearSolver provides an abstract interface for the implementation of solvers for linear proble..." alt="" coords="229,155,370,181"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1GeneralSolver.html" title="Class GeneralSolver provides an abstract interface for the implementation of linear or nonlinear solv..." alt="" coords="223,80,375,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="190,5,409,32"/>
+</map>

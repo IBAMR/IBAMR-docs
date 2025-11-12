@@ -1,0 +1,5 @@
+<map id="SAMRAI::algs::LocallyActiveDataOuternodeSumTransactionFactory&lt; DIM &gt;" name="SAMRAI::algs::LocallyActiveDataOuternodeSumTransactionFactory&lt; DIM &gt;">
+<area shape="rect" id="node1" title="Concrete subclass of the xfer::LocallyActiveDataRefineTransactionFactory&lt;DIM&gt; base class that allocat..." alt="" coords="5,169,332,211"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1LocallyActiveDataRefineTransactionFactory.html" title="Abstract base class defining the interface for all concrete transaction factory objects that generate..." alt="" coords="33,80,304,121"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="59,5,278,32"/>
+</map>

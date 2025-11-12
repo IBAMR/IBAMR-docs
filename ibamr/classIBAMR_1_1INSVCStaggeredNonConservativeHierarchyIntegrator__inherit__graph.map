@@ -1,0 +1,10 @@
+<map id="IBAMR::INSVCStaggeredNonConservativeHierarchyIntegrator" name="IBAMR::INSVCStaggeredNonConservativeHierarchyIntegrator">
+<area shape="rect" id="node1" title="Class INSVCStaggeredNonConservativeHierarchyIntegrator provides a staggered&#45;grid solver for the incom..." alt="" coords="70,531,305,572"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1INSVCStaggeredHierarchyIntegrator.html" title="Class INSVCStaggeredHierarchyIntegrator provides an abstract interface for time integrator for a stag..." alt="" coords="66,440,309,481"/>
+<area shape="rect" id="node3" href="$classIBAMR_1_1INSHierarchyIntegrator.html" title="Class INSHierarchyIntegrator provides an abstract interface for a time integrator for the incompressi..." alt="" coords="76,364,299,391"/>
+<area shape="rect" id="node4" href="$classIBTK_1_1HierarchyIntegrator.html" title="Class HierarchyIntegrator provides an abstract interface for a time integrator for a system of equati..." alt="" coords="94,288,281,315"/>
+<area shape="rect" id="node5" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="5,197,212,239"/>
+<area shape="rect" id="node6" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="33,5,251,32"/>
+<area shape="rect" id="node7" href="$classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html" title=" " alt="" coords="39,81,245,123"/>
+<area shape="rect" id="node8" href="$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="186,147,381,173"/>
+</map>

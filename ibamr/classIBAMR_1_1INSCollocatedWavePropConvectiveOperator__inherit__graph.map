@@ -1,0 +1,6 @@
+<map id="IBAMR::INSCollocatedWavePropConvectiveOperator" name="IBAMR::INSCollocatedWavePropConvectiveOperator">
+<area shape="rect" id="node1" title="Class INSCollocatedWavePropConvectiveOperator is a concrete ConvectiveOperator that implements a conv..." alt="" coords="15,229,215,271"/>
+<area shape="rect" id="node2" href="$classIBAMR_1_1ConvectiveOperator.html" title="Class ConvectiveOperator is a abstract class for an implementation of a convective differencing opera..." alt="" coords="13,155,216,181"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1GeneralOperator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="31,80,199,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="SAMRAI::algs::MethodOfLinesPatchStrategy&lt; DIM &gt;" name="SAMRAI::algs::MethodOfLinesPatchStrategy&lt; DIM &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="524,39,739,80"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html" title="Class RefinePatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface fo..." alt="" coords="278,5,470,47"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,46,224,73"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html" title="Class CoarsenPatchStrategy&lt;DIM&gt; is an abstract base class that defines a Strategy pattern interface f..." alt="" coords="272,71,476,112"/>
+</map>

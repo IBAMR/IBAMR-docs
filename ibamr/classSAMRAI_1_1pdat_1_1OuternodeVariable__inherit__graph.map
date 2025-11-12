@@ -1,0 +1,6 @@
+<map id="SAMRAI::pdat::OuternodeVariable&lt; DIM, TYPE &gt;" name="SAMRAI::pdat::OuternodeVariable&lt; DIM, TYPE &gt;">
+<area shape="rect" id="node1" title="Class OuternodeVariable&lt;DIM&gt; is a templated variable class used to define node&#45;centered data quantiti..." alt="" coords="5,172,245,213"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1pdat_1_1OuternodeVariable.html" title=" " alt="" coords="5,276,245,317"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1hier_1_1Variable.html" title=" " alt="" coords="41,81,209,123"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="16,5,235,32"/>
+</map>

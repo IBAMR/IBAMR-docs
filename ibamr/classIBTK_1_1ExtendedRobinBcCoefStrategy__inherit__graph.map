@@ -1,0 +1,13 @@
+<map id="IBTK::ExtendedRobinBcCoefStrategy" name="IBTK::ExtendedRobinBcCoefStrategy">
+<area shape="rect" id="node1" title="Class ExtendedRobinBcCoefStrategy is a subclass of the abstract base class SAMRAI::solv::RobinBcCoefS..." alt="" coords="571,85,775,127"/>
+<area shape="rect" id="node4" href="$classIBAMR_1_1INSIntermediateVelocityBcCoef.html" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="824,27,1055,68"/>
+<area shape="rect" id="node5" href="$classIBAMR_1_1INSProjectionBcCoef.html" title="Class INSIntermediateVelocityBcCoef is a concrete SAMRAI::solv::RobinBcCoefStrategy that is used to s..." alt="" coords="836,93,1043,119"/>
+<area shape="rect" id="node6" href="$classIBAMR_1_1StokesBcCoefStrategy.html" title="Class StokesBcCoefStrategy is a subclass of the abstract base class IBTK::ExtendedRobinBcCoefStrategy..." alt="" coords="831,143,1048,170"/>
+<area shape="rect" id="node2" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title=" " alt="" coords="323,85,521,127"/>
+<area shape="rect" id="node3" href="$classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions." alt="" coords="5,85,204,127"/>
+<area shape="rect" id="node7" href="$classIBAMR_1_1INSCollocatedVelocityBcCoef.html" title="Class INSCollocatedVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocity..." alt="" coords="1113,5,1329,47"/>
+<area shape="rect" id="node8" href="$classIBAMR_1_1INSStaggeredPressureBcCoef.html" title="Class INSStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressure ..." alt="" coords="1113,71,1330,112"/>
+<area shape="rect" id="node9" href="$classIBAMR_1_1INSStaggeredVelocityBcCoef.html" title="Class INSStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocity ..." alt="" coords="1115,136,1328,177"/>
+<area shape="rect" id="node10" href="$classIBAMR_1_1INSVCStaggeredPressureBcCoef.html" title="Class INSVCStaggeredPressureBcCoef is a concrete StokesBcCoefStrategy that is used to specify pressur..." alt="" coords="1104,201,1339,243"/>
+<area shape="rect" id="node11" href="$classIBAMR_1_1INSVCStaggeredVelocityBcCoef.html" title="Class INSVCStaggeredVelocityBcCoef is a concrete StokesBcCoefStrategy that is used to specify velocit..." alt="" coords="1106,267,1337,308"/>
+</map>

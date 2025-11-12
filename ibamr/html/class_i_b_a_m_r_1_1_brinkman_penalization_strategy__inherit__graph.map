@@ -1,9 +1,0 @@
-<map id="IBAMR::BrinkmanPenalizationStrategy" name="IBAMR::BrinkmanPenalizationStrategy">
-<area shape="rect" id="Node000001" title="BrinkmanPenalizationStrategy is an abstract class that provides an interface to implement Brinkman pe..." alt="" coords="16,152,232,192"/>
-<area shape="rect" id="Node000004" href="$class_i_b_a_m_r_1_1_carman_kozeny_drag_force.html" title="CarmanKozenyDragForce provides an implementation of Carman&#45;Kozeny drag force to impose zero velocity ..." alt="" coords="5,240,243,265"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="127,206,127,240,121,240,121,206"/>
-<area shape="rect" id="Node000002" href="/home/runner/work/IBAMR/IBAMR/doc/samrai.tag$classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="27,79,221,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,118,127,152,121,152,121,118"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,233,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,44,127,79,121,79,121,44"/>
-</map>

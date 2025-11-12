@@ -1,0 +1,9 @@
+<map id="IBTK::LaplaceOperator" name="IBTK::LaplaceOperator">
+<area shape="rect" id="node1" title="Class LaplaceOperator is an abstract base class for a Laplace&#45;type operators." alt="" coords="119,229,285,256"/>
+<area shape="rect" id="node5" href="$classIBTK_1_1CCLaplaceOperator.html" title="Class CCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="5,304,191,331"/>
+<area shape="rect" id="node6" href="$classIBTK_1_1SCLaplaceOperator.html" title="Class SCLaplaceOperator is a concrete LaplaceOperator which implements a globally second&#45;order accura..." alt="" coords="215,304,399,331"/>
+<area shape="rect" id="node2" href="$classIBTK_1_1LinearOperator.html" title="Class LinearOperator provides an abstract interface for the specification of linear operators to comp..." alt="" coords="123,155,281,181"/>
+<area shape="rect" id="node3" href="$classIBTK_1_1GeneralOperator.html" title="Class GeneralOperator provides an abstract interface for the specification of general operators to co..." alt="" coords="118,80,286,107"/>
+<area shape="rect" id="node4" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="93,5,311,32"/>
+<area shape="rect" id="node7" href="$classIBTK_1_1VCSCViscousOperator.html" title="Class VCSCViscousOperator is a subclass of SCLaplaceOperator which implements a globally second&#45;order..." alt="" coords="206,379,409,405"/>
+</map>
