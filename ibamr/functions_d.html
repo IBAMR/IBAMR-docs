@@ -7729,6 +7729,9 @@ $(function() {
 <li>d_Q_cell_var
 : <a class="el" href="classIBAMR_1_1CellConvectiveOperator.html#ae01eadf6a18f71e985287b1151ede7c8">IBAMR::CellConvectiveOperator</a>
 </li>
+<li>d_Q_coarsen_map
+: <a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a108fa89e5e33037fae3158120b221041">IBAMR::AdvDiffHierarchyIntegrator</a>
+</li>
 <li>d_Q_coarsen_type
 : <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a49408b3d38263b6769ea652fc0c4d10d">IBAMR::INSHierarchyIntegrator</a>
 </li>
@@ -7886,6 +7889,9 @@ $(function() {
 </li>
 <li>d_Q_Q_rhs_map
 : <a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#ac58093ec56142770710997f4f513f4f7">IBAMR::AdvDiffHierarchyIntegrator</a>
+</li>
+<li>d_Q_refine_map
+: <a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#af0bfe4a224cd82d9baebfaa01f24b230">IBAMR::AdvDiffHierarchyIntegrator</a>
 </li>
 <li>d_Q_refine_type
 : <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a43f84f59028ebdfe93d534877888ef10">IBAMR::INSHierarchyIntegrator</a>
@@ -11242,7 +11248,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html#aa0e76a8ea52f32474102f2302cb573f9">SAMRAI::tbox::Database</a>
 </li>
 <li>DatabaseBox()
-: <a class="el" href="classSAMRAI_1_1tbox_1_1DatabaseBox.html#a02fc3740166520da77b45bfbaff630ea">SAMRAI::tbox::DatabaseBox</a>
+: <a class="el" href="classSAMRAI_1_1tbox_1_1DatabaseBox.html#ad4a92c438a425f1956d8803c3c638e38">SAMRAI::tbox::DatabaseBox</a>
 </li>
 <li>DatabaseBox_from_Box()
 : <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#abc07d6028f1c3845d022a24df6a59faa">SAMRAI::hier::Box&lt; DIM &gt;</a>
@@ -11293,7 +11299,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1tbox_1_1Array_1_1Allocator.html#a59a066fd5e63d3f28b4c0f460904f0ff">SAMRAI::tbox::Array&lt; TYPE &gt;::Allocator</a>
 </li>
 <li>deallocateAllPatchData()
-: <a class="el" href="classSAMRAI_1_1hier_1_1LocallyActiveDataPatchLevelManager.html#ac41c35a498736e6ed3b0e9c59c8651e9">SAMRAI::hier::LocallyActiveDataPatchLevelManager&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1LocallyActiveDataPatchLevelManager.html#a19ce663c0ba9a28340ec429a69e8921a">SAMRAI::hier::LocallyActiveDataPatchLevelManager&lt; DIM &gt;</a>
 </li>
 <li>deallocated
 : <a class="el" href="classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#ab827574c320e248293cf51e6de575b17aedcdf6a9b682d1b62127076ff73bebc3">SAMRAI::mesh::AsyncBergerRigoutsosNode&lt; DIM &gt;</a>
@@ -11360,9 +11366,9 @@ $(function() {
 : <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#ad475ff294a13fbdbed6940ea52c62555">IBTK::HierarchyIntegrator</a>
 , <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchLevel.html#ad44c3529cb94280aaabf4460a3810f1b">SAMRAI::hier::BasePatchLevel&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1hier_1_1LocallyActiveDataPatchLevelManager.html#ab8d9bf5781cba540db3bcbd8f421f983">SAMRAI::hier::LocallyActiveDataPatchLevelManager&lt; DIM &gt;</a>
-, <a class="el" href="classSAMRAI_1_1hier_1_1MultiblockPatchLevel.html#ae835791331528a9a05c9fdf96dcbc1b2">SAMRAI::hier::MultiblockPatchLevel&lt; DIM &gt;</a>
+, <a class="el" href="classSAMRAI_1_1hier_1_1MultiblockPatchLevel.html#ac035cde75b0541ebcfe265f65989aa71">SAMRAI::hier::MultiblockPatchLevel&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html#aa7b0e62116221d721529a4aa8e2889fc">SAMRAI::hier::Patch&lt; DIM &gt;</a>
-, <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html#abce19ff921205afd79325d2ea275576b">SAMRAI::hier::PatchLevel&lt; DIM &gt;</a>
+, <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html#a30a5de1ee29add5e84d3f9ce9dcd6d75">SAMRAI::hier::PatchLevel&lt; DIM &gt;</a>
 </li>
 <li>deallocateScratchData()
 : <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a5d21b2874a8126da02348bc74ab7c82f">IBTK::FACPreconditionerStrategy</a>
@@ -11602,7 +11608,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1pdat_1_1NodeGeometry.html#aa5df2b1e160ee1aa9987acd84918696a">SAMRAI::pdat::NodeGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeGeometry.html#abb0d359c4286e29eddf39f6d51e6e0bd">SAMRAI::pdat::OuteredgeGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceGeometry.html#a52c131cba525d675cb6f1ef4a67c2f25">SAMRAI::pdat::OuterfaceGeometry&lt; DIM &gt;</a>
-, <a class="el" href="classSAMRAI_1_1pdat_1_1OuternodeGeometry.html#ae258f7790af7b6cee222791a87e57244">SAMRAI::pdat::OuternodeGeometry&lt; DIM &gt;</a>
+, <a class="el" href="classSAMRAI_1_1pdat_1_1OuternodeGeometry.html#a014713890f829637712bfe030e54b7b3">SAMRAI::pdat::OuternodeGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OutersideGeometry.html#aa5533b96e7daa2cf3d826620e8ec8cb8">SAMRAI::pdat::OutersideGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1SideGeometry.html#a6b1b4f54dd0b5b3a329d83d37da32258">SAMRAI::pdat::SideGeometry&lt; DIM &gt;</a>
 </li>

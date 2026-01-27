@@ -227,6 +227,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c1a2cd18f478d8806d3213bf29d7997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9422caf7df668e95cec70b322f9a9058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a9422caf7df668e95cec70b322f9a9058">setHelmholtzRHSOperatorNeedsInit</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var)</td></tr>
 <tr class="separator:a9422caf7df668e95cec70b322f9a9058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09cfc449439679b0facf1d04f6ed0227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a09cfc449439679b0facf1d04f6ed0227">setRefineAndCoarsenOperators</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var, std::string Q_refine_type=&quot;CONSERVATIVE_LINEAR_REFINE&quot;, std::string Q_coarsen_type=&quot;CONSERVATIVE_COARSEN&quot;)</td></tr>
+<tr class="separator:a09cfc449439679b0facf1d04f6ed0227"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17bf124ac2695d007ff1732989f266ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a17bf124ac2695d007ff1732989f266ff">registerResetFunction</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var, <a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#ade4e3a68be5f5461c2d43453608ca7df">ResetPropertiesFcnPtr</a> callback, void *ctx)</td></tr>
 <tr class="memdesc:a17bf124ac2695d007ff1732989f266ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a reset callback function for a specified variable.  <a href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a17bf124ac2695d007ff1732989f266ff">More...</a><br /></td></tr>
 <tr class="separator:a17bf124ac2695d007ff1732989f266ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -499,6 +501,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aa702a52c885bc4161ac4e37dac60e338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cf02e923db4c100b20649777d5cb43b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classint.html">int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a7cf02e923db4c100b20649777d5cb43b">d_Q_reset_priority</a></td></tr>
 <tr class="separator:a7cf02e923db4c100b20649777d5cb43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0bfe4a224cd82d9baebfaa01f24b230"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#af0bfe4a224cd82d9baebfaa01f24b230">d_Q_refine_map</a></td></tr>
+<tr class="separator:af0bfe4a224cd82d9baebfaa01f24b230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a108fa89e5e33037fae3158120b221041"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a108fa89e5e33037fae3158120b221041">d_Q_coarsen_map</a></td></tr>
+<tr class="separator:a108fa89e5e33037fae3158120b221041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4ea3a5fa9947811511a3ff183c416d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1math_1_1HierarchyCellDataOpsReal.html">SAMRAI::math::HierarchyCellDataOpsReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a8f4ea3a5fa9947811511a3ff183c416d">d_hier_cc_data_ops</a></td></tr>
 <tr class="separator:a8f4ea3a5fa9947811511a3ff183c416d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e5c498b2d793276d3dee43a251b724c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1math_1_1HierarchySideDataOpsReal.html">SAMRAI::math::HierarchySideDataOpsReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffHierarchyIntegrator.html#a9e5c498b2d793276d3dee43a251b724c">d_hier_sc_data_ops</a></td></tr>
@@ -1789,7 +1795,9 @@ Private Attributes</h2></td></tr>
 <p>Register a face-centered advection velocity to be used to advect cell-centered quantities by the hierarchy integrator.</p>
 <p>Data management for the registered advection velocity will be handled by the hierarchy integrator.</p>
 <p>If a function is not provided, it is the responsibility of the user to ensure that the current and new contexts are set correctly.</p>
-<dl class="section note"><dt>Note</dt><dd>By default, each registered advection velocity is assumed to be divergence free. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>By default, each registered advection velocity is assumed to be divergence free.</dd>
+<dd>
+This function will abort if the integrator has already been initialized. </dd></dl>
 
 </div>
 </div>
@@ -1956,7 +1964,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Register a cell-centered source term. Can optionally turn off outputting the source.</p>
-<p>Data management for the registered source term will be handled by the hierarchy integrator. </p>
+<p>Data management for the registered source term will be handled by the hierarchy integrator.</p>
+<dl class="section note"><dt>Note</dt><dd>This function will abort if the integrator has already been initialized. </dd></dl>
 
 </div>
 </div>
@@ -2058,7 +2067,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Register a cell-centered quantity to be advected and diffused by the hierarchy integrator. Can optionally turn off outputting the quantity.</p>
-<p>Data management for the registered quantity will be handled by the hierarchy integrator. </p>
+<p>Data management for the registered quantity will be handled by the hierarchy integrator.</p>
+<dl class="section note"><dt>Note</dt><dd>This function will abort if the integrator has already been initialized. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html#a14b02c8b7d8b634f1eef3be9766f6d80">IBAMR::AdvDiffSemiImplicitHierarchyIntegrator</a>, and <a class="el" href="classIBAMR_1_1BrinkmanAdvDiffSemiImplicitHierarchyIntegrator.html#a00d0c7221d3cd2e16924ec9839d04582">IBAMR::BrinkmanAdvDiffSemiImplicitHierarchyIntegrator</a>.</p>
 
@@ -2409,7 +2419,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Register a variable scalar diffusion coefficient corresponding to a quantity that has been registered with the hierarchy integrator. </p>
+<p>Register a variable scalar diffusion coefficient corresponding to a quantity that has been registered with the hierarchy integrator.</p>
+<dl class="section note"><dt>Note</dt><dd>This function will abort if the integrator has already been initialized. </dd></dl>
 
 </div>
 </div>
@@ -3030,6 +3041,51 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Indicate that the operator to evaluate the right-hand side for the Helmholtz solver should be (re-)initialized before the next time step. </p>
+
+</div>
+</div>
+<a id="a09cfc449439679b0facf1d04f6ed0227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09cfc449439679b0facf1d04f6ed0227">&#9670;&nbsp;</a></span>setRefineAndCoarsenOperators()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::AdvDiffHierarchyIntegrator::setRefineAndCoarsenOperators </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>Q_var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Q_refine_type</em> = <code>&quot;CONSERVATIVE_LINEAR_REFINE&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Q_coarsen_type</em> = <code>&quot;CONSERVATIVE_COARSEN&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets the refine operator used during regridding to fill the new patch hierarchy and the coarsen operator used during grid synchronizations.</p>
+<p>These strings must correspond to a valid operator under the grid geometry when <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a6053826a3c10d854c541a18509af2620">initializePatchHierarchy()</a> is called.</p>
+<dl class="section note"><dt>Note</dt><dd>This function will emit a warning if the integrator has already been initialized. In this case, the new refine and coarsen operators will not be used. </dd></dl>
 
 </div>
 </div>
@@ -7229,6 +7285,51 @@ If it does not already exist, calling this function will also register a cell va
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="classint.html">int</a>&gt; IBAMR::AdvDiffHierarchyIntegrator::d_Q_reset_priority</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0bfe4a224cd82d9baebfaa01f24b230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0bfe4a224cd82d9baebfaa01f24b230">&#9670;&nbsp;</a></span>d_Q_refine_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt;NDIM, <a class="el" href="classdouble.html">double</a>&gt; &gt;, std::string&gt; IBAMR::AdvDiffHierarchyIntegrator::d_Q_refine_map</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Refine and coarsening types for Q. </p>
+
+</div>
+</div>
+<a id="a108fa89e5e33037fae3158120b221041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a108fa89e5e33037fae3158120b221041">&#9670;&nbsp;</a></span>d_Q_coarsen_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt;NDIM, <a class="el" href="classdouble.html">double</a>&gt; &gt;, std::string&gt; IBAMR::AdvDiffHierarchyIntegrator::d_Q_coarsen_map</td>
         </tr>
       </table>
   </td>
