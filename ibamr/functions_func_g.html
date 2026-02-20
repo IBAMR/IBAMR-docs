@@ -211,6 +211,9 @@ $(function() {
 <li>getAllPatchDataActive()
 : <a class="el" href="classSAMRAI_1_1hier_1_1LocallyActiveDataPatchLevelManager.html#a3c94802b38b81fd7ea1de3538918fa7e">SAMRAI::hier::LocallyActiveDataPatchLevelManager&lt; DIM &gt;</a>
 </li>
+<li>getAllRestartDirs()
+: <a class="el" href="classIBTK_1_1RestartCleaner.html#a4a75b0279c045185e35df90fd4b07ac1">IBTK::RestartCleaner</a>
+</li>
 <li>getAO()
 : <a class="el" href="classIBTK_1_1LDataManager.html#ae4f9734f12d8544a0a839d4d54ac9d3f">IBTK::LDataManager</a>
 </li>
@@ -255,6 +258,9 @@ $(function() {
 </li>
 <li>getAssignedCellIndex()
 : <a class="el" href="classIBTK_1_1IndexUtilities.html#ada6ae44d8ba11748e5f6c723aa579844">IBTK::IndexUtilities</a>
+</li>
+<li>getAvailableRestartRestoreNumbers()
+: <a class="el" href="classIBTK_1_1RestartCleaner.html#aab1cb11e97363b22dc39d96f303b6936">IBTK::RestartCleaner</a>
 </li>
 <li>getAvgConvergenceFactor()
 : <a class="el" href="classSAMRAI_1_1solv_1_1FACPreconditioner.html#affcba48c151ed9ec908c0c281881bc05">SAMRAI::solv::FACPreconditioner&lt; DIM &gt;</a>
@@ -2142,7 +2148,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html#a215b5c8423407c95bf203db3c7b1b7d2">SAMRAI::solv::SAMRAIVectorReal&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html#af00b8ec79d9e1ba2cb676fc775a48e49">SAMRAI::tbox::Database</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1HDFDatabase.html#a4658d93d7b8c15beebfb713c7c42f0ef">SAMRAI::tbox::HDFDatabase</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1MemoryDatabase.html#a00063127c001ae432a533fb56845a2f9">SAMRAI::tbox::MemoryDatabase</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1MemoryDatabase.html#a5af795adca60cef7a35d2a601bdcf4a9">SAMRAI::tbox::MemoryDatabase</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1NullDatabase.html#aac5e5efb933652a8f020ef3582cea4a9">SAMRAI::tbox::NullDatabase</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Statistic.html#a6c52d1043831ed8bdf8fcc6355a250d3">SAMRAI::tbox::Statistic</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Timer.html#ae9b55b82068f32c5ea313739fc816d9e">SAMRAI::tbox::Timer</a>
@@ -2199,7 +2205,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1algs_1_1ImplicitIntegrator.html#a81ce2e81148a11a391ab9e6ba01f8c07">SAMRAI::algs::ImplicitIntegrator&lt; DIM &gt;</a>
 </li>
 <li>getNextNodeIndices()
-: <a class="el" href="classIBAMR_1_1IBRodForceSpec.html#aa6122fc576c57e9fce05876a2dc0a3e5">IBAMR::IBRodForceSpec</a>
+: <a class="el" href="classIBAMR_1_1IBRodForceSpec.html#a076de7f505a5d41eaf57c22cb1233bfe">IBAMR::IBRodForceSpec</a>
 </li>
 <li>getNode()
 : <a class="el" href="classSAMRAI_1_1pdat_1_1IndexIterator.html#a548a35efcd31f3922f8f6d674b53131c">SAMRAI::pdat::IndexIterator&lt; DIM, TYPE, BOX_GEOMETRY &gt;</a>
@@ -2422,7 +2428,7 @@ $(function() {
 </li>
 <li>getNumSources()
 : <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a08fedc07596a4d61263dc435f4b5c7ed">IBAMR::IBLagrangianSourceStrategy</a>
-, <a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#aaa3876c28d6d17e50e3c4cc64bb125b0">IBAMR::IBStandardSourceGen</a>
+, <a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a2490979223133dcb764c1100f678735c">IBAMR::IBStandardSourceGen</a>
 </li>
 <li>getNumUniquePatchDataSlots()
 : <a class="el" href="classSAMRAI_1_1algs_1_1LocallyActiveDataPatchBoundaryEdgeSum.html#a19e8f16f8e50489425c224bafd59b853">SAMRAI::algs::LocallyActiveDataPatchBoundaryEdgeSum&lt; DIM &gt;</a>
@@ -2613,13 +2619,13 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1hier_1_1LayerNodeSet.html#a160ebe12720460eb1cd340b5c8ef8a43">SAMRAI::hier::LayerNodeSet&lt; DIM &gt;</a>
 </li>
 <li>getParameters()
-: <a class="el" href="classIBAMR_1_1IBSpringForceSpec.html#a4d2c4ecb6400b09e70bdc2a39ec838e2">IBAMR::IBSpringForceSpec</a>
+: <a class="el" href="classIBAMR_1_1IBSpringForceSpec.html#a340694a2b99d7987f50a911f9b0ee83f">IBAMR::IBSpringForceSpec</a>
 </li>
 <li>getParser()
 : <a class="el" href="classSAMRAI_1_1tbox_1_1Parser.html#ac0d0ae0dcbc587e520944cfd9ec7a454">SAMRAI::tbox::Parser</a>
 </li>
 <li>getPartner()
-: <a class="el" href="classSAMRAI_1_1hier_1_1LayerEdgeSet.html#a1bac83443f14d8b67ccd0ba9e2a21ad9">SAMRAI::hier::LayerEdgeSet&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1LayerEdgeSet.html#ab97fe570fd415cab278885d87879458c">SAMRAI::hier::LayerEdgeSet&lt; DIM &gt;</a>
 </li>
 <li>getPatch()
 : <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html#a871633decc3012aa400d435ff054cbcf">SAMRAI::hier::PatchLevel&lt; DIM &gt;</a>
@@ -2628,13 +2634,13 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1hier_1_1PatchGeometry.html#aa5e56a34e13e4b027820b39baad79214">SAMRAI::hier::PatchGeometry&lt; DIM &gt;</a>
 </li>
 <li>getPatchData()
-: <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html#aafcf9f2e4fcf890fe59a01f94ed88762">SAMRAI::hier::Patch&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html#af97ba2a9a243dbda58a9464f71520520">SAMRAI::hier::Patch&lt; DIM &gt;</a>
 </li>
 <li>getPatchDataActive()
 : <a class="el" href="classSAMRAI_1_1hier_1_1LocallyActiveDataPatchLevelManager.html#a08b6628f921621a81a8b79d00e932b10">SAMRAI::hier::LocallyActiveDataPatchLevelManager&lt; DIM &gt;</a>
 </li>
 <li>getPatchDataFactory()
-: <a class="el" href="classSAMRAI_1_1hier_1_1PatchDescriptor.html#aacd7add33f5b06e4c1a831c12c06af37">SAMRAI::hier::PatchDescriptor&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1PatchDescriptor.html#aa1429f6e330bf1dcb095252ebb9be8ec">SAMRAI::hier::PatchDescriptor&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html#a51a18e3f9c77c9b772d2b9242b734b38">SAMRAI::hier::Variable&lt; DIM &gt;</a>
 </li>
 <li>getPatchDataIndex()
@@ -2808,8 +2814,8 @@ $(function() {
 : <a class="el" href="classIBAMR_1_1IBFEInstrumentPanel.html#a488fdfb4f8a5936f5df619c1abf43fb7">IBAMR::IBFEInstrumentPanel</a>
 </li>
 <li>getPointer()
-: <a class="el" href="classSAMRAI_1_1pdat_1_1ArrayData.html#a43a0a0c9a573348c4e84ce871fb9900b">SAMRAI::pdat::ArrayData&lt; DIM, TYPE &gt;</a>
-, <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html#ae4a03d11f57136206b32ff6d6d2437e8">SAMRAI::pdat::CellData&lt; DIM, TYPE &gt;</a>
+: <a class="el" href="classSAMRAI_1_1pdat_1_1ArrayData.html#a4293e16029a321ac1e905f3b4bc216a2">SAMRAI::pdat::ArrayData&lt; DIM, TYPE &gt;</a>
+, <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html#a84f4ba64af065e0d52572be2b03eb2ad">SAMRAI::pdat::CellData&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1EdgeData.html#a115eb0bf516d908a7224c4b2ee3b30d9">SAMRAI::pdat::EdgeData&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html#a2ce3bbd98a1cbd59e0fdaf29f2f8421f">SAMRAI::pdat::FaceData&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1NodeData.html#ab081f6cfca24e17c7b2ea5df31fe091e">SAMRAI::pdat::NodeData&lt; DIM, TYPE &gt;</a>
@@ -2818,7 +2824,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OuternodeData.html#a5908c2b1e3a28d587bdcd21ea044e204">SAMRAI::pdat::OuternodeData&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OutersideData.html#aa39b88ec747f61f7a0e7a2abf0ebad09">SAMRAI::pdat::OutersideData&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html#ab8e287d07b3eafbf0e9f5bc9aef8d82a">SAMRAI::pdat::SideData&lt; DIM, TYPE &gt;</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html#a1071b37ae3766363714139cdc4cf04a7">SAMRAI::tbox::Array&lt; TYPE &gt;</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html#a982e7e99af996b09b265f0e42f7b7dbe">SAMRAI::tbox::Array&lt; TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html#a82fbfba069d66b192f4467a88abfeda6">SAMRAI::tbox::ConstPointer&lt; TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html#a2034c982ce848b98c82dbd15a268c152">SAMRAI::tbox::Pointer&lt; TYPE &gt;</a>
 </li>
@@ -2827,7 +2833,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1tbox_1_1MessageStream.html#a56583ad4bb6bcd19828abcb5b05e763b">SAMRAI::tbox::MessageStream</a>
 </li>
 <li>getPointIndex()
-: <a class="el" href="classIBAMR_1_1MaterialPointSpec.html#a29c529519fe3ee2965e7dd6e93ac17e6">IBAMR::MaterialPointSpec</a>
+: <a class="el" href="classIBAMR_1_1MaterialPointSpec.html#a41f28ff5dd5aa0c1127e7cbe105441d8">IBAMR::MaterialPointSpec</a>
 </li>
 <li>getPointwisePressureValues()
 : <a class="el" href="classIBAMR_1_1IBInstrumentPanel.html#a9585ff3b372ffa63a3b6cc90029679f7">IBAMR::IBInstrumentPanel</a>
@@ -3069,7 +3075,7 @@ $(function() {
 : <a class="el" href="structIBTK_1_1IBTK__MPI.html#a3320cb3522e18643d0f84a74a116d794">IBTK::IBTK_MPI</a>
 </li>
 <li>getScalar()
-: <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html#a4ecb2346c8ed3265a8e6b2d5b4ccbb46">SAMRAI::tbox::Database</a>
+: <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html#aa0e0ba0f57c672390151058d2bff4612">SAMRAI::tbox::Database</a>
 </li>
 <li>getScalingFactor()
 : <a class="el" href="classIBAMR_1_1INSVCStaggeredHierarchyIntegrator.html#a0fcd75620a100d55cbf28240845f144c">IBAMR::INSVCStaggeredHierarchyIntegrator</a>
@@ -3112,7 +3118,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html#a4fdb6bdf6c0b710aace4ab5f71dd2512">SAMRAI::hier::PatchLevel&lt; DIM &gt;</a>
 </li>
 <li>getSideCenter()
-: <a class="el" href="classIBTK_1_1IndexUtilities.html#a3abd0335d073de3fb06fb31a504d8a0e">IBTK::IndexUtilities</a>
+: <a class="el" href="classIBTK_1_1IndexUtilities.html#ac2d35a163045289dc1ada63fad0de9ec">IBTK::IndexUtilities</a>
 </li>
 <li>getSideWeightPatchDescriptorIndex()
 : <a class="el" href="classIBTK_1_1HierarchyMathOps.html#acc58b568d86834fb0336757654e3208f">IBTK::HierarchyMathOps</a>
@@ -3209,7 +3215,7 @@ $(function() {
 : <a class="el" href="classIBTK_1_1LTransaction.html#a6c779964dd724a1fb426f633d56ba97b">IBTK::LTransaction&lt; T &gt;</a>
 </li>
 <li>getSourceIndex()
-: <a class="el" href="classIBAMR_1_1IBSourceSpec.html#affd04b6d8264145154aa4d016a656104">IBAMR::IBSourceSpec</a>
+: <a class="el" href="classIBAMR_1_1IBSourceSpec.html#afa72beb299c53a1548937e0f9d63d916">IBAMR::IBSourceSpec</a>
 </li>
 <li>getSourceLocations()
 : <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a2f0bbeeff91ed5e18ae8dbeabb51dde6">IBAMR::IBLagrangianSourceStrategy</a>
@@ -3244,7 +3250,7 @@ $(function() {
 : <a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a03ee9e017deef92e1331570d41ed9b0b">IBAMR::IBStandardSourceGen</a>
 </li>
 <li>getSourceStrengths()
-: <a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a3f77431ba311766cc46b842976a702ba">IBAMR::IBStandardSourceGen</a>
+: <a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a85a37ef6109cbba463e7505fa027439b">IBAMR::IBStandardSourceGen</a>
 </li>
 <li>getSourceSystemName()
 : <a class="el" href="classIBAMR_1_1IBFEMethod.html#a4809678660681d026b8c13e5c6968397">IBAMR::IBFEMethod</a>
@@ -3429,7 +3435,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1tbox_1_1MemoryDatabase.html#af49e8874bac74adb816b9c9df51dde8f">SAMRAI::tbox::MemoryDatabase</a>
 </li>
 <li>getStringArray()
-: <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html#ac7da21a9b1ea74a20363608bd958f1eb">SAMRAI::tbox::Database</a>
+: <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html#a2b96a5607e3b7e40764d730bd42b66f5">SAMRAI::tbox::Database</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1HDFDatabase.html#a02e9be5bc69c974be2b1d26471d06798">SAMRAI::tbox::HDFDatabase</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1MemoryDatabase.html#a80b9b5c0531184413d2b0bb9331a2d9e">SAMRAI::tbox::MemoryDatabase</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1NullDatabase.html#a7feaa6a82b721f9ea03dc24303745ba2">SAMRAI::tbox::NullDatabase</a>
@@ -3573,7 +3579,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1tbox_1_1Timer.html#ac4662f7df42cbdcc26dd3a5f549ab443">SAMRAI::tbox::Timer</a>
 </li>
 <li>getTouchesPeriodicBoundary()
-: <a class="el" href="classSAMRAI_1_1hier_1_1PatchGeometry.html#af77e6b8a6f7f4376c9e0e2dff2a64586">SAMRAI::hier::PatchGeometry&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1PatchGeometry.html#a3ce9a1ecb3f58416f4aa288a08bd3109">SAMRAI::hier::PatchGeometry&lt; DIM &gt;</a>
 </li>
 <li>getTouchesRegularBoundary()
 : <a class="el" href="classSAMRAI_1_1hier_1_1PatchGeometry.html#ae1cd67626ca0d1f9d7550ccfd236dd1f">SAMRAI::hier::PatchGeometry&lt; DIM &gt;</a>
@@ -3650,7 +3656,7 @@ $(function() {
 : <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ab558ebf318c22107509577a61334e354">IBAMR::INSHierarchyIntegrator</a>
 </li>
 <li>getVelocityData()
-: <a class="el" href="classIBAMR_1_1IBMethod.html#a6f20794e7326fbc271f21eb66b42901c">IBAMR::IBMethod</a>
+: <a class="el" href="classIBAMR_1_1IBMethod.html#a35ad74f359990098f827396f7509b381">IBAMR::IBMethod</a>
 , <a class="el" href="classIBAMR_1_1IMPMethod.html#aacaa8fa99c89ad677dfbd6ce11d63ade">IBAMR::IMPMethod</a>
 </li>
 <li>getVelocityDivergenceVariable()
@@ -3770,8 +3776,8 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1solv_1_1GhostCellRobinBcCoefs.html#a9f4b6873c2b6aa4c8b27e52cabf5eda7">SAMRAI::solv::GhostCellRobinBcCoefs&lt; DIM &gt;</a>
 </li>
 <li>grad()
-: <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a17c85aa96c10043ca26c0f69047257f9">IBTK::HierarchyMathOps</a>
-, <a class="el" href="classIBTK_1_1PatchMathOps.html#a49701399971a2a3753cdb00451b0ae5b">IBTK::PatchMathOps</a>
+: <a class="el" href="classIBTK_1_1HierarchyMathOps.html#adedf769e9427bad6d57d98a7f408e900">IBTK::HierarchyMathOps</a>
+, <a class="el" href="classIBTK_1_1PatchMathOps.html#ad47fe47b26b314fcea44847a718fa5a6">IBTK::PatchMathOps</a>
 </li>
 <li>GriddingAlgorithm()
 : <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html#aea3c8e30e85269513a5a59b668b7e70e">SAMRAI::mesh::GriddingAlgorithm&lt; DIM &gt;</a>
@@ -3780,7 +3786,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1hier_1_1GridGeometry.html#ab49c5b88f6f585b1e575c9c5b3185d6e">SAMRAI::hier::GridGeometry&lt; DIM &gt;</a>
 </li>
 <li>grow()
-: <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#aec1cbe66a952112ab2a9141c6eae1a2f">SAMRAI::hier::Box&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#a333f32436a851454b9a2de0b3f4b8d3e">SAMRAI::hier::Box&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1hier_1_1BoxArray.html#ac8ec652b99b4703775715e016b293d0a">SAMRAI::hier::BoxArray&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html#a236c9d9b17ed579973b3f47f85d31362">SAMRAI::hier::BoxList&lt; DIM &gt;</a>
 </li>
@@ -3788,10 +3794,10 @@ $(function() {
 : <a class="el" href="structSAMRAI_1_1hier_1_1BoxUtilities.html#ab8c504d31117f2d5a6feb1fbaabf417a">SAMRAI::hier::BoxUtilities&lt; DIM &gt;</a>
 </li>
 <li>growLower()
-: <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#a02eccc1920b481e009c5b56819078549">SAMRAI::hier::Box&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#a7ee7acb8f5e7a76b0cb5e17bec225f3d">SAMRAI::hier::Box&lt; DIM &gt;</a>
 </li>
 <li>growUpper()
-: <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#a30bb1e4e3f62ba25419b48ac80e14dec">SAMRAI::hier::Box&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1hier_1_1Box.html#aaeb6d52ff12b9d0e04bb7d2621caf4df">SAMRAI::hier::Box&lt; DIM &gt;</a>
 </li>
 <li>guess()
 : <a class="el" href="classIBTK_1_1FischerGuess.html#ad0231a70fc1bc9ec9c7fb41672e5a58e">IBTK::FischerGuess</a>

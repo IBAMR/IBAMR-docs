@@ -623,6 +623,7 @@ $(function() {
 , <a class="el" href="classIBTK_1_1PoissonSolver.html#ade505d29a15405a1b05d766588996b1a">IBTK::PoissonSolver</a>
 , <a class="el" href="classIBTK_1_1PoissonUtilities.html#aaea61fd51d8d553957bf0e76996f973f">IBTK::PoissonUtilities</a>
 , <a class="el" href="classIBTK_1_1RefinePatchStrategySet.html#a22bc439e0429a455f92821c66ca9566c">IBTK::RefinePatchStrategySet</a>
+, <a class="el" href="classIBTK_1_1RestartCleaner.html#a3e796b3fab73ec2f0b248395996f22e9">IBTK::RestartCleaner</a>
 , <a class="el" href="classIBTK_1_1RobinPhysBdryPatchStrategy.html#a45b8aab65d156c4af3f16842557afba3">IBTK::RobinPhysBdryPatchStrategy</a>
 , <a class="el" href="structIBTK_1_1SAMRAIDataCache_1_1CachedPatchDataIndex_1_1PatchDataIndexHandle.html#a7d335ede5e4d4709178c1fbe733f0d88">IBTK::SAMRAIDataCache::CachedPatchDataIndex::PatchDataIndexHandle</a>
 , <a class="el" href="classIBTK_1_1SAMRAIDataCache.html#af94bba9145aa2104ca9777ce0188a475">IBTK::SAMRAIDataCache</a>
@@ -810,7 +811,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html#afcc345a831c789e3a859c7c4571f2335">SAMRAI::solv::SAMRAIVectorReal&lt; DIM, TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Arena.html#a7709a77635ca616d9c2e4fbfd655d33a">SAMRAI::tbox::Arena</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Array_1_1Allocator.html#aeeb5197f66e614ebc77b610fe44e74b0">SAMRAI::tbox::Array&lt; TYPE &gt;::Allocator</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html#a01098fcd5141407de760814b372f0050">SAMRAI::tbox::Array&lt; TYPE &gt;</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html#a71f516d957f6909732153f1ce5e4ead8">SAMRAI::tbox::Array&lt; TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1AsyncCommGroup.html#aa37a7d88348be9b7583792d8f723ec33">SAMRAI::tbox::AsyncCommGroup</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html#a95d16529ac641349fc9653ab97efde41">SAMRAI::tbox::ConstPointer&lt; TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1DatabaseBox.html#a15fd4a7f9887a5aa8c03cb63cfea5e13">SAMRAI::tbox::DatabaseBox</a>
@@ -821,7 +822,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1tbox_1_1List.html#a243e19d5dd155324478e9b06b120903a">SAMRAI::tbox::List&lt; TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1ListIterator.html#a24b21c28b222084b1e9c4dd19c42836d">SAMRAI::tbox::ListIterator&lt; TYPE &gt;</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1MemoryDatabase.html#ad11a8dcb3cae6725ed14a1d585017826">SAMRAI::tbox::MemoryDatabase</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1MessageStream.html#a9af1117b739de99bff0cc208868d45d1">SAMRAI::tbox::MessageStream</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1MessageStream.html#ac84f2a9b870c340a5f04a923a84846a5">SAMRAI::tbox::MessageStream</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1NullDatabase.html#a750bcce37fc0bdb62903f7ea0f1777cb">SAMRAI::tbox::NullDatabase</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Parser.html#a6742cde81c9e178755c4410b4111c986">SAMRAI::tbox::Parser</a>
 , <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html#a0539c6e4c012b838fa408e247f1b7605">SAMRAI::tbox::Pointer&lt; TYPE &gt;</a>
@@ -907,13 +908,13 @@ $(function() {
 </li>
 <li>operator&gt;&gt;()
 : <a class="el" href="classIBTK_1_1FixedSizedStream.html#a1b4842dbe48db0b33eae2067ccacad72">IBTK::FixedSizedStream</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1AbstractStream.html#a942e23bc700daaf4b345635461f4f331">SAMRAI::tbox::AbstractStream</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1MessageStream.html#a67bc885eacfe7ef7bc7c0f69d04eb2cd">SAMRAI::tbox::MessageStream</a>
-, <a class="el" href="classSAMRAI_1_1tbox_1_1XDRStream.html#aa30c3650c8f3e3c389115af5ba12083a">SAMRAI::tbox::XDRStream</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1AbstractStream.html#a0c5c96e15c122525b31525c0f77eedeb">SAMRAI::tbox::AbstractStream</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1MessageStream.html#a051f471d2e4bdaef917bff6cbad09ffb">SAMRAI::tbox::MessageStream</a>
+, <a class="el" href="classSAMRAI_1_1tbox_1_1XDRStream.html#a682d2b5020c5272f947b99b98e32183e">SAMRAI::tbox::XDRStream</a>
 </li>
 <li>operator[]()
 : <a class="el" href="classIBTK_1_1FEMappingCache.html#afb5f4850277b0ccea87ae1898f8fd942">IBTK::FEMappingCache&lt; dim, spacedim &gt;</a>
-, <a class="el" href="classIBTK_1_1LSet.html#a4e7b34704393cebb055b384860866c2d">IBTK::LSet&lt; T &gt;</a>
+, <a class="el" href="classIBTK_1_1LSet.html#af8ae24a4fe17d5c52600ad586867ca2c">IBTK::LSet&lt; T &gt;</a>
 , <a class="el" href="classIBTK_1_1MarkerPatch.html#a55f367b3377f0f98eab5be165df375cc">IBTK::MarkerPatch</a>
 , <a class="el" href="classIBTK_1_1QuadratureCache.html#a307a28feeece31ce38a9348a700527aa">IBTK::QuadratureCache</a>
 , <a class="el" href="classIBTK_1_1SubdomainToPatchLevelTranslation.html#a1d1f6f088ce95acd77754071186d0d09">IBTK::SubdomainToPatchLevelTranslation</a>
@@ -928,7 +929,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1hier_1_1ComponentSelector.html#ae3e2479fb745df6ed03511ad2f515fa7">SAMRAI::hier::ComponentSelector</a>
 </li>
 <li>OuteredgeData()
-: <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeData.html#a27ccb83e2f8e2f49f254303490c7c35e">SAMRAI::pdat::OuteredgeData&lt; DIM, TYPE &gt;</a>
+: <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeData.html#aaaf2b2a2e7e9219d852e6d706750db78">SAMRAI::pdat::OuteredgeData&lt; DIM, TYPE &gt;</a>
 </li>
 <li>OuteredgeDataFactory()
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeDataFactory.html#aee6482fba0a1c94f83ba8b5661511505">SAMRAI::pdat::OuteredgeDataFactory&lt; DIM, TYPE &gt;</a>
@@ -937,10 +938,10 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeGeometry.html#a229222f02df739344176bc6488e6a266">SAMRAI::pdat::OuteredgeGeometry&lt; DIM &gt;</a>
 </li>
 <li>OuteredgeSumTransaction()
-: <a class="el" href="classSAMRAI_1_1algs_1_1OuteredgeSumTransaction.html#aa66f36e19a2ca92e4575b85a965ff2eb">SAMRAI::algs::OuteredgeSumTransaction&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1algs_1_1OuteredgeSumTransaction.html#a440306f834d6f6567fe88dccaf9d75ef">SAMRAI::algs::OuteredgeSumTransaction&lt; DIM &gt;</a>
 </li>
 <li>OuteredgeSumTransactionFactory()
-: <a class="el" href="classSAMRAI_1_1algs_1_1OuteredgeSumTransactionFactory.html#a0569ad21bacf69c4ebcab969fdb2b29e">SAMRAI::algs::OuteredgeSumTransactionFactory&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1algs_1_1OuteredgeSumTransactionFactory.html#a76e61f6974428ea856d31f7fecf69a0b">SAMRAI::algs::OuteredgeSumTransactionFactory&lt; DIM &gt;</a>
 </li>
 <li>OuteredgeVariable()
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeVariable.html#a80b07ff7607d2f8808b1a90208edad7f">SAMRAI::pdat::OuteredgeVariable&lt; DIM, TYPE &gt;</a>
@@ -952,7 +953,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceComplexLinearTimeInterpolateOp.html#a0c47a1ab7ac0cc2db641e642014aeb66">SAMRAI::pdat::OuterfaceComplexLinearTimeInterpolateOp&lt; DIM &gt;</a>
 </li>
 <li>OuterfaceData()
-: <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceData.html#a45fa18fba8fe36535fc9c4d8b9e832f4">SAMRAI::pdat::OuterfaceData&lt; DIM, TYPE &gt;</a>
+: <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceData.html#ab3ab377b2b4650b63e4a8a03168016b5">SAMRAI::pdat::OuterfaceData&lt; DIM, TYPE &gt;</a>
 </li>
 <li>OuterfaceDataFactory()
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceDataFactory.html#a0e0b4a11f55a517e9b4ef7f43d535e6b">SAMRAI::pdat::OuterfaceDataFactory&lt; DIM, TYPE &gt;</a>
@@ -970,13 +971,13 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceFloatLinearTimeInterpolateOp.html#a4860fa14bade53f412daab3513c26732">SAMRAI::pdat::OuterfaceFloatLinearTimeInterpolateOp&lt; DIM &gt;</a>
 </li>
 <li>OuterfaceGeometry()
-: <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceGeometry.html#a5212a11f8d8fef2af83317b8c076c69d">SAMRAI::pdat::OuterfaceGeometry&lt; DIM &gt;</a>
+: <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceGeometry.html#ac89b4fbfdfba9a4161c7a5ff7a3ab2d7">SAMRAI::pdat::OuterfaceGeometry&lt; DIM &gt;</a>
 </li>
 <li>OuterfaceIntegerConstantRefine()
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceIntegerConstantRefine.html#a70122504c95f49924b43a3949492ada8">SAMRAI::pdat::OuterfaceIntegerConstantRefine&lt; DIM &gt;</a>
 </li>
 <li>OuterfaceVariable()
-: <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceVariable.html#a8dba4a084a34cc3243f07f3c90c9dc8c">SAMRAI::pdat::OuterfaceVariable&lt; DIM, TYPE &gt;</a>
+: <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceVariable.html#aa16e9bc0bf936faffc166fedff3a8605">SAMRAI::pdat::OuterfaceVariable&lt; DIM, TYPE &gt;</a>
 </li>
 <li>OuternodeData()
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OuternodeData.html#a578f5981efba1285524916770507b270">SAMRAI::pdat::OuternodeData&lt; DIM, TYPE &gt;</a>
@@ -1018,7 +1019,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1pdat_1_1OutersideGeometry.html#a55a42e3144832f49056a10200e668f39">SAMRAI::pdat::OutersideGeometry&lt; DIM &gt;</a>
 </li>
 <li>OutersideVariable()
-: <a class="el" href="classSAMRAI_1_1pdat_1_1OutersideVariable.html#af2e5b49bd4402a7957dbda0bde3a1ec9">SAMRAI::pdat::OutersideVariable&lt; DIM, TYPE &gt;</a>
+: <a class="el" href="classSAMRAI_1_1pdat_1_1OutersideVariable.html#aadbb355d5c063de4620f211c3c107c08">SAMRAI::pdat::OutersideVariable&lt; DIM, TYPE &gt;</a>
 </li>
 <li>outputBuffer()
 : <a class="el" href="classSAMRAI_1_1tbox_1_1ParallelBuffer.html#a4551a5e443d90a92c453033c06b2fed0">SAMRAI::tbox::ParallelBuffer</a>

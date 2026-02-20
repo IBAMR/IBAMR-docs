@@ -2020,6 +2020,9 @@ $(function() {
 <li>d_drag_force_stream
 : <a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#ada59182d51fb6ba9c5580eb9e36234cc">IBAMR::ConstraintIBMethod</a>
 </li>
+<li>d_dry_run
+: <a class="el" href="classIBTK_1_1RestartCleaner.html#a691704b21962571edb1bfdac2ba81ed8">IBTK::RestartCleaner</a>
+</li>
 <li>d_dst
 : <a class="el" href="structSAMRAI_1_1xfer_1_1CoarsenClasses_1_1Data.html#af1b45e9b4c4700fd150ba77d0eddbf50">SAMRAI::xfer::CoarsenClasses&lt; DIM &gt;::Data</a>
 , <a class="el" href="structSAMRAI_1_1xfer_1_1RefineClasses_1_1Data.html#af754b856be1e98b48c4269e4ad048bb6">SAMRAI::xfer::RefineClasses&lt; DIM &gt;::Data</a>
@@ -2253,6 +2256,7 @@ $(function() {
 , <a class="el" href="classIBTK_1_1GeneralSolver.html#a4bb564df1809422f4e9e0a9af80f0ac4">IBTK::GeneralSolver</a>
 , <a class="el" href="classIBTK_1_1HierarchyAveragedDataManager.html#ad8f5e2d584dcdfbc9faedb4813e28f48">IBTK::HierarchyAveragedDataManager</a>
 , <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a4b9670a956fd7eeeb215a74e8672568c">IBTK::HierarchyIntegrator</a>
+, <a class="el" href="classIBTK_1_1RestartCleaner.html#a2fd5f305c7b770fc9dda2959c4d6cabe">IBTK::RestartCleaner</a>
 , <a class="el" href="classSAMRAI_1_1solv_1_1CellPoissonFACOps.html#a1ff9b91c0fdfd250a64e1e23299a98ca">SAMRAI::solv::CellPoissonFACOps&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1solv_1_1CellPoissonFACSolver.html#ae07325db0cd9252fe1cdc4be6f78b795">SAMRAI::solv::CellPoissonFACSolver&lt; DIM &gt;</a>
 </li>
@@ -4236,6 +4240,9 @@ $(function() {
 </li>
 <li>d_kappa_target
 : <a class="el" href="classIBAMR_1_1IBTargetPointForceSpec.html#a4fb88e17d1f0809ad610e1ecc5119126">IBAMR::IBTargetPointForceSpec</a>
+</li>
+<li>d_keep_restart_count
+: <a class="el" href="classIBTK_1_1RestartCleaner.html#a8dcba0c367316f85c28c4d7713e098ae">IBTK::RestartCleaner</a>
 </li>
 <li>d_kernel_fcn
 : <a class="el" href="classIBAMR_1_1SurfaceTensionForceFunction.html#af87bbbff284840e6156661d5c347eb24">IBAMR::SurfaceTensionForceFunction</a>
@@ -6241,6 +6248,7 @@ $(function() {
 , <a class="el" href="classIBTK_1_1LDataManager.html#ab653140910b0cebb049038ffd7b8db35">IBTK::LDataManager</a>
 , <a class="el" href="classIBTK_1_1LSiloDataWriter.html#a74960eb8fbbadf4ce72a6a403d5f872f">IBTK::LSiloDataWriter</a>
 , <a class="el" href="classIBTK_1_1MarkerPatchHierarchy.html#a6fc6cfb7e7fcaff4006012cb4a029509">IBTK::MarkerPatchHierarchy</a>
+, <a class="el" href="classIBTK_1_1RestartCleaner.html#a596fb0461b984d988cabfa833f80939c">IBTK::RestartCleaner</a>
 , <a class="el" href="classIBTK_1_1SecondaryHierarchy.html#adca9569c58d94f5a9fd854488c4ca4eb">IBTK::SecondaryHierarchy</a>
 , <a class="el" href="classIBTK_1_1SnapshotCache.html#a6859ece0d732cead5a600b1fb2692268">IBTK::SnapshotCache</a>
 , <a class="el" href="classSAMRAI_1_1algs_1_1HyperbolicLevelIntegrator.html#a7982a6011faa49204f968694bc1a4a6c">SAMRAI::algs::HyperbolicLevelIntegrator&lt; DIM &gt;</a>
@@ -8351,6 +8359,9 @@ $(function() {
 <li>d_residual_vector
 : <a class="el" href="classSAMRAI_1_1solv_1_1FACPreconditioner.html#a54a739d7bd7949a7264ac03e6840b720">SAMRAI::solv::FACPreconditioner&lt; DIM &gt;</a>
 </li>
+<li>d_restart_base_path
+: <a class="el" href="classIBTK_1_1RestartCleaner.html#acf90f40d2d94e75b59d82731b0dcbb98">IBTK::RestartCleaner</a>
+</li>
 <li>d_restart_database_instance
 : <a class="el" href="classSAMRAI_1_1tbox_1_1Statistician.html#a0713da659d7945c0e98c2bd8254cd5c7">SAMRAI::tbox::Statistician</a>
 </li>
@@ -9271,6 +9282,9 @@ $(function() {
 </li>
 <li>d_stop
 : <a class="el" href="classMDA__IndexRange.html#a8047894adf97e4d7ff6c59c948132597">MDA_IndexRange&lt; MDA_DIM &gt;</a>
+</li>
+<li>d_strategy
+: <a class="el" href="classIBTK_1_1RestartCleaner.html#a0d9b688dc1a15a12920c5d780f8381d3">IBTK::RestartCleaner</a>
 </li>
 <li>d_strategy_set
 : <a class="el" href="classIBAMR_1_1IBLagrangianForceStrategySet.html#a83187451f8291b10638402d48acdaa84">IBAMR::IBLagrangianForceStrategySet</a>
