@@ -242,9 +242,9 @@ Krylov solver functionality.</h2></td></tr>
 <tr class="memitem:ac535178f6d7d2ae5c92ab3d93c2f9101"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ac535178f6d7d2ae5c92ab3d93c2f9101">setPreconditioner</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearSolver.html">LinearSolver</a> &gt; pc_solver=nullptr) override</td></tr>
 <tr class="memdesc:ac535178f6d7d2ae5c92ab3d93c2f9101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the preconditioner used by the Krylov subspace method when solving \(Ax=b\).  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#ac535178f6d7d2ae5c92ab3d93c2f9101">More...</a><br /></td></tr>
 <tr class="separator:ac535178f6d7d2ae5c92ab3d93c2f9101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03dd616c1e6f0b34f9d216c5415c422c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a03dd616c1e6f0b34f9d216c5415c422c">setNullSpace</a> (<a class="el" href="classbool.html">bool</a> contains_constant_vec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;nullspace_basis_vecs=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt;()) override</td></tr>
-<tr class="memdesc:a03dd616c1e6f0b34f9d216c5415c422c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nullspace of the linear system.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a03dd616c1e6f0b34f9d216c5415c422c">More...</a><br /></td></tr>
-<tr class="separator:a03dd616c1e6f0b34f9d216c5415c422c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2774f0a702c74a80c4b6ddc1d9146d54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a2774f0a702c74a80c4b6ddc1d9146d54">setNullSpace</a> (<a class="el" href="classbool.html">bool</a> contains_constant_vec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;nullspace_basis_vecs=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt;()) override</td></tr>
+<tr class="memdesc:a2774f0a702c74a80c4b6ddc1d9146d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nullspace of the linear system.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a2774f0a702c74a80c4b6ddc1d9146d54">More...</a><br /></td></tr>
+<tr class="separator:a2774f0a702c74a80c4b6ddc1d9146d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a644816f29da4a855e25ac85c71546d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a644816f29da4a855e25ac85c71546d32">solveSystem</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &amp;x, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &amp;b) override</td></tr>
 <tr class="memdesc:a644816f29da4a855e25ac85c71546d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations \(Ax=b\) for \(x\).  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a644816f29da4a855e25ac85c71546d32">More...</a><br /></td></tr>
 <tr class="separator:a644816f29da4a855e25ac85c71546d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -654,8 +654,8 @@ enable_logging = FALSE        // see setLoggingEnabled()
 
 </div>
 </div>
-<a id="a03dd616c1e6f0b34f9d216c5415c422c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03dd616c1e6f0b34f9d216c5415c422c">&#9670;&nbsp;</a></span>setNullSpace()</h2>
+<a id="a2774f0a702c74a80c4b6ddc1d9146d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2774f0a702c74a80c4b6ddc1d9146d54">&#9670;&nbsp;</a></span>setNullSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,8 +672,8 @@ enable_logging = FALSE        // see setLoggingEnabled()
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nullspace_basis_vecs</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;&#160;NDIM,&#160;<a class="el" href="classdouble.html">double</a>&#160;&gt;&#160;&gt;&#160;&gt;()</code>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>nullspace_basis_vecs</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;&#160;NDIM,&#160;<a class="el" href="classdouble.html">double</a>&#160;&gt;&gt;&gt;()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -689,7 +689,7 @@ enable_logging = FALSE        // see setLoggingEnabled()
 </div><div class="memdoc">
 <p>Basis vectors must be orthogonal but are not required to be orthonormal. Basis vectors will be normalized automatically. </p>
 
-<p>Reimplemented from <a class="el" href="classIBTK_1_1LinearSolver.html#a1256aa5e869e553777cf8aeda2f9481b">IBTK::LinearSolver</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBTK_1_1LinearSolver.html#a3488344d0f932260e591512f35437b67">IBTK::LinearSolver</a>.</p>
 
 </div>
 </div>

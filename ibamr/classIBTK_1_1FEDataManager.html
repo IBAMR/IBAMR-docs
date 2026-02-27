@@ -237,9 +237,9 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 <tr class="separator:ad55eeadf37c8e52b627c6704ae8fdee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd28fa43b498507df4ffaf1c4f51dc51"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#abd28fa43b498507df4ffaf1c4f51dc51">s_shutdown_priority</a></td></tr>
 <tr class="separator:abd28fa43b498507df4ffaf1c4f51dc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd0c81a11489e5d334cafa744253e70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a7cd0c81a11489e5d334cafa744253e70">setPatchHierarchy</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy)</td></tr>
-<tr class="memdesc:a7cd0c81a11489e5d334cafa744253e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset patch hierarchy over which operations occur.  <a href="classIBTK_1_1FEDataManager.html#a7cd0c81a11489e5d334cafa744253e70">More...</a><br /></td></tr>
-<tr class="separator:a7cd0c81a11489e5d334cafa744253e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890b7b712bd386734cefbcbd52fba131"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a890b7b712bd386734cefbcbd52fba131">setPatchHierarchy</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy)</td></tr>
+<tr class="memdesc:a890b7b712bd386734cefbcbd52fba131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset patch hierarchy over which operations occur.  <a href="classIBTK_1_1FEDataManager.html#a890b7b712bd386734cefbcbd52fba131">More...</a><br /></td></tr>
+<tr class="separator:a890b7b712bd386734cefbcbd52fba131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d6cdb72bed5c8b6e577b098d11a756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#ab6d6cdb72bed5c8b6e577b098d11a756">getPatchHierarchy</a> () const</td></tr>
 <tr class="memdesc:ab6d6cdb72bed5c8b6e577b098d11a756"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the patch hierarchy used by this object.  <a href="classIBTK_1_1FEDataManager.html#ab6d6cdb72bed5c8b6e577b098d11a756">More...</a><br /></td></tr>
 <tr class="separator:ab6d6cdb72bed5c8b6e577b098d11a756"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,18 +289,18 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 <tr class="memitem:a799acbf460e4e1df9fb2ebdc8ac59469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a799acbf460e4e1df9fb2ebdc8ac59469">prolongData</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, <a class="el" href="classbool.html">bool</a> is_density=true, <a class="el" href="classbool.html">bool</a> accumulate_on_grid=true, <a class="el" href="classbool.html">bool</a> close_F=true, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
 <tr class="memdesc:a799acbf460e4e1df9fb2ebdc8ac59469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prolong a value or a density from the FE mesh to the Cartesian grid.  <a href="classIBTK_1_1FEDataManager.html#a799acbf460e4e1df9fb2ebdc8ac59469">More...</a><br /></td></tr>
 <tr class="separator:a799acbf460e4e1df9fb2ebdc8ac59469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7cb3a78eb4576d22a9b00f7601faca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#abc7cb3a78eb4576d22a9b00f7601faca">interpWeighted</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_F=true, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
-<tr class="memdesc:abc7cb3a78eb4576d22a9b00f7601faca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the right-hand side <code>F</code> of an L2 projection problem where Eulerian data given by <code>f_data_idx</code> is projected onto the finite element space given by <code>system_name</code>.  <a href="classIBTK_1_1FEDataManager.html#abc7cb3a78eb4576d22a9b00f7601faca">More...</a><br /></td></tr>
-<tr class="separator:abc7cb3a78eb4576d22a9b00f7601faca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af150b78b5bd4fc2464ec88a883a8fb07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#af150b78b5bd4fc2464ec88a883a8fb07">interpWeighted</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const <a class="el" href="structIBTK_1_1FEDataManager_1_1InterpSpec.html">InterpSpec</a> &amp;interp_spec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_F=true, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
-<tr class="memdesc:af150b78b5bd4fc2464ec88a883a8fb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using a specified interpolation spec. This interpolation function does NOT do an L2-projection of the interpolated quantity. It does however weighs/filters the interpolated quantity at the quadrature points to the nodes. Here, the basis functions of the deformational field is used as the filter.  <a href="classIBTK_1_1FEDataManager.html#af150b78b5bd4fc2464ec88a883a8fb07">More...</a><br /></td></tr>
-<tr class="separator:af150b78b5bd4fc2464ec88a883a8fb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83caf25ad2a7e87b48c7087e3a3f795"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#ad83caf25ad2a7e87b48c7087e3a3f795">interp</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
-<tr class="memdesc:ad83caf25ad2a7e87b48c7087e3a3f795"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using the default interpolation spec.  <a href="classIBTK_1_1FEDataManager.html#ad83caf25ad2a7e87b48c7087e3a3f795">More...</a><br /></td></tr>
-<tr class="separator:ad83caf25ad2a7e87b48c7087e3a3f795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb5a5b12b7252c7be5c04e65c4e4b89e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#adb5a5b12b7252c7be5c04e65c4e4b89e">interp</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const <a class="el" href="structIBTK_1_1FEDataManager_1_1InterpSpec.html">InterpSpec</a> &amp;interp_spec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
-<tr class="memdesc:adb5a5b12b7252c7be5c04e65c4e4b89e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using a specified interpolation spec.  <a href="classIBTK_1_1FEDataManager.html#adb5a5b12b7252c7be5c04e65c4e4b89e">More...</a><br /></td></tr>
-<tr class="separator:adb5a5b12b7252c7be5c04e65c4e4b89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff63c8d94f66dc9a233171cf55b186a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a5ff63c8d94f66dc9a233171cf55b186a">interpWeighted</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_F=true, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
+<tr class="memdesc:a5ff63c8d94f66dc9a233171cf55b186a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the right-hand side <code>F</code> of an L2 projection problem where Eulerian data given by <code>f_data_idx</code> is projected onto the finite element space given by <code>system_name</code>.  <a href="classIBTK_1_1FEDataManager.html#a5ff63c8d94f66dc9a233171cf55b186a">More...</a><br /></td></tr>
+<tr class="separator:a5ff63c8d94f66dc9a233171cf55b186a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a188eff2b9d24006084fd6861c767b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a8a188eff2b9d24006084fd6861c767b0">interpWeighted</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const <a class="el" href="structIBTK_1_1FEDataManager_1_1InterpSpec.html">InterpSpec</a> &amp;interp_spec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_F=true, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
+<tr class="memdesc:a8a188eff2b9d24006084fd6861c767b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using a specified interpolation spec. This interpolation function does NOT do an L2-projection of the interpolated quantity. It does however weighs/filters the interpolated quantity at the quadrature points to the nodes. Here, the basis functions of the deformational field is used as the filter.  <a href="classIBTK_1_1FEDataManager.html#a8a188eff2b9d24006084fd6861c767b0">More...</a><br /></td></tr>
+<tr class="separator:a8a188eff2b9d24006084fd6861c767b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9432b66cc27f8e12017250db3a6ef6ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a9432b66cc27f8e12017250db3a6ef6ce">interp</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
+<tr class="memdesc:a9432b66cc27f8e12017250db3a6ef6ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using the default interpolation spec.  <a href="classIBTK_1_1FEDataManager.html#a9432b66cc27f8e12017250db3a6ef6ce">More...</a><br /></td></tr>
+<tr class="separator:a9432b66cc27f8e12017250db3a6ef6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f63eb9f626cece32df109d1320bf8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#ab0f63eb9f626cece32df109d1320bf8b">interp</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, const <a class="el" href="structIBTK_1_1FEDataManager_1_1InterpSpec.html">InterpSpec</a> &amp;interp_spec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;f_refine_scheds=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt;(), <a class="el" href="classdouble.html">double</a> fill_data_time=0.0, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
+<tr class="memdesc:ab0f63eb9f626cece32df109d1320bf8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a value from the Cartesian grid to the FE mesh using a specified interpolation spec.  <a href="classIBTK_1_1FEDataManager.html#ab0f63eb9f626cece32df109d1320bf8b">More...</a><br /></td></tr>
+<tr class="separator:ab0f63eb9f626cece32df109d1320bf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bd251e64f416434ac4530cfd55cb07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a19bd251e64f416434ac4530cfd55cb07">restrictData</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;X, const std::string &amp;system_name, <a class="el" href="classbool.html">bool</a> use_consistent_mass_matrix=true, <a class="el" href="classbool.html">bool</a> close_X=true)</td></tr>
 <tr class="memdesc:a19bd251e64f416434ac4530cfd55cb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restrict a value from the Cartesian grid to the FE mesh.  <a href="classIBTK_1_1FEDataManager.html#a19bd251e64f416434ac4530cfd55cb07">More...</a><br /></td></tr>
 <tr class="separator:a19bd251e64f416434ac4530cfd55cb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,11 +311,11 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 <tr class="memitem:a0acdfa531c0e46cf73ff812d13f26043"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a0acdfa531c0e46cf73ff812d13f26043">computeL2Projection</a> (<a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;U, <a class="el" href="classlibMesh_1_1NumericVector.html">libMesh::NumericVector</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;F, const std::string &amp;system_name, <a class="el" href="classbool.html">bool</a> consistent_mass_matrix=true, <a class="el" href="classbool.html">bool</a> close_U=true, <a class="el" href="classbool.html">bool</a> close_F=true, <a class="el" href="classdouble.html">double</a> tol=1.0e-6, unsigned <a class="el" href="classint.html">int</a> max_its=100)</td></tr>
 <tr class="memdesc:a0acdfa531c0e46cf73ff812d13f26043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set U to be the L2 projection of F.  <a href="classIBTK_1_1FEDataManager.html#a0acdfa531c0e46cf73ff812d13f26043">More...</a><br /></td></tr>
 <tr class="separator:a0acdfa531c0e46cf73ff812d13f26043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc6423d2a09838855d7298dcf89c62dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#acc6423d2a09838855d7298dcf89c62dc">addWorkloadEstimate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classint.html">int</a> workload_data_idx, const <a class="el" href="classint.html">int</a> coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>, const <a class="el" href="classint.html">int</a> finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>)</td></tr>
-<tr class="memdesc:acc6423d2a09838855d7298dcf89c62dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the cell workload estimate by adding a value (see the main documentation of this class for information on how this is computed) to the <code>d_workload_idx</code> cell variable.  <a href="classIBTK_1_1FEDataManager.html#acc6423d2a09838855d7298dcf89c62dc">More...</a><br /></td></tr>
-<tr class="separator:acc6423d2a09838855d7298dcf89c62dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e2532c268ca81bf0c31ee95298d22c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a6e2532c268ca81bf0c31ee95298d22c1">applyGradientDetector</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a> uses_richardson_extrapolation_too)</td></tr>
-<tr class="separator:a6e2532c268ca81bf0c31ee95298d22c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb045d5e146a970994356859a3984fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a1eb045d5e146a970994356859a3984fb">addWorkloadEstimate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classint.html">int</a> workload_data_idx, const <a class="el" href="classint.html">int</a> coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>, const <a class="el" href="classint.html">int</a> finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>)</td></tr>
+<tr class="memdesc:a1eb045d5e146a970994356859a3984fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the cell workload estimate by adding a value (see the main documentation of this class for information on how this is computed) to the <code>d_workload_idx</code> cell variable.  <a href="classIBTK_1_1FEDataManager.html#a1eb045d5e146a970994356859a3984fb">More...</a><br /></td></tr>
+<tr class="separator:a1eb045d5e146a970994356859a3984fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b07e5215127aaa958b877085a85988"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#ad7b07e5215127aaa958b877085a85988">applyGradientDetector</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a> uses_richardson_extrapolation_too)</td></tr>
+<tr class="separator:ad7b07e5215127aaa958b877085a85988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8b18fdfa1f9fd279a1e3b7074e7743"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a9b8b18fdfa1f9fd279a1e3b7074e7743">putToDatabase</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db) override</td></tr>
 <tr class="separator:a9b8b18fdfa1f9fd279a1e3b7074e7743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4ed30182580bdcb694def0583fff81c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#ae4ed30182580bdcb694def0583fff81c">updateQuadratureRule</a> (std::unique_ptr&lt; libMesh::QBase &gt; &amp;qrule, libMesh::QuadratureType quad_type, libMesh::Order quad_order, <a class="el" href="classbool.html">bool</a> use_adaptive_quadrature, <a class="el" href="classdouble.html">double</a> point_density, <a class="el" href="classbool.html">bool</a> allow_rules_with_negative_weights, const libMesh::Elem *elem, const boost::multi_array&lt; <a class="el" href="classdouble.html">double</a>, 2 &gt; &amp;X_node, <a class="el" href="classdouble.html">double</a> dx_min)</td></tr>
@@ -344,10 +344,10 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 <tr class="separator:add4d822274585df1f230c2523fbc0e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7350da9455c6e6b65ee5a3c7186c258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#ae7350da9455c6e6b65ee5a3c7186c258">updateQuadPointCountData</a> (<a class="el" href="classint.html">int</a> coarsest_ln, <a class="el" href="classint.html">int</a> finest_ln)</td></tr>
 <tr class="separator:ae7350da9455c6e6b65ee5a3c7186c258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3694a81a57efd44551e053d25584e032"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a3694a81a57efd44551e053d25584e032">collectActivePatchElements</a> (std::vector&lt; std::vector&lt; libMesh::Elem * &gt; &gt; &amp;active_patch_elems, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classint.html">int</a> coarsest_elem_ln, <a class="el" href="classint.html">int</a> finest_elem_ln)</td></tr>
-<tr class="separator:a3694a81a57efd44551e053d25584e032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc4b2074219ad3f636cfb3231597fe30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#acc4b2074219ad3f636cfb3231597fe30">collectActivePatchNodes</a> (std::vector&lt; std::vector&lt; libMesh::Node * &gt; &gt; &amp;active_patch_nodes, const std::vector&lt; std::vector&lt; libMesh::Elem * &gt; &gt; &amp;active_patch_elems)</td></tr>
-<tr class="separator:acc4b2074219ad3f636cfb3231597fe30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87db577a40682523140c6e1f37d8e1b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a87db577a40682523140c6e1f37d8e1b2">collectActivePatchElements</a> (std::vector&lt; std::vector&lt; libMesh::Elem * &gt;&gt; &amp;active_patch_elems, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classint.html">int</a> coarsest_elem_ln, <a class="el" href="classint.html">int</a> finest_elem_ln)</td></tr>
+<tr class="separator:a87db577a40682523140c6e1f37d8e1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e8fb5c6c82f1e07d50228279b2ea21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a89e8fb5c6c82f1e07d50228279b2ea21">collectActivePatchNodes</a> (std::vector&lt; std::vector&lt; libMesh::Node * &gt;&gt; &amp;active_patch_nodes, const std::vector&lt; std::vector&lt; libMesh::Elem * &gt;&gt; &amp;active_patch_elems)</td></tr>
+<tr class="separator:a89e8fb5c6c82f1e07d50228279b2ea21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d6b506a6dabf69b225ed51a2db52e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a72d6b506a6dabf69b225ed51a2db52e8">getPatchLevel</a> (const libMesh::Elem *elem) const</td></tr>
 <tr class="separator:a72d6b506a6dabf69b225ed51a2db52e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49596eaf51c20ef7167ccce633a9a3a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataManager.html#a49596eaf51c20ef7167ccce633a9a3a1">collectGhostDOFIndices</a> (std::vector&lt; unsigned <a class="el" href="classint.html">int</a> &gt; &amp;ghost_dofs, const std::vector&lt; libMesh::Elem * &gt; &amp;active_elems, const std::string &amp;system_name)</td></tr>
@@ -852,8 +852,8 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 
 </div>
 </div>
-<a id="a7cd0c81a11489e5d334cafa744253e70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cd0c81a11489e5d334cafa744253e70">&#9670;&nbsp;</a></span>setPatchHierarchy()</h2>
+<a id="a890b7b712bd386734cefbcbd52fba131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a890b7b712bd386734cefbcbd52fba131">&#9670;&nbsp;</a></span>setPatchHierarchy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -861,7 +861,7 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
         <tr>
           <td class="memname">void IBTK::FEDataManager::setPatchHierarchy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1471,8 +1471,8 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 
 </div>
 </div>
-<a id="abc7cb3a78eb4576d22a9b00f7601faca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc7cb3a78eb4576d22a9b00f7601faca">&#9670;&nbsp;</a></span>interpWeighted() <span class="overload">[1/2]</span></h2>
+<a id="a5ff63c8d94f66dc9a233171cf55b186a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ff63c8d94f66dc9a233171cf55b186a">&#9670;&nbsp;</a></span>interpWeighted() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1504,8 +1504,8 @@ Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&#160;&gt;&#160;&gt;()</code>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&gt;&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1557,8 +1557,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="af150b78b5bd4fc2464ec88a883a8fb07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af150b78b5bd4fc2464ec88a883a8fb07">&#9670;&nbsp;</a></span>interpWeighted() <span class="overload">[2/2]</span></h2>
+<a id="a8a188eff2b9d24006084fd6861c767b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a188eff2b9d24006084fd6861c767b0">&#9670;&nbsp;</a></span>interpWeighted() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1596,8 +1596,8 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&#160;&gt;&#160;&gt;()</code>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&gt;&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1627,8 +1627,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="ad83caf25ad2a7e87b48c7087e3a3f795"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad83caf25ad2a7e87b48c7087e3a3f795">&#9670;&nbsp;</a></span>interp() <span class="overload">[1/2]</span></h2>
+<a id="a9432b66cc27f8e12017250db3a6ef6ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9432b66cc27f8e12017250db3a6ef6ce">&#9670;&nbsp;</a></span>interp() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1660,8 +1660,8 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&#160;&gt;&#160;&gt;()</code>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&gt;&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1685,8 +1685,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="adb5a5b12b7252c7be5c04e65c4e4b89e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb5a5b12b7252c7be5c04e65c4e4b89e">&#9670;&nbsp;</a></span>interp() <span class="overload">[2/2]</span></h2>
+<a id="ab0f63eb9f626cece32df109d1320bf8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f63eb9f626cece32df109d1320bf8b">&#9670;&nbsp;</a></span>interp() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1724,8 +1724,8 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&#160;&gt;&#160;&gt;()</code>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>f_refine_scheds</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;&#160;NDIM&#160;&gt;&gt;&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2095,8 +2095,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="acc6423d2a09838855d7298dcf89c62dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc6423d2a09838855d7298dcf89c62dc">&#9670;&nbsp;</a></span>addWorkloadEstimate()</h2>
+<a id="a1eb045d5e146a970994356859a3984fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb045d5e146a970994356859a3984fb">&#9670;&nbsp;</a></span>addWorkloadEstimate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2104,7 +2104,7 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="memname">void IBTK::FEDataManager::addWorkloadEstimate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -2135,8 +2135,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="a6e2532c268ca81bf0c31ee95298d22c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e2532c268ca81bf0c31ee95298d22c1">&#9670;&nbsp;</a></span>applyGradientDetector()</h2>
+<a id="ad7b07e5215127aaa958b877085a85988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b07e5215127aaa958b877085a85988">&#9670;&nbsp;</a></span>applyGradientDetector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2144,7 +2144,7 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="memname">void IBTK::FEDataManager::applyGradientDetector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -2186,7 +2186,7 @@ The vector set up by this function is set up without applying any constraints (e
 </div><div class="memdoc">
 <p>Set integer tags to "one" in cells where refinement of the given level should occur due to the presence of Lagrangian data. The double time argument is the regrid time. The integer "tag_index" argument is the patch descriptor index of the cell centered integer tag array on each patch in the hierarchy. The boolean argument initial_time indicates whether the level is being subject to refinement at the initial simulation time. If it is false, then the error estimation process is being invoked at some later time after the AMR hierarchy was initially constructed. The boolean argument uses_richardson_extrapolation_too is true when Richardson extrapolation error estimation is used in addition to the gradient detector, and false otherwise. This argument helps the user to manage multiple regridding criteria.</p>
 <p>When assertion checking is active, an unrecoverable exception will result if the hierarchy pointer is null or the level number does not match any existing level in the hierarchy.</p>
-<dl class="section note"><dt>Note</dt><dd>This function is analogous to <a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#ac201b9cd28087aa92f9c1370f147667a">SAMRAI::mesh::StandardTagAndInitStrategy::applyGradientDetector()</a> and is only meant to be called from <a class="el" href="classIBAMR_1_1IBFEMethod.html#a1032e0a37c2d874a18403a8ceb534d1d">IBAMR::IBFEMethod::applyGradientDetector()</a>. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function is analogous to <a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#ac201b9cd28087aa92f9c1370f147667a">SAMRAI::mesh::StandardTagAndInitStrategy::applyGradientDetector()</a> and is only meant to be called from <a class="el" href="classIBAMR_1_1IBFEMethod.html#ada4141560ed1a3cbe46d42f6c78598b5">IBAMR::IBFEMethod::applyGradientDetector()</a>. </dd></dl>
 
 </div>
 </div>
@@ -2341,8 +2341,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="a3694a81a57efd44551e053d25584e032"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3694a81a57efd44551e053d25584e032">&#9670;&nbsp;</a></span>collectActivePatchElements()</h2>
+<a id="a87db577a40682523140c6e1f37d8e1b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87db577a40682523140c6e1f37d8e1b2">&#9670;&nbsp;</a></span>collectActivePatchElements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2353,7 +2353,7 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="memname">void IBTK::FEDataManager::collectActivePatchElements </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; libMesh::Elem * &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; libMesh::Elem * &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>active_patch_elems</em>, </td>
         </tr>
         <tr>
@@ -2400,8 +2400,8 @@ The vector set up by this function is set up without applying any constraints (e
 
 </div>
 </div>
-<a id="acc4b2074219ad3f636cfb3231597fe30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4b2074219ad3f636cfb3231597fe30">&#9670;&nbsp;</a></span>collectActivePatchNodes()</h2>
+<a id="a89e8fb5c6c82f1e07d50228279b2ea21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e8fb5c6c82f1e07d50228279b2ea21">&#9670;&nbsp;</a></span>collectActivePatchNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2412,13 +2412,13 @@ The vector set up by this function is set up without applying any constraints (e
         <tr>
           <td class="memname">void IBTK::FEDataManager::collectActivePatchNodes </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; libMesh::Node * &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; libMesh::Node * &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>active_patch_nodes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; libMesh::Elem * &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; libMesh::Elem * &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>active_patch_elems</em>&#160;</td>
         </tr>
         <tr>

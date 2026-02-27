@@ -141,9 +141,9 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab8ea7913cdd64d33d3305bbb85685a83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html#ab8ea7913cdd64d33d3305bbb85685a83">generateASMSubdomains</a> (std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;overlap_is, std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;nonoverlap_is) override</td></tr>
-<tr class="memdesc:ab8ea7913cdd64d33d3305bbb85685a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate IS/subdomains for Schwartz type preconditioners.  <a href="classIBTK_1_1SCPoissonPETScLevelSolver.html#ab8ea7913cdd64d33d3305bbb85685a83">More...</a><br /></td></tr>
-<tr class="separator:ab8ea7913cdd64d33d3305bbb85685a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d4ffba9b4710f831836e4d1bd1b210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a48d4ffba9b4710f831836e4d1bd1b210">generateASMSubdomains</a> (std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;overlap_is, std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;nonoverlap_is) override</td></tr>
+<tr class="memdesc:a48d4ffba9b4710f831836e4d1bd1b210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate IS/subdomains for Schwartz type preconditioners.  <a href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a48d4ffba9b4710f831836e4d1bd1b210">More...</a><br /></td></tr>
+<tr class="separator:a48d4ffba9b4710f831836e4d1bd1b210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01ac84eb2b1e9b7abdbd6ad7fb4fb8bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a01ac84eb2b1e9b7abdbd6ad7fb4fb8bb">initializeSolverStateSpecialized</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &amp;x, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &amp;b) override</td></tr>
 <tr class="memdesc:a01ac84eb2b1e9b7abdbd6ad7fb4fb8bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for solving \(Ax=b\).  <a href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a01ac84eb2b1e9b7abdbd6ad7fb4fb8bb">More...</a><br /></td></tr>
 <tr class="separator:a01ac84eb2b1e9b7abdbd6ad7fb4fb8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,9 +269,9 @@ Linear solver functionality.</h2></td></tr>
 <tr class="memitem:a0dfb223293c2b986c333c9b1516ff24b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1SAMRAIDataCache.html">SAMRAIDataCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a0dfb223293c2b986c333c9b1516ff24b">d_cached_eulerian_data</a></td></tr>
 <tr class="memdesc:a0dfb223293c2b986c333c9b1516ff24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scratch data.  <a href="classIBTK_1_1PETScLevelSolver.html#a0dfb223293c2b986c333c9b1516ff24b">More...</a><br /></td></tr>
 <tr class="separator:a0dfb223293c2b986c333c9b1516ff24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f4a2c229d03fac414d291efec25e26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a71f4a2c229d03fac414d291efec25e26">setNullSpace</a> (<a class="el" href="classbool.html">bool</a> contains_constant_vec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;nullspace_basis_vecs=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt;()) override</td></tr>
-<tr class="memdesc:a71f4a2c229d03fac414d291efec25e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nullspace of the linear system.  <a href="classIBTK_1_1PETScLevelSolver.html#a71f4a2c229d03fac414d291efec25e26">More...</a><br /></td></tr>
-<tr class="separator:a71f4a2c229d03fac414d291efec25e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41f883ca7e9c7f228ffe68ddabdd3fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#ac41f883ca7e9c7f228ffe68ddabdd3fc">setNullSpace</a> (<a class="el" href="classbool.html">bool</a> contains_constant_vec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;nullspace_basis_vecs=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt;()) override</td></tr>
+<tr class="memdesc:ac41f883ca7e9c7f228ffe68ddabdd3fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the nullspace of the linear system.  <a href="classIBTK_1_1PETScLevelSolver.html#ac41f883ca7e9c7f228ffe68ddabdd3fc">More...</a><br /></td></tr>
+<tr class="separator:ac41f883ca7e9c7f228ffe68ddabdd3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7435f38c3bd515c382d71df06a8b41c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a7435f38c3bd515c382d71df06a8b41c3">solveSystem</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &amp;x, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &amp;b) override</td></tr>
 <tr class="memdesc:a7435f38c3bd515c382d71df06a8b41c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the linear system of equations \(Ax=b\) for \(x\).  <a href="classIBTK_1_1PETScLevelSolver.html#a7435f38c3bd515c382d71df06a8b41c3">More...</a><br /></td></tr>
 <tr class="separator:a7435f38c3bd515c382d71df06a8b41c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,9 +284,9 @@ Linear solver functionality.</h2></td></tr>
 <tr class="memitem:aad661c41bf6480c2bf712c40f2d236fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#aad661c41bf6480c2bf712c40f2d236fc">init</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, const std::string &amp;default_options_prefix)</td></tr>
 <tr class="memdesc:aad661c41bf6480c2bf712c40f2d236fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic initialization.  <a href="classIBTK_1_1PETScLevelSolver.html#aad661c41bf6480c2bf712c40f2d236fc">More...</a><br /></td></tr>
 <tr class="separator:aad661c41bf6480c2bf712c40f2d236fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab70730716d37ef2571c89bb5c4d61e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a6ab70730716d37ef2571c89bb5c4d61e">generateFieldSplitSubdomains</a> (std::vector&lt; std::string &gt; &amp;field_names, std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;field_is)</td></tr>
-<tr class="memdesc:a6ab70730716d37ef2571c89bb5c4d61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate IS/subdomains for fieldsplit type preconditioners.  <a href="classIBTK_1_1PETScLevelSolver.html#a6ab70730716d37ef2571c89bb5c4d61e">More...</a><br /></td></tr>
-<tr class="separator:a6ab70730716d37ef2571c89bb5c4d61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af78ad48fa5ab91c8577863cde9276b64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#af78ad48fa5ab91c8577863cde9276b64">generateFieldSplitSubdomains</a> (std::vector&lt; std::string &gt; &amp;field_names, std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;field_is)</td></tr>
+<tr class="memdesc:af78ad48fa5ab91c8577863cde9276b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate IS/subdomains for fieldsplit type preconditioners.  <a href="classIBTK_1_1PETScLevelSolver.html#af78ad48fa5ab91c8577863cde9276b64">More...</a><br /></td></tr>
+<tr class="separator:af78ad48fa5ab91c8577863cde9276b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40737a200e65fe63e9c488f493b46b80"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a40737a200e65fe63e9c488f493b46b80">setupNullSpace</a> ()</td></tr>
 <tr class="memdesc:a40737a200e65fe63e9c488f493b46b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the solver nullspace (if any).  <a href="classIBTK_1_1PETScLevelSolver.html#a40737a200e65fe63e9c488f493b46b80">More...</a><br /></td></tr>
 <tr class="separator:a40737a200e65fe63e9c488f493b46b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -502,8 +502,8 @@ options_prefix = ""            // see setOptionsPrefix()
 
 </div>
 </div>
-<a id="ab8ea7913cdd64d33d3305bbb85685a83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8ea7913cdd64d33d3305bbb85685a83">&#9670;&nbsp;</a></span>generateASMSubdomains()</h2>
+<a id="a48d4ffba9b4710f831836e4d1bd1b210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d4ffba9b4710f831836e4d1bd1b210">&#9670;&nbsp;</a></span>generateASMSubdomains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,13 +514,13 @@ options_prefix = ""            // see setOptionsPrefix()
         <tr>
           <td class="memname">void IBTK::SCPoissonPETScLevelSolver::generateASMSubdomains </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>overlap_is</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>nonoverlap_is</em>&#160;</td>
         </tr>
         <tr>
@@ -536,7 +536,7 @@ options_prefix = ""            // see setOptionsPrefix()
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classIBTK_1_1PETScLevelSolver.html#ab379980b7fd7529d5cbc5ac0e1ecc203">IBTK::PETScLevelSolver</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBTK_1_1PETScLevelSolver.html#a059c69c998ce86b3818ef3d93e9eeb08">IBTK::PETScLevelSolver</a>.</p>
 
 </div>
 </div>
@@ -882,8 +882,8 @@ options_prefix = ""            // see setOptionsPrefix()
 
 </div>
 </div>
-<a id="a71f4a2c229d03fac414d291efec25e26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71f4a2c229d03fac414d291efec25e26">&#9670;&nbsp;</a></span>setNullSpace()</h2>
+<a id="ac41f883ca7e9c7f228ffe68ddabdd3fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41f883ca7e9c7f228ffe68ddabdd3fc">&#9670;&nbsp;</a></span>setNullSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -900,8 +900,8 @@ options_prefix = ""            // see setOptionsPrefix()
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nullspace_basis_vecs</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;&#160;NDIM,&#160;<a class="el" href="classdouble.html">double</a>&#160;&gt;&#160;&gt;&#160;&gt;()</code>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>nullspace_basis_vecs</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;&#160;NDIM,&#160;<a class="el" href="classdouble.html">double</a>&#160;&gt;&gt;&gt;()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -916,7 +916,7 @@ options_prefix = ""            // see setOptionsPrefix()
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classIBTK_1_1LinearSolver.html#a1256aa5e869e553777cf8aeda2f9481b">IBTK::LinearSolver</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBTK_1_1LinearSolver.html#a3488344d0f932260e591512f35437b67">IBTK::LinearSolver</a>.</p>
 
 </div>
 </div>
@@ -1152,8 +1152,8 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
 
 </div>
 </div>
-<a id="a6ab70730716d37ef2571c89bb5c4d61e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ab70730716d37ef2571c89bb5c4d61e">&#9670;&nbsp;</a></span>generateFieldSplitSubdomains()</h2>
+<a id="af78ad48fa5ab91c8577863cde9276b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af78ad48fa5ab91c8577863cde9276b64">&#9670;&nbsp;</a></span>generateFieldSplitSubdomains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1170,7 +1170,7 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>field_is</em>&#160;</td>
         </tr>
         <tr>
@@ -1186,7 +1186,7 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classIBAMR_1_1StaggeredStokesPETScLevelSolver.html#afa642f1dc560b33d1ece22d4bd877611">IBAMR::StaggeredStokesPETScLevelSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="classIBAMR_1_1StaggeredStokesPETScLevelSolver.html#a4cf20bfc368acb8590ddb053978e44c8">IBAMR::StaggeredStokesPETScLevelSolver</a>.</p>
 
 </div>
 </div>

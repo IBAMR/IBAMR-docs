@@ -118,21 +118,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1b433da9b074a06b4354cb8e7e54107"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#ab1b433da9b074a06b4354cb8e7e54107">getSourcePressures</a> (<a class="el" href="classint.html">int</a> ln) const</td></tr>
 <tr class="memdesc:ab1b433da9b074a06b4354cb8e7e54107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const reference to the vector of source pressures.  <a href="classIBAMR_1_1IBStandardSourceGen.html#ab1b433da9b074a06b4354cb8e7e54107">More...</a><br /></td></tr>
 <tr class="separator:ab1b433da9b074a06b4354cb8e7e54107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f347b88b23c68c517c2071a9e2c2107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a4f347b88b23c68c517c2071a9e2c2107">initializeLevelData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> init_data_time, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
-<tr class="memdesc:a4f347b88b23c68c517c2071a9e2c2107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the data needed to compute source/sink data on the specified level of the patch hierarchy.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a4f347b88b23c68c517c2071a9e2c2107">More...</a><br /></td></tr>
-<tr class="separator:a4f347b88b23c68c517c2071a9e2c2107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2490979223133dcb764c1100f678735c"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a2490979223133dcb764c1100f678735c">getNumSources</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
-<tr class="memdesc:a2490979223133dcb764c1100f678735c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the number of distributed internal sources or sinks.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a2490979223133dcb764c1100f678735c">More...</a><br /></td></tr>
-<tr class="separator:a2490979223133dcb764c1100f678735c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9801d9846d50bc7383147bf9de148311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a9801d9846d50bc7383147bf9de148311">getSourceLocations</a> (std::vector&lt; <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">IBTK::Point</a> &gt; &amp;X_src, std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;r_src, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LData.html">IBTK::LData</a> &gt; X_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
-<tr class="memdesc:a9801d9846d50bc7383147bf9de148311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the source locations for each of the distributed internal sources or sinks.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a9801d9846d50bc7383147bf9de148311">More...</a><br /></td></tr>
-<tr class="separator:a9801d9846d50bc7383147bf9de148311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29d30de09569bf3656d69d405fdcb6f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a29d30de09569bf3656d69d405fdcb6f8">setSourcePressures</a> (const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;P_src, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
-<tr class="memdesc:a29d30de09569bf3656d69d405fdcb6f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the normalized pressures at the sources.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a29d30de09569bf3656d69d405fdcb6f8">More...</a><br /></td></tr>
-<tr class="separator:a29d30de09569bf3656d69d405fdcb6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5e4ae001f001f25bd11a7379ab038bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#af5e4ae001f001f25bd11a7379ab038bc">computeSourceStrengths</a> (std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;Q_src, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
-<tr class="memdesc:af5e4ae001f001f25bd11a7379ab038bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the source strengths for each of the distributed internal sources or sinks.  <a href="classIBAMR_1_1IBStandardSourceGen.html#af5e4ae001f001f25bd11a7379ab038bc">More...</a><br /></td></tr>
-<tr class="separator:af5e4ae001f001f25bd11a7379ab038bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82634078d47dea5e86b14c32e2d9a626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a82634078d47dea5e86b14c32e2d9a626">initializeLevelData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> init_data_time, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
+<tr class="memdesc:a82634078d47dea5e86b14c32e2d9a626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup the data needed to compute source/sink data on the specified level of the patch hierarchy.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a82634078d47dea5e86b14c32e2d9a626">More...</a><br /></td></tr>
+<tr class="separator:a82634078d47dea5e86b14c32e2d9a626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f681668d2109de80da732714afe116f"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a1f681668d2109de80da732714afe116f">getNumSources</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
+<tr class="memdesc:a1f681668d2109de80da732714afe116f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the number of distributed internal sources or sinks.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a1f681668d2109de80da732714afe116f">More...</a><br /></td></tr>
+<tr class="separator:a1f681668d2109de80da732714afe116f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f2e1d07eff284be499c42f1d590b058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a2f2e1d07eff284be499c42f1d590b058">getSourceLocations</a> (std::vector&lt; <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">IBTK::Point</a> &gt; &amp;X_src, std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;r_src, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LData.html">IBTK::LData</a> &gt; X_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
+<tr class="memdesc:a2f2e1d07eff284be499c42f1d590b058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the source locations for each of the distributed internal sources or sinks.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a2f2e1d07eff284be499c42f1d590b058">More...</a><br /></td></tr>
+<tr class="separator:a2f2e1d07eff284be499c42f1d590b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad583f4f95af5ec35efe39506840a08ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#ad583f4f95af5ec35efe39506840a08ed">setSourcePressures</a> (const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;P_src, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
+<tr class="memdesc:ad583f4f95af5ec35efe39506840a08ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the normalized pressures at the sources.  <a href="classIBAMR_1_1IBStandardSourceGen.html#ad583f4f95af5ec35efe39506840a08ed">More...</a><br /></td></tr>
+<tr class="separator:ad583f4f95af5ec35efe39506840a08ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624b1216891d351a30907a9e68934e45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#a624b1216891d351a30907a9e68934e45">computeSourceStrengths</a> (std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;Q_src, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classIBTK_1_1LDataManager.html">IBTK::LDataManager</a> *l_data_manager) override</td></tr>
+<tr class="memdesc:a624b1216891d351a30907a9e68934e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the source strengths for each of the distributed internal sources or sinks.  <a href="classIBAMR_1_1IBStandardSourceGen.html#a624b1216891d351a30907a9e68934e45">More...</a><br /></td></tr>
+<tr class="separator:a624b1216891d351a30907a9e68934e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbacca38fdfff8e7d1267da16240a45a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStandardSourceGen.html#acbacca38fdfff8e7d1267da16240a45a">putToDatabase</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db) override</td></tr>
 <tr class="separator:acbacca38fdfff8e7d1267da16240a45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d31eda6d2200b31a531588c86f30a4d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a8d31eda6d2200b31a531588c86f30a4d">setTimeInterval</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time)</td></tr>
@@ -541,8 +541,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4f347b88b23c68c517c2071a9e2c2107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f347b88b23c68c517c2071a9e2c2107">&#9670;&nbsp;</a></span>initializeLevelData()</h2>
+<a id="a82634078d47dea5e86b14c32e2d9a626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82634078d47dea5e86b14c32e2d9a626">&#9670;&nbsp;</a></span>initializeLevelData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,7 +553,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBStandardSourceGen::initializeLevelData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -594,12 +594,12 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>A default empty implementation is provided. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a1647b074cf4509568741428169cb693f">IBAMR::IBLagrangianSourceStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#ada3859b6e096712bb818fca6a15344b7">IBAMR::IBLagrangianSourceStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a2490979223133dcb764c1100f678735c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2490979223133dcb764c1100f678735c">&#9670;&nbsp;</a></span>getNumSources() <span class="overload">[2/2]</span></h2>
+<a id="a1f681668d2109de80da732714afe116f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f681668d2109de80da732714afe116f">&#9670;&nbsp;</a></span>getNumSources() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -610,7 +610,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">unsigned <a class="el" href="classint.html">int</a> IBAMR::IBStandardSourceGen::getNumSources </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -645,12 +645,12 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>The return value must be the <em>total</em> number of internal sources/sinks in the <em>entire</em> computational domain. This implies that the return value must be <em>identical</em> on each MPI process. </dd></dl>
 
-<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a08fedc07596a4d61263dc435f4b5c7ed">IBAMR::IBLagrangianSourceStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a3fa55c0b0ec868e346d39a3a166f6a72">IBAMR::IBLagrangianSourceStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a9801d9846d50bc7383147bf9de148311"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9801d9846d50bc7383147bf9de148311">&#9670;&nbsp;</a></span>getSourceLocations()</h2>
+<a id="a2f2e1d07eff284be499c42f1d590b058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f2e1d07eff284be499c42f1d590b058">&#9670;&nbsp;</a></span>getSourceLocations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,7 +679,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -714,12 +714,12 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Implementations of this method <em>must</em> compute the same values for <em>X_src</em> on <em>each</em> MPI process. That is to say, <em>X_src</em> must provide the location of all of the distributed sources/sinks. </dd></dl>
 
-<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a2f0bbeeff91ed5e18ae8dbeabb51dde6">IBAMR::IBLagrangianSourceStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a234e52c9eb7f425235bcffa33f38c79e">IBAMR::IBLagrangianSourceStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a29d30de09569bf3656d69d405fdcb6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29d30de09569bf3656d69d405fdcb6f8">&#9670;&nbsp;</a></span>setSourcePressures()</h2>
+<a id="ad583f4f95af5ec35efe39506840a08ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad583f4f95af5ec35efe39506840a08ed">&#9670;&nbsp;</a></span>setSourcePressures()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -736,7 +736,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -770,12 +770,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#aba52143da123a93f46b9edf1f3ea1ae0">IBAMR::IBLagrangianSourceStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a351fe873310f366ac344829ac31ad616">IBAMR::IBLagrangianSourceStrategy</a>.</p>
 
 </div>
 </div>
-<a id="af5e4ae001f001f25bd11a7379ab038bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5e4ae001f001f25bd11a7379ab038bc">&#9670;&nbsp;</a></span>computeSourceStrengths()</h2>
+<a id="a624b1216891d351a30907a9e68934e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a624b1216891d351a30907a9e68934e45">&#9670;&nbsp;</a></span>computeSourceStrengths()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -792,7 +792,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -827,7 +827,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Implementations of this method <em>must</em> compute the same values for <em>Q_src</em> on <em>each</em> MPI process. That is to say, <em>Q_src</em> must provide the strengths of all of the distributed sources/sinks. </dd></dl>
 
-<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#ac29365ac89304816f0c2ed85cafc30e5">IBAMR::IBLagrangianSourceStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1IBLagrangianSourceStrategy.html#a0073f4c9863edec819b65e427776cad3">IBAMR::IBLagrangianSourceStrategy</a>.</p>
 
 </div>
 </div>

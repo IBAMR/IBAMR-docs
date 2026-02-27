@@ -98,9 +98,9 @@ Inheritance diagram for IBAMR::AdvDiffStochasticForcing:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6249f100649baf8b641123c3f6235889"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a6249f100649baf8b641123c3f6235889">AdvDiffStochasticForcing</a> (std::string object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; C_var, const <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">AdvDiffSemiImplicitHierarchyIntegrator</a> *adv_diff_solver)</td></tr>
-<tr class="memdesc:a6249f100649baf8b641123c3f6235889"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates Variable and VariableContext objects for storing the stochastic fluxes at the faces of the Cartesian grid.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#a6249f100649baf8b641123c3f6235889">More...</a><br /></td></tr>
-<tr class="separator:a6249f100649baf8b641123c3f6235889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e7942a76a0c5360583f0b30a6fe22f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#ad0e7942a76a0c5360583f0b30a6fe22f">AdvDiffStochasticForcing</a> (std::string object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; C_var, const <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">AdvDiffSemiImplicitHierarchyIntegrator</a> *adv_diff_solver)</td></tr>
+<tr class="memdesc:ad0e7942a76a0c5360583f0b30a6fe22f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates Variable and VariableContext objects for storing the stochastic fluxes at the faces of the Cartesian grid.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#ad0e7942a76a0c5360583f0b30a6fe22f">More...</a><br /></td></tr>
+<tr class="separator:ad0e7942a76a0c5360583f0b30a6fe22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0b9b47b3071ca6459213807ec27ca2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#ad0b9b47b3071ca6459213807ec27ca2b">~AdvDiffStochasticForcing</a> ()=default</td></tr>
 <tr class="memdesc:ad0b9b47b3071ca6459213807ec27ca2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty destructor.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#ad0b9b47b3071ca6459213807ec27ca2b">More...</a><br /></td></tr>
 <tr class="separator:ad0b9b47b3071ca6459213807ec27ca2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,12 +144,12 @@ Methods to set patch data.</h2></td></tr>
 <tr class="memitem:acecfbecf6cdc388832ad8f67db2689f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#acecfbecf6cdc388832ad8f67db2689f7">isTimeDependent</a> () const override</td></tr>
 <tr class="memdesc:acecfbecf6cdc388832ad8f67db2689f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the concrete <a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html" title="Class AdvDiffStochasticForcing provides an interface for specifying a stochastic forcing term for cel...">AdvDiffStochasticForcing</a> object is time-dependent.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#acecfbecf6cdc388832ad8f67db2689f7">More...</a><br /></td></tr>
 <tr class="separator:acecfbecf6cdc388832ad8f67db2689f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7f4a9c5d92824f030741ff574e3ce8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#af7f4a9c5d92824f030741ff574e3ce8a">setDataOnPatchHierarchy</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, const <a class="el" href="classint.html">int</a> coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, const <a class="el" href="classint.html">int</a> finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>) override</td></tr>
-<tr class="memdesc:af7f4a9c5d92824f030741ff574e3ce8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the function on the patch interiors on the specified levels of the patch hierarchy.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#af7f4a9c5d92824f030741ff574e3ce8a">More...</a><br /></td></tr>
-<tr class="separator:af7f4a9c5d92824f030741ff574e3ce8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335972af506a15f69bb17752d56f0ce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a335972af506a15f69bb17752d56f0ce8">setDataOnPatch</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; patch_level=<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;(nullptr)) override</td></tr>
-<tr class="memdesc:a335972af506a15f69bb17752d56f0ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the function on the patch interior.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#a335972af506a15f69bb17752d56f0ce8">More...</a><br /></td></tr>
-<tr class="separator:a335972af506a15f69bb17752d56f0ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968ef1398552647d2231249851d1b9d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a968ef1398552647d2231249851d1b9d1">setDataOnPatchHierarchy</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, const <a class="el" href="classint.html">int</a> coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, const <a class="el" href="classint.html">int</a> finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>) override</td></tr>
+<tr class="memdesc:a968ef1398552647d2231249851d1b9d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the function on the patch interiors on the specified levels of the patch hierarchy.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#a968ef1398552647d2231249851d1b9d1">More...</a><br /></td></tr>
+<tr class="separator:a968ef1398552647d2231249851d1b9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1314cd688cb1bc27bfb69c9d6f1fbb23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a1314cd688cb1bc27bfb69c9d6f1fbb23">setDataOnPatch</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level=<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;(nullptr)) override</td></tr>
+<tr class="memdesc:a1314cd688cb1bc27bfb69c9d6f1fbb23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the function on the patch interior.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#a1314cd688cb1bc27bfb69c9d6f1fbb23">More...</a><br /></td></tr>
+<tr class="separator:a1314cd688cb1bc27bfb69c9d6f1fbb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16fd7a681905885917bcdb1cb86d4279"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a16fd7a681905885917bcdb1cb86d4279">AdvDiffStochasticForcing</a> ()=delete</td></tr>
 <tr class="memdesc:a16fd7a681905885917bcdb1cb86d4279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBAMR_1_1AdvDiffStochasticForcing.html#a16fd7a681905885917bcdb1cb86d4279">More...</a><br /></td></tr>
 <tr class="separator:a16fd7a681905885917bcdb1cb86d4279"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,8 +161,8 @@ Methods to set patch data.</h2></td></tr>
 <tr class="separator:a8d792e6ac986cec8a4659a7edd616935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6249f100649baf8b641123c3f6235889"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6249f100649baf8b641123c3f6235889">&#9670;&nbsp;</a></span>AdvDiffStochasticForcing() <span class="overload">[1/3]</span></h2>
+<a id="ad0e7942a76a0c5360583f0b30a6fe22f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0e7942a76a0c5360583f0b30a6fe22f">&#9670;&nbsp;</a></span>AdvDiffStochasticForcing() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +182,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>C_var</em>, </td>
         </tr>
         <tr>
@@ -313,8 +313,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="af7f4a9c5d92824f030741ff574e3ce8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7f4a9c5d92824f030741ff574e3ce8a">&#9670;&nbsp;</a></span>setDataOnPatchHierarchy()</h2>
+<a id="a968ef1398552647d2231249851d1b9d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968ef1398552647d2231249851d1b9d1">&#9670;&nbsp;</a></span>setDataOnPatchHierarchy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,13 +331,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -377,12 +377,12 @@ Methods to set patch data.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classIBTK_1_1CartGridFunction.html#a2effc88588ea9d0a918ccb5287c03914">IBTK::CartGridFunction</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBTK_1_1CartGridFunction.html#a0e5e8a1c21e60a0e1a08f589342eda74">IBTK::CartGridFunction</a>.</p>
 
 </div>
 </div>
-<a id="a335972af506a15f69bb17752d56f0ce8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a335972af506a15f69bb17752d56f0ce8">&#9670;&nbsp;</a></span>setDataOnPatch()</h2>
+<a id="a1314cd688cb1bc27bfb69c9d6f1fbb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1314cd688cb1bc27bfb69c9d6f1fbb23">&#9670;&nbsp;</a></span>setDataOnPatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,13 +399,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
@@ -423,8 +423,8 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>patch_level</em> = <code><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt;&#160;NDIM&#160;&gt;&#160;&gt;(nullptr)</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
+          <td class="paramname"><em>patch_level</em> = <code><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt;&#160;NDIM&#160;&gt;&gt;(nullptr)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -439,7 +439,7 @@ Methods to set patch data.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classIBTK_1_1CartGridFunction.html#aa2e2c03434eae580e8baee6a40f54a3b">IBTK::CartGridFunction</a>.</p>
+<p>Implements <a class="el" href="classIBTK_1_1CartGridFunction.html#abffd7473221dc549ab07ba89ec39b8e1">IBTK::CartGridFunction</a>.</p>
 
 </div>
 </div>
@@ -477,8 +477,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="ab08fcb3da3937c824189b1b1fe37d5f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab08fcb3da3937c824189b1b1fe37d5f6">&#9670;&nbsp;</a></span>setDataOnPatchLevel()</h2>
+<a id="a4b9ef2fcca0edf81fd5b9bbf47d7b658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b9ef2fcca0edf81fd5b9bbf47d7b658">&#9670;&nbsp;</a></span>setDataOnPatchLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,13 +495,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_level</em>, </td>
         </tr>
         <tr>
@@ -528,9 +528,9 @@ Methods to set patch data.</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a335972af506a15f69bb17752d56f0ce8" title="Evaluate the function on the patch interior.">setDataOnPatch</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1AdvDiffStochasticForcing.html#a1314cd688cb1bc27bfb69c9d6f1fbb23" title="Evaluate the function on the patch interior.">setDataOnPatch</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classIBTK_1_1CartGridFunctionSet.html#a7c114a2f46e61693035622cdbf4cdf4e">IBTK::CartGridFunctionSet</a>, and <a class="el" href="classIBAMR_1_1CFINSForcing.html#ae2c40f71f0b678d35b10feef05f0798e">IBAMR::CFINSForcing</a>.</p>
+<p>Reimplemented in <a class="el" href="classIBTK_1_1CartGridFunctionSet.html#a2e9c22b8c494cd11f64d9396ee1a73c7">IBTK::CartGridFunctionSet</a>, and <a class="el" href="classIBAMR_1_1CFINSForcing.html#adb37dafe911f09a7166946f28ac1c7df">IBAMR::CFINSForcing</a>.</p>
 
 </div>
 </div>

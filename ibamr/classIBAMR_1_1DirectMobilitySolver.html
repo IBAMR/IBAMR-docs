@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a75be346d0d26becdf17f780c14561f1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1DirectMobilitySolver.html#a75be346d0d26becdf17f780c14561f1d">registerMobilityMat</a> (const std::string &amp;mat_name, const std::vector&lt; unsigned &gt; &amp;prototype_struct_ids, <a class="el" href="namespaceIBAMR.html#a591304f336aef144a5ae4595cffc3f70">MobilityMatrixType</a> mat_type, std::pair&lt; <a class="el" href="namespaceIBAMR.html#a22c1e7d2fef29bd1819c5bf9828e3400">MobilityMatrixInverseType</a>, <a class="el" href="namespaceIBAMR.html#a22c1e7d2fef29bd1819c5bf9828e3400">MobilityMatrixInverseType</a> &gt; inv_type, const <a class="el" href="classint.html">int</a> managing_proc=0, const std::string &amp;filename=&quot;&quot;, std::pair&lt; <a class="el" href="classdouble.html">double</a>, <a class="el" href="classdouble.html">double</a> &gt; scale=std::pair&lt; <a class="el" href="classdouble.html">double</a>, <a class="el" href="classdouble.html">double</a> &gt;(1.0, 0.0))</td></tr>
 <tr class="memdesc:a75be346d0d26becdf17f780c14561f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register mutiple prototype structures with a particular matrix identified by its name. A combined dense mobility matrix for all the associated prototypical structures will be formed.  <a href="classIBAMR_1_1DirectMobilitySolver.html#a75be346d0d26becdf17f780c14561f1d">More...</a><br /></td></tr>
 <tr class="separator:a75be346d0d26becdf17f780c14561f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30fb335d96e2da6c6edeb09569f0d472"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1DirectMobilitySolver.html#a30fb335d96e2da6c6edeb09569f0d472">registerStructIDsWithMobilityMat</a> (const std::string &amp;mat_name, const std::vector&lt; std::vector&lt; unsigned &gt; &gt; &amp;struct_ids)</td></tr>
-<tr class="memdesc:a30fb335d96e2da6c6edeb09569f0d472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register all structures that will be managed by this particular dense mobility matrix.  <a href="classIBAMR_1_1DirectMobilitySolver.html#a30fb335d96e2da6c6edeb09569f0d472">More...</a><br /></td></tr>
-<tr class="separator:a30fb335d96e2da6c6edeb09569f0d472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77ec342358fc6e1b70a8e1881f37771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1DirectMobilitySolver.html#ab77ec342358fc6e1b70a8e1881f37771">registerStructIDsWithMobilityMat</a> (const std::string &amp;mat_name, const std::vector&lt; std::vector&lt; unsigned &gt;&gt; &amp;struct_ids)</td></tr>
+<tr class="memdesc:ab77ec342358fc6e1b70a8e1881f37771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register all structures that will be managed by this particular dense mobility matrix.  <a href="classIBAMR_1_1DirectMobilitySolver.html#ab77ec342358fc6e1b70a8e1881f37771">More...</a><br /></td></tr>
+<tr class="separator:ab77ec342358fc6e1b70a8e1881f37771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a5fb42ab2418b28ecdee7b189fc5a28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1DirectMobilitySolver.html#a0a5fb42ab2418b28ecdee7b189fc5a28">initializeSolverState</a> (Vec x, Vec b)</td></tr>
 <tr class="memdesc:a0a5fb42ab2418b28ecdee7b189fc5a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the solver.  <a href="classIBAMR_1_1DirectMobilitySolver.html#a0a5fb42ab2418b28ecdee7b189fc5a28">More...</a><br /></td></tr>
 <tr class="separator:a0a5fb42ab2418b28ecdee7b189fc5a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -431,8 +431,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a30fb335d96e2da6c6edeb09569f0d472"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30fb335d96e2da6c6edeb09569f0d472">&#9670;&nbsp;</a></span>registerStructIDsWithMobilityMat()</h2>
+<a id="ab77ec342358fc6e1b70a8e1881f37771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77ec342358fc6e1b70a8e1881f37771">&#9670;&nbsp;</a></span>registerStructIDsWithMobilityMat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,7 +446,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::vector&lt; unsigned &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; unsigned &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>struct_ids</em>&#160;</td>
         </tr>
         <tr>

@@ -79,6 +79,6 @@ var searchData=
   ['outputlogdata_15086',['outputLogData',['../classIBAMR_1_1IBInstrumentPanel.html#a9781b9fc9d98cf1d731fcce376dd7f71',1,'IBAMR::IBInstrumentPanel']]],
   ['outputstring_15087',['outputString',['../classSAMRAI_1_1tbox_1_1ParallelBuffer.html#aaad06b2a0b6cdacb256852192a3d8063',1,'SAMRAI::tbox::ParallelBuffer::outputString(const std::string &amp;text)'],['../classSAMRAI_1_1tbox_1_1ParallelBuffer.html#a30251cc1ebb6eaa7d978f317ebfc3c45',1,'SAMRAI::tbox::ParallelBuffer::outputString(const std::string &amp;text, const int length)']]],
   ['overflow_15088',['overflow',['../classSAMRAI_1_1tbox_1_1ParallelBuffer.html#a16365417d9a0b8a18511fb4cb7bc4d61',1,'SAMRAI::tbox::ParallelBuffer']]],
-  ['pointer_3c_20samrai_3a_3asolv_3a_3asamraivectorreal_3c_20ndim_2c_20type_20_3e_20_3e_15089',['Pointer&lt; SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt; &gt;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a490f32cca3978a93736161a257400398',1,'IBTK::SAMRAIScopedVectorDuplicate']]],
-  ['samraivectorreal_3c_20ndim_2c_20type_20_3e_20_26_15090',['SAMRAIVectorReal&lt; NDIM, TYPE &gt; &amp;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a264c5e675297cd5cec7cbe97cee9c188',1,'IBTK::SAMRAIScopedVectorDuplicate']]]
+  ['samraivectorreal_3c_20ndim_2c_20type_20_3e_20_26_15089',['SAMRAIVectorReal&lt; NDIM, TYPE &gt; &amp;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a264c5e675297cd5cec7cbe97cee9c188',1,'IBTK::SAMRAIScopedVectorDuplicate']]],
+  ['samraivectorreal_3c_20ndim_2c_20type_20_3e_3e_15090',['SAMRAIVectorReal&lt; NDIM, TYPE &gt;&gt;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#ac5ed1f4ebba97fab88e206e7fc252404',1,'IBTK::SAMRAIScopedVectorDuplicate']]]
 ];

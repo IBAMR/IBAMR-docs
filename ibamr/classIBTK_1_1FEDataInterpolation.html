@@ -145,9 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc783fd2bd02c0db7797da8730147b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#afc783fd2bd02c0db7797da8730147b78">setupInterpolatedSystemDataIndexes</a> (std::vector&lt; size_t &gt; &amp;system_idxs, const std::vector&lt; <a class="el" href="structIBTK_1_1SystemData.html">SystemData</a> &gt; &amp;system_data, const libMesh::EquationSystems *const equation_systems)</td></tr>
 <tr class="memdesc:afc783fd2bd02c0db7797da8730147b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register systems to be interpolated and get the corresponding system indices.  <a href="classIBTK_1_1FEDataInterpolation.html#afc783fd2bd02c0db7797da8730147b78">More...</a><br /></td></tr>
 <tr class="separator:afc783fd2bd02c0db7797da8730147b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd75674ba78d2e35a219a7f23cde807"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#a9dd75674ba78d2e35a219a7f23cde807">setInterpolatedDataPointers</a> (std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;var_data, std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;grad_var_data, const std::vector&lt; size_t &gt; &amp;system_idxs, const libMesh::Elem *const elem, const unsigned <a class="el" href="classint.html">int</a> qp)</td></tr>
-<tr class="memdesc:a9dd75674ba78d2e35a219a7f23cde807"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up pointers to the interpolated data to be evaluated.  <a href="classIBTK_1_1FEDataInterpolation.html#a9dd75674ba78d2e35a219a7f23cde807">More...</a><br /></td></tr>
-<tr class="separator:a9dd75674ba78d2e35a219a7f23cde807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a0f12b0e8a1223ad61841c57f0c000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#aa6a0f12b0e8a1223ad61841c57f0c000">setInterpolatedDataPointers</a> (std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;var_data, std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;grad_var_data, const std::vector&lt; size_t &gt; &amp;system_idxs, const libMesh::Elem *const elem, const unsigned <a class="el" href="classint.html">int</a> qp)</td></tr>
+<tr class="memdesc:aa6a0f12b0e8a1223ad61841c57f0c000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up pointers to the interpolated data to be evaluated.  <a href="classIBTK_1_1FEDataInterpolation.html#aa6a0f12b0e8a1223ad61841c57f0c000">More...</a><br /></td></tr>
+<tr class="separator:aa6a0f12b0e8a1223ad61841c57f0c000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc9dd0a50fc760665811d8f4bdc1a0b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#adc9dd0a50fc760665811d8f4bdc1a0b2">init</a> ()</td></tr>
 <tr class="memdesc:adc9dd0a50fc760665811d8f4bdc1a0b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all of the data structures required to evaluate the FE shape functions, quadrature rules, etc.  <a href="classIBTK_1_1FEDataInterpolation.html#adc9dd0a50fc760665811d8f4bdc1a0b2">More...</a><br /></td></tr>
 <tr class="separator:adc9dd0a50fc760665811d8f4bdc1a0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,8 +180,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a80d8c989faa60e284a60ef8197b2c351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc66d79b1066159bb9baa7d79d1639d2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#acc66d79b1066159bb9baa7d79d1639d2">getFETypeIndex</a> (const libMesh::FEType &amp;fe_type) const</td></tr>
 <tr class="separator:acc66d79b1066159bb9baa7d79d1639d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c94deb62a50c5bf178d748481fb0afb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#a3c94deb62a50c5bf178d748481fb0afb">interpolateCommon</a> (std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;system_var_data, std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &gt; &amp;system_grad_var_data, const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;phi_data, const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; * &gt; &amp;dphi_data)</td></tr>
-<tr class="separator:a3c94deb62a50c5bf178d748481fb0afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e695ed3c269cdf70b4e611e150cf315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FEDataInterpolation.html#a4e695ed3c269cdf70b4e611e150cf315">interpolateCommon</a> (std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;system_var_data, std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt;&gt; &amp;system_grad_var_data, const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;phi_data, const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; * &gt; &amp;dphi_data)</td></tr>
+<tr class="separator:a4e695ed3c269cdf70b4e611e150cf315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -1000,8 +1000,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9dd75674ba78d2e35a219a7f23cde807"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dd75674ba78d2e35a219a7f23cde807">&#9670;&nbsp;</a></span>setInterpolatedDataPointers()</h2>
+<a id="aa6a0f12b0e8a1223ad61841c57f0c000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a0f12b0e8a1223ad61841c57f0c000">&#9670;&nbsp;</a></span>setInterpolatedDataPointers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1015,7 +1015,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>grad_var_data</em>, </td>
         </tr>
         <tr>
@@ -1292,8 +1292,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c94deb62a50c5bf178d748481fb0afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c94deb62a50c5bf178d748481fb0afb">&#9670;&nbsp;</a></span>interpolateCommon()</h2>
+<a id="a4e695ed3c269cdf70b4e611e150cf315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e695ed3c269cdf70b4e611e150cf315">&#9670;&nbsp;</a></span>interpolateCommon()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1304,25 +1304,25 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBTK::FEDataInterpolation::interpolateCommon </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>system_var_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>system_grad_var_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>phi_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>dphi_data</em>&#160;</td>
         </tr>
         <tr>

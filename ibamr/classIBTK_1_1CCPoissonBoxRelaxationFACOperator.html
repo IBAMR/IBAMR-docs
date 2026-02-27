@@ -209,15 +209,15 @@ Implementation of FACPreconditionerStrategy interface.</h2></td></tr>
 <tr class="memitem:aa0db5697a1e022d73d299ddb8785885c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html">CCPoissonBoxRelaxationFACOperator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#aa0db5697a1e022d73d299ddb8785885c">operator=</a> (const <a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html">CCPoissonBoxRelaxationFACOperator</a> &amp;that)=delete</td></tr>
 <tr class="memdesc:aa0db5697a1e022d73d299ddb8785885c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#aa0db5697a1e022d73d299ddb8785885c">More...</a><br /></td></tr>
 <tr class="separator:aa0db5697a1e022d73d299ddb8785885c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a982c93d3f50e31d6b39ad476fcd43319"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a982c93d3f50e31d6b39ad476fcd43319">buildPatchLaplaceOperator</a> (Mat &amp;A, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_cell_width)</td></tr>
-<tr class="memdesc:a982c93d3f50e31d6b39ad476fcd43319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a matrix corresponding to a Laplace operator restricted to a single patch.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a982c93d3f50e31d6b39ad476fcd43319">More...</a><br /></td></tr>
-<tr class="separator:a982c93d3f50e31d6b39ad476fcd43319"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a639a4a4f735b9f7be1866c25cc176b83"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a639a4a4f735b9f7be1866c25cc176b83">buildPatchLaplaceOperator_aligned</a> (Mat &amp;A, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; C_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; D_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_cell_width)</td></tr>
-<tr class="memdesc:a639a4a4f735b9f7be1866c25cc176b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a matrix corresponding to a Laplace operator restricted to a single patch with grid aligned anisotropy.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a639a4a4f735b9f7be1866c25cc176b83">More...</a><br /></td></tr>
-<tr class="separator:a639a4a4f735b9f7be1866c25cc176b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7f5c7ef91bea28f81c3b1e09f233d6f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#af7f5c7ef91bea28f81c3b1e09f233d6f">buildPatchLaplaceOperator_nonaligned</a> (Mat &amp;A, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; C_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; D_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_cell_width)</td></tr>
-<tr class="memdesc:af7f5c7ef91bea28f81c3b1e09f233d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a matrix corresponding to a Laplace operator restricted to a single patch with non-grid aligned anisotropy.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#af7f5c7ef91bea28f81c3b1e09f233d6f">More...</a><br /></td></tr>
-<tr class="separator:af7f5c7ef91bea28f81c3b1e09f233d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa293d22c2c260a4b401e0c80b767e0c8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#aa293d22c2c260a4b401e0c80b767e0c8">buildPatchLaplaceOperator</a> (Mat &amp;A, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_cell_width)</td></tr>
+<tr class="memdesc:aa293d22c2c260a4b401e0c80b767e0c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a matrix corresponding to a Laplace operator restricted to a single patch.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#aa293d22c2c260a4b401e0c80b767e0c8">More...</a><br /></td></tr>
+<tr class="separator:aa293d22c2c260a4b401e0c80b767e0c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e711a51ff86876e0429687df90c4f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a55e711a51ff86876e0429687df90c4f2">buildPatchLaplaceOperator_aligned</a> (Mat &amp;A, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; C_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; D_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_cell_width)</td></tr>
+<tr class="memdesc:a55e711a51ff86876e0429687df90c4f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a matrix corresponding to a Laplace operator restricted to a single patch with grid aligned anisotropy.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a55e711a51ff86876e0429687df90c4f2">More...</a><br /></td></tr>
+<tr class="separator:a55e711a51ff86876e0429687df90c4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55a05b8c3bae6f02791e243380af794"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#ac55a05b8c3bae6f02791e243380af794">buildPatchLaplaceOperator_nonaligned</a> (Mat &amp;A, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; C_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; D_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_cell_width)</td></tr>
+<tr class="memdesc:ac55a05b8c3bae6f02791e243380af794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a matrix corresponding to a Laplace operator restricted to a single patch with non-grid aligned anisotropy.  <a href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#ac55a05b8c3bae6f02791e243380af794">More...</a><br /></td></tr>
+<tr class="separator:ac55a05b8c3bae6f02791e243380af794"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Logging functions.</h2></td></tr>
@@ -874,8 +874,8 @@ level solver
 
 </div>
 </div>
-<a id="a982c93d3f50e31d6b39ad476fcd43319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a982c93d3f50e31d6b39ad476fcd43319">&#9670;&nbsp;</a></span>buildPatchLaplaceOperator()</h2>
+<a id="aa293d22c2c260a4b401e0c80b767e0c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa293d22c2c260a4b401e0c80b767e0c8">&#9670;&nbsp;</a></span>buildPatchLaplaceOperator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -898,7 +898,7 @@ level solver
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
@@ -922,8 +922,8 @@ level solver
 
 </div>
 </div>
-<a id="a639a4a4f735b9f7be1866c25cc176b83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a639a4a4f735b9f7be1866c25cc176b83">&#9670;&nbsp;</a></span>buildPatchLaplaceOperator_aligned()</h2>
+<a id="a55e711a51ff86876e0429687df90c4f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55e711a51ff86876e0429687df90c4f2">&#9670;&nbsp;</a></span>buildPatchLaplaceOperator_aligned()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -940,19 +940,19 @@ level solver
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>C_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>D_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
@@ -976,8 +976,8 @@ level solver
 
 </div>
 </div>
-<a id="af7f5c7ef91bea28f81c3b1e09f233d6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7f5c7ef91bea28f81c3b1e09f233d6f">&#9670;&nbsp;</a></span>buildPatchLaplaceOperator_nonaligned()</h2>
+<a id="ac55a05b8c3bae6f02791e243380af794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55a05b8c3bae6f02791e243380af794">&#9670;&nbsp;</a></span>buildPatchLaplaceOperator_nonaligned()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -994,19 +994,19 @@ level solver
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>C_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>D_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>

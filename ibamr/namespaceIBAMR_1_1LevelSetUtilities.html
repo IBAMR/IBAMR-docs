@@ -101,9 +101,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abfe87c05511a1a7056d4738ecb263a64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBAMR_1_1LevelSetUtilities.html#abfe87c05511a1a7056d4738ecb263a64">tagLSCells</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classint.html">int</a> level_number, const <a class="el" href="classdouble.html">double</a> error_data_time, const <a class="el" href="classint.html">int</a> tag_index, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classbool.html">bool</a> uses_richardson_extrapolation_too, void *ctx)</td></tr>
-<tr class="memdesc:abfe87c05511a1a7056d4738ecb263a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing call back function to be hooked into IBAMR::HierarchyIntegrator class to tag the cells for grid refinement based on the given tagging criteria.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#abfe87c05511a1a7056d4738ecb263a64">More...</a><br /></td></tr>
-<tr class="separator:abfe87c05511a1a7056d4738ecb263a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647cfa517fdd61c3e1736b95fb3ef528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBAMR_1_1LevelSetUtilities.html#a647cfa517fdd61c3e1736b95fb3ef528">tagLSCells</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classint.html">int</a> level_number, const <a class="el" href="classdouble.html">double</a> error_data_time, const <a class="el" href="classint.html">int</a> tag_index, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classbool.html">bool</a> uses_richardson_extrapolation_too, void *ctx)</td></tr>
+<tr class="memdesc:a647cfa517fdd61c3e1736b95fb3ef528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing call back function to be hooked into IBAMR::HierarchyIntegrator class to tag the cells for grid refinement based on the given tagging criteria.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#a647cfa517fdd61c3e1736b95fb3ef528">More...</a><br /></td></tr>
+<tr class="separator:a647cfa517fdd61c3e1736b95fb3ef528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac96b4221b9fe055bb82a8c69607d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBAMR_1_1LevelSetUtilities.html#a3ac96b4221b9fe055bb82a8c69607d24">fixMassLoss2PhaseFlows</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time, <a class="el" href="classbool.html">bool</a> skip_synchronize_new_state_data, <a class="el" href="classint.html">int</a> num_cycles, void *ctx)</td></tr>
 <tr class="memdesc:a3ac96b4221b9fe055bb82a8c69607d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the value of the Lagrange multiplier \( q \) and use that to adjust the flow level set variable \( \tilde{\phi} \) to satisfy the constraint: \( f(q) = \int_{\Omega} H(\tilde{\phi} + q) \text{d}\Omega - V^0 = 0 \). where, \( \tilde{\phi} \) is the level set field obtained from the reinitialization procedure, \( V^0 \) is the volume of the fluid at \( t = 0 \) s which needs to be conserved. Here, \( q \) is computed using the Newton's method till required tolerance. In practice the level set mass loss would be fixed during the postprocess integrate hierarchy stage. Hence the application time would be the new time and the variable context would be the new context.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#a3ac96b4221b9fe055bb82a8c69607d24">More...</a><br /></td></tr>
 <tr class="separator:a3ac96b4221b9fe055bb82a8c69607d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,8 +119,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad08a80ca1de2ee3df796bdc93a656a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="abfe87c05511a1a7056d4738ecb263a64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe87c05511a1a7056d4738ecb263a64">&#9670;&nbsp;</a></span>tagLSCells()</h2>
+<a id="a647cfa517fdd61c3e1736b95fb3ef528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647cfa517fdd61c3e1736b95fb3ef528">&#9670;&nbsp;</a></span>tagLSCells()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -128,7 +128,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::LevelSetUtilities::tagLSCells </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>

@@ -112,12 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a54cf9ff6526b78a7c1e2136cde2823ba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a54cf9ff6526b78a7c1e2136cde2823ba">~IBHydrodynamicForceEvaluator</a> ()</td></tr>
 <tr class="memdesc:a54cf9ff6526b78a7c1e2136cde2823ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a54cf9ff6526b78a7c1e2136cde2823ba">More...</a><br /></td></tr>
 <tr class="separator:a54cf9ff6526b78a7c1e2136cde2823ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10aafe45988d0f6366d7b83b9eb2c610"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a10aafe45988d0f6366d7b83b9eb2c610">registerStructure</a> (<a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_X_lower, <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_X_upper, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_vel=IBTK::Vector3d::Zero(), <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
-<tr class="memdesc:a10aafe45988d0f6366d7b83b9eb2c610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register structure ID, level number, and integration domain with the class.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a10aafe45988d0f6366d7b83b9eb2c610">More...</a><br /></td></tr>
-<tr class="separator:a10aafe45988d0f6366d7b83b9eb2c610"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae469d2c0980cc875e879513e0bb08589"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae469d2c0980cc875e879513e0bb08589">updateStructureDomain</a> (const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_vel_new, <a class="el" href="classdouble.html">double</a> dt, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
-<tr class="memdesc:ae469d2c0980cc875e879513e0bb08589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the domain of integration as a result of structure motion. This should be called before computeLaggedMomentumIntegral to insure that the correct box is being used.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae469d2c0980cc875e879513e0bb08589">More...</a><br /></td></tr>
-<tr class="separator:ae469d2c0980cc875e879513e0bb08589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ed28803d8e0b2d8b2a46fd3a1d8d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a41ed28803d8e0b2d8b2a46fd3a1d8d9d">registerStructure</a> (<a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_X_lower, <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_X_upper, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_vel=IBTK::Vector3d::Zero(), <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
+<tr class="memdesc:a41ed28803d8e0b2d8b2a46fd3a1d8d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register structure ID, level number, and integration domain with the class.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a41ed28803d8e0b2d8b2a46fd3a1d8d9d">More...</a><br /></td></tr>
+<tr class="separator:a41ed28803d8e0b2d8b2a46fd3a1d8d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa7a5f5769ecd4f146cc34b38fa8fed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a6fa7a5f5769ecd4f146cc34b38fa8fed">updateStructureDomain</a> (const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;box_vel_new, <a class="el" href="classdouble.html">double</a> dt, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
+<tr class="memdesc:a6fa7a5f5769ecd4f146cc34b38fa8fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the domain of integration as a result of structure motion. This should be called before computeLaggedMomentumIntegral to insure that the correct box is being used.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a6fa7a5f5769ecd4f146cc34b38fa8fed">More...</a><br /></td></tr>
+<tr class="separator:a6fa7a5f5769ecd4f146cc34b38fa8fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8172cabd5acb544c1c5aaa00af85c52a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a8172cabd5acb544c1c5aaa00af85c52a">setTorqueOrigin</a> (const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;X0, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
 <tr class="memdesc:a8172cabd5acb544c1c5aaa00af85c52a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the origin of the position vector used to compute torques.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a8172cabd5acb544c1c5aaa00af85c52a">More...</a><br /></td></tr>
 <tr class="separator:a8172cabd5acb544c1c5aaa00af85c52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,27 +127,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae649a3ef3738653d6105a7f465338d7f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structIBAMR_1_1IBHydrodynamicForceEvaluator_1_1IBHydrodynamicForceObject.html">IBHydrodynamicForceObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae649a3ef3738653d6105a7f465338d7f">getHydrodynamicForceObject</a> (<a class="el" href="classint.html">int</a> strct_id)</td></tr>
 <tr class="memdesc:ae649a3ef3738653d6105a7f465338d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get access to hydrodynamic data of the given structure id.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae649a3ef3738653d6105a7f465338d7f">More...</a><br /></td></tr>
 <tr class="separator:ae649a3ef3738653d6105a7f465338d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ef440f7acdf168e92645051f28b2ed6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a8ef440f7acdf168e92645051f28b2ed6">computeLaggedMomentumIntegral</a> (<a class="el" href="classint.html">int</a> u_old_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef=std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;())</td></tr>
-<tr class="memdesc:a8ef440f7acdf168e92645051f28b2ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the momentum integral for the velocity variable at the previous time step over the new control volume. This should be called before advancing the hierarchy but after updateStructureDomain.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a8ef440f7acdf168e92645051f28b2ed6">More...</a><br /></td></tr>
-<tr class="separator:a8ef440f7acdf168e92645051f28b2ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc02e9f1e34cb993c087d5debf14cef3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#acc02e9f1e34cb993c087d5debf14cef3">computeLaggedMomentumIntegral</a> (<a class="el" href="classint.html">int</a> u_old_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef=std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;())</td></tr>
+<tr class="memdesc:acc02e9f1e34cb993c087d5debf14cef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the momentum integral for the velocity variable at the previous time step over the new control volume. This should be called before advancing the hierarchy but after updateStructureDomain.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#acc02e9f1e34cb993c087d5debf14cef3">More...</a><br /></td></tr>
+<tr class="separator:acc02e9f1e34cb993c087d5debf14cef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae57d27d71b5cad4a94a1fdbb7002e4f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae57d27d71b5cad4a94a1fdbb7002e4f0">updateStructureMomentum</a> (const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;P_strct_new, const <a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;L_strct_new, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
 <tr class="memdesc:ae57d27d71b5cad4a94a1fdbb7002e4f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the new momenta of the bodies within the structure. This should be called after advancing the hierarchy.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae57d27d71b5cad4a94a1fdbb7002e4f0">More...</a><br /></td></tr>
 <tr class="separator:ae57d27d71b5cad4a94a1fdbb7002e4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e91da0b5cbf7f089401e7d2fe3546ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a1e91da0b5cbf7f089401e7d2fe3546ff">computeHydrodynamicForce</a> (<a class="el" href="classint.html">int</a> u_idx, <a class="el" href="classint.html">int</a> p_idx, <a class="el" href="classint.html">int</a> f_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, <a class="el" href="classdouble.html">double</a> dt, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef=std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;(), <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *p_src_bc_coef=nullptr)</td></tr>
-<tr class="memdesc:a1e91da0b5cbf7f089401e7d2fe3546ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hydrodynamic force. This should be called after advancing the hierarchy.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a1e91da0b5cbf7f089401e7d2fe3546ff">More...</a><br /></td></tr>
-<tr class="separator:a1e91da0b5cbf7f089401e7d2fe3546ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f695aab7951ba0511afd3ae1b0ea24"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae6f695aab7951ba0511afd3ae1b0ea24">computeHydrodynamicForce</a> (<a class="el" href="classint.html">int</a> u_idx, <a class="el" href="classint.html">int</a> p_idx, <a class="el" href="classint.html">int</a> f_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, <a class="el" href="classdouble.html">double</a> dt, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef=std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;(), <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *p_src_bc_coef=nullptr)</td></tr>
+<tr class="memdesc:ae6f695aab7951ba0511afd3ae1b0ea24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hydrodynamic force. This should be called after advancing the hierarchy.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae6f695aab7951ba0511afd3ae1b0ea24">More...</a><br /></td></tr>
+<tr class="separator:ae6f695aab7951ba0511afd3ae1b0ea24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa39f8df95a5060f65e686ba9ba707c46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#aa39f8df95a5060f65e686ba9ba707c46">postprocessIntegrateData</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time)</td></tr>
 <tr class="memdesc:aa39f8df95a5060f65e686ba9ba707c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postprocess data for the next timestep.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#aa39f8df95a5060f65e686ba9ba707c46">More...</a><br /></td></tr>
 <tr class="separator:aa39f8df95a5060f65e686ba9ba707c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a567af4df5b96db187c2dd90e09aec82b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a567af4df5b96db187c2dd90e09aec82b">putToDatabase</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db) override</td></tr>
 <tr class="memdesc:a567af4df5b96db187c2dd90e09aec82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override the putToDatabase method of the base Serializable class.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a567af4df5b96db187c2dd90e09aec82b">More...</a><br /></td></tr>
 <tr class="separator:a567af4df5b96db187c2dd90e09aec82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad145d6c8997dc132a1d7e1fa5bde449d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ad145d6c8997dc132a1d7e1fa5bde449d">registerStructurePlotData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt; visit_data_writer, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
-<tr class="memdesc:ad145d6c8997dc132a1d7e1fa5bde449d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the control volume plot data and register it with the VisIt data writer.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ad145d6c8997dc132a1d7e1fa5bde449d">More...</a><br /></td></tr>
-<tr class="separator:ad145d6c8997dc132a1d7e1fa5bde449d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94acf6fd3cd0f6951213985a4275ce63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a94acf6fd3cd0f6951213985a4275ce63">updateStructurePlotData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
-<tr class="memdesc:a94acf6fd3cd0f6951213985a4275ce63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the plot variable for the new location of the control volume box.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a94acf6fd3cd0f6951213985a4275ce63">More...</a><br /></td></tr>
-<tr class="separator:a94acf6fd3cd0f6951213985a4275ce63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc28f68ffe653485cfb767ca4bb22f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#adc28f68ffe653485cfb767ca4bb22f1c">registerStructurePlotData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt; visit_data_writer, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
+<tr class="memdesc:adc28f68ffe653485cfb767ca4bb22f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the control volume plot data and register it with the VisIt data writer.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#adc28f68ffe653485cfb767ca4bb22f1c">More...</a><br /></td></tr>
+<tr class="separator:adc28f68ffe653485cfb767ca4bb22f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae976ceb195fc8669d49f12822db29964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae976ceb195fc8669d49f12822db29964">updateStructurePlotData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, <a class="el" href="classint.html">int</a> strct_id=0)</td></tr>
+<tr class="memdesc:ae976ceb195fc8669d49f12822db29964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the plot variable for the new location of the control volume box.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae976ceb195fc8669d49f12822db29964">More...</a><br /></td></tr>
+<tr class="separator:ae976ceb195fc8669d49f12822db29964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -157,18 +157,18 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a9d2dbef2dfa44703dae1e46ba85f37fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html">IBHydrodynamicForceEvaluator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a9d2dbef2dfa44703dae1e46ba85f37fd">operator=</a> (const <a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html">IBHydrodynamicForceEvaluator</a> &amp;that)=delete</td></tr>
 <tr class="memdesc:a9d2dbef2dfa44703dae1e46ba85f37fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a9d2dbef2dfa44703dae1e46ba85f37fd">More...</a><br /></td></tr>
 <tr class="separator:a9d2dbef2dfa44703dae1e46ba85f37fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5d7b9acc0184e3957b96915d67e3f9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ab5d7b9acc0184e3957b96915d67e3f9c">resetFaceAreaWeight</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy)</td></tr>
-<tr class="memdesc:ab5d7b9acc0184e3957b96915d67e3f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset weight of the cell face to face area.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ab5d7b9acc0184e3957b96915d67e3f9c">More...</a><br /></td></tr>
-<tr class="separator:ab5d7b9acc0184e3957b96915d67e3f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9b101d74480e4c2e91a6623cf1d1acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#aa9b101d74480e4c2e91a6623cf1d1acc">resetFaceVolWeight</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy)</td></tr>
-<tr class="memdesc:aa9b101d74480e4c2e91a6623cf1d1acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset weight of the cell face to cell volume.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#aa9b101d74480e4c2e91a6623cf1d1acc">More...</a><br /></td></tr>
-<tr class="separator:aa9b101d74480e4c2e91a6623cf1d1acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2a8a67f3c28c705fae3a0aa208da001"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ad2a8a67f3c28c705fae3a0aa208da001">fillPatchData</a> (const <a class="el" href="classint.html">int</a> u_src_idx, const <a class="el" href="classint.html">int</a> p_src_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef, <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *p_src_bc_coef, const <a class="el" href="classdouble.html">double</a> fill_time)</td></tr>
-<tr class="memdesc:ad2a8a67f3c28c705fae3a0aa208da001"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and fill velocity and pressure patch data.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ad2a8a67f3c28c705fae3a0aa208da001">More...</a><br /></td></tr>
-<tr class="separator:ad2a8a67f3c28c705fae3a0aa208da001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9c6ac0f75f9793d049c7490cff86147"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae9c6ac0f75f9793d049c7490cff86147">getPhysicalCoordinateFromSideIndex</a> (<a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;side_coord, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classSAMRAI_1_1pdat_1_1SideIndex.html">SAMRAI::pdat::SideIndex</a>&lt; NDIM &gt; side_idx, const <a class="el" href="classint.html">int</a> axis)</td></tr>
-<tr class="memdesc:ae9c6ac0f75f9793d049c7490cff86147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the physical coordinate of a given side index.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae9c6ac0f75f9793d049c7490cff86147">More...</a><br /></td></tr>
-<tr class="separator:ae9c6ac0f75f9793d049c7490cff86147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13dac2079701182d7c9f5a710e114374"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a13dac2079701182d7c9f5a710e114374">resetFaceAreaWeight</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy)</td></tr>
+<tr class="memdesc:a13dac2079701182d7c9f5a710e114374"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset weight of the cell face to face area.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a13dac2079701182d7c9f5a710e114374">More...</a><br /></td></tr>
+<tr class="separator:a13dac2079701182d7c9f5a710e114374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc56123016b12676833ae9bdbeb120f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#acc56123016b12676833ae9bdbeb120f6">resetFaceVolWeight</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy)</td></tr>
+<tr class="memdesc:acc56123016b12676833ae9bdbeb120f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset weight of the cell face to cell volume.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#acc56123016b12676833ae9bdbeb120f6">More...</a><br /></td></tr>
+<tr class="separator:acc56123016b12676833ae9bdbeb120f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a766e8b9cf07ba08e0ab6d7886f1d9b56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a766e8b9cf07ba08e0ab6d7886f1d9b56">fillPatchData</a> (const <a class="el" href="classint.html">int</a> u_src_idx, const <a class="el" href="classint.html">int</a> p_src_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_src_bc_coef, <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *p_src_bc_coef, const <a class="el" href="classdouble.html">double</a> fill_time)</td></tr>
+<tr class="memdesc:a766e8b9cf07ba08e0ab6d7886f1d9b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate and fill velocity and pressure patch data.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#a766e8b9cf07ba08e0ab6d7886f1d9b56">More...</a><br /></td></tr>
+<tr class="separator:a766e8b9cf07ba08e0ab6d7886f1d9b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae947bd4c63ee4aa77dbf924e62bef319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae947bd4c63ee4aa77dbf924e62bef319">getPhysicalCoordinateFromSideIndex</a> (<a class="el" href="namespaceIBTK.html#ab4ae9d461191bfbc3f356a669835f365">IBTK::Vector3d</a> &amp;side_coord, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1pdat_1_1SideIndex.html">SAMRAI::pdat::SideIndex</a>&lt; NDIM &gt; side_idx, const <a class="el" href="classint.html">int</a> axis)</td></tr>
+<tr class="memdesc:ae947bd4c63ee4aa77dbf924e62bef319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the physical coordinate of a given side index.  <a href="classIBAMR_1_1IBHydrodynamicForceEvaluator.html#ae947bd4c63ee4aa77dbf924e62bef319">More...</a><br /></td></tr>
+<tr class="separator:ae947bd4c63ee4aa77dbf924e62bef319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -318,8 +318,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a10aafe45988d0f6366d7b83b9eb2c610"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10aafe45988d0f6366d7b83b9eb2c610">&#9670;&nbsp;</a></span>registerStructure()</h2>
+<a id="a41ed28803d8e0b2d8b2a46fd3a1d8d9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ed28803d8e0b2d8b2a46fd3a1d8d9d">&#9670;&nbsp;</a></span>registerStructure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +339,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -373,8 +373,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae469d2c0980cc875e879513e0bb08589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae469d2c0980cc875e879513e0bb08589">&#9670;&nbsp;</a></span>updateStructureDomain()</h2>
+<a id="a6fa7a5f5769ecd4f146cc34b38fa8fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa7a5f5769ecd4f146cc34b38fa8fed">&#9670;&nbsp;</a></span>updateStructureDomain()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +394,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -510,8 +510,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ef440f7acdf168e92645051f28b2ed6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ef440f7acdf168e92645051f28b2ed6">&#9670;&nbsp;</a></span>computeLaggedMomentumIntegral()</h2>
+<a id="acc02e9f1e34cb993c087d5debf14cef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc02e9f1e34cb993c087d5debf14cef3">&#9670;&nbsp;</a></span>computeLaggedMomentumIntegral()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,7 +525,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -595,8 +595,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e91da0b5cbf7f089401e7d2fe3546ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e91da0b5cbf7f089401e7d2fe3546ff">&#9670;&nbsp;</a></span>computeHydrodynamicForce()</h2>
+<a id="ae6f695aab7951ba0511afd3ae1b0ea24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6f695aab7951ba0511afd3ae1b0ea24">&#9670;&nbsp;</a></span>computeHydrodynamicForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,7 +625,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -736,8 +736,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad145d6c8997dc132a1d7e1fa5bde449d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad145d6c8997dc132a1d7e1fa5bde449d">&#9670;&nbsp;</a></span>registerStructurePlotData()</h2>
+<a id="adc28f68ffe653485cfb767ca4bb22f1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc28f68ffe653485cfb767ca4bb22f1c">&#9670;&nbsp;</a></span>registerStructurePlotData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -745,13 +745,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBHydrodynamicForceEvaluator::registerStructurePlotData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>visit_data_writer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -776,8 +776,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a94acf6fd3cd0f6951213985a4275ce63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94acf6fd3cd0f6951213985a4275ce63">&#9670;&nbsp;</a></span>updateStructurePlotData()</h2>
+<a id="ae976ceb195fc8669d49f12822db29964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae976ceb195fc8669d49f12822db29964">&#9670;&nbsp;</a></span>updateStructurePlotData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -785,7 +785,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBHydrodynamicForceEvaluator::updateStructurePlotData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -844,8 +844,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab5d7b9acc0184e3957b96915d67e3f9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5d7b9acc0184e3957b96915d67e3f9c">&#9670;&nbsp;</a></span>resetFaceAreaWeight()</h2>
+<a id="a13dac2079701182d7c9f5a710e114374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13dac2079701182d7c9f5a710e114374">&#9670;&nbsp;</a></span>resetFaceAreaWeight()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -856,7 +856,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBHydrodynamicForceEvaluator::resetFaceAreaWeight </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -870,8 +870,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa9b101d74480e4c2e91a6623cf1d1acc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9b101d74480e4c2e91a6623cf1d1acc">&#9670;&nbsp;</a></span>resetFaceVolWeight()</h2>
+<a id="acc56123016b12676833ae9bdbeb120f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc56123016b12676833ae9bdbeb120f6">&#9670;&nbsp;</a></span>resetFaceVolWeight()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -882,7 +882,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBHydrodynamicForceEvaluator::resetFaceVolWeight </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -896,8 +896,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2a8a67f3c28c705fae3a0aa208da001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2a8a67f3c28c705fae3a0aa208da001">&#9670;&nbsp;</a></span>fillPatchData()</h2>
+<a id="a766e8b9cf07ba08e0ab6d7886f1d9b56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766e8b9cf07ba08e0ab6d7886f1d9b56">&#9670;&nbsp;</a></span>fillPatchData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -920,7 +920,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>
@@ -956,8 +956,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9c6ac0f75f9793d049c7490cff86147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9c6ac0f75f9793d049c7490cff86147">&#9670;&nbsp;</a></span>getPhysicalCoordinateFromSideIndex()</h2>
+<a id="ae947bd4c63ee4aa77dbf924e62bef319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae947bd4c63ee4aa77dbf924e62bef319">&#9670;&nbsp;</a></span>getPhysicalCoordinateFromSideIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -974,13 +974,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>

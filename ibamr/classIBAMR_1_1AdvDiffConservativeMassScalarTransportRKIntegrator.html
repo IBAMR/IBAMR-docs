@@ -160,9 +160,9 @@ General operator functionality.</h2></td></tr>
 <tr class="separator:a6c52c9cd014d493bc8176d81f6cef1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c790b19cf1595a4d44e095d7ed5c15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a39c790b19cf1595a4d44e095d7ed5c15">d_material_property_limiter_gcw</a> = 1</td></tr>
 <tr class="separator:a39c790b19cf1595a4d44e095d7ed5c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aade8c3183b31be1c2261fec081cffa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a0aade8c3183b31be1c2261fec081cffa">initializeSTSIntegrator</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; base_hierarchy) override</td></tr>
-<tr class="memdesc:a0aade8c3183b31be1c2261fec081cffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for time integrating variables.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a0aade8c3183b31be1c2261fec081cffa">More...</a><br /></td></tr>
-<tr class="separator:a0aade8c3183b31be1c2261fec081cffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8137f346dddd9d0ae7b46e92b843af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6c8137f346dddd9d0ae7b46e92b843af">initializeSTSIntegrator</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; base_hierarchy) override</td></tr>
+<tr class="memdesc:a6c8137f346dddd9d0ae7b46e92b843af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for time integrating variables.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6c8137f346dddd9d0ae7b46e92b843af">More...</a><br /></td></tr>
+<tr class="separator:a6c8137f346dddd9d0ae7b46e92b843af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7e54ae41bfeec0a41687724a2420bf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#af7e54ae41bfeec0a41687724a2420bf8">deallocateSTSIntegrator</a> () override</td></tr>
 <tr class="memdesc:af7e54ae41bfeec0a41687724a2420bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by initializeTimeIntegrator().  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#af7e54ae41bfeec0a41687724a2420bf8">More...</a><br /></td></tr>
 <tr class="separator:af7e54ae41bfeec0a41687724a2420bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,9 +190,9 @@ General operator functionality.</h2></td></tr>
 <tr class="memitem:a63cd326a747cf61496adf90ee4c5984c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a63cd326a747cf61496adf90ee4c5984c">setTransportQuantityPatchDataIndices</a> (<a class="el" href="classint.html">int</a> Q_current_idx, <a class="el" href="classint.html">int</a> Q_new_idx)</td></tr>
 <tr class="memdesc:a63cd326a747cf61496adf90ee4c5984c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the patch data indices corresponding to the transport quantity to be used when computing the convective derivative.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a63cd326a747cf61496adf90ee4c5984c">More...</a><br /></td></tr>
 <tr class="separator:a63cd326a747cf61496adf90ee4c5984c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa302f1dc393edd2fcb14a0e24e3d3ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#afa302f1dc393edd2fcb14a0e24e3d3ef">setMaterialPropertyVariable</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; gamma_var)</td></tr>
-<tr class="memdesc:afa302f1dc393edd2fcb14a0e24e3d3ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the material property variable.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#afa302f1dc393edd2fcb14a0e24e3d3ef">More...</a><br /></td></tr>
-<tr class="separator:afa302f1dc393edd2fcb14a0e24e3d3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1288e461106cb6951cea6a9a847bcd76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a1288e461106cb6951cea6a9a847bcd76">setMaterialPropertyVariable</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; gamma_var)</td></tr>
+<tr class="memdesc:a1288e461106cb6951cea6a9a847bcd76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the material property variable.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a1288e461106cb6951cea6a9a847bcd76">More...</a><br /></td></tr>
+<tr class="separator:a1288e461106cb6951cea6a9a847bcd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b528a23bf1cd4bb13af271b1d0dadc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6b528a23bf1cd4bb13af271b1d0dadc9">AdvDiffConservativeMassScalarTransportRKIntegrator</a> ()=delete</td></tr>
 <tr class="memdesc:a6b528a23bf1cd4bb13af271b1d0dadc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6b528a23bf1cd4bb13af271b1d0dadc9">More...</a><br /></td></tr>
 <tr class="separator:a6b528a23bf1cd4bb13af271b1d0dadc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,18 +202,18 @@ General operator functionality.</h2></td></tr>
 <tr class="memitem:a0f7043c9a9cb1a1851c8bddd4895b068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html">AdvDiffConservativeMassScalarTransportRKIntegrator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a0f7043c9a9cb1a1851c8bddd4895b068">operator=</a> (const <a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html">AdvDiffConservativeMassScalarTransportRKIntegrator</a> &amp;that)=delete</td></tr>
 <tr class="memdesc:a0f7043c9a9cb1a1851c8bddd4895b068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a0f7043c9a9cb1a1851c8bddd4895b068">More...</a><br /></td></tr>
 <tr class="separator:a0f7043c9a9cb1a1851c8bddd4895b068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48cac8e8b779b876204d17756a981d45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a48cac8e8b779b876204d17756a981d45">interpolateCellQuantity</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_half_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_data, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;patch_lower, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;patch_upper, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="namespaceIBAMR.html#ac561f6320b68e45cbd3395220a51a4f4">LimiterType</a> &amp;convective_limiter)</td></tr>
-<tr class="memdesc:a48cac8e8b779b876204d17756a981d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the interpolation of a quantity Q onto faces of the cell centered control volumes.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a48cac8e8b779b876204d17756a981d45">More...</a><br /></td></tr>
-<tr class="separator:a48cac8e8b779b876204d17756a981d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6281e3fcdea42444dfbabbfd5320eb6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6281e3fcdea42444dfbabbfd5320eb6b">computeConvectiveDerivative</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; N_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; P_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; G_half_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="classdouble.html">double</a> *const dx)</td></tr>
-<tr class="memdesc:a6281e3fcdea42444dfbabbfd5320eb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute div[rho_lim * gamma_lim * u_adv * Q_lim]. Here, rho_lim * u_adv is obtained from integrating the mass balance equation.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6281e3fcdea42444dfbabbfd5320eb6b">More...</a><br /></td></tr>
-<tr class="separator:a6281e3fcdea42444dfbabbfd5320eb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6a138d98682e7ff935449cf1510ef39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#aa6a138d98682e7ff935449cf1510ef39">computeDensityUpdate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R_data, const <a class="el" href="classdouble.html">double</a> &amp;a0, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R0_data, const <a class="el" href="classdouble.html">double</a> &amp;a1, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R1_data, const <a class="el" href="classdouble.html">double</a> &amp;a2, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; S_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="classdouble.html">double</a> &amp;dt, const <a class="el" href="classdouble.html">double</a> *const dx)</td></tr>
-<tr class="memdesc:aa6a138d98682e7ff935449cf1510ef39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the density update rho = a0*rho^0 + a1*rho^1 + a2*dt*(-div[u_adv*rho_half]) + a2*dt*S.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#aa6a138d98682e7ff935449cf1510ef39">More...</a><br /></td></tr>
-<tr class="separator:aa6a138d98682e7ff935449cf1510ef39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1baf60ea6707a4f4d40909e3f5dba5b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a1baf60ea6707a4f4d40909e3f5dba5b7">computeErrorOfMassConservationEquation</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; E_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Rnew_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Rold_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R_half_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="classdouble.html">double</a> &amp;dt, const <a class="el" href="classdouble.html">double</a> *const dx)</td></tr>
-<tr class="memdesc:a1baf60ea6707a4f4d40909e3f5dba5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the error of the mass conservation equation using the integrated density field pointwise.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a1baf60ea6707a4f4d40909e3f5dba5b7">More...</a><br /></td></tr>
-<tr class="separator:a1baf60ea6707a4f4d40909e3f5dba5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4a14b7ae12bce91d97807dc9f56a4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a9e4a14b7ae12bce91d97807dc9f56a4b">interpolateCellQuantity</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_half_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_data, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;patch_lower, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;patch_upper, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="namespaceIBAMR.html#ac561f6320b68e45cbd3395220a51a4f4">LimiterType</a> &amp;convective_limiter)</td></tr>
+<tr class="memdesc:a9e4a14b7ae12bce91d97807dc9f56a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the interpolation of a quantity Q onto faces of the cell centered control volumes.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a9e4a14b7ae12bce91d97807dc9f56a4b">More...</a><br /></td></tr>
+<tr class="separator:a9e4a14b7ae12bce91d97807dc9f56a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55098e582c64584be95686b031508e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a55098e582c64584be95686b031508e28">computeConvectiveDerivative</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; N_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; P_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; G_half_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="classdouble.html">double</a> *const dx)</td></tr>
+<tr class="memdesc:a55098e582c64584be95686b031508e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute div[rho_lim * gamma_lim * u_adv * Q_lim]. Here, rho_lim * u_adv is obtained from integrating the mass balance equation.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a55098e582c64584be95686b031508e28">More...</a><br /></td></tr>
+<tr class="separator:a55098e582c64584be95686b031508e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59f67fbe9fcbd4791fec3f75ffbf4e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#ae59f67fbe9fcbd4791fec3f75ffbf4e8">computeDensityUpdate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R_data, const <a class="el" href="classdouble.html">double</a> &amp;a0, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R0_data, const <a class="el" href="classdouble.html">double</a> &amp;a1, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R1_data, const <a class="el" href="classdouble.html">double</a> &amp;a2, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R_half_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; S_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="classdouble.html">double</a> &amp;dt, const <a class="el" href="classdouble.html">double</a> *const dx)</td></tr>
+<tr class="memdesc:ae59f67fbe9fcbd4791fec3f75ffbf4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the density update rho = a0*rho^0 + a1*rho^1 + a2*dt*(-div[u_adv*rho_half]) + a2*dt*S.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#ae59f67fbe9fcbd4791fec3f75ffbf4e8">More...</a><br /></td></tr>
+<tr class="separator:ae59f67fbe9fcbd4791fec3f75ffbf4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad685e129883b8d53d633b0a7d91f594c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#ad685e129883b8d53d633b0a7d91f594c">computeErrorOfMassConservationEquation</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; E_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Rnew_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Rold_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; U_adv_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R_half_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;patch_box, const <a class="el" href="classdouble.html">double</a> &amp;dt, const <a class="el" href="classdouble.html">double</a> *const dx)</td></tr>
+<tr class="memdesc:ad685e129883b8d53d633b0a7d91f594c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the error of the mass conservation equation using the integrated density field pointwise.  <a href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#ad685e129883b8d53d633b0a7d91f594c">More...</a><br /></td></tr>
+<tr class="separator:ad685e129883b8d53d633b0a7d91f594c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 General time stepping functionality.</h2></td></tr>
@@ -487,8 +487,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="a0aade8c3183b31be1c2261fec081cffa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aade8c3183b31be1c2261fec081cffa">&#9670;&nbsp;</a></span>initializeSTSIntegrator()</h2>
+<a id="a6c8137f346dddd9d0ae7b46e92b843af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8137f346dddd9d0ae7b46e92b843af">&#9670;&nbsp;</a></span>initializeSTSIntegrator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -499,7 +499,7 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator::initializeSTSIntegrator </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>base_hierarchy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -511,7 +511,7 @@ General time stepping functionality.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a51693033ace691221c48a8b314f05567">IBAMR::STSMassFluxIntegrator</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#ac15dad6a6ff901b1ad40d05f5b516064">IBAMR::STSMassFluxIntegrator</a>.</p>
 
 </div>
 </div>
@@ -709,8 +709,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="afa302f1dc393edd2fcb14a0e24e3d3ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa302f1dc393edd2fcb14a0e24e3d3ef">&#9670;&nbsp;</a></span>setMaterialPropertyVariable()</h2>
+<a id="a1288e461106cb6951cea6a9a847bcd76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1288e461106cb6951cea6a9a847bcd76">&#9670;&nbsp;</a></span>setMaterialPropertyVariable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -718,7 +718,7 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator::setMaterialPropertyVariable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>gamma_var</em></td><td>)</td>
           <td></td>
         </tr>
@@ -761,8 +761,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="a48cac8e8b779b876204d17756a981d45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48cac8e8b779b876204d17756a981d45">&#9670;&nbsp;</a></span>interpolateCellQuantity()</h2>
+<a id="a9e4a14b7ae12bce91d97807dc9f56a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e4a14b7ae12bce91d97807dc9f56a4b">&#9670;&nbsp;</a></span>interpolateCellQuantity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,19 +773,19 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator::interpolateCellQuantity </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_half_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>U_adv_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_data</em>, </td>
         </tr>
         <tr>
@@ -827,8 +827,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="a6281e3fcdea42444dfbabbfd5320eb6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6281e3fcdea42444dfbabbfd5320eb6b">&#9670;&nbsp;</a></span>computeConvectiveDerivative()</h2>
+<a id="a55098e582c64584be95686b031508e28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55098e582c64584be95686b031508e28">&#9670;&nbsp;</a></span>computeConvectiveDerivative()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -839,37 +839,37 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator::computeConvectiveDerivative </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>N_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>P_half_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>U_adv_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R_half_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_half_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>G_half_data</em>, </td>
         </tr>
         <tr>
@@ -899,8 +899,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6a138d98682e7ff935449cf1510ef39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6a138d98682e7ff935449cf1510ef39">&#9670;&nbsp;</a></span>computeDensityUpdate()</h2>
+<a id="ae59f67fbe9fcbd4791fec3f75ffbf4e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59f67fbe9fcbd4791fec3f75ffbf4e8">&#9670;&nbsp;</a></span>computeDensityUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -911,7 +911,7 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator::computeDensityUpdate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R_data</em>, </td>
         </tr>
         <tr>
@@ -923,7 +923,7 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R0_data</em>, </td>
         </tr>
         <tr>
@@ -935,7 +935,7 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R1_data</em>, </td>
         </tr>
         <tr>
@@ -947,19 +947,19 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>U_adv_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R_half_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>S_data</em>, </td>
         </tr>
         <tr>
@@ -995,8 +995,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="a1baf60ea6707a4f4d40909e3f5dba5b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1baf60ea6707a4f4d40909e3f5dba5b7">&#9670;&nbsp;</a></span>computeErrorOfMassConservationEquation()</h2>
+<a id="ad685e129883b8d53d633b0a7d91f594c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad685e129883b8d53d633b0a7d91f594c">&#9670;&nbsp;</a></span>computeErrorOfMassConservationEquation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1007,31 +1007,31 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator::computeErrorOfMassConservationEquation </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>E_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Rnew_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Rold_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>U_adv_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R_half_data</em>, </td>
         </tr>
         <tr>

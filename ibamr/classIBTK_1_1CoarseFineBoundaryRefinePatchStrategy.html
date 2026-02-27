@@ -145,8 +145,8 @@ Extension of SAMRAI::xfer::RefinePatchStrategy interface to support more</h2></t
 <tr class="memitem:af78e1121fe2d40c92b743ae114a0e836"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#af78e1121fe2d40c92b743ae114a0e836">setPatchDataIndices</a> (const <a class="el" href="classSAMRAI_1_1hier_1_1ComponentSelector.html">SAMRAI::hier::ComponentSelector</a> &amp;patch_data_indices)=0</td></tr>
 <tr class="memdesc:af78e1121fe2d40c92b743ae114a0e836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data indices operated upon by this class.  <a href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#af78e1121fe2d40c92b743ae114a0e836">More...</a><br /></td></tr>
 <tr class="separator:af78e1121fe2d40c92b743ae114a0e836"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa316651963c517e64554691063cf16fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#aa316651963c517e64554691063cf16fd">setPatchHierarchy</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy)=0</td></tr>
-<tr class="separator:aa316651963c517e64554691063cf16fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919c10505040ca117a993aec8dcb130f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#a919c10505040ca117a993aec8dcb130f">setPatchHierarchy</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy)=0</td></tr>
+<tr class="separator:a919c10505040ca117a993aec8dcb130f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a50266dfa79440c8aab6827f2d98fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#a05a50266dfa79440c8aab6827f2d98fa">clearPatchHierarchy</a> ()=0</td></tr>
 <tr class="separator:a05a50266dfa79440c8aab6827f2d98fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2593302c8125bc1b79d1f2e9dd3a5caf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#a2593302c8125bc1b79d1f2e9dd3a5caf">computeNormalExtension</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ratio, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_width_to_fill)=0</td></tr>
@@ -558,8 +558,8 @@ Extension of SAMRAI::xfer::RefinePatchStrategy interface to support more</h2></t
 
 </div>
 </div>
-<a id="aa316651963c517e64554691063cf16fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa316651963c517e64554691063cf16fd">&#9670;&nbsp;</a></span>setPatchHierarchy()</h2>
+<a id="a919c10505040ca117a993aec8dcb130f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919c10505040ca117a993aec8dcb130f">&#9670;&nbsp;</a></span>setPatchHierarchy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,7 +570,7 @@ Extension of SAMRAI::xfer::RefinePatchStrategy interface to support more</h2></t
         <tr>
           <td class="memname">virtual void IBTK::CoarseFineBoundaryRefinePatchStrategy::setPatchHierarchy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -583,7 +583,7 @@ Extension of SAMRAI::xfer::RefinePatchStrategy interface to support more</h2></t
 </div><div class="memdoc">
 <p>Set the patch hierarchy used in constructing coarse-fine interface boundary boxes. </p>
 
-<p>Implemented in <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#ac16d2c8eca7d9883ea7e4b03f727d29c">IBTK::CartSideDoubleQuadraticCFInterpolation</a>, <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a10505afff747bf7e689390b4bac42ed1">IBTK::CartCellDoubleQuadraticCFInterpolation</a>, and <a class="el" href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a3c76bf880ce2d03baeaa77bfe77dbc2e">IBTK::CartCellDoubleLinearCFInterpolation</a>.</p>
+<p>Implemented in <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#ad585f5441e29dcdf9105480ae7eea694">IBTK::CartSideDoubleQuadraticCFInterpolation</a>, <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#ab82f5341597da50cdf03b339d421798a">IBTK::CartCellDoubleQuadraticCFInterpolation</a>, and <a class="el" href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a6e7c5e34265eb513357b05e265302e71">IBTK::CartCellDoubleLinearCFInterpolation</a>.</p>
 
 </div>
 </div>

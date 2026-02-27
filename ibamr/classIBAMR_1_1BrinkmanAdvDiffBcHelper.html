@@ -139,27 +139,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53f21273552f81f7f1c9dd3f296df11d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classdouble.html">double</a>, <a class="el" href="classdouble.html">double</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a53f21273552f81f7f1c9dd3f296df11d">getCurrentTimeInterval</a> () const</td></tr>
 <tr class="memdesc:a53f21273552f81f7f1c9dd3f296df11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current time interval \( [t^{n+1}, t^n] \) in which Brinkman velocity is computed.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a53f21273552f81f7f1c9dd3f296df11d">More...</a><br /></td></tr>
 <tr class="separator:a53f21273552f81f7f1c9dd3f296df11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5827128cb1094ae752c572b103ebabf5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a5827128cb1094ae752c572b103ebabf5">hasBrinkmanBoundaryCondition</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var) const</td></tr>
-<tr class="memdesc:a5827128cb1094ae752c572b103ebabf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to determine if a transported quantity has Brinkman boundary conditions associated with it.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a5827128cb1094ae752c572b103ebabf5">More...</a><br /></td></tr>
-<tr class="separator:a5827128cb1094ae752c572b103ebabf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacf55a8068f86682c36d8cf7b37b31d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#aacf55a8068f86682c36d8cf7b37b31d8">registerHomogeneousBC</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; ls_solid_var, std::string bc_type, std::string indicator_func_type=&quot;SMOOTH&quot;, double num_interface_cells=2.0, <a class="el" href="classdouble.html">double</a> eta_penalty_coef=1.0e-8)</td></tr>
-<tr class="memdesc:aacf55a8068f86682c36d8cf7b37b31d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a transported quantity with this object, along with the solid level set variable for which to apply a homogeneous boundary condition.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#aacf55a8068f86682c36d8cf7b37b31d8">More...</a><br /></td></tr>
-<tr class="separator:aacf55a8068f86682c36d8cf7b37b31d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab629f33702e05c90a6b956fe2c3daa0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#ab629f33702e05c90a6b956fe2c3daa0e">registerInhomogeneousBC</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; ls_solid_var, std::string bc_type, <a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a78602385fad14b973d0e3646e76ac9f5">BrinkmanInhomogeneousBCsFcnPtr</a> callback=nullptr, void *ctx=nullptr, std::string indicator_func_type=&quot;SMOOTH&quot;, double num_interface_cells=2.0, <a class="el" href="classdouble.html">double</a> eta_penalty_coef=1.0e-8, <a class="el" href="classdouble.html">double</a> bc_val=std::numeric_limits&lt; <a class="el" href="classdouble.html">double</a> &gt;::signaling_NaN())</td></tr>
-<tr class="memdesc:ab629f33702e05c90a6b956fe2c3daa0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a transported quantity with this object, along with the solid level set variable on which to apply inhomogeneous boundary conditions.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#ab629f33702e05c90a6b956fe2c3daa0e">More...</a><br /></td></tr>
-<tr class="separator:ab629f33702e05c90a6b956fe2c3daa0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1326eb41fc356448be021c0b99f8488d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a1326eb41fc356448be021c0b99f8488d">computeDampingCoefficient</a> (<a class="el" href="classint.html">int</a> C_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var)</td></tr>
-<tr class="memdesc:a1326eb41fc356448be021c0b99f8488d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to compute the cell-centered coefficient to the damping linear operator and RHS of the advection-diffusion equation for a specified transported quantity Q_var.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a1326eb41fc356448be021c0b99f8488d">More...</a><br /></td></tr>
-<tr class="separator:a1326eb41fc356448be021c0b99f8488d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dfc72767d9465186c58fb196ff97ea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a4dfc72767d9465186c58fb196ff97ea5">computeDiffusionCoefficient</a> (<a class="el" href="classint.html">int</a> D_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var, <a class="el" href="classint.html">int</a> kappa_idx, <a class="el" href="classdouble.html">double</a> kappa)</td></tr>
-<tr class="memdesc:a4dfc72767d9465186c58fb196ff97ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to compute the side-centered coefficient to the diffusion linear operator and RHS of the advection-diffusion equation for a specified transported quantity Q_var with diffusion coefficient kappa.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a4dfc72767d9465186c58fb196ff97ea5">More...</a><br /></td></tr>
-<tr class="separator:a4dfc72767d9465186c58fb196ff97ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80aee1dd860715b90ed40ff71e7a614f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a80aee1dd860715b90ed40ff71e7a614f">computeForcing</a> (<a class="el" href="classint.html">int</a> F_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var)</td></tr>
-<tr class="memdesc:a80aee1dd860715b90ed40ff71e7a614f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to compute the Brinkman forcing contribution to the RHS of the advection-diffusion solver for a specified transported quantity Q_var.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a80aee1dd860715b90ed40ff71e7a614f">More...</a><br /></td></tr>
-<tr class="separator:a80aee1dd860715b90ed40ff71e7a614f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f42b29cc683d6033a1f4057ea355df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a71f42b29cc683d6033a1f4057ea355df">maskForcingTerm</a> (<a class="el" href="classint.html">int</a> N_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; Q_var, const <a class="el" href="classbool.html">bool</a> mask_smeared_region=false)</td></tr>
-<tr class="memdesc:a71f42b29cc683d6033a1f4057ea355df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to mask the additional forcing terms on the RHS of the advection-diffusion solver e.g. \( u \dot \grad Q\) and body forces.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a71f42b29cc683d6033a1f4057ea355df">More...</a><br /></td></tr>
-<tr class="separator:a71f42b29cc683d6033a1f4057ea355df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10501cfb0c91b684c1a8a0abb967a4f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a10501cfb0c91b684c1a8a0abb967a4f7">hasBrinkmanBoundaryCondition</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var) const</td></tr>
+<tr class="memdesc:a10501cfb0c91b684c1a8a0abb967a4f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to determine if a transported quantity has Brinkman boundary conditions associated with it.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a10501cfb0c91b684c1a8a0abb967a4f7">More...</a><br /></td></tr>
+<tr class="separator:a10501cfb0c91b684c1a8a0abb967a4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1513651a2159ece1c9023d33599df571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a1513651a2159ece1c9023d33599df571">registerHomogeneousBC</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; ls_solid_var, std::string bc_type, std::string indicator_func_type=&quot;SMOOTH&quot;, double num_interface_cells=2.0, <a class="el" href="classdouble.html">double</a> eta_penalty_coef=1.0e-8)</td></tr>
+<tr class="memdesc:a1513651a2159ece1c9023d33599df571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a transported quantity with this object, along with the solid level set variable for which to apply a homogeneous boundary condition.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a1513651a2159ece1c9023d33599df571">More...</a><br /></td></tr>
+<tr class="separator:a1513651a2159ece1c9023d33599df571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7574cf644d22cfc96dc05ec05209a117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a7574cf644d22cfc96dc05ec05209a117">registerInhomogeneousBC</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; ls_solid_var, std::string bc_type, <a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a78602385fad14b973d0e3646e76ac9f5">BrinkmanInhomogeneousBCsFcnPtr</a> callback=nullptr, void *ctx=nullptr, std::string indicator_func_type=&quot;SMOOTH&quot;, double num_interface_cells=2.0, <a class="el" href="classdouble.html">double</a> eta_penalty_coef=1.0e-8, <a class="el" href="classdouble.html">double</a> bc_val=std::numeric_limits&lt; <a class="el" href="classdouble.html">double</a> &gt;::signaling_NaN())</td></tr>
+<tr class="memdesc:a7574cf644d22cfc96dc05ec05209a117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a transported quantity with this object, along with the solid level set variable on which to apply inhomogeneous boundary conditions.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a7574cf644d22cfc96dc05ec05209a117">More...</a><br /></td></tr>
+<tr class="separator:a7574cf644d22cfc96dc05ec05209a117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeed71da7d17b9b5612ba00d9e1a9fe2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#aeed71da7d17b9b5612ba00d9e1a9fe2b">computeDampingCoefficient</a> (<a class="el" href="classint.html">int</a> C_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var)</td></tr>
+<tr class="memdesc:aeed71da7d17b9b5612ba00d9e1a9fe2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to compute the cell-centered coefficient to the damping linear operator and RHS of the advection-diffusion equation for a specified transported quantity Q_var.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#aeed71da7d17b9b5612ba00d9e1a9fe2b">More...</a><br /></td></tr>
+<tr class="separator:aeed71da7d17b9b5612ba00d9e1a9fe2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827673dc0ec2ff1e5160145cde21d0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a827673dc0ec2ff1e5160145cde21d0e0">computeDiffusionCoefficient</a> (<a class="el" href="classint.html">int</a> D_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var, <a class="el" href="classint.html">int</a> kappa_idx, <a class="el" href="classdouble.html">double</a> kappa)</td></tr>
+<tr class="memdesc:a827673dc0ec2ff1e5160145cde21d0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to compute the side-centered coefficient to the diffusion linear operator and RHS of the advection-diffusion equation for a specified transported quantity Q_var with diffusion coefficient kappa.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a827673dc0ec2ff1e5160145cde21d0e0">More...</a><br /></td></tr>
+<tr class="separator:a827673dc0ec2ff1e5160145cde21d0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24543842c9a94807bae11a9bf0d2dd02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a24543842c9a94807bae11a9bf0d2dd02">computeForcing</a> (<a class="el" href="classint.html">int</a> F_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var)</td></tr>
+<tr class="memdesc:a24543842c9a94807bae11a9bf0d2dd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to compute the Brinkman forcing contribution to the RHS of the advection-diffusion solver for a specified transported quantity Q_var.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a24543842c9a94807bae11a9bf0d2dd02">More...</a><br /></td></tr>
+<tr class="separator:a24543842c9a94807bae11a9bf0d2dd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9415a83f3946fda99b32f0206439237b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a9415a83f3946fda99b32f0206439237b">maskForcingTerm</a> (<a class="el" href="classint.html">int</a> N_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; Q_var, const <a class="el" href="classbool.html">bool</a> mask_smeared_region=false)</td></tr>
+<tr class="memdesc:a9415a83f3946fda99b32f0206439237b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to mask the additional forcing terms on the RHS of the advection-diffusion solver e.g. \( u \dot \grad Q\) and body forces.  <a href="classIBAMR_1_1BrinkmanAdvDiffBcHelper.html#a9415a83f3946fda99b32f0206439237b">More...</a><br /></td></tr>
+<tr class="separator:a9415a83f3946fda99b32f0206439237b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -499,8 +499,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5827128cb1094ae752c572b103ebabf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5827128cb1094ae752c572b103ebabf5">&#9670;&nbsp;</a></span>hasBrinkmanBoundaryCondition()</h2>
+<a id="a10501cfb0c91b684c1a8a0abb967a4f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10501cfb0c91b684c1a8a0abb967a4f7">&#9670;&nbsp;</a></span>hasBrinkmanBoundaryCondition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +511,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classbool.html">bool</a> IBAMR::BrinkmanAdvDiffBcHelper::hasBrinkmanBoundaryCondition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -525,8 +525,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aacf55a8068f86682c36d8cf7b37b31d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacf55a8068f86682c36d8cf7b37b31d8">&#9670;&nbsp;</a></span>registerHomogeneousBC()</h2>
+<a id="a1513651a2159ece1c9023d33599df571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1513651a2159ece1c9023d33599df571">&#9670;&nbsp;</a></span>registerHomogeneousBC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,13 +534,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::BrinkmanAdvDiffBcHelper::registerHomogeneousBC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>ls_solid_var</em>, </td>
         </tr>
         <tr>
@@ -578,8 +578,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab629f33702e05c90a6b956fe2c3daa0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab629f33702e05c90a6b956fe2c3daa0e">&#9670;&nbsp;</a></span>registerInhomogeneousBC()</h2>
+<a id="a7574cf644d22cfc96dc05ec05209a117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7574cf644d22cfc96dc05ec05209a117">&#9670;&nbsp;</a></span>registerInhomogeneousBC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -587,13 +587,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::BrinkmanAdvDiffBcHelper::registerInhomogeneousBC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>ls_solid_var</em>, </td>
         </tr>
         <tr>
@@ -649,8 +649,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1326eb41fc356448be021c0b99f8488d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1326eb41fc356448be021c0b99f8488d">&#9670;&nbsp;</a></span>computeDampingCoefficient()</h2>
+<a id="aeed71da7d17b9b5612ba00d9e1a9fe2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeed71da7d17b9b5612ba00d9e1a9fe2b">&#9670;&nbsp;</a></span>computeDampingCoefficient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -664,7 +664,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em>&#160;</td>
         </tr>
         <tr>
@@ -679,8 +679,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4dfc72767d9465186c58fb196ff97ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dfc72767d9465186c58fb196ff97ea5">&#9670;&nbsp;</a></span>computeDiffusionCoefficient()</h2>
+<a id="a827673dc0ec2ff1e5160145cde21d0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827673dc0ec2ff1e5160145cde21d0e0">&#9670;&nbsp;</a></span>computeDiffusionCoefficient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,7 +694,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em>, </td>
         </tr>
         <tr>
@@ -721,8 +721,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a80aee1dd860715b90ed40ff71e7a614f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80aee1dd860715b90ed40ff71e7a614f">&#9670;&nbsp;</a></span>computeForcing()</h2>
+<a id="a24543842c9a94807bae11a9bf0d2dd02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24543842c9a94807bae11a9bf0d2dd02">&#9670;&nbsp;</a></span>computeForcing()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -736,7 +736,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em>&#160;</td>
         </tr>
         <tr>
@@ -750,8 +750,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a71f42b29cc683d6033a1f4057ea355df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71f42b29cc683d6033a1f4057ea355df">&#9670;&nbsp;</a></span>maskForcingTerm()</h2>
+<a id="a9415a83f3946fda99b32f0206439237b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9415a83f3946fda99b32f0206439237b">&#9670;&nbsp;</a></span>maskForcingTerm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -765,7 +765,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>Q_var</em>, </td>
         </tr>
         <tr>

@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a14a9edc888409a97e3da9b56817a2933"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#a14a9edc888409a97e3da9b56817a2933">setComponentPreconditioner</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearSolver.html">LinearSolver</a> &gt; preconditioner, unsigned <a class="el" href="classint.html">int</a> component)</td></tr>
 <tr class="memdesc:a14a9edc888409a97e3da9b56817a2933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the preconditioner to be employed on the specified vector component.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#a14a9edc888409a97e3da9b56817a2933">More...</a><br /></td></tr>
 <tr class="separator:a14a9edc888409a97e3da9b56817a2933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79eae016338521e633ee9b8bd020f235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#a79eae016338521e633ee9b8bd020f235">setComponentOperators</a> (const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearOperator.html">LinearOperator</a> &gt; &gt; &amp;linear_ops, unsigned <a class="el" href="classint.html">int</a> component)</td></tr>
-<tr class="memdesc:a79eae016338521e633ee9b8bd020f235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the linear operators to be employed on the specified vector component.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#a79eae016338521e633ee9b8bd020f235">More...</a><br /></td></tr>
-<tr class="separator:a79eae016338521e633ee9b8bd020f235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00dcbf639cf561dc274d1507df68e295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#a00dcbf639cf561dc274d1507df68e295">setComponentOperators</a> (const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearOperator.html">LinearOperator</a> &gt;&gt; &amp;linear_ops, unsigned <a class="el" href="classint.html">int</a> component)</td></tr>
+<tr class="memdesc:a00dcbf639cf561dc274d1507df68e295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the linear operators to be employed on the specified vector component.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#a00dcbf639cf561dc274d1507df68e295">More...</a><br /></td></tr>
+<tr class="separator:a00dcbf639cf561dc274d1507df68e295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7381d56b2f3c4d17e59965bc2953127c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#a7381d56b2f3c4d17e59965bc2953127c">setSymmetricPreconditioner</a> (<a class="el" href="classbool.html">bool</a> symmetric_preconditioner)</td></tr>
 <tr class="memdesc:a7381d56b2f3c4d17e59965bc2953127c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate whether to apply the component preconditioners symmetrically.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#a7381d56b2f3c4d17e59965bc2953127c">More...</a><br /></td></tr>
 <tr class="separator:a7381d56b2f3c4d17e59965bc2953127c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,9 +160,9 @@ Functions to access data on the most recent solve.</h2></td></tr>
 <tr class="memitem:a17fa28df70a0959872a6fad37af07193"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html">BGaussSeidelPreconditioner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#a17fa28df70a0959872a6fad37af07193">operator=</a> (const <a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html">BGaussSeidelPreconditioner</a> &amp;that)=delete</td></tr>
 <tr class="memdesc:a17fa28df70a0959872a6fad37af07193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#a17fa28df70a0959872a6fad37af07193">More...</a><br /></td></tr>
 <tr class="separator:a17fa28df70a0959872a6fad37af07193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f929f8855cbc585256c495743223c95"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#a8f929f8855cbc585256c495743223c95">getComponentVectors</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html">SAMRAI::tbox::ConstPointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; x)</td></tr>
-<tr class="memdesc:a8f929f8855cbc585256c495743223c95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the individual components of a <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> object, and create individual <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects to correspond to each of the components.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#a8f929f8855cbc585256c495743223c95">More...</a><br /></td></tr>
-<tr class="separator:a8f929f8855cbc585256c495743223c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e16a31bea2ed1a6e3559a371320e79"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1BGaussSeidelPreconditioner.html#ad3e16a31bea2ed1a6e3559a371320e79">getComponentVectors</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html">SAMRAI::tbox::ConstPointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; x)</td></tr>
+<tr class="memdesc:ad3e16a31bea2ed1a6e3559a371320e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the individual components of a <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> object, and create individual <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects to correspond to each of the components.  <a href="classIBTK_1_1BGaussSeidelPreconditioner.html#ad3e16a31bea2ed1a6e3559a371320e79">More...</a><br /></td></tr>
+<tr class="separator:ad3e16a31bea2ed1a6e3559a371320e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Logging functions.</h2></td></tr>
@@ -367,8 +367,8 @@ max_iterations = 1                 // see setMaxIterations()
 
 </div>
 </div>
-<a id="a79eae016338521e633ee9b8bd020f235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79eae016338521e633ee9b8bd020f235">&#9670;&nbsp;</a></span>setComponentOperators()</h2>
+<a id="a00dcbf639cf561dc274d1507df68e295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00dcbf639cf561dc274d1507df68e295">&#9670;&nbsp;</a></span>setComponentOperators()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -376,7 +376,7 @@ max_iterations = 1                 // see setMaxIterations()
         <tr>
           <td class="memname">void IBTK::BGaussSeidelPreconditioner::setComponentOperators </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearOperator.html">LinearOperator</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearOperator.html">LinearOperator</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>linear_ops</em>, </td>
         </tr>
         <tr>
@@ -731,8 +731,8 @@ max_iterations = 1                 // see setMaxIterations()
 
 </div>
 </div>
-<a id="a8f929f8855cbc585256c495743223c95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f929f8855cbc585256c495743223c95">&#9670;&nbsp;</a></span>getComponentVectors()</h2>
+<a id="ad3e16a31bea2ed1a6e3559a371320e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e16a31bea2ed1a6e3559a371320e79">&#9670;&nbsp;</a></span>getComponentVectors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -743,7 +743,7 @@ max_iterations = 1                 // see setMaxIterations()
         <tr>
           <td class="memname">static std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, <a class="el" href="classdouble.html">double</a>&gt; &gt; &gt; IBTK::BGaussSeidelPreconditioner::getComponentVectors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html">SAMRAI::tbox::ConstPointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html">SAMRAI::tbox::ConstPointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
@@ -757,8 +757,8 @@ max_iterations = 1                 // see setMaxIterations()
 
 </div>
 </div>
-<a id="a1256aa5e869e553777cf8aeda2f9481b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1256aa5e869e553777cf8aeda2f9481b">&#9670;&nbsp;</a></span>setNullSpace()</h2>
+<a id="a3488344d0f932260e591512f35437b67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3488344d0f932260e591512f35437b67">&#9670;&nbsp;</a></span>setNullSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -775,8 +775,8 @@ max_iterations = 1                 // see setMaxIterations()
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nullspace_basis_vecs</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;&#160;NDIM,&#160;<a class="el" href="classdouble.html">double</a>&#160;&gt;&#160;&gt;&#160;&gt;()</code>&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>nullspace_basis_vecs</em> = <code>std::vector&lt;&#160;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;&#160;NDIM,&#160;<a class="el" href="classdouble.html">double</a>&#160;&gt;&gt;&gt;()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -792,7 +792,7 @@ max_iterations = 1                 // see setMaxIterations()
 </div><div class="memdoc">
 <p>Implementations can require the nullspace basis vectors to be orthogonal but should not assume the basis vectors to be orthonormal. If the basis vectors are not orthonormal, the solver may normalize them in place. </p>
 
-<p>Reimplemented in <a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a03dd616c1e6f0b34f9d216c5415c422c">IBTK::PETScKrylovLinearSolver</a>, and <a class="el" href="classIBTK_1_1PETScLevelSolver.html#a71f4a2c229d03fac414d291efec25e26">IBTK::PETScLevelSolver</a>.</p>
+<p>Reimplemented in <a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a2774f0a702c74a80c4b6ddc1d9146d54">IBTK::PETScKrylovLinearSolver</a>, and <a class="el" href="classIBTK_1_1PETScLevelSolver.html#ac41f883ca7e9c7f228ffe68ddabdd3fc">IBTK::PETScLevelSolver</a>.</p>
 
 </div>
 </div>

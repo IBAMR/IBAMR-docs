@@ -89,18 +89,18 @@ $(function() {
 Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp3b4570e40d66e58a1807a032dae07012"></a><a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a> objects. </p>
 </td></tr>
-<tr class="memitem:a2da0f6c22eacc86944b41b554083c966"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a2da0f6c22eacc86944b41b554083c966">constructPatchLevelMACStokesOp</a> (Mat &amp;mat, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;u_problem_coefs, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_bc_coefs, <a class="el" href="classdouble.html">double</a> data_time, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_dofs_per_proc, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; patch_level)</td></tr>
-<tr class="memdesc:a2da0f6c22eacc86944b41b554083c966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a parallel PETSc Mat object corresponding to a MAC discretization of the time-dependent incompressible Stokes equations on a single <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a2da0f6c22eacc86944b41b554083c966">More...</a><br /></td></tr>
-<tr class="separator:a2da0f6c22eacc86944b41b554083c966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9f0d6e20787aa675a6075747406b522"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#ae9f0d6e20787aa675a6075747406b522">constructPatchLevelASMSubdomains</a> (std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;is_overlap, std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;is_nonoverlap, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;box_size, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;overlap_size, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_dofs_per_proc, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt; NDIM &gt; &gt; cf_boundary)</td></tr>
-<tr class="memdesc:ae9f0d6e20787aa675a6075747406b522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partition the patch level into subdomains suitable to be used for additive Schwarz method.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#ae9f0d6e20787aa675a6075747406b522">More...</a><br /></td></tr>
-<tr class="separator:ae9f0d6e20787aa675a6075747406b522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56c2d668dac9214020fb209cb28799f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#ad56c2d668dac9214020fb209cb28799f">constructPatchLevelFields</a> (std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;is_field, std::vector&lt; std::string &gt; &amp;is_field_name, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_dofs_per_proc, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; patch_level)</td></tr>
-<tr class="memdesc:ad56c2d668dac9214020fb209cb28799f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partition the patch level into subdomains suitable to be used for PCFieldSplit preconditioner.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#ad56c2d668dac9214020fb209cb28799f">More...</a><br /></td></tr>
-<tr class="separator:ad56c2d668dac9214020fb209cb28799f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc3b4a84713c08e34b51f90cd41383e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a4fc3b4a84713c08e34b51f90cd41383e">constructProlongationOp</a> (Mat &amp;mat, const std::string &amp;u_op_type, const std::string &amp;p_op_type, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_fine_dofs_per_proc, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_coarse_dofs_per_proc, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; fine_patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; coarse_patch_level, const AO &amp;coarse_level_ao, const <a class="el" href="classint.html">int</a> u_coarse_ao_offset, const <a class="el" href="classint.html">int</a> p_coarse_ao_offset)</td></tr>
-<tr class="memdesc:a4fc3b4a84713c08e34b51f90cd41383e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a parallel PETSc Mat object corresponding to data prolongation from a coarser level to a finer level.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a4fc3b4a84713c08e34b51f90cd41383e">More...</a><br /></td></tr>
-<tr class="separator:a4fc3b4a84713c08e34b51f90cd41383e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6161eb577621bb243211786175474d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7a6161eb577621bb243211786175474d">constructPatchLevelMACStokesOp</a> (Mat &amp;mat, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;u_problem_coefs, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_bc_coefs, <a class="el" href="classdouble.html">double</a> data_time, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_dofs_per_proc, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
+<tr class="memdesc:a7a6161eb577621bb243211786175474d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a parallel PETSc Mat object corresponding to a MAC discretization of the time-dependent incompressible Stokes equations on a single <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7a6161eb577621bb243211786175474d">More...</a><br /></td></tr>
+<tr class="separator:a7a6161eb577621bb243211786175474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2808e9ad644dedc1d30a1b3d1b3ba6be"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a2808e9ad644dedc1d30a1b3d1b3ba6be">constructPatchLevelASMSubdomains</a> (std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;is_overlap, std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;is_nonoverlap, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;box_size, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;overlap_size, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_dofs_per_proc, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt; NDIM &gt;&gt; cf_boundary)</td></tr>
+<tr class="memdesc:a2808e9ad644dedc1d30a1b3d1b3ba6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partition the patch level into subdomains suitable to be used for additive Schwarz method.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a2808e9ad644dedc1d30a1b3d1b3ba6be">More...</a><br /></td></tr>
+<tr class="separator:a2808e9ad644dedc1d30a1b3d1b3ba6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c714718018dac9ef0b790a9663c4f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a59c714718018dac9ef0b790a9663c4f1">constructPatchLevelFields</a> (std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;is_field, std::vector&lt; std::string &gt; &amp;is_field_name, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_dofs_per_proc, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
+<tr class="memdesc:a59c714718018dac9ef0b790a9663c4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partition the patch level into subdomains suitable to be used for PCFieldSplit preconditioner.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a59c714718018dac9ef0b790a9663c4f1">More...</a><br /></td></tr>
+<tr class="separator:a59c714718018dac9ef0b790a9663c4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c98a3b260c2eac68afdb0fca216d601"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7c98a3b260c2eac68afdb0fca216d601">constructProlongationOp</a> (Mat &amp;mat, const std::string &amp;u_op_type, const std::string &amp;p_op_type, <a class="el" href="classint.html">int</a> u_dof_index_idx, <a class="el" href="classint.html">int</a> p_dof_index_idx, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_fine_dofs_per_proc, const std::vector&lt; <a class="el" href="classint.html">int</a> &gt; &amp;num_coarse_dofs_per_proc, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; fine_patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; coarse_patch_level, const AO &amp;coarse_level_ao, const <a class="el" href="classint.html">int</a> u_coarse_ao_offset, const <a class="el" href="classint.html">int</a> p_coarse_ao_offset)</td></tr>
+<tr class="memdesc:a7c98a3b260c2eac68afdb0fca216d601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a parallel PETSc Mat object corresponding to data prolongation from a coarser level to a finer level.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7c98a3b260c2eac68afdb0fca216d601">More...</a><br /></td></tr>
+<tr class="separator:a7c98a3b260c2eac68afdb0fca216d601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d679b021eba50b7bd2981ac0d4f81a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a6d679b021eba50b7bd2981ac0d4f81a7">StaggeredStokesPETScMatUtilities</a> ()=delete</td></tr>
 <tr class="memdesc:a6d679b021eba50b7bd2981ac0d4f81a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a6d679b021eba50b7bd2981ac0d4f81a7">More...</a><br /></td></tr>
 <tr class="separator:a6d679b021eba50b7bd2981ac0d4f81a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,8 +172,8 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2da0f6c22eacc86944b41b554083c966"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2da0f6c22eacc86944b41b554083c966">&#9670;&nbsp;</a></span>constructPatchLevelMACStokesOp()</h2>
+<a id="a7a6161eb577621bb243211786175474d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6161eb577621bb243211786175474d">&#9670;&nbsp;</a></span>constructPatchLevelMACStokesOp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +226,7 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_level</em>&#160;</td>
         </tr>
         <tr>
@@ -244,8 +244,8 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9f0d6e20787aa675a6075747406b522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9f0d6e20787aa675a6075747406b522">&#9670;&nbsp;</a></span>constructPatchLevelASMSubdomains()</h2>
+<a id="a2808e9ad644dedc1d30a1b3d1b3ba6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2808e9ad644dedc1d30a1b3d1b3ba6be">&#9670;&nbsp;</a></span>constructPatchLevelASMSubdomains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,13 +256,13 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
         <tr>
           <td class="memname">static void IBAMR::StaggeredStokesPETScMatUtilities::constructPatchLevelASMSubdomains </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>is_overlap</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>is_nonoverlap</em>, </td>
         </tr>
         <tr>
@@ -298,13 +298,13 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>cf_boundary</em>&#160;</td>
         </tr>
         <tr>
@@ -322,8 +322,8 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
 
 </div>
 </div>
-<a id="ad56c2d668dac9214020fb209cb28799f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad56c2d668dac9214020fb209cb28799f">&#9670;&nbsp;</a></span>constructPatchLevelFields()</h2>
+<a id="a59c714718018dac9ef0b790a9663c4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59c714718018dac9ef0b790a9663c4f1">&#9670;&nbsp;</a></span>constructPatchLevelFields()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +334,7 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
         <tr>
           <td class="memname">static void IBAMR::StaggeredStokesPETScMatUtilities::constructPatchLevelFields </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::set&lt; <a class="el" href="classint.html">int</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>is_field</em>, </td>
         </tr>
         <tr>
@@ -364,7 +364,7 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_level</em>&#160;</td>
         </tr>
         <tr>
@@ -382,8 +382,8 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
 
 </div>
 </div>
-<a id="a4fc3b4a84713c08e34b51f90cd41383e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fc3b4a84713c08e34b51f90cd41383e">&#9670;&nbsp;</a></span>constructProlongationOp()</h2>
+<a id="a7c98a3b260c2eac68afdb0fca216d601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c98a3b260c2eac68afdb0fca216d601">&#9670;&nbsp;</a></span>constructProlongationOp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,13 +436,13 @@ Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>fine_patch_level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>coarse_patch_level</em>, </td>
         </tr>
         <tr>

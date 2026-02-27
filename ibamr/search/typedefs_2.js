@@ -2,9 +2,9 @@ var searchData=
 [
   ['cellindexfortranorder_20766',['CellIndexFortranOrder',['../namespaceIBTK.html#a98bbac2eaf9010f28398d4c6a27cef96',1,'IBTK']]],
   ['celliterator_20767',['CellIterator',['../classIBTK_1_1LSetData.html#ad60a3bb43cc4f928945dc9efe734fbd1',1,'IBTK::LSetData']]],
-  ['coarsenalgorithmmap_20768',['CoarsenAlgorithmMap',['../classIBTK_1_1HierarchyIntegrator.html#ab45747fc5ae5ed56120dc20cc701a1e5',1,'IBTK::HierarchyIntegrator']]],
-  ['coarsenpatchstrategymap_20769',['CoarsenPatchStrategyMap',['../classIBTK_1_1HierarchyIntegrator.html#ad024c271c12b490d5dd874d26df80f23',1,'IBTK::HierarchyIntegrator']]],
-  ['coarsenschedulemap_20770',['CoarsenScheduleMap',['../classIBTK_1_1HierarchyIntegrator.html#aae61e9aa9a8b5e62c7d4495a9c711979',1,'IBTK::HierarchyIntegrator']]],
+  ['coarsenalgorithmmap_20768',['CoarsenAlgorithmMap',['../classIBTK_1_1HierarchyIntegrator.html#a0a87d0275681b2c6c42972d79fec8aa5',1,'IBTK::HierarchyIntegrator']]],
+  ['coarsenpatchstrategymap_20769',['CoarsenPatchStrategyMap',['../classIBTK_1_1HierarchyIntegrator.html#a2a5092aad1274780d03a0150e56d9dbf',1,'IBTK::HierarchyIntegrator']]],
+  ['coarsenschedulemap_20770',['CoarsenScheduleMap',['../classIBTK_1_1HierarchyIntegrator.html#a1f6c155abcd2956925bb2b6ddccb3c27',1,'IBTK::HierarchyIntegrator']]],
   ['columnvector2d_20771',['ColumnVector2d',['../namespaceIBTK.html#a93b3ea7366a0fe96f56b0200bc1b8e77',1,'IBTK']]],
   ['columnvector3d_20772',['ColumnVector3d',['../namespaceIBTK.html#aed427cf9ba7c7dc4fccefdaba4be823b',1,'IBTK']]],
   ['columnvectornd_20773',['ColumnVectorNd',['../namespaceIBTK.html#af1137eefc68da668954ab11a43255186',1,'IBTK']]],

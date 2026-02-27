@@ -95,14 +95,14 @@ Inheritance diagram for IBTK::SAMRAIScopedVectorCopy&lt; TYPE &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2b254f3db11cd785ee7526f4e2e060c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorCopy.html#a2b254f3db11cd785ee7526f4e2e060c1">SAMRAIScopedVectorCopy</a> (const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt; &gt; &amp;vector, const std::string &amp;name=&quot;&quot;)</td></tr>
-<tr class="separator:a2b254f3db11cd785ee7526f4e2e060c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d03bddb30545454fe6d22a1ae6fd79e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorCopy.html#a0d03bddb30545454fe6d22a1ae6fd79e">SAMRAIScopedVectorCopy</a> (const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt;&gt; &amp;vector, const std::string &amp;name=&quot;&quot;)</td></tr>
+<tr class="separator:a0d03bddb30545454fe6d22a1ae6fd79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a469ea6738119f5e1384ec5ccf0c50d7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorCopy.html#a469ea6738119f5e1384ec5ccf0c50d7f">SAMRAIScopedVectorCopy</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt; &amp;vector, const std::string &amp;name=&quot;&quot;)</td></tr>
 <tr class="separator:a469ea6738119f5e1384ec5ccf0c50d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a264c5e675297cd5cec7cbe97cee9c188"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a264c5e675297cd5cec7cbe97cee9c188">operator SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt; &amp;</a> ()</td></tr>
 <tr class="separator:a264c5e675297cd5cec7cbe97cee9c188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a490f32cca3978a93736161a257400398"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a490f32cca3978a93736161a257400398">operator SAMRAI::tbox::Pointer&lt; SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt; &gt;</a> ()</td></tr>
-<tr class="separator:a490f32cca3978a93736161a257400398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ed1f4ebba97fab88e206e7fc252404"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorDuplicate.html#ac5ed1f4ebba97fab88e206e7fc252404">operator SAMRAI::tbox::Pointer&lt; SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt;&gt;</a> ()</td></tr>
+<tr class="separator:ac5ed1f4ebba97fab88e206e7fc252404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e97663482e270aca5858e127dba672e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a4e97663482e270aca5858e127dba672e">getComponentVectors</a> () const</td></tr>
 <tr class="separator:a4e97663482e270aca5858e127dba672e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -118,8 +118,8 @@ class IBTK::SAMRAIScopedVectorCopy&lt; TYPE &gt;</h3>
 <p>Wrapper class around a SAMRAIVectorReal with RAII semantics. Creates a new copy of an input vector.</p>
 <dl class="section note"><dt>Note</dt><dd>The name of this class is analogous to the meaning of copy in PETSc's VecCopy() function. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2b254f3db11cd785ee7526f4e2e060c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b254f3db11cd785ee7526f4e2e060c1">&#9670;&nbsp;</a></span>SAMRAIScopedVectorCopy() <span class="overload">[1/2]</span></h2>
+<a id="a0d03bddb30545454fe6d22a1ae6fd79e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d03bddb30545454fe6d22a1ae6fd79e">&#9670;&nbsp;</a></span>SAMRAIScopedVectorCopy() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -129,7 +129,7 @@ template&lt;typename TYPE &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorCopy.html">IBTK::SAMRAIScopedVectorCopy</a>&lt; TYPE &gt;::<a class="el" href="classIBTK_1_1SAMRAIScopedVectorCopy.html">SAMRAIScopedVectorCopy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em>, </td>
         </tr>
         <tr>
@@ -206,8 +206,8 @@ template&lt;typename TYPE &gt; </div>
 
 </div>
 </div>
-<a id="a490f32cca3978a93736161a257400398"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a490f32cca3978a93736161a257400398">&#9670;&nbsp;</a></span>operator SAMRAI::tbox::Pointer&lt; SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt; &gt;()</h2>
+<a id="ac5ed1f4ebba97fab88e206e7fc252404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5ed1f4ebba97fab88e206e7fc252404">&#9670;&nbsp;</a></span>operator SAMRAI::tbox::Pointer&lt; SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt;&gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,7 +218,7 @@ template&lt;typename TYPE &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorDuplicate.html">IBTK::SAMRAIScopedVectorDuplicate</a>&lt; TYPE &gt;::operator <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt; &gt;</td>
+          <td class="memname"><a class="el" href="classIBTK_1_1SAMRAIScopedVectorDuplicate.html">IBTK::SAMRAIScopedVectorDuplicate</a>&lt; TYPE &gt;::operator <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, TYPE &gt;&gt;</td>
         </tr>
       </table>
   </td>

@@ -104,12 +104,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a14492747038040abe20e4207c35457ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFStrategy.html#a14492747038040abe20e4207c35457ee">CFStrategy</a> (std::string object_name)</td></tr>
 <tr class="memdesc:a14492747038040abe20e4207c35457ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor does nothing interesting.  <a href="classIBAMR_1_1CFStrategy.html#a14492747038040abe20e4207c35457ee">More...</a><br /></td></tr>
 <tr class="separator:a14492747038040abe20e4207c35457ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28568e4984d90867f8ed1686f12c7f5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFStrategy.html#af28568e4984d90867f8ed1686f12c7f5">computeRelaxation</a> (<a class="el" href="classint.html">int</a> R_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; R_var, <a class="el" href="classint.html">int</a> C_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; C_var, <a class="el" href="namespaceIBAMR.html#a4a0c2d3d7728176db50e5ba39d61bc13">TensorEvolutionType</a> evolve_type, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classdouble.html">double</a> data_time)=0</td></tr>
-<tr class="memdesc:af28568e4984d90867f8ed1686f12c7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the action of the relaxation operator, given the conformation tensor.  <a href="classIBAMR_1_1CFStrategy.html#af28568e4984d90867f8ed1686f12c7f5">More...</a><br /></td></tr>
-<tr class="separator:af28568e4984d90867f8ed1686f12c7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad319a8a6dc12162bca09dd12ee30559e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFStrategy.html#ad319a8a6dc12162bca09dd12ee30559e">computeStress</a> (<a class="el" href="classint.html">int</a> sig_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; sig_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classdouble.html">double</a> data_time)=0</td></tr>
-<tr class="memdesc:ad319a8a6dc12162bca09dd12ee30559e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the conformation tensor to the stress tensor.  <a href="classIBAMR_1_1CFStrategy.html#ad319a8a6dc12162bca09dd12ee30559e">More...</a><br /></td></tr>
-<tr class="separator:ad319a8a6dc12162bca09dd12ee30559e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a664b27af1c1d8e19c4a77a76423942e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFStrategy.html#a664b27af1c1d8e19c4a77a76423942e8">computeRelaxation</a> (<a class="el" href="classint.html">int</a> R_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; R_var, <a class="el" href="classint.html">int</a> C_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; C_var, <a class="el" href="namespaceIBAMR.html#a4a0c2d3d7728176db50e5ba39d61bc13">TensorEvolutionType</a> evolve_type, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classdouble.html">double</a> data_time)=0</td></tr>
+<tr class="memdesc:a664b27af1c1d8e19c4a77a76423942e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the action of the relaxation operator, given the conformation tensor.  <a href="classIBAMR_1_1CFStrategy.html#a664b27af1c1d8e19c4a77a76423942e8">More...</a><br /></td></tr>
+<tr class="separator:a664b27af1c1d8e19c4a77a76423942e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b1d3f8c773747d33f284b1b35c7167"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFStrategy.html#aa1b1d3f8c773747d33f284b1b35c7167">computeStress</a> (<a class="el" href="classint.html">int</a> sig_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; sig_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classdouble.html">double</a> data_time)=0</td></tr>
+<tr class="memdesc:aa1b1d3f8c773747d33f284b1b35c7167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the conformation tensor to the stress tensor.  <a href="classIBAMR_1_1CFStrategy.html#aa1b1d3f8c773747d33f284b1b35c7167">More...</a><br /></td></tr>
+<tr class="separator:aa1b1d3f8c773747d33f284b1b35c7167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -139,8 +139,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af28568e4984d90867f8ed1686f12c7f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af28568e4984d90867f8ed1686f12c7f5">&#9670;&nbsp;</a></span>computeRelaxation()</h2>
+<a id="a664b27af1c1d8e19c4a77a76423942e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a664b27af1c1d8e19c4a77a76423942e8">&#9670;&nbsp;</a></span>computeRelaxation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>R_var</em>, </td>
         </tr>
         <tr>
@@ -169,7 +169,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>C_var</em>, </td>
         </tr>
         <tr>
@@ -181,7 +181,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -205,12 +205,12 @@ Private Attributes</h2></td></tr>
 <p>The parameter <code>evolve_type</code> determines the form of the tensor provided in <code>C_idx</code>. A helper function to convert from the data stored in <code>C_idx</code> to the conformation tensor is provided by <code>convert_to_conformation_tensor</code>.</p>
 <p>The symmetric tensor in patch data index <code>C_idx</code> is stored using Voigt notation. </p>
 
-<p>Implemented in <a class="el" href="classIBAMR_1_1CFRoliePolyStrategy.html#aba9245c963a7e0490d2150a0cf5e1e90">IBAMR::CFRoliePolyStrategy</a>, <a class="el" href="classIBAMR_1_1CFOldroydBStrategy.html#ad26b077ac7e25b573f9059bbec996b26">IBAMR::CFOldroydBStrategy</a>, and <a class="el" href="classIBAMR_1_1CFGiesekusStrategy.html#ab9114352c3303b4488b3168aa0a9ac4d">IBAMR::CFGiesekusStrategy</a>.</p>
+<p>Implemented in <a class="el" href="classIBAMR_1_1CFRoliePolyStrategy.html#a0841eea05db64189cc1aa0060ba1f3c0">IBAMR::CFRoliePolyStrategy</a>, <a class="el" href="classIBAMR_1_1CFOldroydBStrategy.html#aed94840135b9e9795a8ceefece235a9a">IBAMR::CFOldroydBStrategy</a>, and <a class="el" href="classIBAMR_1_1CFGiesekusStrategy.html#a4b14e27c94ead0aa00a9b783ec3746f7">IBAMR::CFGiesekusStrategy</a>.</p>
 
 </div>
 </div>
-<a id="ad319a8a6dc12162bca09dd12ee30559e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad319a8a6dc12162bca09dd12ee30559e">&#9670;&nbsp;</a></span>computeStress()</h2>
+<a id="aa1b1d3f8c773747d33f284b1b35c7167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b1d3f8c773747d33f284b1b35c7167">&#9670;&nbsp;</a></span>computeStress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,13 +227,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>sig_var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -256,7 +256,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>This conversion should be done in-place. The conformation tensor is provided in the patch index <code>sig_idx</code> with ghost cells filled. Implementations of this function MUST provide correct ghost cell information in <code>sig_idx</code>. </p>
 
-<p>Implemented in <a class="el" href="classIBAMR_1_1CFRoliePolyStrategy.html#a6795fb6fad7a6fd6ba367cff59f44856">IBAMR::CFRoliePolyStrategy</a>, <a class="el" href="classIBAMR_1_1CFOldroydBStrategy.html#a187eafa6187da68714d6b5b9bc66af84">IBAMR::CFOldroydBStrategy</a>, and <a class="el" href="classIBAMR_1_1CFGiesekusStrategy.html#a4b78c0ad2a6d160150aa085cefb11d44">IBAMR::CFGiesekusStrategy</a>.</p>
+<p>Implemented in <a class="el" href="classIBAMR_1_1CFRoliePolyStrategy.html#ae8c66d18bd9a142b0519aa6cdad153d5">IBAMR::CFRoliePolyStrategy</a>, <a class="el" href="classIBAMR_1_1CFOldroydBStrategy.html#a1ef0be5ef1bf9dc11a6c9cb8890ead2c">IBAMR::CFOldroydBStrategy</a>, and <a class="el" href="classIBAMR_1_1CFGiesekusStrategy.html#a5d3e1b892514ed1e3796717a56f19ecc">IBAMR::CFGiesekusStrategy</a>.</p>
 
 </div>
 </div>

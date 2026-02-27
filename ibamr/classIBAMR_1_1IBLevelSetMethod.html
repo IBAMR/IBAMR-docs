@@ -128,16 +128,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a65c8df25deee9fe24e787c928e257dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a5fc92796829937985495404d2c8bf2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a3a5fc92796829937985495404d2c8bf2">getMinimumGhostCellWidth</a> () const override</td></tr>
 <tr class="separator:a3a5fc92796829937985495404d2c8bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac866541ad45f61446a81935034bda8b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ac866541ad45f61446a81935034bda8b8">setupTagBuffer</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classint.html">int</a> &gt; &amp;tag_buffer, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) const override</td></tr>
-<tr class="separator:ac866541ad45f61446a81935034bda8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc9022cefa091f38ccffd79735c4044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a6bc9022cefa091f38ccffd79735c4044">setupTagBuffer</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classint.html">int</a> &gt; &amp;tag_buffer, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt; gridding_alg) const override</td></tr>
+<tr class="separator:a6bc9022cefa091f38ccffd79735c4044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1835b83e1dfd1b585d6503ab8e94fc92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a1835b83e1dfd1b585d6503ab8e94fc92">preprocessIntegrateData</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time, <a class="el" href="classint.html">int</a> num_cycles) override</td></tr>
 <tr class="separator:a1835b83e1dfd1b585d6503ab8e94fc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74a448b00a4c3e31dcf5ca41c7e51542"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a74a448b00a4c3e31dcf5ca41c7e51542">postprocessIntegrateData</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time, <a class="el" href="classint.html">int</a> num_cycles) override</td></tr>
 <tr class="separator:a74a448b00a4c3e31dcf5ca41c7e51542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf44247b707c3858dac984adca25464"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a1bf44247b707c3858dac984adca25464">updateFixedLEOperators</a> () override</td></tr>
 <tr class="separator:a1bf44247b707c3858dac984adca25464"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a24d12b5d9fc1edfc51085ba7693825"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a9a24d12b5d9fc1edfc51085ba7693825">interpolateVelocity</a> (<a class="el" href="classint.html">int</a> u_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;u_synch_scheds, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;u_ghost_fill_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
-<tr class="separator:a9a24d12b5d9fc1edfc51085ba7693825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e7bd59b5d7faecd2ccda62d3f96ed5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ad6e7bd59b5d7faecd2ccda62d3f96ed5">interpolateVelocity</a> (<a class="el" href="classint.html">int</a> u_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;u_synch_scheds, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;u_ghost_fill_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
+<tr class="separator:ad6e7bd59b5d7faecd2ccda62d3f96ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3d5e5c61340d7ebfceb2fc455b4499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#abf3d5e5c61340d7ebfceb2fc455b4499">forwardEulerStep</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time) override</td></tr>
 <tr class="separator:abf3d5e5c61340d7ebfceb2fc455b4499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c92fb9a73395a783f9aaa28ac4fa26a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a1c92fb9a73395a783f9aaa28ac4fa26a">midpointStep</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time) override</td></tr>
@@ -146,36 +146,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab6fbea3a23b5b01ee82c66389d2dc33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a096b17b5a7075b95c6ad34bb4dc8aa19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a096b17b5a7075b95c6ad34bb4dc8aa19">computeLagrangianForce</a> (<a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
 <tr class="separator:a096b17b5a7075b95c6ad34bb4dc8aa19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a706976932c3acb935a885f7968a163c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a706976932c3acb935a885f7968a163c9">spreadForce</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classIBTK_1_1RobinPhysBdryPatchStrategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;f_prolongation_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
-<tr class="separator:a706976932c3acb935a885f7968a163c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8bebe6f78337eb9becfad3d5372684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a5e8bebe6f78337eb9becfad3d5372684">spreadForce</a> (<a class="el" href="classint.html">int</a> f_data_idx, <a class="el" href="classIBTK_1_1RobinPhysBdryPatchStrategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *f_phys_bdry_op, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;f_prolongation_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
+<tr class="separator:a5e8bebe6f78337eb9becfad3d5372684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6753c7d3ab1b2887406678e85a2fc146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a6753c7d3ab1b2887406678e85a2fc146">hasFluidSources</a> () const override</td></tr>
 <tr class="separator:a6753c7d3ab1b2887406678e85a2fc146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7acdfcb08188bb02abadd4ebc9113cb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a7acdfcb08188bb02abadd4ebc9113cb8">computeLagrangianFluidSource</a> (<a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
 <tr class="separator:a7acdfcb08188bb02abadd4ebc9113cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6ffaa449336708a7d1da47132f5aaa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ad6ffaa449336708a7d1da47132f5aaa9">spreadFluidSource</a> (<a class="el" href="classint.html">int</a> q_data_idx, <a class="el" href="classIBTK_1_1RobinPhysBdryPatchStrategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *q_phys_bdry_op, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;q_prolongation_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
-<tr class="separator:ad6ffaa449336708a7d1da47132f5aaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cc14d03c9a52482b80e583bc496a462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a1cc14d03c9a52482b80e583bc496a462">interpolatePressure</a> (<a class="el" href="classint.html">int</a> p_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;p_synch_scheds, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;p_ghost_fill_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
-<tr class="separator:a1cc14d03c9a52482b80e583bc496a462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139a618b23a5f2da0d1ed9d5502c163f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a139a618b23a5f2da0d1ed9d5502c163f">spreadFluidSource</a> (<a class="el" href="classint.html">int</a> q_data_idx, <a class="el" href="classIBTK_1_1RobinPhysBdryPatchStrategy.html">IBTK::RobinPhysBdryPatchStrategy</a> *q_phys_bdry_op, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;q_prolongation_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
+<tr class="separator:a139a618b23a5f2da0d1ed9d5502c163f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc780596ae08efd61cba0a563c16fb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a7dc780596ae08efd61cba0a563c16fb4">interpolatePressure</a> (<a class="el" href="classint.html">int</a> p_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;p_synch_scheds, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;p_ghost_fill_scheds, <a class="el" href="classdouble.html">double</a> data_time) override</td></tr>
+<tr class="separator:a7dc780596ae08efd61cba0a563c16fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab04e6b8e0b388f649264d4290582a8ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ab04e6b8e0b388f649264d4290582a8ae">preprocessSolveFluidEquations</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time, <a class="el" href="classint.html">int</a> cycle_num) override</td></tr>
 <tr class="separator:ab04e6b8e0b388f649264d4290582a8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6e520e94837ec3797d52cf8fd733538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ad6e520e94837ec3797d52cf8fd733538">postprocessSolveFluidEquations</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time, <a class="el" href="classint.html">int</a> cycle_num) override</td></tr>
 <tr class="separator:ad6e520e94837ec3797d52cf8fd733538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01b602f11706692b87c111226f9ae7a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a01b602f11706692b87c111226f9ae7a0">postprocessData</a> () override</td></tr>
 <tr class="separator:a01b602f11706692b87c111226f9ae7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeb2659483cc14d5fb595192f444b73b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#abeb2659483cc14d5fb595192f444b73b">initializePatchHierarchy</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg, <a class="el" href="classint.html">int</a> u_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;u_synch_scheds, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;u_ghost_fill_scheds, <a class="el" href="classint.html">int</a> integrator_step, <a class="el" href="classdouble.html">double</a> init_data_time, <a class="el" href="classbool.html">bool</a> initial_time) override</td></tr>
-<tr class="separator:abeb2659483cc14d5fb595192f444b73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fd98bf3b10c173182f4a5ed9f792fe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a4fd98bf3b10c173182f4a5ed9f792fe7">addWorkloadEstimate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classint.html">int</a> workload_data_idx) override</td></tr>
-<tr class="separator:a4fd98bf3b10c173182f4a5ed9f792fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2187abd79c9d57f362c7efb79337e47d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a2187abd79c9d57f362c7efb79337e47d">beginDataRedistribution</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) override</td></tr>
-<tr class="separator:a2187abd79c9d57f362c7efb79337e47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67ee81f516938b93540a8bab1f7f328f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a67ee81f516938b93540a8bab1f7f328f">endDataRedistribution</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt; gridding_alg) override</td></tr>
-<tr class="separator:a67ee81f516938b93540a8bab1f7f328f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab65b17f0486642c4a742c9a58b028db3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ab65b17f0486642c4a742c9a58b028db3">initializeLevelData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> init_data_time, <a class="el" href="classbool.html">bool</a> can_be_refined, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt; &gt; old_level, <a class="el" href="classbool.html">bool</a> allocate_data) override</td></tr>
-<tr class="separator:ab65b17f0486642c4a742c9a58b028db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad757644a16d759fd82d2172d274e6414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ad757644a16d759fd82d2172d274e6414">resetHierarchyConfiguration</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> coarsest_level, <a class="el" href="classint.html">int</a> finest_level) override</td></tr>
-<tr class="separator:ad757644a16d759fd82d2172d274e6414"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b26e4398f38919333d34221091c8fa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a9b26e4398f38919333d34221091c8fa3">applyGradientDetector</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a> uses_richardson_extrapolation_too) override</td></tr>
-<tr class="separator:a9b26e4398f38919333d34221091c8fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c334d57152281151c55ae989b93fd85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a7c334d57152281151c55ae989b93fd85">initializePatchHierarchy</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt; gridding_alg, <a class="el" href="classint.html">int</a> u_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;u_synch_scheds, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;u_ghost_fill_scheds, <a class="el" href="classint.html">int</a> integrator_step, <a class="el" href="classdouble.html">double</a> init_data_time, <a class="el" href="classbool.html">bool</a> initial_time) override</td></tr>
+<tr class="separator:a7c334d57152281151c55ae989b93fd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d86c7abf02efa81fe5e6d73565ec4e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a8d86c7abf02efa81fe5e6d73565ec4e8">addWorkloadEstimate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classint.html">int</a> workload_data_idx) override</td></tr>
+<tr class="separator:a8d86c7abf02efa81fe5e6d73565ec4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c16312d8b3a70dfcd7224c7452b8fac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a4c16312d8b3a70dfcd7224c7452b8fac">beginDataRedistribution</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt; gridding_alg) override</td></tr>
+<tr class="separator:a4c16312d8b3a70dfcd7224c7452b8fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3076e85c6e748513cb8f0c647e02169f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a3076e85c6e748513cb8f0c647e02169f">endDataRedistribution</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt; gridding_alg) override</td></tr>
+<tr class="separator:a3076e85c6e748513cb8f0c647e02169f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab41167f078acc478581aaed276e59e9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#ab41167f078acc478581aaed276e59e9e">initializeLevelData</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> init_data_time, <a class="el" href="classbool.html">bool</a> can_be_refined, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt;&gt; old_level, <a class="el" href="classbool.html">bool</a> allocate_data) override</td></tr>
+<tr class="separator:ab41167f078acc478581aaed276e59e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f02e721ec8878f0e6ba7fb1d3d12790"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a0f02e721ec8878f0e6ba7fb1d3d12790">resetHierarchyConfiguration</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> coarsest_level, <a class="el" href="classint.html">int</a> finest_level) override</td></tr>
+<tr class="separator:a0f02e721ec8878f0e6ba7fb1d3d12790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e4fafdca0e39e1923d7f9a74a4bbc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a32e4fafdca0e39e1923d7f9a74a4bbc6">applyGradientDetector</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a> uses_richardson_extrapolation_too) override</td></tr>
+<tr class="separator:a32e4fafdca0e39e1923d7f9a74a4bbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc0a17c6378637e3d24be98e6207c9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBLevelSetMethod.html#a3cc0a17c6378637e3d24be98e6207c9e">putToDatabase</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db) override</td></tr>
 <tr class="separator:a3cc0a17c6378637e3d24be98e6207c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2a042363dca682c158d89dcde9c7cad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#ab2a042363dca682c158d89dcde9c7cad">inactivateLagrangianStructure</a> (<a class="el" href="classint.html">int</a> structure_number=0, <a class="el" href="classint.html">int</a> level_number=std::numeric_limits&lt; <a class="el" href="classint.html">int</a> &gt;::max())</td></tr>
@@ -194,8 +194,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8230ec99b293ccda726061e4b5c05c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe374a56735ab5730f6e6dcbb26de6d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#abbe374a56735ab5730f6e6dcbb26de6d">AB2Step</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time)</td></tr>
 <tr class="separator:abbe374a56735ab5730f6e6dcbb26de6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41e996bc402231206232370c2e442c64"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a41e996bc402231206232370c2e442c64">registerLoadBalancer</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt; load_balancer, <a class="el" href="classint.html">int</a> workload_data_idx)</td></tr>
-<tr class="separator:a41e996bc402231206232370c2e442c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc546eb88b114cecab03d531e142d481"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#abc546eb88b114cecab03d531e142d481">registerLoadBalancer</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt;&gt; load_balancer, <a class="el" href="classint.html">int</a> workload_data_idx)</td></tr>
+<tr class="separator:abc546eb88b114cecab03d531e142d481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8f31cfe38a0690a629fcbeb7ad89888"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#af8f31cfe38a0690a629fcbeb7ad89888">initializeLevelData</a> (const tbox::Pointer&lt; hier::BasePatchHierarchy&lt; DIM &gt; &gt; hierarchy, const <a class="el" href="classint.html">int</a> level_number, const <a class="el" href="classdouble.html">double</a> init_data_time, const <a class="el" href="classbool.html">bool</a> can_be_refined, const <a class="el" href="classbool.html">bool</a> initial_time, const tbox::Pointer&lt; hier::BasePatchLevel&lt; DIM &gt; &gt; old_level=tbox::Pointer&lt; hier::BasePatchLevel&lt; DIM &gt; &gt;(NULL), const <a class="el" href="classbool.html">bool</a> allocate_data=true)=0</td></tr>
 <tr class="separator:af8f31cfe38a0690a629fcbeb7ad89888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f8d89482d4bdafc824307cc21c728c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#a6f8d89482d4bdafc824307cc21c728c9">resetHierarchyConfiguration</a> (const tbox::Pointer&lt; hier::BasePatchHierarchy&lt; DIM &gt; &gt; hierarchy, const <a class="el" href="classint.html">int</a> coarsest_level, const <a class="el" href="classint.html">int</a> finest_level)=0</td></tr>
@@ -225,16 +225,16 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a142514561f6e1ad3fc61751baafd1627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4042917a2e54b8829948cb09f10e793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#ad4042917a2e54b8829948cb09f10e793">getHierarchyMathOps</a> () const</td></tr>
 <tr class="separator:ad4042917a2e54b8829948cb09f10e793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb81b46bc281abe474cfad82551e176b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#acb81b46bc281abe474cfad82551e176b">registerVariable</a> (<a class="el" href="classint.html">int</a> &amp;current_idx, <a class="el" href="classint.html">int</a> &amp;new_idx, <a class="el" href="classint.html">int</a> &amp;scratch_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; variable, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;scratch_ghosts=<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), const std::string &amp;coarsen_name=&quot;NO_COARSEN&quot;, const std::string &amp;refine_name=&quot;NO_REFINE&quot;, SAMRAI::tbox::Pointer&lt; <a class="el" href="classIBTK_1_1CartGridFunction.html">IBTK::CartGridFunction</a> &gt; init_fcn=nullptr, const <a class="el" href="classbool.html">bool</a> register_for_restart=true)</td></tr>
-<tr class="separator:acb81b46bc281abe474cfad82551e176b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aade8a368e03183d51d470c8d98c3c742"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#aade8a368e03183d51d470c8d98c3c742">registerVariable</a> (<a class="el" href="classint.html">int</a> &amp;idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; variable, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghosts=<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt; ctx=<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt;(nullptr), const <a class="el" href="classbool.html">bool</a> register_for_restart=true)</td></tr>
-<tr class="separator:aade8a368e03183d51d470c8d98c3c742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff41aa031a85b31866aa1bd7c832cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a6ff41aa031a85b31866aa1bd7c832cb9">registerGhostfillRefineAlgorithm</a> (const std::string &amp;name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt; ghostfill_alg, std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt; ghostfill_patch_strategy=nullptr)</td></tr>
-<tr class="separator:a6ff41aa031a85b31866aa1bd7c832cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a765846726a9e33a0b31e0549b699515f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a765846726a9e33a0b31e0549b699515f">registerProlongRefineAlgorithm</a> (const std::string &amp;name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt; prolong_alg, std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt; prolong_patch_strategy=nullptr)</td></tr>
-<tr class="separator:a765846726a9e33a0b31e0549b699515f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4217ccceea177b4109b528a85c383a2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a4217ccceea177b4109b528a85c383a2b">registerCoarsenAlgorithm</a> (const std::string &amp;name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenAlgorithm.html">SAMRAI::xfer::CoarsenAlgorithm</a>&lt; NDIM &gt; &gt; coarsen_alg, std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html">SAMRAI::xfer::CoarsenPatchStrategy</a>&lt; NDIM &gt; &gt; coarsen_patch_strategy=nullptr)</td></tr>
-<tr class="separator:a4217ccceea177b4109b528a85c383a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5745245416b3c6d561780dc3a5482269"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a5745245416b3c6d561780dc3a5482269">registerVariable</a> (<a class="el" href="classint.html">int</a> &amp;current_idx, <a class="el" href="classint.html">int</a> &amp;new_idx, <a class="el" href="classint.html">int</a> &amp;scratch_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; variable, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;scratch_ghosts=<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), const std::string &amp;coarsen_name=&quot;NO_COARSEN&quot;, const std::string &amp;refine_name=&quot;NO_REFINE&quot;, SAMRAI::tbox::Pointer&lt; <a class="el" href="classIBTK_1_1CartGridFunction.html">IBTK::CartGridFunction</a> &gt; init_fcn=nullptr, const <a class="el" href="classbool.html">bool</a> register_for_restart=true)</td></tr>
+<tr class="separator:a5745245416b3c6d561780dc3a5482269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc106985d80bba807996faccd4f0cb44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#acc106985d80bba807996faccd4f0cb44">registerVariable</a> (<a class="el" href="classint.html">int</a> &amp;idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; variable, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghosts=<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(0), <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt; ctx=<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt;(nullptr), const <a class="el" href="classbool.html">bool</a> register_for_restart=true)</td></tr>
+<tr class="separator:acc106985d80bba807996faccd4f0cb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ea0383db8476ecd5f022092de0fcfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#aa0ea0383db8476ecd5f022092de0fcfa">registerGhostfillRefineAlgorithm</a> (const std::string &amp;name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt;&gt; ghostfill_alg, std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt;&gt; ghostfill_patch_strategy=nullptr)</td></tr>
+<tr class="separator:aa0ea0383db8476ecd5f022092de0fcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb3b586c05a11bf5ed1b53d8fcf858d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#abbb3b586c05a11bf5ed1b53d8fcf858d">registerProlongRefineAlgorithm</a> (const std::string &amp;name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt;&gt; prolong_alg, std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt;&gt; prolong_patch_strategy=nullptr)</td></tr>
+<tr class="separator:abbb3b586c05a11bf5ed1b53d8fcf858d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d896ccddd1119849ee2eed020552cd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a3d896ccddd1119849ee2eed020552cd3">registerCoarsenAlgorithm</a> (const std::string &amp;name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenAlgorithm.html">SAMRAI::xfer::CoarsenAlgorithm</a>&lt; NDIM &gt;&gt; coarsen_alg, std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html">SAMRAI::xfer::CoarsenPatchStrategy</a>&lt; NDIM &gt;&gt; coarsen_patch_strategy=nullptr)</td></tr>
+<tr class="separator:a3d896ccddd1119849ee2eed020552cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08b456e15f5214d3bfe529372ad346c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#a08b456e15f5214d3bfe529372ad346c6">getGhostfillRefineAlgorithm</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:a08b456e15f5214d3bfe529372ad346c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac1cd6f821e6a0e6a82c2a91577fa331"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBStrategy.html#aac1cd6f821e6a0e6a82c2a91577fa331">getProlongRefineAlgorithm</a> (const std::string &amp;name) const</td></tr>
@@ -481,7 +481,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Register Eulerian variables with the parent <a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions...">IBHierarchyIntegrator</a> with the VariableDatabase, or via the various versions of the protected method <a class="el" href="classIBAMR_1_1IBStrategy.html#acb81b46bc281abe474cfad82551e176b">IBStrategy::registerVariable()</a>. </p>
+<p>Register Eulerian variables with the parent <a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions...">IBHierarchyIntegrator</a> with the VariableDatabase, or via the various versions of the protected method <a class="el" href="classIBAMR_1_1IBStrategy.html#a5745245416b3c6d561780dc3a5482269">IBStrategy::registerVariable()</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a749a277f7c88ce504736463db4b439a9">IBAMR::IBStrategy</a>.</p>
 
@@ -509,7 +509,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Register Eulerian refinement or coarsening algorithms with the parent <a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions...">IBHierarchyIntegrator</a> using the two versions of the protected methods <a class="el" href="classIBAMR_1_1IBStrategy.html#a6ff41aa031a85b31866aa1bd7c832cb9">IBStrategy::registerGhostfillRefineAlgorithm()</a>, <a class="el" href="classIBAMR_1_1IBStrategy.html#a765846726a9e33a0b31e0549b699515f">IBStrategy::registerProlongRefineAlgorithm()</a>, and <a class="el" href="classIBAMR_1_1IBStrategy.html#a4217ccceea177b4109b528a85c383a2b">IBStrategy::registerCoarsenAlgorithm()</a>. </p>
+<p>Register Eulerian refinement or coarsening algorithms with the parent <a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html" title="Class IBHierarchyIntegrator provides an abstract interface for a time integrator for various versions...">IBHierarchyIntegrator</a> using the two versions of the protected methods <a class="el" href="classIBAMR_1_1IBStrategy.html#aa0ea0383db8476ecd5f022092de0fcfa">IBStrategy::registerGhostfillRefineAlgorithm()</a>, <a class="el" href="classIBAMR_1_1IBStrategy.html#abbb3b586c05a11bf5ed1b53d8fcf858d">IBStrategy::registerProlongRefineAlgorithm()</a>, and <a class="el" href="classIBAMR_1_1IBStrategy.html#a3d896ccddd1119849ee2eed020552cd3">IBStrategy::registerCoarsenAlgorithm()</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#aec18a1b78a640c600e80aec1059418b8">IBAMR::IBStrategy</a>.</p>
 
@@ -543,8 +543,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac866541ad45f61446a81935034bda8b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac866541ad45f61446a81935034bda8b8">&#9670;&nbsp;</a></span>setupTagBuffer()</h2>
+<a id="a6bc9022cefa091f38ccffd79735c4044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc9022cefa091f38ccffd79735c4044">&#9670;&nbsp;</a></span>setupTagBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,7 +561,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>gridding_alg</em>&#160;</td>
         </tr>
         <tr>
@@ -578,7 +578,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Setup the tag buffer. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a4ae1682579a77ae302441ae085803325">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a7788df8f0dabf534b0fbe4dab3f98e5a">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
@@ -700,8 +700,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9a24d12b5d9fc1edfc51085ba7693825"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a24d12b5d9fc1edfc51085ba7693825">&#9670;&nbsp;</a></span>interpolateVelocity()</h2>
+<a id="ad6e7bd59b5d7faecd2ccda62d3f96ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e7bd59b5d7faecd2ccda62d3f96ed5">&#9670;&nbsp;</a></span>interpolateVelocity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -718,13 +718,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>u_synch_scheds</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>u_ghost_fill_scheds</em>, </td>
         </tr>
         <tr>
@@ -747,7 +747,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Interpolate the Eulerian velocity to the curvilinear mesh at the specified time within the current time interval. </p>
 
-<p>Implements <a class="el" href="classIBAMR_1_1IBStrategy.html#a5d7d2f79ab629e93a808becc43706d5b">IBAMR::IBStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1IBStrategy.html#a28ee5500ebdcc398a16c59fb6e63b1d6">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
@@ -897,8 +897,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a706976932c3acb935a885f7968a163c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a706976932c3acb935a885f7968a163c9">&#9670;&nbsp;</a></span>spreadForce()</h2>
+<a id="a5e8bebe6f78337eb9becfad3d5372684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8bebe6f78337eb9becfad3d5372684">&#9670;&nbsp;</a></span>spreadForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -921,7 +921,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>f_prolongation_scheds</em>, </td>
         </tr>
         <tr>
@@ -944,7 +944,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Spread the Lagrangian force to the Cartesian grid at the specified time within the current time interval. </p>
 
-<p>Implements <a class="el" href="classIBAMR_1_1IBStrategy.html#a01e52f894bcd549503fe20f58dfbd08a">IBAMR::IBStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBAMR_1_1IBStrategy.html#ae010d5559e847824f3aa691e2700ea30">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
@@ -1005,8 +1005,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6ffaa449336708a7d1da47132f5aaa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6ffaa449336708a7d1da47132f5aaa9">&#9670;&nbsp;</a></span>spreadFluidSource()</h2>
+<a id="a139a618b23a5f2da0d1ed9d5502c163f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139a618b23a5f2da0d1ed9d5502c163f">&#9670;&nbsp;</a></span>spreadFluidSource()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1029,7 +1029,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>q_prolongation_scheds</em>, </td>
         </tr>
         <tr>
@@ -1052,12 +1052,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Spread the Lagrangian source/sink density to the Cartesian grid at the specified time within the current time interval. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#ae9105414b159821a57fd09469de45c97">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a4a023c984a67c4cde6006e4b30372cd5">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a1cc14d03c9a52482b80e583bc496a462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc14d03c9a52482b80e583bc496a462">&#9670;&nbsp;</a></span>interpolatePressure()</h2>
+<a id="a7dc780596ae08efd61cba0a563c16fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc780596ae08efd61cba0a563c16fb4">&#9670;&nbsp;</a></span>interpolatePressure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1074,13 +1074,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>p_synch_scheds</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>p_ghost_fill_scheds</em>, </td>
         </tr>
         <tr>
@@ -1103,7 +1103,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Compute the pressures at the positions of any distributed internal fluid sources or sinks. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#ac269b2985aa6a7c55c5ff015c5e337eb">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#aded5afc61c7f75b63fd318e079192d35">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
@@ -1225,8 +1225,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abeb2659483cc14d5fb595192f444b73b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abeb2659483cc14d5fb595192f444b73b">&#9670;&nbsp;</a></span>initializePatchHierarchy()</h2>
+<a id="a7c334d57152281151c55ae989b93fd85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c334d57152281151c55ae989b93fd85">&#9670;&nbsp;</a></span>initializePatchHierarchy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1237,13 +1237,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::initializePatchHierarchy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>gridding_alg</em>, </td>
         </tr>
         <tr>
@@ -1255,13 +1255,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenSchedule.html">SAMRAI::xfer::CoarsenSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>u_synch_scheds</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>u_ghost_fill_scheds</em>, </td>
         </tr>
         <tr>
@@ -1297,12 +1297,12 @@ Private Attributes</h2></td></tr>
 <p>Initialize Lagrangian data corresponding to the given AMR patch hierarchy at the start of a computation. If the computation is begun from a restart file, data may be read from the restart databases.</p>
 <p>A patch data descriptor is provided for the Eulerian velocity in case initialization requires interpolating Eulerian data. Ghost cells for Eulerian data will be filled upon entry to this function. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a2857c2753274413a8c0a3f1c9b2074d0">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a629c06a7245ab1d78ee4959c61a9a531">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a4fd98bf3b10c173182f4a5ed9f792fe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fd98bf3b10c173182f4a5ed9f792fe7">&#9670;&nbsp;</a></span>addWorkloadEstimate()</h2>
+<a id="a8d86c7abf02efa81fe5e6d73565ec4e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d86c7abf02efa81fe5e6d73565ec4e8">&#9670;&nbsp;</a></span>addWorkloadEstimate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1313,7 +1313,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::addWorkloadEstimate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -1336,12 +1336,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Add the estimated computational work from the current object per cell into the specified <code>workload_data_idx</code>. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a7b56cdde81a82aa9e274f6787c16168a">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#ae1b747cf5cc6ef3673271019c6fd9ac2">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a2187abd79c9d57f362c7efb79337e47d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2187abd79c9d57f362c7efb79337e47d">&#9670;&nbsp;</a></span>beginDataRedistribution()</h2>
+<a id="a4c16312d8b3a70dfcd7224c7452b8fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c16312d8b3a70dfcd7224c7452b8fac">&#9670;&nbsp;</a></span>beginDataRedistribution()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1352,13 +1352,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::beginDataRedistribution </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>gridding_alg</em>&#160;</td>
         </tr>
         <tr>
@@ -1375,12 +1375,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Begin redistributing Lagrangian data prior to regridding the patch hierarchy. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#ab642751b30ab47992895a22e026ba672">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#aec86261b555bc9fcc15e6cc09ef85870">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a67ee81f516938b93540a8bab1f7f328f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67ee81f516938b93540a8bab1f7f328f">&#9670;&nbsp;</a></span>endDataRedistribution()</h2>
+<a id="a3076e85c6e748513cb8f0c647e02169f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3076e85c6e748513cb8f0c647e02169f">&#9670;&nbsp;</a></span>endDataRedistribution()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1391,13 +1391,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::endDataRedistribution </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1GriddingAlgorithm.html">SAMRAI::mesh::GriddingAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>gridding_alg</em>&#160;</td>
         </tr>
         <tr>
@@ -1414,12 +1414,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Complete redistributing Lagrangian data following regridding the patch hierarchy. </p>
 
-<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a1de1731a81d3204c0caf301e0a5f2736">IBAMR::IBStrategy</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1IBStrategy.html#a1414dfa6ffd90ec3c80616d44736b386">IBAMR::IBStrategy</a>.</p>
 
 </div>
 </div>
-<a id="ab65b17f0486642c4a742c9a58b028db3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab65b17f0486642c4a742c9a58b028db3">&#9670;&nbsp;</a></span>initializeLevelData() <span class="overload">[1/2]</span></h2>
+<a id="ab41167f078acc478581aaed276e59e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab41167f078acc478581aaed276e59e9e">&#9670;&nbsp;</a></span>initializeLevelData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1430,7 +1430,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::initializeLevelData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -1460,7 +1460,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>old_level</em>, </td>
         </tr>
         <tr>
@@ -1486,8 +1486,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad757644a16d759fd82d2172d274e6414"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad757644a16d759fd82d2172d274e6414">&#9670;&nbsp;</a></span>resetHierarchyConfiguration() <span class="overload">[1/2]</span></h2>
+<a id="a0f02e721ec8878f0e6ba7fb1d3d12790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f02e721ec8878f0e6ba7fb1d3d12790">&#9670;&nbsp;</a></span>resetHierarchyConfiguration() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1498,7 +1498,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::resetHierarchyConfiguration </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -1530,8 +1530,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b26e4398f38919333d34221091c8fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b26e4398f38919333d34221091c8fa3">&#9670;&nbsp;</a></span>applyGradientDetector() <span class="overload">[1/2]</span></h2>
+<a id="a32e4fafdca0e39e1923d7f9a74a4bbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e4fafdca0e39e1923d7f9a74a4bbc6">&#9670;&nbsp;</a></span>applyGradientDetector() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1542,7 +1542,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::IBLevelSetMethod::applyGradientDetector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -1968,8 +1968,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a41e996bc402231206232370c2e442c64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41e996bc402231206232370c2e442c64">&#9670;&nbsp;</a></span>registerLoadBalancer()</h2>
+<a id="abc546eb88b114cecab03d531e142d481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc546eb88b114cecab03d531e142d481">&#9670;&nbsp;</a></span>registerLoadBalancer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1980,7 +1980,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void IBAMR::IBStrategy::registerLoadBalancer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1mesh_1_1LoadBalancer.html">SAMRAI::mesh::LoadBalancer</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>load_balancer</em>, </td>
         </tr>
         <tr>
@@ -2005,7 +2005,7 @@ Private Attributes</h2></td></tr>
 <p>An empty default implementation is provided.</p>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000005">Deprecated:</a></b></dt><dd>This method is no longer necessary with the current workload estimation scheme. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classIBAMR_1_1IBMethod.html#a2b6847ad81e8d1f24acab882f950c9a6">IBAMR::IBMethod</a>, <a class="el" href="classIBAMR_1_1IBStrategySet.html#a749fda0218e78d16ae96b939a32ddc07">IBAMR::IBStrategySet</a>, and <a class="el" href="classIBAMR_1_1IMPMethod.html#a4972dae87ff8f57ff819cf6b9247dad6">IBAMR::IMPMethod</a>.</p>
+<p>Reimplemented in <a class="el" href="classIBAMR_1_1IBMethod.html#aaf1eddb98b340219049391bc9f83bca2">IBAMR::IBMethod</a>, <a class="el" href="classIBAMR_1_1IBStrategySet.html#a3531f11d54242e131aa03217fa7ccccc">IBAMR::IBStrategySet</a>, and <a class="el" href="classIBAMR_1_1IMPMethod.html#ae7cd7639efaa5fbd5d90c3d8f204263c">IBAMR::IMPMethod</a>.</p>
 
 </div>
 </div>
@@ -2289,8 +2289,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acb81b46bc281abe474cfad82551e176b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb81b46bc281abe474cfad82551e176b">&#9670;&nbsp;</a></span>registerVariable() <span class="overload">[1/2]</span></h2>
+<a id="a5745245416b3c6d561780dc3a5482269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5745245416b3c6d561780dc3a5482269">&#9670;&nbsp;</a></span>registerVariable() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2319,7 +2319,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>variable</em>, </td>
         </tr>
         <tr>
@@ -2369,8 +2369,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aade8a368e03183d51d470c8d98c3c742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aade8a368e03183d51d470c8d98c3c742">&#9670;&nbsp;</a></span>registerVariable() <span class="overload">[2/2]</span></h2>
+<a id="acc106985d80bba807996faccd4f0cb44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc106985d80bba807996faccd4f0cb44">&#9670;&nbsp;</a></span>registerVariable() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2387,7 +2387,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>variable</em>, </td>
         </tr>
         <tr>
@@ -2425,8 +2425,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ff41aa031a85b31866aa1bd7c832cb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ff41aa031a85b31866aa1bd7c832cb9">&#9670;&nbsp;</a></span>registerGhostfillRefineAlgorithm()</h2>
+<a id="aa0ea0383db8476ecd5f022092de0fcfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0ea0383db8476ecd5f022092de0fcfa">&#9670;&nbsp;</a></span>registerGhostfillRefineAlgorithm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2443,13 +2443,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>ghostfill_alg</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>ghostfill_patch_strategy</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -2468,8 +2468,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a765846726a9e33a0b31e0549b699515f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a765846726a9e33a0b31e0549b699515f">&#9670;&nbsp;</a></span>registerProlongRefineAlgorithm()</h2>
+<a id="abbb3b586c05a11bf5ed1b53d8fcf858d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbb3b586c05a11bf5ed1b53d8fcf858d">&#9670;&nbsp;</a></span>registerProlongRefineAlgorithm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2486,13 +2486,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineAlgorithm.html">SAMRAI::xfer::RefineAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>prolong_alg</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>prolong_patch_strategy</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -2511,8 +2511,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4217ccceea177b4109b528a85c383a2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4217ccceea177b4109b528a85c383a2b">&#9670;&nbsp;</a></span>registerCoarsenAlgorithm()</h2>
+<a id="a3d896ccddd1119849ee2eed020552cd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d896ccddd1119849ee2eed020552cd3">&#9670;&nbsp;</a></span>registerCoarsenAlgorithm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2529,13 +2529,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenAlgorithm.html">SAMRAI::xfer::CoarsenAlgorithm</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenAlgorithm.html">SAMRAI::xfer::CoarsenAlgorithm</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>coarsen_alg</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html">SAMRAI::xfer::CoarsenPatchStrategy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenPatchStrategy.html">SAMRAI::xfer::CoarsenPatchStrategy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>coarsen_patch_strategy</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>

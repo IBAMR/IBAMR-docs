@@ -88,10 +88,10 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a36fae34ad24543fe2aa35679100162ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#a36fae34ad24543fe2aa35679100162ca">SecondaryHierarchy</a> (std::string name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; gridding_algorithm_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; load_balancer_db)</td></tr>
 <tr class="separator:a36fae34ad24543fe2aa35679100162ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeb6538256b5518b472c65c05502282f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#abeb6538256b5518b472c65c05502282f">reinit</a> (<a class="el" href="classint.html">int</a> coarsest_patch_level_number, <a class="el" href="classint.html">int</a> finest_patch_level_number, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy)</td></tr>
-<tr class="separator:abeb6538256b5518b472c65c05502282f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad685de2b9ba28fe6466e4f22972fd4d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#ad685de2b9ba28fe6466e4f22972fd4d9">reinit</a> (<a class="el" href="classint.html">int</a> coarsest_patch_level_number, <a class="el" href="classint.html">int</a> finest_patch_level_number, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; patch_hierarchy, <a class="el" href="classint.html">int</a> workload_idx)</td></tr>
-<tr class="separator:ad685de2b9ba28fe6466e4f22972fd4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036d1a8733cf88f519462831ffa3209d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#a036d1a8733cf88f519462831ffa3209d">reinit</a> (<a class="el" href="classint.html">int</a> coarsest_patch_level_number, <a class="el" href="classint.html">int</a> finest_patch_level_number, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy)</td></tr>
+<tr class="separator:a036d1a8733cf88f519462831ffa3209d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd570f8411bd03bb487ddefaf2fa703"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#adfd570f8411bd03bb487ddefaf2fa703">reinit</a> (<a class="el" href="classint.html">int</a> coarsest_patch_level_number, <a class="el" href="classint.html">int</a> finest_patch_level_number, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, <a class="el" href="classint.html">int</a> workload_idx)</td></tr>
+<tr class="separator:adfd570f8411bd03bb487ddefaf2fa703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbbbd34511e63afda2d86729383d7688"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#abbbbd34511e63afda2d86729383d7688">transferPrimaryToSecondary</a> (<a class="el" href="classint.html">int</a> level_number, <a class="el" href="classint.html">int</a> primary_data_idx, <a class="el" href="classint.html">int</a> secondary_data_idx, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; *patch_strategy=nullptr)</td></tr>
 <tr class="separator:abbbbd34511e63afda2d86729383d7688"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24e3f875b729b9b477e8e922a08088e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SecondaryHierarchy.html#a24e3f875b729b9b477e8e922a08088e2">transferSecondaryToPrimary</a> (<a class="el" href="classint.html">int</a> level_number, <a class="el" href="classint.html">int</a> primary_data_idx, <a class="el" href="classint.html">int</a> secondary_data_idx, <a class="el" href="classdouble.html">double</a> data_time, <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; *patch_strategy=nullptr)</td></tr>
@@ -171,8 +171,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abeb6538256b5518b472c65c05502282f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abeb6538256b5518b472c65c05502282f">&#9670;&nbsp;</a></span>reinit() <span class="overload">[1/2]</span></h2>
+<a id="a036d1a8733cf88f519462831ffa3209d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036d1a8733cf88f519462831ffa3209d">&#9670;&nbsp;</a></span>reinit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>&#160;</td>
         </tr>
         <tr>
@@ -206,8 +206,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad685de2b9ba28fe6466e4f22972fd4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad685de2b9ba28fe6466e4f22972fd4d9">&#9670;&nbsp;</a></span>reinit() <span class="overload">[2/2]</span></h2>
+<a id="adfd570f8411bd03bb487ddefaf2fa703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd570f8411bd03bb487ddefaf2fa703">&#9670;&nbsp;</a></span>reinit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch_hierarchy</em>, </td>
         </tr>
         <tr>

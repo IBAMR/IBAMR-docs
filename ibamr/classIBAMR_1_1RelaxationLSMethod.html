@@ -184,21 +184,21 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
 <tr class="memitem:ab28e2ac72317276d418fc58be2995e3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#ab28e2ac72317276d418fc58be2995e3b">relax</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a> &gt; D_fill_op, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt; hier_math_ops, <a class="el" href="classint.html">int</a> dist_idx, <a class="el" href="classint.html">int</a> dist_init_idx, <a class="el" href="classint.html">int</a> dist_copy_idx, <a class="el" href="classint.html">int</a> dt_idx, const <a class="el" href="classint.html">int</a> iter, const <a class="el" href="classdouble.html">double</a> time) const</td></tr>
 <tr class="memdesc:ab28e2ac72317276d418fc58be2995e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do one relaxation step over the hierarchy.  <a href="classIBAMR_1_1RelaxationLSMethod.html#ab28e2ac72317276d418fc58be2995e3b">More...</a><br /></td></tr>
 <tr class="separator:ab28e2ac72317276d418fc58be2995e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af633bb6002a6f3f60a06be7dc166ec07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#af633bb6002a6f3f60a06be7dc166ec07">relax</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dist_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dist_init_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dt_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classint.html">int</a> iter) const</td></tr>
-<tr class="memdesc:af633bb6002a6f3f60a06be7dc166ec07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do one relaxation step over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#af633bb6002a6f3f60a06be7dc166ec07">More...</a><br /></td></tr>
-<tr class="separator:af633bb6002a6f3f60a06be7dc166ec07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c3e7120f805ffb938847392045e936"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#a47c3e7120f805ffb938847392045e936">relax</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dist_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dist_init_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dt_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classint.html">int</a> iter) const</td></tr>
+<tr class="memdesc:a47c3e7120f805ffb938847392045e936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do one relaxation step over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#a47c3e7120f805ffb938847392045e936">More...</a><br /></td></tr>
+<tr class="separator:a47c3e7120f805ffb938847392045e936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a199a7048f3a4c98f21db150daf9fac30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#a199a7048f3a4c98f21db150daf9fac30">computeHamiltonian</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt; hier_math_ops, <a class="el" href="classint.html">int</a> ham_idx, <a class="el" href="classint.html">int</a> dist_idx) const</td></tr>
 <tr class="memdesc:a199a7048f3a4c98f21db150daf9fac30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the Hamiltonian of the indicator field over the hierarchy.  <a href="classIBAMR_1_1RelaxationLSMethod.html#a199a7048f3a4c98f21db150daf9fac30">More...</a><br /></td></tr>
 <tr class="separator:a199a7048f3a4c98f21db150daf9fac30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18cf79fc0a685f5c08fc2856be03c971"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#a18cf79fc0a685f5c08fc2856be03c971">computeHamiltonian</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; ham_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dist_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch) const</td></tr>
-<tr class="memdesc:a18cf79fc0a685f5c08fc2856be03c971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the hamiltonian of the indicator field field over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#a18cf79fc0a685f5c08fc2856be03c971">More...</a><br /></td></tr>
-<tr class="separator:a18cf79fc0a685f5c08fc2856be03c971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d415863b9621e4ddd3bb1eb63d651f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#a8d415863b9621e4ddd3bb1eb63d651f8">computeHamiltonian</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; ham_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dist_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch) const</td></tr>
+<tr class="memdesc:a8d415863b9621e4ddd3bb1eb63d651f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the hamiltonian of the indicator field field over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#a8d415863b9621e4ddd3bb1eb63d651f8">More...</a><br /></td></tr>
+<tr class="separator:a8d415863b9621e4ddd3bb1eb63d651f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9a2ce18e97b01c6346a5b88e2718fc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#ab9a2ce18e97b01c6346a5b88e2718fc3">applyMassConstraint</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt; hier_math_ops, <a class="el" href="classint.html">int</a> dist_idx, <a class="el" href="classint.html">int</a> dist_copy_idx, <a class="el" href="classint.html">int</a> dist_init_idx, <a class="el" href="classint.html">int</a> ham_init_idx) const</td></tr>
 <tr class="memdesc:ab9a2ce18e97b01c6346a5b88e2718fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the mass constraint over the hierarchy.  <a href="classIBAMR_1_1RelaxationLSMethod.html#ab9a2ce18e97b01c6346a5b88e2718fc3">More...</a><br /></td></tr>
 <tr class="separator:ab9a2ce18e97b01c6346a5b88e2718fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c10140ccdaa2a9de2a528fed7c753f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#af7c10140ccdaa2a9de2a528fed7c753f">applyMassConstraint</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dist_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dist_copy_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; dist_init_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt; ham_init_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch) const</td></tr>
-<tr class="memdesc:af7c10140ccdaa2a9de2a528fed7c753f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the mass constraint over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#af7c10140ccdaa2a9de2a528fed7c753f">More...</a><br /></td></tr>
-<tr class="separator:af7c10140ccdaa2a9de2a528fed7c753f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11d630ac1212782bf9bb445416373b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#ad11d630ac1212782bf9bb445416373b6">applyMassConstraint</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dist_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dist_copy_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; dist_init_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt; ham_init_data, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch) const</td></tr>
+<tr class="memdesc:ad11d630ac1212782bf9bb445416373b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the mass constraint over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#ad11d630ac1212782bf9bb445416373b6">More...</a><br /></td></tr>
+<tr class="separator:ad11d630ac1212782bf9bb445416373b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb23d8201fffe2dea48d45e3224c6b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#afb23d8201fffe2dea48d45e3224c6b50">applyVolumeRedistribution</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt; hier_math_ops, <a class="el" href="classint.html">int</a> lambda_idx, <a class="el" href="classint.html">int</a> dist_idx, <a class="el" href="classint.html">int</a> dist_init_idx, <a class="el" href="classint.html">int</a> ham_idx, <a class="el" href="classint.html">int</a> dt_idx) const</td></tr>
 <tr class="separator:afb23d8201fffe2dea48d45e3224c6b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27f63b5e83a0aea413035ffc5a8a2541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#a27f63b5e83a0aea413035ffc5a8a2541">getFromInput</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db)</td></tr>
@@ -528,8 +528,8 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
 
 </div>
 </div>
-<a id="af633bb6002a6f3f60a06be7dc166ec07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af633bb6002a6f3f60a06be7dc166ec07">&#9670;&nbsp;</a></span>relax() <span class="overload">[2/2]</span></h2>
+<a id="a47c3e7120f805ffb938847392045e936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c3e7120f805ffb938847392045e936">&#9670;&nbsp;</a></span>relax() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,25 +540,25 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::RelaxationLSMethod::relax </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dist_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dist_init_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dt_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
@@ -624,8 +624,8 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
 
 </div>
 </div>
-<a id="a18cf79fc0a685f5c08fc2856be03c971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18cf79fc0a685f5c08fc2856be03c971">&#9670;&nbsp;</a></span>computeHamiltonian() <span class="overload">[2/2]</span></h2>
+<a id="a8d415863b9621e4ddd3bb1eb63d651f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d415863b9621e4ddd3bb1eb63d651f8">&#9670;&nbsp;</a></span>computeHamiltonian() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -636,19 +636,19 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::RelaxationLSMethod::computeHamiltonian </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>ham_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dist_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>&#160;</td>
         </tr>
         <tr>
@@ -720,8 +720,8 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
 
 </div>
 </div>
-<a id="af7c10140ccdaa2a9de2a528fed7c753f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c10140ccdaa2a9de2a528fed7c753f">&#9670;&nbsp;</a></span>applyMassConstraint() <span class="overload">[2/2]</span></h2>
+<a id="ad11d630ac1212782bf9bb445416373b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad11d630ac1212782bf9bb445416373b6">&#9670;&nbsp;</a></span>applyMassConstraint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -732,31 +732,31 @@ Implementation of IBAMR::LSInitStrategy interface.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::RelaxationLSMethod::applyMassConstraint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dist_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dist_copy_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>dist_init_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, <a class="el" href="classdouble.html">double</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>ham_init_data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>&#160;</td>
         </tr>
         <tr>

@@ -111,10 +111,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a472b3fe21ef48df35192bb533a43a314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a8eafb982695c6fe45510cd72969043"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a2a8eafb982695c6fe45510cd72969043">registerTensorVariable</a> (const std::string &amp;var_name, libMesh::FEFamily var_fe_family, libMesh::Order var_fe_order, <a class="el" href="namespaceIBTK.html#a2047e8d6003cdf2c5017d741cad69907">IBTK::TensorMeshFcnPtr</a> var_fcn, const std::vector&lt; <a class="el" href="structIBTK_1_1SystemData.html">IBTK::SystemData</a> &gt; &amp;system_data=std::vector&lt; <a class="el" href="structIBTK_1_1SystemData.html">IBTK::SystemData</a> &gt;(), void *var_fcn_ctx=nullptr, unsigned <a class="el" href="classint.html">int</a> var_dim=NDIM)</td></tr>
 <tr class="separator:a2a8eafb982695c6fe45510cd72969043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70365f5065a3b8a27980c4fc8e3af7f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a70365f5065a3b8a27980c4fc8e3af7f6">registerInterpolatedScalarEulerianVariable</a> (const std::string &amp;var_name, libMesh::FEFamily var_fe_family, libMesh::Order var_fe_order, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt; ctx, const <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation_1_1InterpolationTransactionComponent.html">IBTK::HierarchyGhostCellInterpolation::InterpolationTransactionComponent</a> &amp;ghost_fill_transaction)</td></tr>
-<tr class="separator:a70365f5065a3b8a27980c4fc8e3af7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c029c7c10191e32ae817fad52853ee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a36c029c7c10191e32ae817fad52853ee">registerInterpolatedScalarEulerianVariable</a> (const std::string &amp;var_name, libMesh::FEFamily var_fe_family, libMesh::Order var_fe_order, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt; ctx, const <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation_1_1InterpolationTransactionComponent.html">IBTK::HierarchyGhostCellInterpolation::InterpolationTransactionComponent</a> &amp;ghost_fill_transaction, const <a class="el" href="structIBTK_1_1FEDataManager_1_1InterpSpec.html">IBTK::FEDataManager::InterpSpec</a> &amp;interp_spec)</td></tr>
-<tr class="separator:a36c029c7c10191e32ae817fad52853ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88296755732cbc1c0bd4e90bd6b1ec7a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a88296755732cbc1c0bd4e90bd6b1ec7a">registerInterpolatedScalarEulerianVariable</a> (const std::string &amp;var_name, libMesh::FEFamily var_fe_family, libMesh::Order var_fe_order, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt; ctx, const <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation_1_1InterpolationTransactionComponent.html">IBTK::HierarchyGhostCellInterpolation::InterpolationTransactionComponent</a> &amp;ghost_fill_transaction)</td></tr>
+<tr class="separator:a88296755732cbc1c0bd4e90bd6b1ec7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef16ff5a1bb0da0c23afd4538e802f43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#aef16ff5a1bb0da0c23afd4538e802f43">registerInterpolatedScalarEulerianVariable</a> (const std::string &amp;var_name, libMesh::FEFamily var_fe_family, libMesh::Order var_fe_order, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt; ctx, const <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation_1_1InterpolationTransactionComponent.html">IBTK::HierarchyGhostCellInterpolation::InterpolationTransactionComponent</a> &amp;ghost_fill_transaction, const <a class="el" href="structIBTK_1_1FEDataManager_1_1InterpSpec.html">IBTK::FEDataManager::InterpSpec</a> &amp;interp_spec)</td></tr>
+<tr class="separator:aef16ff5a1bb0da0c23afd4538e802f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63b02ce5a5963f685544d7722335ea8d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a63b02ce5a5963f685544d7722335ea8d">initializeFEData</a> ()</td></tr>
 <tr class="separator:a63b02ce5a5963f685544d7722335ea8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa689e2cbc9578f0a497eb4f616c9176d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#aa689e2cbc9578f0a497eb4f616c9176d">postProcessData</a> (<a class="el" href="classdouble.html">double</a> data_time)</td></tr>
@@ -122,24 +122,24 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3f245f425c864ee89c06c0a397f6a4eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a3f245f425c864ee89c06c0a397f6a4eb">FF_fcn</a> (<a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF_out, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF_in, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
-<tr class="memdesc:a3f245f425c864ee89c06c0a397f6a4eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the deformation gradient tensor FF = dX/ds.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a3f245f425c864ee89c06c0a397f6a4eb">More...</a><br /></td></tr>
-<tr class="separator:a3f245f425c864ee89c06c0a397f6a4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f526089cd9292fbe6c4a1aba611a7c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#ae3f526089cd9292fbe6c4a1aba611a7c">EE_fcn</a> (<a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;EE, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
-<tr class="memdesc:ae3f526089cd9292fbe6c4a1aba611a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the Green-Lagrangian strain tensor EE = 0.5*(CC - II), with CC = FF^T FF and FF = dX/ds.  <a href="classIBAMR_1_1IBFEPostProcessor.html#ae3f526089cd9292fbe6c4a1aba611a7c">More...</a><br /></td></tr>
-<tr class="separator:ae3f526089cd9292fbe6c4a1aba611a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6857a24ca64b9e5ff8e5b6ac2804b712"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a6857a24ca64b9e5ff8e5b6ac2804b712">cauchy_stress_from_PK1_stress_fcn</a> (<a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;sigma, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;X, const libMesh::Point &amp;s, libMesh::Elem *elem, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;system_grad_var_data, <a class="el" href="classdouble.html">double</a> data_time, void *ctx)</td></tr>
-<tr class="memdesc:a6857a24ca64b9e5ff8e5b6ac2804b712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the Cauchy stress from the PK1 stress, using the PK1 stress function data provided by the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a6857a24ca64b9e5ff8e5b6ac2804b712">More...</a><br /></td></tr>
-<tr class="separator:a6857a24ca64b9e5ff8e5b6ac2804b712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3380e971bf8755432c22a3ca0398e458"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a3380e971bf8755432c22a3ca0398e458">deformed_material_axis_fcn</a> (<a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;f, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
-<tr class="memdesc:a3380e971bf8755432c22a3ca0398e458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing a deformed material axis. A pointer to the system number must be passed as the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a3380e971bf8755432c22a3ca0398e458">More...</a><br /></td></tr>
-<tr class="separator:a3380e971bf8755432c22a3ca0398e458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd39390687880e42c7de22c7c56c763"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a1dd39390687880e42c7de22c7c56c763">deformed_normalized_material_axis_fcn</a> (<a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;f, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
-<tr class="memdesc:a1dd39390687880e42c7de22c7c56c763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing a deformed, normalized material axis. A pointer to the system number must be passed as the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a1dd39390687880e42c7de22c7c56c763">More...</a><br /></td></tr>
-<tr class="separator:a1dd39390687880e42c7de22c7c56c763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab074fbd3a644d42cdc9035525306ec61"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#ab074fbd3a644d42cdc9035525306ec61">material_axis_stretch_fcn</a> (<a class="el" href="classdouble.html">double</a> &amp;lambda, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
-<tr class="memdesc:ab074fbd3a644d42cdc9035525306ec61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the stretch in a material axis. A pointer to the system number must be passed as the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#ab074fbd3a644d42cdc9035525306ec61">More...</a><br /></td></tr>
-<tr class="separator:ab074fbd3a644d42cdc9035525306ec61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f19c029ed029b3526d37c84c6093007"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a6f19c029ed029b3526d37c84c6093007">FF_fcn</a> (<a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF_out, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF_in, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
+<tr class="memdesc:a6f19c029ed029b3526d37c84c6093007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the deformation gradient tensor FF = dX/ds.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a6f19c029ed029b3526d37c84c6093007">More...</a><br /></td></tr>
+<tr class="separator:a6f19c029ed029b3526d37c84c6093007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a171133aa233e2b702ced00ba4ed9f413"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a171133aa233e2b702ced00ba4ed9f413">EE_fcn</a> (<a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;EE, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
+<tr class="memdesc:a171133aa233e2b702ced00ba4ed9f413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the Green-Lagrangian strain tensor EE = 0.5*(CC - II), with CC = FF^T FF and FF = dX/ds.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a171133aa233e2b702ced00ba4ed9f413">More...</a><br /></td></tr>
+<tr class="separator:a171133aa233e2b702ced00ba4ed9f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed1573c1fe5aca20ba848b28dc407a0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a2ed1573c1fe5aca20ba848b28dc407a0">cauchy_stress_from_PK1_stress_fcn</a> (<a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;sigma, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;X, const libMesh::Point &amp;s, libMesh::Elem *elem, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;system_grad_var_data, <a class="el" href="classdouble.html">double</a> data_time, void *ctx)</td></tr>
+<tr class="memdesc:a2ed1573c1fe5aca20ba848b28dc407a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the Cauchy stress from the PK1 stress, using the PK1 stress function data provided by the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a2ed1573c1fe5aca20ba848b28dc407a0">More...</a><br /></td></tr>
+<tr class="separator:a2ed1573c1fe5aca20ba848b28dc407a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b0e4c9d7c9db48f29e327b71a9ecb5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a87b0e4c9d7c9db48f29e327b71a9ecb5">deformed_material_axis_fcn</a> (<a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;f, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
+<tr class="memdesc:a87b0e4c9d7c9db48f29e327b71a9ecb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing a deformed material axis. A pointer to the system number must be passed as the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a87b0e4c9d7c9db48f29e327b71a9ecb5">More...</a><br /></td></tr>
+<tr class="separator:a87b0e4c9d7c9db48f29e327b71a9ecb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3113805ed288b1a819fd954efa6b2a7b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a3113805ed288b1a819fd954efa6b2a7b">deformed_normalized_material_axis_fcn</a> (<a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;f, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
+<tr class="memdesc:a3113805ed288b1a819fd954efa6b2a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing a deformed, normalized material axis. A pointer to the system number must be passed as the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a3113805ed288b1a819fd954efa6b2a7b">More...</a><br /></td></tr>
+<tr class="separator:a3113805ed288b1a819fd954efa6b2a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40698b43bd30d691d5d8198629505e2f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEPostProcessor.html#a40698b43bd30d691d5d8198629505e2f">material_axis_stretch_fcn</a> (<a class="el" href="classdouble.html">double</a> &amp;lambda, const <a class="el" href="classlibMesh_1_1TensorValue.html">libMesh::TensorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &amp;FF, const libMesh::Point &amp;, const libMesh::Point &amp;, libMesh::Elem *, const std::vector&lt; const std::vector&lt; <a class="el" href="classdouble.html">double</a> &gt; * &gt; &amp;system_var_data, const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;, <a class="el" href="classdouble.html">double</a>, void *)</td></tr>
+<tr class="memdesc:a40698b43bd30d691d5d8198629505e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reconstructing the stretch in a material axis. A pointer to the system number must be passed as the ctx argument.  <a href="classIBAMR_1_1IBFEPostProcessor.html#a40698b43bd30d691d5d8198629505e2f">More...</a><br /></td></tr>
+<tr class="separator:a40698b43bd30d691d5d8198629505e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -331,8 +331,8 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3f245f425c864ee89c06c0a397f6a4eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f245f425c864ee89c06c0a397f6a4eb">&#9670;&nbsp;</a></span>FF_fcn()</h2>
+<a id="a6f19c029ed029b3526d37c84c6093007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f19c029ed029b3526d37c84c6093007">&#9670;&nbsp;</a></span>FF_fcn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +379,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -409,8 +409,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae3f526089cd9292fbe6c4a1aba611a7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3f526089cd9292fbe6c4a1aba611a7c">&#9670;&nbsp;</a></span>EE_fcn()</h2>
+<a id="a171133aa233e2b702ced00ba4ed9f413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a171133aa233e2b702ced00ba4ed9f413">&#9670;&nbsp;</a></span>EE_fcn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,7 +457,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -487,8 +487,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6857a24ca64b9e5ff8e5b6ac2804b712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6857a24ca64b9e5ff8e5b6ac2804b712">&#9670;&nbsp;</a></span>cauchy_stress_from_PK1_stress_fcn()</h2>
+<a id="a2ed1573c1fe5aca20ba848b28dc407a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ed1573c1fe5aca20ba848b28dc407a0">&#9670;&nbsp;</a></span>cauchy_stress_from_PK1_stress_fcn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -535,7 +535,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>system_grad_var_data</em>, </td>
         </tr>
         <tr>
@@ -565,8 +565,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3380e971bf8755432c22a3ca0398e458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3380e971bf8755432c22a3ca0398e458">&#9670;&nbsp;</a></span>deformed_material_axis_fcn()</h2>
+<a id="a87b0e4c9d7c9db48f29e327b71a9ecb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b0e4c9d7c9db48f29e327b71a9ecb5">&#9670;&nbsp;</a></span>deformed_material_axis_fcn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,7 +613,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -643,8 +643,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1dd39390687880e42c7de22c7c56c763"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dd39390687880e42c7de22c7c56c763">&#9670;&nbsp;</a></span>deformed_normalized_material_axis_fcn()</h2>
+<a id="a3113805ed288b1a819fd954efa6b2a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3113805ed288b1a819fd954efa6b2a7b">&#9670;&nbsp;</a></span>deformed_normalized_material_axis_fcn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -691,7 +691,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -721,8 +721,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab074fbd3a644d42cdc9035525306ec61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab074fbd3a644d42cdc9035525306ec61">&#9670;&nbsp;</a></span>material_axis_stretch_fcn()</h2>
+<a id="a40698b43bd30d691d5d8198629505e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40698b43bd30d691d5d8198629505e2f">&#9670;&nbsp;</a></span>material_axis_stretch_fcn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -769,7 +769,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt; &gt; * &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; const std::vector&lt; <a class="el" href="classlibMesh_1_1VectorValue.html">libMesh::VectorValue</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; * &gt; &amp;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -1000,8 +1000,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a70365f5065a3b8a27980c4fc8e3af7f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70365f5065a3b8a27980c4fc8e3af7f6">&#9670;&nbsp;</a></span>registerInterpolatedScalarEulerianVariable() <span class="overload">[1/2]</span></h2>
+<a id="a88296755732cbc1c0bd4e90bd6b1ec7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88296755732cbc1c0bd4e90bd6b1ec7a">&#9670;&nbsp;</a></span>registerInterpolatedScalarEulerianVariable() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1030,7 +1030,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
@@ -1061,8 +1061,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a36c029c7c10191e32ae817fad52853ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c029c7c10191e32ae817fad52853ee">&#9670;&nbsp;</a></span>registerInterpolatedScalarEulerianVariable() <span class="overload">[2/2]</span></h2>
+<a id="aef16ff5a1bb0da0c23afd4538e802f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef16ff5a1bb0da0c23afd4538e802f43">&#9670;&nbsp;</a></span>registerInterpolatedScalarEulerianVariable() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1091,7 +1091,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>

@@ -128,6 +128,6 @@ var searchData=
   ['owner_7009',['owner',['../structSAMRAI_1_1hier_1_1BoxTreeNode_1_1Triple.html#a9cf2788c8b82e8dedf09b3993097f96b',1,'SAMRAI::hier::BoxTreeNode::Triple']]],
   ['owner_5fmode_7010',['owner_mode',['../structSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode_1_1CommonParams.html#aee74bc80e07456e82b3c51bc70f5bcb0',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode::CommonParams']]],
   ['ownermode_7011',['OwnerMode',['../classSAMRAI_1_1mesh_1_1AsyncBergerRigoutsosNode.html#afab20a2c874a9b9f2362b4bb68a27b56',1,'SAMRAI::mesh::AsyncBergerRigoutsosNode']]],
-  ['pointer_3c_20samrai_3a_3asolv_3a_3asamraivectorreal_3c_20ndim_2c_20type_20_3e_20_3e_7012',['Pointer&lt; SAMRAI::solv::SAMRAIVectorReal&lt; NDIM, TYPE &gt; &gt;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a490f32cca3978a93736161a257400398',1,'IBTK::SAMRAIScopedVectorDuplicate']]],
-  ['samraivectorreal_3c_20ndim_2c_20type_20_3e_20_26_7013',['SAMRAIVectorReal&lt; NDIM, TYPE &gt; &amp;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a264c5e675297cd5cec7cbe97cee9c188',1,'IBTK::SAMRAIScopedVectorDuplicate']]]
+  ['samraivectorreal_3c_20ndim_2c_20type_20_3e_20_26_7012',['SAMRAIVectorReal&lt; NDIM, TYPE &gt; &amp;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#a264c5e675297cd5cec7cbe97cee9c188',1,'IBTK::SAMRAIScopedVectorDuplicate']]],
+  ['samraivectorreal_3c_20ndim_2c_20type_20_3e_3e_7013',['SAMRAIVectorReal&lt; NDIM, TYPE &gt;&gt;',['../classIBTK_1_1SAMRAIScopedVectorDuplicate.html#ac5ed1f4ebba97fab88e206e7fc252404',1,'IBTK::SAMRAIScopedVectorDuplicate']]]
 ];

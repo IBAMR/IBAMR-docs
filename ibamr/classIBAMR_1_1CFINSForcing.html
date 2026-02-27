@@ -98,12 +98,12 @@ Inheritance diagram for IBAMR::CFINSForcing:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a548fc8158d2715ac7e70fddd1445508a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a548fc8158d2715ac7e70fddd1445508a">CFINSForcing</a> (const std::string &amp;object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1CartGridFunction.html">IBTK::CartGridFunction</a> &gt; u_fcn, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt; &gt; grid_geometry, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">IBAMR::AdvDiffSemiImplicitHierarchyIntegrator</a> &gt; adv_diff_integrator, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt; visit_data_writer)</td></tr>
-<tr class="memdesc:a548fc8158d2715ac7e70fddd1445508a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates Variable and VariableContext objects for storing the viscoleastic stresses at the centers of the Cartesian grid. Sets up the advection diffusion solver to use the velocity function prescribed. The initial and boundary conditions should be specified on the quantity being solved for (e.g. Conformation tensor or square root or logarithm of the conformation tensor).  <a href="classIBAMR_1_1CFINSForcing.html#a548fc8158d2715ac7e70fddd1445508a">More...</a><br /></td></tr>
-<tr class="separator:a548fc8158d2715ac7e70fddd1445508a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7572570671343e7f84da45890c044be5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a7572570671343e7f84da45890c044be5">CFINSForcing</a> (const std::string &amp;object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; app_initializer, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html">IBAMR::INSHierarchyIntegrator</a> &gt; fluid_solver, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt; &gt; grid_geometry, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">IBAMR::AdvDiffSemiImplicitHierarchyIntegrator</a> &gt; adv_diff_integrator, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt; visit_data_writer)</td></tr>
-<tr class="memdesc:a7572570671343e7f84da45890c044be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates Variable and VariableContext objects for storing the viscoleastic stresses at the centers of the Cartesian grid. Sets up the advection diffusion solver to use the fluid velocity from the fluid solver. Note that this function must be registered with the fluid solver as a forcing function for the viscoelastic stress to effect the fluid velocity. The initial and boundary conditions should be specified on the quantity being solved for (e.g. Conformation tensor or square root or logarithm of the conformation tensor).  <a href="classIBAMR_1_1CFINSForcing.html#a7572570671343e7f84da45890c044be5">More...</a><br /></td></tr>
-<tr class="separator:a7572570671343e7f84da45890c044be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a244013bb7cc89ecf9da08b5a3236b129"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a244013bb7cc89ecf9da08b5a3236b129">CFINSForcing</a> (const std::string &amp;object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1CartGridFunction.html">IBTK::CartGridFunction</a> &gt; u_fcn, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt; grid_geometry, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">IBAMR::AdvDiffSemiImplicitHierarchyIntegrator</a> &gt; adv_diff_integrator, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt; visit_data_writer)</td></tr>
+<tr class="memdesc:a244013bb7cc89ecf9da08b5a3236b129"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates Variable and VariableContext objects for storing the viscoleastic stresses at the centers of the Cartesian grid. Sets up the advection diffusion solver to use the velocity function prescribed. The initial and boundary conditions should be specified on the quantity being solved for (e.g. Conformation tensor or square root or logarithm of the conformation tensor).  <a href="classIBAMR_1_1CFINSForcing.html#a244013bb7cc89ecf9da08b5a3236b129">More...</a><br /></td></tr>
+<tr class="separator:a244013bb7cc89ecf9da08b5a3236b129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4716d2bf2542bf6a71400d9459c5bd56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a4716d2bf2542bf6a71400d9459c5bd56">CFINSForcing</a> (const std::string &amp;object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; app_initializer, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html">IBAMR::INSHierarchyIntegrator</a> &gt; fluid_solver, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt; grid_geometry, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">IBAMR::AdvDiffSemiImplicitHierarchyIntegrator</a> &gt; adv_diff_integrator, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt; visit_data_writer)</td></tr>
+<tr class="memdesc:a4716d2bf2542bf6a71400d9459c5bd56"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor creates Variable and VariableContext objects for storing the viscoleastic stresses at the centers of the Cartesian grid. Sets up the advection diffusion solver to use the fluid velocity from the fluid solver. Note that this function must be registered with the fluid solver as a forcing function for the viscoelastic stress to effect the fluid velocity. The initial and boundary conditions should be specified on the quantity being solved for (e.g. Conformation tensor or square root or logarithm of the conformation tensor).  <a href="classIBAMR_1_1CFINSForcing.html#a4716d2bf2542bf6a71400d9459c5bd56">More...</a><br /></td></tr>
+<tr class="separator:a4716d2bf2542bf6a71400d9459c5bd56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505c0eea9f65fe4c033609ec3160b2f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a505c0eea9f65fe4c033609ec3160b2f0">~CFINSForcing</a> ()</td></tr>
 <tr class="memdesc:a505c0eea9f65fe4c033609ec3160b2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates draw data and deletes boundary conditions.  <a href="classIBAMR_1_1CFINSForcing.html#a505c0eea9f65fe4c033609ec3160b2f0">More...</a><br /></td></tr>
 <tr class="separator:a505c0eea9f65fe4c033609ec3160b2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,42 +196,42 @@ Methods to set patch data.</h2></td></tr>
 <tr class="memitem:a6cdfb77f06e99b56c5d0999e7c1b2119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbool.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a6cdfb77f06e99b56c5d0999e7c1b2119">isTimeDependent</a> () const override</td></tr>
 <tr class="memdesc:a6cdfb77f06e99b56c5d0999e7c1b2119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the concrete <a class="el" href="classIBAMR_1_1INSStaggeredStochasticForcing.html" title="Class INSStaggeredStochasticForcing provides an interface for specifying a stochastic forcing term fo...">INSStaggeredStochasticForcing</a> object is time-dependent.  <a href="classIBAMR_1_1CFINSForcing.html#a6cdfb77f06e99b56c5d0999e7c1b2119">More...</a><br /></td></tr>
 <tr class="separator:a6cdfb77f06e99b56c5d0999e7c1b2119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cab776fc73aebd8701fb690799ad468"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a0cab776fc73aebd8701fb690799ad468">setDataOnPatchHierarchy</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, const <a class="el" href="classint.html">int</a> coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, const <a class="el" href="classint.html">int</a> finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>) override</td></tr>
-<tr class="memdesc:a0cab776fc73aebd8701fb690799ad468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the divergence of the stress tensor. Also sets up requested visualizations.  <a href="classIBAMR_1_1CFINSForcing.html#a0cab776fc73aebd8701fb690799ad468">More...</a><br /></td></tr>
-<tr class="separator:a0cab776fc73aebd8701fb690799ad468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7daa761f72d8cbc4ad00c1f440f029eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a7daa761f72d8cbc4ad00c1f440f029eb">setDataOnPatch</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt; patch, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; patch_level=<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;(nullptr)) override</td></tr>
-<tr class="memdesc:a7daa761f72d8cbc4ad00c1f440f029eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the divergence on the patch interior.  <a href="classIBAMR_1_1CFINSForcing.html#a7daa761f72d8cbc4ad00c1f440f029eb">More...</a><br /></td></tr>
-<tr class="separator:a7daa761f72d8cbc4ad00c1f440f029eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2c40f71f0b678d35b10feef05f0798e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#ae2c40f71f0b678d35b10feef05f0798e">setDataOnPatchLevel</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt; level, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time) override</td></tr>
-<tr class="memdesc:ae2c40f71f0b678d35b10feef05f0798e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the divergence on the specified patch level.  <a href="classIBAMR_1_1CFINSForcing.html#ae2c40f71f0b678d35b10feef05f0798e">More...</a><br /></td></tr>
-<tr class="separator:ae2c40f71f0b678d35b10feef05f0798e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0bf794bb75e37d507a5985793be84da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#ae0bf794bb75e37d507a5985793be84da">checkPositiveDefinite</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time)</td></tr>
-<tr class="memdesc:ae0bf794bb75e37d507a5985793be84da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the provided patch index stores a positive definite tensor.  <a href="classIBAMR_1_1CFINSForcing.html#ae0bf794bb75e37d507a5985793be84da">More...</a><br /></td></tr>
-<tr class="separator:ae0bf794bb75e37d507a5985793be84da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a040fcf611b5da6a2135b980b16d79486"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a040fcf611b5da6a2135b980b16d79486">applyGradientDetector</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a>)</td></tr>
-<tr class="memdesc:a040fcf611b5da6a2135b980b16d79486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag cells based on the specifications provided in the input database.  <a href="classIBAMR_1_1CFINSForcing.html#a040fcf611b5da6a2135b980b16d79486">More...</a><br /></td></tr>
-<tr class="separator:a040fcf611b5da6a2135b980b16d79486"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68fdc203afc4893d2dcf76f688815e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#ab68fdc203afc4893d2dcf76f688815e6">projectTensor</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classbool.html">bool</a> extended_box)</td></tr>
-<tr class="memdesc:ab68fdc203afc4893d2dcf76f688815e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects the symmetric tensor stored in data_idx to the nearest non negative matrix in the L2 norm.  <a href="classIBAMR_1_1CFINSForcing.html#ab68fdc203afc4893d2dcf76f688815e6">More...</a><br /></td></tr>
-<tr class="separator:ab68fdc203afc4893d2dcf76f688815e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec558f24acfe62982721cd6a0c07d156"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#aec558f24acfe62982721cd6a0c07d156">setDataOnPatchHierarchy</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, const <a class="el" href="classint.html">int</a> coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, const <a class="el" href="classint.html">int</a> finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>) override</td></tr>
+<tr class="memdesc:aec558f24acfe62982721cd6a0c07d156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the divergence of the stress tensor. Also sets up requested visualizations.  <a href="classIBAMR_1_1CFINSForcing.html#aec558f24acfe62982721cd6a0c07d156">More...</a><br /></td></tr>
+<tr class="separator:aec558f24acfe62982721cd6a0c07d156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada31c9951bbd5eec24b3e27b4e3eeafc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#ada31c9951bbd5eec24b3e27b4e3eeafc">setDataOnPatch</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time=false, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level=<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;(nullptr)) override</td></tr>
+<tr class="memdesc:ada31c9951bbd5eec24b3e27b4e3eeafc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the divergence on the patch interior.  <a href="classIBAMR_1_1CFINSForcing.html#ada31c9951bbd5eec24b3e27b4e3eeafc">More...</a><br /></td></tr>
+<tr class="separator:ada31c9951bbd5eec24b3e27b4e3eeafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb37dafe911f09a7166946f28ac1c7df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#adb37dafe911f09a7166946f28ac1c7df">setDataOnPatchLevel</a> (const <a class="el" href="classint.html">int</a> data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; level, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time) override</td></tr>
+<tr class="memdesc:adb37dafe911f09a7166946f28ac1c7df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the divergence on the specified patch level.  <a href="classIBAMR_1_1CFINSForcing.html#adb37dafe911f09a7166946f28ac1c7df">More...</a><br /></td></tr>
+<tr class="separator:adb37dafe911f09a7166946f28ac1c7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858767debe5371b176f9c8d38ec0bb42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a858767debe5371b176f9c8d38ec0bb42">checkPositiveDefinite</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time)</td></tr>
+<tr class="memdesc:a858767debe5371b176f9c8d38ec0bb42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the provided patch index stores a positive definite tensor.  <a href="classIBAMR_1_1CFINSForcing.html#a858767debe5371b176f9c8d38ec0bb42">More...</a><br /></td></tr>
+<tr class="separator:a858767debe5371b176f9c8d38ec0bb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28030e6116c5ccddbb515e2fec44bf67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a28030e6116c5ccddbb515e2fec44bf67">applyGradientDetector</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a>)</td></tr>
+<tr class="memdesc:a28030e6116c5ccddbb515e2fec44bf67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tag cells based on the specifications provided in the input database.  <a href="classIBAMR_1_1CFINSForcing.html#a28030e6116c5ccddbb515e2fec44bf67">More...</a><br /></td></tr>
+<tr class="separator:a28030e6116c5ccddbb515e2fec44bf67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c303e225964734c1e340201e7e6584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a21c303e225964734c1e340201e7e6584">projectTensor</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classbool.html">bool</a> extended_box)</td></tr>
+<tr class="memdesc:a21c303e225964734c1e340201e7e6584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects the symmetric tensor stored in data_idx to the nearest non negative matrix in the L2 norm.  <a href="classIBAMR_1_1CFINSForcing.html#a21c303e225964734c1e340201e7e6584">More...</a><br /></td></tr>
+<tr class="separator:a21c303e225964734c1e340201e7e6584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41bda3291f9f7ecf2dae27c7676a4c76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1AdvDiffSemiImplicitHierarchyIntegrator.html">AdvDiffSemiImplicitHierarchyIntegrator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a41bda3291f9f7ecf2dae27c7676a4c76">getAdvDiffHierarchyIntegrator</a> ()</td></tr>
 <tr class="memdesc:a41bda3291f9f7ecf2dae27c7676a4c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the advection diffusion integrator used to evolve the conformation tensor.  <a href="classIBAMR_1_1CFINSForcing.html#a41bda3291f9f7ecf2dae27c7676a4c76">More...</a><br /></td></tr>
 <tr class="separator:a41bda3291f9f7ecf2dae27c7676a4c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60971f64fb78505bd59fa4996aee7b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#ac60971f64fb78505bd59fa4996aee7b9">apply_gradient_detector_callback</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a> richardson_extrapolation_too, void *ctx)</td></tr>
-<tr class="separator:ac60971f64fb78505bd59fa4996aee7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9b0ce39fcd426303595c58961e0f59"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#afb9b0ce39fcd426303595c58961e0f59">apply_gradient_detector_callback</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, <a class="el" href="classint.html">int</a> level_number, <a class="el" href="classdouble.html">double</a> error_data_time, <a class="el" href="classint.html">int</a> tag_index, <a class="el" href="classbool.html">bool</a> initial_time, <a class="el" href="classbool.html">bool</a> richardson_extrapolation_too, void *ctx)</td></tr>
+<tr class="separator:afb9b0ce39fcd426303595c58961e0f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ffc1109ea50cf9f8acb822f19193a2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#af6ffc1109ea50cf9f8acb822f19193a2">apply_project_tensor_callback</a> (<a class="el" href="classdouble.html">double</a> current_time, <a class="el" href="classdouble.html">double</a> new_time, <a class="el" href="classint.html">int</a> cycle_num, void *ctx)</td></tr>
 <tr class="separator:af6ffc1109ea50cf9f8acb822f19193a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46271a5229de6c76ac2b1beccb514619"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a46271a5229de6c76ac2b1beccb514619">commonConstructor</a> (const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt; visit_data_writer, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt; &gt; grid_geometry, std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; vel_bcs)</td></tr>
-<tr class="separator:a46271a5229de6c76ac2b1beccb514619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e31cc54ad33c9e5b8249fdc72c19c65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a9e31cc54ad33c9e5b8249fdc72c19c65">findDeterminant</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time)</td></tr>
-<tr class="memdesc:a9e31cc54ad33c9e5b8249fdc72c19c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the determinant of the symmetric tensor stored in data_idx. Fills in d_max_det and d_min_det.  <a href="classIBAMR_1_1CFINSForcing.html#a9e31cc54ad33c9e5b8249fdc72c19c65">More...</a><br /></td></tr>
-<tr class="separator:a9e31cc54ad33c9e5b8249fdc72c19c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a929a8b39852157a068417f9309572c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a929a8b39852157a068417f9309572c00">squareMatrix</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classint.html">int</a> coarsest_ln, const <a class="el" href="classint.html">int</a> finest_ln, const <a class="el" href="classbool.html">bool</a> extended_box)</td></tr>
-<tr class="memdesc:a929a8b39852157a068417f9309572c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Square the symmetric tensor stored in data_idx in place.  <a href="classIBAMR_1_1CFINSForcing.html#a929a8b39852157a068417f9309572c00">More...</a><br /></td></tr>
-<tr class="separator:a929a8b39852157a068417f9309572c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ac3b9c1e6e06da976a90cea817f4538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a8ac3b9c1e6e06da976a90cea817f4538">exponentiateMatrix</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt; var, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classint.html">int</a> coarsest_ln, const <a class="el" href="classint.html">int</a> finest_ln, const <a class="el" href="classbool.html">bool</a> extended_box)</td></tr>
-<tr class="memdesc:a8ac3b9c1e6e06da976a90cea817f4538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exponentiate the symmetric tensor stored in data_idx in place.  <a href="classIBAMR_1_1CFINSForcing.html#a8ac3b9c1e6e06da976a90cea817f4538">More...</a><br /></td></tr>
-<tr class="separator:a8ac3b9c1e6e06da976a90cea817f4538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c25e4f73ee615f9246522c92cde8e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#a79c25e4f73ee615f9246522c92cde8e7">commonConstructor</a> (const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt; visit_data_writer, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt; grid_geometry, std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; vel_bcs)</td></tr>
+<tr class="separator:a79c25e4f73ee615f9246522c92cde8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add3a0bba5256cf1388f8c344a3765526"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#add3a0bba5256cf1388f8c344a3765526">findDeterminant</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time)</td></tr>
+<tr class="memdesc:add3a0bba5256cf1388f8c344a3765526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the determinant of the symmetric tensor stored in data_idx. Fills in d_max_det and d_min_det.  <a href="classIBAMR_1_1CFINSForcing.html#add3a0bba5256cf1388f8c344a3765526">More...</a><br /></td></tr>
+<tr class="separator:add3a0bba5256cf1388f8c344a3765526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c2a75691ab3ac2195dc443b9b8d047"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#af8c2a75691ab3ac2195dc443b9b8d047">squareMatrix</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classint.html">int</a> coarsest_ln, const <a class="el" href="classint.html">int</a> finest_ln, const <a class="el" href="classbool.html">bool</a> extended_box)</td></tr>
+<tr class="memdesc:af8c2a75691ab3ac2195dc443b9b8d047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Square the symmetric tensor stored in data_idx in place.  <a href="classIBAMR_1_1CFINSForcing.html#af8c2a75691ab3ac2195dc443b9b8d047">More...</a><br /></td></tr>
+<tr class="separator:af8c2a75691ab3ac2195dc443b9b8d047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb964ee1aa69331621824e2d9dc4ab60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#adb964ee1aa69331621824e2d9dc4ab60">exponentiateMatrix</a> (const <a class="el" href="classint.html">int</a> data_idx, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; var, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const <a class="el" href="classdouble.html">double</a> data_time, const <a class="el" href="classbool.html">bool</a> initial_time, const <a class="el" href="classint.html">int</a> coarsest_ln, const <a class="el" href="classint.html">int</a> finest_ln, const <a class="el" href="classbool.html">bool</a> extended_box)</td></tr>
+<tr class="memdesc:adb964ee1aa69331621824e2d9dc4ab60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exponentiate the symmetric tensor stored in data_idx in place.  <a href="classIBAMR_1_1CFINSForcing.html#adb964ee1aa69331621824e2d9dc4ab60">More...</a><br /></td></tr>
+<tr class="separator:adb964ee1aa69331621824e2d9dc4ab60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec506bc6029b5399e47a261ce3bc441e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1CFINSForcing.html#aec506bc6029b5399e47a261ce3bc441e">setupPlotConformationTensor</a> (<a class="el" href="classint.html">int</a> C_cc_idx)</td></tr>
 <tr class="memdesc:aec506bc6029b5399e47a261ce3bc441e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given the conformation tensor, set up any requested drawing variables.  <a href="classIBAMR_1_1CFINSForcing.html#aec506bc6029b5399e47a261ce3bc441e">More...</a><br /></td></tr>
 <tr class="separator:aec506bc6029b5399e47a261ce3bc441e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,8 +307,8 @@ Methods to set patch data.</h2></td></tr>
 </ul>
 <p>There are also strategy specific items searched for in the database. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a548fc8158d2715ac7e70fddd1445508a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a548fc8158d2715ac7e70fddd1445508a">&#9670;&nbsp;</a></span>CFINSForcing() <span class="overload">[1/2]</span></h2>
+<a id="a244013bb7cc89ecf9da08b5a3236b129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a244013bb7cc89ecf9da08b5a3236b129">&#9670;&nbsp;</a></span>CFINSForcing() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +334,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>grid_geometry</em>, </td>
         </tr>
         <tr>
@@ -346,7 +346,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>visit_data_writer</em>&#160;</td>
         </tr>
         <tr>
@@ -359,8 +359,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a7572570671343e7f84da45890c044be5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7572570671343e7f84da45890c044be5">&#9670;&nbsp;</a></span>CFINSForcing() <span class="overload">[2/2]</span></h2>
+<a id="a4716d2bf2542bf6a71400d9459c5bd56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4716d2bf2542bf6a71400d9459c5bd56">&#9670;&nbsp;</a></span>CFINSForcing() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,7 +386,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>grid_geometry</em>, </td>
         </tr>
         <tr>
@@ -398,7 +398,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>visit_data_writer</em>&#160;</td>
         </tr>
         <tr>
@@ -525,8 +525,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a0cab776fc73aebd8701fb690799ad468"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cab776fc73aebd8701fb690799ad468">&#9670;&nbsp;</a></span>setDataOnPatchHierarchy()</h2>
+<a id="aec558f24acfe62982721cd6a0c07d156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec558f24acfe62982721cd6a0c07d156">&#9670;&nbsp;</a></span>setDataOnPatchHierarchy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -543,13 +543,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -589,12 +589,12 @@ Methods to set patch data.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classIBTK_1_1CartGridFunction.html#a2effc88588ea9d0a918ccb5287c03914">IBTK::CartGridFunction</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBTK_1_1CartGridFunction.html#a0e5e8a1c21e60a0e1a08f589342eda74">IBTK::CartGridFunction</a>.</p>
 
 </div>
 </div>
-<a id="a7daa761f72d8cbc4ad00c1f440f029eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7daa761f72d8cbc4ad00c1f440f029eb">&#9670;&nbsp;</a></span>setDataOnPatch()</h2>
+<a id="ada31c9951bbd5eec24b3e27b4e3eeafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada31c9951bbd5eec24b3e27b4e3eeafc">&#9670;&nbsp;</a></span>setDataOnPatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,13 +611,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
         </tr>
         <tr>
@@ -635,8 +635,8 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
-          <td class="paramname"><em>patch_level</em> = <code><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt;&#160;NDIM&#160;&gt;&#160;&gt;(nullptr)</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
+          <td class="paramname"><em>patch_level</em> = <code><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;&#160;<a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt;&#160;NDIM&#160;&gt;&gt;(nullptr)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -651,12 +651,12 @@ Methods to set patch data.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classIBTK_1_1CartGridFunction.html#aa2e2c03434eae580e8baee6a40f54a3b">IBTK::CartGridFunction</a>.</p>
+<p>Implements <a class="el" href="classIBTK_1_1CartGridFunction.html#abffd7473221dc549ab07ba89ec39b8e1">IBTK::CartGridFunction</a>.</p>
 
 </div>
 </div>
-<a id="ae2c40f71f0b678d35b10feef05f0798e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2c40f71f0b678d35b10feef05f0798e">&#9670;&nbsp;</a></span>setDataOnPatchLevel()</h2>
+<a id="adb37dafe911f09a7166946f28ac1c7df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb37dafe911f09a7166946f28ac1c7df">&#9670;&nbsp;</a></span>setDataOnPatchLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,13 +673,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>level</em>, </td>
         </tr>
         <tr>
@@ -707,12 +707,12 @@ Methods to set patch data.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classIBTK_1_1CartGridFunction.html#ab08fcb3da3937c824189b1b1fe37d5f6">IBTK::CartGridFunction</a>.</p>
+<p>Reimplemented from <a class="el" href="classIBTK_1_1CartGridFunction.html#a4b9ef2fcca0edf81fd5b9bbf47d7b658">IBTK::CartGridFunction</a>.</p>
 
 </div>
 </div>
-<a id="ae0bf794bb75e37d507a5985793be84da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0bf794bb75e37d507a5985793be84da">&#9670;&nbsp;</a></span>checkPositiveDefinite()</h2>
+<a id="a858767debe5371b176f9c8d38ec0bb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a858767debe5371b176f9c8d38ec0bb42">&#9670;&nbsp;</a></span>checkPositiveDefinite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -726,7 +726,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
@@ -751,8 +751,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a040fcf611b5da6a2135b980b16d79486"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a040fcf611b5da6a2135b980b16d79486">&#9670;&nbsp;</a></span>applyGradientDetector()</h2>
+<a id="a28030e6116c5ccddbb515e2fec44bf67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28030e6116c5ccddbb515e2fec44bf67">&#9670;&nbsp;</a></span>applyGradientDetector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -760,7 +760,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="memname">void IBAMR::CFINSForcing::applyGradientDetector </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -803,8 +803,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="ab68fdc203afc4893d2dcf76f688815e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68fdc203afc4893d2dcf76f688815e6">&#9670;&nbsp;</a></span>projectTensor()</h2>
+<a id="a21c303e225964734c1e340201e7e6584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c303e225964734c1e340201e7e6584">&#9670;&nbsp;</a></span>projectTensor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -818,7 +818,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
@@ -849,8 +849,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="ac60971f64fb78505bd59fa4996aee7b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac60971f64fb78505bd59fa4996aee7b9">&#9670;&nbsp;</a></span>apply_gradient_detector_callback()</h2>
+<a id="afb9b0ce39fcd426303595c58961e0f59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb9b0ce39fcd426303595c58961e0f59">&#9670;&nbsp;</a></span>apply_gradient_detector_callback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -861,7 +861,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="memname">static void IBAMR::CFINSForcing::apply_gradient_detector_callback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -988,8 +988,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a46271a5229de6c76ac2b1beccb514619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46271a5229de6c76ac2b1beccb514619">&#9670;&nbsp;</a></span>commonConstructor()</h2>
+<a id="a79c25e4f73ee615f9246522c92cde8e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c25e4f73ee615f9246522c92cde8e7">&#9670;&nbsp;</a></span>commonConstructor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1006,13 +1006,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>visit_data_writer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>grid_geometry</em>, </td>
         </tr>
         <tr>
@@ -1036,8 +1036,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a9e31cc54ad33c9e5b8249fdc72c19c65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e31cc54ad33c9e5b8249fdc72c19c65">&#9670;&nbsp;</a></span>findDeterminant()</h2>
+<a id="add3a0bba5256cf1388f8c344a3765526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add3a0bba5256cf1388f8c344a3765526">&#9670;&nbsp;</a></span>findDeterminant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1054,7 +1054,7 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
@@ -1084,8 +1084,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a929a8b39852157a068417f9309572c00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a929a8b39852157a068417f9309572c00">&#9670;&nbsp;</a></span>squareMatrix()</h2>
+<a id="af8c2a75691ab3ac2195dc443b9b8d047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8c2a75691ab3ac2195dc443b9b8d047">&#9670;&nbsp;</a></span>squareMatrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1102,13 +1102,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>
@@ -1156,8 +1156,8 @@ Methods to set patch data.</h2></td></tr>
 
 </div>
 </div>
-<a id="a8ac3b9c1e6e06da976a90cea817f4538"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ac3b9c1e6e06da976a90cea817f4538">&#9670;&nbsp;</a></span>exponentiateMatrix()</h2>
+<a id="adb964ee1aa69331621824e2d9dc4ab60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb964ee1aa69331621824e2d9dc4ab60">&#9670;&nbsp;</a></span>exponentiateMatrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1174,13 +1174,13 @@ Methods to set patch data.</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>hierarchy</em>, </td>
         </tr>
         <tr>

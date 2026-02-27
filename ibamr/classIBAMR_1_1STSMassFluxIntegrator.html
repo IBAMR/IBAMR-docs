@@ -202,11 +202,11 @@ General time stepping functionality.</h2></td></tr>
 <tr class="separator:a026f76f5304542e44301c5ecf5967f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8785b72dff03a128e7c39cb38fd97f39"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a8785b72dff03a128e7c39cb38fd97f39">d_cf_boundary</a></td></tr>
 <tr class="separator:a8785b72dff03a128e7c39cb38fd97f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51693033ace691221c48a8b314f05567"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a51693033ace691221c48a8b314f05567">initializeSTSIntegrator</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt; base_hierarchy)=0</td></tr>
-<tr class="memdesc:a51693033ace691221c48a8b314f05567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for time integrating variables.  <a href="classIBAMR_1_1STSMassFluxIntegrator.html#a51693033ace691221c48a8b314f05567">More...</a><br /></td></tr>
-<tr class="separator:a51693033ace691221c48a8b314f05567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15dad6a6ff901b1ad40d05f5b516064"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#ac15dad6a6ff901b1ad40d05f5b516064">initializeSTSIntegrator</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; base_hierarchy)=0</td></tr>
+<tr class="memdesc:ac15dad6a6ff901b1ad40d05f5b516064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for time integrating variables.  <a href="classIBAMR_1_1STSMassFluxIntegrator.html#ac15dad6a6ff901b1ad40d05f5b516064">More...</a><br /></td></tr>
+<tr class="separator:ac15dad6a6ff901b1ad40d05f5b516064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a867a62168511a79092ba2683a5c7d110"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a867a62168511a79092ba2683a5c7d110">deallocateSTSIntegrator</a> ()=0</td></tr>
-<tr class="memdesc:a867a62168511a79092ba2683a5c7d110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a51693033ace691221c48a8b314f05567" title="Compute hierarchy dependent data required for time integrating variables.">initializeSTSIntegrator()</a>.  <a href="classIBAMR_1_1STSMassFluxIntegrator.html#a867a62168511a79092ba2683a5c7d110">More...</a><br /></td></tr>
+<tr class="memdesc:a867a62168511a79092ba2683a5c7d110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy dependent data allocated by <a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#ac15dad6a6ff901b1ad40d05f5b516064" title="Compute hierarchy dependent data required for time integrating variables.">initializeSTSIntegrator()</a>.  <a href="classIBAMR_1_1STSMassFluxIntegrator.html#a867a62168511a79092ba2683a5c7d110">More...</a><br /></td></tr>
 <tr class="separator:a867a62168511a79092ba2683a5c7d110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8467202cdf524aa88f790710508aebc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a8467202cdf524aa88f790710508aebc7">setDensityPatchDataIndex</a> (<a class="el" href="classint.html">int</a> rho_idx)</td></tr>
 <tr class="memdesc:a8467202cdf524aa88f790710508aebc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current cell-centered density patch data index.  <a href="classIBAMR_1_1STSMassFluxIntegrator.html#a8467202cdf524aa88f790710508aebc7">More...</a><br /></td></tr>
@@ -411,8 +411,8 @@ General time stepping functionality.</h2></td></tr>
 
 </div>
 </div>
-<a id="a51693033ace691221c48a8b314f05567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51693033ace691221c48a8b314f05567">&#9670;&nbsp;</a></span>initializeSTSIntegrator()</h2>
+<a id="ac15dad6a6ff901b1ad40d05f5b516064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15dad6a6ff901b1ad40d05f5b516064">&#9670;&nbsp;</a></span>initializeSTSIntegrator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,7 +423,7 @@ General time stepping functionality.</h2></td></tr>
         <tr>
           <td class="memname">virtual void IBAMR::STSMassFluxIntegrator::initializeSTSIntegrator </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>base_hierarchy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -435,7 +435,7 @@ General time stepping functionality.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classIBAMR_1_1INSVCStaggeredConservativeMassMomentumRKIntegrator.html#acbb004dbcea9122cd87c5e5f98513409">IBAMR::INSVCStaggeredConservativeMassMomentumRKIntegrator</a>, and <a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a0aade8c3183b31be1c2261fec081cffa">IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator</a>.</p>
+<p>Implemented in <a class="el" href="classIBAMR_1_1INSVCStaggeredConservativeMassMomentumRKIntegrator.html#aac8024e43c24bf4302b3c392221c97a8">IBAMR::INSVCStaggeredConservativeMassMomentumRKIntegrator</a>, and <a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#a6c8137f346dddd9d0ae7b46e92b843af">IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator</a>.</p>
 
 </div>
 </div>
@@ -462,7 +462,7 @@ General time stepping functionality.</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>It is safe to call <a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a867a62168511a79092ba2683a5c7d110" title="Remove all hierarchy dependent data allocated by initializeSTSIntegrator().">deallocateSTSIntegrator()</a> when the time integrator is already deallocated.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#a51693033ace691221c48a8b314f05567" title="Compute hierarchy dependent data required for time integrating variables.">initializeSTSIntegrator</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1STSMassFluxIntegrator.html#ac15dad6a6ff901b1ad40d05f5b516064" title="Compute hierarchy dependent data required for time integrating variables.">initializeSTSIntegrator</a> </dd></dl>
 
 <p>Implemented in <a class="el" href="classIBAMR_1_1INSVCStaggeredConservativeMassMomentumRKIntegrator.html#afd0d802330db903a530f17ff491f3ca3">IBAMR::INSVCStaggeredConservativeMassMomentumRKIntegrator</a>, and <a class="el" href="classIBAMR_1_1AdvDiffConservativeMassScalarTransportRKIntegrator.html#af7e54ae41bfeec0a41687724a2420bf8">IBAMR::AdvDiffConservativeMassScalarTransportRKIntegrator</a>.</p>
 
