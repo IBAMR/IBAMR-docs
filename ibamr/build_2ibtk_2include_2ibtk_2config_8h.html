@@ -90,6 +90,9 @@ Macros</h2></td></tr>
 <tr class="separator:a95e6074b8c041f84d1aa82b44b869b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7a064884a1d914a314b6da171fec4a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="build_2ibtk_2include_2ibtk_2config_8h.html#ad7a064884a1d914a314b6da171fec4a7">IBTK_VERSION_GTE</a>(major,  minor,  subminor)</td></tr>
 <tr class="separator:ad7a064884a1d914a314b6da171fec4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e184928857f3cd78d8345c994bcd32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="build_2ibtk_2include_2ibtk_2config_8h.html#aa2e184928857f3cd78d8345c994bcd32">IBTK_MAX_STACK_ARRAY_SIZE</a>&#160;&#160;&#160;32</td></tr>
+<tr class="memdesc:aa2e184928857f3cd78d8345c994bcd32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum stack array size.  <a href="build_2ibtk_2include_2ibtk_2config_8h.html#aa2e184928857f3cd78d8345c994bcd32">More...</a><br /></td></tr>
+<tr class="separator:aa2e184928857f3cd78d8345c994bcd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30656db44039676a95c870a9b116ccd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="build_2ibtk_2include_2ibtk_2config_8h.html#a30656db44039676a95c870a9b116ccd3">IBTK_HAVE_PRAGMA_KEYWORD</a></td></tr>
 <tr class="separator:a30656db44039676a95c870a9b116ccd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a392fb68490478f773a21237d9e43ecb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="build_2ibtk_2include_2ibtk_2config_8h.html#a392fb68490478f773a21237d9e43ecb7">IBTK_HAVE_LIBMESH</a></td></tr>
@@ -180,6 +183,21 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    ((<a class="code" href="build_2ibtk_2include_2ibtk_2config_8h.html#a06a30131ced5d375b4817388b2cf60ac">IBTK_VERSION_MAJOR</a> * 10000 + <a class="code" href="build_2ibtk_2include_2ibtk_2config_8h.html#a03a5abf43f96e6379bc1cbd29edee89b">IBTK_VERSION_MINOR</a> * 100 + <a class="code" href="build_2ibtk_2include_2ibtk_2config_8h.html#a95e6074b8c041f84d1aa82b44b869b8d">IBTK_VERSION_SUBMINOR</a>) &gt;= \</div>
 <div class="line">     (major)*10000 + (minor)*100 + (subminor))</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="aa2e184928857f3cd78d8345c994bcd32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e184928857f3cd78d8345c994bcd32">&#9670;&nbsp;</a></span>IBTK_MAX_STACK_ARRAY_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IBTK_MAX_STACK_ARRAY_SIZE&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>In some places the library will attempt to avoid heap allocation in favor of stack allocation. This constant is the maximum length (independent of type) of such a stack array. </p>
+
 </div>
 </div>
 <a id="a30656db44039676a95c870a9b116ccd3"></a>
