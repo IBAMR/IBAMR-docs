@@ -1,6 +1,5 @@
 <map id="SAMRAI::math::PatchEdgeDataOpsReal&lt; DIM, TYPE &gt;" name="SAMRAI::math::PatchEdgeDataOpsReal&lt; DIM, TYPE &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="277,94,500,135"/>
-<area shape="rect" id="node6" href="$classSAMRAI_1_1math_1_1PatchEdgeDataOpsReal.html" title=" " alt="" coords="661,94,884,135"/>
+<area shape="rect" id="node1" title=" " alt="" coords="276,94,499,135"/>
 <area shape="rect" id="node2" href="$classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="7,5,226,32"/>
 <area shape="rect" id="node3" href="$classSAMRAI_1_1math_1_1PatchEdgeDataBasicOps.html" title=" " alt="" coords="5,57,228,98"/>
 <area shape="rect" id="node4" href="$classSAMRAI_1_1math_1_1PatchEdgeDataMiscellaneousOpsReal.html" title=" " alt="" coords="5,123,228,179"/>

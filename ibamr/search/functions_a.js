@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['jacobian_14774',['jacobian',['../namespaceIBTK.html#aa65e2b92b3830ce69bb0e6e8115ce44d',1,'IBTK']]],
-  ['jacobianoperator_14775',['JacobianOperator',['../classIBTK_1_1JacobianOperator.html#afade69625fe08dc41dad0b54dbf4651c',1,'IBTK::JacobianOperator::JacobianOperator(std::string object_name)'],['../classIBTK_1_1JacobianOperator.html#adec77ed8b4dd5dfa5a3e4cd7c587c26e',1,'IBTK::JacobianOperator::JacobianOperator()=delete'],['../classIBTK_1_1JacobianOperator.html#a30912bc1cf29e9ee2f4de8fb5e025da3',1,'IBTK::JacobianOperator::JacobianOperator(const JacobianOperator &amp;from)=delete']]],
-  ['jobrelauncher_14776',['JobRelauncher',['../classSAMRAI_1_1tbox_1_1JobRelauncher.html#aedf746fe98f753dedf72d417bcf52c4d',1,'SAMRAI::tbox::JobRelauncher']]]
+  ['jacobian_14642',['jacobian',['../namespaceIBTK.html#aa65e2b92b3830ce69bb0e6e8115ce44d',1,'IBTK']]],
+  ['jacobianoperator_14643',['JacobianOperator',['../classIBTK_1_1JacobianOperator.html#afade69625fe08dc41dad0b54dbf4651c',1,'IBTK::JacobianOperator::JacobianOperator(std::string object_name)'],['../classIBTK_1_1JacobianOperator.html#adec77ed8b4dd5dfa5a3e4cd7c587c26e',1,'IBTK::JacobianOperator::JacobianOperator()=delete'],['../classIBTK_1_1JacobianOperator.html#a30912bc1cf29e9ee2f4de8fb5e025da3',1,'IBTK::JacobianOperator::JacobianOperator(const JacobianOperator &amp;from)=delete']]],
+  ['jobrelauncher_14644',['JobRelauncher',['../classSAMRAI_1_1tbox_1_1JobRelauncher.html#aedf746fe98f753dedf72d417bcf52c4d',1,'SAMRAI::tbox::JobRelauncher']]]
 ];
