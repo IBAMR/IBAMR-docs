@@ -129,8 +129,7 @@ How to use the CMake build system</h2>
 <li>PETSc, and</li>
 <li><a class="el" href="namespaceSAMRAI.html">SAMRAI</a>.</li>
 </ul>
-<p>Of these, Boost, Eigen3, and muParser are also bundled with <a class="el" href="namespaceIBAMR.html">IBAMR</a> and <a class="el" href="namespaceIBAMR.html">IBAMR</a> will build its own copies of those libraries if it cannot find working externally available versions. If you wish to use the bundled version of one of these libraries instead of one found at either system or specified search locations, then you can specify that as well by passing any of</p><ul>
-<li><code>-DIBAMR_FORCE_BUNDLED_BOOST=ON</code></li>
+<p>Of these, Eigen3 and muParser are also bundled with <a class="el" href="namespaceIBAMR.html">IBAMR</a> and <a class="el" href="namespaceIBAMR.html">IBAMR</a> will build its own copies of those libraries if it cannot find working externally available versions. If you wish to use the bundled version of Eigen3 or muParser instead of one found at either system or specified search locations, then you can specify that as well by passing either</p><ul>
 <li><code>-DIBAMR_FORCE_BUNDLED_EIGEN3=ON</code></li>
 <li><code>-DIBAMR_FORCE_BUNDLED_MUPARSER=ON</code> as options to CMake.</li>
 </ul>
