@@ -82,13 +82,13 @@ Basic git workflows with IBAMR</h1>
 Overview</h2>
 <p>Changes to <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s source code are managed with the git version control system. <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s developers work on GitHub with the <a href="https://www.github.com/IBAMR/">https://www.github.com/IBAMR/</a> organization.</p>
 <p>GitHub, as the name implies, is a tool for working with git repositories: we use GitHub to track things that need to be fixed or improved in <a class="el" href="namespaceIBAMR.html">IBAMR</a> with the <a href="https://www.github.com/IBAMR/IBAMR/issues">issue tracker</a>.</p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Using git and IBAMR</h2>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> has about a dozen regular contributors, who, at any time, are working on dozens of new features and fixes. We use git to track these changes, handle merging of new features, and keep a log of all commited changes to the library.</p>
 <p>Changes to <a class="el" href="namespaceIBAMR.html">IBAMR</a> are peer-reviewed: instead of simply pushing new features as they are finished, all changes undergo a period when the core <a class="el" href="namespaceIBAMR.html">IBAMR</a> developers review the new code and check it for possible bugs, style problems, and consistency with the rest of the library. Git facilitates this workflow with branches*: changes to <a class="el" href="namespaceIBAMR.html">IBAMR</a> are first commited to branches, which are then considered (via GitHub's pull request mechanism) for merging with the master branch of GitHub. This is a simplified variant of what is usually called the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">gitflow</a> model: the primary difference being that our develop and master branches are the same. Some branches for <a class="el" href="namespaceIBAMR.html">IBAMR</a> are actively developed by multiple users; these branches are located in the <a class="el" href="namespaceIBAMR.html">IBAMR</a> repository on GitHub itself. It is also possible to develop branches outside of the <a class="el" href="namespaceIBAMR.html">IBAMR</a> organization: this is discussed below in the <em>Forking, Cloning, and making a simple fix</em> example.</p>
-<h2><a class="anchor" id="autotoc_md21"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Examples</h2>
-<h3><a class="anchor" id="autotoc_md22"></a>
+<h3><a class="anchor" id="autotoc_md25"></a>
 Forking, Cloning, and making a simple fix</h3>
 <p>If you are new to git and GitHub we recommend starting with the <a href="https://github.com/octocat/Spoon-Knife">spoon-knife</a> (all its missing is a fork) example to see how forks and clones work.</p>
 <p>The easiest way to get started with <a class="el" href="namespaceIBAMR.html">IBAMR</a> is to create a GitHub account and fork* the official (that is, <a href="https://www.github.com/IBAMR/IBAMR">https://www.github.com/IBAMR/IBAMR</a>) <a class="el" href="namespaceIBAMR.html">IBAMR</a> repository by clicking on the Fork button in the top right. This will create a separate copy of the <em>IBAMR/IBAMR</em> repository in your own GitHub account. After doing this, you can <em>clone</em> the repository to your local computer in the same way as was done for <em>Spoon-Knife</em>.</p>
@@ -133,7 +133,7 @@ Forking, Cloning, and making a simple fix</h3>
 <p>git push origin add-leinteractor-count-ib-points </p>
 </blockquote>
 <p>and, navigating to <a href="https://github.com/ibamr/ibamr">https://github.com/ibamr/ibamr</a>, one can then open a pull request by hitting the button <code>Compare &amp; Pull Request</code>.</p>
-<h3><a class="anchor" id="autotoc_md23"></a>
+<h3><a class="anchor" id="autotoc_md27"></a>
 Cleaning up history on a branch</h3>
 <p>Sometimes its necessary to take a sequence of commits on a branch (here <code>feature-branch</code>) and reorder, reword, or recombine them in some way. The best way to do this is to do an <em>interactive rebase</em>:</p>
 <blockquote class="doxtable">
@@ -157,7 +157,7 @@ Cleaning up history on a branch</h3>
 </blockquote>
 <p>The commit history for the remote branch should now reflect the edited local changes made to <code>feature-branch</code>. <br  />
 </p>
-<h3><a class="anchor" id="autotoc_md24"></a>
+<h3><a class="anchor" id="autotoc_md28"></a>
 Keeping a branch up to date</h3>
 <p>One can also use rebasing to keep a branch up to date with another branch: suppose you have made lots of commits on <code>feature-branch</code> and other developers have made commits on <code>master</code>. To get commits on master into <code>feature-branch</code> you should run</p>
 <blockquote class="doxtable">
@@ -170,13 +170,13 @@ Keeping a branch up to date</h3>
 <p>git pull origin feature-branch </p>
 </blockquote>
 <p>to get commits from <code>origin</code>'s branch named <code>feature-branch</code> in the current branch.</p>
-<h2><a class="anchor" id="autotoc_md27"></a>
+<h2><a class="anchor" id="autotoc_md29"></a>
 Tips and Tricks</h2>
 <ul>
 <li>Most installations of git include a simple branch and commit visualization tool named <code>gitk</code>; check it out!</li>
 <li>Using git from the command line is difficult. We recommend using a graphical interface like Git Cola, GitKraken, Tower, or (for emacs users) magit.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md28"></a>
+<h2><a class="anchor" id="autotoc_md30"></a>
 Additional Material</h2>
 <p>There are lots of tutorials on the Internet that describe possible workflows with git. We suggest poking around Stack Overflow for information on more complex git commands. Another good resource are the video lectures put out by Wolfgang Bangerth, which are available on YouTube in <a href="https://www.youtube.com/watch?v=kqb3aIakftA">lecture 32.75</a> and <a href="https://www.youtube.com/watch?v=kAqp2hhv-DU">lecture 32.8</a>. The first video gives an overview into how git works and the second discusses how git and GitHub work together. </p>
 </div><!-- contents -->
