@@ -76,34 +76,34 @@ $(function() {
 
 <p>How to use <a class="el" href="namespaceIBAMR.html">IBAMR</a> with MPI and job systems.  
 </p>
-<h1><a class="anchor" id="autotoc_md27"></a>
+<h1><a class="anchor" id="autotoc_md39"></a>
 Tips and Tricks for using MPI with IBAMR</h1>
-<h2><a class="anchor" id="autotoc_md28"></a>
+<h2><a class="anchor" id="autotoc_md40"></a>
 Overview</h2>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> is parallelized with MPI. MPI, the message-passing interface, is the most popular network communication standard for large-scale (dozens, hundreds, or more processors) parallelization of scientific programs at the current time. Since MPI is an industry standard there are many high-quality implementations. The two best-known implementations are OpenMPI and MPICH.</p>
-<h2><a class="anchor" id="autotoc_md29"></a>
+<h2><a class="anchor" id="autotoc_md41"></a>
 Getting Started</h2>
-<h3><a class="anchor" id="autotoc_md30"></a>
+<h3><a class="anchor" id="autotoc_md42"></a>
 Setting up MPI</h3>
 <p>Whenever possible, use the copy of MPI provided by the system administrators. This is usually available through the module system.</p>
 <p>MPI is a low-level library in the sense that its performance is heavily dependent on specialized hardware. In particular, to utilize common hardware on clusters (such as infiniband), the MPI library must be configured in a machine-specific way that is not trivial to do. Compiling and using your own MPI library instead of the one provided by the administrators can result in large performance problems (e.g., code can run ten times slower).</p>
 <p>That being said, it may occasionally be necessary to compile MPI on your own for some reason or another. Since <a class="el" href="namespaceIBAMR.html">IBAMR</a> depends on PETSc, we recommend using PETSc to build MPI with the <code>--download-mpich</code> option.</p>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> uses MPI to create multiple copies of the same program (the 'same instruction, multiple data' paradigm). Each copy runs in a unique process - the only way for processes to communicate is over the MPI network.</p>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> does <em>not</em> parallelize over multiple threads. Additionally, <a class="el" href="namespaceIBAMR.html">IBAMR</a> applications do not benefit much from hyperthreading (i.e., running multiple processes on a single core). For the remainder of this document we pretend hyperthreading does not exist since it is not useful to our applications.</p>
-<h3><a class="anchor" id="autotoc_md31"></a>
+<h3><a class="anchor" id="autotoc_md43"></a>
 Running programs with MPI</h3>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> applications are always run with a fixed number of processes. They are started by running, e.g., </p><div class="fragment"><div class="line">mpiexec -n 16 ./main3d ./input3d</div>
 </div><!-- fragment --><p> to run <code>main3d</code> with input file <code>input3d</code> with <code>16</code> processors.</p>
-<h3><a class="anchor" id="autotoc_md32"></a>
+<h3><a class="anchor" id="autotoc_md44"></a>
 Determining the number of processors to use</h3>
 <p>The performance of many parts of <a class="el" href="namespaceIBAMR.html">IBAMR</a> (such as the fluid solve) is limited by the rate at which data can be moved from main memory (RAM) into the CPU. The speed of this transfer can be measured with the <code>streams</code> benchmark. One can run the <code>streams</code> benchmark with PETSc by running </p><div class="fragment"><div class="line">make streams</div>
 </div><!-- fragment --><p> in PETSc's root directory. The output looks something like this: </p><div class="fragment"><div class="line">6  45603.4653   Rate (MB/s) 3.81156</div>
 <div class="line">7  42492.4568   Rate (MB/s) 3.55154</div>
 <div class="line">8  48441.6695   Rate (MB/s) 4.04878</div>
 </div><!-- fragment --><p> indicating that we can stream 48.4 GB/s with 8 processors and get a factor of 4 speedup (versus using 1 processor), measured by the time it takes to stream data. This is typical: performance usually reaches a maximum when only a fraction of a machine's processors are used.</p>
-<h2><a class="anchor" id="autotoc_md33"></a>
+<h2><a class="anchor" id="autotoc_md45"></a>
 Improving performance</h2>
-<h3><a class="anchor" id="autotoc_md34"></a>
+<h3><a class="anchor" id="autotoc_md46"></a>
 Mapping MPI processes to particular physical resources</h3>
 <p>Performance is dependent on the way processors are mapped both to <em>cores</em> (the actual physical CPU) and <em>sockets</em>. Modern machines typically have multiple cores. Larger machines, such as workstations and servers, have multiple sockets, which correspond to groups of cores. My workstation has 28 physical processors which are divided among two sockets. To get this information on a Linux machine try looking at the special file <code>/proc/cpuinfo</code> (here <code>physical id</code> refers to the socket number).</p>
 <p>MPI refers to the process of assigning processes to physical resources as mapping*. Mapping is usually done at the core, socket, and node level.</p>
@@ -118,10 +118,10 @@ Mapping MPI processes to particular physical resources</h3>
 <p>One can avoid doing some arithmetic by immediately assigning processes to sockets: </p><div class="fragment"><div class="line">$ mpiexec -map-by ppr:4:socket ./streams</div>
 <div class="line">8  48606.2252   Rate (MB/s) 4.06254</div>
 </div><!-- fragment --><p> More generally, the arguments <code>-map-by ppr:N:&lt;object&gt;</code> creates <code>N</code> times the number of <code>&lt;object&gt;</code>s copies of the application on each node.</p>
-<h3><a class="anchor" id="autotoc_md35"></a>
+<h3><a class="anchor" id="autotoc_md47"></a>
 Binding processes to particular physical resources</h3>
 <p>In MPI terminology, <em>mapping</em> refers to the initial allocation of resources (starting things in certain places) while <em>binding</em> refers to adding constraints that require processes to run in specific places.</p>
-<h3><a class="anchor" id="autotoc_md36"></a>
+<h3><a class="anchor" id="autotoc_md48"></a>
 Displaying some additional information about MPI</h3>
 <p>Try using the <code>-display-map</code> option to see where different processes ended up: </p><div class="fragment"><div class="line">$ mpiexec --display-map --map-by ppr:4:socket ./streams</div>
 <div class="line"> Data <span class="keywordflow">for</span> JOB [22109,1] offset 0</div>
@@ -167,7 +167,7 @@ Displaying some additional information about MPI</h3>
 <div class="line"> </div>
 <div class="line">Please revise the conflict and <span class="keywordflow">try</span> again.</div>
 <div class="line">--------------------------------------------------------------------------</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md37"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md49"></a>
 Setting up scripts for SLURM</h3>
 <p>This section assumes that you are using SLURM to manage running <a class="el" href="namespaceIBAMR.html">IBAMR</a> on a cluster.</p>
 <p>Scientific programs, like <a class="el" href="namespaceIBAMR.html">IBAMR</a> applications, typically run for long periods of time and require known amount of resources: for example, one might want to run their <a class="el" href="namespaceIBAMR.html">IBAMR</a> application with 100 processors for four days.</p>
@@ -195,16 +195,16 @@ Setting up scripts for SLURM</h3>
 <div class="line">mpiexec -map-by ppr:10:socket -bind-to core ./streams</div>
 </div><!-- fragment --><p> Here <code>mpiexec</code> knows to work with SLURM to create a total of 40 processes - i.e., it will automatically detect the number of nodes and start twenty processes on each node (and ten on each socket).</p>
 <p>You can submit your job to the job scheduler by running <code>sbatch script.sb</code>, where <code>script.sb</code> is the file name of the script you want to run (such as the script given above).</p>
-<h3><a class="anchor" id="autotoc_md38"></a>
+<h3><a class="anchor" id="autotoc_md50"></a>
 SLURM tips and tricks</h3>
-<h4><a class="anchor" id="autotoc_md39"></a>
+<h4><a class="anchor" id="autotoc_md51"></a>
 keeping track of jobs</h4>
 <p>Try running <code>squeue -u username</code> (where <code>username</code> is your username) to see the current status of your jobs. Running </p><div class="fragment"><div class="line">watch -n 1 squeue -u username</div>
 </div><!-- fragment --><p> will update the result every second.</p>
-<h4><a class="anchor" id="autotoc_md40"></a>
+<h4><a class="anchor" id="autotoc_md52"></a>
 viewing all jobs</h4>
 <p>Try running <code>squeue</code> to print <em>all</em> current jobs on the cluster. Try running <code>finger username</code> to get more information on a certain user.</p>
-<h3><a class="anchor" id="autotoc_md41"></a>
+<h3><a class="anchor" id="autotoc_md53"></a>
 Final advice</h3>
 <p>From the PETSc manual:</p>
 <p>"For a typical, memory bandwidth-limited PETSc application, the primary consideration in placing MPI processes is ensuring that processes are evenly distributed among sockets, and hence using all available memory channels."</p>
