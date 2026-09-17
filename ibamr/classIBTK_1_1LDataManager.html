@@ -378,6 +378,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a321687e02e581f7741239c31b5c0f7af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a321687e02e581f7741239c31b5c0f7af">scatterToZero</a> (Vec &amp;parallel_vec, Vec &amp;sequential_vec) const</td></tr>
 <tr class="memdesc:a321687e02e581f7741239c31b5c0f7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scatter data from a distributed PETSc vector to processor zero.  <a href="classIBTK_1_1LDataManager.html#a321687e02e581f7741239c31b5c0f7af">More...</a><br /></td></tr>
 <tr class="separator:a321687e02e581f7741239c31b5c0f7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee902660689e78d7158a4188be4dd633"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aee902660689e78d7158a4188be4dd633">synchronizeGhostLNodes</a> (int coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>, int finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>)</td></tr>
+<tr class="memdesc:aee902660689e78d7158a4188be4dd633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronize node-attached payloads for the ghost nodes that are already present in the current Lagrangian mesh.  <a href="classIBTK_1_1LDataManager.html#aee902660689e78d7158a4188be4dd633">More...</a><br /></td></tr>
+<tr class="separator:aee902660689e78d7158a4188be4dd633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53775a84194e1c0998f8f00193c99315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a53775a84194e1c0998f8f00193c99315">beginDataRedistribution</a> (int coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>, int finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>)</td></tr>
 <tr class="memdesc:a53775a84194e1c0998f8f00193c99315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the process of redistributing the Lagrangian data.  <a href="classIBTK_1_1LDataManager.html#a53775a84194e1c0998f8f00193c99315">More...</a><br /></td></tr>
 <tr class="separator:a53775a84194e1c0998f8f00193c99315"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2941,6 +2944,35 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Optimize the implementation of this method. </dd></dl>
+
+</div>
+</div>
+<a id="aee902660689e78d7158a4188be4dd633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee902660689e78d7158a4188be4dd633">&#9670;&nbsp;</a></span>synchronizeGhostLNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::LDataManager::synchronizeGhostLNodes </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coarsest_ln</em> = <code><a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>finest_ln</em> = <code><a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This routine updates the node data stored on existing ghost LNodes without changing ghost topology or PETSc indexing. </p>
 
 </div>
 </div>
