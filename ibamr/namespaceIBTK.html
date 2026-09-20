@@ -868,6 +868,10 @@ Functions</h2></td></tr>
 <tr class="memitem:accd05bbfd156142ef625ad1683e44e75"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:accd05bbfd156142ef625ad1683e44e75"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#accd05bbfd156142ef625ad1683e44e75">checked_dereference</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; T &gt; &amp;p)</td></tr>
 <tr class="separator:accd05bbfd156142ef625ad1683e44e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a033221972868a70697b35d204b0898"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a3a033221972868a70697b35d204b0898">format_samrai_output_filename</a> (int iteration_num, const std::string &amp;data_dump_dirname, const std::string &amp;prefix)</td></tr>
+<tr class="separator:a3a033221972868a70697b35d204b0898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6afa0564b76cb690b7919bf88d484e6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ae6afa0564b76cb690b7919bf88d484e6">format_iteration_output_filename</a> (int iteration_num, const std::string &amp;data_dump_dirname, const std::string &amp;prefix)</td></tr>
+<tr class="separator:ae6afa0564b76cb690b7919bf88d484e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30b9c6d4fd65f7a14d3dbce9e083bac"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ad30b9c6d4fd65f7a14d3dbce9e083bac">interpolate</a> (const <a class="el" href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">VectorNd</a> &amp;X, int data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; Q_var, int Q_depth, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, std::string kernel_fcn=&quot;IB_4&quot;)</td></tr>
 <tr class="separator:ad30b9c6d4fd65f7a14d3dbce9e083bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44e9a0a6f2d4f4ffcd6c45b1cc332baa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a44e9a0a6f2d4f4ffcd6c45b1cc332baa">interpolate</a> (const std::vector&lt; <a class="el" href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">VectorNd</a> &gt; &amp;X, int data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a>&lt; NDIM &gt;&gt; Q_var, int Q_depth, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; patch_hierarchy, std::string kernel_fcn=&quot;IB_4&quot;)</td></tr>
@@ -1946,7 +1950,7 @@ template&lt;typename Value , typename Function &gt; </div>
 <div class="line"><span class="keyword">auto</span> f = make_cart_grid_pointwise_function&lt;double&gt;(</div>
 <div class="line">    <span class="stringliteral">&quot;scale&quot;</span>, var, [factor](<span class="keywordtype">double</span> q, <span class="keyword">const</span> <a class="code" href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">VectorNd</a>&amp;, <span class="keywordtype">double</span>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>) { <span class="keywordflow">return</span> factor*q; });</div>
 <div class="line">f-&gt;setDataOnPatchHierarchy(data_idx, var, hierarchy, time);</div>
-<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:297</div></div>
+<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:302</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -3375,6 +3379,92 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Same idea, but for a non-const pointer. </p>
+
+</div>
+</div>
+<a id="a3a033221972868a70697b35d204b0898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a033221972868a70697b35d204b0898">&#9670;&nbsp;</a></span>format_samrai_output_filename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::format_samrai_output_filename </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iteration_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data_dump_dirname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate a filename for a <a class="el" href="namespaceSAMRAI.html">SAMRAI</a> data file using the output directory, data prefix, iteration number, and MPI rank. This removes the need for duplicated filename-generation code. </p>
+
+</div>
+</div>
+<a id="ae6afa0564b76cb690b7919bf88d484e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6afa0564b76cb690b7919bf88d484e6">&#9670;&nbsp;</a></span>format_iteration_output_filename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::format_iteration_output_filename </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iteration_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data_dump_dirname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate a filename for an iteration data file using the output directory, data prefix, and iteration number. This removes the need for duplicated filename-generation code. </p>
 
 </div>
 </div>

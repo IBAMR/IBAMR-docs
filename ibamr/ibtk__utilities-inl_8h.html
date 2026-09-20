@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>IBAMR: File Members</title>
+<title>IBAMR: ibtk/include/ibtk/private/ibtk_utilities-inl.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -53,7 +53,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,56 +67,38 @@ $(function() {
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_9667040f3db566ae351bacd984f96a3b.html">ibtk</a></li><li class="navelem"><a class="el" href="dir_94f376cc621ef217ae30873b59797594.html">include</a></li><li class="navelem"><a class="el" href="dir_58ccf9e2b28da219fa66d33c7915ba69.html">ibtk</a></li><li class="navelem"><a class="el" href="dir_da87385c177c5f1b302324a6797409f4.html">private</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">ibtk_utilities-inl.h File Reference</div>  </div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
-
-<h3><a id="index_y"></a>- y -</h3><ul>
-<li>YDIRICHLET_BC
-: <a class="el" href="CartesianBoundaryDefines_8h.html#a01755c656b73b29812b4afa311839e75">CartesianBoundaryDefines.h</a>
-</li>
-<li>YFLOW_BC
-: <a class="el" href="CartesianBoundaryDefines_8h.html#a61b13461368e26e5b1bb0882282c4043">CartesianBoundaryDefines.h</a>
-</li>
-<li>YHI
-: <a class="el" href="CartesianBoundaryDefines_8h.html#adffcb9040837c7289b9ae07c0a5ea8a5">CartesianBoundaryDefines.h</a>
-</li>
-<li>YHI_ZHI_3D
-: <a class="el" href="CartesianBoundaryDefines_8h.html#a4ae9568d75f8b15c0e5099be6c1a3e44">CartesianBoundaryDefines.h</a>
-</li>
-<li>YHI_ZLO_3D
-: <a class="el" href="CartesianBoundaryDefines_8h.html#af1018b50e5ad13286b1dbbb8e08672d2">CartesianBoundaryDefines.h</a>
-</li>
-<li>YLO
-: <a class="el" href="CartesianBoundaryDefines_8h.html#a11dbf4f5fbcc69c8ce3eb4e6116865b4">CartesianBoundaryDefines.h</a>
-</li>
-<li>YLO_ZHI_3D
-: <a class="el" href="CartesianBoundaryDefines_8h.html#a27ae68e88a4a5c158f5aebb38b6bed02">CartesianBoundaryDefines.h</a>
-</li>
-<li>YLO_ZLO_3D
-: <a class="el" href="CartesianBoundaryDefines_8h.html#a00461a3feef1002b324c5001199ca312">CartesianBoundaryDefines.h</a>
-</li>
-<li>YNEUMANN_BC
-: <a class="el" href="CartesianBoundaryDefines_8h.html#ad3ee91c087860b3b8304919abc1158e3">CartesianBoundaryDefines.h</a>
-</li>
-<li>YREFLECT_BC
-: <a class="el" href="CartesianBoundaryDefines_8h.html#af6ce3b1bc5e1c30456a587a2cf4d3327">CartesianBoundaryDefines.h</a>
-</li>
-<li>YYSTYPE
-: <a class="el" href="Grammar_8h.html#ac56824fbd095909aa72c2a98afb4b9f0">Grammar.h</a>
-</li>
-<li>yystype
-: <a class="el" href="Grammar_8h.html#a4ccf5315e8f5c1cec48ec67ca1771e3a">Grammar.h</a>
-</li>
-<li>YYSTYPE_IS_DECLARED
-: <a class="el" href="Grammar_8h.html#af0232d21120b2cfc5e5f82f0fbadab3c">Grammar.h</a>
-</li>
-<li>YYSTYPE_IS_TRIVIAL
-: <a class="el" href="Grammar_8h.html#a2e3dbf169c5ee24cf6af37c61cf3995d">Grammar.h</a>
-</li>
-<li>yytokentype
-: <a class="el" href="Grammar_8h.html#a15c9f7bd2f0e9686df5d9df4f3314aa9">Grammar.h</a>
-</li>
-</ul>
+<div class="textblock"><code>#include &lt;<a class="el" href="build_2ibtk_2include_2ibtk_2config_8h.html">ibtk/config.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="IBTK__MPI_8h.html">ibtk/IBTK_MPI.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="ibtk__utilities_8h.html">ibtk/ibtk_utilities.h</a>&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceIBTK"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html">IBTK</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3a033221972868a70697b35d204b0898"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a3a033221972868a70697b35d204b0898">IBTK::format_samrai_output_filename</a> (int iteration_num, const std::string &amp;data_dump_dirname, const std::string &amp;prefix)</td></tr>
+<tr class="separator:a3a033221972868a70697b35d204b0898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6afa0564b76cb690b7919bf88d484e6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ae6afa0564b76cb690b7919bf88d484e6">IBTK::format_iteration_output_filename</a> (int iteration_num, const std::string &amp;data_dump_dirname, const std::string &amp;prefix)</td></tr>
+<tr class="separator:ae6afa0564b76cb690b7919bf88d484e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
