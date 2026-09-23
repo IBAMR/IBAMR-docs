@@ -76,6 +76,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classIBAMR_1_1StaggeredStokesLevelRelaxationFACOperator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">IBAMR::StaggeredStokesLevelRelaxationFACOperator Class Reference</div>  </div>
@@ -127,12 +128,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6e46c99a2c278441a04910dc537f5176"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a6e46c99a2c278441a04910dc537f5176">setFACPreconditioner</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html">SAMRAI::tbox::ConstPointer</a>&lt; FACPreconditioner &gt; preconditioner)</td></tr>
 <tr class="memdesc:a6e46c99a2c278441a04910dc537f5176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to allow the <a class="el" href="classIBTK_1_1FACPreconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a> object to register itself with the concrete <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem-specific operations ...">FACPreconditionerStrategy</a>.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#a6e46c99a2c278441a04910dc537f5176">More...</a><br /></td></tr>
 <tr class="separator:a6e46c99a2c278441a04910dc537f5176"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafc30a933893b7d85a7247369c16648a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#aafc30a933893b7d85a7247369c16648a">setHomogeneousBc</a> (bool homogeneous_bc)</td></tr>
-<tr class="memdesc:aafc30a933893b7d85a7247369c16648a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the solver should use homogeneous boundary conditions.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#aafc30a933893b7d85a7247369c16648a">More...</a><br /></td></tr>
-<tr class="separator:aafc30a933893b7d85a7247369c16648a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe5b32231c5eafed690236e56591efea"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#abe5b32231c5eafed690236e56591efea">getHomogeneousBc</a> () const</td></tr>
-<tr class="memdesc:abe5b32231c5eafed690236e56591efea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the solver is using homogeneous boundary conditions.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#abe5b32231c5eafed690236e56591efea">More...</a><br /></td></tr>
-<tr class="separator:abe5b32231c5eafed690236e56591efea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f5e33b107c57b8fe4e3ab739b62790d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a1f5e33b107c57b8fe4e3ab739b62790d">setSolutionTime</a> (double solution_time)</td></tr>
 <tr class="memdesc:a1f5e33b107c57b8fe4e3ab739b62790d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the time at which the solution is to be evaluated.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#a1f5e33b107c57b8fe4e3ab739b62790d">More...</a><br /></td></tr>
 <tr class="separator:a1f5e33b107c57b8fe4e3ab739b62790d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +202,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c6a43d1e42747c56c2877453fd2b160"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1StaggeredStokesSolver.html">StaggeredStokesSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesLevelRelaxationFACOperator.html#a6c6a43d1e42747c56c2877453fd2b160">allocate_solver</a> (const std::string &amp;object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, const std::string &amp;default_options_prefix)</td></tr>
 <tr class="memdesc:a6c6a43d1e42747c56c2877453fd2b160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static function to construct a <a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditioner.html" title="Class StaggeredStokesFACPreconditioner is a FACPreconditioner that has been specialized for Stokes pr...">StaggeredStokesFACPreconditioner</a> with a <a class="el" href="classIBAMR_1_1StaggeredStokesLevelRelaxationFACOperator.html" title="Class StaggeredStokesLevelRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrateg...">StaggeredStokesLevelRelaxationFACOperator</a> FAC strategy.  <a href="classIBAMR_1_1StaggeredStokesLevelRelaxationFACOperator.html#a6c6a43d1e42747c56c2877453fd2b160">More...</a><br /></td></tr>
 <tr class="separator:a6c6a43d1e42747c56c2877453fd2b160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a4eab668045c3de3cedd5c1f8e903b7a5">ALWAYS_HOMOGENEOUS_BC</a> = true</td></tr>
+<tr class="memdesc:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every concrete <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem-specific operations ...">FACPreconditionerStrategy</a> implements the FAC correction scheme: it solves the error equation \( A e = r \) for a Krylov (or standalone <a class="el" href="classIBTK_1_1FACPreconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a>) linear preconditioner application, and the boundary conditions satisfied by an error/ correction are always the homogeneous form of the original problem's boundary conditions. This is a mathematical consequence of what a correction equation is, not a configurable option, so unlike <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions.">SAMRAI::solv::RobinBcCoefStrategy</a>-facing classes elsewhere in <a class="el" href="namespaceIBTK.html">IBTK</a>, <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem-specific operations ...">FACPreconditionerStrategy</a> does not expose a settable homogeneous-BC toggle; see <a class="el" href="classIBTK_1_1FACPreconditioner.html#a028305d0f184b4ff31e9f0f1912134dd" title="Set whether the solver should use homogeneous boundary conditions.">FACPreconditioner::setHomogeneousBc()</a>, which enforces this invariant on the one place a caller can attempt to configure it.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#a4eab668045c3de3cedd5c1f8e903b7a5">More...</a><br /></td></tr>
+<tr class="separator:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -368,8 +369,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aea72173c53cc19ced51491e30ead5090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956b236dddabc665bb5e889a407b9ac1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a956b236dddabc665bb5e889a407b9ac1">d_is_initialized</a> = false</td></tr>
 <tr class="separator:a956b236dddabc665bb5e889a407b9ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a731858320e608b16bfb6a03899aedc9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a731858320e608b16bfb6a03899aedc9a">d_homogeneous_bc</a></td></tr>
-<tr class="separator:a731858320e608b16bfb6a03899aedc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d73f9e18606a29cbe0c1a703627948c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a0d73f9e18606a29cbe0c1a703627948c">d_solution_time</a> = std::numeric_limits&lt;double&gt;::quiet_NaN()</td></tr>
 <tr class="separator:a0d73f9e18606a29cbe0c1a703627948c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d43757f7dfe573be51812d363ae558c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a7d43757f7dfe573be51812d363ae558c">d_current_time</a> = std::numeric_limits&lt;double&gt;::quiet_NaN()</td></tr>
@@ -1729,57 +1728,6 @@ Protected Attributes</h2></td></tr>
           <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1ConstPointer.html">SAMRAI::tbox::ConstPointer</a>&lt; <a class="el" href="classIBTK_1_1FACPreconditioner.html">FACPreconditioner</a> &gt;&#160;</td>
           <td class="paramname"><em>preconditioner</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aafc30a933893b7d85a7247369c16648a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafc30a933893b7d85a7247369c16648a">&#9670;&nbsp;</a></span>setHomogeneousBc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void IBTK::FACPreconditionerStrategy::setHomogeneousBc </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>homogeneous_bc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abe5b32231c5eafed690236e56591efea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe5b32231c5eafed690236e56591efea">&#9670;&nbsp;</a></span>getHomogeneousBc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool IBTK::FACPreconditionerStrategy::getHomogeneousBc </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
   </td>
@@ -3471,6 +3419,29 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4eab668045c3de3cedd5c1f8e903b7a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eab668045c3de3cedd5c1f8e903b7a5">&#9670;&nbsp;</a></span>ALWAYS_HOMOGENEOUS_BC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool IBTK::FACPreconditionerStrategy::ALWAYS_HOMOGENEOUS_BC = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This constant is named, rather than left as a bare <code>true</code> at each of the many call sites in concrete implementations that configure a ghost-cell-filling or level-solver object's own homogeneous-BC setting, so that a future extension supporting a standalone (as opposed to preconditioner-only) FAC or FAS solver &ndash; which would need real, inhomogeneous boundary conditions &ndash; has exactly one symbol to find and repurpose. </p>
+
+</div>
+</div>
 <a id="af37be282abbafb28e290356a9eaea8fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af37be282abbafb28e290356a9eaea8fa">&#9670;&nbsp;</a></span>d_preconditioner</h2>
 
@@ -3526,28 +3497,6 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool IBTK::FACPreconditionerStrategy::d_is_initialized = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a731858320e608b16bfb6a03899aedc9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a731858320e608b16bfb6a03899aedc9a">&#9670;&nbsp;</a></span>d_homogeneous_bc</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IBTK::FACPreconditionerStrategy::d_homogeneous_bc</td>
         </tr>
       </table>
   </td>

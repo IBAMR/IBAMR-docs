@@ -612,6 +612,7 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classIBTK_1_1FACPreconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a> implements only the FAC correction scheme, which is always subject to homogeneous boundary conditions; see <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a4eab668045c3de3cedd5c1f8e903b7a5" title="Every concrete FACPreconditionerStrategy implements the FAC correction scheme: it solves the error eq...">FACPreconditionerStrategy::ALWAYS_HOMOGENEOUS_BC</a>. Calling this with <code>false</code> triggers a TBOX_ERROR. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classIBTK_1_1GeneralSolver.html#ac51b079235eb32446298a8b89c885a9d">IBTK::GeneralSolver</a>.</p>
 
