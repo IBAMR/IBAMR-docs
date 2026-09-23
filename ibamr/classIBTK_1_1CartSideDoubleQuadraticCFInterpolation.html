@@ -144,6 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65ad0a2a286e3e6de67e3b5013987489"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a65ad0a2a286e3e6de67e3b5013987489">d_sc_indicator_idx</a> = <a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">IBTK::invalid_index</a></td></tr>
 <tr class="separator:a65ad0a2a286e3e6de67e3b5013987489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2415003a5a918ecfda974ec15c09dffb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a2415003a5a918ecfda974ec15c09dffb">setConsistentInterpolationScheme</a> (bool consistent_type_2_bdry) override</td></tr>
+<tr class="memdesc:a2415003a5a918ecfda974ec15c09dffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class does not support a consistent interpolation scheme at higher-co-dimension (corner/edge) coarse-fine interface ghost cells.  <a href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a2415003a5a918ecfda974ec15c09dffb">More...</a><br /></td></tr>
 <tr class="separator:a2415003a5a918ecfda974ec15c09dffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecbcacb8b770f942966b5730b37a7eb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#aecbcacb8b770f942966b5730b37a7eb1">setPatchDataIndex</a> (int patch_data_index) override</td></tr>
 <tr class="memdesc:aecbcacb8b770f942966b5730b37a7eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data index operated upon by this class.  <a href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#aecbcacb8b770f942966b5730b37a7eb1">More...</a><br /></td></tr>
@@ -512,7 +513,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Whether or not to employ a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells. </p>
+<p><a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a730fd4debc4e637cf744e6c1d985e0d4">postprocessRefine()</a> and <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#af42777278ea02ee593eae3be3b0c4513">computeNormalExtension()</a> always use the hand-coded Fortran routines, which handle only co-dimension 1 coarse-fine interface ghost cells, regardless of the value passed here. <code>consistent_type_2_bdry</code> is accepted only for interface compatibility with <a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re...">CoarseFineBoundaryRefinePatchStrategy</a>, which explicitly permits a subclass to decline to support this feature. </p>
 
 <p>Implements <a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#adf47900f5610ce2b943d62f8589b2e40">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
@@ -1067,7 +1068,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Boolean value indicating whether we are enforcing a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells. </p>
+<p>Boolean value indicating whether we are enforcing a consistent interpolation scheme at higher-co-dimension (corner/edge) coarse-fine interface ghost cells.</p>
+<dl class="section note"><dt>Note</dt><dd>This class does not actually implement such a scheme; see <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a2415003a5a918ecfda974ec15c09dffb" title="This class does not support a consistent interpolation scheme at higher-co-dimension (corner/edge) co...">setConsistentInterpolationScheme()</a>. This flag is stored only for interface compatibility and has no effect on <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a730fd4debc4e637cf744e6c1d985e0d4">postprocessRefine()</a> or <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#af42777278ea02ee593eae3be3b0c4513">computeNormalExtension()</a>. </dd></dl>
 
 </div>
 </div>

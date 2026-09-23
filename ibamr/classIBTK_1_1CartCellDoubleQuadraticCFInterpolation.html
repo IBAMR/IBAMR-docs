@@ -139,11 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abb9f99495547905dbf3caee924d9641f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcfd74b3fb3e049cadb753b1f899b1db"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#afcfd74b3fb3e049cadb753b1f899b1db">d_cf_boundary</a></td></tr>
 <tr class="separator:afcfd74b3fb3e049cadb753b1f899b1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d065cd5db0346449cb977d7a9ffa22e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoxArray.html">SAMRAI::hier::BoxArray</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a2d065cd5db0346449cb977d7a9ffa22e">d_domain_boxes</a></td></tr>
-<tr class="separator:a2d065cd5db0346449cb977d7a9ffa22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8dd0687ce8cc01e86915a03ab08b73c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#ad8dd0687ce8cc01e86915a03ab08b73c">d_periodic_shift</a></td></tr>
-<tr class="separator:ad8dd0687ce8cc01e86915a03ab08b73c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c7135a075b8892d52f83ff6544b3ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#ac5c7135a075b8892d52f83ff6544b3ce">setConsistentInterpolationScheme</a> (bool consistent_type_2_bdry) override</td></tr>
+<tr class="memdesc:ac5c7135a075b8892d52f83ff6544b3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class does not support a consistent interpolation scheme at higher-co-dimension (corner/edge) coarse-fine interface ghost cells.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#ac5c7135a075b8892d52f83ff6544b3ce">More...</a><br /></td></tr>
 <tr class="separator:ac5c7135a075b8892d52f83ff6544b3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb3950e9d1f6dd0e2e77f70b851f5b14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#adb3950e9d1f6dd0e2e77f70b851f5b14">setPatchDataIndex</a> (int patch_data_index) override</td></tr>
 <tr class="memdesc:adb3950e9d1f6dd0e2e77f70b851f5b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data index operated upon by this class.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#adb3950e9d1f6dd0e2e77f70b851f5b14">More...</a><br /></td></tr>
@@ -166,15 +163,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd501761a0ae06d3950fb95c06b992d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html">CartCellDoubleQuadraticCFInterpolation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#acd501761a0ae06d3950fb95c06b992d6">operator=</a> (const <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html">CartCellDoubleQuadraticCFInterpolation</a> &amp;that)=delete</td></tr>
 <tr class="memdesc:acd501761a0ae06d3950fb95c06b992d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#acd501761a0ae06d3950fb95c06b992d6">More...</a><br /></td></tr>
 <tr class="separator:acd501761a0ae06d3950fb95c06b992d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae9f5326bac5845e6975d7c8bbbf6ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a0ae9f5326bac5845e6975d7c8bbbf6ff">postprocessRefine_expensive</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, const <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ratio)</td></tr>
-<tr class="memdesc:a0ae9f5326bac5845e6975d7c8bbbf6ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementations of <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a099ba5a179b34a2b01a7e70cb4d613ae">postprocessRefine()</a>.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a0ae9f5326bac5845e6975d7c8bbbf6ff">More...</a><br /></td></tr>
-<tr class="separator:a0ae9f5326bac5845e6975d7c8bbbf6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a955ade68f5f09fafe8a200bb9af85dbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a955ade68f5f09fafe8a200bb9af85dbf">postprocessRefine_optimized</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;fine, const <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;coarse, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ratio)</td></tr>
+<tr class="memdesc:a955ade68f5f09fafe8a200bb9af85dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a099ba5a179b34a2b01a7e70cb4d613ae">postprocessRefine()</a>. Handles co-dimension 1 coarse-fine interface ghost cells only, via hand-coded Fortran routines.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a955ade68f5f09fafe8a200bb9af85dbf">More...</a><br /></td></tr>
 <tr class="separator:a955ade68f5f09fafe8a200bb9af85dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493ee0c7cf2cc573684c2059c4d055ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a493ee0c7cf2cc573684c2059c4d055ea">computeNormalExtension_expensive</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ratio, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ghost_width_to_fill)</td></tr>
-<tr class="memdesc:a493ee0c7cf2cc573684c2059c4d055ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementations of <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a>.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a493ee0c7cf2cc573684c2059c4d055ea">More...</a><br /></td></tr>
-<tr class="separator:a493ee0c7cf2cc573684c2059c4d055ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f9ca6563fdc71dbe32534e248c57b2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a4f9ca6563fdc71dbe32534e248c57b2a">computeNormalExtension_optimized</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ratio)</td></tr>
+<tr class="memdesc:a4f9ca6563fdc71dbe32534e248c57b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a>. Handles co-dimension 1 coarse-fine interface ghost cells only, via hand-coded Fortran routines.  <a href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a4f9ca6563fdc71dbe32534e248c57b2a">More...</a><br /></td></tr>
 <tr class="separator:a4f9ca6563fdc71dbe32534e248c57b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -512,7 +505,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Whether or not to employ a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells. </p>
+<p><a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a099ba5a179b34a2b01a7e70cb4d613ae">postprocessRefine()</a> and <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a> always use the hand-coded Fortran routines, which handle only co-dimension 1 coarse-fine interface ghost cells, regardless of the value passed here. <code>consistent_type_2_bdry</code> is accepted only for interface compatibility with <a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html" title="Class CoarseFineBoundaryRefinePatchStrategy is a subclass of the abstract base class SAMRAI::xfer::Re...">CoarseFineBoundaryRefinePatchStrategy</a>, which explicitly permits a subclass to decline to support this feature. </p>
 
 <p>Implements <a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#adf47900f5610ce2b943d62f8589b2e40">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
@@ -739,48 +732,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ae9f5326bac5845e6975d7c8bbbf6ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ae9f5326bac5845e6975d7c8bbbf6ff">&#9670;&nbsp;</a></span>postprocessRefine_expensive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::CartCellDoubleQuadraticCFInterpolation::postprocessRefine_expensive </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>fine</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>coarse</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>ratio</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a955ade68f5f09fafe8a200bb9af85dbf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a955ade68f5f09fafe8a200bb9af85dbf">&#9670;&nbsp;</a></span>postprocessRefine_optimized()</h2>
 
@@ -807,48 +758,6 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
           <td class="paramname"><em>ratio</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a493ee0c7cf2cc573684c2059c4d055ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a493ee0c7cf2cc573684c2059c4d055ea">&#9670;&nbsp;</a></span>computeNormalExtension_expensive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::CartCellDoubleQuadraticCFInterpolation::computeNormalExtension_expensive </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>patch</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>ratio</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;&#160;</td>
-          <td class="paramname"><em>ghost_width_to_fill</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1229,7 +1138,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Boolean value indicating whether we are enforcing a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells. </p>
+<p>Boolean value indicating whether we are enforcing a consistent interpolation scheme at higher-co-dimension (corner/edge) coarse-fine interface ghost cells.</p>
+<dl class="section note"><dt>Note</dt><dd>This class does not actually implement such a scheme; see <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#ac5c7135a075b8892d52f83ff6544b3ce" title="This class does not support a consistent interpolation scheme at higher-co-dimension (corner/edge) co...">setConsistentInterpolationScheme()</a>. This flag is stored only for interface compatibility and has no effect on <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a099ba5a179b34a2b01a7e70cb4d613ae">postprocessRefine()</a> or <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#a4671936b6684ee3508e5744bf52b7c35">computeNormalExtension()</a>. </dd></dl>
 
 </div>
 </div>
@@ -1293,50 +1203,6 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1hier_1_1CoarseFineBoundary.html">SAMRAI::hier::CoarseFineBoundary</a>&lt;NDIM&gt; &gt; IBTK::CartCellDoubleQuadraticCFInterpolation::d_cf_boundary</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d065cd5db0346449cb977d7a9ffa22e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d065cd5db0346449cb977d7a9ffa22e">&#9670;&nbsp;</a></span>d_domain_boxes</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1hier_1_1BoxArray.html">SAMRAI::hier::BoxArray</a>&lt;NDIM&gt; &gt; IBTK::CartCellDoubleQuadraticCFInterpolation::d_domain_boxes</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad8dd0687ce8cc01e86915a03ab08b73c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8dd0687ce8cc01e86915a03ab08b73c">&#9670;&nbsp;</a></span>d_periodic_shift</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt;NDIM&gt; &gt; IBTK::CartCellDoubleQuadraticCFInterpolation::d_periodic_shift</td>
         </tr>
       </table>
   </td>

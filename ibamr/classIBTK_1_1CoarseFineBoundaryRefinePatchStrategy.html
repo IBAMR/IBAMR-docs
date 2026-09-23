@@ -466,8 +466,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Whether or not to employ a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells.</p>
-<dl class="section note"><dt>Note</dt><dd>This subclasses may choose not to support a consistent "Type 2" coarse-fine interface ghost cell interpolation scheme. </dd></dl>
+<p>Whether or not to employ a consistent interpolation scheme at coarse-fine interface ghost cells of co-dimension greater than 1 (i.e. cells diagonal to the interface, such as corner cells in 2D or edge/corner cells in 3D, as opposed to the co-dimension 1 cells directly across a coarse-fine face).</p>
+<dl class="section note"><dt>Note</dt><dd>Subclasses may choose not to support a consistent interpolation scheme at these higher-co-dimension ghost cells. </dd></dl>
 
 <p>Implemented in <a class="el" href="classIBTK_1_1CartSideDoubleQuadraticCFInterpolation.html#a2415003a5a918ecfda974ec15c09dffb">IBTK::CartSideDoubleQuadraticCFInterpolation</a>, <a class="el" href="classIBTK_1_1CartCellDoubleQuadraticCFInterpolation.html#ac5c7135a075b8892d52f83ff6544b3ce">IBTK::CartCellDoubleQuadraticCFInterpolation</a>, and <a class="el" href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a954cb93425a3b19f00ea54fa2a058c4b">IBTK::CartCellDoubleLinearCFInterpolation</a>.</p>
 
