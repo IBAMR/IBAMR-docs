@@ -1950,7 +1950,7 @@ template&lt;typename Value , typename Function &gt; </div>
 <div class="line"><span class="keyword">auto</span> f = make_cart_grid_pointwise_function&lt;double&gt;(</div>
 <div class="line">    <span class="stringliteral">&quot;scale&quot;</span>, var, [factor](<span class="keywordtype">double</span> q, <span class="keyword">const</span> <a class="code" href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">VectorNd</a>&amp;, <span class="keywordtype">double</span>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>) { <span class="keywordflow">return</span> factor*q; });</div>
 <div class="line">f-&gt;setDataOnPatchHierarchy(data_idx, var, hierarchy, time);</div>
-<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:302</div></div>
+<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:288</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -3185,7 +3185,7 @@ template&lt;class T , unsigned N&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Smooth heaviside function. </p>
+<p>Regularized Heaviside function with smoothing half-width alpha. For finite phi and finite positive alpha, values lie in [0, 1], with exact saturation at both cutoffs. Values are accurate to absolute rounding error; tiny fractions near the cutoffs do not have full relative accuracy. Use smooth_heaviside(-phi, alpha) for a small complementary fraction that subtraction from one would lose. </p>
 
 </div>
 </div>
@@ -3222,7 +3222,7 @@ template&lt;class T , unsigned N&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Smooth delta function. </p>
+<p>Analytic derivative of <a class="el" href="namespaceIBTK.html#abd643aba5793178126d00ce49bc89117">smooth_heaviside()</a>, with the same half-width alpha. Values are nonnegative and exactly zero at and outside both cutoffs. Requires finite phi and finite positive alpha; the result may underflow or overflow when the derivative is not representable. </p>
 
 </div>
 </div>

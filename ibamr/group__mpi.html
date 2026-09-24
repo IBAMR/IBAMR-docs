@@ -118,10 +118,10 @@ Mapping MPI processes to particular physical resources</h3>
 <p>One can avoid doing some arithmetic by immediately assigning processes to sockets: </p><div class="fragment"><div class="line">$ mpiexec -map-by ppr:4:socket ./streams</div>
 <div class="line">8  48606.2252   Rate (MB/s) 4.06254</div>
 </div><!-- fragment --><p> More generally, the arguments <code>-map-by ppr:N:&lt;object&gt;</code> creates <code>N</code> times the number of <code>&lt;object&gt;</code>s copies of the application on each node.</p>
-<h3><a class="anchor" id="autotoc_md43"></a>
+<h3><a class="anchor" id="autotoc_md39"></a>
 Binding processes to particular physical resources</h3>
 <p>In MPI terminology, <em>mapping</em> refers to the initial allocation of resources (starting things in certain places) while <em>binding</em> refers to adding constraints that require processes to run in specific places.</p>
-<h3><a class="anchor" id="autotoc_md44"></a>
+<h3><a class="anchor" id="autotoc_md40"></a>
 Displaying some additional information about MPI</h3>
 <p>Try using the <code>-display-map</code> option to see where different processes ended up: </p><div class="fragment"><div class="line">$ mpiexec --display-map --map-by ppr:4:socket ./streams</div>
 <div class="line"> Data <span class="keywordflow">for</span> JOB [22109,1] offset 0</div>
@@ -167,7 +167,7 @@ Displaying some additional information about MPI</h3>
 <div class="line"> </div>
 <div class="line">Please revise the conflict and <span class="keywordflow">try</span> again.</div>
 <div class="line">--------------------------------------------------------------------------</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md46"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md41"></a>
 Setting up scripts for SLURM</h3>
 <p>This section assumes that you are using SLURM to manage running <a class="el" href="namespaceIBAMR.html">IBAMR</a> on a cluster.</p>
 <p>Scientific programs, like <a class="el" href="namespaceIBAMR.html">IBAMR</a> applications, typically run for long periods of time and require known amount of resources: for example, one might want to run their <a class="el" href="namespaceIBAMR.html">IBAMR</a> application with 100 processors for four days.</p>
@@ -195,16 +195,16 @@ Setting up scripts for SLURM</h3>
 <div class="line">mpiexec -map-by ppr:10:socket -bind-to core ./streams</div>
 </div><!-- fragment --><p> Here <code>mpiexec</code> knows to work with SLURM to create a total of 40 processes - i.e., it will automatically detect the number of nodes and start twenty processes on each node (and ten on each socket).</p>
 <p>You can submit your job to the job scheduler by running <code>sbatch script.sb</code>, where <code>script.sb</code> is the file name of the script you want to run (such as the script given above).</p>
-<h3><a class="anchor" id="autotoc_md48"></a>
+<h3><a class="anchor" id="autotoc_md42"></a>
 SLURM tips and tricks</h3>
-<h4><a class="anchor" id="autotoc_md49"></a>
+<h4><a class="anchor" id="autotoc_md43"></a>
 keeping track of jobs</h4>
 <p>Try running <code>squeue -u username</code> (where <code>username</code> is your username) to see the current status of your jobs. Running </p><div class="fragment"><div class="line">watch -n 1 squeue -u username</div>
 </div><!-- fragment --><p> will update the result every second.</p>
-<h4><a class="anchor" id="autotoc_md50"></a>
+<h4><a class="anchor" id="autotoc_md44"></a>
 viewing all jobs</h4>
 <p>Try running <code>squeue</code> to print <em>all</em> current jobs on the cluster. Try running <code>finger username</code> to get more information on a certain user.</p>
-<h3><a class="anchor" id="autotoc_md51"></a>
+<h3><a class="anchor" id="autotoc_md45"></a>
 Final advice</h3>
 <p>From the PETSc manual:</p>
 <p>"For a typical, memory bandwidth-limited PETSc application, the primary consideration in placing MPI processes is ensuring that processes are evenly distributed among sockets, and hence using all available memory channels."</p>
