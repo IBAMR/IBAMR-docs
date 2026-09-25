@@ -83,8 +83,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A lightweight class that stores the current value of the Lagrange multiplier for the level set variable.  
-</p>
+<p>Correct a regularized phase volume by a uniform level-set shift.  
+ <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#details">More...</a></p>
 
 <p><code>#include &lt;ibamr/LevelSetUtilities.h&gt;</code></p>
 <div class="dynheader">
@@ -92,7 +92,7 @@ Inheritance diagram for IBAMR::LevelSetUtilities::LevelSetMassLossFixer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer__inherit__graph.png" border="0" usemap="#aIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer_inherit__map" alt="Inheritance graph"/></div>
 <map name="aIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer_inherit__map" id="aIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer_inherit__map">
-<area shape="rect" title="A lightweight class that stores the current value of the Lagrange multiplier for the level set variab..." alt="" coords="25,155,205,196"/>
+<area shape="rect" title="Correct a regularized phase volume by a uniform level&#45;set shift." alt="" coords="25,155,205,196"/>
 <area shape="rect" href="classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="17,80,212,107"/>
 <area shape="rect" href="classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
 </map>
@@ -135,12 +135,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a682084071263c0fdce1d95a6053c214e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee70eb7263af9f207e6036e20d4bb83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a9ee70eb7263af9f207e6036e20d4bb83">enableLogging</a> () const</td></tr>
 <tr class="separator:a9ee70eb7263af9f207e6036e20d4bb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a73c5847b5884900f5284609cbf43e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4">correctVolume</a> (double new_time, bool three_phase)</td></tr>
+<tr class="memdesc:a8a73c5847b5884900f5284609cbf43e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct NEW-context interiors at a due correction event.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4">More...</a><br /></td></tr>
+<tr class="separator:a8a73c5847b5884900f5284609cbf43e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:aad16156cb5e79dd119bf0f819b1ab236"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#aad16156cb5e79dd119bf0f819b1ab236">getFromRestart</a> ()</td></tr>
+<tr class="memdesc:aad16156cb5e79dd119bf0f819b1ab236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the initial volume, target, and interface half-width.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#aad16156cb5e79dd119bf0f819b1ab236">More...</a><br /></td></tr>
 <tr class="separator:aad16156cb5e79dd119bf0f819b1ab236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d8f1d84e042b33190f4c50610bdd9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#ab4d8f1d84e042b33190f4c50610bdd9c">getFromInput</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db)</td></tr>
+<tr class="memdesc:ab4d8f1d84e042b33190f4c50610bdd9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read correction controls and the input interface half-width.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#ab4d8f1d84e042b33190f4c50610bdd9c">More...</a><br /></td></tr>
 <tr class="separator:ab4d8f1d84e042b33190f4c50610bdd9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -163,12 +168,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac0196c5934eedded0e87c649af76b4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19db783de53bf25d52f00af24bb717f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a19db783de53bf25d52f00af24bb717f5">d_interval</a> = 1</td></tr>
 <tr class="separator:a19db783de53bf25d52f00af24bb717f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87603f65055af6603b80781d7d96537"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#af87603f65055af6603b80781d7d96537">d_max_its</a> = 4</td></tr>
+<tr class="memitem:af87603f65055af6603b80781d7d96537"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#af87603f65055af6603b80781d7d96537">d_max_its</a> = 64</td></tr>
 <tr class="separator:af87603f65055af6603b80781d7d96537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43297474589c7b3268a2c2a26161acf9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a43297474589c7b3268a2c2a26161acf9">d_rel_tol</a> = 1e-12</td></tr>
 <tr class="separator:a43297474589c7b3268a2c2a26161acf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad47a9a38122e76f320d51b14133cc8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a2ad47a9a38122e76f320d51b14133cc8">d_abs_tol</a></td></tr>
+<tr class="separator:a2ad47a9a38122e76f320d51b14133cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The two-phase correction targets gas volume \(\int H(-(\phi+q))\,dV\); the three-phase correction targets liquid volume \(\int H(\phi+q)H(\psi)\,dV\). Set the initial volume after hierarchy initialization; <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a079060d9831f3821a53529a753265525">setTargetVolume()</a> may update the target before a later correction. The half-width is half_width times the geometric mean cell spacing on each patch.</p>
+<p>The volume tolerance is abs_tol + rel_tol*abs(target). The default rel_tol is 1e-12; omitted abs_tol means 64 machine epsilons times the current fluid capacity. Require finite 0 &lt;= rel_tol &lt; 1 and nonnegative finite abs_tol. max_its (default 64) is a positive trial-evaluation budget, excluding the initial check, at most two bracket endpoints, and final field verification. A safeguarded Newton/bisection solve either accepts a finite field within tolerance or reports TBOX_ERROR before changing the corrected interiors.</p>
+<p>Restart restores the initial volume, target, and half-width. Logging state is transient; interval, iteration budget, and tolerances use current input or defaults. correction_interval must be positive. With interval two, the callbacks correct pre-advance steps 0 and 2 (the first and third advances). </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa0c855b2bf6b4c82817d911a04cbbfb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0c855b2bf6b4c82817d911a04cbbfb9">&#9670;&nbsp;</a></span>LevelSetMassLossFixer()</h2>
 
@@ -214,7 +225,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">input_db</td><td>provides parameters such as enable_logging, correction_interval, max_its, rel_tol, and half_width. </td></tr>
+    <tr><td class="paramname">input_db</td><td>provides parameters enable_logging, correction_interval, max_its, rel_tol, abs_tol, and half_width. </td></tr>
   </table>
   </dd>
 </dl>
@@ -616,6 +627,35 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a73c5847b5884900f5284609cbf43e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a73c5847b5884900f5284609cbf43e4">&#9670;&nbsp;</a></span>correctVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::LevelSetUtilities::LevelSetMassLossFixer::correctVolume </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>new_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>three_phase</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>All ranks participate with identical controls. NEW data must be allocated. three_phase selects liquid volume with the second level set demarcating solid; otherwise correct gas volume using the first level set alone. A skipped event leaves the field and last-correction logging unchanged. </p>
+
+</div>
+</div>
 <a id="aad16156cb5e79dd119bf0f819b1ab236"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad16156cb5e79dd119bf0f819b1ab236">&#9670;&nbsp;</a></span>getFromRestart()</h2>
 
@@ -876,7 +916,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int IBAMR::LevelSetUtilities::LevelSetMassLossFixer::d_max_its = 4</td>
+          <td class="memname">int IBAMR::LevelSetUtilities::LevelSetMassLossFixer::d_max_its = 64</td>
         </tr>
       </table>
   </td>
@@ -899,6 +939,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double IBAMR::LevelSetUtilities::LevelSetMassLossFixer::d_rel_tol = 1e-12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ad47a9a38122e76f320d51b14133cc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad47a9a38122e76f320d51b14133cc8">&#9670;&nbsp;</a></span>d_abs_tol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;double&gt; IBAMR::LevelSetUtilities::LevelSetMassLossFixer::d_abs_tol</td>
         </tr>
       </table>
   </td>

@@ -93,7 +93,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A lightweight class to tag grid cells containing the level set variable for grid refinement.  <a href="classIBAMR_1_1LevelSetUtilities_1_1TagLSRefinementCells.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html">LevelSetMassLossFixer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A lightweight class that stores the current value of the Lagrange multiplier for the level set variable.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct a regularized phase volume by a uniform level-set shift.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1SetLSProperties.html">SetLSProperties</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1SetLSProperties.html" title="Class SetLSProperties is a utility class which sets (or resets after reinitialization) level set valu...">SetLSProperties</a> is a utility class which sets (or resets after reinitialization) level set values on the patch hierarchy.  <a href="classIBAMR_1_1LevelSetUtilities_1_1SetLSProperties.html#details">More...</a><br /></td></tr>
@@ -105,10 +105,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a647cfa517fdd61c3e1736b95fb3ef528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preprocessing call back function to be hooked into IBAMR::HierarchyIntegrator class to tag the cells for grid refinement based on the given tagging criteria.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#a647cfa517fdd61c3e1736b95fb3ef528">More...</a><br /></td></tr>
 <tr class="separator:a647cfa517fdd61c3e1736b95fb3ef528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac96b4221b9fe055bb82a8c69607d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBAMR_1_1LevelSetUtilities.html#a3ac96b4221b9fe055bb82a8c69607d24">fixMassLoss2PhaseFlows</a> (double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles, void *ctx)</td></tr>
-<tr class="memdesc:a3ac96b4221b9fe055bb82a8c69607d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the value of the Lagrange multiplier \( q \) and use that to adjust the flow level set variable \( \tilde{\phi} \) to satisfy the constraint: \( f(q) = \int_{\Omega} H(\tilde{\phi} + q) \text{d}\Omega - V^0 = 0 \). where, \( \tilde{\phi} \) is the level set field obtained from the reinitialization procedure, \( V^0 \) is the volume of the fluid at \( t = 0 \) s which needs to be conserved. Here, \( q \) is computed using the Newton's method till required tolerance. In practice the level set mass loss would be fixed during the postprocess integrate hierarchy stage. Hence the application time would be the new time and the variable context would be the new context.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#a3ac96b4221b9fe055bb82a8c69607d24">More...</a><br /></td></tr>
+<tr class="memdesc:a3ac96b4221b9fe055bb82a8c69607d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postprocess-integration callback correcting NEW gas volume.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#a3ac96b4221b9fe055bb82a8c69607d24">More...</a><br /></td></tr>
 <tr class="separator:a3ac96b4221b9fe055bb82a8c69607d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5443ccbebe0c5ffe018fd58a6ad25c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBAMR_1_1LevelSetUtilities.html#ad5443ccbebe0c5ffe018fd58a6ad25c2">fixMassLoss3PhaseFlows</a> (double current_time, double new_time, bool skip_synchronize_new_state_data, int num_cycles, void *ctx)</td></tr>
-<tr class="memdesc:ad5443ccbebe0c5ffe018fd58a6ad25c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the value of the Lagrange multiplier \( q \) and use that to adjust the flow level set \( \tilde{\phi \) when there is a solid phase in the domain with level set \( \psi &lt; 0 \). Satisfies the constraint: \( f(q) = \int_{\Omega} H(\tilde{\phi} + q) H(\psi) \text{d}\Omega - V^0 = 0 \). where, \( \tilde{\phi} \) is the level set field obtained from the reinitialization procedure, \( V^0 \) is the volume of the fluid at \( t = 0 \) s which needs to be conserved. Here, \( q \) is computed using the Newton's method till required tolerance. In practice the level set mass loss would be fixed during the postprocess integrate hierarchy stage. Hence the application time would be the new time and the variable context would be the new context.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#ad5443ccbebe0c5ffe018fd58a6ad25c2">More...</a><br /></td></tr>
+<tr class="memdesc:ad5443ccbebe0c5ffe018fd58a6ad25c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postprocess-integration callback correcting NEW liquid volume in a three-phase flow, preserving the second (solid) level-set field.  <a href="namespaceIBAMR_1_1LevelSetUtilities.html#ad5443ccbebe0c5ffe018fd58a6ad25c2">More...</a><br /></td></tr>
 <tr class="separator:ad5443ccbebe0c5ffe018fd58a6ad25c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9cfba9bf79c73adab9a9dc7dabe35b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBAMR_1_1LevelSetUtilities.html#aab9cfba9bf79c73adab9a9dc7dabe35b">computeHeavisideIntegrals2PhaseFlows</a> (const <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetContainer.html">LevelSetContainer</a> &amp;lsc)</td></tr>
 <tr class="separator:aab9cfba9bf79c73adab9a9dc7dabe35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,12 +227,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ctx</td><td>is the pointer to the <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html" title="A lightweight class that stores the current value of the Lagrange multiplier for the level set variab...">LevelSetMassLossFixer</a> class object. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Register with registerPostprocessIntegrateHierarchyCallback(). ctx points to a <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html" title="Correct a regularized phase volume by a uniform level-set shift.">LevelSetMassLossFixer</a>; its target must be set before the callback. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4" title="Correct NEW-context interiors at a due correction event.">LevelSetMassLossFixer::correctVolume</a> </dd></dl>
 
 </div>
 </div>
@@ -279,12 +274,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ctx</td><td>is the pointer to the <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html" title="A lightweight class that stores the current value of the Lagrange multiplier for the level set variab...">LevelSetMassLossFixer</a> class object. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Register with registerPostprocessIntegrateHierarchyCallback(). ctx points to a <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html" title="Correct a regularized phase volume by a uniform level-set shift.">LevelSetMassLossFixer</a>; its target must be set before the callback. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4" title="Correct NEW-context interiors at a due correction event.">LevelSetMassLossFixer::correctVolume</a> </dd></dl>
 
 </div>
 </div>
@@ -306,7 +296,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>Integrals of \( 1- H(\phi)\), \( H(\phi)\), and \( \delta(\phi) \) over the entire domain.</dd></dl>
 <p>Here, \( H(\phi) \) is the Heaviside function demarcating liquid and gas domains.</p>
 <p>\( \phi \) is taken to be positive in the liquid domain and negative in the gas domain.</p>
-<p>Physically, these three integrals represent volume of the gas region, liquid region, and surface area of the interface, respectively. </p>
+<p>Physically, these three integrals represent volume of the gas region, liquid region, and a regularized interface-area estimate, respectively. The delta integral represents area when phi is a resolved signed-distance field. </p>
 
 </div>
 </div>
@@ -327,7 +317,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Integrals of \( [1- H(\phi)] H(\Psi) \), \( H(\phi) H(\Psi)\), \( 1 - H(\Psi)\), and \( \delta(\phi)H(\Psi)\) over the entire domain.</dd></dl>
 <p>Here, \( H(\phi) \) is the Heaviside function demarcating liquid and gas domains, and \( H(\Psi) \) is the Heaviside function demarcating solid and fluid (fluid = liquid and gas) domains.</p>
-<p>Physically, these four integrals represents volume of the gas region, liquid region, solid region, and surface area of the fluid interface, respectively.</p>
+<p>Physically, these four integrals represents volume of the gas region, liquid region, solid region, and a regularized fluid-interface-area estimate, respectively. The delta integral represents area when phi is a resolved signed-distance field.</p>
 <p>\( \phi \) is taken to be positive in the liquid domain and negative in the gas domain.</p>
 <p>\( \Psi \) is taken to be positive outside the solid and negative inside the solid. </p>
 
