@@ -199,6 +199,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:ad11d630ac1212782bf9bb445416373b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the mass constraint over a patch.  <a href="classIBAMR_1_1RelaxationLSMethod.html#ad11d630ac1212782bf9bb445416373b6">More...</a><br /></td></tr>
 <tr class="separator:ad11d630ac1212782bf9bb445416373b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb23d8201fffe2dea48d45e3224c6b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#afb23d8201fffe2dea48d45e3224c6b50">applyVolumeRedistribution</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt; hier_math_ops, int lambda_idx, int dist_idx, int dist_init_idx, int ham_idx, int dt_idx) const</td></tr>
+<tr class="memdesc:afb23d8201fffe2dea48d45e3224c6b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate and apply the volume redistribution update over the hierarchy.  <a href="classIBAMR_1_1RelaxationLSMethod.html#afb23d8201fffe2dea48d45e3224c6b50">More...</a><br /></td></tr>
 <tr class="separator:afb23d8201fffe2dea48d45e3224c6b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27f63b5e83a0aea413035ffc5a8a2541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1RelaxationLSMethod.html#a27f63b5e83a0aea413035ffc5a8a2541">getFromInput</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db)</td></tr>
 <tr class="separator:a27f63b5e83a0aea413035ffc5a8a2541"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -452,6 +453,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Zero source with absent interface support skips redistribution. Nonfinite or unrepresentable corrections produce TBOX_ERROR before redistribution changes the reinitialized field. </p>
 
 </div>
 </div>
