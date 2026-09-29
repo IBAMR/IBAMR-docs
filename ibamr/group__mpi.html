@@ -195,16 +195,16 @@ Setting up scripts for SLURM</h3>
 <div class="line">mpiexec -map-by ppr:10:socket -bind-to core ./streams</div>
 </div><!-- fragment --><p> Here <code>mpiexec</code> knows to work with SLURM to create a total of 40 processes - i.e., it will automatically detect the number of nodes and start twenty processes on each node (and ten on each socket).</p>
 <p>You can submit your job to the job scheduler by running <code>sbatch script.sb</code>, where <code>script.sb</code> is the file name of the script you want to run (such as the script given above).</p>
-<h3><a class="anchor" id="autotoc_md48"></a>
+<h3><a class="anchor" id="autotoc_md50"></a>
 SLURM tips and tricks</h3>
-<h4><a class="anchor" id="autotoc_md49"></a>
+<h4><a class="anchor" id="autotoc_md51"></a>
 keeping track of jobs</h4>
 <p>Try running <code>squeue -u username</code> (where <code>username</code> is your username) to see the current status of your jobs. Running </p><div class="fragment"><div class="line">watch -n 1 squeue -u username</div>
 </div><!-- fragment --><p> will update the result every second.</p>
-<h4><a class="anchor" id="autotoc_md50"></a>
+<h4><a class="anchor" id="autotoc_md52"></a>
 viewing all jobs</h4>
 <p>Try running <code>squeue</code> to print <em>all</em> current jobs on the cluster. Try running <code>finger username</code> to get more information on a certain user.</p>
-<h3><a class="anchor" id="autotoc_md51"></a>
+<h3><a class="anchor" id="autotoc_md53"></a>
 Final advice</h3>
 <p>From the PETSc manual:</p>
 <p>"For a typical, memory bandwidth-limited PETSc application, the primary consideration in placing MPI processes is ensuring that processes are evenly distributed among sockets, and hence using all available memory channels."</p>

@@ -837,6 +837,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5f1b9c054a75a9ccac03c3b150aa791e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6cf75ea2f6fb03d09bc32341d9c0a09"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#aa6cf75ea2f6fb03d09bc32341d9c0a09">get_min_patch_dx</a> (const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;patch_level)</td></tr>
 <tr class="separator:aa6cf75ea2f6fb03d09bc32341d9c0a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06518158b7e89d3da95233227f7cbc95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a06518158b7e89d3da95233227f7cbc95">copy_ghost_region</a> (const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;patch_level, int dst_idx, int src_idx)</td></tr>
+<tr class="separator:a06518158b7e89d3da95233227f7cbc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745d00f9bbbb00d11e989436f8ce7911"><td class="memTemplParams" colspan="2">template&lt;class T , unsigned N&gt; </td></tr>
 <tr class="memitem:a745d00f9bbbb00d11e989436f8ce7911"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; T, N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a745d00f9bbbb00d11e989436f8ce7911">array_constant</a> (const T &amp;v)</td></tr>
 <tr class="separator:a745d00f9bbbb00d11e989436f8ce7911"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1950,7 +1952,7 @@ template&lt;typename Value , typename Function &gt; </div>
 <div class="line"><span class="keyword">auto</span> f = make_cart_grid_pointwise_function&lt;double&gt;(</div>
 <div class="line">    <span class="stringliteral">&quot;scale&quot;</span>, var, [factor](<span class="keywordtype">double</span> q, <span class="keyword">const</span> <a class="code" href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">VectorNd</a>&amp;, <span class="keywordtype">double</span>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>) { <span class="keywordflow">return</span> factor*q; });</div>
 <div class="line">f-&gt;setDataOnPatchHierarchy(data_idx, var, hierarchy, time);</div>
-<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:288</div></div>
+<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:299</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -2977,6 +2979,42 @@ template&lt;class Container &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Get the smallest cell width on the specified level. This operation is collective. </p>
+
+</div>
+</div>
+<a id="a06518158b7e89d3da95233227f7cbc95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06518158b7e89d3da95233227f7cbc95">&#9670;&nbsp;</a></span>copy_ghost_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::copy_ghost_region </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramname"><em>patch_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dst_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>src_idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>On each local patch of the specified level, copy the patch data at index <code>src_idx</code> into the patch data at index <code>dst_idx</code>, but only at ghost locations of <code>dst_idx:</code> those inside its ghost box and outside the patch interior, as defined by the data's own centering (e.g., side-centered values on the faces of the patch box are interior). Interior values of <code>dst_idx</code> are not modified.</p>
+<p>The ghost region is computed by the <a class="el" href="classSAMRAI_1_1hier_1_1BoxGeometry.html">SAMRAI::hier::BoxGeometry</a> of the data type, so this works for any patch data type with such a geometry, including cell-, side-, node-, and edge-centered data. </p>
 
 </div>
 </div>
