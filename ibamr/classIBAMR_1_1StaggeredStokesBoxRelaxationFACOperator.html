@@ -84,7 +84,7 @@ $(function() {
 <div class="contents">
 
 <p>Class <a class="el" href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html" title="Class StaggeredStokesBoxRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrategy ...">StaggeredStokesBoxRelaxationFACOperator</a> is a concrete <a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html" title="Class StaggeredStokesFACPreconditionerStrategy is an abstract FACPreconditionerStrategy implementing ...">StaggeredStokesFACPreconditionerStrategy</a> implementing a box relaxation (Vanka-type) smoother for use as a multigrid preconditioner.  
-</p>
+ <a href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html#details">More...</a></p>
 
 <p><code>#include &lt;ibamr/StaggeredStokesBoxRelaxationFACOperator.h&gt;</code></p>
 <div class="dynheader">
@@ -400,7 +400,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a4f25c3b4d2207fc2a7be669fb964bf62"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a4f25c3b4d2207fc2a7be669fb964bf62">d_gcw</a></td></tr>
 <tr class="separator:a4f25c3b4d2207fc2a7be669fb964bf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Hierarchies with physical boundaries require <a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ae2dc3de4f254a0babee5c24129a1861b" title="Set the StokesSpecifications object and timestep size used to specify the coefficients for the time-d...">setPhysicalBoundaryHelper()</a> before initialization. The helper must have cached boundary data for the hierarchy. A helper is not required when the hierarchy has no physical boundaries. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3fd8efb850506a3a88a0668976da7010"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fd8efb850506a3a88a0668976da7010">&#9670;&nbsp;</a></span>StaggeredStokesBoxRelaxationFACOperator() <span class="overload">[1/3]</span></h2>
 
