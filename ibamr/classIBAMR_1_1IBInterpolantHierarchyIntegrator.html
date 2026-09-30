@@ -446,8 +446,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aac4b1f3a47f87652f8e34946818dddb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b2922c4abe335765a02cd130277dac9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a15a49f81286cf63083c802adf400f0af">HierarchyIntegrator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a3b2922c4abe335765a02cd130277dac9">d_parent_integrator</a> = nullptr</td></tr>
 <tr class="separator:a3b2922c4abe335765a02cd130277dac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4478fe7254961ec7a698c3a5ad24194"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a15a49f81286cf63083c802adf400f0af">HierarchyIntegrator</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#ac4478fe7254961ec7a698c3a5ad24194">d_child_integrators</a></td></tr>
-<tr class="separator:ac4478fe7254961ec7a698c3a5ad24194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a824693924c4a237421a421ca277c078d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a15a49f81286cf63083c802adf400f0af">HierarchyIntegrator</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a824693924c4a237421a421ca277c078d">d_child_integrators</a></td></tr>
+<tr class="separator:a824693924c4a237421a421ca277c078d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acae32c5af31b0433080a91cdd93d8899"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1appu_1_1VisItDataWriter.html">SAMRAI::appu::VisItDataWriter</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#acae32c5af31b0433080a91cdd93d8899">d_visit_writer</a></td></tr>
 <tr class="separator:acae32c5af31b0433080a91cdd93d8899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86e4b60ed93b9da23fc4290d242fa8a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a86e4b60ed93b9da23fc4290d242fa8a5">d_integrator_time</a> = std::numeric_limits&lt;double&gt;::quiet_NaN()</td></tr>
@@ -4501,7 +4501,9 @@ The workload estimate itself is stored in the variable with index HierarchyInteg
 </table>
 </div><div class="memdoc">
 <p>Register a "child" integrator object with this integrator object.</p>
-<dl class="section note"><dt>Note</dt><dd>Multiple child integrator objects may be registered with a single parent integrator object. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Multiple child integrator objects may be registered with a single parent integrator object. Child integrators are processed in the order in which they are registered, and registering the same child integrator again has no further effect.</dd>
+<dd>
+This method is collective (i.e., must be called by all MPI processes), so every process registers the same child integrators in the same order. </dd></dl>
 
 </div>
 </div>
@@ -4529,7 +4531,7 @@ The workload estimate itself is stored in the variable with index HierarchyInteg
 </table>
 </div><div class="memdoc">
 <p>Register a "parent" integrator object with this integrator object.</p>
-<dl class="section note"><dt>Note</dt><dd>Only a single parent integrator object may be registered with a particular child integrator object. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Only a single parent integrator object may be registered with a particular child integrator object. Like <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#abd2fd0095daa3b69d308b04408959279">registerChildHierarchyIntegrator()</a>, this method is collective. </dd></dl>
 
 </div>
 </div>
@@ -6119,8 +6121,8 @@ The workload estimate itself is stored in the variable with index HierarchyInteg
 
 </div>
 </div>
-<a id="ac4478fe7254961ec7a698c3a5ad24194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4478fe7254961ec7a698c3a5ad24194">&#9670;&nbsp;</a></span>d_child_integrators</h2>
+<a id="a824693924c4a237421a421ca277c078d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a824693924c4a237421a421ca277c078d">&#9670;&nbsp;</a></span>d_child_integrators</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6129,7 +6131,7 @@ The workload estimate itself is stored in the variable with index HierarchyInteg
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt;<a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a15a49f81286cf63083c802adf400f0af">HierarchyIntegrator</a>*&gt; IBTK::HierarchyIntegrator::d_child_integrators</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a15a49f81286cf63083c802adf400f0af">HierarchyIntegrator</a>*&gt; IBTK::HierarchyIntegrator::d_child_integrators</td>
         </tr>
       </table>
   </td>
