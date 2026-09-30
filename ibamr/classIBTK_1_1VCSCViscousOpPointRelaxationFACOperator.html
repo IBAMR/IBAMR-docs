@@ -745,11 +745,13 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
+<p>On level <code>dst_ln</code>, <code>dst</code> is set to <code>src</code>, except where that level is covered by level <code>dst_ln</code> + 1. There, <code>dst</code> is set to the restriction of the level <code>dst_ln</code> + 1 values of <code>src</code>, each first multiplied by the ratio of the level <code>dst_ln</code> and level <code>dst_ln</code> + 1 factors set by <a class="el" href="classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html#a0deb616f8ac4f487603c137a967ff201" title="Set the scaling of the viscous operator and right-hand side.">setOperatorScaling()</a> (or by 1 if no scaling has been set).</p>
+<p>The rescaled level <code>dst_ln</code> + 1 values are staged in this object's scratch data on level <code>dst_ln</code> + 1, which is overwritten. Neither <code>src</code> nor <code>dst</code> is modified on level <code>dst_ln</code> + 1.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">src</td><td>source residual </td></tr>
-    <tr><td class="paramname">dst</td><td>destination residual </td></tr>
-    <tr><td class="paramname">dst_ln</td><td>destination level number </td></tr>
+    <tr><td class="paramname">src</td><td>source residual, read on levels <code>dst_ln</code> and <code>dst_ln</code> + 1 </td></tr>
+    <tr><td class="paramname">dst</td><td>destination residual, written on level <code>dst_ln</code> </td></tr>
+    <tr><td class="paramname">dst_ln</td><td>destination (coarser) level number </td></tr>
   </table>
   </dd>
 </dl>
