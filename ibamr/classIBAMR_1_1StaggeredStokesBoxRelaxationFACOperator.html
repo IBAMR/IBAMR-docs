@@ -75,6 +75,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -198,6 +199,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac5e0bfd8857d40940cf29535d3735d1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ac5e0bfd8857d40940cf29535d3735d1b">deallocateOperatorState</a> () override</td></tr>
 <tr class="memdesc:ac5e0bfd8857d40940cf29535d3735d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy-dependent data.  <a href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ac5e0bfd8857d40940cf29535d3735d1b">More...</a><br /></td></tr>
 <tr class="separator:ac5e0bfd8857d40940cf29535d3735d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0eaf080ed52880c5c7d613700e360595"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1StaggeredStokesSolver.html">StaggeredStokesSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html#a0eaf080ed52880c5c7d613700e360595">allocate_solver</a> (const std::string &amp;object_name, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; input_db, const std::string &amp;default_options_prefix)</td></tr>
+<tr class="memdesc:a0eaf080ed52880c5c7d613700e360595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static function to construct a <a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditioner.html" title="Class StaggeredStokesFACPreconditioner is a FACPreconditioner that has been specialized for Stokes pr...">StaggeredStokesFACPreconditioner</a> with a <a class="el" href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html" title="Class StaggeredStokesBoxRelaxationFACOperator is a concrete StaggeredStokesFACPreconditionerStrategy ...">StaggeredStokesBoxRelaxationFACOperator</a> FAC strategy.  <a href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html#a0eaf080ed52880c5c7d613700e360595">More...</a><br /></td></tr>
+<tr class="separator:a0eaf080ed52880c5c7d613700e360595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -505,6 +512,48 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0eaf080ed52880c5c7d613700e360595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eaf080ed52880c5c7d613700e360595">&#9670;&nbsp;</a></span>allocate_solver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBAMR_1_1StaggeredStokesSolver.html">StaggeredStokesSolver</a>&gt; IBAMR::StaggeredStokesBoxRelaxationFACOperator::allocate_solver </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>object_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td>
+          <td class="paramname"><em>input_db</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>default_options_prefix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6d5f7f2ef715c09825d9a583f936fc7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d5f7f2ef715c09825d9a583f936fc7c">&#9670;&nbsp;</a></span>smoothError()</h2>
 
