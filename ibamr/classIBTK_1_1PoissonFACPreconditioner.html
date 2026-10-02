@@ -728,6 +728,7 @@ Private Member Functions</h2></td></tr>
 <p><b>Conditions on Parameters:</b></p><ul>
 <li>vectors <em>x</em> and <em>b</em> must have same patch hierarchy</li>
 <li>vectors <em>x</em> and <em>b</em> must have same structure, depth, etc.</li>
+<li>vectors that span more than one level must start at level zero</li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>The vector arguments for <a class="el" href="classIBTK_1_1FACPreconditioner.html#a824642a3426c79591d2f11f039db780f" title="Solve the linear system of equations  for .">solveSystem()</a> need not match those for <a class="el" href="classIBTK_1_1FACPreconditioner.html#a158a4a213f7e8861cf2f4fae30798415" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>. However, there must be a certain degree of similarity, including:</dd></dl>
 <dl class="section user"><dt></dt><dd><ul>
@@ -797,6 +798,7 @@ Private Member Functions</h2></td></tr>
 <p><b>Conditions on Parameters:</b></p><ul>
 <li>vectors <em>x</em> and <em>b</em> must have same patch hierarchy</li>
 <li>vectors <em>x</em> and <em>b</em> must have same structure, depth, etc.</li>
+<li>vectors that span more than one level must start at level zero</li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>The vector arguments for <a class="el" href="classIBTK_1_1FACPreconditioner.html#a824642a3426c79591d2f11f039db780f" title="Solve the linear system of equations  for .">solveSystem()</a> need not match those for <a class="el" href="classIBTK_1_1FACPreconditioner.html#a158a4a213f7e8861cf2f4fae30798415" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>. However, there must be a certain degree of similarity, including:</dd></dl>
 <dl class="section user"><dt></dt><dd><ul>
