@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a96e2156d3193dec01c1b33a00db4786f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#a96e2156d3193dec01c1b33a00db4786f">More...</a><br /></td></tr>
 <tr class="separator:a96e2156d3193dec01c1b33a00db4786f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed8379e4e7fbd9cc06eba0dda375d77e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#aed8379e4e7fbd9cc06eba0dda375d77e">~PETScMFFDJacobianOperator</a> ()</td></tr>
-<tr class="memdesc:aed8379e4e7fbd9cc06eba0dda375d77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty destructor.  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#aed8379e4e7fbd9cc06eba0dda375d77e">More...</a><br /></td></tr>
+<tr class="memdesc:aed8379e4e7fbd9cc06eba0dda375d77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate operator state and destroy the operator.  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#aed8379e4e7fbd9cc06eba0dda375d77e">More...</a><br /></td></tr>
 <tr class="separator:aed8379e4e7fbd9cc06eba0dda375d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fbf1d7a380d2d072603f354b7b2c24a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a0fbf1d7a380d2d072603f354b7b2c24a">setOperator</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1GeneralOperator.html">GeneralOperator</a> &gt; F)</td></tr>
 <tr class="memdesc:a0fbf1d7a380d2d072603f354b7b2c24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the operator to use in computing approximations to Jacobian-vector products.  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#a0fbf1d7a380d2d072603f354b7b2c24a">More...</a><br /></td></tr>
@@ -114,7 +114,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab345ee72e0a0e71138596e50ba531f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">General Jacobian functionality.</div></td></tr>
 <tr class="memitem:ac1ee63ff53246d7792069c43c592eb64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#ac1ee63ff53246d7792069c43c592eb64">formJacobian</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u) override</td></tr>
-<tr class="memdesc:ac1ee63ff53246d7792069c43c592eb64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy dependent data required for evaluating F'[x].  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#ac1ee63ff53246d7792069c43c592eb64">More...</a><br /></td></tr>
+<tr class="memdesc:ac1ee63ff53246d7792069c43c592eb64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the base state required for evaluating \(F&#39;[u]\).  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#ac1ee63ff53246d7792069c43c592eb64">More...</a><br /></td></tr>
 <tr class="separator:ac1ee63ff53246d7792069c43c592eb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeac344d9dba566b33ab614818bba396d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#aeac344d9dba566b33ab614818bba396d">getBaseVector</a> () const override</td></tr>
 <tr class="memdesc:aeac344d9dba566b33ab614818bba396d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the vector where the Jacobian is evaluated.  <a href="classIBTK_1_1PETScMFFDJacobianOperator.html#aeac344d9dba566b33ab614818bba396d">More...</a><br /></td></tr>
@@ -173,12 +173,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86477eecb90e712243c8cf9ce1e08865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90044ef8d01ddf50cb5ab63646c1eaaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a90044ef8d01ddf50cb5ab63646c1eaaf">d_op_u</a></td></tr>
 <tr class="separator:a90044ef8d01ddf50cb5ab63646c1eaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f1b6c490c71640b614edd95172882a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a12f1b6c490c71640b614edd95172882a">d_op_f_base</a></td></tr>
+<tr class="separator:a12f1b6c490c71640b614edd95172882a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a627b7e8112f7e3d1a09b1dc4129bc580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a627b7e8112f7e3d1a09b1dc4129bc580">d_op_x</a></td></tr>
 <tr class="separator:a627b7e8112f7e3d1a09b1dc4129bc580"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a518c6b9ddd8ee4147668af4d61f6c106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a518c6b9ddd8ee4147668af4d61f6c106">d_op_y</a></td></tr>
 <tr class="separator:a518c6b9ddd8ee4147668af4d61f6c106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add1e61e9520a771ee93eb34e6d1cfdbf"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#add1e61e9520a771ee93eb34e6d1cfdbf">d_petsc_u</a> = nullptr</td></tr>
 <tr class="separator:add1e61e9520a771ee93eb34e6d1cfdbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10e20c16546648dceedf272f0c7eaa0c"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a10e20c16546648dceedf272f0c7eaa0c">d_petsc_f_base</a> = nullptr</td></tr>
+<tr class="separator:a10e20c16546648dceedf272f0c7eaa0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0a3659fd1a1d3b5dd0097811bb58125"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#ab0a3659fd1a1d3b5dd0097811bb58125">d_petsc_x</a> = nullptr</td></tr>
 <tr class="separator:ab0a3659fd1a1d3b5dd0097811bb58125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b0abbb4e5ac51e1c9be6204a6aaa749"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a4b0abbb4e5ac51e1c9be6204a6aaa749">d_petsc_y</a> = nullptr</td></tr>
@@ -400,9 +404,10 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>When no nonlinear solver has been set by <a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#ab345ee72e0a0e71138596e50ba531f04" title="Set the PETScNewtonKrylov solver using this object to compute Jacobian-vector products.">setNewtonKrylovSolver()</a>, <a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a0fbf1d7a380d2d072603f354b7b2c24a" title="Set the operator to use in computing approximations to Jacobian-vector products.">setOperator()</a> and <a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a1bfa000956c5e9a10e59244fb9a4f29e" title="Compute hierarchy dependent data required for computing y=Ax and z=Ax+y.">initializeOperatorState()</a> must be called first.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>value where the Jacobian is to be evaluated </td></tr>
+    <tr><td class="paramname">u</td><td>value where the Jacobian is to be evaluated </td></tr>
   </table>
   </dd>
 </dl>
@@ -433,7 +438,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="section note"><dt>Note</dt><dd>This member function returns a nullptr pointer if the operator is not initialized, or if <a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#ac1ee63ff53246d7792069c43c592eb64" title="Compute hierarchy dependent data required for evaluating F&#39;[x].">formJacobian()</a> has not been called. </dd></dl>
 
 <p>Implements <a class="el" href="classIBTK_1_1JacobianOperator.html#abd460f3b2f27080dd46330b2fe9a7dee">IBTK::JacobianOperator</a>.</p>
 
@@ -541,11 +545,10 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">in</td><td>input vector </td></tr>
-    <tr><td class="paramname">out</td><td>output vector</td></tr>
+    <tr><td class="paramname">out</td><td>output vector </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>The default implementation is empty. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classIBTK_1_1GeneralOperator.html#afbac368237796f2838d70fe66c513ec7">IBTK::GeneralOperator</a>.</p>
 
@@ -574,8 +577,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Remove all hierarchy dependent data set by <a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a1bfa000956c5e9a10e59244fb9a4f29e" title="Compute hierarchy dependent data required for computing y=Ax and z=Ax+y.">initializeOperatorState()</a>. It is safe to call <a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#ae1ba96181ec271f46f88978455f4673e" title="Remove all hierarchy dependent data allocated by initializeOperatorState().">deallocateOperatorState()</a> when the operator state is already deallocated.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a1bfa000956c5e9a10e59244fb9a4f29e" title="Compute hierarchy dependent data required for computing y=Ax and z=Ax+y.">initializeOperatorState</a></dd></dl>
-<dl class="section note"><dt>Note</dt><dd>The default implementation is empty. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1PETScMFFDJacobianOperator.html#a1bfa000956c5e9a10e59244fb9a4f29e" title="Compute hierarchy dependent data required for computing y=Ax and z=Ax+y.">initializeOperatorState</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classIBTK_1_1GeneralOperator.html#a4d1575f5234807b77d5c13584fe0b363">IBTK::GeneralOperator</a>.</p>
 
@@ -1235,6 +1237,28 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a12f1b6c490c71640b614edd95172882a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f1b6c490c71640b614edd95172882a">&#9670;&nbsp;</a></span>d_op_f_base</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; IBTK::PETScMFFDJacobianOperator::d_op_f_base</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a627b7e8112f7e3d1a09b1dc4129bc580"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a627b7e8112f7e3d1a09b1dc4129bc580">&#9670;&nbsp;</a></span>d_op_x</h2>
 
@@ -1290,6 +1314,28 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">Vec IBTK::PETScMFFDJacobianOperator::d_petsc_u = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10e20c16546648dceedf272f0c7eaa0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e20c16546648dceedf272f0c7eaa0c">&#9670;&nbsp;</a></span>d_petsc_f_base</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vec IBTK::PETScMFFDJacobianOperator::d_petsc_f_base = nullptr</td>
         </tr>
       </table>
   </td>
