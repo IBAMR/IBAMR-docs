@@ -5747,7 +5747,7 @@ template&lt;class MultiArray &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">dst_data</td><td>Reference to destination for data to be copied. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">vectors</td><td>Vector of Hypre data to copy. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box over which to copy. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box of cells to copy. Cells that <code>dst_data</code> does not store are skipped. </td></tr>
   </table>
   </dd>
 </dl>
@@ -5790,7 +5790,7 @@ template&lt;class MultiArray &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">dst_data</td><td>Reference to destination for data to be copied. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">vector</td><td>Vector of Hypre data to copy </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box over which to copy. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box of cells to copy. All sides of these cells are copied, including the sides on the boundary of the box. Sides that <code>dst_data</code> does not store are skipped. </td></tr>
   </table>
   </dd>
 </dl>
@@ -5832,7 +5832,7 @@ template&lt;class MultiArray &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">vectors</td><td>Reference to vector of Hypre vectors to be copied to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src_data</td><td>Reference to cell centered data to be copied. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box over which to copy. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box of cells to copy. Cells that <code>src_data</code> does not store are skipped. </td></tr>
   </table>
   </dd>
 </dl>
@@ -5875,7 +5875,7 @@ template&lt;class MultiArray &gt; </div>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">vectors</td><td>Reference to Hypre vector to be copied to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src_data</td><td>Reference to side centered data to be copied. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box over which to copy. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box of cells to copy. All sides of these cells are copied, including the sides on the boundary of the box. Sides that <code>src_data</code> does not store are skipped. </td></tr>
   </table>
   </dd>
 </dl>
