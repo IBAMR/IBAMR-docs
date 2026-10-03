@@ -238,6 +238,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a4e0c695422f37f598c9a622f486fb0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a607eb690142365f2f1ce87ee6e5a4baf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; HYPRE_StructSolver &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#a607eb690142365f2f1ce87ee6e5a4baf">d_preconds</a></td></tr>
 <tr class="separator:a607eb690142365f2f1ce87ee6e5a4baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7061d0730444169edb27e87e284051ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#a7061d0730444169edb27e87e284051ef">d_setup_max_iterations</a> = 0</td></tr>
+<tr class="separator:a7061d0730444169edb27e87e284051ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5c348b534055b9bc009dd199e54a6ac"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#aa5c348b534055b9bc009dd199e54a6ac">d_stencil_offsets</a></td></tr>
 <tr class="separator:aa5c348b534055b9bc009dd199e54a6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1957b7fb20e53e0015f8b111266c16f7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#a1957b7fb20e53e0015f8b111266c16f7">d_solver_type</a> = &quot;PFMG&quot;</td></tr>
@@ -368,9 +370,8 @@ Private Attributes</h2></td></tr>
 <li>Solve the linear system using the member function <a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#a90151b58664156ed408b9070e8a8932a" title="Solve the linear system of equations  for .">solveSystem()</a>, passing in <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects corresponding to \(u\) and \(f\).</li>
 </ol>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">enable_logging = FALSE         // see setLoggingEnabled()
-solver_type = "PFMG"           // choices are: "PFMG", "SMG", "PCG", "GMRES", "FlexGMRES" ,
-"LGMRES", "BiCGSTAB"
-precond_type = "none"          // choices are: "PFMG", "SMG", "Jacobi", "none"
+solver_type = "PFMG"           // choices are: "PFMG", "SMG", "PCG", "GMRES", "FlexGMRES", "LGMRES", "BiCGSTAB"
+precond_type = "none"          // choices are: "none", "PFMG", "SMG", "Jacobi", "diagonal_scaling"
 max_iterations = 25            // see setMaxIterations()
 abs_residual_tol = 1.e-50      // see setAbsoluteTolerance() (only used by hypre Krylov
 solvers)
@@ -2146,6 +2147,28 @@ two_norm = 1                   // see hypre User's Manual (only used by PCG solv
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;HYPRE_StructSolver&gt; IBTK::CCPoissonHypreLevelSolver::d_preconds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7061d0730444169edb27e87e284051ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7061d0730444169edb27e87e284051ef">&#9670;&nbsp;</a></span>d_setup_max_iterations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IBTK::CCPoissonHypreLevelSolver::d_setup_max_iterations = 0</td>
         </tr>
       </table>
   </td>

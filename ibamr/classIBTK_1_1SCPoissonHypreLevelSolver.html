@@ -286,14 +286,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a3e8e4cbf701aca7260dd992f3e971d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ba182cc3248a9dd4b1735e52eb6ef1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#aa3ba182cc3248a9dd4b1735e52eb6ef1">d_rel_change</a> = 0</td></tr>
 <tr class="separator:aa3ba182cc3248a9dd4b1735e52eb6ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77960b39e961fa731f1b2290c3186232"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#a77960b39e961fa731f1b2290c3186232">d_num_pre_relax_steps</a> = 1</td></tr>
-<tr class="separator:a77960b39e961fa731f1b2290c3186232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff75a13ebb38d4726ac5c8c526c81b9f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#aff75a13ebb38d4726ac5c8c526c81b9f">d_num_post_relax_steps</a> = 1</td></tr>
-<tr class="separator:aff75a13ebb38d4726ac5c8c526c81b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa546d4f7127ee942aab9842abe8046cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#aa546d4f7127ee942aab9842abe8046cf">d_relax_type</a></td></tr>
-<tr class="separator:aa546d4f7127ee942aab9842abe8046cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c3c1f38dd482f658301254223b6c45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#ab0c3c1f38dd482f658301254223b6c45">d_skip_relax</a> = 1</td></tr>
-<tr class="separator:ab0c3c1f38dd482f658301254223b6c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47f9c10685bbdd649bcae09356b7cf35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#a47f9c10685bbdd649bcae09356b7cf35">d_two_norm</a> = 1</td></tr>
 <tr class="separator:a47f9c10685bbdd649bcae09356b7cf35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e98a50500f29742fa04c486438528d5"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#a8e98a50500f29742fa04c486438528d5">PART</a> = 0</td></tr>
@@ -371,23 +363,15 @@ Protected Attributes</h2></td></tr>
 <li>Solve the linear system using the member function <a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#a554bb558dac8ba0c257f186a5911ee47" title="Solve the linear system of equations  for .">solveSystem()</a>, passing in <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects corresponding to \(u\) and \(f\).</li>
 </ol>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">enable_logging = FALSE         // see setLoggingEnabled()
-solver_type = "Split"          // choices are: "Split", "SysPFMG", "PCG", "GMRES", "FlexGMRES"
-,
-"LGMRES", "BiCGSTAB"
-precond_type = "none"          // choices are: "Split", "SysPFMG"
+solver_type = "Split"          // choices are: "Split", "PCG", "GMRES", "FlexGMRES", "LGMRES", "BiCGSTAB"
+precond_type = "none"          // choices are: "none", "Split"
 split_solver_type = "PFMG"     // choices are: "PFMG", "SMG", "Jacobi"
 max_iterations = 25            // see setMaxIterations()
 abs_residual_tol = 1.e-50      // see setAbsoluteTolerance() (only used by hypre Krylov
 solvers)
 rel_residual_tol = 1.0e-5      // see setRelativeTolerance()
 initial_guess_nonzero = FALSE  // see setInitialGuessNonzero()
-rel_change = 0                 // see hypre User's Manual (only used by SysPFMG or PCG solver)
-num_pre_relax_steps = 1        // number of pre-sweeps (only used by SysPFMG solver)
-num_post_relax_steps = 1       // number of post-sweeps (only used by SysPFMG solver)
-relax_type = 1                 // see hypre User's Manual (only used by SysPFMG solver or
-preconditioner)
-skip_relax = 1                 // see hypre User's Manual (only used by SysPFMG solver or
-preconditioner)
+rel_change = 0                 // see hypre User's Manual (only used by PCG solver)
 two_norm = 1                   // see hypre User's Manual (only used by PCG solver)
 </pre><p><em>hypre</em> is developed in the Center for Applied Scientific Computing (CASC) at Lawrence Livermore National Laboratory (LLNL). For more information about <em>hypre</em>, see <a href="https://computation.llnl.gov/casc/linear_solvers/sls_hypre.html">https://computation.llnl.gov/casc/linear_solvers/sls_hypre.html</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -2340,94 +2324,6 @@ two_norm = 1                   // see hypre User's Manual (only used by PCG solv
       <table class="memname">
         <tr>
           <td class="memname">int IBTK::SCPoissonHypreLevelSolver::d_rel_change = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a77960b39e961fa731f1b2290c3186232"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77960b39e961fa731f1b2290c3186232">&#9670;&nbsp;</a></span>d_num_pre_relax_steps</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IBTK::SCPoissonHypreLevelSolver::d_num_pre_relax_steps = 1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff75a13ebb38d4726ac5c8c526c81b9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff75a13ebb38d4726ac5c8c526c81b9f">&#9670;&nbsp;</a></span>d_num_post_relax_steps</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IBTK::SCPoissonHypreLevelSolver::d_num_post_relax_steps = 1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa546d4f7127ee942aab9842abe8046cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa546d4f7127ee942aab9842abe8046cf">&#9670;&nbsp;</a></span>d_relax_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IBTK::SCPoissonHypreLevelSolver::d_relax_type</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab0c3c1f38dd482f658301254223b6c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0c3c1f38dd482f658301254223b6c45">&#9670;&nbsp;</a></span>d_skip_relax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IBTK::SCPoissonHypreLevelSolver::d_skip_relax = 1</td>
         </tr>
       </table>
   </td>
