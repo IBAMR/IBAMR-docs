@@ -114,12 +114,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab525366cc6e62954dd239ec10cb42e8a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ab525366cc6e62954dd239ec10cb42e8a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#ab525366cc6e62954dd239ec10cb42e8a">maxReduction</a> (T *x, const int n=1, int *rank_of_min=nullptr)</td></tr>
 <tr class="separator:ab525366cc6e62954dd239ec10cb42e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5077ff20f54d8ce621b7a7f19df79187"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5077ff20f54d8ce621b7a7f19df79187"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#a5077ff20f54d8ce621b7a7f19df79187">minMaxReduction</a> (T *x_min, T *x_max, const int n=1)</td></tr>
+<tr class="separator:a5077ff20f54d8ce621b7a7f19df79187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ffe492fe05493d0915f4097fdc3e5f4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4ffe492fe05493d0915f4097fdc3e5f4"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#a4ffe492fe05493d0915f4097fdc3e5f4">sumReduction</a> (T)</td></tr>
 <tr class="separator:a4ffe492fe05493d0915f4097fdc3e5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1ecc9adaf7cc6e1288fb1de3145dc42"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad1ecc9adaf7cc6e1288fb1de3145dc42"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#ad1ecc9adaf7cc6e1288fb1de3145dc42">sumReduction</a> (T *x, const int n=1)</td></tr>
 <tr class="separator:ad1ecc9adaf7cc6e1288fb1de3145dc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebc9cf9fabc08ff1ffd6a3a13f35e29"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0ebc9cf9fabc08ff1ffd6a3a13f35e29"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#a0ebc9cf9fabc08ff1ffd6a3a13f35e29">sumReduction</a> (const std::vector&lt; std::pair&lt; T *, int &gt;&gt; &amp;arrays)</td></tr>
+<tr class="separator:a0ebc9cf9fabc08ff1ffd6a3a13f35e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5809f6f7e7105a5a9cb920302b9cc66b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#a5809f6f7e7105a5a9cb920302b9cc66b">allToOneSumReduction</a> (int *x, const int n, const int root=0)</td></tr>
 <tr class="separator:a5809f6f7e7105a5a9cb920302b9cc66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af827d5b1f090a6383f9956a7cd75ac6a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -153,9 +159,9 @@ Static Public Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a2b81533015fc69be68a51e0cb1bc4134"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#a2b81533015fc69be68a51e0cb1bc4134">allGatherSetup</a> (int size_in, int size_out, std::vector&lt; int &gt; &amp;rcounts, std::vector&lt; int &gt; &amp;disps)</td></tr>
 <tr class="separator:a2b81533015fc69be68a51e0cb1bc4134"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3032ee3e3b1167d0e677d849833c92"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:acf3032ee3e3b1167d0e677d849833c92"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#acf3032ee3e3b1167d0e677d849833c92">minMaxReduction</a> (T *x, const int n, int *rank, MPI_Op op)</td></tr>
-<tr class="separator:acf3032ee3e3b1167d0e677d849833c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0000acbc8f8891a2bc0c0ccae81971a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af0000acbc8f8891a2bc0c0ccae81971a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structIBTK_1_1IBTK__MPI.html#af0000acbc8f8891a2bc0c0ccae81971a">minMaxLocReduction</a> (T *x, const int n, int *rank, MPI_Op op)</td></tr>
+<tr class="separator:af0000acbc8f8891a2bc0c0ccae81971a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -489,8 +495,53 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a5077ff20f54d8ce621b7a7f19df79187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5077ff20f54d8ce621b7a7f19df79187">&#9670;&nbsp;</a></span>minMaxReduction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::IBTK_MPI::minMaxReduction </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>x_min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>x_max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>n</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Perform a min reduction on the array <code>x_min</code> and a max reduction on the array <code>x_max</code>, each of length <code>n</code>, with one MPI call. The type must be double, int, or float. </p>
+
+</div>
+</div>
 <a id="a4ffe492fe05493d0915f4097fdc3e5f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ffe492fe05493d0915f4097fdc3e5f4">&#9670;&nbsp;</a></span>sumReduction() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ffe492fe05493d0915f4097fdc3e5f4">&#9670;&nbsp;</a></span>sumReduction() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -519,7 +570,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ad1ecc9adaf7cc6e1288fb1de3145dc42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1ecc9adaf7cc6e1288fb1de3145dc42">&#9670;&nbsp;</a></span>sumReduction() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1ecc9adaf7cc6e1288fb1de3145dc42">&#9670;&nbsp;</a></span>sumReduction() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,6 +604,35 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ebc9cf9fabc08ff1ffd6a3a13f35e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ebc9cf9fabc08ff1ffd6a3a13f35e29">&#9670;&nbsp;</a></span>sumReduction() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::IBTK_MPI::sumReduction </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; T *, int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>arrays</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Perform a sum reduction on several arrays with one MPI call. Each entry of <code>arrays</code> is a pointer to an array and its length. The element-wise sums are returned in the same arrays. </p>
 
 </div>
 </div>
@@ -1052,8 +1132,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="acf3032ee3e3b1167d0e677d849833c92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3032ee3e3b1167d0e677d849833c92">&#9670;&nbsp;</a></span>minMaxReduction()</h2>
+<a id="af0000acbc8f8891a2bc0c0ccae81971a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0000acbc8f8891a2bc0c0ccae81971a">&#9670;&nbsp;</a></span>minMaxLocReduction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1064,7 +1144,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void IBTK::IBTK_MPI::minMaxReduction </td>
+          <td class="memname">void IBTK::IBTK_MPI::minMaxLocReduction </td>
           <td>(</td>
           <td class="paramtype">T *&#160;</td>
           <td class="paramname"><em>x</em>, </td>
