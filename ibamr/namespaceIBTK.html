@@ -982,6 +982,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad4b2fcc10382e4b16b66a8619f66b3a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ad4b2fcc10382e4b16b66a8619f66b3a6">reportPETScSNESConvergedReason</a> (const std::string &amp;object_name, const SNESConvergedReason &amp;reason, std::ostream &amp;os)</td></tr>
 <tr class="memdesc:ad4b2fcc10382e4b16b66a8619f66b3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report the SNESConvergedReason.  <a href="namespaceIBTK.html#ad4b2fcc10382e4b16b66a8619f66b3a6">More...</a><br /></td></tr>
 <tr class="separator:ad4b2fcc10382e4b16b66a8619f66b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98679ba8bd42916479528e003d1e19a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a98679ba8bd42916479528e003d1e19a1">initialize_hypre</a> ()</td></tr>
+<tr class="memdesc:a98679ba8bd42916479528e003d1e19a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Hypre if it is not already initialized, and then finalize it when PETSc is finalized.  <a href="namespaceIBTK.html#a98679ba8bd42916479528e003d1e19a1">More...</a><br /></td></tr>
+<tr class="separator:a98679ba8bd42916479528e003d1e19a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab468c521d57e4d982172b8937eacbe05"><td class="memItemLeft" align="right" valign="top">std::array&lt; HYPRE_Int, NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ab468c521d57e4d982172b8937eacbe05">hypre_array</a> (const <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt; &amp;index)</td></tr>
 <tr class="memdesc:ab468c521d57e4d982172b8937eacbe05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to convert <a class="el" href="namespaceSAMRAI.html">SAMRAI</a> indices to Hypre integers.  <a href="namespaceIBTK.html#ab468c521d57e4d982172b8937eacbe05">More...</a><br /></td></tr>
 <tr class="separator:ab468c521d57e4d982172b8937eacbe05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5669,6 +5672,24 @@ template&lt;class MultiArray &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98679ba8bd42916479528e003d1e19a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98679ba8bd42916479528e003d1e19a1">&#9670;&nbsp;</a></span>initialize_hypre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::initialize_hypre </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Call this function before creating Hypre objects. It calls HYPRE_Initialize() with Hypre 2.29 and newer and HYPRE_Init() with Hypre 2.21 through 2.28. It does nothing with older versions of Hypre. </p>
 
 </div>
 </div>
