@@ -186,9 +186,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a348da6b55ad8ef8daf66a5a416841041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section note"><dt>Note</dt><dd>This class is intended to be used to specify boundary conditions for MAC vector fields and may not work correctly for other types of data.</dd>
-<dd>
-Patch data with depth greater than one is treated as a collection of MAC vector fields. Such data requires NDIM boundary condition objects per field, with the object for component <code>axis</code> of field <code>k</code> stored at index NDIM * k + axis.</dd></dl>
+<div class="textblock"><dl class="section note"><dt>Note</dt><dd>This class is intended to be used to specify boundary conditions for MAC vector fields and may not work correctly for other types of data.</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Presently, this class only supports pure Dirichlet or pure Neumann boundary conditions for the normal component of the vector field. Mixed (Robin) boundary conditions are <em>not</em> supported in the normal direction. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae9a5978cd4b785cc2b36edc10a4ecaa0"></a>
