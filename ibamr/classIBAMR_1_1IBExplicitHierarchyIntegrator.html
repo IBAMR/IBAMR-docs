@@ -285,6 +285,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a03320fd7ab8c220b58c3adce27817aab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a03320fd7ab8c220b58c3adce27817aab">integrateHierarchySpecialized</a> (double current_time, double new_time, int cycle_num=0) override</td></tr>
 <tr class="separator:a03320fd7ab8c220b58c3adce27817aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a01f2948057e278bff99b8cfc42ee38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a0a01f2948057e278bff99b8cfc42ee38">resetHierarchyConfigurationSpecialized</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, int coarsest_level, int finest_level) override</td></tr>
+<tr class="separator:a0a01f2948057e278bff99b8cfc42ee38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16139e74929eacfeae794fcf3d3f926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#aa16139e74929eacfeae794fcf3d3f926">regridHierarchyBeginSpecialized</a> () override</td></tr>
 <tr class="separator:aa16139e74929eacfeae794fcf3d3f926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51bd614f0cd20f5f42f311496510064d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a51bd614f0cd20f5f42f311496510064d">regridHierarchyEndSpecialized</a> () override</td></tr>
@@ -297,8 +299,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a5037a2d669286e836c639a825d82d631"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6374b745428f010f3bafb740cea6e533"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#a6374b745428f010f3bafb740cea6e533">initializeLevelDataSpecialized</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, int level_number, double init_data_time, bool can_be_refined, bool initial_time, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchLevel.html">SAMRAI::hier::BasePatchLevel</a>&lt; NDIM &gt;&gt; old_level, bool allocate_data) override</td></tr>
 <tr class="separator:a6374b745428f010f3bafb740cea6e533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8f3738a8899bef646b0f7ad132d0271"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#ac8f3738a8899bef646b0f7ad132d0271">resetHierarchyConfigurationSpecialized</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, int coarsest_level, int finest_level) override</td></tr>
-<tr class="separator:ac8f3738a8899bef646b0f7ad132d0271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dc7bfb9410036732a95a36836aa943c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#a6dc7bfb9410036732a95a36836aa943c">applyGradientDetectorSpecialized</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, int level_number, double error_data_time, int tag_index, bool initial_time, bool uses_richardson_extrapolation_too) override</td></tr>
 <tr class="separator:a6dc7bfb9410036732a95a36836aa943c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a021079e1b3fc74ff4156f4e2d4b456"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#a4a021079e1b3fc74ff4156f4e2d4b456">addWorkloadEstimate</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, const int workload_data_idx) override</td></tr>
@@ -606,11 +606,15 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a9ee2815c785f33460ea9519397b2cd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f121c6164b5847051a7f2158e1a07f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a8f121c6164b5847051a7f2158e1a07f8">getFromRestart</a> ()</td></tr>
 <tr class="separator:a8f121c6164b5847051a7f2158e1a07f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51baf849b395ed759b7b9621bb87ea64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a51baf849b395ed759b7b9621bb87ea64">fillMarkerVelocityGhostCells</a> (bool include_half_time, double fill_time)</td></tr>
+<tr class="separator:a51baf849b395ed759b7b9621bb87ea64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab27ecbc1cbdffbaa9ed040a18a7d3b8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#ab27ecbc1cbdffbaa9ed040a18a7d3b8b">getFromInput</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db, bool is_from_restart)</td></tr>
 <tr class="separator:ab27ecbc1cbdffbaa9ed040a18a7d3b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a514fd92c6e8dd777e8e6493b18140d2c"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a> &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a514fd92c6e8dd777e8e6493b18140d2c">d_marker_u_fill_ops</a></td></tr>
+<tr class="separator:a514fd92c6e8dd777e8e6493b18140d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a509b9f2e48ef5ae74bada4d6909b35a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="structIBAMR_1_1IBExplicitHierarchyIntegrator_1_1RegridData.html">RegridData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a509b9f2e48ef5ae74bada4d6909b35a2">d_regrid_temporary_data</a></td></tr>
 <tr class="separator:a509b9f2e48ef5ae74bada4d6909b35a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d122727aef556f25bb6d0623fe4e4c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a3d122727aef556f25bb6d0623fe4e4c0">d_regridding_hierarchy</a> = false</td></tr>
@@ -1360,6 +1364,51 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0a01f2948057e278bff99b8cfc42ee38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a01f2948057e278bff99b8cfc42ee38">&#9670;&nbsp;</a></span>resetHierarchyConfigurationSpecialized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBExplicitHierarchyIntegrator::resetHierarchyConfigurationSpecialized </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
+          <td class="paramname"><em>hierarchy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coarsest_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>finest_level</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset cached hierarchy dependent data. </p>
+
+<p>Reimplemented from <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a3f9c41654c4e5f10a6570184b896a155">IBTK::HierarchyIntegrator</a>.</p>
+
+</div>
+</div>
 <a id="aa16139e74929eacfeae794fcf3d3f926"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa16139e74929eacfeae794fcf3d3f926">&#9670;&nbsp;</a></span>regridHierarchyBeginSpecialized()</h2>
 
@@ -1502,6 +1551,43 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Read object state from the restart file and initialize class data members. </p>
+
+</div>
+</div>
+<a id="a51baf849b395ed759b7b9621bb87ea64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51baf849b395ed759b7b9621bb87ea64">&#9670;&nbsp;</a></span>fillMarkerVelocityGhostCells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::IBExplicitHierarchyIntegrator::fillMarkerVelocityGhostCells </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>include_half_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fill_time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Fill the ghost cells of the velocity that advects the marker points, and also of the velocity at the halfway point if <code>include_half_time</code> is true. </p>
 
 </div>
 </div>
@@ -1874,51 +1960,6 @@ Private Attributes</h2></td></tr>
 <p>Initialize data on a new level after it is inserted into an AMR patch hierarchy by the gridding algorithm. </p>
 
 <p>Reimplemented from <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a19c08ba3434b80e39a973fdfcb8b4dc4">IBTK::HierarchyIntegrator</a>.</p>
-
-</div>
-</div>
-<a id="ac8f3738a8899bef646b0f7ad132d0271"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8f3738a8899bef646b0f7ad132d0271">&#9670;&nbsp;</a></span>resetHierarchyConfigurationSpecialized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::IBHierarchyIntegrator::resetHierarchyConfigurationSpecialized </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
-          <td class="paramname"><em>hierarchy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>coarsest_level</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>finest_level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Reset cached hierarchy dependent data. </p>
-
-<p>Reimplemented from <a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a3f9c41654c4e5f10a6570184b896a155">IBTK::HierarchyIntegrator</a>.</p>
 
 </div>
 </div>
@@ -3240,7 +3281,7 @@ The workload estimate itself is stored in the variable with index HierarchyInteg
 </table>
 </div><div class="memdoc">
 <p>Reset cached hierarchy dependent data.</p>
-<dl class="section note"><dt>Note</dt><dd>Subclasses should not override the implementation of this function provided by class HierarchyIntegrator. Instead, they should override the protected virtual member function <a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#ac8f3738a8899bef646b0f7ad132d0271">resetHierarchyConfigurationSpecialized()</a>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Subclasses should not override the implementation of this function provided by class HierarchyIntegrator. Instead, they should override the protected virtual member function <a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a0a01f2948057e278bff99b8cfc42ee38">resetHierarchyConfigurationSpecialized()</a>.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#a6f8d89482d4bdafc824307cc21c728c9">SAMRAI::mesh::StandardTagAndInitStrategy::resetHierarchyConfiguration</a> </dd></dl>
 
 </div>
@@ -5222,6 +5263,29 @@ This method is collective (i.e., must be called by all MPI processes), so every 
 </table>
 </div><div class="memdoc">
 <p>Directory for marker point output data. </p>
+
+</div>
+</div>
+<a id="a514fd92c6e8dd777e8e6493b18140d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514fd92c6e8dd777e8e6493b18140d2c">&#9670;&nbsp;</a></span>d_marker_u_fill_ops</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a>&gt;, 2&gt; IBAMR::IBExplicitHierarchyIntegrator::d_marker_u_fill_ops</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ghost cell filling operators for marker point advection. The first fills d_u_idx and the second fills d_u_idx and d_u_half_idx. They are set up on first use after the patch hierarchy changes. </p>
 
 </div>
 </div>
