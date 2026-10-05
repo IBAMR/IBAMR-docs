@@ -77,8 +77,6 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classIBTK_1_1LDataManager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">IBTK::LDataManager Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -138,54 +136,6 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:afd892b71bce2c9096c49efd80db288de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e7f66b3437a4b69237fef346348ad6"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a04e7f66b3437a4b69237fef346348ad6">VEL_DATA_NAME</a></td></tr>
 <tr class="separator:a04e7f66b3437a4b69237fef346348ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:aebf6c11650f23f3222df3e49d9417871"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; std::string, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aebf6c11650f23f3222df3e49d9417871">d_strct_name_to_strct_id_map</a></td></tr>
-<tr class="separator:aebf6c11650f23f3222df3e49d9417871"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa7748792790ef04505a581014637156"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; int, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aaa7748792790ef04505a581014637156">d_strct_id_to_strct_name_map</a></td></tr>
-<tr class="separator:aaa7748792790ef04505a581014637156"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d21021e1a72ddeaab180e45840cc4da"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; int, std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a6d21021e1a72ddeaab180e45840cc4da">d_strct_id_to_lag_idx_range_map</a></td></tr>
-<tr class="separator:a6d21021e1a72ddeaab180e45840cc4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa48cd5ae71d90e254ddded3ae01a0824"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aa48cd5ae71d90e254ddded3ae01a0824">d_last_lag_idx_to_strct_id_map</a></td></tr>
-<tr class="separator:aa48cd5ae71d90e254ddded3ae01a0824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a830a0004c928f20ea502aeedfb848cd8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIBTK_1_1ParallelSet.html">ParallelSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a830a0004c928f20ea502aeedfb848cd8">d_inactive_strcts</a></td></tr>
-<tr class="separator:a830a0004c928f20ea502aeedfb848cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5f4b870f5e7f0ef42c7ab74e5961230"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aa5f4b870f5e7f0ef42c7ab74e5961230">d_displaced_strct_ids</a></td></tr>
-<tr class="separator:aa5f4b870f5e7f0ef42c7ab74e5961230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9f23d4a6f12a3dba5992d3ba6ce3636"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::pair&lt; <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">Point</a>, <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">Point</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aa9f23d4a6f12a3dba5992d3ba6ce3636">d_displaced_strct_bounding_boxes</a></td></tr>
-<tr class="separator:aa9f23d4a6f12a3dba5992d3ba6ce3636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53cddcc074181f550eeeddccbe27dc84"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classIBTK_1_1LSet.html#abb10e33b689046edbf17966b00543509">LNodeSet::value_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a53cddcc074181f550eeeddccbe27dc84">d_displaced_strct_lnode_idxs</a></td></tr>
-<tr class="separator:a53cddcc074181f550eeeddccbe27dc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625a61489b722f140400942568245bb3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">Point</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a625a61489b722f140400942568245bb3">d_displaced_strct_lnode_posns</a></td></tr>
-<tr class="separator:a625a61489b722f140400942568245bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a225719cf10ad4562988c0c1f3388e359"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LMesh.html">LMesh</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a225719cf10ad4562988c0c1f3388e359">d_lag_mesh</a></td></tr>
-<tr class="separator:a225719cf10ad4562988c0c1f3388e359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bd60d6d0aca62bce7f973cb7fdc0362"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; std::string, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LData.html">LData</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8bd60d6d0aca62bce7f973cb7fdc0362">d_lag_mesh_data</a></td></tr>
-<tr class="separator:a8bd60d6d0aca62bce7f973cb7fdc0362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c330e80c74f6c5401191da593514c6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a02c330e80c74f6c5401191da593514c6">d_needs_synch</a></td></tr>
-<tr class="separator:a02c330e80c74f6c5401191da593514c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b4bc9edafae8c09fd48d39f76c7e3f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; AO &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a0b4bc9edafae8c09fd48d39f76c7e3f2">d_ao</a></td></tr>
-<tr class="separator:a0b4bc9edafae8c09fd48d39f76c7e3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a771e5d7fe530941fe7a4b30d95a1f38e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a771e5d7fe530941fe7a4b30d95a1f38e">d_num_nodes</a></td></tr>
-<tr class="separator:a771e5d7fe530941fe7a4b30d95a1f38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e9f954fe78641c1f749a53d3ccbff63"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8e9f954fe78641c1f749a53d3ccbff63">d_node_offset</a></td></tr>
-<tr class="separator:a8e9f954fe78641c1f749a53d3ccbff63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e70f5eb586edf8d066e3b3c49177757"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a6e70f5eb586edf8d066e3b3c49177757">d_local_lag_indices</a></td></tr>
-<tr class="separator:a6e70f5eb586edf8d066e3b3c49177757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3549f3871bdd0c8b976b258182651f4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a3549f3871bdd0c8b976b258182651f4a">d_nonlocal_lag_indices</a></td></tr>
-<tr class="separator:a3549f3871bdd0c8b976b258182651f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8240ffbba000255374a8fbd525f00186"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8240ffbba000255374a8fbd525f00186">d_local_petsc_indices</a></td></tr>
-<tr class="separator:a8240ffbba000255374a8fbd525f00186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fc7743e2a0edf6effd960e9ecc4ae25"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8fc7743e2a0edf6effd960e9ecc4ae25">d_nonlocal_petsc_indices</a></td></tr>
-<tr class="separator:a8fc7743e2a0edf6effd960e9ecc4ae25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0360c3f8c54ea77f07cfab09030999f5"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a0360c3f8c54ea77f07cfab09030999f5">d_user_defined_ldata</a></td></tr>
-<tr class="separator:a0360c3f8c54ea77f07cfab09030999f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ad3e17e86d8bee508a857a3d417b1d871"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#ad3e17e86d8bee508a857a3d417b1d871">s_ao_dummy</a></td></tr>
-<tr class="separator:ad3e17e86d8bee508a857a3d417b1d871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Methods to set and get the patch hierarchy and range of patch</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp857dc8ff43dbf6f11c88be587bf5a7d2"></a>levels associated with this manager class. </p>
@@ -483,6 +433,52 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a28d62bee7a5276db371a3fadf0dcc65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a530a07cc82c75297f830725009a0429c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a530a07cc82c75297f830725009a0429c">computeNodeOffsets</a> (unsigned int &amp;num_nodes, unsigned int &amp;node_offset, unsigned int num_local_nodes)</td></tr>
 <tr class="separator:a530a07cc82c75297f830725009a0429c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Data that is separately maintained for each level of the patch</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp0b13ef5935031c83e23c72e1511bc658"></a>hierarchy. </p>
+</td></tr>
+<tr class="memitem:ad3e17e86d8bee508a857a3d417b1d871"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#ad3e17e86d8bee508a857a3d417b1d871">s_ao_dummy</a></td></tr>
+<tr class="separator:ad3e17e86d8bee508a857a3d417b1d871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf6c11650f23f3222df3e49d9417871"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; std::string, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aebf6c11650f23f3222df3e49d9417871">d_strct_name_to_strct_id_map</a></td></tr>
+<tr class="separator:aebf6c11650f23f3222df3e49d9417871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7748792790ef04505a581014637156"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; int, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aaa7748792790ef04505a581014637156">d_strct_id_to_strct_name_map</a></td></tr>
+<tr class="separator:aaa7748792790ef04505a581014637156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d21021e1a72ddeaab180e45840cc4da"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; int, std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a6d21021e1a72ddeaab180e45840cc4da">d_strct_id_to_lag_idx_range_map</a></td></tr>
+<tr class="separator:a6d21021e1a72ddeaab180e45840cc4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48cd5ae71d90e254ddded3ae01a0824"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aa48cd5ae71d90e254ddded3ae01a0824">d_last_lag_idx_to_strct_id_map</a></td></tr>
+<tr class="separator:aa48cd5ae71d90e254ddded3ae01a0824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830a0004c928f20ea502aeedfb848cd8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIBTK_1_1ParallelSet.html">ParallelSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a830a0004c928f20ea502aeedfb848cd8">d_inactive_strcts</a></td></tr>
+<tr class="separator:a830a0004c928f20ea502aeedfb848cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f4b870f5e7f0ef42c7ab74e5961230"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aa5f4b870f5e7f0ef42c7ab74e5961230">d_displaced_strct_ids</a></td></tr>
+<tr class="separator:aa5f4b870f5e7f0ef42c7ab74e5961230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f23d4a6f12a3dba5992d3ba6ce3636"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::pair&lt; <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">Point</a>, <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">Point</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#aa9f23d4a6f12a3dba5992d3ba6ce3636">d_displaced_strct_bounding_boxes</a></td></tr>
+<tr class="separator:aa9f23d4a6f12a3dba5992d3ba6ce3636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53cddcc074181f550eeeddccbe27dc84"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classIBTK_1_1LSet.html#abb10e33b689046edbf17966b00543509">LNodeSet::value_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a53cddcc074181f550eeeddccbe27dc84">d_displaced_strct_lnode_idxs</a></td></tr>
+<tr class="separator:a53cddcc074181f550eeeddccbe27dc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a625a61489b722f140400942568245bb3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="namespaceIBTK.html#ac8c97469e791a47756eb44b9ec93c59e">Point</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a625a61489b722f140400942568245bb3">d_displaced_strct_lnode_posns</a></td></tr>
+<tr class="separator:a625a61489b722f140400942568245bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225719cf10ad4562988c0c1f3388e359"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LMesh.html">LMesh</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a225719cf10ad4562988c0c1f3388e359">d_lag_mesh</a></td></tr>
+<tr class="separator:a225719cf10ad4562988c0c1f3388e359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bd60d6d0aca62bce7f973cb7fdc0362"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::map&lt; std::string, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LData.html">LData</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8bd60d6d0aca62bce7f973cb7fdc0362">d_lag_mesh_data</a></td></tr>
+<tr class="separator:a8bd60d6d0aca62bce7f973cb7fdc0362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c330e80c74f6c5401191da593514c6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a02c330e80c74f6c5401191da593514c6">d_needs_synch</a></td></tr>
+<tr class="separator:a02c330e80c74f6c5401191da593514c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4bc9edafae8c09fd48d39f76c7e3f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; AO &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a0b4bc9edafae8c09fd48d39f76c7e3f2">d_ao</a></td></tr>
+<tr class="separator:a0b4bc9edafae8c09fd48d39f76c7e3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771e5d7fe530941fe7a4b30d95a1f38e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a771e5d7fe530941fe7a4b30d95a1f38e">d_num_nodes</a></td></tr>
+<tr class="separator:a771e5d7fe530941fe7a4b30d95a1f38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9f954fe78641c1f749a53d3ccbff63"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8e9f954fe78641c1f749a53d3ccbff63">d_node_offset</a></td></tr>
+<tr class="separator:a8e9f954fe78641c1f749a53d3ccbff63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e70f5eb586edf8d066e3b3c49177757"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a6e70f5eb586edf8d066e3b3c49177757">d_local_lag_indices</a></td></tr>
+<tr class="separator:a6e70f5eb586edf8d066e3b3c49177757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3549f3871bdd0c8b976b258182651f4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a3549f3871bdd0c8b976b258182651f4a">d_nonlocal_lag_indices</a></td></tr>
+<tr class="separator:a3549f3871bdd0c8b976b258182651f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8240ffbba000255374a8fbd525f00186"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8240ffbba000255374a8fbd525f00186">d_local_petsc_indices</a></td></tr>
+<tr class="separator:a8240ffbba000255374a8fbd525f00186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc7743e2a0edf6effd960e9ecc4ae25"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a8fc7743e2a0edf6effd960e9ecc4ae25">d_nonlocal_petsc_indices</a></td></tr>
+<tr class="separator:a8fc7743e2a0edf6effd960e9ecc4ae25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0360c3f8c54ea77f07cfab09030999f5"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LDataManager.html#a0360c3f8c54ea77f07cfab09030999f5">d_user_defined_ldata</a></td></tr>
+<tr class="separator:a0360c3f8c54ea77f07cfab09030999f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The manager class is responsible for maintaining this data distribution and for all inter-processor communications. All access to instantiated <a class="el" href="classIBTK_1_1LDataManager.html" title="Class LDataManager coordinates the irregular distribution of LNode and LData on the patch hierarchy.">LDataManager</a> objects is via the static method <a class="el" href="classIBTK_1_1LDataManager.html#a97a22257f2f2c3ceb09a9aff7d52ae1e">getManager()</a>.</p>
