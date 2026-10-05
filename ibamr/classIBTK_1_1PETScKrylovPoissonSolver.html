@@ -79,6 +79,8 @@ $(function() {
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classIBTK_1_1PETScKrylovPoissonSolver-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">IBTK::PETScKrylovPoissonSolver Class Reference</div>  </div>
@@ -240,6 +242,50 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a1d11781abd07164b99ed3d9df1655797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1PETScKrylovPoissonSolver.html#a1d11781abd07164b99ed3d9df1655797">More...</a><br /></td></tr>
 <tr class="separator:a1d11781abd07164b99ed3d9df1655797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="memItemLeft" align="right" valign="top">static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a5a3d2fb177155803b32c37f2d3ee3fce">MatVecMult_SAMRAI</a> (Mat A, Vec x, Vec y)</td></tr>
+<tr class="memdesc:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the matrix vector product \(y=Ax\).  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a5a3d2fb177155803b32c37f2d3ee3fce">More...</a><br /></td></tr>
+<tr class="separator:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dd08ae7bb2be796fbb09c7a3fb6212"><td class="memItemLeft" align="right" valign="top">static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a36dd08ae7bb2be796fbb09c7a3fb6212">PCApply_SAMRAI</a> (PC pc, Vec x, Vec y)</td></tr>
+<tr class="memdesc:a36dd08ae7bb2be796fbb09c7a3fb6212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the preconditioner to <em>x</em> and store the result in <em>y</em>.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a36dd08ae7bb2be796fbb09c7a3fb6212">More...</a><br /></td></tr>
+<tr class="separator:a36dd08ae7bb2be796fbb09c7a3fb6212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5d166580bb895ca1c95e1b05811d911a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a5d166580bb895ca1c95e1b05811d911a">d_ksp_type</a></td></tr>
+<tr class="separator:a5d166580bb895ca1c95e1b05811d911a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18857f3e7469c360f6e77ddae5e9aeb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a18857f3e7469c360f6e77ddae5e9aeb6">d_reinitializing_solver</a> = false</td></tr>
+<tr class="separator:a18857f3e7469c360f6e77ddae5e9aeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0307456c2a7b629c82c335cf227fc1"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a1e0307456c2a7b629c82c335cf227fc1">d_petsc_x</a> = nullptr</td></tr>
+<tr class="separator:a1e0307456c2a7b629c82c335cf227fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788662b015e8ab70fdbc47957c8ab642"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a788662b015e8ab70fdbc47957c8ab642">d_petsc_b</a> = nullptr</td></tr>
+<tr class="separator:a788662b015e8ab70fdbc47957c8ab642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f67957e2c1c15ca7ef50533c7cd04e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ae4f67957e2c1c15ca7ef50533c7cd04e">d_options_prefix</a></td></tr>
+<tr class="separator:ae4f67957e2c1c15ca7ef50533c7cd04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64bb9d35a9928f5fb5dab838fbaaf5d"><td class="memItemLeft" align="right" valign="top">MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ad64bb9d35a9928f5fb5dab838fbaaf5d">d_petsc_comm</a></td></tr>
+<tr class="separator:ad64bb9d35a9928f5fb5dab838fbaaf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ab3b81df50d28f23f3c4a601c8f630"><td class="memItemLeft" align="right" valign="top">KSP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a03ab3b81df50d28f23f3c4a601c8f630">d_petsc_ksp</a> = nullptr</td></tr>
+<tr class="separator:a03ab3b81df50d28f23f3c4a601c8f630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39a859fbe4f599d459d309b4dce76d92"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a39a859fbe4f599d459d309b4dce76d92">d_petsc_mat</a> = nullptr</td></tr>
+<tr class="separator:a39a859fbe4f599d459d309b4dce76d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8296d0e867cacd57fe8b3acec4eeddc5"><td class="memItemLeft" align="right" valign="top">MatNullSpace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a8296d0e867cacd57fe8b3acec4eeddc5">d_petsc_nullsp</a> = nullptr</td></tr>
+<tr class="separator:a8296d0e867cacd57fe8b3acec4eeddc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa580923cdee7d5211ff6a4cfa0bb10e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#aa580923cdee7d5211ff6a4cfa0bb10e6">d_managing_petsc_ksp</a> = true</td></tr>
+<tr class="separator:aa580923cdee7d5211ff6a4cfa0bb10e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabfd1bbf20ce4c6fd4dc8b309fe59bbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#aabfd1bbf20ce4c6fd4dc8b309fe59bbf">d_user_provided_mat</a> = false</td></tr>
+<tr class="separator:aabfd1bbf20ce4c6fd4dc8b309fe59bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467be5101ff0815fabc87719a8073856"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a467be5101ff0815fabc87719a8073856">d_user_provided_pc</a> = false</td></tr>
+<tr class="separator:a467be5101ff0815fabc87719a8073856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348e7914536d631c2f1cce3b4082209a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a348e7914536d631c2f1cce3b4082209a">d_nullspace_constant_vec</a></td></tr>
+<tr class="separator:a348e7914536d631c2f1cce3b4082209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81919572587e1468d43174c4a249e2d1"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a81919572587e1468d43174c4a249e2d1">d_petsc_nullspace_constant_vec</a> = nullptr</td></tr>
+<tr class="separator:a81919572587e1468d43174c4a249e2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a042c62019ef8f10d618721402ce1909a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vec &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a042c62019ef8f10d618721402ce1909a">d_petsc_nullspace_basis_vecs</a></td></tr>
+<tr class="separator:a042c62019ef8f10d618721402ce1909a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9599e0ae52c677bd16b65daeb988ef7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ab9599e0ae52c677bd16b65daeb988ef7">d_solver_has_attached_nullspace</a> = false</td></tr>
+<tr class="separator:ab9599e0ae52c677bd16b65daeb988ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Krylov solver functionality.</h2></td></tr>
 <tr class="memitem:aa0c8d130bb1c0e3b7a86afd60433885f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#aa0c8d130bb1c0e3b7a86afd60433885f">setOperator</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1LinearOperator.html">LinearOperator</a> &gt; A) override</td></tr>
 <tr class="memdesc:aa0c8d130bb1c0e3b7a86afd60433885f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the linear operator used when solving \(Ax=b\).  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#aa0c8d130bb1c0e3b7a86afd60433885f">More...</a><br /></td></tr>
@@ -347,46 +393,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a01b1d6f7d7e12b106fe425e6a37634a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd4cae0fe65c6515c0708f9faf95a5e3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1GeneralSolver.html#acd4cae0fe65c6515c0708f9faf95a5e3">initSpecialized</a> (const std::string &amp;object_name, bool homogeneous_bc)</td></tr>
 <tr class="separator:acd4cae0fe65c6515c0708f9faf95a5e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader">Static functions for use by PETSc KSP and MatShell objects.</h2></td></tr>
-<tr class="memitem:a5d166580bb895ca1c95e1b05811d911a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a5d166580bb895ca1c95e1b05811d911a">d_ksp_type</a></td></tr>
-<tr class="separator:a5d166580bb895ca1c95e1b05811d911a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18857f3e7469c360f6e77ddae5e9aeb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a18857f3e7469c360f6e77ddae5e9aeb6">d_reinitializing_solver</a> = false</td></tr>
-<tr class="separator:a18857f3e7469c360f6e77ddae5e9aeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e0307456c2a7b629c82c335cf227fc1"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a1e0307456c2a7b629c82c335cf227fc1">d_petsc_x</a> = nullptr</td></tr>
-<tr class="separator:a1e0307456c2a7b629c82c335cf227fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a788662b015e8ab70fdbc47957c8ab642"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a788662b015e8ab70fdbc47957c8ab642">d_petsc_b</a> = nullptr</td></tr>
-<tr class="separator:a788662b015e8ab70fdbc47957c8ab642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f67957e2c1c15ca7ef50533c7cd04e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ae4f67957e2c1c15ca7ef50533c7cd04e">d_options_prefix</a></td></tr>
-<tr class="separator:ae4f67957e2c1c15ca7ef50533c7cd04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad64bb9d35a9928f5fb5dab838fbaaf5d"><td class="memItemLeft" align="right" valign="top">MPI_Comm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ad64bb9d35a9928f5fb5dab838fbaaf5d">d_petsc_comm</a></td></tr>
-<tr class="separator:ad64bb9d35a9928f5fb5dab838fbaaf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03ab3b81df50d28f23f3c4a601c8f630"><td class="memItemLeft" align="right" valign="top">KSP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a03ab3b81df50d28f23f3c4a601c8f630">d_petsc_ksp</a> = nullptr</td></tr>
-<tr class="separator:a03ab3b81df50d28f23f3c4a601c8f630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39a859fbe4f599d459d309b4dce76d92"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a39a859fbe4f599d459d309b4dce76d92">d_petsc_mat</a> = nullptr</td></tr>
-<tr class="separator:a39a859fbe4f599d459d309b4dce76d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8296d0e867cacd57fe8b3acec4eeddc5"><td class="memItemLeft" align="right" valign="top">MatNullSpace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a8296d0e867cacd57fe8b3acec4eeddc5">d_petsc_nullsp</a> = nullptr</td></tr>
-<tr class="separator:a8296d0e867cacd57fe8b3acec4eeddc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa580923cdee7d5211ff6a4cfa0bb10e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#aa580923cdee7d5211ff6a4cfa0bb10e6">d_managing_petsc_ksp</a> = true</td></tr>
-<tr class="separator:aa580923cdee7d5211ff6a4cfa0bb10e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabfd1bbf20ce4c6fd4dc8b309fe59bbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#aabfd1bbf20ce4c6fd4dc8b309fe59bbf">d_user_provided_mat</a> = false</td></tr>
-<tr class="separator:aabfd1bbf20ce4c6fd4dc8b309fe59bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467be5101ff0815fabc87719a8073856"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a467be5101ff0815fabc87719a8073856">d_user_provided_pc</a> = false</td></tr>
-<tr class="separator:a467be5101ff0815fabc87719a8073856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348e7914536d631c2f1cce3b4082209a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a348e7914536d631c2f1cce3b4082209a">d_nullspace_constant_vec</a></td></tr>
-<tr class="separator:a348e7914536d631c2f1cce3b4082209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81919572587e1468d43174c4a249e2d1"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a81919572587e1468d43174c4a249e2d1">d_petsc_nullspace_constant_vec</a> = nullptr</td></tr>
-<tr class="separator:a81919572587e1468d43174c4a249e2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042c62019ef8f10d618721402ce1909a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vec &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a042c62019ef8f10d618721402ce1909a">d_petsc_nullspace_basis_vecs</a></td></tr>
-<tr class="separator:a042c62019ef8f10d618721402ce1909a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9599e0ae52c677bd16b65daeb988ef7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ab9599e0ae52c677bd16b65daeb988ef7">d_solver_has_attached_nullspace</a> = false</td></tr>
-<tr class="separator:ab9599e0ae52c677bd16b65daeb988ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="memItemLeft" align="right" valign="top">static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a5a3d2fb177155803b32c37f2d3ee3fce">MatVecMult_SAMRAI</a> (Mat A, Vec x, Vec y)</td></tr>
-<tr class="memdesc:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the matrix vector product \(y=Ax\).  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a5a3d2fb177155803b32c37f2d3ee3fce">More...</a><br /></td></tr>
-<tr class="separator:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36dd08ae7bb2be796fbb09c7a3fb6212"><td class="memItemLeft" align="right" valign="top">static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a36dd08ae7bb2be796fbb09c7a3fb6212">PCApply_SAMRAI</a> (PC pc, Vec x, Vec y)</td></tr>
-<tr class="memdesc:a36dd08ae7bb2be796fbb09c7a3fb6212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the preconditioner to <em>x</em> and store the result in <em>y</em>.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a36dd08ae7bb2be796fbb09c7a3fb6212">More...</a><br /></td></tr>
-<tr class="separator:a36dd08ae7bb2be796fbb09c7a3fb6212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afde3ae21e108903724627f2d500ceb7c"></a>
