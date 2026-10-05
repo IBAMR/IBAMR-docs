@@ -970,6 +970,9 @@ Functions</h2></td></tr>
 <tr class="separator:a7b0a5591017f3ba7225050b2aaf4ea5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67fdfe0a5d6114b04e025c647f22883f"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a67fdfe0a5d6114b04e025c647f22883f">setup_petsc_vector</a> (const unsigned int num_local_nodes, const unsigned int depth, const std::vector&lt; int &gt; &amp;nonlocal_petsc_indices)</td></tr>
 <tr class="separator:a67fdfe0a5d6114b04e025c647f22883f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb8e73000a6114a83f3631b9ec2e009"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a5bb8e73000a6114a83f3631b9ec2e009">equals_ignore_case</a> (std::string_view a, std::string_view b)</td></tr>
+<tr class="memdesc:a5bb8e73000a6114a83f3631b9ec2e009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether two strings are equal when the ASCII letters are compared without regard to case.  <a href="namespaceIBTK.html#a5bb8e73000a6114a83f3631b9ec2e009">More...</a><br /></td></tr>
+<tr class="separator:a5bb8e73000a6114a83f3631b9ec2e009"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5de09e0a6f4e729b82c38b17a9783df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ae5de09e0a6f4e729b82c38b17a9783df">update_snapshot</a> (<a class="el" href="classIBTK_1_1SnapshotCache.html">SnapshotCache</a> &amp;cache, int u_idx, double time, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; current_hierarchy, double tol=1.0e-8)</td></tr>
 <tr class="separator:ae5de09e0a6f4e729b82c38b17a9783df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3f248a09e4558c70b8fede878bbe000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ac3f248a09e4558c70b8fede878bbe000">fill_snapshot_on_hierarchy</a> (<a class="el" href="classIBTK_1_1SnapshotCache.html">SnapshotCache</a> &amp;cache, int u_idx, double time, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; current_hierarchy, const std::string &amp;snapshot_refine_type, double tol=1.0e-8)</td></tr>
@@ -5432,6 +5435,43 @@ template&lt;class MultiArray &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Internal function for setting up a PETSc function of given size and depth. See the documentation of <a class="el" href="classIBTK_1_1LData.html" title="Class LData provides storage for a single scalar- or vector-valued Lagrangian quantity.">LData</a> for more information. </p>
+
+</div>
+</div>
+<a id="a5bb8e73000a6114a83f3631b9ec2e009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb8e73000a6114a83f3631b9ec2e009">&#9670;&nbsp;</a></span>equals_ignore_case()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool IBTK::equals_ignore_case </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The comparison does not depend on the locale. Every other byte, including the bytes of a multibyte character, must match exactly. The strings must use an encoding, such as UTF-8, in which bytes below 0x80 occur only as ASCII characters. </p>
 
 </div>
 </div>

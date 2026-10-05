@@ -96,7 +96,7 @@ Files</h2>
 <li>The test input and output files: <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s test suite assumes that each test corresponds to exactly one pair of input and output files. The file names for the input and output file starts with the name of the required test executable followed by a period, with additional data separated by periods. For example: the test executable <code>interpolate_velocity_01</code> is used in multiple tests since there are several input and output files starting with <code>interpolate_velocity_01</code> (though each has different text after the period). The number of MPI processes is encoded into the test input and output files by writing, e.g., `<code>.mpirun=42.</code> in the filename. The build system will create symbolic links to these files inside the build directory.</li>
 <li>The test runner: this is the python script <code>attest</code> in the top-level directory. The build system creates a symbolic link to this script and generates a configuration file, <code>attest.conf</code>, inside the build directory.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md36"></a>
+<h2><a class="anchor" id="autotoc_md40"></a>
 attest</h2>
 <p>The program that finds and executes tests is the test runner: <code>attest</code>. <code>attest</code> is very similar, aside from being decoupled from the build system, to <code>ctest</code>, and supports many of the same options. All options can be displayed by running <code>./attest --help</code>: a few common options include</p>
 <ol type="1">
