@@ -82,7 +82,7 @@ $(function() {
 <div class="contents">
 
 <p>Class <a class="el" href="classIBTK_1_1CartSideDoubleRT0Coarsen.html" title="Class CartSideDoubleRT0Coarsen is a concrete SAMRAI::xfer::CoarsenOperator for restricting side-cente...">CartSideDoubleRT0Coarsen</a> is a concrete <a class="el" href="classSAMRAI_1_1xfer_1_1CoarsenOperator.html">SAMRAI::xfer::CoarsenOperator</a> for restricting side-centered double precision patch data via the adjoint of RT0 interpolation.  
-</p>
+ <a href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/CartSideDoubleRT0Coarsen.h&gt;</code></p>
 <div class="dynheader">
@@ -100,7 +100,7 @@ Inheritance diagram for IBTK::CartSideDoubleRT0Coarsen:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7f896c9e36c9165d882786eb8530702"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#ae7f896c9e36c9165d882786eb8530702">CartSideDoubleRT0Coarsen</a> (<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; gcw=<a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;(1))</td></tr>
-<tr class="memdesc:ae7f896c9e36c9165d882786eb8530702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#ae7f896c9e36c9165d882786eb8530702">More...</a><br /></td></tr>
+<tr class="memdesc:ae7f896c9e36c9165d882786eb8530702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#ae7f896c9e36c9165d882786eb8530702">More...</a><br /></td></tr>
 <tr class="separator:ae7f896c9e36c9165d882786eb8530702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ec8d71a49532491ed54f8c7a0e3fd3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#a2ec8d71a49532491ed54f8c7a0e3fd3c">~CartSideDoubleRT0Coarsen</a> ()=default</td></tr>
 <tr class="memdesc:a2ec8d71a49532491ed54f8c7a0e3fd3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#a2ec8d71a49532491ed54f8c7a0e3fd3c">More...</a><br /></td></tr>
@@ -132,7 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9cccaf7a9c0c88cf1dc1ef2b16e6b058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1CartSideDoubleRT0Coarsen.html#a9cccaf7a9c0c88cf1dc1ef2b16e6b058">More...</a><br /></td></tr>
 <tr class="separator:a9cccaf7a9c0c88cf1dc1ef2b16e6b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>With P the RT0 interpolation, the result is P^T / prod(ratio) wherever the stencil lies inside the domain. Fine ghost values outside the fine level must be zero; the weights of a coarse side on a coarse-fine interface then sum to less than one. On a physical boundary only the fine sides inside the domain contribute, with weights normalized to sum to one. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae7f896c9e36c9165d882786eb8530702"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7f896c9e36c9165d882786eb8530702">&#9670;&nbsp;</a></span>CartSideDoubleRT0Coarsen() <span class="overload">[1/2]</span></h2>
 
@@ -148,6 +150,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gcw</td><td>Stencil width, which must be at least the refinement ratio minus one in every direction. The default supports a refinement ratio of 2. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
