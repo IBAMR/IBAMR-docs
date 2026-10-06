@@ -144,6 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af03c12ada8b8d593b08cdef8af68c379"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#af03c12ada8b8d593b08cdef8af68c379">d_periodic_shift</a></td></tr>
 <tr class="separator:af03c12ada8b8d593b08cdef8af68c379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a954cb93425a3b19f00ea54fa2a058c4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a954cb93425a3b19f00ea54fa2a058c4b">setConsistentInterpolationScheme</a> (bool consistent_type_2_bdry) override</td></tr>
+<tr class="memdesc:a954cb93425a3b19f00ea54fa2a058c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not supported: this class fills only co-dimension 1 coarse-fine interface ghost cells, and the value must be false.  <a href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a954cb93425a3b19f00ea54fa2a058c4b">More...</a><br /></td></tr>
 <tr class="separator:a954cb93425a3b19f00ea54fa2a058c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2be1c766912ce9aced7db457ddb76330"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a2be1c766912ce9aced7db457ddb76330">setPatchDataIndex</a> (int patch_data_index) override</td></tr>
 <tr class="memdesc:a2be1c766912ce9aced7db457ddb76330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the patch data index operated upon by this class.  <a href="classIBTK_1_1CartCellDoubleLinearCFInterpolation.html#a2be1c766912ce9aced7db457ddb76330">More...</a><br /></td></tr>
@@ -470,7 +471,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Whether or not to employ a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells. </p>
 
 <p>Implements <a class="el" href="classIBTK_1_1CoarseFineBoundaryRefinePatchStrategy.html#adf47900f5610ce2b943d62f8589b2e40">IBTK::CoarseFineBoundaryRefinePatchStrategy</a>.</p>
 
@@ -1024,7 +1024,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Boolean value indicating whether we are enforcing a consistent interpolation scheme at "Type 2" coarse-fine interface ghost cells. </p>
+<p>Boolean value indicating whether a consistent interpolation scheme is requested at coarse-fine interface ghost cells of co-dimension greater than 1. </p>
 
 </div>
 </div>
