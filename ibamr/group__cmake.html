@@ -198,16 +198,16 @@ How to use IBAMR in your own project</h2>
 <div class="ttc" id="anamespaceIBAMR_html"><div class="ttname"><a href="namespaceIBAMR.html">IBAMR</a></div><div class="ttdef"><b>Definition:</b> AdvDiffCenteredConvectiveOperator.h:28</div></div>
 </div><!-- fragment --><p> Run cmake as </p><div class="fragment"><div class="line">cmake -DIBAMR_ROOT=/path/to/ibamr/installation ./</div>
 </div><!-- fragment --><p> where <code>/path/to/ibamr/installation</code> should be replaced by the directory path (either relative or absolute) to the installation location of <a class="el" href="namespaceIBAMR.html">IBAMR</a> or <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s build directory.</p>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Build system internals</h2>
-<h3><a class="anchor" id="autotoc_md15"></a>
+<h3><a class="anchor" id="autotoc_md17"></a>
 General setup</h3>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> is compiled as four libraries: 2D and 3D <a class="el" href="namespaceIBTK.html">IBTK</a> libraries and 2D and 3D <a class="el" href="namespaceIBAMR.html">IBAMR</a> libraries. Since <a class="el" href="namespaceIBAMR.html">IBAMR</a> depends on <a class="el" href="namespaceIBTK.html">IBTK</a>, many features in the library are actually set up for <a class="el" href="namespaceIBTK.html">IBTK</a> and then copied into <a class="el" href="namespaceIBAMR.html">IBAMR</a> proper. <a class="el" href="namespaceIBAMR.html">IBAMR</a> and <a class="el" href="namespaceIBTK.html">IBTK</a> have their dependencies configured in the top-level <code>CMakeLists.txt</code> file. Source files for each library are listed in <code>src/CMakeLists.txt</code> and <code>ibtk/src/CMakeLists.txt</code>, respectively. Similarly, all test executables are compiled in <code>tests/CMakeLists.txt</code>.</p>
 <p>Since there is a wide variety of necessary setup for examples, <a class="el" href="namespaceIBAMR.html">IBAMR</a> includes the macro <code>IBAMR_ADD_EXAMPLE</code> (defined in <code>examples/CMakeLists.txt</code>) which is used to set up a single example program (which may have multiple source and input files). New examples should use this macro as well.</p>
-<h3><a class="anchor" id="autotoc_md16"></a>
+<h3><a class="anchor" id="autotoc_md19"></a>
 Configuration headers</h3>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> generates a single configuration header: <code><a class="el" href="build_2ibtk_2include_2ibtk_2config_8h.html">ibtk/config.h</a></code>. All macros defined in this file with the prefix <code>IBTK_</code> are redefined in <code><a class="el" href="include_2ibamr_2config_8h.html">ibamr/config.h</a></code> with the prefix <code>IBAMR_</code>. The old top-level configuration files <code>IBAMR_config.h</code> and <code>IBTK_config.h</code> do not have equivalents in the CMake build system.</p>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md20"></a>
 Tips and Tricks</h2>
 <p>cmake supports many useful features. We recommend</p><ol type="1">
 <li>Use ninja instead of make for much better build performance by providing the <code>-GNinja</code> to cmake.</li>

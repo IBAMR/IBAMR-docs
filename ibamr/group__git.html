@@ -76,13 +76,13 @@ $(function() {
 
 <p>How <a class="el" href="namespaceIBAMR.html">IBAMR</a> uses git for developing new features.  
 </p>
-<h1><a class="anchor" id="autotoc_md18"></a>
+<h1><a class="anchor" id="autotoc_md14"></a>
 Basic git workflows with IBAMR</h1>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Overview</h2>
 <p>Changes to <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s source code are managed with the git version control system. <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s developers work on GitHub with the <a href="https://www.github.com/IBAMR/">https://www.github.com/IBAMR/</a> organization.</p>
 <p>GitHub, as the name implies, is a tool for working with git repositories: we use GitHub to track things that need to be fixed or improved in <a class="el" href="namespaceIBAMR.html">IBAMR</a> with the <a href="https://www.github.com/IBAMR/IBAMR/issues">issue tracker</a>.</p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 Using git and IBAMR</h2>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> has about a dozen regular contributors, who, at any time, are working on dozens of new features and fixes. We use git to track these changes, handle merging of new features, and keep a log of all commited changes to the library.</p>
 <p>Changes to <a class="el" href="namespaceIBAMR.html">IBAMR</a> are peer-reviewed: instead of simply pushing new features as they are finished, all changes undergo a period when the core <a class="el" href="namespaceIBAMR.html">IBAMR</a> developers review the new code and check it for possible bugs, style problems, and consistency with the rest of the library. Git facilitates this workflow with branches*: changes to <a class="el" href="namespaceIBAMR.html">IBAMR</a> are first commited to branches, which are then considered (via GitHub's pull request mechanism) for merging with the master branch of GitHub. This is a simplified variant of what is usually called the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">gitflow</a> model: the primary difference being that our develop and master branches are the same. Some branches for <a class="el" href="namespaceIBAMR.html">IBAMR</a> are actively developed by multiple users; these branches are located in the <a class="el" href="namespaceIBAMR.html">IBAMR</a> repository on GitHub itself. It is also possible to develop branches outside of the <a class="el" href="namespaceIBAMR.html">IBAMR</a> organization: this is discussed below in the <em>Forking, Cloning, and making a simple fix</em> example.</p>
