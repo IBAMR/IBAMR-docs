@@ -105,6 +105,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac516921f91f1e46e69a838ae0a94575a"><td class="memTemplParams" colspan="2">template&lt;class DoubleArray &gt; </td></tr>
 <tr class="memitem:ac516921f91f1e46e69a838ae0a94575a"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classIBTK_1_1IndexUtilities.html#ac516921f91f1e46e69a838ae0a94575a">getAssignedCellIndex</a> (const DoubleArray &amp;X, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a>&lt; NDIM &gt;&gt; &amp;grid_geom, const <a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt; &amp;ratio)</td></tr>
 <tr class="separator:ac516921f91f1e46e69a838ae0a94575a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d9f4f576fa9af69b534055220fa7be"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1IndexUtilities.html#a44d9f4f576fa9af69b534055220fa7be">clampToDomain</a> (double x, double x_lower, double x_upper)</td></tr>
+<tr class="separator:a44d9f4f576fa9af69b534055220fa7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cc2ce346c5ba9944ee81c17580ffc9b"><td class="memTemplParams" colspan="2">template&lt;typename Vector &gt; </td></tr>
 <tr class="memitem:a5cc2ce346c5ba9944ee81c17580ffc9b"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="namespaceIBTK.html#a09a4d4ded781c3a9630a42d88680e89f">Vector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classIBTK_1_1IndexUtilities.html#a5cc2ce346c5ba9944ee81c17580ffc9b">getCellCenter</a> (const <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const <a class="el" href="classSAMRAI_1_1pdat_1_1CellIndex.html">SAMRAI::pdat::CellIndex</a>&lt; NDIM &gt; &amp;cell_idx)</td></tr>
 <tr class="separator:a5cc2ce346c5ba9944ee81c17580ffc9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,6 +509,51 @@ template&lt;class DoubleArray &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>The cell index corresponding to location <code>X</code> relative to the corner of the computational domain specified by the grid geometry object. Unlike <a class="el" href="classIBTK_1_1IndexUtilities.html#a14433b3c19ce5073a56ab8b18473172f">getCellIndex()</a>, this function assigns points on upper boundaries to the cells inside the domain (instead of in the ghost region) which makes it more suitable for partitioning purposes.</dd></dl>
 <p>This function does not shift points on periodic domains. It is up to the caller to correctly shift <code>X</code> with respect to periodicity before calling this function.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classSAMRAI_1_1geom_1_1CartesianGridGeometry.html">SAMRAI::geom::CartesianGridGeometry</a> </dd></dl>
+
+</div>
+</div>
+<a id="a44d9f4f576fa9af69b534055220fa7be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d9f4f576fa9af69b534055220fa7be">&#9670;&nbsp;</a></span>clampToDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBTK::IndexUtilities::clampToDomain </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x_lower</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x_upper</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The coordinate <code>x</code>, moved if necessary into the half-open interval [<code>x_lower</code>, <code>x_upper</code>) that the computational domain occupies in one coordinate direction.</dd></dl>
+<p>Cells are half-open: a point on the lower boundary of the domain lies in the first cell and is returned unchanged, whereas <a class="el" href="classIBTK_1_1IndexUtilities.html#a14433b3c19ce5073a56ab8b18473172f">getCellIndex()</a> assigns a point on the upper boundary to a ghost cell. A coordinate below <code>x_lower</code> is therefore moved to <code>x_lower</code>, and a coordinate that is above <code>x_upper</code>, or within the square root of machine epsilon times the length of the domain of it, is moved to that distance below <code>x_upper</code>. The distance is relative to the length of the domain so that it does not depend on the units. If that distance is too small to change <code>x_upper</code> in floating-point arithmetic, the coordinate is moved to the largest floating-point value below <code>x_upper</code> instead, so the returned coordinate is always in [<code>x_lower</code>, <code>x_upper</code>).</p>
+<p>This function does not shift points on periodic domains. It is up to the caller to shift <code>x</code> with respect to periodicity before calling this function. </p>
 
 </div>
 </div>
