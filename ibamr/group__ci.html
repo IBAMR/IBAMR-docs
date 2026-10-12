@@ -76,12 +76,12 @@ $(function() {
 
 <p>Description of <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s Continuous Integration (CI) infrastructure.  
 </p>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<h1><a class="anchor" id="autotoc_md0"></a>
 Working with IBAMR's Continuous Integration (CI) setup</h1>
-<h2><a class="anchor" id="autotoc_md2"></a>
+<h2><a class="anchor" id="autotoc_md1"></a>
 Introduction</h2>
 <p>Changes proposed to <a class="el" href="namespaceIBAMR.html">IBAMR</a> need to not introduce new bugs or compilation problems. To this end, <a class="el" href="namespaceIBAMR.html">IBAMR</a> presently uses GitHub actions to, for each pull request, compile the library, all tests and examples, and run a subset of the test suite. For historical reasons we use our own test runner, attest, which understands IBAMR-specific things (like running with MPI and restart files).</p>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md2"></a>
 How it works</h2>
 <p>In order to compile <a class="el" href="namespaceIBAMR.html">IBAMR</a> we first need a basic computing environment (MPI, compilers, a shell, etc.) as well as <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s dependencies. To this end, all of <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s build dependencies are packaged inside one of several docker containers. These containers provide a portable environment in which we can compile the library with specified precompiled versions of PETSc, <a class="el" href="namespaceSAMRAI.html">SAMRAI</a>, etc. We maintain three different CI configurations:</p><ul>
 <li>A newer configuration (based on Arch Linux) with reasonably recent versions of dependencies</li>
@@ -91,11 +91,11 @@ How it works</h2>
 <p>The file specifying what GitHub does is <code>.github/workflows/push-pull.yml</code>. This YAML file specifies what each virtual machine (hosted by GitHub) should do when a new pull request is created. This file is responsible for setting up the environment for compiling the library: in particular, it pulls down David Wells' Docker images from DockerHub to get copies of all recent dependencies.</p>
 <p>Scripts for compiling docker images are available at</p>
 <p><a href="https://github.com/IBAMR/docker-files">https://github.com/IBAMR/docker-files</a></p>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md3"></a>
 Improving performance with ccache</h2>
 <p><a class="el" href="namespaceIBAMR.html">IBAMR</a> takes upwards of an hour to compile on one of GitHub's virtual cloud machines. Most of this time is spent compiling the same files between runs. To accelerate this process, we use GitHub's cache action (<code>actions/cache</code>) which stores build artifacts between runs. To speed up compilation, ccache will run the C preprocessor on each file and hash the result: if the hash matches a cache entry, then ccache returns that value (an object file) instead of running the compiler itself. This lowers compilation time by about 80%.</p>
 <p>GitHub's cache infrastructure was not intended to do this. To make things work, we rebuild the cache on the master branch after merges and pull that into feature branches. Feature branches cannot access caches from other feature branches.</p>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md4"></a>
 Actually compiling the library and running the test suite</h2>
 <p>For more information see the actual Dockerfiles: we use them, plus the copies of ccache and ninja in the container, to run attest. </p>
 </div><!-- contents -->
