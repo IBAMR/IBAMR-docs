@@ -202,6 +202,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a78abacbf157c26df56c29a5dc55c5621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7975ad9fb50066fe0ef38b0643259b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a5d7975ad9fb50066fe0ef38b0643259b">d_num_post_sweeps</a> = 2</td></tr>
 <tr class="separator:a5d7975ad9fb50066fe0ef38b0643259b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3ab53b15c5ec63a3c836ddb58af4080"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#ab3ab53b15c5ec63a3c836ddb58af4080">d_residual_vectors</a></td></tr>
+<tr class="separator:ab3ab53b15c5ec63a3c836ddb58af4080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399ba576c69283c8638817ed1c46848e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a399ba576c69283c8638817ed1c46848e">d_rhs_vectors</a></td></tr>
+<tr class="separator:a399ba576c69283c8638817ed1c46848e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a914b7a4d381d39975bb22cc324db02ec"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a914b7a4d381d39975bb22cc324db02ec">d_correction_vectors</a></td></tr>
+<tr class="separator:a914b7a4d381d39975bb22cc324db02ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61d323efab26755d1b6e88e9d34f077f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a61d323efab26755d1b6e88e9d34f077f">setInitialGuessNonzero</a> (bool initial_guess_nonzero=true) override</td></tr>
 <tr class="memdesc:a61d323efab26755d1b6e88e9d34f077f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the initial guess is non-zero.  <a href="classIBTK_1_1FACPreconditioner.html#a61d323efab26755d1b6e88e9d34f077f">More...</a><br /></td></tr>
 <tr class="separator:a61d323efab26755d1b6e88e9d34f077f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,14 +235,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8953c1871eb104b8f6b69585a7342daa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html">FACPreconditionerStrategy</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a8953c1871eb104b8f6b69585a7342daa">getFACPreconditionerStrategy</a> () const</td></tr>
 <tr class="memdesc:a8953c1871eb104b8f6b69585a7342daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the FAC preconditioner strategy objects employed by the preconditioner.  <a href="classIBTK_1_1FACPreconditioner.html#a8953c1871eb104b8f6b69585a7342daa">More...</a><br /></td></tr>
 <tr class="separator:a8953c1871eb104b8f6b69585a7342daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27fd5b0fe82608a322065f0bb7865ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a27fd5b0fe82608a322065f0bb7865ced">FACVCycleNoPreSmoothing</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;f, int level_num)</td></tr>
-<tr class="separator:a27fd5b0fe82608a322065f0bb7865ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81a1c99a7559734fac7afb125ed1b432"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a81a1c99a7559734fac7afb125ed1b432">muCycle</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;f, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;r, int level_num, int mu)</td></tr>
-<tr class="separator:a81a1c99a7559734fac7afb125ed1b432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01650b6b531755394e3f162dd20d1cfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a01650b6b531755394e3f162dd20d1cfc">FCycle</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;f, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;r, int level_num)</td></tr>
-<tr class="separator:a01650b6b531755394e3f162dd20d1cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823d81562f26a5e5976a205a18affd43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a823d81562f26a5e5976a205a18affd43">FMGCycle</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;f, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;r, int level_num, int mu)</td></tr>
-<tr class="separator:a823d81562f26a5e5976a205a18affd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ac28eb961b32e5a35fb7a4e498979ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a3ac28eb961b32e5a35fb7a4e498979ce">FACPreconditioner</a> ()=delete</td></tr>
 <tr class="memdesc:a3ac28eb961b32e5a35fb7a4e498979ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBTK_1_1FACPreconditioner.html#a3ac28eb961b32e5a35fb7a4e498979ce">More...</a><br /></td></tr>
 <tr class="separator:a3ac28eb961b32e5a35fb7a4e498979ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +244,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0534b2ca49d2ba858f46e65869198a39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1FACPreconditioner.html">FACPreconditioner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a0534b2ca49d2ba858f46e65869198a39">operator=</a> (const <a class="el" href="classIBTK_1_1FACPreconditioner.html">FACPreconditioner</a> &amp;that)=delete</td></tr>
 <tr class="memdesc:a0534b2ca49d2ba858f46e65869198a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1FACPreconditioner.html#a0534b2ca49d2ba858f46e65869198a39">More...</a><br /></td></tr>
 <tr class="separator:a0534b2ca49d2ba858f46e65869198a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacb2d47ace579a339ac63dba5f932f80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#aacb2d47ace579a339ac63dba5f932f80">zeroStartCycle</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;f, int level_num, <a class="el" href="namespaceIBTK.html#a19008659d5b79c98ba2edfefb73b17a0">MGCycleType</a> cycle_type)</td></tr>
+<tr class="memdesc:aacb2d47ace579a339ac63dba5f932f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply one cycle of type <em>cycle_type</em> to a zero <em>u</em> on the levels from the coarsest level of the solver through <em>level_num:</em> u = B f.  <a href="classIBTK_1_1FACPreconditioner.html#aacb2d47ace579a339ac63dba5f932f80">More...</a><br /></td></tr>
+<tr class="separator:aacb2d47ace579a339ac63dba5f932f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573d19919fd13e0f9d4bd62c5266353e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a573d19919fd13e0f9d4bd62c5266353e">improveCycle</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;f, int level_num, <a class="el" href="namespaceIBTK.html#a19008659d5b79c98ba2edfefb73b17a0">MGCycleType</a> cycle_type)</td></tr>
+<tr class="memdesc:a573d19919fd13e0f9d4bd62c5266353e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply one cycle of type <em>cycle_type</em> to a nonzero <em>u</em> on the levels from the coarsest level of the solver through <em>level_num:</em> u += B (f - A u), where B is <a class="el" href="classIBTK_1_1FACPreconditioner.html#aacb2d47ace579a339ac63dba5f932f80" title="Apply one cycle of type cycle_type to a zero u on the levels from the coarsest level of the solver th...">zeroStartCycle()</a>.  <a href="classIBTK_1_1FACPreconditioner.html#a573d19919fd13e0f9d4bd62c5266353e">More...</a><br /></td></tr>
+<tr class="separator:a573d19919fd13e0f9d4bd62c5266353e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47712aa971a94cd3ed9855e5158f19df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a47712aa971a94cd3ed9855e5158f19df">allocateCycleScratchData</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;solution, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;rhs)</td></tr>
+<tr class="memdesc:a47712aa971a94cd3ed9855e5158f19df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate any missing scratch data required by the current cycle options.  <a href="classIBTK_1_1FACPreconditioner.html#a47712aa971a94cd3ed9855e5158f19df">More...</a><br /></td></tr>
+<tr class="separator:a47712aa971a94cd3ed9855e5158f19df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a303cb2b3d50ed727a0b365fcb3d65118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditioner.html#a303cb2b3d50ed727a0b365fcb3d65118">getFromInput</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; db)</td></tr>
 <tr class="separator:a303cb2b3d50ed727a0b365fcb3d65118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -555,6 +562,8 @@ enable_logging = FALSE  // see setLoggingEnabled()
 </table>
 </div><div class="memdoc">
 <p>Before calling <a class="el" href="classIBTK_1_1FACPreconditioner.html#a824642a3426c79591d2f11f039db780f" title="Solve the linear system of equations  for .">solveSystem()</a>, the form of the solution <em>x</em> and right-hand-side <em>b</em> vectors must be set properly by the user on all patch interiors on the specified range of levels in the patch hierarchy. The user is responsible for all data management for the quantities associated with the solution and right-hand-side vectors. In particular, patch data in these vectors must be allocated prior to calling this method.</p>
+<p>Ghost values of <em>x</em> are unspecified on return. Ghost values of <em>b</em> may be overwritten.</p>
+<dl class="section note"><dt>Note</dt><dd>Without presmoothing, interior values of <em>b</em> on coarse cells covered by finer levels are overwritten.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">x</td><td>solution vector </td></tr>
@@ -566,6 +575,7 @@ enable_logging = FALSE  // see setLoggingEnabled()
 <li>vectors <em>x</em> and <em>b</em> must have same patch hierarchy</li>
 <li>vectors <em>x</em> and <em>b</em> must have same structure, depth, etc.</li>
 <li>vectors that span more than one level must start at level zero</li>
+<li>vectors <em>x</em> and <em>b</em> must not share component patch-data indices</li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>The vector arguments for <a class="el" href="classIBTK_1_1FACPreconditioner.html#a824642a3426c79591d2f11f039db780f" title="Solve the linear system of equations  for .">solveSystem()</a> need not match those for <a class="el" href="classIBTK_1_1FACPreconditioner.html#a158a4a213f7e8861cf2f4fae30798415" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>. However, there must be a certain degree of similarity, including:</dd></dl>
 <dl class="section user"><dt></dt><dd><ul>
@@ -752,6 +762,7 @@ enable_logging = FALSE  // see setLoggingEnabled()
         </tr>
       </table>
 </div><div class="memdoc">
+<p>V_CYCLE visits each coarser level once. W_CYCLE visits each coarser level twice per visit to the level above. F_CYCLE applies an F-cycle and then a V-cycle to the coarser levels. </p>
 
 </div>
 </div>
@@ -859,204 +870,6 @@ enable_logging = FALSE  // see setLoggingEnabled()
 
 </div>
 </div>
-<a id="a27fd5b0fe82608a322065f0bb7865ced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27fd5b0fe82608a322065f0bb7865ced">&#9670;&nbsp;</a></span>FACVCycleNoPreSmoothing()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::FACPreconditioner::FACVCycleNoPreSmoothing </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_num</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81a1c99a7559734fac7afb125ed1b432"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81a1c99a7559734fac7afb125ed1b432">&#9670;&nbsp;</a></span>muCycle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::FACPreconditioner::muCycle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_num</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mu</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a01650b6b531755394e3f162dd20d1cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01650b6b531755394e3f162dd20d1cfc">&#9670;&nbsp;</a></span>FCycle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::FACPreconditioner::FCycle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_num</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a823d81562f26a5e5976a205a18affd43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a823d81562f26a5e5976a205a18affd43">&#9670;&nbsp;</a></span>FMGCycle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::FACPreconditioner::FMGCycle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>u</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level_num</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mu</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0534b2ca49d2ba858f46e65869198a39"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0534b2ca49d2ba858f46e65869198a39">&#9670;&nbsp;</a></span>operator=()</h2>
 
@@ -1088,6 +901,140 @@ enable_logging = FALSE  // see setLoggingEnabled()
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this object. </dd></dl>
+
+</div>
+</div>
+<a id="aacb2d47ace579a339ac63dba5f932f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb2d47ace579a339ac63dba5f932f80">&#9670;&nbsp;</a></span>zeroStartCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FACPreconditioner::zeroStartCycle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceIBTK.html#a19008659d5b79c98ba2edfefb73b17a0">MGCycleType</a>&#160;</td>
+          <td class="paramname"><em>cycle_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>On entry <em>u</em> must be zero, including ghost values, on those levels. Ghost values of <em>f</em> may be overwritten. Without presmoothing, interior values of <em>f</em> on coarse cells covered by finer levels are also overwritten. </p>
+
+</div>
+</div>
+<a id="a573d19919fd13e0f9d4bd62c5266353e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a573d19919fd13e0f9d4bd62c5266353e">&#9670;&nbsp;</a></span>improveCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FACPreconditioner::improveCycle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceIBTK.html#a19008659d5b79c98ba2edfefb73b17a0">MGCycleType</a>&#160;</td>
+          <td class="paramname"><em>cycle_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><em>f</em> is not modified. Ghost values of <em>u</em>, and its values on coarse cells covered by finer levels, may be overwritten. </p>
+
+</div>
+</div>
+<a id="a47712aa971a94cd3ed9855e5158f19df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47712aa971a94cd3ed9855e5158f19df">&#9670;&nbsp;</a></span>allocateCycleScratchData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::FACPreconditioner::allocateCycleScratchData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>solution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1929,6 +1876,72 @@ enable_logging = FALSE  // see setLoggingEnabled()
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3ab53b15c5ec63a3c836ddb58af4080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3ab53b15c5ec63a3c836ddb58af4080">&#9670;&nbsp;</a></span>d_residual_vectors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBTK::FACPreconditioner::d_residual_vectors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a399ba576c69283c8638817ed1c46848e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399ba576c69283c8638817ed1c46848e">&#9670;&nbsp;</a></span>d_rhs_vectors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBTK::FACPreconditioner::d_rhs_vectors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a914b7a4d381d39975bb22cc324db02ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a914b7a4d381d39975bb22cc324db02ec">&#9670;&nbsp;</a></span>d_correction_vectors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBTK::FACPreconditioner::d_correction_vectors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

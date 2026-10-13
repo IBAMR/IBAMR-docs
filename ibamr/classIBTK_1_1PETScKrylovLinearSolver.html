@@ -381,6 +381,7 @@ Friends</h2></td></tr>
 <li>The functionality of the <a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html" title="Class PETScKrylovLinearSolver provides a KrylovLinearSolver interface for a PETSc Krylov subspace ite...">PETScKrylovLinearSolver</a> class is essentially identical regardless as to whether a PETSc KSP object is provided to the class constructor. The main exception is that when an external KSP object is provided to the class constructor, memory management of that object is <em>NOT</em> handled by the <a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html" title="Class PETScKrylovLinearSolver provides a KrylovLinearSolver interface for a PETSc Krylov subspace ite...">PETScKrylovLinearSolver</a>. In particular, it is the caller's responsibility to ensure that the supplied KSP object is properly destroyed via KSPDestroy().</li>
 </ul>
 </dd></dl>
+<p>When this class creates its own KSP object, a Richardson solve limited to one iteration uses KSP_NORM_NONE (no convergence test), and any other solve uses the PETSc default norm type, unless <code>-ksp_norm_type</code> is set.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">options_prefix = ""           // see setOptionsPrefix()
 ksp_type = "gmres"            // see setKSPType()
 initial_guess_nonzero = TRUE  // see setInitialGuessNonzero()

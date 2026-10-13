@@ -271,15 +271,15 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ada91ebdcbac18a7c80e2391fb1968fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827a6d44aa0d603612534c73195027c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a827a6d44aa0d603612534c73195027c6">d_use_consistent_type_2_bdry</a> = false</td></tr>
 <tr class="separator:a827a6d44aa0d603612534c73195027c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54c1eb504f86898783ff02c01cdf4892"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a54c1eb504f86898783ff02c01cdf4892">smoothError</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;error, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, int level_num, int num_sweeps, bool performing_pre_sweeps, bool performing_post_sweeps) override</td></tr>
-<tr class="memdesc:a54c1eb504f86898783ff02c01cdf4892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a given number of relaxations on the error.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a54c1eb504f86898783ff02c01cdf4892">More...</a><br /></td></tr>
-<tr class="separator:a54c1eb504f86898783ff02c01cdf4892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa67008bcd70e0069d438a930dd91f6d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#aa67008bcd70e0069d438a930dd91f6d8">solveCoarsestLevel</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;error, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, int coarsest_ln) override</td></tr>
-<tr class="memdesc:aa67008bcd70e0069d438a930dd91f6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the residual equation Ae=r on the coarsest level of the patch hierarchy.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#aa67008bcd70e0069d438a930dd91f6d8">More...</a><br /></td></tr>
-<tr class="separator:aa67008bcd70e0069d438a930dd91f6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3073a238d10d7320bca150819032485a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a3073a238d10d7320bca150819032485a">computeResidual</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;solution, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;rhs, int coarsest_level_num, int finest_level_num) override</td></tr>
-<tr class="memdesc:a3073a238d10d7320bca150819032485a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute composite grid residual on a range of levels.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a3073a238d10d7320bca150819032485a">More...</a><br /></td></tr>
-<tr class="separator:a3073a238d10d7320bca150819032485a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9723d8938ccd5cbd9f99fa0ea0df1ab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a9723d8938ccd5cbd9f99fa0ea0df1ab9">smoothError</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;error, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, int level_num, int num_sweeps, bool performing_pre_sweeps, bool performing_post_sweeps) override</td></tr>
+<tr class="memdesc:a9723d8938ccd5cbd9f99fa0ea0df1ab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a given number of relaxations on the error.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a9723d8938ccd5cbd9f99fa0ea0df1ab9">More...</a><br /></td></tr>
+<tr class="separator:a9723d8938ccd5cbd9f99fa0ea0df1ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2c553bcc51b7f63ab2b260bed61d57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#afd2c553bcc51b7f63ab2b260bed61d57">solveCoarsestLevel</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;error, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, int coarsest_ln) override</td></tr>
+<tr class="memdesc:afd2c553bcc51b7f63ab2b260bed61d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the residual equation Ae=r on the coarsest level of the patch hierarchy.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#afd2c553bcc51b7f63ab2b260bed61d57">More...</a><br /></td></tr>
+<tr class="separator:afd2c553bcc51b7f63ab2b260bed61d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d16eee0039a11aa358dca124d964cd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a3d16eee0039a11aa358dca124d964cd8">computeResidual</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;solution, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;rhs, int coarsest_level_num, int finest_level_num) override</td></tr>
+<tr class="memdesc:a3d16eee0039a11aa358dca124d964cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute composite grid residual on a range of levels.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a3d16eee0039a11aa358dca124d964cd8">More...</a><br /></td></tr>
+<tr class="separator:a3d16eee0039a11aa358dca124d964cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cdc258794df449dc354b1b733dc10ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a7cdc258794df449dc354b1b733dc10ff">initializeOperatorStateSpecialized</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;solution, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;rhs, int coarsest_reset_ln, int finest_reset_ln) override</td></tr>
 <tr class="memdesc:a7cdc258794df449dc354b1b733dc10ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute implementation-specific hierarchy-dependent data.  <a href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a7cdc258794df449dc354b1b733dc10ff">More...</a><br /></td></tr>
 <tr class="separator:a7cdc258794df449dc354b1b733dc10ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,8 +613,8 @@ level solver
 
 </div>
 </div>
-<a id="a54c1eb504f86898783ff02c01cdf4892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54c1eb504f86898783ff02c01cdf4892">&#9670;&nbsp;</a></span>smoothError()</h2>
+<a id="a9723d8938ccd5cbd9f99fa0ea0df1ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9723d8938ccd5cbd9f99fa0ea0df1ab9">&#9670;&nbsp;</a></span>smoothError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -631,7 +631,7 @@ level solver
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>residual</em>, </td>
         </tr>
         <tr>
@@ -682,12 +682,12 @@ level solver
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#ab0b305ed685e65b6e1e9588e68a63d72">IBTK::FACPreconditionerStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#af70e3c31a8b55d1e5109644e0b2a1f33">IBTK::FACPreconditionerStrategy</a>.</p>
 
 </div>
 </div>
-<a id="aa67008bcd70e0069d438a930dd91f6d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa67008bcd70e0069d438a930dd91f6d8">&#9670;&nbsp;</a></span>solveCoarsestLevel()</h2>
+<a id="afd2c553bcc51b7f63ab2b260bed61d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2c553bcc51b7f63ab2b260bed61d57">&#9670;&nbsp;</a></span>solveCoarsestLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -704,7 +704,7 @@ level solver
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>residual</em>, </td>
         </tr>
         <tr>
@@ -734,12 +734,12 @@ level solver
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#ad8bbbc83a58aa680b19cb84605032a00">IBTK::FACPreconditionerStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a979d41434e137a829d8fc29c9fba8ed4">IBTK::FACPreconditionerStrategy</a>.</p>
 
 </div>
 </div>
-<a id="a3073a238d10d7320bca150819032485a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3073a238d10d7320bca150819032485a">&#9670;&nbsp;</a></span>computeResidual()</h2>
+<a id="a3d16eee0039a11aa358dca124d964cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d16eee0039a11aa358dca124d964cd8">&#9670;&nbsp;</a></span>computeResidual()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -756,7 +756,7 @@ level solver
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
           <td class="paramname"><em>solution</em>, </td>
         </tr>
         <tr>
@@ -800,7 +800,7 @@ level solver
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a0e3578c0f7cad8a598c676bf47fde61b">IBTK::FACPreconditionerStrategy</a>.</p>
+<p>Implements <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#afefac8950da6e84f04924afad2129ea8">IBTK::FACPreconditionerStrategy</a>.</p>
 
 </div>
 </div>
