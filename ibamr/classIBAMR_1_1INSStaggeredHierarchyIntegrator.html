@@ -76,6 +76,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
@@ -351,6 +352,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e3ec75cca71a27c6599a48ac6cd37ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#a9e3ec75cca71a27c6599a48ac6cd37ea">coarsenDataForRichardsonExtrapolation</a> (const tbox::Pointer&lt; hier::PatchHierarchy&lt; DIM &gt; &gt; hierarchy, const int level_number, const tbox::Pointer&lt; hier::PatchLevel&lt; DIM &gt; &gt; coarser_level, const double coarsen_data_time, const bool before_advance)</td></tr>
 <tr class="separator:a9e3ec75cca71a27c6599a48ac6cd37ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a5c910ea3c7685da9c49ab352661693a4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">SolverPhysicalBcCoefs</a> { <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4ac1a4d3eaa5e512053eb2894e21c4a2bf">REGISTERED</a>
+, <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4aadfe1dc4ae5557628bde4981ecedbffd">HOMOGENEOUS</a>
+ }</td></tr>
+<tr class="separator:a5c910ea3c7685da9c49ab352661693a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5bd21050d632cd2fb914f59c586f62a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a5bd21050d632cd2fb914f59c586f62a0">integrateHierarchySpecialized</a> (double current_time, double new_time, int cycle_num=0) override</td></tr>
@@ -375,12 +383,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ae49e2232f200138ba542ee4d22c1304d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43b8b7697a6f852861b40d6cc92d388"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#ad43b8b7697a6f852861b40d6cc92d388">regridProjection</a> (const bool initial_time) override</td></tr>
 <tr class="separator:ad43b8b7697a6f852861b40d6cc92d388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23d025812f2823fa621b0c1ef53767e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#ae23d025812f2823fa621b0c1ef53767e">setSolverPhysicalBcCoefs</a> (<a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">SolverPhysicalBcCoefs</a> bc_coefs) override</td></tr>
+<tr class="separator:ae23d025812f2823fa621b0c1ef53767e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf96dd795dd30dd0d8163661ce6e52a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#aaf96dd795dd30dd0d8163661ce6e52a2">updateCurrentCFLNumber</a> (const int data_idx, const double dt)</td></tr>
 <tr class="separator:aaf96dd795dd30dd0d8163661ce6e52a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab709119a9917d8e838ed3c89abd8cf3b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ab709119a9917d8e838ed3c89abd8cf3b">getMaximumVorticityMagnitude</a> (const int Omega_idx)</td></tr>
 <tr class="separator:ab709119a9917d8e838ed3c89abd8cf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e4ad66d0ec6e60afabedd3b4b7e79a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ab8e4ad66d0ec6e60afabedd3b4b7e79a">tagCellsByVorticityMagnitude</a> (const int level_number, const int Omega_idx, const int tag_idx)</td></tr>
 <tr class="separator:ab8e4ad66d0ec6e60afabedd3b4b7e79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa853e6159b79a4391bb0c9b2ae1b7900"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#aa853e6159b79a4391bb0c9b2ae1b7900">getSolverPhysicalBcCoefs</a> (<a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">SolverPhysicalBcCoefs</a> bc_coefs)</td></tr>
+<tr class="separator:aa853e6159b79a4391bb0c9b2ae1b7900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3c8c60fbcd1569568ceec4f6fe9e79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ace3c8c60fbcd1569568ceec4f6fe9e79">usePhysicalBcCoefsBeforeFirstTimeStep</a> () const</td></tr>
+<tr class="separator:ace3c8c60fbcd1569568ceec4f6fe9e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c62a60882680c1180b07cba6e1554d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a40c62a60882680c1180b07cba6e1554d">getMaximumTimeStepSizeSpecialized</a> () override</td></tr>
 <tr class="separator:a40c62a60882680c1180b07cba6e1554d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a676acb814e0f26146d114931bbfc9953"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a676acb814e0f26146d114931bbfc9953">getStableTimestep</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; level) const</td></tr>
@@ -787,6 +801,10 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a732ee801842877a26a306b26387f3aef"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIBAMR_1_1INSStaggeredVelocityBcCoef.html">INSStaggeredVelocityBcCoef</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a732ee801842877a26a306b26387f3aef">d_staggered_velocity_bc_coefs</a></td></tr>
+<tr class="separator:a732ee801842877a26a306b26387f3aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e100fac882973e2409f46857e5ba86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBAMR_1_1INSStaggeredPressureBcCoef.html">INSStaggeredPressureBcCoef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a75e100fac882973e2409f46857e5ba86">d_staggered_pressure_bc_coef</a> = nullptr</td></tr>
+<tr class="separator:a75e100fac882973e2409f46857e5ba86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b242ca9c0c780c8c58d56ceb305c2f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1math_1_1HierarchyCellDataOpsReal.html">SAMRAI::math::HierarchyCellDataOpsReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a5b242ca9c0c780c8c58d56ceb305c2f9">d_hier_cc_data_ops</a></td></tr>
 <tr class="separator:a5b242ca9c0c780c8c58d56ceb305c2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a86806800a07afff2eabfafd8222f60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1math_1_1HierarchyFaceDataOpsReal.html">SAMRAI::math::HierarchyFaceDataOpsReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a0a86806800a07afff2eabfafd8222f60">d_hier_fc_data_ops</a></td></tr>
@@ -941,6 +959,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ad4752f774b98086a9d43b29eaf0e45a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bd1808b45089235d1a20a0b52b53291"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a3bd1808b45089235d1a20a0b52b53291">d_F_div_idx</a> = <a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">IBTK::invalid_index</a></td></tr>
 <tr class="separator:a3bd1808b45089235d1a20a0b52b53291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6858c9c9516049a59a2ccd5543b12a13"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIBAMR_1_1INSIntermediateVelocityBcCoef.html">INSIntermediateVelocityBcCoef</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a6858c9c9516049a59a2ccd5543b12a13">d_intermediate_velocity_bc_coefs</a></td></tr>
+<tr class="separator:a6858c9c9516049a59a2ccd5543b12a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2868a0274763b48694c909963a90ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBAMR_1_1INSProjectionBcCoef.html">INSProjectionBcCoef</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a8e2868a0274763b48694c909963a90ec">d_projection_bc_coef</a> = nullptr</td></tr>
+<tr class="separator:a8e2868a0274763b48694c909963a90ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d122727aef556f25bb6d0623fe4e4c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a3d122727aef556f25bb6d0623fe4e4c0">d_regridding_hierarchy</a> = false</td></tr>
 <tr class="separator:a3d122727aef556f25bb6d0623fe4e4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b496a55be8454136a958cf957d616c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyIntegrator.html#a5b496a55be8454136a958cf957d616c8">d_at_regrid_time_step</a> = false</td></tr>
@@ -1209,6 +1231,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a5c910ea3c7685da9c49ab352661693a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c910ea3c7685da9c49ab352661693a4">&#9670;&nbsp;</a></span>SolverPhysicalBcCoefs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">IBAMR::INSHierarchyIntegrator::SolverPhysicalBcCoefs</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The physical boundary conditions used by the solver boundary condition objects: those registered with the integrator, or homogeneous Dirichlet conditions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5c910ea3c7685da9c49ab352661693a4ac1a4d3eaa5e512053eb2894e21c4a2bf"></a>REGISTERED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5c910ea3c7685da9c49ab352661693a4aadfe1dc4ae5557628bde4981ecedbffd"></a>HOMOGENEOUS&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -2185,6 +2235,35 @@ Private Attributes</h2></td></tr>
 <p>Project the velocity field following a regridding operation. </p>
 
 <p>Implements <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a9660ab0920f5f5b1a4bd4139eabde07c">IBAMR::INSHierarchyIntegrator</a>.</p>
+
+</div>
+</div>
+<a id="ae23d025812f2823fa621b0c1ef53767e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23d025812f2823fa621b0c1ef53767e">&#9670;&nbsp;</a></span>setSolverPhysicalBcCoefs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::INSStaggeredHierarchyIntegrator::setSolverPhysicalBcCoefs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">SolverPhysicalBcCoefs</a>&#160;</td>
+          <td class="paramname"><em>bc_coefs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the physical boundary conditions used by the solver boundary condition objects. </p>
+
+<p>Reimplemented from <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ad0c5542b03ff2484b78058344257acd6">IBAMR::INSHierarchyIntegrator</a>.</p>
 
 </div>
 </div>
@@ -3604,6 +3683,59 @@ Current implementations of physical boundary conditions require that at any phys
 </div><div class="memdoc">
 <p>Tag cells based on the vorticity magnitude.</p>
 <dl class="section note"><dt>Note</dt><dd>This function is typically called by <a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a048be9bb9c707aaea5ec4ae1b8f84c0b">applyGradientDetectorSpecialized()</a> in inheriting classes. </dd></dl>
+
+</div>
+</div>
+<a id="aa853e6159b79a4391bb0c9b2ae1b7900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa853e6159b79a4391bb0c9b2ae1b7900">&#9670;&nbsp;</a></span>getSolverPhysicalBcCoefs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt;NDIM&gt;*&gt; IBAMR::INSHierarchyIntegrator::getSolverPhysicalBcCoefs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">SolverPhysicalBcCoefs</a>&#160;</td>
+          <td class="paramname"><em>bc_coefs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return the physical boundary conditions selected by <code>bc_coefs</code>. </p>
+
+</div>
+</div>
+<a id="ace3c8c60fbcd1569568ceec4f6fe9e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace3c8c60fbcd1569568ceec4f6fe9e79">&#9670;&nbsp;</a></span>usePhysicalBcCoefsBeforeFirstTimeStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBAMR::INSHierarchyIntegrator::usePhysicalBcCoefsBeforeFirstTimeStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return whether the solver boundary condition objects use the registered physical boundary conditions before the first time step: true if velocity initial conditions are registered or the integrator is restarted. Otherwise the velocity is zero, which need not satisfy the registered conditions, and the objects use homogeneous conditions until the first time step. </p>
 
 </div>
 </div>
@@ -6880,6 +7012,51 @@ This method is collective (i.e., must be called by all MPI processes), so every 
 </table>
 </div><div class="memdoc">
 <p>Whether we need to perform a regrid projection when (re-)initializing composite hierarchy data. </p>
+
+</div>
+</div>
+<a id="a732ee801842877a26a306b26387f3aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a732ee801842877a26a306b26387f3aef">&#9670;&nbsp;</a></span>d_staggered_velocity_bc_coefs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIBAMR_1_1INSStaggeredVelocityBcCoef.html">INSStaggeredVelocityBcCoef</a>*&gt; IBAMR::INSStaggeredHierarchyIntegrator::d_staggered_velocity_bc_coefs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The objects in d_U_bc_coefs and d_P_bc_coef, with their own types. </p>
+
+</div>
+</div>
+<a id="a75e100fac882973e2409f46857e5ba86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e100fac882973e2409f46857e5ba86">&#9670;&nbsp;</a></span>d_staggered_pressure_bc_coef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIBAMR_1_1INSStaggeredPressureBcCoef.html">INSStaggeredPressureBcCoef</a>* IBAMR::INSStaggeredHierarchyIntegrator::d_staggered_pressure_bc_coef = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -10372,6 +10549,51 @@ This method is collective (i.e., must be called by all MPI processes), so every 
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6858c9c9516049a59a2ccd5543b12a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6858c9c9516049a59a2ccd5543b12a13">&#9670;&nbsp;</a></span>d_intermediate_velocity_bc_coefs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIBAMR_1_1INSIntermediateVelocityBcCoef.html">INSIntermediateVelocityBcCoef</a>*&gt; IBAMR::INSHierarchyIntegrator::d_intermediate_velocity_bc_coefs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The objects in d_U_star_bc_coefs and d_Phi_bc_coef, with their own types. </p>
+
+</div>
+</div>
+<a id="a8e2868a0274763b48694c909963a90ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e2868a0274763b48694c909963a90ec">&#9670;&nbsp;</a></span>d_projection_bc_coef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classIBAMR_1_1INSProjectionBcCoef.html">INSProjectionBcCoef</a>* IBAMR::INSHierarchyIntegrator::d_projection_bc_coef = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
