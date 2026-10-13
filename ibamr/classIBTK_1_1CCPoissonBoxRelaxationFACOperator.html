@@ -372,6 +372,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ace2d3191f27c726a80a425d998b7a685"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ace2d3191f27c726a80a425d998b7a685">xeqScheduleDataSynch</a> (int dst_idx, int dst_ln)</td></tr>
 <tr class="memdesc:ace2d3191f27c726a80a425d998b7a685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute schedule for synchronizing data on the specified level.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ace2d3191f27c726a80a425d998b7a685">More...</a><br /></td></tr>
 <tr class="separator:ace2d3191f27c726a80a425d998b7a685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255bae3528f207f196736169275cea93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a255bae3528f207f196736169275cea93">negatePoissonSpecifications</a> (<a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;negated_spec) const</td></tr>
+<tr class="memdesc:a255bae3528f207f196736169275cea93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <em>negated_spec</em> to the Poisson specifications of -A, where A is the operator of this object.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a255bae3528f207f196736169275cea93">More...</a><br /></td></tr>
+<tr class="separator:a255bae3528f207f196736169275cea93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4aca3f106b17ddf71f7397057d3fa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a6a4aca3f106b17ddf71f7397057d3fa5">d_poisson_spec</a></td></tr>
 <tr class="separator:a6a4aca3f106b17ddf71f7397057d3fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e353a52bb9cf7b3352d24eb4c51406"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#aa2e353a52bb9cf7b3352d24eb4c51406">d_default_bc_coef</a></td></tr>
@@ -1787,6 +1790,33 @@ petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patc
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a255bae3528f207f196736169275cea93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255bae3528f207f196736169275cea93">&#9670;&nbsp;</a></span>negatePoissonSpecifications()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PoissonFACPreconditionerStrategy::negatePoissonSpecifications </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
+          <td class="paramname"><em>negated_spec</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section pre"><dt>Precondition</dt><dd>The diffusion coefficient D is constant and the damping coefficient C is zero or constant. </dd></dl>
 
 </div>
 </div>

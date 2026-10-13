@@ -6958,8 +6958,6 @@ $(function() {
 <li>d_patch_bc_box_overlap
 : <a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a8760a2b1967ffc310ab1a25b8be68757">IBTK::CCPoissonBoxRelaxationFACOperator</a>
 , <a class="el" href="classIBTK_1_1CCPoissonLevelRelaxationFACOperator.html#ac84b00891576135f6f3a0ad25581992d">IBTK::CCPoissonLevelRelaxationFACOperator</a>
-, <a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#aa4d39b1a3ddf2c7b4db0a2edd6cef66d">IBTK::CCPoissonPointRelaxationFACOperator</a>
-, <a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a7f55087b8402da86f9311b8514a4d739">IBTK::SCPoissonPointRelaxationFACOperator</a>
 </li>
 <li>d_patch_boundaries
 : <a class="el" href="classSAMRAI_1_1hier_1_1PatchGeometry.html#a6d307d0886d4c36ff99955f04f1c855e">SAMRAI::hier::PatchGeometry&lt; DIM &gt;</a>
@@ -6971,6 +6969,10 @@ $(function() {
 : <a class="el" href="classIBAMR_1_1StaggeredStokesBoxRelaxationFACOperator.html#a1a9b74b4d3442197d86340a1769593fd">IBAMR::StaggeredStokesBoxRelaxationFACOperator</a>
 , <a class="el" href="classIBAMR_1_1StaggeredStokesIBLevelRelaxationFACOperator.html#aae8b2e4a555631d04a88c61ad672c238">IBAMR::StaggeredStokesIBLevelRelaxationFACOperator</a>
 , <a class="el" href="classIBAMR_1_1StaggeredStokesLevelRelaxationFACOperator.html#acd3d845e890d5f17251d7c18b7e63b76">IBAMR::StaggeredStokesLevelRelaxationFACOperator</a>
+</li>
+<li>d_patch_cf_bdry_ghost_boxes
+: <a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#ae53b3d59dd351c2983135af417557da3">IBTK::CCPoissonPointRelaxationFACOperator</a>
+, <a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a2bfa50603a6b8ccc85404f1a577b6839">IBTK::SCPoissonPointRelaxationFACOperator</a>
 </li>
 <li>d_patch_data
 : <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html#a3d527d2259858c478ea395723555d207">SAMRAI::hier::Patch&lt; DIM &gt;</a>
@@ -11485,7 +11487,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html#a91e171aa12b5298c2b0d97ff36cde887">SAMRAI::solv::SAMRAIVectorReal&lt; DIM, TYPE &gt;</a>
 </li>
 <li>DebuggingUtilities()
-: <a class="el" href="classIBTK_1_1DebuggingUtilities.html#a1a15dc8890abbf1681e67072e83039aa">IBTK::DebuggingUtilities</a>
+: <a class="el" href="classIBTK_1_1DebuggingUtilities.html#aca7c70d896ee8a23d61eee5d598699de">IBTK::DebuggingUtilities</a>
 </li>
 <li>DEFAULT
 : <a class="el" href="classIBAMR_1_1AdvDiffConvectiveOperatorManager.html#a316a0b7b51956b7eb28c9eefeaef6c5d">IBAMR::AdvDiffConvectiveOperatorManager</a>
@@ -11637,7 +11639,7 @@ $(function() {
 : <a class="el" href="classSAMRAI_1_1pdat_1_1ArrayDataOperationUtilities.html#a20e97f16bad023643c148a31a5a5d590">SAMRAI::pdat::ArrayDataOperationUtilities&lt; DIM, TYPE, OP &gt;</a>
 </li>
 <li>dof_indices()
-: <a class="el" href="classIBTK_1_1FEData_1_1SystemDofMapCache.html#a0f1ab264d211b5c498c71c27cb68f810">IBTK::FEData::SystemDofMapCache</a>
+: <a class="el" href="classIBTK_1_1FEData_1_1SystemDofMapCache.html#a0d42996d6f24e027e14c0c5e96e18367">IBTK::FEData::SystemDofMapCache</a>
 </li>
 <li>doForwardEulerStep()
 : <a class="el" href="classIBAMR_1_1FEMechanicsExplicitIntegrator.html#a40476151ca8c583b1cb2ac4860651e51">IBAMR::FEMechanicsExplicitIntegrator</a>
@@ -11678,7 +11680,7 @@ $(function() {
 , <a class="el" href="classSAMRAI_1_1pdat_1_1NodeGeometry.html#aa5df2b1e160ee1aa9987acd84918696a">SAMRAI::pdat::NodeGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OuteredgeGeometry.html#ae4ae8984fcab3018858767ecd46deea0">SAMRAI::pdat::OuteredgeGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OuterfaceGeometry.html#a52c131cba525d675cb6f1ef4a67c2f25">SAMRAI::pdat::OuterfaceGeometry&lt; DIM &gt;</a>
-, <a class="el" href="classSAMRAI_1_1pdat_1_1OuternodeGeometry.html#ae258f7790af7b6cee222791a87e57244">SAMRAI::pdat::OuternodeGeometry&lt; DIM &gt;</a>
+, <a class="el" href="classSAMRAI_1_1pdat_1_1OuternodeGeometry.html#a014713890f829637712bfe030e54b7b3">SAMRAI::pdat::OuternodeGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1OutersideGeometry.html#aa5533b96e7daa2cf3d826620e8ec8cb8">SAMRAI::pdat::OutersideGeometry&lt; DIM &gt;</a>
 , <a class="el" href="classSAMRAI_1_1pdat_1_1SideGeometry.html#a6b1b4f54dd0b5b3a329d83d37da32258">SAMRAI::pdat::SideGeometry&lt; DIM &gt;</a>
 </li>

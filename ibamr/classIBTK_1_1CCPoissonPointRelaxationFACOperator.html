@@ -257,8 +257,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af719b682048bbf3de50869242937660d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54d38944f0995e266475d9c3ef52b2f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a54d38944f0995e266475d9c3ef52b2f3">d_coarse_solver_db</a></td></tr>
 <tr class="separator:a54d38944f0995e266475d9c3ef52b2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4d39b1a3ddf2c7b4db0a2edd6cef66d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt; NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#aa4d39b1a3ddf2c7b4db0a2edd6cef66d">d_patch_bc_box_overlap</a></td></tr>
-<tr class="separator:aa4d39b1a3ddf2c7b4db0a2edd6cef66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53b3d59dd351c2983135af417557da3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt; NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#ae53b3d59dd351c2983135af417557da3">d_patch_cf_bdry_ghost_boxes</a></td></tr>
+<tr class="separator:ae53b3d59dd351c2983135af417557da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d2826303c379772fa33dbd3e230fb56"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::map&lt; int, <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a6d2826303c379772fa33dbd3e230fb56">d_patch_neighbor_overlap</a></td></tr>
 <tr class="separator:a6d2826303c379772fa33dbd3e230fb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa555f7085315acd375dfd4784fc1fada"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#aa555f7085315acd375dfd4784fc1fada">d_data_refine_type</a> = &quot;NONE&quot;</td></tr>
@@ -363,6 +363,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ace2d3191f27c726a80a425d998b7a685"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ace2d3191f27c726a80a425d998b7a685">xeqScheduleDataSynch</a> (int dst_idx, int dst_ln)</td></tr>
 <tr class="memdesc:ace2d3191f27c726a80a425d998b7a685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute schedule for synchronizing data on the specified level.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ace2d3191f27c726a80a425d998b7a685">More...</a><br /></td></tr>
 <tr class="separator:ace2d3191f27c726a80a425d998b7a685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255bae3528f207f196736169275cea93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a255bae3528f207f196736169275cea93">negatePoissonSpecifications</a> (<a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;negated_spec) const</td></tr>
+<tr class="memdesc:a255bae3528f207f196736169275cea93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set <em>negated_spec</em> to the Poisson specifications of -A, where A is the operator of this object.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a255bae3528f207f196736169275cea93">More...</a><br /></td></tr>
+<tr class="separator:a255bae3528f207f196736169275cea93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4aca3f106b17ddf71f7397057d3fa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a6a4aca3f106b17ddf71f7397057d3fa5">d_poisson_spec</a></td></tr>
 <tr class="separator:a6a4aca3f106b17ddf71f7397057d3fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e353a52bb9cf7b3352d24eb4c51406"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#aa2e353a52bb9cf7b3352d24eb4c51406">d_default_bc_coef</a></td></tr>
@@ -1623,6 +1626,33 @@ level solver
 
 </div>
 </div>
+<a id="a255bae3528f207f196736169275cea93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255bae3528f207f196736169275cea93">&#9670;&nbsp;</a></span>negatePoissonSpecifications()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PoissonFACPreconditionerStrategy::negatePoissonSpecifications </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
+          <td class="paramname"><em>negated_spec</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section pre"><dt>Precondition</dt><dd>The diffusion coefficient D is constant and the damping coefficient C is zero or constant. </dd></dl>
+
+</div>
+</div>
 <a id="ae730c339c13fd9a6dab42382b585e9ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae730c339c13fd9a6dab42382b585e9ec">&#9670;&nbsp;</a></span>getName()</h2>
 
@@ -1993,8 +2023,8 @@ level solver
 
 </div>
 </div>
-<a id="aa4d39b1a3ddf2c7b4db0a2edd6cef66d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4d39b1a3ddf2c7b4db0a2edd6cef66d">&#9670;&nbsp;</a></span>d_patch_bc_box_overlap</h2>
+<a id="ae53b3d59dd351c2983135af417557da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae53b3d59dd351c2983135af417557da3">&#9670;&nbsp;</a></span>d_patch_cf_bdry_ghost_boxes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2003,7 +2033,7 @@ level solver
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt;NDIM&gt; &gt; &gt; IBTK::CCPoissonPointRelaxationFACOperator::d_patch_bc_box_overlap</td>
+          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt;NDIM&gt; &gt; &gt; IBTK::CCPoissonPointRelaxationFACOperator::d_patch_cf_bdry_ghost_boxes</td>
         </tr>
       </table>
   </td>
