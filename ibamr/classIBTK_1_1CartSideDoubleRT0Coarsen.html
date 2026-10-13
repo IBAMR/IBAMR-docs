@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9cccaf7a9c0c88cf1dc1ef2b16e6b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>With P the RT0 interpolation, the result is P^T / prod(ratio) wherever the stencil lies inside the domain. Fine ghost values outside the fine level must be zero; the weights of a coarse side on a coarse-fine interface then sum to less than one. On a physical boundary only the fine sides inside the domain contribute, with weights normalized to sum to one. </p>
+<div class="textblock"><p>The result is the transpose of RT0 interpolation divided by the product of the refinement ratio. Fine ghost values outside the fine level must be zero. On a physical boundary the weights are normalized to sum to one. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae7f896c9e36c9165d882786eb8530702"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7f896c9e36c9165d882786eb8530702">&#9670;&nbsp;</a></span>CartSideDoubleRT0Coarsen() <span class="overload">[1/2]</span></h2>
@@ -152,7 +152,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">gcw</td><td>Stencil width, which must be at least the refinement ratio minus one in every direction. The default supports a refinement ratio of 2. </td></tr>
+    <tr><td class="paramname">gcw</td><td>Stencil width: at least the refinement ratio minus one in every direction. </td></tr>
   </table>
   </dd>
 </dl>

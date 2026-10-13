@@ -182,7 +182,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#a4eab668045c3de3cedd5c1f8e903b7a5">ALWAYS_HOMOGENEOUS_BC</a> = true</td></tr>
-<tr class="memdesc:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every concrete <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem-specific operations ...">FACPreconditionerStrategy</a> implements the FAC correction scheme: it solves the error equation \( A e = r \) for a Krylov (or standalone <a class="el" href="classIBTK_1_1FACPreconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">FACPreconditioner</a>) linear preconditioner application, and the boundary conditions satisfied by an error/ correction are always the homogeneous form of the original problem's boundary conditions. This is a mathematical consequence of what a correction equation is, not a configurable option, so unlike <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions.">SAMRAI::solv::RobinBcCoefStrategy</a>-facing classes elsewhere in <a class="el" href="namespaceIBTK.html">IBTK</a>, <a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html" title="Class FACPreconditionerStrategy provides an interface for specifying the problem-specific operations ...">FACPreconditionerStrategy</a> does not expose a settable homogeneous-BC toggle; see <a class="el" href="classIBTK_1_1FACPreconditioner.html#a028305d0f184b4ff31e9f0f1912134dd" title="Set whether the solver should use homogeneous boundary conditions.">FACPreconditioner::setHomogeneousBc()</a>, which enforces this invariant on the one place a caller can attempt to configure it.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#a4eab668045c3de3cedd5c1f8e903b7a5">More...</a><br /></td></tr>
+<tr class="memdesc:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether boundary conditions are homogeneous: always, because an FAC preconditioner solves the error equation.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#a4eab668045c3de3cedd5c1f8e903b7a5">More...</a><br /></td></tr>
 <tr class="separator:a4eab668045c3de3cedd5c1f8e903b7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -904,7 +904,7 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The result does not depend on the ghost values of src. A restriction operator that reads ghost cells of the fine data uses homogeneous boundary conditions, so the values of src on boundary sides with prescribed normal velocity do not contribute. The data of src on the next finer level are unchanged; dst is overwritten on level dst_ln, including when src and dst alias.</p>
+<p>The result does not depend on the ghost values of src. dst is overwritten on level dst_ln, including when src and dst alias.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">src</td><td>source residual </td></tr>
@@ -3130,7 +3130,6 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This constant is named, rather than left as a bare <code>true</code> at each of the many call sites in concrete implementations that configure a ghost-cell-filling or level-solver object's own homogeneous-BC setting, so that a future extension supporting a standalone (as opposed to preconditioner-only) FAC or FAS solver &ndash; which would need real, inhomogeneous boundary conditions &ndash; has exactly one symbol to find and repurpose. </p>
 
 </div>
 </div>

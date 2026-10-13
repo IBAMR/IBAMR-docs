@@ -136,7 +136,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ee70eb7263af9f207e6036e20d4bb83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a9ee70eb7263af9f207e6036e20d4bb83">enableLogging</a> () const</td></tr>
 <tr class="separator:a9ee70eb7263af9f207e6036e20d4bb83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a73c5847b5884900f5284609cbf43e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4">correctVolume</a> (double new_time, bool three_phase)</td></tr>
-<tr class="memdesc:a8a73c5847b5884900f5284609cbf43e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct NEW-context interiors at a due correction event.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4">More...</a><br /></td></tr>
+<tr class="memdesc:a8a73c5847b5884900f5284609cbf43e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct the NEW-context level set if a correction is due.  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a8a73c5847b5884900f5284609cbf43e4">More...</a><br /></td></tr>
 <tr class="separator:a8a73c5847b5884900f5284609cbf43e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -177,8 +177,8 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The two-phase correction targets gas volume \(\int H(-(\phi+q))\,dV\); the three-phase correction targets liquid volume \(\int H(\phi+q)H(\psi)\,dV\). Set the initial volume after hierarchy initialization; <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a079060d9831f3821a53529a753265525">setTargetVolume()</a> may update the target before a later correction. The half-width is half_width times the geometric mean cell spacing on each patch.</p>
-<p>The volume tolerance is abs_tol + rel_tol*abs(target). The default rel_tol is 1e-12; omitted abs_tol means 64 machine epsilons times the current fluid capacity. Require finite 0 &lt;= rel_tol &lt; 1 and nonnegative finite abs_tol. max_its (default 64) is a positive trial-evaluation budget, excluding the initial check, at most two bracket endpoints, and final field verification. A safeguarded Newton/bisection solve either accepts a finite field within tolerance or reports TBOX_ERROR before changing the corrected interiors.</p>
-<p>Restart restores the initial volume, target, and half-width. Logging state is transient; interval, iteration budget, and tolerances use current input or defaults. correction_interval must be positive. With interval two, the callbacks correct pre-advance steps 0 and 2 (the first and third advances). </p>
+<p>The volume tolerance is abs_tol + rel_tol*abs(target), with default rel_tol 1e-12 and default abs_tol 64 machine epsilons times the current fluid capacity. max_its (default 64) bounds the trial evaluations. The correction either reaches the tolerance or stops with an error before changing the field.</p>
+<p>Restart restores the initial volume, target, and half-width; the other settings come from the current input. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa0c855b2bf6b4c82817d911a04cbbfb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0c855b2bf6b4c82817d911a04cbbfb9">&#9670;&nbsp;</a></span>LevelSetMassLossFixer()</h2>
@@ -652,7 +652,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>All ranks participate with identical controls. NEW data must be allocated. three_phase selects liquid volume with the second level set demarcating solid; otherwise correct gas volume using the first level set alone. A skipped event leaves the field and last-correction logging unchanged. </p>
+<p>three_phase selects the liquid volume, with the second level set marking the solid; otherwise the gas volume is corrected. </p>
 
 </div>
 </div>
