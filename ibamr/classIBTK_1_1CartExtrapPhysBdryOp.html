@@ -159,6 +159,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb4f4ab82d3df5794daa51b20c3756ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartExtrapPhysBdryOp.html#adb4f4ab82d3df5794daa51b20c3756ef">setPhysicalBoundaryConditions_cell</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const std::vector&lt; std::pair&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt;, std::pair&lt; int, int &gt;&gt;&gt; &amp;bdry_fill_boxes)</td></tr>
 <tr class="memdesc:adb4f4ab82d3df5794daa51b20c3756ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">The implementation of <a class="el" href="classIBTK_1_1CartExtrapPhysBdryOp.html#a7d7464a66f974a0a38942858015aec3e">setPhysicalBoundaryConditions()</a> for cell-centered quantities.  <a href="classIBTK_1_1CartExtrapPhysBdryOp.html#adb4f4ab82d3df5794daa51b20c3756ef">More...</a><br /></td></tr>
 <tr class="separator:adb4f4ab82d3df5794daa51b20c3756ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a4a3660401199910ffe661d039eabe3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartExtrapPhysBdryOp.html#a6a4a3660401199910ffe661d039eabe3">setPhysicalBoundaryConditions_edge</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const std::vector&lt; std::pair&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt;, std::pair&lt; int, int &gt;&gt;&gt; &amp;bdry_fill_boxes)</td></tr>
+<tr class="memdesc:a6a4a3660401199910ffe661d039eabe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The implementation of <a class="el" href="classIBTK_1_1CartExtrapPhysBdryOp.html#a7d7464a66f974a0a38942858015aec3e">setPhysicalBoundaryConditions()</a> for edge-centered quantities.  <a href="classIBTK_1_1CartExtrapPhysBdryOp.html#a6a4a3660401199910ffe661d039eabe3">More...</a><br /></td></tr>
+<tr class="separator:a6a4a3660401199910ffe661d039eabe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeae262a8eb92bc6b5a5eef0064a45aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CartExtrapPhysBdryOp.html#afeae262a8eb92bc6b5a5eef0064a45aa">setPhysicalBoundaryConditions_face</a> (<a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;patch, const std::vector&lt; std::pair&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt;, std::pair&lt; int, int &gt;&gt;&gt; &amp;bdry_fill_boxes)</td></tr>
 <tr class="memdesc:afeae262a8eb92bc6b5a5eef0064a45aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The implementation of <a class="el" href="classIBTK_1_1CartExtrapPhysBdryOp.html#a7d7464a66f974a0a38942858015aec3e">setPhysicalBoundaryConditions()</a> for face-centered quantities.  <a href="classIBTK_1_1CartExtrapPhysBdryOp.html#afeae262a8eb92bc6b5a5eef0064a45aa">More...</a><br /></td></tr>
 <tr class="separator:afeae262a8eb92bc6b5a5eef0064a45aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -686,6 +689,42 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void IBTK::CartExtrapPhysBdryOp::setPhysicalBoundaryConditions_cell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramname"><em>patch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt;, std::pair&lt; int, int &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>bdry_fill_boxes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a4a3660401199910ffe661d039eabe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a4a3660401199910ffe661d039eabe3">&#9670;&nbsp;</a></span>setPhysicalBoundaryConditions_edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::CartExtrapPhysBdryOp::setPhysicalBoundaryConditions_edge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt; &amp;&#160;</td>
           <td class="paramname"><em>patch</em>, </td>
