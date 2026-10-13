@@ -309,6 +309,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is similar to the <a class="el" href="namespaceSAMRAI.html">SAMRAI</a> class <a class="el" href="classSAMRAI_1_1solv_1_1FACPreconditioner.html" title="Implements the FAC iterative solution procedure for a linear system of equations, Au=f,...">SAMRAI::solv::FACPreconditioner</a>, except that this class has been optimized for the case in which the solver is to be used as a single-pass preconditioner, especially for the case in which pre-smoothing sweeps are not needed. This class is not suitable for use as a stand-alone solver; rather, it is intended to be used in conjunction with an iterative Krylov method.</p>
+<p>The preconditioner is a fixed linear operator only if every operation of its strategy is linear. A nonlinear preconditioner requires a flexible Krylov method such as FGMRES, or Richardson iteration.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">cycle_type = "V_CYCLE"  // see setMGCycleType()
 num_pre_sweeps = 0      // see setNumPreSmoothingSweeps()
 num_post_sweeps = 2     // see setNumPostSmoothingSweeps()

@@ -982,6 +982,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad4b2fcc10382e4b16b66a8619f66b3a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ad4b2fcc10382e4b16b66a8619f66b3a6">reportPETScSNESConvergedReason</a> (const std::string &amp;object_name, const SNESConvergedReason &amp;reason, std::ostream &amp;os)</td></tr>
 <tr class="memdesc:ad4b2fcc10382e4b16b66a8619f66b3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Report the SNESConvergedReason.  <a href="namespaceIBTK.html#ad4b2fcc10382e4b16b66a8619f66b3a6">More...</a><br /></td></tr>
 <tr class="separator:ad4b2fcc10382e4b16b66a8619f66b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8d9062aacec43dd1d04bf97ab0f81e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#aeb8d9062aacec43dd1d04bf97ab0f81e">set_fixed_iteration_ksp_defaults</a> (<a class="el" href="classIBTK_1_1GeneralSolver.html">GeneralSolver</a> *solver, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;solver_db)</td></tr>
+<tr class="memdesc:aeb8d9062aacec43dd1d04bf97ab0f81e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make <em>solver</em> apply a fixed number of Richardson iterations with no convergence test if it is a <a class="el" href="classIBTK_1_1PETScLevelSolver.html" title="Class PETScLevelSolver is an abstract LinearSolver for solving systems of linear equations on a singl...">PETScLevelSolver</a> and <em>solver_db</em> does not select a KSP type.  <a href="namespaceIBTK.html#aeb8d9062aacec43dd1d04bf97ab0f81e">More...</a><br /></td></tr>
+<tr class="separator:aeb8d9062aacec43dd1d04bf97ab0f81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98679ba8bd42916479528e003d1e19a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a98679ba8bd42916479528e003d1e19a1">initialize_hypre</a> ()</td></tr>
 <tr class="memdesc:a98679ba8bd42916479528e003d1e19a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Hypre if it is not already initialized, and then finalize it when PETSc is finalized.  <a href="namespaceIBTK.html#a98679ba8bd42916479528e003d1e19a1">More...</a><br /></td></tr>
 <tr class="separator:a98679ba8bd42916479528e003d1e19a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5708,6 +5711,35 @@ template&lt;class MultiArray &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb8d9062aacec43dd1d04bf97ab0f81e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8d9062aacec43dd1d04bf97ab0f81e">&#9670;&nbsp;</a></span>set_fixed_iteration_ksp_defaults()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::set_fixed_iteration_ksp_defaults </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classIBTK_1_1GeneralSolver.html">GeneralSolver</a> *&#160;</td>
+          <td class="paramname"><em>solver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>solver_db</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Call this function before the solver state is initialized. </p>
 
 </div>
 </div>

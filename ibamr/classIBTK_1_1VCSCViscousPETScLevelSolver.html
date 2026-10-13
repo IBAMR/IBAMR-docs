@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f17c2f0d0ccadd6dce099de97a9ec50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a2f17c2f0d0ccadd6dce099de97a9ec50">setKSPType</a> (const std::string &amp;ksp_type)</td></tr>
 <tr class="memdesc:a2f17c2f0d0ccadd6dce099de97a9ec50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the KSP type.  <a href="classIBTK_1_1PETScLevelSolver.html#a2f17c2f0d0ccadd6dce099de97a9ec50">More...</a><br /></td></tr>
 <tr class="separator:a2f17c2f0d0ccadd6dce099de97a9ec50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6342b9fe7057af30548e4ecef3fbcf84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a6342b9fe7057af30548e4ecef3fbcf84">setKSPNormType</a> (KSPNormType ksp_norm_type)</td></tr>
+<tr class="memdesc:a6342b9fe7057af30548e4ecef3fbcf84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the KSP norm type.  <a href="classIBTK_1_1PETScLevelSolver.html#a6342b9fe7057af30548e4ecef3fbcf84">More...</a><br /></td></tr>
+<tr class="separator:a6342b9fe7057af30548e4ecef3fbcf84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8afe46c4cae67979b8f2ec6837959424"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a8afe46c4cae67979b8f2ec6837959424">setOptionsPrefix</a> (const std::string &amp;options_prefix)</td></tr>
 <tr class="memdesc:a8afe46c4cae67979b8f2ec6837959424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the options prefix used by this PETSc solver object.  <a href="classIBTK_1_1PETScLevelSolver.html#a8afe46c4cae67979b8f2ec6837959424">More...</a><br /></td></tr>
 <tr class="separator:a8afe46c4cae67979b8f2ec6837959424"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,10 +268,12 @@ Protected Attributes</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">PETSc objects.</div></td></tr>
 <tr class="memitem:aa6096ab817d34a60889f14cc06d85b0a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#aa6096ab817d34a60889f14cc06d85b0a">d_ksp_type</a> = KSPGMRES</td></tr>
 <tr class="separator:aa6096ab817d34a60889f14cc06d85b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4de4b66e67e2ea4d5e1ff7378386eeba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a4de4b66e67e2ea4d5e1ff7378386eeba">d_pc_type</a> = PCILU</td></tr>
+<tr class="memitem:a4de4b66e67e2ea4d5e1ff7378386eeba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a4de4b66e67e2ea4d5e1ff7378386eeba">d_pc_type</a></td></tr>
 <tr class="separator:a4de4b66e67e2ea4d5e1ff7378386eeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0d9f0d01bd4a193ae56333a91f7734f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#ae0d9f0d01bd4a193ae56333a91f7734f">d_shell_pc_type</a></td></tr>
 <tr class="separator:ae0d9f0d01bd4a193ae56333a91f7734f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e443bdde36ba23072634480d0dd482"><td class="memItemLeft" align="right" valign="top">KSPNormType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a24e443bdde36ba23072634480d0dd482">d_ksp_norm_type</a> = KSP_NORM_DEFAULT</td></tr>
+<tr class="separator:a24e443bdde36ba23072634480d0dd482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae235260829a939ac87c37b68906b5f26"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#ae235260829a939ac87c37b68906b5f26">d_options_prefix</a></td></tr>
 <tr class="separator:ae235260829a939ac87c37b68906b5f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87e8aacc7bd99985627f8fa95dfae15d"><td class="memItemLeft" align="right" valign="top">KSP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a87e8aacc7bd99985627f8fa95dfae15d">d_petsc_ksp</a> = nullptr</td></tr>
@@ -424,6 +429,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a4bb564df1809422f4e9e0a9af80f0ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Field split preconditioner.</h2></td></tr>
+<tr class="memitem:a1f5743f66eca8ad7b82d77c94420315d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a1f5743f66eca8ad7b82d77c94420315d">resetKSPNormType</a> ()</td></tr>
+<tr class="memdesc:a1f5743f66eca8ad7b82d77c94420315d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the norm type of the KSP object.  <a href="classIBTK_1_1PETScLevelSolver.html#a1f5743f66eca8ad7b82d77c94420315d">More...</a><br /></td></tr>
+<tr class="separator:a1f5743f66eca8ad7b82d77c94420315d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ebe977a82317f5ed57369c15ddbef23"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a2ebe977a82317f5ed57369c15ddbef23">d_field_name</a></td></tr>
 <tr class="separator:a2ebe977a82317f5ed57369c15ddbef23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a855c5bcc8337482db39cc7fce380b2b1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; IS &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#a855c5bcc8337482db39cc7fce380b2b1">d_field_is</a></td></tr>
@@ -916,6 +924,33 @@ options_prefix = ""            // see setOptionsPrefix()
 
 </div>
 </div>
+<a id="a6342b9fe7057af30548e4ecef3fbcf84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6342b9fe7057af30548e4ecef3fbcf84">&#9670;&nbsp;</a></span>setKSPNormType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PETScLevelSolver::setKSPNormType </td>
+          <td>(</td>
+          <td class="paramtype">KSPNormType&#160;</td>
+          <td class="paramname"><em>ksp_norm_type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>With KSP_NORM_NONE a solve applies max_iterations iterations with no convergence test. The setting is ignored when the PETSc options database selects the KSP type or the norm type. </p>
+
+</div>
+</div>
 <a id="a8afe46c4cae67979b8f2ec6837959424"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8afe46c4cae67979b8f2ec6837959424">&#9670;&nbsp;</a></span>setOptionsPrefix()</h2>
 
@@ -1330,6 +1365,31 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f5743f66eca8ad7b82d77c94420315d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f5743f66eca8ad7b82d77c94420315d">&#9670;&nbsp;</a></span>resetKSPNormType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PETScLevelSolver::resetKSPNormType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2633,7 +2693,7 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string IBTK::PETScLevelSolver::d_pc_type = PCILU</td>
+          <td class="memname">std::string IBTK::PETScLevelSolver::d_pc_type</td>
         </tr>
       </table>
   </td>
@@ -2656,6 +2716,28 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
       <table class="memname">
         <tr>
           <td class="memname">std::string IBTK::PETScLevelSolver::d_shell_pc_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24e443bdde36ba23072634480d0dd482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24e443bdde36ba23072634480d0dd482">&#9670;&nbsp;</a></span>d_ksp_norm_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">KSPNormType IBTK::PETScLevelSolver::d_ksp_norm_type = KSP_NORM_DEFAULT</td>
         </tr>
       </table>
   </td>

@@ -358,7 +358,9 @@ coarse_solver_type = "DEFAULT"               // see setCoarseSolverType()
 coarse_solver_rel_residual_tol = 1.0e-5      // see setCoarseSolverRelativeTolerance()
 coarse_solver_abs_residual_tol = 1.0e-50     // see setCoarseSolverAbsoluteTolerance()
 coarse_solver_max_iterations = 10            // see setCoarseSolverMaxIterations()
-</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</pre><p>By default, a PETSc level solver used as the coarse solver applies coarse_solver_max_iterations Richardson iterations with no convergence test. A KSP type in coarse_solver_db or the PETSc options database overrides this.</p>
+<p>A Krylov coarse solver or smoother, a coarse solver that stops on a convergence tolerance, or a slope-limiting prolongation method (for example CONSERVATIVE_LINEAR_REFINE) makes the preconditioner nonlinear; see <a class="el" href="classIBTK_1_1FACPreconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">IBTK::FACPreconditioner</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9902e159f0d8792ccd623fbfab4c0b07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9902e159f0d8792ccd623fbfab4c0b07">&#9670;&nbsp;</a></span>PoissonFACPreconditionerStrategy() <span class="overload">[1/3]</span></h2>
 
