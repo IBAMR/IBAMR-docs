@@ -274,6 +274,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a71e7a09a0619787ed193d579b0f49093"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a71e7a09a0619787ed193d579b0f49093">resetKSPPC</a> ()</td></tr>
 <tr class="memdesc:a71e7a09a0619787ed193d579b0f49093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the KSP PC to correspond to the supplied preconditioner.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a71e7a09a0619787ed193d579b0f49093">More...</a><br /></td></tr>
 <tr class="separator:a71e7a09a0619787ed193d579b0f49093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad9c5998f5cebb6a8044823b284f242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a1ad9c5998f5cebb6a8044823b284f242">applyPreconditioner</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y)</td></tr>
+<tr class="memdesc:a1ad9c5998f5cebb6a8044823b284f242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the preconditioner to <em>x</em> and store the result in <em>y</em>.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a1ad9c5998f5cebb6a8044823b284f242">More...</a><br /></td></tr>
+<tr class="separator:a1ad9c5998f5cebb6a8044823b284f242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf0cc3deebfcdc5217cda711d737683"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#afaf0cc3deebfcdc5217cda711d737683">checkPreconditionerLinearity</a> ()</td></tr>
+<tr class="memdesc:afaf0cc3deebfcdc5217cda711d737683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log the additivity defect of the preconditioner, with a warning if the KSP type requires a linear preconditioner.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#afaf0cc3deebfcdc5217cda711d737683">More...</a><br /></td></tr>
+<tr class="separator:afaf0cc3deebfcdc5217cda711d737683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa38f61582c0b0a68b2f78374936a98cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#aa38f61582c0b0a68b2f78374936a98cb">resetMatNullSpace</a> ()</td></tr>
 <tr class="memdesc:aa38f61582c0b0a68b2f78374936a98cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the Mat nullspace object to correspond to the supplied nullspace basis vectors.  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#aa38f61582c0b0a68b2f78374936a98cb">More...</a><br /></td></tr>
 <tr class="separator:aa38f61582c0b0a68b2f78374936a98cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,6 +379,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:aabfd1bbf20ce4c6fd4dc8b309fe59bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a467be5101ff0815fabc87719a8073856"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a467be5101ff0815fabc87719a8073856">d_user_provided_pc</a> = false</td></tr>
 <tr class="separator:a467be5101ff0815fabc87719a8073856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbcbd9a0d5529766338e2c3eec3a77ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#acbcbd9a0d5529766338e2c3eec3a77ef">d_check_preconditioner_linearity</a> = false</td></tr>
+<tr class="separator:acbcbd9a0d5529766338e2c3eec3a77ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79de5e3b8be1297b6318dd21a3b45d6e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a79de5e3b8be1297b6318dd21a3b45d6e">d_checked_preconditioner_linearity</a> = false</td></tr>
+<tr class="separator:a79de5e3b8be1297b6318dd21a3b45d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348e7914536d631c2f1cce3b4082209a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a348e7914536d631c2f1cce3b4082209a">d_nullspace_constant_vec</a></td></tr>
 <tr class="separator:a348e7914536d631c2f1cce3b4082209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81919572587e1468d43174c4a249e2d1"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a81919572587e1468d43174c4a249e2d1">d_petsc_nullspace_constant_vec</a> = nullptr</td></tr>
@@ -1027,6 +1037,67 @@ Private Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void IBTK::PETScKrylovLinearSolver::resetKSPPC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ad9c5998f5cebb6a8044823b284f242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad9c5998f5cebb6a8044823b284f242">&#9670;&nbsp;</a></span>applyPreconditioner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PETScKrylovLinearSolver::applyPreconditioner </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afaf0cc3deebfcdc5217cda711d737683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf0cc3deebfcdc5217cda711d737683">&#9670;&nbsp;</a></span>checkPreconditionerLinearity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PETScKrylovLinearSolver::checkPreconditionerLinearity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2389,6 +2460,50 @@ Private Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool IBTK::PETScKrylovLinearSolver::d_user_provided_pc = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbcbd9a0d5529766338e2c3eec3a77ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbcbd9a0d5529766338e2c3eec3a77ef">&#9670;&nbsp;</a></span>d_check_preconditioner_linearity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::PETScKrylovLinearSolver::d_check_preconditioner_linearity = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79de5e3b8be1297b6318dd21a3b45d6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79de5e3b8be1297b6318dd21a3b45d6e">&#9670;&nbsp;</a></span>d_checked_preconditioner_linearity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::PETScKrylovLinearSolver::d_checked_preconditioner_linearity = false</td>
         </tr>
       </table>
   </td>
