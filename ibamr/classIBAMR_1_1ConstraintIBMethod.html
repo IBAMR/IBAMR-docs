@@ -725,16 +725,16 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a20b82e25d0ac0d2cc2a6deae161b7a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eb6cd6c2aa63f9d30f7142b9f2d400c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a3eb6cd6c2aa63f9d30f7142b9f2d400c">d_velcorrection_projection_spec</a></td></tr>
 <tr class="separator:a3eb6cd6c2aa63f9d30f7142b9f2d400c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2224e572ac1bba4919049224ecd6c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1CCLaplaceOperator.html">IBTK::CCLaplaceOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a0d2224e572ac1bba4919049224ecd6c7">d_velcorrection_projection_op</a></td></tr>
-<tr class="separator:a0d2224e572ac1bba4919049224ecd6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaf4e6ed54b9542b27c2bc0b1aaf94c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1PETScKrylovPoissonSolver.html">IBTK::PETScKrylovPoissonSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#adaf4e6ed54b9542b27c2bc0b1aaf94c6">d_velcorrection_projection_solver</a></td></tr>
-<tr class="separator:adaf4e6ed54b9542b27c2bc0b1aaf94c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a53c2d2f394c17a64539c4e707bb1c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html">IBTK::CCPoissonPointRelaxationFACOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a5a53c2d2f394c17a64539c4e707bb1c6">d_velcorrection_projection_fac_op</a></td></tr>
-<tr class="separator:a5a53c2d2f394c17a64539c4e707bb1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14329c47025100c82053658ee4f428f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a14329c47025100c82053658ee4f428f1">d_velcorrection_projection_fac_pc_db</a></td></tr>
-<tr class="separator:a14329c47025100c82053658ee4f428f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afabb460c28fd2b6b8d78c6f019566ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1FACPreconditioner.html">IBTK::FACPreconditioner</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#afabb460c28fd2b6b8d78c6f019566ed5">d_velcorrection_projection_fac_pc</a></td></tr>
-<tr class="separator:afabb460c28fd2b6b8d78c6f019566ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e0072282e60e59e97836e4902a306b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a59e0072282e60e59e97836e4902a306b">d_velcorrection_projection_solver_type</a> = <a class="el" href="classIBTK_1_1CCPoissonSolverManager.html#aebefb3d01538533931b4e47fb642cf00">IBTK::CCPoissonSolverManager::UNDEFINED</a></td></tr>
+<tr class="separator:a59e0072282e60e59e97836e4902a306b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22f8fa67987d00a127b6e6cd84ee44c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#aa22f8fa67987d00a127b6e6cd84ee44c">d_velcorrection_projection_precond_type</a> = <a class="el" href="classIBTK_1_1CCPoissonSolverManager.html#aebefb3d01538533931b4e47fb642cf00">IBTK::CCPoissonSolverManager::UNDEFINED</a></td></tr>
+<tr class="separator:aa22f8fa67987d00a127b6e6cd84ee44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ff35b32ceb00f28dc507529beb21a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#ab1ff35b32ceb00f28dc507529beb21a6">d_velcorrection_projection_solver_db</a></td></tr>
+<tr class="separator:ab1ff35b32ceb00f28dc507529beb21a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa072b27c9b8ee57c33a2ce77a3c7e1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#aa072b27c9b8ee57c33a2ce77a3c7e1ff">d_velcorrection_projection_precond_db</a></td></tr>
+<tr class="separator:aa072b27c9b8ee57c33a2ce77a3c7e1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4310070d891ebce108e1d86f514a019"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1PoissonSolver.html">IBTK::PoissonSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#ac4310070d891ebce108e1d86f514a019">d_velcorrection_projection_solver</a></td></tr>
+<tr class="separator:ac4310070d891ebce108e1d86f514a019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0322510bbed72b4d336e96842e54905b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; std::ofstream &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a0322510bbed72b4d336e96842e54905b">d_trans_vel_stream</a></td></tr>
 <tr class="separator:a0322510bbed72b4d336e96842e54905b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23da7e7ebb0a86498c441a528082619d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; std::ofstream &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a23da7e7ebb0a86498c441a528082619d">d_rot_vel_stream</a></td></tr>
@@ -769,7 +769,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5591836a8557af41e9a2d8027d1f9881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>References Bhalla et al. A unified mathematical framework and an adaptive numerical method for fluid-structure interaction with rigid, deforming, and elastic bodies. J Comput Phys, 250:446-476 (2013). </p>
+<div class="textblock"><p>References Bhalla et al. A unified mathematical framework and an adaptive numerical method for fluid-structure interaction with rigid, deforming, and elastic bodies. J Comput Phys, 250:446-476 (2013).</p>
+<p>If needs_divfree_projection is TRUE, the corrected velocity is projected with a cell-centered Poisson solver from <a class="el" href="classIBTK_1_1CCPoissonSolverManager.html" title="Class CCPoissonSolverManager is a singleton manager class to provide access to generic cell-centered ...">IBTK::CCPoissonSolverManager</a>. The input keys projection_solver_type and projection_precond_type select the solver and its preconditioner, and the databases projection_solver_db and projection_precond_db, each read only if its type is set, configure them. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a10f9be0baebf763a64825936c1346bbb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10f9be0baebf763a64825936c1346bbb">&#9670;&nbsp;</a></span>ConstraintIBMethod() <span class="overload">[1/3]</span></h2>
@@ -7541,8 +7542,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d2224e572ac1bba4919049224ecd6c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d2224e572ac1bba4919049224ecd6c7">&#9670;&nbsp;</a></span>d_velcorrection_projection_op</h2>
+<a id="a59e0072282e60e59e97836e4902a306b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e0072282e60e59e97836e4902a306b">&#9670;&nbsp;</a></span>d_velcorrection_projection_solver_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7551,7 +7552,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1CCLaplaceOperator.html">IBTK::CCLaplaceOperator</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_op</td>
+          <td class="memname">std::string IBAMR::ConstraintIBMethod::d_velcorrection_projection_solver_type = <a class="el" href="classIBTK_1_1CCPoissonSolverManager.html#aebefb3d01538533931b4e47fb642cf00">IBTK::CCPoissonSolverManager::UNDEFINED</a></td>
         </tr>
       </table>
   </td>
@@ -7563,8 +7564,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adaf4e6ed54b9542b27c2bc0b1aaf94c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaf4e6ed54b9542b27c2bc0b1aaf94c6">&#9670;&nbsp;</a></span>d_velcorrection_projection_solver</h2>
+<a id="aa22f8fa67987d00a127b6e6cd84ee44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa22f8fa67987d00a127b6e6cd84ee44c">&#9670;&nbsp;</a></span>d_velcorrection_projection_precond_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7573,7 +7574,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1PETScKrylovPoissonSolver.html">IBTK::PETScKrylovPoissonSolver</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_solver</td>
+          <td class="memname">std::string IBAMR::ConstraintIBMethod::d_velcorrection_projection_precond_type = <a class="el" href="classIBTK_1_1CCPoissonSolverManager.html#aebefb3d01538533931b4e47fb642cf00">IBTK::CCPoissonSolverManager::UNDEFINED</a></td>
         </tr>
       </table>
   </td>
@@ -7585,8 +7586,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a53c2d2f394c17a64539c4e707bb1c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a53c2d2f394c17a64539c4e707bb1c6">&#9670;&nbsp;</a></span>d_velcorrection_projection_fac_op</h2>
+<a id="ab1ff35b32ceb00f28dc507529beb21a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ff35b32ceb00f28dc507529beb21a6">&#9670;&nbsp;</a></span>d_velcorrection_projection_solver_db</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7595,7 +7596,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html">IBTK::CCPoissonPointRelaxationFACOperator</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_fac_op</td>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_solver_db</td>
         </tr>
       </table>
   </td>
@@ -7607,8 +7608,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a14329c47025100c82053658ee4f428f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14329c47025100c82053658ee4f428f1">&#9670;&nbsp;</a></span>d_velcorrection_projection_fac_pc_db</h2>
+<a id="aa072b27c9b8ee57c33a2ce77a3c7e1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa072b27c9b8ee57c33a2ce77a3c7e1ff">&#9670;&nbsp;</a></span>d_velcorrection_projection_precond_db</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7617,7 +7618,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_fac_pc_db</td>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_precond_db</td>
         </tr>
       </table>
   </td>
@@ -7629,8 +7630,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afabb460c28fd2b6b8d78c6f019566ed5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afabb460c28fd2b6b8d78c6f019566ed5">&#9670;&nbsp;</a></span>d_velcorrection_projection_fac_pc</h2>
+<a id="ac4310070d891ebce108e1d86f514a019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4310070d891ebce108e1d86f514a019">&#9670;&nbsp;</a></span>d_velcorrection_projection_solver</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7639,7 +7640,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1FACPreconditioner.html">IBTK::FACPreconditioner</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_fac_pc</td>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1PoissonSolver.html">IBTK::PoissonSolver</a>&gt; IBAMR::ConstraintIBMethod::d_velcorrection_projection_solver</td>
         </tr>
       </table>
   </td>
