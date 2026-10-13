@@ -404,6 +404,7 @@ Protected Attributes</h2></td></tr>
 <li>\( f \) is a side-centered vector function.</li>
 </ul>
 <p>Robin boundary conditions may be specified at physical boundaries; see class <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions.">SAMRAI::solv::RobinBcCoefStrategy</a>.</p>
+<p>The supported smoother types are <code>"PATCH_GAUSS_SEIDEL"</code> and <code>"PROCESSOR_GAUSS_SEIDEL"</code>. It is an error for the input database to specify any other smoother type, or <code>"RED_BLACK_GAUSS_SEIDEL"</code> as the coarse solver type.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "PATCH_GAUSS_SEIDEL"         // see setSmootherType()
 prolongation_method = "CONSTANT_REFINE"      // see setProlongationMethod()
 restriction_method = "CONSERVATIVE_COARSEN"  // see setRestrictionMethod()
