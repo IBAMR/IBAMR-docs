@@ -210,6 +210,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5efcd1268f235c7adc8ed876af1d4b5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PatchMathOps.html#a5efcd1268f235c7adc8ed876af1d4b5e">laplace</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; dst, double alpha, double beta, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; src1, double gamma, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; src2, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, int l=0, int m=0, int n=0) const</td></tr>
 <tr class="memdesc:a5efcd1268f235c7adc8ed876af1d4b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes dst_l = alpha L src1_m + beta src1_m + gamma src2_n.  <a href="classIBTK_1_1PatchMathOps.html#a5efcd1268f235c7adc8ed876af1d4b5e">More...</a><br /></td></tr>
 <tr class="separator:a5efcd1268f235c7adc8ed876af1d4b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ddafa4b62834b635a2b2948542e7f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PatchMathOps.html#a33ddafa4b62834b635a2b2948542e7f2">laplace_grad</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; dst, double alpha, double beta, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; src1, double gamma, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt;&gt; src2, double delta, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; src3, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch) const</td></tr>
+<tr class="memdesc:a33ddafa4b62834b635a2b2948542e7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes dst = alpha L src1 + beta src1 + gamma grad src2 + delta src3.  <a href="classIBTK_1_1PatchMathOps.html#a33ddafa4b62834b635a2b2948542e7f2">More...</a><br /></td></tr>
+<tr class="separator:a33ddafa4b62834b635a2b2948542e7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b86b709f14e8cdf482e2cfe3e6f6423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PatchMathOps.html#a9b86b709f14e8cdf482e2cfe3e6f6423">laplace</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt;&gt; dst, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1FaceData.html">SAMRAI::pdat::FaceData</a>&lt; NDIM, double &gt;&gt; alpha, double beta, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt;&gt; src1, double gamma, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt;&gt; src2, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, int l=0, int m=0, int n=0) const</td></tr>
 <tr class="memdesc:a9b86b709f14e8cdf482e2cfe3e6f6423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes dst_l = div alpha grad src1_m + beta src1_m + gamma src2_n.  <a href="classIBTK_1_1PatchMathOps.html#a9b86b709f14e8cdf482e2cfe3e6f6423">More...</a><br /></td></tr>
 <tr class="separator:a9b86b709f14e8cdf482e2cfe3e6f6423"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2000,6 +2003,78 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Uses the standard 5 point stencil in 2D (7 point stencil in 3D). </p>
+
+</div>
+</div>
+<a id="a33ddafa4b62834b635a2b2948542e7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ddafa4b62834b635a2b2948542e7f2">&#9670;&nbsp;</a></span>laplace_grad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::PatchMathOps::laplace_grad </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>src1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gamma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>src2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>delta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>src3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
+          <td class="paramname"><em>patch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Uses the standard 5 point stencil in 2D (7 point stencil in 3D) for L and centered differences for grad.</p>
+<dl class="section note"><dt>Note</dt><dd>src2 and src3 are required, and dst must differ from src1 and src3. The terms gamma grad src2 and delta src3 are evaluated even when gamma or delta is zero. </dd></dl>
 
 </div>
 </div>

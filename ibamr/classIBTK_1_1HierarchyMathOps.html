@@ -376,6 +376,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab57b0515fe2b3d63275806bb325a2b4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyMathOps.html#ab57b0515fe2b3d63275806bb325a2b4f">laplace</a> (int dst_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; dst_var, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, int src1_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; src1_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">HierarchyGhostCellInterpolation</a> &gt; src1_ghost_fill, double src1_ghost_fill_time, double gamma=0.0, int src2_idx=<a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">invalid_index</a>, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; src2_var=nullptr)</td></tr>
 <tr class="memdesc:ab57b0515fe2b3d63275806bb325a2b4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the Laplacian of a scalar quantity using centered differences.  <a href="classIBTK_1_1HierarchyMathOps.html#ab57b0515fe2b3d63275806bb325a2b4f">More...</a><br /></td></tr>
 <tr class="separator:ab57b0515fe2b3d63275806bb325a2b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d31e290835d5281c9b277ddbc4be69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a53d31e290835d5281c9b277ddbc4be69">laplace_grad</a> (int dst_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; dst_var, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, int src1_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; src1_var, double gamma, int src2_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt;&gt; src2_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">HierarchyGhostCellInterpolation</a> &gt; ghost_fill, double ghost_fill_time, double delta, int src3_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; src3_var)</td></tr>
+<tr class="memdesc:a53d31e290835d5281c9b277ddbc4be69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the Laplacian of a side-centered vector field plus a cell-centered gradient using centered differences.  <a href="classIBTK_1_1HierarchyMathOps.html#a53d31e290835d5281c9b277ddbc4be69">More...</a><br /></td></tr>
+<tr class="separator:a53d31e290835d5281c9b277ddbc4be69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02716e69db7240f672288e2afcf496a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a02716e69db7240f672288e2afcf496a4">vc_laplace</a> (int dst_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; dst_var, double alpha, double beta, int coef1_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1NodeVariable.html">SAMRAI::pdat::NodeVariable</a>&lt; NDIM, double &gt;&gt; coef1_var, int src1_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; src1_var, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">HierarchyGhostCellInterpolation</a> &gt; src1_ghost_fill, double src1_ghost_fill_time, <a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">IBTK::VCInterpType</a> coef1_interp_type=<a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972ad16a4e03cf055272a86cca038c6b65d6">VC_HARMONIC_INTERP</a>, int coef2_idx=<a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">invalid_index</a>, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; coef2_var=nullptr, double gamma=0.0, int src2_idx=<a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">invalid_index</a>, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt; src2_var=nullptr)</td></tr>
 <tr class="memdesc:a02716e69db7240f672288e2afcf496a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute dst = alpha div coef1 ((grad src1) + (grad src1)^T) + beta coef2 src1 + gamma src2, the variable coefficient generalized Laplacian of src1.  <a href="classIBTK_1_1HierarchyMathOps.html#a02716e69db7240f672288e2afcf496a4">More...</a><br /></td></tr>
 <tr class="separator:a02716e69db7240f672288e2afcf496a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3771,6 +3774,105 @@ Public Member Functions</h2></td></tr>
 <p>Sets dst = C src1 + div D grad src1 + gamma src2.</p>
 <p>Compute the Laplacian of a scalar quantity using centered differences, where C and D are specified by the <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html" title="Light class holding specifications for cell-centered implementation of the scalar Poisson equation.">SAMRAI::solv::PoissonSpecifications</a> object poisson_spec.</p>
 <dl class="section note"><dt>Note</dt><dd>The present implementation of this operator <em>requires</em> that damping factor C and diffusivity D be spatially constant and scalar-valued.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
+<dd>
+<a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
+
+</div>
+</div>
+<a id="a53d31e290835d5281c9b277ddbc4be69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53d31e290835d5281c9b277ddbc4be69">&#9670;&nbsp;</a></span>laplace_grad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::HierarchyMathOps::laplace_grad </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dst_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>dst_var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
+          <td class="paramname"><em>poisson_spec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>src1_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>src1_var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gamma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>src2_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1CellVariable.html">SAMRAI::pdat::CellVariable</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>src2_var</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">HierarchyGhostCellInterpolation</a> &gt;&#160;</td>
+          <td class="paramname"><em>ghost_fill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ghost_fill_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>delta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>src3_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideVariable.html">SAMRAI::pdat::SideVariable</a>&lt; NDIM, double &gt;&gt;&#160;</td>
+          <td class="paramname"><em>src3_var</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets dst = C src1 + div D grad src1 + gamma grad src2 + delta src3, for side-centered src1 and src3 and cell-centered src2. This is equivalent to passing gamma grad src2 + delta src3 as the additive source of <a class="el" href="classIBTK_1_1HierarchyMathOps.html#aa76c3147d62508e01f79861cd16da49e" title="Compute the Laplacian of a scalar quantity using centered differences.">laplace()</a>, but is evaluated in one pass over each patch.</p>
+<dl class="section note"><dt>Note</dt><dd>The present implementation of this operator <em>requires</em> that damping factor C and diffusivity D be spatially constant and scalar-valued. The sources src2 and src3 are required, and dst must differ from src1 and src3.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>

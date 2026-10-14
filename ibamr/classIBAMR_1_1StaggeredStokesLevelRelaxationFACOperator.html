@@ -222,6 +222,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0315263dddffcc71c0eab65fc9e2d5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41aeb9d366adec030e0eebf5e3c034c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a41aeb9d366adec030e0eebf5e3c034c0">d_finest_ln</a> = <a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a></td></tr>
 <tr class="separator:a41aeb9d366adec030e0eebf5e3c034c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3954ea856d9b8351f3131078c5165531"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1math_1_1HierarchySideDataOpsReal.html">SAMRAI::math::HierarchySideDataOpsReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a3954ea856d9b8351f3131078c5165531">d_level_U_data_ops</a></td></tr>
+<tr class="separator:a3954ea856d9b8351f3131078c5165531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9784acac2a8bda1fade48b2f768ef776"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1math_1_1HierarchyCellDataOpsReal.html">SAMRAI::math::HierarchyCellDataOpsReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a9784acac2a8bda1fade48b2f768ef776">d_level_P_data_ops</a></td></tr>
+<tr class="separator:a9784acac2a8bda1fade48b2f768ef776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9364c1a94fc6fd9849e2d4a8fb614900"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a9364c1a94fc6fd9849e2d4a8fb614900">d_level_bdry_fill_ops</a></td></tr>
 <tr class="separator:a9364c1a94fc6fd9849e2d4a8fb614900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab83ed9fd8633ddef9fa4902a3e40b37"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyMathOps.html">IBTK::HierarchyMathOps</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#aab83ed9fd8633ddef9fa4902a3e40b37">d_level_math_ops</a></td></tr>
@@ -2448,6 +2452,50 @@ level_solver_db { }                          // SAMRAI::tbox::Database for the l
       <table class="memname">
         <tr>
           <td class="memname">int IBAMR::StaggeredStokesFACPreconditionerStrategy::d_finest_ln = <a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3954ea856d9b8351f3131078c5165531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3954ea856d9b8351f3131078c5165531">&#9670;&nbsp;</a></span>d_level_U_data_ops</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1math_1_1HierarchySideDataOpsReal.html">SAMRAI::math::HierarchySideDataOpsReal</a>&lt;NDIM, double&gt; &gt; &gt; IBAMR::StaggeredStokesFACPreconditionerStrategy::d_level_U_data_ops</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9784acac2a8bda1fade48b2f768ef776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9784acac2a8bda1fade48b2f768ef776">&#9670;&nbsp;</a></span>d_level_P_data_ops</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1math_1_1HierarchyCellDataOpsReal.html">SAMRAI::math::HierarchyCellDataOpsReal</a>&lt;NDIM, double&gt; &gt; &gt; IBAMR::StaggeredStokesFACPreconditionerStrategy::d_level_P_data_ops</td>
         </tr>
       </table>
   </td>
