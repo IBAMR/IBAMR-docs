@@ -123,10 +123,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a22beaf49e654391c4f619adc74705d"><td class="memItemLeft" align="right" valign="top">virtual const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LaplaceOperator.html#a8a22beaf49e654391c4f619adc74705d">getPhysicalBcCoefs</a> () const</td></tr>
 <tr class="memdesc:a8a22beaf49e654391c4f619adc74705d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions.">SAMRAI::solv::RobinBcCoefStrategy</a> object(s) used to specify physical boundary conditions.  <a href="classIBTK_1_1LaplaceOperator.html#a8a22beaf49e654391c4f619adc74705d">More...</a><br /></td></tr>
 <tr class="separator:a8a22beaf49e654391c4f619adc74705d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Linear operator functionality.</div></td></tr>
-<tr class="memitem:a02009da73fe7c768d1b423af9e27f3f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LinearOperator.html#a02009da73fe7c768d1b423af9e27f3f0">modifyRhsForBcs</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y) override</td></tr>
-<tr class="memdesc:a02009da73fe7c768d1b423af9e27f3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify y to account for boundary conditions.  <a href="classIBTK_1_1LinearOperator.html#a02009da73fe7c768d1b423af9e27f3f0">More...</a><br /></td></tr>
-<tr class="separator:a02009da73fe7c768d1b423af9e27f3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">General operator functionality.</div></td></tr>
 <tr class="memitem:afc9594ec66c202595db571031a56527b"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1GeneralOperator.html#afc9594ec66c202595db571031a56527b">getName</a> () const</td></tr>
 <tr class="memdesc:afc9594ec66c202595db571031a56527b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the object name.  <a href="classIBTK_1_1GeneralOperator.html#afc9594ec66c202595db571031a56527b">More...</a><br /></td></tr>
@@ -164,9 +160,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6ab258a2702471b9a6fdc77c3b2d4ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1GeneralOperator.html#ab6ab258a2702471b9a6fdc77c3b2d4ad">applyAdd</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;z)</td></tr>
 <tr class="memdesc:ab6ab258a2702471b9a6fdc77c3b2d4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute \(z=F[x]+y\).  <a href="classIBTK_1_1GeneralOperator.html#ab6ab258a2702471b9a6fdc77c3b2d4ad">More...</a><br /></td></tr>
 <tr class="separator:ab6ab258a2702471b9a6fdc77c3b2d4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6868278c11dd861066898d7942aac0a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1GeneralOperator.html#a6868278c11dd861066898d7942aac0a0">imposeSolBcs</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u)</td></tr>
-<tr class="memdesc:a6868278c11dd861066898d7942aac0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose boudary conditions in the solution vector.  <a href="classIBTK_1_1GeneralOperator.html#a6868278c11dd861066898d7942aac0a0">More...</a><br /></td></tr>
-<tr class="separator:a6868278c11dd861066898d7942aac0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -176,7 +169,39 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aea16bf0dc7879eca9783d00e5cec35d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67fd39e7dee454523a666a9688721c71"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1LaplaceOperator.html#a67fd39e7dee454523a666a9688721c71">d_bc_coefs</a></td></tr>
 <tr class="separator:a67fd39e7dee454523a666a9688721c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Linear operator functionality.</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Linear operator functionality.</h2></td></tr>
+<tr class="memitem:abac27a8a06d613260025f3703e2bc0cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">IBTK::VCInterpType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#abac27a8a06d613260025f3703e2bc0cb">d_D_interp_type</a></td></tr>
+<tr class="separator:abac27a8a06d613260025f3703e2bc0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9291f59713e6f76ab1a0dff31774ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a6d9291f59713e6f76ab1a0dff31774ca">apply</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y) override</td></tr>
+<tr class="memdesc:a6d9291f59713e6f76ab1a0dff31774ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute y=Ax.  <a href="classIBTK_1_1VCSCViscousOperator.html#a6d9291f59713e6f76ab1a0dff31774ca">More...</a><br /></td></tr>
+<tr class="separator:a6d9291f59713e6f76ab1a0dff31774ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566a14c9044d122f75003b7753e23f8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b">initializeOperatorState</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;in, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;out) override</td></tr>
+<tr class="memdesc:a566a14c9044d122f75003b7753e23f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy-dependent data required for computing y=Ax (and y=A'x).  <a href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b">More...</a><br /></td></tr>
+<tr class="separator:a566a14c9044d122f75003b7753e23f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef125b5c97863c136c70e7f1adab4a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a2ef125b5c97863c136c70e7f1adab4a3">deallocateOperatorState</a> () override</td></tr>
+<tr class="memdesc:a2ef125b5c97863c136c70e7f1adab4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy-dependent data computed by <a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b" title="Compute hierarchy-dependent data required for computing y=Ax (and y=A&#39;x).">initializeOperatorState()</a>.  <a href="classIBTK_1_1VCSCViscousOperator.html#a2ef125b5c97863c136c70e7f1adab4a3">More...</a><br /></td></tr>
+<tr class="separator:a2ef125b5c97863c136c70e7f1adab4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c4505eacdb050074b6fada72db06bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a4c4505eacdb050074b6fada72db06bb8">setDPatchDataInterpolationType</a> (<a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">IBTK::VCInterpType</a> D_interp_type)</td></tr>
+<tr class="memdesc:a4c4505eacdb050074b6fada72db06bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the interpolation type to be used in computing the variable coefficient viscous Laplacian.  <a href="classIBTK_1_1VCSCViscousOperator.html#a4c4505eacdb050074b6fada72db06bb8">More...</a><br /></td></tr>
+<tr class="separator:a4c4505eacdb050074b6fada72db06bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63a26c73909eb2638cd9134a94714f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#aa63a26c73909eb2638cd9134a94714f0">VCSCViscousOperator</a> ()=delete</td></tr>
+<tr class="memdesc:aa63a26c73909eb2638cd9134a94714f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBTK_1_1VCSCViscousOperator.html#aa63a26c73909eb2638cd9134a94714f0">More...</a><br /></td></tr>
+<tr class="separator:aa63a26c73909eb2638cd9134a94714f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955ee6c3d9ed51d49eec3bc29a928a2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a955ee6c3d9ed51d49eec3bc29a928a2d">VCSCViscousOperator</a> (const <a class="el" href="classIBTK_1_1VCSCViscousOperator.html">VCSCViscousOperator</a> &amp;from)=delete</td></tr>
+<tr class="memdesc:a955ee6c3d9ed51d49eec3bc29a928a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classIBTK_1_1VCSCViscousOperator.html#a955ee6c3d9ed51d49eec3bc29a928a2d">More...</a><br /></td></tr>
+<tr class="separator:a955ee6c3d9ed51d49eec3bc29a928a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7357bdaa056943bfc539fd65a20104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html">VCSCViscousOperator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#afc7357bdaa056943bfc539fd65a20104">operator=</a> (const <a class="el" href="classIBTK_1_1VCSCViscousOperator.html">VCSCViscousOperator</a> &amp;that)=delete</td></tr>
+<tr class="memdesc:afc7357bdaa056943bfc539fd65a20104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1VCSCViscousOperator.html#afc7357bdaa056943bfc539fd65a20104">More...</a><br /></td></tr>
+<tr class="separator:afc7357bdaa056943bfc539fd65a20104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Linear operator functionality.</h2></td></tr>
+<tr class="memitem:aeb1eaefc6d48a1f1f43263a6e31f103f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCLaplaceOperator.html#aeb1eaefc6d48a1f1f43263a6e31f103f">modifyRhsForBcs</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y) override</td></tr>
+<tr class="memdesc:aeb1eaefc6d48a1f1f43263a6e31f103f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify the right-hand side vector to account for physical boundary conditions.  <a href="classIBTK_1_1SCLaplaceOperator.html#aeb1eaefc6d48a1f1f43263a6e31f103f">More...</a><br /></td></tr>
+<tr class="separator:aeb1eaefc6d48a1f1f43263a6e31f103f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e082cd4f99f5970b4541301033f2aaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCLaplaceOperator.html#a8e082cd4f99f5970b4541301033f2aaf">imposeSolBcs</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;u) override</td></tr>
+<tr class="memdesc:a8e082cd4f99f5970b4541301033f2aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the solution vector to the prescribed values at Dirichlet boundaries.  <a href="classIBTK_1_1SCLaplaceOperator.html#a8e082cd4f99f5970b4541301033f2aaf">More...</a><br /></td></tr>
+<tr class="separator:a8e082cd4f99f5970b4541301033f2aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc364b744fc4478a58df921ef535138a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCLaplaceOperator.html#abc364b744fc4478a58df921ef535138a">d_ncomp</a> = 0</td></tr>
 <tr class="separator:abc364b744fc4478a58df921ef535138a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0216ec60260d4c212343b0a79c8dbf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1VariableFillPattern.html">SAMRAI::xfer::VariableFillPattern</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCLaplaceOperator.html#af0216ec60260d4c212343b0a79c8dbf8">d_fill_pattern</a></td></tr>
@@ -205,31 +230,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad18a795a5ea2a509ac951b7c0c70be30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f921a0d11eedbb86425ec2378c49940"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCLaplaceOperator.html#a1f921a0d11eedbb86425ec2378c49940">d_use_consistent_type_2_bdry</a> = false</td></tr>
 <tr class="separator:a1f921a0d11eedbb86425ec2378c49940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader">Linear operator functionality.</h2></td></tr>
-<tr class="memitem:abac27a8a06d613260025f3703e2bc0cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">IBTK::VCInterpType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#abac27a8a06d613260025f3703e2bc0cb">d_D_interp_type</a></td></tr>
-<tr class="separator:abac27a8a06d613260025f3703e2bc0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d9291f59713e6f76ab1a0dff31774ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a6d9291f59713e6f76ab1a0dff31774ca">apply</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;x, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;y) override</td></tr>
-<tr class="memdesc:a6d9291f59713e6f76ab1a0dff31774ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute y=Ax.  <a href="classIBTK_1_1VCSCViscousOperator.html#a6d9291f59713e6f76ab1a0dff31774ca">More...</a><br /></td></tr>
-<tr class="separator:a6d9291f59713e6f76ab1a0dff31774ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566a14c9044d122f75003b7753e23f8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b">initializeOperatorState</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;in, const <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;out) override</td></tr>
-<tr class="memdesc:a566a14c9044d122f75003b7753e23f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute hierarchy-dependent data required for computing y=Ax (and y=A'x).  <a href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b">More...</a><br /></td></tr>
-<tr class="separator:a566a14c9044d122f75003b7753e23f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ef125b5c97863c136c70e7f1adab4a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a2ef125b5c97863c136c70e7f1adab4a3">deallocateOperatorState</a> () override</td></tr>
-<tr class="memdesc:a2ef125b5c97863c136c70e7f1adab4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all hierarchy-dependent data computed by <a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b" title="Compute hierarchy-dependent data required for computing y=Ax (and y=A&#39;x).">initializeOperatorState()</a>.  <a href="classIBTK_1_1VCSCViscousOperator.html#a2ef125b5c97863c136c70e7f1adab4a3">More...</a><br /></td></tr>
-<tr class="separator:a2ef125b5c97863c136c70e7f1adab4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c4505eacdb050074b6fada72db06bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a4c4505eacdb050074b6fada72db06bb8">setDPatchDataInterpolationType</a> (<a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">IBTK::VCInterpType</a> D_interp_type)</td></tr>
-<tr class="memdesc:a4c4505eacdb050074b6fada72db06bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the interpolation type to be used in computing the variable coefficient viscous Laplacian.  <a href="classIBTK_1_1VCSCViscousOperator.html#a4c4505eacdb050074b6fada72db06bb8">More...</a><br /></td></tr>
-<tr class="separator:a4c4505eacdb050074b6fada72db06bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa63a26c73909eb2638cd9134a94714f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#aa63a26c73909eb2638cd9134a94714f0">VCSCViscousOperator</a> ()=delete</td></tr>
-<tr class="memdesc:aa63a26c73909eb2638cd9134a94714f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBTK_1_1VCSCViscousOperator.html#aa63a26c73909eb2638cd9134a94714f0">More...</a><br /></td></tr>
-<tr class="separator:aa63a26c73909eb2638cd9134a94714f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955ee6c3d9ed51d49eec3bc29a928a2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a955ee6c3d9ed51d49eec3bc29a928a2d">VCSCViscousOperator</a> (const <a class="el" href="classIBTK_1_1VCSCViscousOperator.html">VCSCViscousOperator</a> &amp;from)=delete</td></tr>
-<tr class="memdesc:a955ee6c3d9ed51d49eec3bc29a928a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classIBTK_1_1VCSCViscousOperator.html#a955ee6c3d9ed51d49eec3bc29a928a2d">More...</a><br /></td></tr>
-<tr class="separator:a955ee6c3d9ed51d49eec3bc29a928a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc7357bdaa056943bfc539fd65a20104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html">VCSCViscousOperator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#afc7357bdaa056943bfc539fd65a20104">operator=</a> (const <a class="el" href="classIBTK_1_1VCSCViscousOperator.html">VCSCViscousOperator</a> &amp;that)=delete</td></tr>
-<tr class="memdesc:afc7357bdaa056943bfc539fd65a20104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1VCSCViscousOperator.html#afc7357bdaa056943bfc539fd65a20104">More...</a><br /></td></tr>
-<tr class="separator:afc7357bdaa056943bfc539fd65a20104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Logging functions.</h2></td></tr>
 <tr class="memitem:ae5ba851c3f2a5ec868aa742d67693f4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1GeneralOperator.html#ae5ba851c3f2a5ec868aa742d67693f4e">setLoggingEnabled</a> (bool enable_logging=true)</td></tr>
@@ -552,6 +552,77 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aeb1eaefc6d48a1f1f43263a6e31f103f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb1eaefc6d48a1f1f43263a6e31f103f">&#9670;&nbsp;</a></span>modifyRhsForBcs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::SCLaplaceOperator::modifyRhsForBcs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the right-hand side to zero at Dirichlet boundaries.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b" title="Compute hierarchy-dependent data required for computing y=Ax (and y=A&#39;x).">initializeOperatorState</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">y</td><td>right-hand side vector </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classIBTK_1_1LinearOperator.html#a02009da73fe7c768d1b423af9e27f3f0">IBTK::LinearOperator</a>.</p>
+
+</div>
+</div>
+<a id="a8e082cd4f99f5970b4541301033f2aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e082cd4f99f5970b4541301033f2aaf">&#9670;&nbsp;</a></span>imposeSolBcs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::SCLaplaceOperator::imposeSolBcs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b" title="Compute hierarchy-dependent data required for computing y=Ax (and y=A&#39;x).">initializeOperatorState</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td>solution vector </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classIBTK_1_1GeneralOperator.html#a6868278c11dd861066898d7942aac0a0">IBTK::GeneralOperator</a>.</p>
+
+</div>
+</div>
 <a id="a06e9ed2534e16deddab3fb1fcbbbdeb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06e9ed2534e16deddab3fb1fcbbbdeb4">&#9670;&nbsp;</a></span>setPoissonSpecifications()</h2>
 
@@ -691,38 +762,6 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a02009da73fe7c768d1b423af9e27f3f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02009da73fe7c768d1b423af9e27f3f0">&#9670;&nbsp;</a></span>modifyRhsForBcs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::LinearOperator::modifyRhsForBcs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>y</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Before calling this function, the form of the vector y should be set properly by the user on all patch interiors on the range of levels covered by the operator. All data in this vector should be allocated. The user is responsible for managing the storage for the vectors.</p>
-<dl class="section note"><dt>Note</dt><dd>The operator MUST be initialized prior to calling modifyRhsForBcs.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b" title="Compute hierarchy-dependent data required for computing y=Ax (and y=A&#39;x).">initializeOperatorState</a></dd></dl>
-<dl class="section note"><dt>Note</dt><dd>A default implementation evaluates y := y - A*0. </dd></dl>
-
-<p>Reimplemented from <a class="el" href="classIBTK_1_1GeneralOperator.html#a008757f9aa9f4a5ebb53692d9797e749">IBTK::GeneralOperator</a>.</p>
 
 </div>
 </div>
@@ -1073,36 +1112,6 @@ Protected Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>A default implementation is provided which employs <a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a6d9291f59713e6f76ab1a0dff31774ca" title="Compute y=Ax.">apply()</a> and <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html#a44464de64f153b861cb6975db8903421">SAMRAI::solv::SAMRAIVectorReal::add()</a>. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classIBTK_1_1PETScSNESJacobianJOWrapper.html#a26ff22df5676451c9199b61525a4acfd">IBTK::PETScSNESJacobianJOWrapper</a>, and <a class="el" href="classIBTK_1_1PETScMatLOWrapper.html#a5fd2a14168ae6334eb67693d7cdc74ef">IBTK::PETScMatLOWrapper</a>.</p>
-
-</div>
-</div>
-<a id="a6868278c11dd861066898d7942aac0a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6868278c11dd861066898d7942aac0a0">&#9670;&nbsp;</a></span>imposeSolBcs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void IBTK::GeneralOperator::imposeSolBcs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>u</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Before calling this function, the form of the vector y should be set properly by the user on all patch interiors on the range of levels covered by the operator. All data in this vector should be allocated. The user is responsible for managing the storage for the vectors.</p>
-<dl class="section note"><dt>Note</dt><dd>The operator MUST be initialized prior to calling imposeSolBcs.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1VCSCViscousOperator.html#a566a14c9044d122f75003b7753e23f8b" title="Compute hierarchy-dependent data required for computing y=Ax (and y=A&#39;x).">initializeOperatorState</a></dd></dl>
-<dl class="section note"><dt>Note</dt><dd>A default implementation does not modify the sol vector u. </dd></dl>
 
 </div>
 </div>

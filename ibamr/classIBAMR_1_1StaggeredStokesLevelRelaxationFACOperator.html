@@ -412,7 +412,7 @@ level_solver_rel_residual_tol = 1.0e-5
 level_solver_abs_residual_tol = 1.0e-50
 level_solver_max_iterations = 1
 level_solver_db { }                          // SAMRAI::tbox::Database for the level solvers
-</pre><p>By default, PETSc level solvers apply level_solver_max_iterations Richardson iterations with no convergence test. A KSP type in level_solver_db or the PETSc options database overrides this. The default coarse solver applies the level solver coarse_solver_max_iterations times. </p>
+</pre><p>By default, PETSc level solvers apply level_solver_max_iterations Richardson iterations with no convergence test. A KSP type in level_solver_db or the PETSc options database overrides this. A level solver with KSP type preonly cannot apply post-smoothing sweeps; use richardson. The default coarse solver applies the level solver coarse_solver_max_iterations times. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a21c76410741516e2c74e5db3d5d51412"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21c76410741516e2c74e5db3d5d51412">&#9670;&nbsp;</a></span>StaggeredStokesLevelRelaxationFACOperator() <span class="overload">[1/3]</span></h2>

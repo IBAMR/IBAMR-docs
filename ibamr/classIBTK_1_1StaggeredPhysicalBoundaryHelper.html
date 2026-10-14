@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83cf0723707dc4ef5b3b776cbf0d1a31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html#a83cf0723707dc4ef5b3b776cbf0d1a31">copyDataAtDirichletBoundaries</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; u_out_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt;&gt; u_in_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch) const</td></tr>
 <tr class="memdesc:a83cf0723707dc4ef5b3b776cbf0d1a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data to u_data_out_idx from u_data_in_idx at Dirichlet boundaries on a single patch.  <a href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html#a83cf0723707dc4ef5b3b776cbf0d1a31">More...</a><br /></td></tr>
 <tr class="separator:a83cf0723707dc4ef5b3b776cbf0d1a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e96470eef1f9b1c1b551a8c0c1a8359"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html#a2e96470eef1f9b1c1b551a8c0c1a8359">setDataAtDirichletBoundaries</a> (int u_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_bc_coefs, double fill_time, bool homogeneous_bc, int coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>, int finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>) const</td></tr>
+<tr class="memdesc:a2e96470eef1f9b1c1b551a8c0c1a8359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the data at Dirichlet boundaries to the values prescribed by u_bc_coefs at time fill_time, or to zero if homogeneous_bc is true, over the specified range of levels in the patch hierarchy.  <a href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html#a2e96470eef1f9b1c1b551a8c0c1a8359">More...</a><br /></td></tr>
+<tr class="separator:a2e96470eef1f9b1c1b551a8c0c1a8359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01782456d62ab116a92405f4cb847cf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html#a01782456d62ab116a92405f4cb847cf8">setupMaskingFunction</a> (int mask_data_idx, int coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>, int finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a>) const</td></tr>
 <tr class="memdesc:a01782456d62ab116a92405f4cb847cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup a masking function over the specified range of levels in the patch hierarchy.  <a href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html#a01782456d62ab116a92405f4cb847cf8">More...</a><br /></td></tr>
 <tr class="separator:a01782456d62ab116a92405f4cb847cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -304,6 +307,58 @@ Private Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt;&#160;</td>
           <td class="paramname"><em>patch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e96470eef1f9b1c1b551a8c0c1a8359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e96470eef1f9b1c1b551a8c0c1a8359">&#9670;&nbsp;</a></span>setDataAtDirichletBoundaries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::StaggeredPhysicalBoundaryHelper::setDataAtDirichletBoundaries </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>u_data_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>u_bc_coefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fill_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>homogeneous_bc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coarsest_ln</em> = <code><a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>finest_ln</em> = <code><a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">invalid_level_number</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
