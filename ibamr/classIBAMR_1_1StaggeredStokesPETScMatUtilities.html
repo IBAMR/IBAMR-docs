@@ -74,6 +74,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">IBAMR::StaggeredStokesPETScMatUtilities Class Reference</div>  </div>
@@ -85,9 +87,8 @@ $(function() {
 
 <p><code>#include &lt;ibamr/StaggeredStokesPETScMatUtilities.h&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader">Methods acting on SAMRAI::hier::PatchLevel and</h2></td></tr>
-<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp3b4570e40d66e58a1807a032dae07012"></a><a class="el" href="classSAMRAI_1_1hier_1_1Variable.html">SAMRAI::hier::Variable</a> objects. </p>
-</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a6161eb577621bb243211786175474d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7a6161eb577621bb243211786175474d">constructPatchLevelMACStokesOp</a> (Mat &amp;mat, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;u_problem_coefs, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_bc_coefs, double data_time, const std::vector&lt; int &gt; &amp;num_dofs_per_proc, int u_dof_index_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
 <tr class="memdesc:a7a6161eb577621bb243211786175474d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a parallel PETSc Mat object corresponding to a MAC discretization of the time-dependent incompressible Stokes equations on a single <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7a6161eb577621bb243211786175474d">More...</a><br /></td></tr>
 <tr class="separator:a7a6161eb577621bb243211786175474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -100,6 +101,9 @@ $(function() {
 <tr class="memitem:a7c98a3b260c2eac68afdb0fca216d601"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7c98a3b260c2eac68afdb0fca216d601">constructProlongationOp</a> (Mat &amp;mat, const std::string &amp;u_op_type, const std::string &amp;p_op_type, int u_dof_index_idx, int p_dof_index_idx, const std::vector&lt; int &gt; &amp;num_fine_dofs_per_proc, const std::vector&lt; int &gt; &amp;num_coarse_dofs_per_proc, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; fine_patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; coarse_patch_level, const AO &amp;coarse_level_ao, const int u_coarse_ao_offset, const int p_coarse_ao_offset)</td></tr>
 <tr class="memdesc:a7c98a3b260c2eac68afdb0fca216d601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a parallel PETSc Mat object corresponding to data prolongation from a coarser level to a finer level.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a7c98a3b260c2eac68afdb0fca216d601">More...</a><br /></td></tr>
 <tr class="separator:a7c98a3b260c2eac68afdb0fca216d601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:a6d679b021eba50b7bd2981ac0d4f81a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a6d679b021eba50b7bd2981ac0d4f81a7">StaggeredStokesPETScMatUtilities</a> ()=delete</td></tr>
 <tr class="memdesc:a6d679b021eba50b7bd2981ac0d4f81a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBAMR_1_1StaggeredStokesPETScMatUtilities.html#a6d679b021eba50b7bd2981ac0d4f81a7">More...</a><br /></td></tr>
 <tr class="separator:a6d679b021eba50b7bd2981ac0d4f81a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
