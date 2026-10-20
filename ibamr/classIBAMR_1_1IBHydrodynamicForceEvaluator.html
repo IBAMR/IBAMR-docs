@@ -361,6 +361,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The faces of the integration domain must lie on cell sides of the coarsest level. A face that does not is moved outward to the nearest such side, and <code>box_X_lower</code> and <code>box_X_upper</code> are updated.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">box_X_lower</td><td>Initial (typically at time = 0) position of lower left corner of the integration domain.</td></tr>
