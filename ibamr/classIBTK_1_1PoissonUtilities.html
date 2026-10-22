@@ -109,8 +109,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae185fefcbdb3cb9c748ec544c97f3521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adef070c669f20a2d351699c769d11629"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#adef070c669f20a2d351699c769d11629">adjustRHSAtCoarseFineBoundary</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type1_cf_bdry, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type2_cf_bdry, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, bool homogeneous_bc)</td></tr>
 <tr class="separator:adef070c669f20a2d351699c769d11629"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4173af51b117cb755026d7675da8032"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#aa4173af51b117cb755026d7675da8032">adjustVCSCViscousOpRHSAtCoarseFineBoundary</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, double alpha, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type1_cf_bdry, <a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">VCInterpType</a> mu_interp_type=<a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972ad16a4e03cf055272a86cca038c6b65d6">VC_HARMONIC_INTERP</a>)</td></tr>
-<tr class="separator:aa4173af51b117cb755026d7675da8032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d22fa0e867c788743c246947ec62f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#a15d22fa0e867c788743c246947ec62f0">adjustVCSCViscousOpRHSAtCoarseFineBoundary</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, double alpha, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type1_cf_bdry, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type2_cf_bdry, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, <a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">VCInterpType</a> mu_interp_type=<a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972ad16a4e03cf055272a86cca038c6b65d6">VC_HARMONIC_INTERP</a>)</td></tr>
+<tr class="separator:a15d22fa0e867c788743c246947ec62f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -845,8 +845,8 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa4173af51b117cb755026d7675da8032"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4173af51b117cb755026d7675da8032">&#9670;&nbsp;</a></span>adjustVCSCViscousOpRHSAtCoarseFineBoundary()</h2>
+<a id="a15d22fa0e867c788743c246947ec62f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d22fa0e867c788743c246947ec62f0">&#9670;&nbsp;</a></span>adjustVCSCViscousOpRHSAtCoarseFineBoundary()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -893,6 +893,24 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>type2_cf_bdry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bc_coefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>data_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">VCInterpType</a>&#160;</td>
           <td class="paramname"><em>mu_interp_type</em> = <code><a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972ad16a4e03cf055272a86cca038c6b65d6">VC_HARMONIC_INTERP</a></code>&#160;</td>
         </tr>
@@ -909,6 +927,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for coarse-fine interface boundary conditions corresponding to a side-centered discretization of the variable coefficient viscous operator.</p>
+<p>For each side of the patch, this function subtracts from rhs_data the contribution of each stencil entry that the matrix of the level solver does not contain, using the ghost values in sol_data. It modifies only rhs_data in the side box of the patch and leaves the entries of Dirichlet identity rows unchanged. The boundary boxes of codimension 2 (the corner cells in 2D and the edge cells in 3D) tell which ghost cells that touch the patch only along an edge or corner belong to the level; bc_coefs are evaluated at data_time.</p>
 <dl class="section note"><dt>Note</dt><dd>This function simply uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces.</dd>
 <dd>
 The scaling factors of \( D \) variable in the PoissonSpecification object is passed separately and is denoted \( \alpha \). </dd></dl>
