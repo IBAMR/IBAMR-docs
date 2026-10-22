@@ -627,7 +627,8 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Modify the right-hand side entries to account for physical boundary conditions corresponding to a side-centered discretization of the Laplacian. </p>
+<p>Modify the right-hand side entries to account for physical boundary conditions corresponding to a side-centered discretization of the Laplacian.</p>
+<p>This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b exactly zero), which holds the boundary value. </p>
 
 </div>
 </div>
@@ -701,6 +702,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for physical boundary conditions corresponding to a side-centered discretization of the variable-coefficient viscous operator.</p>
+<p>This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b exactly zero), which holds the boundary value.</p>
 <dl class="section note"><dt>Note</dt><dd>The scaling factors of \( D \) variable in the PoissonSpecification object is passed separately and is denoted \( \alpha \). </dd></dl>
 
 </div>
