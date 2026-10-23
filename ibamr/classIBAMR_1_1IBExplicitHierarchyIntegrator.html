@@ -380,6 +380,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0ae88f36249acfb3058bfe9b2c0d5c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb72838f4c5fde08c0a9f521666ac531"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#abb72838f4c5fde08c0a9f521666ac531">d_warn_on_dt_change</a> = false</td></tr>
 <tr class="separator:abb72838f4c5fde08c0a9f521666ac531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340585a4bbc9d951d525d09640fc9d6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#a340585a4bbc9d951d525d09640fc9d6b">d_skip_check_for_dt_change</a> = true</td></tr>
+<tr class="separator:a340585a4bbc9d951d525d09640fc9d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31674d7d692ad6b65435d991357ce0eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html">INSHierarchyIntegrator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#a31674d7d692ad6b65435d991357ce0eb">d_ins_hier_integrator</a></td></tr>
 <tr class="separator:a31674d7d692ad6b65435d991357ce0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f3bbd6ad480fd655c923ac6d1cb77e8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBHierarchyIntegrator.html#a7f3bbd6ad480fd655c923ac6d1cb77e8">d_regrid_fluid_cfl_interval</a> = -1.0</td></tr>
@@ -5422,6 +5424,29 @@ This method is collective (i.e., must be called by all MPI processes), so every 
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a340585a4bbc9d951d525d09640fc9d6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a340585a4bbc9d951d525d09640fc9d6b">&#9670;&nbsp;</a></span>d_skip_check_for_dt_change</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBAMR::IBHierarchyIntegrator::d_skip_check_for_dt_change = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Flag indicating that the next call to <a class="el" href="classIBAMR_1_1IBExplicitHierarchyIntegrator.html#a49897f00f9a640d8be91985b4637e767">preprocessIntegrateHierarchy()</a> is this object's first, for which the time step size change check is skipped. </p>
 
 </div>
 </div>
