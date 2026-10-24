@@ -513,9 +513,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a3d192dbd092c2dca456188eca7d03e9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a3d192dbd092c2dca456188eca7d03e9f">calculateVolumeElement</a> ()</td></tr>
 <tr class="memdesc:a3d192dbd092c2dca456188eca7d03e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate volume element associated with material points.  <a href="classIBAMR_1_1ConstraintIBMethod.html#a3d192dbd092c2dca456188eca7d03e9f">More...</a><br /></td></tr>
 <tr class="separator:a3d192dbd092c2dca456188eca7d03e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5274202a45a4250f7d4d2da5cab604b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#aa5274202a45a4250f7d4d2da5cab604b">setCounter</a> ()</td></tr>
-<tr class="memdesc:aa5274202a45a4250f7d4d2da5cab604b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the counter for this method.  <a href="classIBAMR_1_1ConstraintIBMethod.html#aa5274202a45a4250f7d4d2da5cab604b">More...</a><br /></td></tr>
-<tr class="separator:aa5274202a45a4250f7d4d2da5cab604b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9ba8fea8d44198cdfd06cd5ed51445"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#abc9ba8fea8d44198cdfd06cd5ed51445">setFuRMoRPTime</a> (const double current_time, const double new_time)</td></tr>
 <tr class="memdesc:abc9ba8fea8d44198cdfd06cd5ed51445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the time at which FuRMoRP is applied.  <a href="classIBAMR_1_1ConstraintIBMethod.html#abc9ba8fea8d44198cdfd06cd5ed51445">More...</a><br /></td></tr>
 <tr class="separator:abc9ba8fea8d44198cdfd06cd5ed51445"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -646,10 +643,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a07bdd595542ce7decf06b3782c85a366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8a59db8355b0309f54d246e80baa3d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#af8a59db8355b0309f54d246e80baa3d7">d_calculate_structure_rotational_mom</a> = false</td></tr>
 <tr class="separator:af8a59db8355b0309f54d246e80baa3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b20d3db764f88919837817f6ddb3224"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a7b20d3db764f88919837817f6ddb3224">d_timestep_counter</a> = 0</td></tr>
-<tr class="separator:a7b20d3db764f88919837817f6ddb3224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89401e3a8e0f322f33a22835b0e4970f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a89401e3a8e0f322f33a22835b0e4970f">d_output_interval</a> = 1</td></tr>
 <tr class="separator:a89401e3a8e0f322f33a22835b0e4970f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c82b3400f78373847c3ad46264ddca8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a2c82b3400f78373847c3ad46264ddca8">d_write_output</a> = false</td></tr>
+<tr class="separator:a2c82b3400f78373847c3ad46264ddca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9277421add1faff62674833bc23266b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a9277421add1faff62674833bc23266b2">d_print_output</a> = false</td></tr>
 <tr class="separator:a9277421add1faff62674833bc23266b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e2d9d39bea54b1da3afe661abf4ae13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a9e2d9d39bea54b1da3afe661abf4ae13">d_output_drag</a> = false</td></tr>
@@ -1769,31 +1766,6 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa5274202a45a4250f7d4d2da5cab604b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5274202a45a4250f7d4d2da5cab604b">&#9670;&nbsp;</a></span>setCounter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::ConstraintIBMethod::setCounter </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -6655,29 +6627,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b20d3db764f88919837817f6ddb3224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b20d3db764f88919837817f6ddb3224">&#9670;&nbsp;</a></span>d_timestep_counter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IBAMR::ConstraintIBMethod::d_timestep_counter = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Iteration_counter for printing stuff. </p>
-
-</div>
-</div>
 <a id="a89401e3a8e0f322f33a22835b0e4970f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89401e3a8e0f322f33a22835b0e4970f">&#9670;&nbsp;</a></span>d_output_interval</h2>
 
@@ -6697,6 +6646,30 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Number of time steps between outputs. </p>
+
+</div>
+</div>
+<a id="a2c82b3400f78373847c3ad46264ddca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c82b3400f78373847c3ad46264ddca8">&#9670;&nbsp;</a></span>d_write_output</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBAMR::ConstraintIBMethod::d_write_output = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether the output files are written in the current call to <a class="el" href="classIBAMR_1_1ConstraintIBMethod.html#a58058ffecfee54b5b0acf694c58f6082" title="Apply the FuRMoRP algorithm in the postprocessSolveFluidEquations method.">postprocessSolveFluidEquations()</a>. </p>
 
 </div>
 </div>
