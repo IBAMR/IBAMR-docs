@@ -244,6 +244,14 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a68b20f9418354cf7a495ef161b1571aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a851eab3107466412cd2746bd75510968"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a851eab3107466412cd2746bd75510968">d_coarse_solver_max_iterations</a> = 10</td></tr>
 <tr class="separator:a851eab3107466412cd2746bd75510968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9805be9f6608fc577f18a8f890e3a55"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ac9805be9f6608fc577f18a8f890e3a55">d_data_refine_type</a> = &quot;NONE&quot;</td></tr>
+<tr class="separator:ac9805be9f6608fc577f18a8f890e3a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf1c73f48c6688e0ea331f522540023"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#adaf1c73f48c6688e0ea331f522540023">d_use_cf_interpolation</a> = true</td></tr>
+<tr class="separator:adaf1c73f48c6688e0ea331f522540023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95126e7864b879d620ee838a358b8f3e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a95126e7864b879d620ee838a358b8f3e">d_data_coarsen_type</a> = &quot;CUBIC_COARSEN&quot;</td></tr>
+<tr class="separator:a95126e7864b879d620ee838a358b8f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b85ff8c0a808c3872b7c7d6f0bd3303"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a0b85ff8c0a808c3872b7c7d6f0bd3303">d_bdry_extrap_type</a> = &quot;LINEAR&quot;</td></tr>
+<tr class="separator:a0b85ff8c0a808c3872b7c7d6f0bd3303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Internal context and scratch data.</div></td></tr>
 <tr class="memitem:a829cca11e678434bd9398b1e5eccb5f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a829cca11e678434bd9398b1e5eccb5f9">d_context</a></td></tr>
 <tr class="separator:a829cca11e678434bd9398b1e5eccb5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,36 +294,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:ad01f530d2fa180dfcae293983259376a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html#ad01f530d2fa180dfcae293983259376a">More...</a><br /></td></tr>
 <tr class="separator:ad01f530d2fa180dfcae293983259376a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader">Implementation of FACPreconditionerStrategy interface.</h2></td></tr>
-<tr class="memitem:a6d792c5520f12373b382febc903786c2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a6d792c5520f12373b382febc903786c2">d_data_refine_type</a> = &quot;NONE&quot;</td></tr>
-<tr class="separator:a6d792c5520f12373b382febc903786c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec36b534fade4c34d346fb39c1b76f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a6ec36b534fade4c34d346fb39c1b76f4">d_use_cf_interpolation</a> = true</td></tr>
-<tr class="separator:a6ec36b534fade4c34d346fb39c1b76f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad82ef5b9c686d2a45c601af091f3799a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#ad82ef5b9c686d2a45c601af091f3799a">d_data_coarsen_type</a> = &quot;CUBIC_COARSEN&quot;</td></tr>
-<tr class="separator:ad82ef5b9c686d2a45c601af091f3799a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8414f39930e08a801aea03a6f9cf78aa"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a8414f39930e08a801aea03a6f9cf78aa">d_bdry_extrap_type</a> = &quot;LINEAR&quot;</td></tr>
-<tr class="separator:a8414f39930e08a801aea03a6f9cf78aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af15061131d3880dad585db59dce880f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#af15061131d3880dad585db59dce880f4">d_use_consistent_type_2_bdry</a> = false</td></tr>
-<tr class="separator:af15061131d3880dad585db59dce880f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e7c1b3d87c3d052950ba46e1cded733"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0e7c1b3d87c3d052950ba46e1cded733">solveCoarsestLevel</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;error, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, int coarsest_ln) override</td></tr>
-<tr class="memdesc:a0e7c1b3d87c3d052950ba46e1cded733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the residual equation Ae=r on the coarsest level of the patch hierarchy.  <a href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0e7c1b3d87c3d052950ba46e1cded733">More...</a><br /></td></tr>
-<tr class="separator:a0e7c1b3d87c3d052950ba46e1cded733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0985c3e3b1b62763d43aaa038f3fe190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0985c3e3b1b62763d43aaa038f3fe190">deallocateOperatorStateSpecialized</a> (int coarsest_reset_ln, int finest_reset_ln) override</td></tr>
-<tr class="memdesc:a0985c3e3b1b62763d43aaa038f3fe190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove implementation-specific hierarchy-dependent data.  <a href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0985c3e3b1b62763d43aaa038f3fe190">More...</a><br /></td></tr>
-<tr class="separator:a0985c3e3b1b62763d43aaa038f3fe190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bb1cf8b01038a83dcb25652b77931b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1PoissonSolver.html">PoissonSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a6bb1cf8b01038a83dcb25652b77931b0">d_coarse_solver</a></td></tr>
-<tr class="separator:a6bb1cf8b01038a83dcb25652b77931b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf4e18d0590d53fe7e3749051b7a3d0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#abf4e18d0590d53fe7e3749051b7a3d0a">d_coarse_solver_db</a></td></tr>
-<tr class="separator:abf4e18d0590d53fe7e3749051b7a3d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bfa50603a6b8ccc85404f1a577b6839"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::array&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt; NDIM &gt;, NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a2bfa50603a6b8ccc85404f1a577b6839">d_patch_cf_bdry_ghost_boxes</a></td></tr>
-<tr class="separator:a2bfa50603a6b8ccc85404f1a577b6839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accfe35a0f378403c7860cdf531130a36"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::array&lt; std::map&lt; int, <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &gt;, NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#accfe35a0f378403c7860cdf531130a36">d_patch_neighbor_overlap</a></td></tr>
-<tr class="separator:accfe35a0f378403c7860cdf531130a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ce927c43c1ebe26f9fd93bb2dfdc4ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html">StaggeredPhysicalBoundaryHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a5ce927c43c1ebe26f9fd93bb2dfdc4ad">d_bc_helper</a></td></tr>
-<tr class="separator:a5ce927c43c1ebe26f9fd93bb2dfdc4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18bc140042bef5eb86481087e6da4c4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a18bc140042bef5eb86481087e6da4c4d">d_mask_idx</a></td></tr>
-<tr class="separator:a18bc140042bef5eb86481087e6da4c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Various refine and coarsen objects.</h2></td></tr>
 <tr class="memitem:adbd0805f7aa9ae197dd00796ac56d78e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineOperator.html">SAMRAI::xfer::RefineOperator</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#adbd0805f7aa9ae197dd00796ac56d78e">d_prolongation_refine_operator</a></td></tr>
 <tr class="separator:adbd0805f7aa9ae197dd00796ac56d78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -355,6 +333,26 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4010475175a449e6f39d689e80855e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a109ec74d679f5e9eba42065377c34942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1VariableFillPattern.html">SAMRAI::xfer::VariableFillPattern</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a109ec74d679f5e9eba42065377c34942">d_synch_fill_pattern</a></td></tr>
 <tr class="separator:a109ec74d679f5e9eba42065377c34942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Implementation of FACPreconditionerStrategy interface.</h2></td></tr>
+<tr class="memitem:a0e7c1b3d87c3d052950ba46e1cded733"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0e7c1b3d87c3d052950ba46e1cded733">solveCoarsestLevel</a> (<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;error, <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &amp;residual, int coarsest_ln) override</td></tr>
+<tr class="memdesc:a0e7c1b3d87c3d052950ba46e1cded733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the residual equation Ae=r on the coarsest level of the patch hierarchy.  <a href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0e7c1b3d87c3d052950ba46e1cded733">More...</a><br /></td></tr>
+<tr class="separator:a0e7c1b3d87c3d052950ba46e1cded733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0985c3e3b1b62763d43aaa038f3fe190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0985c3e3b1b62763d43aaa038f3fe190">deallocateOperatorStateSpecialized</a> (int coarsest_reset_ln, int finest_reset_ln) override</td></tr>
+<tr class="memdesc:a0985c3e3b1b62763d43aaa038f3fe190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove implementation-specific hierarchy-dependent data.  <a href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a0985c3e3b1b62763d43aaa038f3fe190">More...</a><br /></td></tr>
+<tr class="separator:a0985c3e3b1b62763d43aaa038f3fe190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb1cf8b01038a83dcb25652b77931b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1PoissonSolver.html">PoissonSolver</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a6bb1cf8b01038a83dcb25652b77931b0">d_coarse_solver</a></td></tr>
+<tr class="separator:a6bb1cf8b01038a83dcb25652b77931b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4e18d0590d53fe7e3749051b7a3d0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Database.html">SAMRAI::tbox::Database</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#abf4e18d0590d53fe7e3749051b7a3d0a">d_coarse_solver_db</a></td></tr>
+<tr class="separator:abf4e18d0590d53fe7e3749051b7a3d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bfa50603a6b8ccc85404f1a577b6839"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::array&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoxList.html">SAMRAI::hier::BoxList</a>&lt; NDIM &gt;, NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a2bfa50603a6b8ccc85404f1a577b6839">d_patch_cf_bdry_ghost_boxes</a></td></tr>
+<tr class="separator:a2bfa50603a6b8ccc85404f1a577b6839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfe35a0f378403c7860cdf531130a36"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::array&lt; std::map&lt; int, <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &gt;, NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#accfe35a0f378403c7860cdf531130a36">d_patch_neighbor_overlap</a></td></tr>
+<tr class="separator:accfe35a0f378403c7860cdf531130a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce927c43c1ebe26f9fd93bb2dfdc4ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1StaggeredPhysicalBoundaryHelper.html">StaggeredPhysicalBoundaryHelper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a5ce927c43c1ebe26f9fd93bb2dfdc4ad">d_bc_helper</a></td></tr>
+<tr class="separator:a5ce927c43c1ebe26f9fd93bb2dfdc4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bc140042bef5eb86481087e6da4c4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a18bc140042bef5eb86481087e6da4c4d">d_mask_idx</a></td></tr>
+<tr class="separator:a18bc140042bef5eb86481087e6da4c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Logging functions.</h2></td></tr>
 <tr class="memitem:afff184f5e28e137d282261d363350244"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1FACPreconditionerStrategy.html#afff184f5e28e137d282261d363350244">printClassData</a> (std::ostream &amp;stream)</td></tr>
@@ -2235,116 +2233,6 @@ level solver
 
 </div>
 </div>
-<a id="a6d792c5520f12373b382febc903786c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d792c5520f12373b382febc903786c2">&#9670;&nbsp;</a></span>d_data_refine_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string IBTK::SCPoissonPointRelaxationFACOperator::d_data_refine_type = &quot;NONE&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6ec36b534fade4c34d346fb39c1b76f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ec36b534fade4c34d346fb39c1b76f4">&#9670;&nbsp;</a></span>d_use_cf_interpolation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IBTK::SCPoissonPointRelaxationFACOperator::d_use_cf_interpolation = true</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad82ef5b9c686d2a45c601af091f3799a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad82ef5b9c686d2a45c601af091f3799a">&#9670;&nbsp;</a></span>d_data_coarsen_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string IBTK::SCPoissonPointRelaxationFACOperator::d_data_coarsen_type = &quot;CUBIC_COARSEN&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8414f39930e08a801aea03a6f9cf78aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8414f39930e08a801aea03a6f9cf78aa">&#9670;&nbsp;</a></span>d_bdry_extrap_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string IBTK::SCPoissonPointRelaxationFACOperator::d_bdry_extrap_type = &quot;LINEAR&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af15061131d3880dad585db59dce880f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af15061131d3880dad585db59dce880f4">&#9670;&nbsp;</a></span>d_use_consistent_type_2_bdry</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool IBTK::SCPoissonPointRelaxationFACOperator::d_use_consistent_type_2_bdry = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6a4aca3f106b17ddf71f7397057d3fa5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a4aca3f106b17ddf71f7397057d3fa5">&#9670;&nbsp;</a></span>d_poisson_spec</h2>
 
@@ -2840,6 +2728,94 @@ level solver
       <table class="memname">
         <tr>
           <td class="memname">int IBTK::PoissonFACPreconditionerStrategy::d_coarse_solver_max_iterations = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9805be9f6608fc577f18a8f890e3a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9805be9f6608fc577f18a8f890e3a55">&#9670;&nbsp;</a></span>d_data_refine_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::PoissonFACPreconditionerStrategy::d_data_refine_type = &quot;NONE&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaf1c73f48c6688e0ea331f522540023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf1c73f48c6688e0ea331f522540023">&#9670;&nbsp;</a></span>d_use_cf_interpolation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::PoissonFACPreconditionerStrategy::d_use_cf_interpolation = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95126e7864b879d620ee838a358b8f3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95126e7864b879d620ee838a358b8f3e">&#9670;&nbsp;</a></span>d_data_coarsen_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::PoissonFACPreconditionerStrategy::d_data_coarsen_type = &quot;CUBIC_COARSEN&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b85ff8c0a808c3872b7c7d6f0bd3303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b85ff8c0a808c3872b7c7d6f0bd3303">&#9670;&nbsp;</a></span>d_bdry_extrap_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::PoissonFACPreconditionerStrategy::d_bdry_extrap_type = &quot;LINEAR&quot;</td>
         </tr>
       </table>
   </td>

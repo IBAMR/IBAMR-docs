@@ -246,6 +246,14 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a68b20f9418354cf7a495ef161b1571aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a851eab3107466412cd2746bd75510968"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a851eab3107466412cd2746bd75510968">d_coarse_solver_max_iterations</a> = 10</td></tr>
 <tr class="separator:a851eab3107466412cd2746bd75510968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9805be9f6608fc577f18a8f890e3a55"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ac9805be9f6608fc577f18a8f890e3a55">d_data_refine_type</a> = &quot;NONE&quot;</td></tr>
+<tr class="separator:ac9805be9f6608fc577f18a8f890e3a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf1c73f48c6688e0ea331f522540023"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#adaf1c73f48c6688e0ea331f522540023">d_use_cf_interpolation</a> = true</td></tr>
+<tr class="separator:adaf1c73f48c6688e0ea331f522540023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95126e7864b879d620ee838a358b8f3e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a95126e7864b879d620ee838a358b8f3e">d_data_coarsen_type</a> = &quot;CUBIC_COARSEN&quot;</td></tr>
+<tr class="separator:a95126e7864b879d620ee838a358b8f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b85ff8c0a808c3872b7c7d6f0bd3303"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a0b85ff8c0a808c3872b7c7d6f0bd3303">d_bdry_extrap_type</a> = &quot;LINEAR&quot;</td></tr>
+<tr class="separator:a0b85ff8c0a808c3872b7c7d6f0bd3303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Internal context and scratch data.</div></td></tr>
 <tr class="memitem:a829cca11e678434bd9398b1e5eccb5f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1VariableContext.html">SAMRAI::hier::VariableContext</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a829cca11e678434bd9398b1e5eccb5f9">d_context</a></td></tr>
 <tr class="separator:a829cca11e678434bd9398b1e5eccb5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2704,6 +2712,94 @@ coarse_solver_db { }                         // SAMRAI::tbox::Database for the c
       <table class="memname">
         <tr>
           <td class="memname">int IBTK::PoissonFACPreconditionerStrategy::d_coarse_solver_max_iterations = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9805be9f6608fc577f18a8f890e3a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9805be9f6608fc577f18a8f890e3a55">&#9670;&nbsp;</a></span>d_data_refine_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::PoissonFACPreconditionerStrategy::d_data_refine_type = &quot;NONE&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaf1c73f48c6688e0ea331f522540023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf1c73f48c6688e0ea331f522540023">&#9670;&nbsp;</a></span>d_use_cf_interpolation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::PoissonFACPreconditionerStrategy::d_use_cf_interpolation = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a95126e7864b879d620ee838a358b8f3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95126e7864b879d620ee838a358b8f3e">&#9670;&nbsp;</a></span>d_data_coarsen_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::PoissonFACPreconditionerStrategy::d_data_coarsen_type = &quot;CUBIC_COARSEN&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b85ff8c0a808c3872b7c7d6f0bd3303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b85ff8c0a808c3872b7c7d6f0bd3303">&#9670;&nbsp;</a></span>d_bdry_extrap_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string IBTK::PoissonFACPreconditionerStrategy::d_bdry_extrap_type = &quot;LINEAR&quot;</td>
         </tr>
       </table>
   </td>
