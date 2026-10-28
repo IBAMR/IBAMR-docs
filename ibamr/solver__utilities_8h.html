@@ -96,6 +96,10 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceSAMRAI"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSAMRAI.html">SAMRAI</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceSAMRAI_1_1hier"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSAMRAI_1_1hier.html">SAMRAI::hier</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceIBTK"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html">IBTK</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -128,6 +132,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a19653d3a298370f4975c115cff103ecd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a19653d3a298370f4975c115cff103ecd">IBTK::copyToHypre</a> (HYPRE_SStructVector &amp;vector, <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;src_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;box)</td></tr>
 <tr class="memdesc:a19653d3a298370f4975c115cff103ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data from <a class="el" href="namespaceSAMRAI.html">SAMRAI</a> side centered data to a Hypre vector.  <a href="namespaceIBTK.html#a19653d3a298370f4975c115cff103ecd">More...</a><br /></td></tr>
 <tr class="separator:a19653d3a298370f4975c115cff103ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3877a45db5716fa77a35f5663f8d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#adc3877a45db5716fa77a35f5663f8d91">IBTK::clearOffLevelMatrixEntries</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;level, const std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&gt; &amp;stencil)</td></tr>
+<tr class="memdesc:adc3877a45db5716fa77a35f5663f8d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to zero the entries of a cell-centered matrix that couple a cell of a patch to a cell of the physical domain that is not a cell of the patch level, which is a cell on the coarse side of a coarse-fine boundary.  <a href="namespaceIBTK.html#adc3877a45db5716fa77a35f5663f8d91">More...</a><br /></td></tr>
+<tr class="separator:adc3877a45db5716fa77a35f5663f8d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53d80679a9aa21d98f4a8405af88830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ac53d80679a9aa21d98f4a8405af88830">IBTK::clearOffLevelMatrixEntries</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;level, const std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&gt; &amp;stencil)</td></tr>
+<tr class="memdesc:ac53d80679a9aa21d98f4a8405af88830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to zero the entries of a side-centered matrix that couple a side of a patch to a side of the same component that lies in the physical domain but is not a side of the patch level.  <a href="namespaceIBTK.html#ac53d80679a9aa21d98f4a8405af88830">More...</a><br /></td></tr>
+<tr class="separator:ac53d80679a9aa21d98f4a8405af88830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

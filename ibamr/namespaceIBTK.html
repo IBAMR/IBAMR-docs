@@ -1003,6 +1003,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a19653d3a298370f4975c115cff103ecd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a19653d3a298370f4975c115cff103ecd">copyToHypre</a> (HYPRE_SStructVector &amp;vector, <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;src_data, const <a class="el" href="classSAMRAI_1_1hier_1_1Box.html">SAMRAI::hier::Box</a>&lt; NDIM &gt; &amp;box)</td></tr>
 <tr class="memdesc:a19653d3a298370f4975c115cff103ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data from <a class="el" href="namespaceSAMRAI.html">SAMRAI</a> side centered data to a Hypre vector.  <a href="namespaceIBTK.html#a19653d3a298370f4975c115cff103ecd">More...</a><br /></td></tr>
 <tr class="separator:a19653d3a298370f4975c115cff103ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3877a45db5716fa77a35f5663f8d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#adc3877a45db5716fa77a35f5663f8d91">clearOffLevelMatrixEntries</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;level, const std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&gt; &amp;stencil)</td></tr>
+<tr class="memdesc:adc3877a45db5716fa77a35f5663f8d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to zero the entries of a cell-centered matrix that couple a cell of a patch to a cell of the physical domain that is not a cell of the patch level, which is a cell on the coarse side of a coarse-fine boundary.  <a href="namespaceIBTK.html#adc3877a45db5716fa77a35f5663f8d91">More...</a><br /></td></tr>
+<tr class="separator:adc3877a45db5716fa77a35f5663f8d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53d80679a9aa21d98f4a8405af88830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ac53d80679a9aa21d98f4a8405af88830">clearOffLevelMatrixEntries</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;matrix_coefficients, const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;level, const std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&gt; &amp;stencil)</td></tr>
+<tr class="memdesc:ac53d80679a9aa21d98f4a8405af88830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to zero the entries of a side-centered matrix that couple a side of a patch to a side of the same component that lies in the physical domain but is not a side of the patch level.  <a href="namespaceIBTK.html#ac53d80679a9aa21d98f4a8405af88830">More...</a><br /></td></tr>
+<tr class="separator:ac53d80679a9aa21d98f4a8405af88830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -5943,6 +5949,92 @@ template&lt;class MultiArray &gt; </div>
     <tr><td class="paramdir">[out]</td><td class="paramname">vectors</td><td>Reference to Hypre vector to be copied to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src_data</td><td>Reference to side centered data to be copied. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">box</td><td>Box of cells to copy. All sides of these cells are copied, including the sides on the boundary of the box. Sides that <code>src_data</code> does not store are skipped. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adc3877a45db5716fa77a35f5663f8d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc3877a45db5716fa77a35f5663f8d91">&#9670;&nbsp;</a></span>clearOffLevelMatrixEntries() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::clearOffLevelMatrixEntries </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1pdat_1_1CellData.html">SAMRAI::pdat::CellData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>matrix_coefficients</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>stencil</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>hypre's multigrid solvers form the matrices of the coarser grids from such entries and converge only if they are zero. Cells of other patches of the level, including across a periodic boundary, are cells of the level. Entries that couple to cells outside the physical domain are left to the boundary condition treatment. The diagonal entry is unchanged, and <a class="el" href="classIBTK_1_1PoissonUtilities.html#ae185fefcbdb3cb9c748ec544c97f3521">PoissonUtilities::adjustRHSAtCoarseFineBoundary()</a> moves the dropped terms to the right-hand side. This function does nothing on the coarsest level.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">matrix_coefficients</td><td>Matrix coefficients on the box of a patch of <code>level</code> with one depth per entry of <code>stencil</code> and no ghost cells. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>Patch level that contains the patch. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stencil</td><td>Offsets of the cells that the entries couple to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac53d80679a9aa21d98f4a8405af88830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53d80679a9aa21d98f4a8405af88830">&#9670;&nbsp;</a></span>clearOffLevelMatrixEntries() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::clearOffLevelMatrixEntries </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>matrix_coefficients</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt; &amp;&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Index.html">SAMRAI::hier::Index</a>&lt; NDIM &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>stencil</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The sides of the level are the sides of the cells of its patches, including the sides that patches share. See the cell-centered version for the reason.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">matrix_coefficients</td><td>Matrix coefficients on the sides of the box of a patch of <code>level</code> with one depth per entry of <code>stencil</code> and no ghost sides. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>Patch level that contains the patch. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">stencil</td><td>Offsets of the sides that the entries couple to, along the axes. </td></tr>
   </table>
   </dd>
 </dl>
