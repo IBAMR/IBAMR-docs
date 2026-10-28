@@ -76,9 +76,9 @@ $(function() {
 
 <p>How to view <a class="el" href="namespaceIBAMR.html">IBAMR</a>'s output with VisIt or ParaView.  
 </p>
-<h1><a class="anchor" id="autotoc_md52"></a>
+<h1><a class="anchor" id="autotoc_md37"></a>
 Visualizing IBAMR output</h1>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<h2><a class="anchor" id="autotoc_md38"></a>
 With VisIt</h2>
 <p>As of <a class="el" href="namespaceIBAMR.html">IBAMR</a> 0.19, the visualization output files no longer contain separate <code>U_x</code>, <code>U_y</code>, and <code>U_z</code> variables: instead, all velocity values are represented by the vector-valued <code>U</code> field. To visualize independent components, you can add new variables in the Expressions editor. For example, to get the first component, define a new variable <code>Ux</code> as <code>U[0]</code>.</p>
 <p>We recommend setting up a consistent environment for VisIt variables so that all quantities are always defined. VisIt saves variables in xml files: here is one such file which defines all velocity components:</p>
