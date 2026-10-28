@@ -1333,6 +1333,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>On return the ghost cells of each patch that lie inside the physical domain hold the part of the density that was spread into them (added to the values they held on entry). This function does not sum these values into the patches that own those cells, so on a level with more than one patch the caller must do so, for example with <a class="el" href="classIBTK_1_1SAMRAIGhostDataAccumulator.html" title="Class that can accumulate data summed into ghost regions on a patch hierarchy into their correct loca...">IBTK::SAMRAIGhostDataAccumulator</a>. </dd></dl>
 
 </div>
 </div>
@@ -1403,6 +1404,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>The ghost cells hold the same values on return as for the overload that uses the default spreading spec: the caller must sum them into the owning patches. </dd></dl>
 
 </div>
 </div>

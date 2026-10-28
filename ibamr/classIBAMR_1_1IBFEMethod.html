@@ -463,6 +463,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a52f23e5e904a79c441e8ca88fffe908b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classIBTK_1_1SAMRAIGhostDataAccumulator.html">IBTK::SAMRAIGhostDataAccumulator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEMethod.html#a52f23e5e904a79c441e8ca88fffe908b">d_ghost_data_accumulator</a></td></tr>
 <tr class="memdesc:a52f23e5e904a79c441e8ca88fffe908b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to object used to accumulate forces during spreading.  <a href="classIBAMR_1_1IBFEMethod.html#a52f23e5e904a79c441e8ca88fffe908b">More...</a><br /></td></tr>
 <tr class="separator:a52f23e5e904a79c441e8ca88fffe908b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad395d27741fee0b86af565bf50c7a9de"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classIBTK_1_1SAMRAIGhostDataAccumulator.html">IBTK::SAMRAIGhostDataAccumulator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEMethod.html#ad395d27741fee0b86af565bf50c7a9de">d_source_ghost_data_accumulator</a></td></tr>
+<tr class="memdesc:ad395d27741fee0b86af565bf50c7a9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the object that accumulates fluid sources during spreading.  <a href="classIBAMR_1_1IBFEMethod.html#ad395d27741fee0b86af565bf50c7a9de">More...</a><br /></td></tr>
+<tr class="separator:ad395d27741fee0b86af565bf50c7a9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95090469df737a843f7df48b70eef58"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::pair&lt; int, std::pair&lt; int, int &gt; &gt;, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEMethod.html#ad95090469df737a843f7df48b70eef58">d_prolongation_schedules</a></td></tr>
 <tr class="separator:ad95090469df737a843f7df48b70eef58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c1fe0de6f7c9e118b0608ea41834805"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1hier_1_1IntVector.html">SAMRAI::hier::IntVector</a>&lt; NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1IBFEMethod.html#a9c1fe0de6f7c9e118b0608ea41834805">d_ghosts</a> = 0</td></tr>
@@ -6315,6 +6318,28 @@ The value d_patch_association_cfl, which determines how frequently we regrid pur
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="classIBTK_1_1SAMRAIGhostDataAccumulator.html">IBTK::SAMRAIGhostDataAccumulator</a>&gt; IBAMR::IBFEMethod::d_ghost_data_accumulator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad395d27741fee0b86af565bf50c7a9de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad395d27741fee0b86af565bf50c7a9de">&#9670;&nbsp;</a></span>d_source_ghost_data_accumulator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classIBTK_1_1SAMRAIGhostDataAccumulator.html">IBTK::SAMRAIGhostDataAccumulator</a>&gt; IBAMR::IBFEMethod::d_source_ghost_data_accumulator</td>
         </tr>
       </table>
   </td>
