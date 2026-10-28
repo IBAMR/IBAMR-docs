@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['sidedatasynchronization_21326',['SideDataSynchronization',['../classIBTK_1_1SideDataSynchronization_1_1SynchronizationTransactionComponent.html#a6df91f3055c482805aabb41d3ea90cf6',1,'IBTK::SideDataSynchronization::SynchronizationTransactionComponent']]],
-  ['stagedgroup_21327',['StagedGroup',['../classSAMRAI_1_1tbox_1_1AsyncCommStage.html#a0695ff0d7ed292afcb0f93547ae7e9eb',1,'SAMRAI::tbox::AsyncCommStage']]],
-  ['statistician_21328',['Statistician',['../classSAMRAI_1_1tbox_1_1Statistic.html#a0fbf7d2e506f52d934addc74ed59843a',1,'SAMRAI::tbox::Statistic::Statistician()'],['../classSAMRAI_1_1tbox_1_1StatisticRestartDatabase.html#a0fbf7d2e506f52d934addc74ed59843a',1,'SAMRAI::tbox::StatisticRestartDatabase::Statistician()']]],
-  ['statisticrestartdatabase_21329',['StatisticRestartDatabase',['../classSAMRAI_1_1tbox_1_1Statistician.html#a28427759aee8640b06292903cbb217d9',1,'SAMRAI::tbox::Statistician']]]
+  ['sidedatasynchronization_21339',['SideDataSynchronization',['../classIBTK_1_1SideDataSynchronization_1_1SynchronizationTransactionComponent.html#a6df91f3055c482805aabb41d3ea90cf6',1,'IBTK::SideDataSynchronization::SynchronizationTransactionComponent']]],
+  ['stagedgroup_21340',['StagedGroup',['../classSAMRAI_1_1tbox_1_1AsyncCommStage.html#a0695ff0d7ed292afcb0f93547ae7e9eb',1,'SAMRAI::tbox::AsyncCommStage']]],
+  ['statistician_21341',['Statistician',['../classSAMRAI_1_1tbox_1_1Statistic.html#a0fbf7d2e506f52d934addc74ed59843a',1,'SAMRAI::tbox::Statistic::Statistician()'],['../classSAMRAI_1_1tbox_1_1StatisticRestartDatabase.html#a0fbf7d2e506f52d934addc74ed59843a',1,'SAMRAI::tbox::StatisticRestartDatabase::Statistician()']]],
+  ['statisticrestartdatabase_21342',['StatisticRestartDatabase',['../classSAMRAI_1_1tbox_1_1Statistician.html#a28427759aee8640b06292903cbb217d9',1,'SAMRAI::tbox::Statistician']]]
 ];
