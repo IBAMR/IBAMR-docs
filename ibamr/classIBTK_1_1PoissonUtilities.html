@@ -111,6 +111,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:adef070c669f20a2d351699c769d11629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15d22fa0e867c788743c246947ec62f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#a15d22fa0e867c788743c246947ec62f0">adjustVCSCViscousOpRHSAtCoarseFineBoundary</a> (<a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;rhs_data, const <a class="el" href="classSAMRAI_1_1pdat_1_1SideData.html">SAMRAI::pdat::SideData</a>&lt; NDIM, double &gt; &amp;sol_data, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1Patch.html">SAMRAI::hier::Patch</a>&lt; NDIM &gt;&gt; patch, const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, double alpha, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type1_cf_bdry, const <a class="el" href="classSAMRAI_1_1tbox_1_1Array.html">SAMRAI::tbox::Array</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BoundaryBox.html">SAMRAI::hier::BoundaryBox</a>&lt; NDIM &gt;&gt; &amp;type2_cf_bdry, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;bc_coefs, double data_time, <a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972">VCInterpType</a> mu_interp_type=<a class="el" href="namespaceIBTK.html#aca0e485ab1820bbc97d938e4131d3972ad16a4e03cf055272a86cca038c6b65d6">VC_HARMONIC_INTERP</a>)</td></tr>
 <tr class="separator:a15d22fa0e867c788743c246947ec62f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe52b549aa0929748265a2cbcbe9f12b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#afe52b549aa0929748265a2cbcbe9f12b">isDamped</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec)</td></tr>
+<tr class="separator:afe52b549aa0929748265a2cbcbe9f12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -931,6 +933,33 @@ Private Member Functions</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>This function simply uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces.</dd>
 <dd>
 The scaling factors of \( D \) variable in the PoissonSpecification object is passed separately and is denoted \( \alpha \). </dd></dl>
+
+</div>
+</div>
+<a id="afe52b549aa0929748265a2cbcbe9f12b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe52b549aa0929748265a2cbcbe9f12b">&#9670;&nbsp;</a></span>isDamped()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool IBTK::PoissonUtilities::isDamped </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
+          <td class="paramname"><em>poisson_spec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return whether the operator has a damping term, i.e. C is not exactly zero. </p>
 
 </div>
 </div>

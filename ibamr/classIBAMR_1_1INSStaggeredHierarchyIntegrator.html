@@ -395,6 +395,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa853e6159b79a4391bb0c9b2ae1b7900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace3c8c60fbcd1569568ceec4f6fe9e79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ace3c8c60fbcd1569568ceec4f6fe9e79">usePhysicalBcCoefsBeforeFirstTimeStep</a> () const</td></tr>
 <tr class="separator:ace3c8c60fbcd1569568ceec4f6fe9e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad780bebd9c8afd87b51d2fe2096aa2ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ad780bebd9c8afd87b51d2fe2096aa2ed">updateNullSpaceVectors</a> (double current_time, bool has_velocity_nullspace, bool has_pressure_nullspace, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt;&gt; &amp;U_vec, const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt;&gt; &amp;sol_vec)</td></tr>
+<tr class="separator:ad780bebd9c8afd87b51d2fe2096aa2ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c62a60882680c1180b07cba6e1554d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a40c62a60882680c1180b07cba6e1554d">getMaximumTimeStepSizeSpecialized</a> () override</td></tr>
 <tr class="separator:a40c62a60882680c1180b07cba6e1554d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a676acb814e0f26146d114931bbfc9953"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a676acb814e0f26146d114931bbfc9953">getStableTimestep</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; level) const</td></tr>
@@ -496,6 +498,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4e70b8ced04e27b33e40a4d489767a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8654e0d7128c474d6adc04597a9f274"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#af8654e0d7128c474d6adc04597a9f274">d_normalize_velocity</a> = false</td></tr>
 <tr class="separator:af8654e0d7128c474d6adc04597a9f274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a62cbef345a27e7ea9e9f3b95dbf87"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ad9a62cbef345a27e7ea9e9f3b95dbf87">d_nul_vecs</a></td></tr>
+<tr class="separator:ad9a62cbef345a27e7ea9e9f3b95dbf87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27dbeeec88ba3fcc7d1a0fb5e1c88d83"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a27dbeeec88ba3fcc7d1a0fb5e1c88d83">d_U_nul_vecs</a></td></tr>
+<tr class="separator:a27dbeeec88ba3fcc7d1a0fb5e1c88d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdac38b02bdddb116721eadd63e05475"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#acdac38b02bdddb116721eadd63e05475">d_nul_vecs_need_init</a> = true</td></tr>
+<tr class="separator:acdac38b02bdddb116721eadd63e05475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8deab32b94a767664f670479ec7dfd66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a8deab32b94a767664f670479ec7dfd66">d_creeping_flow</a> = false</td></tr>
 <tr class="separator:a8deab32b94a767664f670479ec7dfd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac708c7655be7ebd021842b38406495a7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ac708c7655be7ebd021842b38406495a7">d_regrid_max_div_growth_factor</a> = 1.1</td></tr>
@@ -835,10 +843,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a88ead022c315c058bb707f568b3e273e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a4235ea1ab8155318849cea18ba76fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a9a4235ea1ab8155318849cea18ba76fa">d_rhs_vec</a></td></tr>
 <tr class="separator:a9a4235ea1ab8155318849cea18ba76fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8cb68ed7f374c669d6bf34929b8b655"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#ad8cb68ed7f374c669d6bf34929b8b655">d_nul_vecs</a></td></tr>
-<tr class="separator:ad8cb68ed7f374c669d6bf34929b8b655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0da22ad7fa4fcdeeb57a95ff58a7aa0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#aa0da22ad7fa4fcdeeb57a95ff58a7aa0">d_U_nul_vecs</a></td></tr>
-<tr class="separator:aa0da22ad7fa4fcdeeb57a95ff58a7aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2740dc7fa524fd72e180c9b4b75d75d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a2740dc7fa524fd72e180c9b4b75d75d4">d_vectors_need_init</a></td></tr>
 <tr class="separator:a2740dc7fa524fd72e180c9b4b75d75d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fc113808b98a55e4a00978eac49ab2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html#a7fc113808b98a55e4a00978eac49ab2e">d_explicitly_remove_nullspace</a></td></tr>
@@ -3736,6 +3740,61 @@ Current implementations of physical boundary conditions require that at any phys
 </table>
 </div><div class="memdoc">
 <p>Return whether the solver boundary condition objects use the registered physical boundary conditions before the first time step: true if velocity initial conditions are registered or the integrator is restarted. Otherwise the velocity is zero, which need not satisfy the registered conditions, and the objects use homogeneous conditions until the first time step. </p>
+
+</div>
+</div>
+<a id="ad780bebd9c8afd87b51d2fe2096aa2ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad780bebd9c8afd87b51d2fe2096aa2ed">&#9670;&nbsp;</a></span>updateNullSpaceVectors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::INSHierarchyIntegrator::updateNullSpaceVectors </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>current_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>has_velocity_nullspace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>has_pressure_nullspace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>U_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>sol_vec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Allocate the null-space vectors d_U_nul_vecs of the side- or cell-centered velocity <code>U_vec</code>, and d_nul_vecs of the Stokes system <code>sol_vec</code> (none if null), on the first call after a hierarchy reset. A derived class must call this function in each time step, after it decides which null spaces the problem has and before it attaches the vectors to a solver. </p>
 
 </div>
 </div>
@@ -7391,50 +7450,6 @@ This method is collective (i.e., must be called by all MPI processes), so every 
 
 </div>
 </div>
-<a id="ad8cb68ed7f374c669d6bf34929b8b655"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8cb68ed7f374c669d6bf34929b8b655">&#9670;&nbsp;</a></span>d_nul_vecs</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBAMR::INSStaggeredHierarchyIntegrator::d_nul_vecs</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa0da22ad7fa4fcdeeb57a95ff58a7aa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0da22ad7fa4fcdeeb57a95ff58a7aa0">&#9670;&nbsp;</a></span>d_U_nul_vecs</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBAMR::INSStaggeredHierarchyIntegrator::d_U_nul_vecs</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2740dc7fa524fd72e180c9b4b75d75d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2740dc7fa524fd72e180c9b4b75d75d4">&#9670;&nbsp;</a></span>d_vectors_need_init</h2>
 
@@ -9072,7 +9087,74 @@ This method is collective (i.e., must be called by all MPI processes), so every 
 </table>
 </div><div class="memdoc">
 <p>This boolean value determines whether the velocity is normalized to have zero mean (i.e., discrete integral) at the end of each timestep.</p>
-<p>This parameter only affects the case in which rho=0 (i.e. the steady Stokes equations). </p>
+<p>This parameter only affects the case in which the velocity damping coefficient is a constant equal to zero. </p>
+
+</div>
+</div>
+<a id="ad9a62cbef345a27e7ea9e9f3b95dbf87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a62cbef345a27e7ea9e9f3b95dbf87">&#9670;&nbsp;</a></span>d_nul_vecs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBAMR::INSHierarchyIntegrator::d_nul_vecs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The null-space vectors of the Stokes system and of the velocity, and whether <a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ad780bebd9c8afd87b51d2fe2096aa2ed">updateNullSpaceVectors()</a> must allocate them. A derived class sets the flag when the hierarchy changes. </p>
+
+</div>
+</div>
+<a id="a27dbeeec88ba3fcc7d1a0fb5e1c88d83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27dbeeec88ba3fcc7d1a0fb5e1c88d83">&#9670;&nbsp;</a></span>d_U_nul_vecs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt;NDIM, double&gt; &gt; &gt; IBAMR::INSHierarchyIntegrator::d_U_nul_vecs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acdac38b02bdddb116721eadd63e05475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdac38b02bdddb116721eadd63e05475">&#9670;&nbsp;</a></span>d_nul_vecs_need_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBAMR::INSHierarchyIntegrator::d_nul_vecs_need_init = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

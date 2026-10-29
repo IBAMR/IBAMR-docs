@@ -203,6 +203,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:ac37c51f5abb7fab50012e648d87b9293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4faf6cb2ff41349e659fc6ec19654c62"><td class="memItemLeft" align="right" valign="top">Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1KrylovMobilitySolver.html#a4faf6cb2ff41349e659fc6ec19654c62">d_petsc_mat</a> = nullptr</td></tr>
 <tr class="separator:a4faf6cb2ff41349e659fc6ec19654c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3d0a7d0f31b7703239eb91635fa08c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1KrylovMobilitySolver.html#a4a3d0a7d0f31b7703239eb91635fa08c">d_U_problem_coefs</a></td></tr>
+<tr class="separator:a4a3d0a7d0f31b7703239eb91635fa08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86eeeb6f96a376d0ff74eb26ec161bb1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, PetscScalar &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1KrylovMobilitySolver.html#a86eeeb6f96a376d0ff74eb26ec161bb1">d_samrai_temp</a></td></tr>
 <tr class="separator:a86eeeb6f96a376d0ff74eb26ec161bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fa2dd3ab9d71764c14f29ae7bbe20fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html">IBAMR::INSStaggeredHierarchyIntegrator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1KrylovMobilitySolver.html#a9fa2dd3ab9d71764c14f29ae7bbe20fe">d_ins_integrator</a></td></tr>
@@ -1332,6 +1334,28 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4a3d0a7d0f31b7703239eb91635fa08c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a3d0a7d0f31b7703239eb91635fa08c">&#9670;&nbsp;</a></span>d_U_problem_coefs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> IBAMR::KrylovMobilitySolver::d_U_problem_coefs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a86eeeb6f96a376d0ff74eb26ec161bb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86eeeb6f96a376d0ff74eb26ec161bb1">&#9670;&nbsp;</a></span>d_samrai_temp</h2>
 
@@ -1815,7 +1839,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>This boolean value determines whether the velocity is normalized to have zero mean (i.e., discrete integral) at the end of each timestep.</p>
-<p>This parameter only affects the case in which rho=0 (i.e. the steady Stokes equations). </p>
+<p>This parameter only affects the case in which the velocity damping coefficient is a constant equal to zero. </p>
 
 </div>
 </div>
