@@ -363,6 +363,7 @@ Protected Attributes</h2></td></tr>
 <li>Solve the linear system using the member function <a class="el" href="classIBTK_1_1SCPoissonHypreLevelSolver.html#a554bb558dac8ba0c257f186a5911ee47" title="Solve the linear system of equations  for .">solveSystem()</a>, passing in <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects corresponding to \(u\) and \(f\).</li>
 </ol>
 <p>The solver treats the ghost values of <em>x</em> at coarse-fine interfaces as Dirichlet data: it reads them and does not change them. A caller that wants homogeneous data there sets them to zero. On return, the interior values of <em>x</em> contain the solution.</p>
+<p>In a periodic direction the hypre grid of a level is periodic only if the level has patches adjacent to both periodic boundaries, and the solver stops with an error unless these patches are periodic images of each other. Otherwise a periodic boundary that the level touches is a coarse-fine boundary.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">enable_logging = FALSE         // see setLoggingEnabled()
 solver_type = "Split"          // choices are: "Split", "PCG", "GMRES", "FlexGMRES", "LGMRES", "BiCGSTAB"
 precond_type = "none"          // choices are: "none", "Split"
