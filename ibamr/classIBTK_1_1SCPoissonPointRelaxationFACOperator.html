@@ -148,13 +148,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5d21b2874a8126da02348bc74ab7c82f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate scratch data.  <a href="classIBTK_1_1FACPreconditionerStrategy.html#a5d21b2874a8126da02348bc74ab7c82f">More...</a><br /></td></tr>
 <tr class="separator:a5d21b2874a8126da02348bc74ab7c82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Functions for configuring the solver.</div></td></tr>
-<tr class="memitem:a62c8879b5bbe2b9648a89612ba7510b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a62c8879b5bbe2b9648a89612ba7510b0">setSmootherType</a> (const std::string &amp;smoother_type) override</td></tr>
-<tr class="memdesc:a62c8879b5bbe2b9648a89612ba7510b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the smoother type.  <a href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a62c8879b5bbe2b9648a89612ba7510b0">More...</a><br /></td></tr>
-<tr class="separator:a62c8879b5bbe2b9648a89612ba7510b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89a4ee6e5a7eee749c4fae6ea4c52235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a89a4ee6e5a7eee749c4fae6ea4c52235">setCoarseSolverType</a> (const std::string &amp;coarse_solver_type) override</td></tr>
-<tr class="memdesc:a89a4ee6e5a7eee749c4fae6ea4c52235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the coarse level solver.  <a href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a89a4ee6e5a7eee749c4fae6ea4c52235">More...</a><br /></td></tr>
-<tr class="separator:a89a4ee6e5a7eee749c4fae6ea4c52235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Functions for configuring the solver.</div></td></tr>
 <tr class="memitem:a4f50e2f12015aa107ff470d0cc759af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a4f50e2f12015aa107ff470d0cc759af9">setResetLevels</a> (int coarsest_ln, int finest_ln)</td></tr>
 <tr class="memdesc:a4f50e2f12015aa107ff470d0cc759af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the levels that need to be reset the next time the operator is re-initialized.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a4f50e2f12015aa107ff470d0cc759af9">More...</a><br /></td></tr>
 <tr class="separator:a4f50e2f12015aa107ff470d0cc759af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,16 +392,17 @@ Protected Attributes</h2></td></tr>
 </ul>
 <p>Robin boundary conditions may be specified at physical boundaries; see class <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions.">SAMRAI::solv::RobinBcCoefStrategy</a>.</p>
 <p>By default, the class is configured to solve the Poisson problem \( -\nabla^2 u = f \), subject to homogeneous Dirichlet boundary conditions.</p>
-<p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "PATCH_GAUSS_SEIDEL"         // see setSmootherType()
+<p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "PATCH_GAUSS_SEIDEL"         // or "PROCESSOR_GAUSS_SEIDEL", "RED_BLACK_GAUSS_SEIDEL"
 prolongation_method = "CONSTANT_REFINE"      // see setProlongationMethod()
 restriction_method = "CONSERVATIVE_COARSEN"  // see setRestrictionMethod()
-coarse_solver_type = "HYPRE_LEVEL_SOLVER"    // see setCoarseSolverType()
+coarse_solver_type = "HYPRE_LEVEL_SOLVER"    // smoother or solver type for the coarsest level
 coarse_solver_rel_residual_tol = 1.0e-5      // see setCoarseSolverRelativeTolerance()
 coarse_solver_abs_residual_tol = 1.0e-50     // see setCoarseSolverAbsoluteTolerance()
 coarse_solver_max_iterations = 1             // see setCoarseSolverMaxIterations()
 coarse_solver_db = { ... }                   // SAMRAI::tbox::Database for initializing coarse
 level solver
-</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</pre><p>With <code>"PROCESSOR_GAUSS_SEIDEL"</code>, a sweep reads values that neighboring patches on the same process updated earlier in that sweep, so results depend on the patch layout. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3d9a591d76113f24d04c0c943acd6916"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d9a591d76113f24d04c0c943acd6916">&#9670;&nbsp;</a></span>SCPoissonPointRelaxationFACOperator() <span class="overload">[1/3]</span></h2>
 
@@ -559,67 +553,6 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a62c8879b5bbe2b9648a89612ba7510b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62c8879b5bbe2b9648a89612ba7510b0">&#9670;&nbsp;</a></span>setSmootherType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::SCPoissonPointRelaxationFACOperator::setSmootherType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>smoother_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Select from:</p><ul>
-<li><code>"PATCH_GAUSS_SEIDEL"</code> </li>
-<li><code>"PROCESSOR_GAUSS_SEIDEL"</code> </li>
-<li><code>"RED_BLACK_GAUSS_SEIDEL"</code> </li>
-</ul>
-
-<p>Implements <a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a1f3580140a477cac1dab8e0dfa6e3519">IBTK::PoissonFACPreconditionerStrategy</a>.</p>
-
-</div>
-</div>
-<a id="a89a4ee6e5a7eee749c4fae6ea4c52235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89a4ee6e5a7eee749c4fae6ea4c52235">&#9670;&nbsp;</a></span>setCoarseSolverType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBTK::SCPoissonPointRelaxationFACOperator::setCoarseSolverType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>coarse_solver_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab7840ccbce1ea22167193faeee4b56cd">IBTK::PoissonFACPreconditionerStrategy</a>.</p>
 
 </div>
 </div>

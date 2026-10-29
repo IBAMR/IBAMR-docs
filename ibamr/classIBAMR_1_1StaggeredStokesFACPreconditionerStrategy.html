@@ -157,12 +157,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6fef9a860b8c730f16f884e620f10d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ad6fef9a860b8c730f16f884e620f10d7">setResetLevels</a> (int coarsest_ln, int finest_ln)</td></tr>
 <tr class="memdesc:ad6fef9a860b8c730f16f884e620f10d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the levels that need to be reset the next time the operator is re-initialized.  <a href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ad6fef9a860b8c730f16f884e620f10d7">More...</a><br /></td></tr>
 <tr class="separator:ad6fef9a860b8c730f16f884e620f10d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a775abb92030c7c87395ba3ab4fde67c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a775abb92030c7c87395ba3ab4fde67c9">setSmootherType</a> (const std::string &amp;smoother_type)</td></tr>
-<tr class="memdesc:a775abb92030c7c87395ba3ab4fde67c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the smoother type.  <a href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a775abb92030c7c87395ba3ab4fde67c9">More...</a><br /></td></tr>
-<tr class="separator:a775abb92030c7c87395ba3ab4fde67c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae82f8885b880c16778e66ee726070fb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ae82f8885b880c16778e66ee726070fb1">setCoarseSolverType</a> (const std::string &amp;coarse_solver_type)</td></tr>
-<tr class="memdesc:ae82f8885b880c16778e66ee726070fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the coarse level solver.  <a href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ae82f8885b880c16778e66ee726070fb1">More...</a><br /></td></tr>
-<tr class="separator:ae82f8885b880c16778e66ee726070fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3773227be34e7ae516b86edc2b7eb8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ab3773227be34e7ae516b86edc2b7eb8c">setCoarseSolverMaxIterations</a> (int coarse_solver_max_iterations)</td></tr>
 <tr class="memdesc:ab3773227be34e7ae516b86edc2b7eb8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum number of iterations for the coarse level solve.  <a href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ab3773227be34e7ae516b86edc2b7eb8c">More...</a><br /></td></tr>
 <tr class="separator:ab3773227be34e7ae516b86edc2b7eb8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,8 +207,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6c301987a8675b44e6ad1ccca4d58bd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a6c301987a8675b44e6ad1ccca4d58bd3">d_finest_reset_ln</a> = <a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a></td></tr>
 <tr class="separator:a6c301987a8675b44e6ad1ccca4d58bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Solver configuration variables.</div></td></tr>
-<tr class="memitem:a07c7b5fb293c86269143e877dfecd526"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a07c7b5fb293c86269143e877dfecd526">d_smoother_type</a> = &quot;ADDITIVE&quot;</td></tr>
-<tr class="separator:a07c7b5fb293c86269143e877dfecd526"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad16d68bd5160913077fba72233d82067"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#ad16d68bd5160913077fba72233d82067">d_U_prolongation_method</a> = &quot;CONSTANT_REFINE&quot;</td></tr>
 <tr class="separator:ad16d68bd5160913077fba72233d82067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb037f2b8b7225b81396cc1f1bf639ff"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#abb037f2b8b7225b81396cc1f1bf639ff">d_P_prolongation_method</a> = &quot;LINEAR_REFINE&quot;</td></tr>
@@ -400,12 +392,11 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The velocity components of the solution and right-hand-side vectors must have the same ghost cell width, and likewise their pressure components; each width must be at least the ghost cell width given to the constructor.</p>
-<p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "ADDITIVE"                     // see setSmootherType()
-U_prolongation_method = "CONSTANT_REFINE"      // see setProlongationMethods()
+<p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">U_prolongation_method = "CONSTANT_REFINE"      // see setProlongationMethods()
 P_prolongation_method = "LINEAR_REFINE"        // see setProlongationMethods()
 U_restriction_method = "CONSERVATIVE_COARSEN"  // see setRestrictionMethods()
 P_restriction_method = "CONSERVATIVE_COARSEN"  // see setRestrictionMethods()
-coarse_solver_type = "LEVEL_SMOOTHER"          // see setCoarseSolverType()
+coarse_solver_type = "LEVEL_SMOOTHER"          // or the type of a Stokes solver for the coarsest level
 coarse_solver_rel_residual_tol = 1.0e-5        // see setCoarseSolverRelativeTolerance()
 coarse_solver_abs_residual_tol = 1.0e-50       // see setCoarseSolverAbsoluteTolerance()
 coarse_solver_max_iterations = 10              // see setCoarseSolverMaxIterations()
@@ -692,42 +683,6 @@ level solver
 <p>When the operator is initialized, then only the specified range of levels are reset in the operator state the next time that the operator is initialized. If the operator is not initialized, this method has no effect.</p>
 <p>To ensure the range of levels that is reset includes all levels in the patch hierarchy, use <em>coarsest_ln</em> = <em>finest_ln</em> = <code>-1</code>.</p>
 <dl class="section note"><dt>Note</dt><dd>This function is used to save some unnecessary computations when the hierarchy is regridded. The range of levels specified must include all levels which need to be reset by <a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#a6f8d89482d4bdafc824307cc21c728c9">SAMRAI::mesh::StandardTagAndInitStrategy::resetHierarchyConfiguration()</a>. Any data residing outside of this range of levels will not be reset. This <b>is</b> <b>not</b> what you want to have happen if, for instance, the Poisson specifications changes. </dd></dl>
-
-</div>
-</div>
-<a id="a775abb92030c7c87395ba3ab4fde67c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775abb92030c7c87395ba3ab4fde67c9">&#9670;&nbsp;</a></span>setSmootherType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::StaggeredStokesFACPreconditionerStrategy::setSmootherType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>smoother_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae82f8885b880c16778e66ee726070fb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae82f8885b880c16778e66ee726070fb1">&#9670;&nbsp;</a></span>setCoarseSolverType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void IBAMR::StaggeredStokesFACPreconditionerStrategy::setCoarseSolverType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>coarse_solver_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -2308,28 +2263,6 @@ level solver
       <table class="memname">
         <tr>
           <td class="memname">int IBAMR::StaggeredStokesFACPreconditionerStrategy::d_finest_reset_ln = <a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a07c7b5fb293c86269143e877dfecd526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07c7b5fb293c86269143e877dfecd526">&#9670;&nbsp;</a></span>d_smoother_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string IBAMR::StaggeredStokesFACPreconditionerStrategy::d_smoother_type = &quot;ADDITIVE&quot;</td>
         </tr>
       </table>
   </td>

@@ -162,12 +162,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f50e2f12015aa107ff470d0cc759af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a4f50e2f12015aa107ff470d0cc759af9">setResetLevels</a> (int coarsest_ln, int finest_ln)</td></tr>
 <tr class="memdesc:a4f50e2f12015aa107ff470d0cc759af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the levels that need to be reset the next time the operator is re-initialized.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a4f50e2f12015aa107ff470d0cc759af9">More...</a><br /></td></tr>
 <tr class="separator:a4f50e2f12015aa107ff470d0cc759af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3580140a477cac1dab8e0dfa6e3519"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a1f3580140a477cac1dab8e0dfa6e3519">setSmootherType</a> (const std::string &amp;smoother_type)=0</td></tr>
-<tr class="memdesc:a1f3580140a477cac1dab8e0dfa6e3519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the smoother type.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a1f3580140a477cac1dab8e0dfa6e3519">More...</a><br /></td></tr>
-<tr class="separator:a1f3580140a477cac1dab8e0dfa6e3519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7840ccbce1ea22167193faeee4b56cd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab7840ccbce1ea22167193faeee4b56cd">setCoarseSolverType</a> (const std::string &amp;coarse_solver_type)=0</td></tr>
-<tr class="memdesc:ab7840ccbce1ea22167193faeee4b56cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the coarse level solver.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab7840ccbce1ea22167193faeee4b56cd">More...</a><br /></td></tr>
-<tr class="separator:ab7840ccbce1ea22167193faeee4b56cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0f5b2ac0d2dbfbd7714dacdbe941bbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab0f5b2ac0d2dbfbd7714dacdbe941bbb">setCoarseSolverMaxIterations</a> (int coarse_solver_max_iterations)</td></tr>
 <tr class="memdesc:ab0f5b2ac0d2dbfbd7714dacdbe941bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum number of iterations for the coarse level solve.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab0f5b2ac0d2dbfbd7714dacdbe941bbb">More...</a><br /></td></tr>
 <tr class="separator:ab0f5b2ac0d2dbfbd7714dacdbe941bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -370,10 +364,10 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The solution and right-hand-side vectors must have the same ghost cell width, of at least the ghost cell width given to the constructor.</p>
-<p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "DEFAULT"                    // see setSmootherType()
+<p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">smoother_type = "DEFAULT"                    // smoother type; see the derived classes
 prolongation_method = "DEFAULT"              // see setProlongationMethod()
 restriction_method = "DEFAULT"               // see setRestrictionMethod()
-coarse_solver_type = "DEFAULT"               // see setCoarseSolverType()
+coarse_solver_type = "DEFAULT"               // smoother or solver type for the coarsest level
 coarse_solver_rel_residual_tol = 1.0e-5      // see setCoarseSolverRelativeTolerance()
 coarse_solver_abs_residual_tol = 1.0e-50     // see setCoarseSolverAbsoluteTolerance()
 coarse_solver_max_iterations = 10            // see setCoarseSolverMaxIterations()
@@ -627,62 +621,6 @@ bdry_extrap_type = "LINEAR"                  // extrapolation at physical bounda
 <p>When the operator is initialized, then only the specified range of levels are reset in the operator state the next time that the operator is initialized. If the operator is not initialized, this method has no effect.</p>
 <p>To ensure the range of levels that is reset includes all levels in the patch hierarchy, use <em>coarsest_ln</em> = <em>finest_ln</em> = <code>-1</code>.</p>
 <dl class="section note"><dt>Note</dt><dd>This function is used to save some unnecessary computations when the hierarchy is regridded. The range of levels specified must include all levels which need to be reset by <a class="el" href="classSAMRAI_1_1mesh_1_1StandardTagAndInitStrategy.html#a6f8d89482d4bdafc824307cc21c728c9">SAMRAI::mesh::StandardTagAndInitStrategy::resetHierarchyConfiguration()</a>. Any data residing outside of this range of levels will not be reset. This <b>is</b> <b>not</b> what you want to have happen if, for instance, the Poisson specifications changes. </dd></dl>
-
-</div>
-</div>
-<a id="a1f3580140a477cac1dab8e0dfa6e3519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3580140a477cac1dab8e0dfa6e3519">&#9670;&nbsp;</a></span>setSmootherType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void IBTK::PoissonFACPreconditionerStrategy::setSmootherType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>smoother_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a62c8879b5bbe2b9648a89612ba7510b0">IBTK::SCPoissonPointRelaxationFACOperator</a>, <a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a256b493839b4c13a40779483bbd9f997">IBTK::CCPoissonPointRelaxationFACOperator</a>, <a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#a7106c0fe8ddaf2c10e9326680b44edf0">IBTK::CCPoissonBoxRelaxationFACOperator</a>, and <a class="el" href="classIBTK_1_1CCPoissonLevelRelaxationFACOperator.html#a69a137b1e3c1c32db19d9b0430bbeb34">IBTK::CCPoissonLevelRelaxationFACOperator</a>.</p>
-
-</div>
-</div>
-<a id="ab7840ccbce1ea22167193faeee4b56cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7840ccbce1ea22167193faeee4b56cd">&#9670;&nbsp;</a></span>setCoarseSolverType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void IBTK::PoissonFACPreconditionerStrategy::setCoarseSolverType </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>coarse_solver_type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a89a4ee6e5a7eee749c4fae6ea4c52235">IBTK::SCPoissonPointRelaxationFACOperator</a>, <a class="el" href="classIBTK_1_1CCPoissonPointRelaxationFACOperator.html#a3e1290865cac314c1ddf637653005b28">IBTK::CCPoissonPointRelaxationFACOperator</a>, <a class="el" href="classIBTK_1_1CCPoissonLevelRelaxationFACOperator.html#ad662ae06858bbe67038bd8d28c537238">IBTK::CCPoissonLevelRelaxationFACOperator</a>, and <a class="el" href="classIBTK_1_1CCPoissonBoxRelaxationFACOperator.html#ac93359c2cfb1007317ddbfc52e334708">IBTK::CCPoissonBoxRelaxationFACOperator</a>.</p>
 
 </div>
 </div>
