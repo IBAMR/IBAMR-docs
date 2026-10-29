@@ -373,6 +373,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab709119a9917d8e838ed3c89abd8cf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e4ad66d0ec6e60afabedd3b4b7e79a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ab8e4ad66d0ec6e60afabedd3b4b7e79a">tagCellsByVorticityMagnitude</a> (const int level_number, const int Omega_idx, const int tag_idx)</td></tr>
 <tr class="separator:ab8e4ad66d0ec6e60afabedd3b4b7e79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763aa8aa844c2035398ef167efbfb52d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a763aa8aa844c2035398ef167efbfb52d">normalizeFluidSource</a> (int rhs_idx, double boundary_flux)</td></tr>
+<tr class="separator:a763aa8aa844c2035398ef167efbfb52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa853e6159b79a4391bb0c9b2ae1b7900"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#aa853e6159b79a4391bb0c9b2ae1b7900">getSolverPhysicalBcCoefs</a> (<a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a5c910ea3c7685da9c49ab352661693a4">SolverPhysicalBcCoefs</a> bc_coefs)</td></tr>
 <tr class="separator:aa853e6159b79a4391bb0c9b2ae1b7900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace3c8c60fbcd1569568ceec4f6fe9e79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ace3c8c60fbcd1569568ceec4f6fe9e79">usePhysicalBcCoefsBeforeFirstTimeStep</a> () const</td></tr>
@@ -470,6 +472,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a48176a7016b2f2fe3161e360053410cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e70b8ced04e27b33e40a4d489767a1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#a4e70b8ced04e27b33e40a4d489767a1a">d_normalize_pressure</a> = false</td></tr>
 <tr class="separator:a4e70b8ced04e27b33e40a4d489767a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb3d5d5b428de87163a59a0e03a6f40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#afcb3d5d5b428de87163a59a0e03a6f40">d_normalize_fluid_source</a> = false</td></tr>
+<tr class="separator:afcb3d5d5b428de87163a59a0e03a6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8654e0d7128c474d6adc04597a9f274"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#af8654e0d7128c474d6adc04597a9f274">d_normalize_velocity</a> = false</td></tr>
 <tr class="separator:af8654e0d7128c474d6adc04597a9f274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9a62cbef345a27e7ea9e9f3b95dbf87"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1INSHierarchyIntegrator.html#ad9a62cbef345a27e7ea9e9f3b95dbf87">d_nul_vecs</a></td></tr>
@@ -3226,6 +3230,43 @@ Current implementations of physical boundary conditions require that at any phys
 </div><div class="memdoc">
 <p>Tag cells based on the vorticity magnitude.</p>
 <dl class="section note"><dt>Note</dt><dd>This function is typically called by <a class="el" href="classIBAMR_1_1INSCollocatedHierarchyIntegrator.html#a53f52384bfe32ff62c0e70c949d5b466">applyGradientDetectorSpecialized()</a> in inheriting classes. </dd></dl>
+
+</div>
+</div>
+<a id="a763aa8aa844c2035398ef167efbfb52d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763aa8aa844c2035398ef167efbfb52d">&#9670;&nbsp;</a></span>normalizeFluidSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::INSHierarchyIntegrator::normalizeFluidSource </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rhs_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>boundary_flux</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Subtract a constant from the cell-centered continuity right-hand side <code>rhs_idx</code> so that its composite integral plus <code>boundary_flux</code>, the net outward flux of the prescribed boundary velocity not contained in <code>rhs_idx</code>, vanishes. Callers check normalize_fluid_source and normalize_pressure. </p>
 
 </div>
 </div>
@@ -8159,6 +8200,30 @@ This method is collective (i.e., must be called by all MPI processes), so every 
 </table>
 </div><div class="memdoc">
 <p>This boolean value determines whether the pressure is normalized to have zero mean (i.e., discrete integral) at the end of each timestep. </p>
+
+</div>
+</div>
+<a id="afcb3d5d5b428de87163a59a0e03a6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb3d5d5b428de87163a59a0e03a6f40">&#9670;&nbsp;</a></span>d_normalize_fluid_source</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBAMR::INSHierarchyIntegrator::d_normalize_fluid_source = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This boolean value determines whether the continuity right-hand side is shifted by a constant that balances the discrete fluid source against the prescribed boundary flux, so that the pressure problem has a solution.</p>
+<p>This parameter only affects the case in which d_normalize_pressure is set. </p>
 
 </div>
 </div>

@@ -331,8 +331,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a419148c91391055a53440286904a9148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ea13075c4741296e5883362c576603b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPETScLevelSolver.html#a4ea13075c4741296e5883362c576603b">d_data_synch_sched</a></td></tr>
 <tr class="separator:a4ea13075c4741296e5883362c576603b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acefb956ef609bd024db2e5bb3232d979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1CCPoissonPETScLevelSolver.html#acefb956ef609bd024db2e5bb3232d979">d_ghost_fill_sched</a></td></tr>
-<tr class="separator:acefb956ef609bd024db2e5bb3232d979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Linear solver functionality.</h2></td></tr>
 <tr class="memitem:ac41f883ca7e9c7f228ffe68ddabdd3fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScLevelSolver.html#ac41f883ca7e9c7f228ffe68ddabdd3fc">setNullSpace</a> (bool contains_constant_vec, const std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt;&gt;&gt; &amp;nullspace_basis_vecs=std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a>&lt; NDIM, double &gt;&gt;&gt;()) override</td></tr>
@@ -449,10 +447,9 @@ Private Attributes</h2></td></tr>
 <li>Initialize <a class="el" href="classIBTK_1_1CCPoissonPETScLevelSolver.html" title="Class CCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ...">CCPoissonPETScLevelSolver</a> object using the function <a class="el" href="classIBTK_1_1PETScLevelSolver.html#a647da1ca2f57faed471f24767adac81d" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>.</li>
 <li>Solve the linear system using the member function <a class="el" href="classIBTK_1_1PETScLevelSolver.html#a7435f38c3bd515c382d71df06a8b41c3" title="Solve the linear system of equations  for .">solveSystem()</a>, passing in <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects corresponding to \(u\) and \(f\).</li>
 </ol>
-<p>On return the ghost values of <em>x</em> that lie in other patches of the level, including across periodic boundaries, hold the solution there.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">options_prefix = ""           // see setOptionsPrefix()
 ksp_type = "gmres"            // see setKSPType()
-initial_guess_nonzero = TRUE  // see setInitialGuessNonzero()
+initial_guess_nonzero = FALSE // see setInitialGuessNonzero()
 rel_residual_tol = 1.0e-5     // see setRelativeTolerance()
 abs_residual_tol = 1.0e-50    // see setAbsoluteTolerance()
 max_iterations = 10000        // see setMaxIterations()
@@ -2473,28 +2470,6 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;NDIM&gt; &gt; IBTK::CCPoissonPETScLevelSolver::d_data_synch_sched</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acefb956ef609bd024db2e5bb3232d979"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acefb956ef609bd024db2e5bb3232d979">&#9670;&nbsp;</a></span>d_ghost_fill_sched</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;NDIM&gt; &gt; IBTK::CCPoissonPETScLevelSolver::d_ghost_fill_sched</td>
         </tr>
       </table>
   </td>

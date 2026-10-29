@@ -463,7 +463,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ace8c3f5e4f63d5e7fbac7eafd3466e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The velocity and pressure that the solution vector holds in the ghost cells just outside the level across a coarse-fine boundary are boundary data of the solve. The velocity and pressure data of the vectors need a ghost cell width of at least one.</p>
+<div class="textblock"><p>At the start of each solve, the solver sets the velocity ghost values of <em>x</em> that lie in other patches of the level, including across periodic boundaries, to the interior values of those patches, because the velocity boundary condition objects read them; they keep these values on return. The velocity and pressure data of the vectors need a ghost cell width of at least one.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBAMR_1_1INSStaggeredHierarchyIntegrator.html" title="Class INSStaggeredHierarchyIntegrator provides a staggered-grid solver for the incompressible Navier-...">INSStaggeredHierarchyIntegrator</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeb96ec4b900573512bdc66a77bb1c7d5"></a>

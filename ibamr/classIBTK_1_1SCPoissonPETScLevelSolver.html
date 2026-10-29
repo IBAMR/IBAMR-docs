@@ -317,8 +317,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4239bef0f590bdeda6f61d8262bcaa51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad397e9d9bc9f0611cb497050f40806cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html#ad397e9d9bc9f0611cb497050f40806cc">d_data_synch_sched</a></td></tr>
 <tr class="separator:ad397e9d9bc9f0611cb497050f40806cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62be69739666dddde12303f283f0c684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a62be69739666dddde12303f283f0c684">d_ghost_fill_sched</a></td></tr>
-<tr class="separator:a62be69739666dddde12303f283f0c684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e06b772b600e3fa115ded832843405"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a85e06b772b600e3fa115ded832843405">SCPoissonPETScLevelSolver</a> ()=delete</td></tr>
 <tr class="memdesc:a85e06b772b600e3fa115ded832843405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classIBTK_1_1SCPoissonPETScLevelSolver.html#a85e06b772b600e3fa115ded832843405">More...</a><br /></td></tr>
 <tr class="separator:a85e06b772b600e3fa115ded832843405"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,7 +442,6 @@ Protected Attributes</h2></td></tr>
 <li>Initialize <a class="el" href="classIBTK_1_1SCPoissonPETScLevelSolver.html" title="Class SCPoissonPETScLevelSolver is a concrete PETScLevelSolver for solving elliptic equations of the ...">SCPoissonPETScLevelSolver</a> object using the function <a class="el" href="classIBTK_1_1PETScLevelSolver.html#a647da1ca2f57faed471f24767adac81d" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>.</li>
 <li>Solve the linear system using the member function <a class="el" href="classIBTK_1_1PETScLevelSolver.html#a7435f38c3bd515c382d71df06a8b41c3" title="Solve the linear system of equations  for .">solveSystem()</a>, passing in <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects corresponding to \(u\) and \(f\).</li>
 </ol>
-<p>On return the ghost values of <em>x</em> that lie in other patches of the level, including across periodic boundaries, hold the solution there.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">max_iterations = 10            // see setMaxIterations()
 absolute_residual_tol = 0.0    // see setAbsoluteTolerance() (only used by hypre Krylov
 solvers)
@@ -2471,28 +2468,6 @@ Subclasses of class <a class="el" href="classIBTK_1_1PETScLevelSolver.html" titl
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;NDIM&gt; &gt; IBTK::SCPoissonPETScLevelSolver::d_data_synch_sched</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a62be69739666dddde12303f283f0c684"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62be69739666dddde12303f283f0c684">&#9670;&nbsp;</a></span>d_ghost_fill_sched</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;NDIM&gt; &gt; IBTK::SCPoissonPETScLevelSolver::d_ghost_fill_sched</td>
         </tr>
       </table>
   </td>

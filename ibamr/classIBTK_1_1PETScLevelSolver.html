@@ -390,11 +390,11 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:acd4cae0fe65c6515c0708f9faf95a5e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The solver treats the ghost values of <em>x</em> at coarse-fine interfaces as Dirichlet data: it reads them and does not change them. A caller that wants homogeneous data there sets them to zero. On return, the interior values of <em>x</em> contain the solution.</p>
+<div class="textblock"><p>The solver treats the ghost values of <em>x</em> at coarse-fine interfaces as Dirichlet data: it reads them and, unless a derived class says otherwise, does not change them. A caller that wants homogeneous data there sets them to zero. On return, the interior values of <em>x</em> contain the solution.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">options_prefix = ""           // see setOptionsPrefix()
 ksp_type = "gmres"            // see setKSPType()
 pc_type = ""                  // PETSc preconditioner type
-initial_guess_nonzero = TRUE  // see setInitialGuessNonzero()
+initial_guess_nonzero = FALSE // see setInitialGuessNonzero()
 rel_residual_tol = 1.0e-5     // see setRelativeTolerance()
 abs_residual_tol = 1.0e-50    // see setAbsoluteTolerance()
 max_iterations = 10000        // see setMaxIterations()

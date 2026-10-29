@@ -112,6 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b1df5a5526e926eaf6b88f1f68d1bee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#a2b1df5a5526e926eaf6b88f1f68d1bee">enforceNormalVelocityBoundaryConditions</a> (int u_data_idx, int p_data_idx, const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_bc_coefs, double fill_time, bool homogeneous_bc, int coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, int finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>) const</td></tr>
 <tr class="memdesc:a2b1df5a5526e926eaf6b88f1f68d1bee"><td class="mdescLeft">&#160;</td><td class="mdescRight">At Dirichlet boundaries, set values to enforce normal velocity boundary conditions at the boundary.  <a href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#a2b1df5a5526e926eaf6b88f1f68d1bee">More...</a><br /></td></tr>
 <tr class="separator:a2b1df5a5526e926eaf6b88f1f68d1bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9382121a4bb1a6b5b8723cc97299091"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#af9382121a4bb1a6b5b8723cc97299091">computeNetBoundaryFlux</a> (const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;u_bc_coefs, int u_data_idx, double fill_time, int wgt_cc_idx) const</td></tr>
+<tr class="memdesc:af9382121a4bb1a6b5b8723cc97299091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the net outward flux through the physical boundary of the normal velocity that <code>u_bc_coefs</code> prescribe at <code>fill_time</code>.  <a href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#af9382121a4bb1a6b5b8723cc97299091">More...</a><br /></td></tr>
+<tr class="separator:af9382121a4bb1a6b5b8723cc97299091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a316c2b52a18faad96b72fc1a9443be3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#a316c2b52a18faad96b72fc1a9443be3c">enforceDivergenceFreeConditionAtBoundary</a> (int u_data_idx, int coarsest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, int finest_ln=<a class="el" href="namespaceIBTK.html#a426852ad282d4bb75fa436e05150870d">IBTK::invalid_level_number</a>, short int bdry_tag=<a class="el" href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#aa743c312d553819e4aef3adf0c241aa8">NORMAL_TRACTION_BDRY</a>) const</td></tr>
 <tr class="memdesc:a316c2b52a18faad96b72fc1a9443be3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set normal velocity ghost cell values to enforce discrete divergence-free condition in the ghost cells abutting the physical boundary.  <a href="classIBAMR_1_1StaggeredStokesPhysicalBoundaryHelper.html#a316c2b52a18faad96b72fc1a9443be3c">More...</a><br /></td></tr>
 <tr class="separator:a316c2b52a18faad96b72fc1a9443be3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,6 +332,53 @@ Private Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9382121a4bb1a6b5b8723cc97299091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9382121a4bb1a6b5b8723cc97299091">&#9670;&nbsp;</a></span>computeNetBoundaryFlux()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double IBAMR::StaggeredStokesPhysicalBoundaryHelper::computeNetBoundaryFlux </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>u_bc_coefs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>u_data_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fill_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>wgt_cc_idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u_data_idx</td><td>Side-centered velocity data that the boundary condition objects take as their target. </td></tr>
+    <tr><td class="paramname">wgt_cc_idx</td><td>Cell-centered composite-grid weights, which are zero on covered cells. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

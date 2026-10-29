@@ -91,15 +91,12 @@ $(function() {
 <tr class="memitem:a0d67d3ed5efa92cea877170ea8f5c1a7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0d67d3ed5efa92cea877170ea8f5c1a7">copyToPatchLevelVec</a> (Vec &amp;vec, int u_data_idx, int u_dof_index_idx, int p_data_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
 <tr class="memdesc:a0d67d3ed5efa92cea877170ea8f5c1a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data to a parallel PETSc Vec on the provided <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0d67d3ed5efa92cea877170ea8f5c1a7">More...</a><br /></td></tr>
 <tr class="separator:a0d67d3ed5efa92cea877170ea8f5c1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0915c1b4502a21dcc4e6cbb37ebe3d3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0915c1b4502a21dcc4e6cbb37ebe3d3a">copyFromPatchLevelVec</a> (Vec &amp;vec, int u_data_idx, int u_dof_index_idx, int p_data_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt; data_synch_sched, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt; ghost_fill_sched)</td></tr>
-<tr class="memdesc:a0915c1b4502a21dcc4e6cbb37ebe3d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data from a parallel PETSc Vec on the provided <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0915c1b4502a21dcc4e6cbb37ebe3d3a">More...</a><br /></td></tr>
-<tr class="separator:a0915c1b4502a21dcc4e6cbb37ebe3d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d721994e8b81536ca2116762f398ef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#aa0d721994e8b81536ca2116762f398ef">copyFromPatchLevelVec</a> (Vec &amp;vec, int u_data_idx, int u_dof_index_idx, int p_data_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt; data_synch_sched)</td></tr>
+<tr class="memdesc:aa0d721994e8b81536ca2116762f398ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy data from a parallel PETSc Vec on the provided <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#aa0d721994e8b81536ca2116762f398ef">More...</a><br /></td></tr>
+<tr class="separator:aa0d721994e8b81536ca2116762f398ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46379af4fa8bda428cd4f83692f0e33b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a46379af4fa8bda428cd4f83692f0e33b">constructDataSynchSchedule</a> (int u_data_idx, int p_data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
-<tr class="memdesc:a46379af4fa8bda428cd4f83692f0e33b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a RefineSchedule to synchronize shared values that can be used in conjunction with <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0915c1b4502a21dcc4e6cbb37ebe3d3a" title="Copy data from a parallel PETSc Vec on the provided SAMRAI::hier::PatchLevel.">copyFromPatchLevelVec()</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a46379af4fa8bda428cd4f83692f0e33b">More...</a><br /></td></tr>
+<tr class="memdesc:a46379af4fa8bda428cd4f83692f0e33b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a RefineSchedule to synchronize shared values that can be used in conjunction with <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#aa0d721994e8b81536ca2116762f398ef" title="Copy data from a parallel PETSc Vec on the provided SAMRAI::hier::PatchLevel.">copyFromPatchLevelVec()</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a46379af4fa8bda428cd4f83692f0e33b">More...</a><br /></td></tr>
 <tr class="separator:a46379af4fa8bda428cd4f83692f0e33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8104042b5260b02954dbb68fcca158d7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a8104042b5260b02954dbb68fcca158d7">constructGhostFillSchedule</a> (int u_data_idx, int p_data_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
-<tr class="memdesc:a8104042b5260b02954dbb68fcca158d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a RefineSchedule to fill ghost cell values that can be used in conjunction with <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0915c1b4502a21dcc4e6cbb37ebe3d3a" title="Copy data from a parallel PETSc Vec on the provided SAMRAI::hier::PatchLevel.">copyFromPatchLevelVec()</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a8104042b5260b02954dbb68fcca158d7">More...</a><br /></td></tr>
-<tr class="separator:a8104042b5260b02954dbb68fcca158d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e66245fc039a4b6413bef1f1b37dff2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a6e66245fc039a4b6413bef1f1b37dff2">constructPatchLevelDOFIndices</a> (std::vector&lt; int &gt; &amp;num_dofs_per_proc, int u_dof_index_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
 <tr class="memdesc:a6e66245fc039a4b6413bef1f1b37dff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign a DOF index to each unique degree of freedom on a <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a6e66245fc039a4b6413bef1f1b37dff2">More...</a><br /></td></tr>
 <tr class="separator:a6e66245fc039a4b6413bef1f1b37dff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,7 +116,7 @@ $(function() {
 <tr class="memdesc:a02c26cf433c82d5f2746cfd19d2877be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0d67d3ed5efa92cea877170ea8f5c1a7" title="Copy data to a parallel PETSc Vec on the provided SAMRAI::hier::PatchLevel.">copyToPatchLevelVec()</a> for a standard MAC discretization.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a02c26cf433c82d5f2746cfd19d2877be">More...</a><br /></td></tr>
 <tr class="separator:a02c26cf433c82d5f2746cfd19d2877be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac939a1c1c6efd6353f5fd7987e46a85a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#ac939a1c1c6efd6353f5fd7987e46a85a">copyFromPatchLevelVec_MAC</a> (Vec &amp;vec, int u_data_idx, int u_dof_index_idx, int p_data_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
-<tr class="memdesc:ac939a1c1c6efd6353f5fd7987e46a85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a0915c1b4502a21dcc4e6cbb37ebe3d3a" title="Copy data from a parallel PETSc Vec on the provided SAMRAI::hier::PatchLevel.">copyFromPatchLevelVec()</a> for a standard MAC discretization.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#ac939a1c1c6efd6353f5fd7987e46a85a">More...</a><br /></td></tr>
+<tr class="memdesc:ac939a1c1c6efd6353f5fd7987e46a85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#aa0d721994e8b81536ca2116762f398ef" title="Copy data from a parallel PETSc Vec on the provided SAMRAI::hier::PatchLevel.">copyFromPatchLevelVec()</a> for a standard MAC discretization.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#ac939a1c1c6efd6353f5fd7987e46a85a">More...</a><br /></td></tr>
 <tr class="separator:ac939a1c1c6efd6353f5fd7987e46a85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94a350c7a24c1638ef584be17e626ae0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a94a350c7a24c1638ef584be17e626ae0">constructPatchLevelDOFIndices_MAC</a> (std::vector&lt; int &gt; &amp;num_dofs_proc, int u_dof_index_idx, int p_dof_index_idx, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt; patch_level)</td></tr>
 <tr class="memdesc:a94a350c7a24c1638ef584be17e626ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of <a class="el" href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a6e66245fc039a4b6413bef1f1b37dff2" title="Assign a DOF index to each unique degree of freedom on a SAMRAI::hier::PatchLevel.">constructPatchLevelDOFIndices()</a> for a standard MAC discretization.  <a href="classIBAMR_1_1StaggeredStokesPETScVecUtilities.html#a94a350c7a24c1638ef584be17e626ae0">More...</a><br /></td></tr>
@@ -246,8 +243,8 @@ $(function() {
 
 </div>
 </div>
-<a id="a0915c1b4502a21dcc4e6cbb37ebe3d3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0915c1b4502a21dcc4e6cbb37ebe3d3a">&#9670;&nbsp;</a></span>copyFromPatchLevelVec()</h2>
+<a id="aa0d721994e8b81536ca2116762f398ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d721994e8b81536ca2116762f398ef">&#9670;&nbsp;</a></span>copyFromPatchLevelVec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,13 +292,7 @@ $(function() {
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&#160;</td>
-          <td class="paramname"><em>data_synch_sched</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt;&gt;&#160;</td>
-          <td class="paramname"><em>ghost_fill_sched</em>&#160;</td>
+          <td class="paramname"><em>data_synch_sched</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -358,48 +349,6 @@ $(function() {
 </table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Synchronization is not required for all data centerings. For cases in which it is not needed, this method will return a nullptr pointer. </dd></dl>
-
-</div>
-</div>
-<a id="a8104042b5260b02954dbb68fcca158d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8104042b5260b02954dbb68fcca158d7">&#9670;&nbsp;</a></span>constructGhostFillSchedule()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt;NDIM&gt; &gt; IBAMR::StaggeredStokesPETScVecUtilities::constructGhostFillSchedule </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>u_data_idx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>p_data_idx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchLevel.html">SAMRAI::hier::PatchLevel</a>&lt; NDIM &gt;&gt;&#160;</td>
-          <td class="paramname"><em>patch_level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
