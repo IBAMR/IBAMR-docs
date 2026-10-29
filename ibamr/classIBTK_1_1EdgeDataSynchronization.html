@@ -85,7 +85,7 @@ $(function() {
 <div class="contents">
 
 <p>Class <a class="el" href="classIBTK_1_1EdgeDataSynchronization.html" title="Class EdgeDataSynchronization encapsulates the operations required to &quot;synchronize&quot; edge-centered val...">EdgeDataSynchronization</a> encapsulates the operations required to "synchronize" edge-centered values defined at patch boundaries.  
-</p>
+ <a href="classIBTK_1_1EdgeDataSynchronization.html#details">More...</a></p>
 
 <p><code>#include &lt;ibtk/EdgeDataSynchronization.h&gt;</code></p>
 <div class="dynheader">
@@ -163,7 +163,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ace2aff354a68681ce1cff6ce8875f1db"><td class="memItemLeft" align="right" valign="top">std::array&lt; std::vector&lt; <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineSchedule.html">SAMRAI::xfer::RefineSchedule</a>&lt; NDIM &gt; &gt; &gt;, NDIM &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1EdgeDataSynchronization.html#ace2aff354a68681ce1cff6ce8875f1db">d_refine_scheds</a></td></tr>
 <tr class="separator:ace2aff354a68681ce1cff6ce8875f1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An edge value shared by several patches of a level takes the value of the patch that contains the highest cell touching it, comparing the last coordinate first. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adc49aa5bbe41db9eb350e37ba1f64f47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc49aa5bbe41db9eb350e37ba1f64f47">&#9670;&nbsp;</a></span>EdgeDataSynchronization() <span class="overload">[1/2]</span></h2>
 

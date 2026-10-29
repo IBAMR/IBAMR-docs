@@ -140,7 +140,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a641f4d531ac45d49d3d6a30d629f0139"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section note"><dt>Note</dt><dd>We synchronize data one axis at a time because edge-centered values can be shared by more than two patches. For instance, to synchronize edge values in three spatial dimensions, we first synchronize values in the x direction, then in the y direction, and finally in the z direction. </dd></dl>
+<div class="textblock"><dl class="section note"><dt>Note</dt><dd>An edge value shared by several patches belongs to the patch that contains the highest cell touching it, comparing the last coordinate first. Where that cell is in the level, two patches can tell which of them owns the value, but at the border of a level it may be missing, and then the owner is the patch with the highest cell that is present. We therefore synchronize one axis at a time: each pass compares two patches, and later passes override earlier ones. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="accbf9d4302d02fb745dd9ea7f5b7d7cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accbf9d4302d02fb745dd9ea7f5b7d7cc">&#9670;&nbsp;</a></span>EdgeSynchCopyFillPattern() <span class="overload">[1/3]</span></h2>
