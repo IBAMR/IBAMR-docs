@@ -113,6 +113,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a15d22fa0e867c788743c246947ec62f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe52b549aa0929748265a2cbcbe9f12b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#afe52b549aa0929748265a2cbcbe9f12b">isDamped</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec)</td></tr>
 <tr class="separator:afe52b549aa0929748265a2cbcbe9f12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66eb1f089a01212391f2c2e21ee312fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonUtilities.html#a66eb1f089a01212391f2c2e21ee312fa">checkCoefficientDepths</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec, const std::string &amp;object_name)</td></tr>
+<tr class="separator:a66eb1f089a01212391f2c2e21ee312fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -960,6 +962,43 @@ The scaling factors of \( D \) variable in the PoissonSpecification object is pa
 </table>
 </div><div class="memdoc">
 <p>Return whether the operator has a damping term, i.e. C is not exactly zero. </p>
+
+</div>
+</div>
+<a id="a66eb1f089a01212391f2c2e21ee312fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66eb1f089a01212391f2c2e21ee312fa">&#9670;&nbsp;</a></span>checkCoefficientDepths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void IBTK::PoissonUtilities::checkCoefficientDepths </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
+          <td class="paramname"><em>poisson_spec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>object_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Emit an error if C or D is patch data that is not registered or whose depth is not one. C and D are shared by all components of the solution. The error message begins with the given object name. </p>
 
 </div>
 </div>
