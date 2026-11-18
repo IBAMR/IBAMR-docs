@@ -108,9 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f3b8217cc3c564cb855228c48529621"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html#a5f3b8217cc3c564cb855228c48529621">~VCSCViscousOpPointRelaxationFACOperator</a> ()</td></tr>
 <tr class="memdesc:a5f3b8217cc3c564cb855228c48529621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html#a5f3b8217cc3c564cb855228c48529621">More...</a><br /></td></tr>
 <tr class="separator:a5f3b8217cc3c564cb855228c48529621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71207645673526ab1ce5a7dd041074c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab71207645673526ab1ce5a7dd041074c">setPoissonSpecifications</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec)</td></tr>
-<tr class="memdesc:ab71207645673526ab1ce5a7dd041074c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html" title="Light class holding specifications for cell-centered implementation of the scalar Poisson equation.">SAMRAI::solv::PoissonSpecifications</a> object used to specify the coefficients for the scalar-valued or vector-valued Laplace operator.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ab71207645673526ab1ce5a7dd041074c">More...</a><br /></td></tr>
-<tr class="separator:ab71207645673526ab1ce5a7dd041074c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ce327dd2eb3f1b39987d6b071ccab5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html#a98ce327dd2eb3f1b39987d6b071ccab5">setPoissonSpecifications</a> (const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;poisson_spec) override</td></tr>
+<tr class="memdesc:a98ce327dd2eb3f1b39987d6b071ccab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html" title="Light class holding specifications for cell-centered implementation of the scalar Poisson equation.">SAMRAI::solv::PoissonSpecifications</a> object used to specify the coefficients of the operator. C and D may be patch data.  <a href="classIBTK_1_1VCSCViscousOpPointRelaxationFACOperator.html#a98ce327dd2eb3f1b39987d6b071ccab5">More...</a><br /></td></tr>
+<tr class="separator:a98ce327dd2eb3f1b39987d6b071ccab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a65e321e255fff541d3229c14e9f144"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a4a65e321e255fff541d3229c14e9f144">setPhysicalBcCoef</a> (<a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *bc_coef)</td></tr>
 <tr class="memdesc:a4a65e321e255fff541d3229c14e9f144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html" title="Interface for specifying Robin boundary conditions.">SAMRAI::solv::RobinBcCoefStrategy</a> object used to specify physical boundary conditions.  <a href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a4a65e321e255fff541d3229c14e9f144">More...</a><br /></td></tr>
 <tr class="separator:a4a65e321e255fff541d3229c14e9f144"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -571,6 +571,34 @@ level solver
 
 </div>
 </div>
+<a id="a98ce327dd2eb3f1b39987d6b071ccab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ce327dd2eb3f1b39987d6b071ccab5">&#9670;&nbsp;</a></span>setPoissonSpecifications()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBTK::VCSCViscousOpPointRelaxationFACOperator::setPoissonSpecifications </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
+          <td class="paramname"><em>poisson_spec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classIBTK_1_1SCPoissonPointRelaxationFACOperator.html#a57812fa30981d86a1ef5eb87b1674153">IBTK::SCPoissonPointRelaxationFACOperator</a>.</p>
+
+</div>
+</div>
 <a id="a97e6a9d8247f3681a8d0e1820897b965"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97e6a9d8247f3681a8d0e1820897b965">&#9670;&nbsp;</a></span>smoothError()</h2>
 
@@ -987,32 +1015,6 @@ level solver
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#a613fdc4b79eb2d7bcbe44849495f9b0a">IBTK::PoissonFACPreconditionerStrategy</a>.</p>
-
-</div>
-</div>
-<a id="ab71207645673526ab1ce5a7dd041074c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab71207645673526ab1ce5a7dd041074c">&#9670;&nbsp;</a></span>setPoissonSpecifications()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void IBTK::PoissonFACPreconditionerStrategy::setPoissonSpecifications </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html">SAMRAI::solv::PoissonSpecifications</a> &amp;&#160;</td>
-          <td class="paramname"><em>poisson_spec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
