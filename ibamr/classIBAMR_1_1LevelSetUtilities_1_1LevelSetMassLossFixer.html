@@ -83,7 +83,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Correct a regularized phase volume by a uniform level-set shift.  
+<p>Class <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html" title="Class LevelSetMassLossFixer corrects a regularized phase volume by a uniform shift q of the level set...">LevelSetMassLossFixer</a> corrects a regularized phase volume by a uniform shift q of the level set \(\phi\).  
  <a href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#details">More...</a></p>
 
 <p><code>#include &lt;ibamr/LevelSetUtilities.h&gt;</code></p>
@@ -92,7 +92,7 @@ Inheritance diagram for IBAMR::LevelSetUtilities::LevelSetMassLossFixer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer__inherit__graph.png" border="0" usemap="#aIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer_inherit__map" alt="Inheritance graph"/></div>
 <map name="aIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer_inherit__map" id="aIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer_inherit__map">
-<area shape="rect" title="Correct a regularized phase volume by a uniform level&#45;set shift." alt="" coords="25,155,205,196"/>
+<area shape="rect" title="Class LevelSetMassLossFixer corrects a regularized phase volume by a uniform shift q of the level set..." alt="" coords="25,155,205,196"/>
 <area shape="rect" href="classSAMRAI_1_1tbox_1_1Serializable.html" title=" " alt="" coords="17,80,212,107"/>
 <area shape="rect" href="classSAMRAI_1_1tbox_1_1DescribedClass.html" title="Base class for all objects that use run&#45;time type identification (RTTI)." alt="" coords="5,5,224,32"/>
 </map>
@@ -176,9 +176,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2ad47a9a38122e76f320d51b14133cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The two-phase correction targets gas volume \(\int H(-(\phi+q))\,dV\); the three-phase correction targets liquid volume \(\int H(\phi+q)H(\psi)\,dV\). Set the initial volume after hierarchy initialization; <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a079060d9831f3821a53529a753265525">setTargetVolume()</a> may update the target before a later correction. The half-width is half_width times the geometric mean cell spacing on each patch.</p>
-<p>The volume tolerance is abs_tol + rel_tol*abs(target), with default rel_tol 1e-12 and default abs_tol 64 machine epsilons times the current fluid capacity. max_its (default 64) bounds the trial evaluations. The correction either reaches the tolerance or stops with an error before changing the field.</p>
-<p>Restart restores the initial volume, target, and half-width; the other settings come from the current input. </p>
+<div class="textblock"><p>With the regularized Heaviside function H, the two-phase correction targets the gas volume \(\int H(-(\phi+q))\,dV\). The three-phase correction targets the liquid volume \(\int H(\phi+q)H(\psi)\,dV\), in which \(\psi\) is the solid level set. Call <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a4aa8fd2f70f333db503e328acc469133">setInitialVolume()</a> after hierarchy initialization. <a class="el" href="classIBAMR_1_1LevelSetUtilities_1_1LevelSetMassLossFixer.html#a079060d9831f3821a53529a753265525">setTargetVolume()</a> may change the target before a later correction. The half-width of H is half_width times the geometric mean cell spacing on each patch.</p>
+<p>The volume tolerance is abs_tol + rel_tol*abs(target), with default rel_tol 1e-12 and default abs_tol 64 machine epsilons times the fluid volume \(\int H(\psi)\,dV\) (the domain volume for two phases). max_its (default 64) bounds the trial evaluations. The correction either reaches the tolerance or stops with an error before changing the field.</p>
+<p>A restart restores the initial volume, target, and half-width. The other settings come from the current input. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa0c855b2bf6b4c82817d911a04cbbfb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0c855b2bf6b4c82817d911a04cbbfb9">&#9670;&nbsp;</a></span>LevelSetMassLossFixer()</h2>
@@ -652,7 +652,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>three_phase selects the liquid volume, with the second level set marking the solid; otherwise the gas volume is corrected. </p>
+<p>If <code>three_phase</code> is true, the function corrects the liquid volume and uses the second level set to indicate the solid. Otherwise, the function corrects the gas volume. </p>
 
 </div>
 </div>

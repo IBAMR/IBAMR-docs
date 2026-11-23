@@ -968,7 +968,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a67fdfe0a5d6114b04e025c647f22883f"><td class="memItemLeft" align="right" valign="top">Vec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a67fdfe0a5d6114b04e025c647f22883f">setup_petsc_vector</a> (const unsigned int num_local_nodes, const unsigned int depth, const std::vector&lt; int &gt; &amp;nonlocal_petsc_indices)</td></tr>
 <tr class="separator:a67fdfe0a5d6114b04e025c647f22883f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bb8e73000a6114a83f3631b9ec2e009"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#a5bb8e73000a6114a83f3631b9ec2e009">equals_ignore_case</a> (std::string_view a, std::string_view b)</td></tr>
-<tr class="memdesc:a5bb8e73000a6114a83f3631b9ec2e009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether two strings are equal when the ASCII letters are compared without regard to case.  <a href="namespaceIBTK.html#a5bb8e73000a6114a83f3631b9ec2e009">More...</a><br /></td></tr>
+<tr class="memdesc:a5bb8e73000a6114a83f3631b9ec2e009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether two strings are equal when the ASCII letters are compared without regard to case.  <a href="namespaceIBTK.html#a5bb8e73000a6114a83f3631b9ec2e009">More...</a><br /></td></tr>
 <tr class="separator:a5bb8e73000a6114a83f3631b9ec2e009"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5de09e0a6f4e729b82c38b17a9783df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceIBTK.html#ae5de09e0a6f4e729b82c38b17a9783df">update_snapshot</a> (<a class="el" href="classIBTK_1_1SnapshotCache.html">SnapshotCache</a> &amp;cache, int u_idx, double time, <a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1PatchHierarchy.html">SAMRAI::hier::PatchHierarchy</a>&lt; NDIM &gt;&gt; current_hierarchy, double tol=1.0e-8)</td></tr>
 <tr class="separator:ae5de09e0a6f4e729b82c38b17a9783df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1676,7 +1676,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>FULL uses row-major depth ordering: component (i,j) has depth i*NDIM+j. SYMMETRIC uses (xx, yy, xy) in 2D and (xx, yy, zz, yz, xz, xy) in 3D. </p>
+<p>With FULL, component (i,j) is stored at depth i*NDIM+j. With SYMMETRIC, the depths contain (xx, yy, xy) in two spatial dimensions and (xx, yy, zz, yz, xz, xy) in three spatial dimensions. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac25268de840a8ea74abcd3b1e6e83ee2aba7de5bc6888294e5884b024a4c894f1"></a>FULL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac25268de840a8ea74abcd3b1e6e83ee2a161b3d9016563aba9ac190fc02ada9bb"></a>SYMMETRIC&#160;</td><td class="fielddoc"></td></tr>
@@ -1957,12 +1957,12 @@ template&lt;typename Value , typename Function &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The patch-data factory of var selects the centering. var is not retained, and the returned function may be applied to other variables of the same data type. MatrixNd functions require the overload with TensorStorage.</p>
+<p>The patch-data factory of var selects the centering. The returned function does not store var and may be applied to other variables of the same data type. MatrixNd functions require the overload with TensorStorage.</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> <span class="keywordtype">double</span> factor = 2.0;</div>
 <div class="line"><span class="keyword">auto</span> f = make_cart_grid_pointwise_function&lt;double&gt;(</div>
 <div class="line">    <span class="stringliteral">&quot;scale&quot;</span>, var, [factor](<span class="keywordtype">double</span> q, <span class="keyword">const</span> <a class="code" href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">VectorNd</a>&amp;, <span class="keywordtype">double</span>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>) { <span class="keywordflow">return</span> factor*q; });</div>
 <div class="line">f-&gt;setDataOnPatchHierarchy(data_idx, var, hierarchy, time);</div>
-<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:300</div></div>
+<div class="ttc" id="anamespaceIBTK_html_a2b73983d16b31c6192694e6101f57273"><div class="ttname"><a href="namespaceIBTK.html#a2b73983d16b31c6192694e6101f57273">IBTK::VectorNd</a></div><div class="ttdeci">Eigen::Matrix&lt; double, NDIM, 1 &gt; VectorNd</div><div class="ttdef"><b>Definition:</b> ibtk_utilities.h:298</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -3024,7 +3024,7 @@ template&lt;class Container &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Values on the patch boundary (e.g., side-centered normal components) are interior.</p>
-<p>Both indices must be allocated and hold data of the same element type. Data whose geometries compute no overlap with each other (for example, data of different centerings) produce an error. If the depths differ, only the common components are copied. </p>
+<p>Both indices must refer to allocated data of the same element type. The function stops with an error if the box geometries of the source and destination data compute no overlap, for example for data of different centerings. If the depths differ, only the common components are copied. </p>
 
 </div>
 </div>
@@ -3233,7 +3233,7 @@ template&lt;class T , unsigned N&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Regularized Heaviside function with smoothing half-width alpha. For finite phi and finite positive alpha, values lie in [0, 1], with exact saturation at both cutoffs. Values are accurate to absolute rounding error; tiny fractions near the cutoffs do not have full relative accuracy. Use smooth_heaviside(-phi, alpha) for a small complementary fraction that subtraction from one would lose. </p>
+<p>Regularized Heaviside function with smoothing half-width alpha and cutoffs at phi = -alpha and phi = alpha. For finite phi and finite positive alpha, values lie in [0, 1], with exact saturation at both cutoffs. Values are accurate to absolute rounding error. Tiny values near the cutoffs do not have full relative accuracy. Use smooth_heaviside(-phi, alpha) for a small complementary fraction that subtraction from one would lose. </p>
 
 </div>
 </div>
@@ -3270,7 +3270,7 @@ template&lt;class T , unsigned N&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Analytic derivative of <a class="el" href="namespaceIBTK.html#abd643aba5793178126d00ce49bc89117">smooth_heaviside()</a>, with the same half-width alpha. Values are nonnegative and exactly zero at and outside both cutoffs. Requires finite phi and finite positive alpha; the result may underflow or overflow when the derivative is not representable. </p>
+<p>Analytic derivative of <a class="el" href="namespaceIBTK.html#abd643aba5793178126d00ce49bc89117">smooth_heaviside()</a>, with the same half-width alpha. Values are nonnegative and exactly zero at and outside both cutoffs. Requires finite phi and finite positive alpha. The result may underflow or overflow if the derivative is not representable. </p>
 
 </div>
 </div>

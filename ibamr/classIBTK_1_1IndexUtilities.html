@@ -552,8 +552,8 @@ template&lt;class DoubleArray &gt; </div>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>The coordinate <code>x</code>, moved if necessary into the half-open interval [<code>x_lower</code>, <code>x_upper</code>) that the computational domain occupies in one coordinate direction.</dd></dl>
-<p>A coordinate below <code>x_lower</code> is moved to <code>x_lower</code>. A coordinate above <code>x_upper</code>, or within the square root of machine epsilon times the length of the domain of it, is moved to that distance below <code>x_upper</code>.</p>
-<p>This function does not shift points on periodic domains. It is up to the caller to shift <code>x</code> with respect to periodicity before calling this function. </p>
+<p>A coordinate below <code>x_lower</code> is moved to <code>x_lower</code>. Let d be the square root of machine epsilon times the length of the domain. A coordinate above the smaller of <code>x_upper</code> - d and the largest double below <code>x_upper</code> is moved to that value.</p>
+<p>This function does not shift <code>x</code> on periodic domains: the caller applies any periodic shift first. </p>
 
 </div>
 </div>
@@ -955,7 +955,7 @@ template&lt;typename Vector &gt; </div>
   <table class="params">
     <tr><td class="paramname">i</td><td>AMR index representing the (i,j,k) array data index for a variable on particular patch level.</td></tr>
     <tr><td class="paramname">domain_lower</td><td>Lower index of the domain for that patch level, assuming that the patch level covers the entire domain.</td></tr>
-    <tr><td class="paramname">num_cells</td><td>Number of data array cells for a patch level, which is assumed to cover the entire domain. It can be thought of size of the rectangular array that can store the variable data for the patch level that covers the entire domain. For a cc-variable the number of data array cells are same as patch level cells. For a sc-variable, the number of cells for the normal component exceeds the patch level cells by 1 in the normal direction.</td></tr>
+    <tr><td class="paramname">num_cells</td><td>Number of data array cells for a patch level, which is assumed to cover the entire domain. <code>num_cells</code> is the size of the rectangular array that stores the variable data on a patch level covering the entire domain. For a cc-variable the number of data array cells are same as patch level cells. For a sc-variable, the number of cells for the normal component exceeds the patch level cells by 1 in the normal direction.</td></tr>
     <tr><td class="paramname">depth</td><td>Data depth.</td></tr>
     <tr><td class="paramname">offset</td><td>Component offset. This is useful for getting unique values for different components of the variable, e.g., a sc-variable. Different components can have different depth.</td></tr>
     <tr><td class="paramname">periodic_shift</td><td>Periodic shift in each direction.</td></tr>

@@ -92,7 +92,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3f93c85dbeb9c52da4a2e6a7de877f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the mobility matrix from empirical fits.  <a href="classIBAMR_1_1MobilityFunctions.html#a3f93c85dbeb9c52da4a2e6a7de877f68">More...</a><br /></td></tr>
 <tr class="separator:a3f93c85dbeb9c52da4a2e6a7de877f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a394fbec9e2a558b44ffb12b9f8c7735c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1MobilityFunctions.html#a394fbec9e2a558b44ffb12b9f8c7735c">constructRPYMobilityMatrix</a> (const char *kernel_name, const double mu, const double dx, const double *X, const int num_nodes, const double periodic_correction, double *mm)</td></tr>
-<tr class="memdesc:a394fbec9e2a558b44ffb12b9f8c7735c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the mobility matrix from Rotne-Pragner-Yamakawa tensor.  <a href="classIBAMR_1_1MobilityFunctions.html#a394fbec9e2a558b44ffb12b9f8c7735c">More...</a><br /></td></tr>
+<tr class="memdesc:a394fbec9e2a558b44ffb12b9f8c7735c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the mobility matrix from Rotne-Prager-Yamakawa tensor.  <a href="classIBAMR_1_1MobilityFunctions.html#a394fbec9e2a558b44ffb12b9f8c7735c">More...</a><br /></td></tr>
 <tr class="separator:a394fbec9e2a558b44ffb12b9f8c7735c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -204,7 +204,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>This is used only only for 2 dimensional steady stokes.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This parameter is used only for steady Stokes flow in two spatial dimensions.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mm</td><td>Pointer to mobility matrix. </td></tr>
@@ -291,7 +291,6 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">X</td><td>Array of IB markers' location.</td></tr>
     <tr><td class="paramname">num_nodes</td><td>Number of Lagrangian markers.</td></tr>
     <tr><td class="paramname">periodic_correction</td><td>Input parameter for incorporating periodic domain correction. Set it to zero if not known.</td></tr>
-    <tr><td class="paramname">l_domain</td><td>Length of the domain.</td></tr>
     <tr><td class="paramname">mm</td><td>Pointer to mobility matrix. </td></tr>
   </table>
   </dd>
