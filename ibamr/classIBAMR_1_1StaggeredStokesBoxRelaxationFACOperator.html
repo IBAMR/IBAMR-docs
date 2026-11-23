@@ -303,6 +303,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a77accb3a5399b56619b8124fc971176d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Various refine and coarsen objects.</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpac44e1f8dafbc77f29e6dab17283242c"></a>Schedules are created on first use and discarded when the operator state is reset. </p>
+</td></tr>
 <tr class="memitem:a74c901540940a36e906e24fbab4d1ec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a74c901540940a36e906e24fbab4d1ec6">d_U_P_bc_op</a></td></tr>
 <tr class="separator:a74c901540940a36e906e24fbab4d1ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50c68bd7d6f49d23226a139f91fd2af9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineOperator.html">SAMRAI::xfer::RefineOperator</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a50c68bd7d6f49d23226a139f91fd2af9">d_U_prolongation_refine_operator</a></td></tr>
@@ -1421,13 +1423,13 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Note that although the vector arguments given to other methods in this class may not necessarily be the same as those given to this method, there will be similarities, including:</p>
+<p>The vector arguments given to other methods in this class may differ from those given to this method but have the same:</p>
 <ul>
 <li>hierarchy configuration (hierarchy pointer and level range)</li>
-<li>number, type and alignment of vector component data</li>
+<li>number, type, and alignment of vector component data</li>
 <li>ghost cell width of data in the solution (or solution-like) and right-hand-side vectors</li>
 </ul>
-<p>An unrecoverable error will occur if the vector ghost cell widths differ or are less than the constructor's.</p>
+<p>The program stops with an error if the ghost cell widths of the solution and right-hand-side vectors differ or are less than the ghost cell width given to the constructor.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">solution</td><td>solution vector u </td></tr>
@@ -1508,7 +1510,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idxs</em> are either the scratch data or have the ghost cell widths of the solution vector, and <em>src_idxs</em> have the ghost cell widths of the solution vector. </p>
+<p><em>dst_idxs</em> refer to the scratch data or to data with the ghost cell widths of the solution vector. <em>src_idxs</em> refer to data with the ghost cell widths of the solution vector. </p>
 
 </div>
 </div>
@@ -1551,7 +1553,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idxs</em> have the ghost cell widths of the right-hand-side vector, and <em>src_idxs</em> are either the scratch data or have the ghost cell widths of the right-hand-side vector. </p>
+<p><em>dst_idxs</em> refer to data with the ghost cell widths of the right-hand-side vector. <em>src_idxs</em> refer to the scratch data or to data with the ghost cell widths of the right-hand-side vector. </p>
 
 </div>
 </div>
@@ -1588,7 +1590,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idxs</em> are either the scratch data or have the ghost cell widths of the solution vector. </p>
+<p><em>dst_idxs</em> refer to the scratch data or to data with the ghost cell widths of the solution vector. </p>
 
 </div>
 </div>
@@ -1625,7 +1627,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idx</em> has the ghost cell width of the solution vector. </p>
+<p><em>dst_idx</em> refers to data with the ghost cell width of the solution vector. </p>
 
 </div>
 </div>

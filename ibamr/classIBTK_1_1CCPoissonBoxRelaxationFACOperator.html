@@ -311,6 +311,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ac55a05b8c3bae6f02791e243380af794"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Various refine and coarsen objects.</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpac44e1f8dafbc77f29e6dab17283242c"></a>Schedules are created on first use and discarded when the operator state is reset. </p>
+</td></tr>
 <tr class="memitem:adbd0805f7aa9ae197dd00796ac56d78e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefineOperator.html">SAMRAI::xfer::RefineOperator</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#adbd0805f7aa9ae197dd00796ac56d78e">d_prolongation_refine_operator</a></td></tr>
 <tr class="separator:adbd0805f7aa9ae197dd00796ac56d78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae570de2d7f42d21470742bac3d1fac4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1xfer_1_1RefinePatchStrategy.html">SAMRAI::xfer::RefinePatchStrategy</a>&lt; NDIM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PoissonFACPreconditionerStrategy.html#ae570de2d7f42d21470742bac3d1fac4f">d_prolongation_refine_patch_strategy</a></td></tr>
@@ -424,8 +426,8 @@ level solver
    num_post_relax_steps = 2
 }
 petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patch solvers
-</pre><p>With <code>"PROCESSOR_GAUSS_SEIDEL"</code>, a sweep reads values that neighboring patches on the same process updated earlier in that sweep, so results depend on the patch layout.</p>
-<p>By default, each smoothing sweep applies one Richardson iteration with an ILU preconditioner to each patch problem. The PETSc options database, with the prefix <code>petsc_options_prefix</code>, selects other patch solvers, for example <code>-cc_poisson_fac_ksp_type preonly -cc_poisson_fac_pc_type lu</code> for a direct solve. </p>
+</pre><p>With <code>"PROCESSOR_GAUSS_SEIDEL"</code>, a sweep uses values on neighboring patches of the same process that were updated earlier in that sweep. The results therefore depend on the patch layout.</p>
+<p>By default, each smoothing sweep applies one Richardson iteration with an ILU preconditioner to the linear system on each patch. The PETSc options database, with the prefix <code>petsc_options_prefix</code>, selects other patch solvers, for example <code>-cc_poisson_fac_ksp_type preonly -cc_poisson_fac_pc_type lu</code> for a direct solve. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0b327863126005bc3b28c6804c75987e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b327863126005bc3b28c6804c75987e">&#9670;&nbsp;</a></span>CCPoissonBoxRelaxationFACOperator() <span class="overload">[1/3]</span></h2>
@@ -1545,13 +1547,13 @@ petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patc
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Note that although the vector arguments given to other methods in this class may not necessarily be the same as those given to this method, there will be similarities, including:</p>
+<p>The vector arguments given to other methods in this class may differ from those given to this method but have the same:</p>
 <ul>
 <li>hierarchy configuration (hierarchy pointer and level range)</li>
-<li>number, type and alignment of vector component data</li>
+<li>number, type, and alignment of vector component data</li>
 <li>ghost cell width of data in the solution (or solution-like) and right-hand-side vectors</li>
 </ul>
-<p>An unrecoverable error will occur if the vector ghost cell widths differ or are less than the constructor's.</p>
+<p>The program stops with an error if the ghost cell widths of the solution and right-hand-side vectors differ or are less than the ghost cell width given to the constructor.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">solution</td><td>solution vector u </td></tr>
@@ -1632,7 +1634,7 @@ petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patc
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idx</em> is either the scratch data or has the ghost cell width of the solution vector, and <em>src_idx</em> has the ghost cell width of the solution vector. </p>
+<p><em>dst_idx</em> refers to the scratch data or to data with the ghost cell width of the solution vector. <em>src_idx</em> refers to data with the ghost cell width of the solution vector. </p>
 
 </div>
 </div>
@@ -1675,7 +1677,7 @@ petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patc
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idx</em> has the ghost cell width of the right-hand-side vector, and <em>src_idx</em> is either the scratch data or has the ghost cell width of the right-hand-side vector. </p>
+<p><em>dst_idx</em> refers to data with the ghost cell width of the right-hand-side vector. <em>src_idx</em> refers to the scratch data or to data with the ghost cell width of the right-hand-side vector. </p>
 
 </div>
 </div>
@@ -1712,7 +1714,7 @@ petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patc
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idx</em> has the ghost cell width of the solution vector. </p>
+<p><em>dst_idx</em> refers to data with the ghost cell width of the solution vector. </p>
 
 </div>
 </div>
@@ -1749,7 +1751,7 @@ petsc_options_prefix = "cc_poisson_fac_"     // PETSc options prefix of the patc
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idx</em> has the ghost cell width of the solution vector. </p>
+<p><em>dst_idx</em> refers to data with the ghost cell width of the solution vector. </p>
 
 </div>
 </div>

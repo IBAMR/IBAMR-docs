@@ -1687,7 +1687,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha div src1 + beta src2.</p>
-<p>Compute the divergence of a vector field using centered differences. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the differencing.</p>
+<p>Compute the divergence of a vector field using centered differences. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the differencing.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -1786,7 +1786,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha div src1 + beta src2.</p>
-<p>Compute the divergence of a vector field using centered differences. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the differencing.</p>
+<p>Compute the divergence of a vector field using centered differences. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the differencing.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -1909,7 +1909,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha div src1 + beta src2 + gamma src3.</p>
-<p>Compute the divergence of a vector field using centered differences. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the differencing. The term beta src2 is omitted when beta is zero or src2_idx is invalid, and likewise for gamma src3.</p>
+<p>Compute the divergence of a vector field using centered differences. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the differencing. The term beta src2 is omitted if beta is zero or src2_idx is invalid, and likewise for gamma src3.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -2089,7 +2089,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha grad src1 + beta src2.</p>
-<p>Compute the gradient of a scalar quantity using centered differences. When specified, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
+<p>Compute the gradient of a scalar quantity using centered differences. If requested, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -2182,7 +2182,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha grad src1 + beta src2.</p>
-<p>Compute the gradient of a scalar quantity using centered differences. When specified, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
+<p>Compute the gradient of a scalar quantity using centered differences. If requested, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -2467,7 +2467,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha grad src1 + beta src2.</p>
-<p>Compute the gradient of a scalar quantity using centered differences. When specified, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
+<p>Compute the gradient of a scalar quantity using centered differences. If requested, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
 <dl class="section note"><dt>Note</dt><dd>Homogeneous Neumann boundary conditions are explicitly enforced in the case of non-grid aligned anisotropy.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
@@ -2567,7 +2567,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets dst = alpha grad src1 + beta src2.</p>
-<p>Compute the gradient of a scalar quantity using centered differences. When specified, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
+<p>Compute the gradient of a scalar quantity using centered differences. If requested, coarse values on each coarse-fine interface are synchronized after performing the differencing.</p>
 <dl class="section note"><dt>Note</dt><dd>Homogeneous Neumann boundary conditions are explicitly enforced in the case of non-grid aligned anisotropy.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
@@ -2630,7 +2630,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -2692,7 +2692,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -2754,7 +2754,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When the interpolation occurs over over multiple levels of the hierarchy, second order interpolation is used at the coarse-fine interface to correct fine values along the interface. When specified, coarse values on each coarse-fine interface are synchronized after performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When the interpolation occurs over over multiple levels of the hierarchy, second order interpolation is used at the coarse-fine interface to correct fine values along the interface. If requested, coarse values on each coarse-fine interface are synchronized after performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -2816,7 +2816,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When the interpolation occurs over multiple levels of the hierarchy, second order interpolation is used at the coarse-fine interface to correct fine values along the interface. When specified, coarse values on each coarse-fine interface are synchronized after performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When the interpolation occurs over multiple levels of the hierarchy, second order interpolation is used at the coarse-fine interface to correct fine values along the interface. If requested, coarse values on each coarse-fine interface are synchronized after performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3070,7 +3070,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3138,7 +3138,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, coarse values on each coarse-fine interface are synchronized prior to performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3200,7 +3200,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3262,7 +3262,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) harmonic averaging. When the interpolation occurs over multiple levels of the hierarchy, second order interpolation is used at the coarse-fine interface to correct fine values along the interface. When specified, coarse values on each coarse-fine interface are synchronized after performing the interpolation.</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) harmonic averaging. When the interpolation occurs over multiple levels of the hierarchy, second order interpolation is used at the coarse-fine interface to correct fine values along the interface. If requested, coarse values on each coarse-fine interface are synchronized after performing the interpolation.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3318,7 +3318,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, the ghost cells of the node centered variable are computed as averages of the cell centered variable</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, the ghost cells of the node centered variable are computed as averages of the cell centered variable</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3374,7 +3374,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3487,7 +3487,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
 <dl class="section warning"><dt>Warning</dt><dd>This function exists for backwards compatibility purposes. New code should handle ghost regions in the conventional way (i.e., that ghost data is read-only).</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
@@ -3544,7 +3544,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, the ghost cells of the node centered variable are computed as averages of the cell centered variable</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, the ghost cells of the node centered variable are computed as averages of the cell centered variable</p>
 <dl class="section warning"><dt>Warning</dt><dd>This function exists for backwards compatibility purposes. New code should handle ghost regions in the conventional way (i.e., that ghost data is read-only).</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
@@ -3601,7 +3601,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. When specified, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
+<p>Interpolate a vector or tensor field from one variable type to another using (second-order accurate) averaging. If requested, the ghost cells of the edge centered variable are computed as averages of the cell centered variable</p>
 <dl class="section warning"><dt>Warning</dt><dd>This function exists for backwards compatibility purposes. New code should handle ghost regions in the conventional way (i.e., that ghost data is read-only).</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
@@ -3702,7 +3702,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets dst = C src1 + div D grad src1 + gamma src2.</p>
 <p>Compute the Laplacian of a scalar quantity using centered differences, where C and D are specified by the <a class="el" href="classSAMRAI_1_1solv_1_1PoissonSpecifications.html" title="Light class holding specifications for cell-centered implementation of the scalar Poisson equation.">SAMRAI::solv::PoissonSpecifications</a> object poisson_spec. When the operation is being performed on multiple levels of the hierarchy, the appropriately synchronized gradient and divergence operators are employed to obtain a consistent discretization of the Laplace operator.</p>
-<dl class="section note"><dt>Note</dt><dd>When src2_idx is invalid, the term gamma src2 is omitted and gamma is ignored.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If src2_idx is invalid, the term gamma src2 is omitted and gamma is ignored.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>
@@ -3889,8 +3889,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets dst = C src1 + div D grad src1 + gamma grad src2 + delta src3, for side-centered src1 and src3 and cell-centered src2. This is equivalent to passing gamma grad src2 + delta src3 as the additive source of <a class="el" href="classIBTK_1_1HierarchyMathOps.html#aa76c3147d62508e01f79861cd16da49e" title="Compute the Laplacian of a scalar quantity using centered differences.">laplace()</a>, but is evaluated in one pass over each patch.</p>
-<dl class="section note"><dt>Note</dt><dd>The present implementation of this operator <em>requires</em> that damping factor C and diffusivity D be spatially constant and scalar-valued. The sources src2 and src3 are required, and dst must differ from src1 and src3.</dd></dl>
+<p>Sets dst = C src1 + div D grad src1 + gamma grad src2 + delta src3, for side-centered src1 and src3 and cell-centered src2. The result equals that of <a class="el" href="classIBTK_1_1HierarchyMathOps.html#aa76c3147d62508e01f79861cd16da49e" title="Compute the Laplacian of a scalar quantity using centered differences.">laplace()</a> with gamma grad src2 + delta src3 as the additive source. <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a53d31e290835d5281c9b277ddbc4be69" title="Compute the Laplacian of a side-centered vector field plus a cell-centered gradient using centered di...">laplace_grad()</a> evaluates it in one pass over each patch.</p>
+<dl class="section note"><dt>Note</dt><dd>The present implementation of this operator <em>requires</em> that damping factor C and diffusivity D be spatially constant and scalar-valued. The sources src2 and src3 are required. The destination dst must differ from src1 and src3.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classIBTK_1_1HierarchyMathOps.html#a8caf12346b3ebbbd2b12902fc5ad69ad" title="Reset the patch hierarchy over which operations occur.">setPatchHierarchy</a> </dd>
 <dd>
 <a class="el" href="classIBTK_1_1HierarchyMathOps.html#a3fe79b486c12a8c9b1e292407e425957" title="Reset range of patch levels over which operations occur.">resetLevels</a> </dd></dl>

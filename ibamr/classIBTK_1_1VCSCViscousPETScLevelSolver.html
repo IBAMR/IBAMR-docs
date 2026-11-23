@@ -945,7 +945,7 @@ options_prefix = ""            // see setOptionsPrefix()
   </tr>
 </table>
 </div><div class="memdoc">
-<p>With KSP_NORM_NONE a solve applies max_iterations iterations with no convergence test. The setting is ignored when the PETSc options database selects the KSP type or the norm type. A Richardson solve limited to one iteration uses KSP_NORM_NONE unless the PETSc options database selects the norm type. </p>
+<p>With KSP_NORM_NONE a solve applies max_iterations iterations with no convergence test. The setting is ignored if the PETSc options database selects the KSP type or the norm type. A Richardson solve limited to one iteration uses KSP_NORM_NONE unless the PETSc options database selects the norm type. </p>
 
 </div>
 </div>
@@ -1115,6 +1115,7 @@ options_prefix = ""            // see setOptionsPrefix()
   </table>
   </dd>
 </dl>
+<p>The solver uses the ghost values of <em>x</em> at coarse-fine interfaces as Dirichlet data and leaves them unchanged. For homogeneous Dirichlet data, set these ghost values to zero before the call. On return, the interior values of <em>x</em> contain the solution.</p>
 <p><b>Conditions on Parameters:</b></p><ul>
 <li>vectors <em>x</em> and <em>b</em> must have same patch hierarchy</li>
 <li>vectors <em>x</em> and <em>b</em> must have same structure, depth, etc.</li>

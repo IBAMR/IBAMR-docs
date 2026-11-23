@@ -274,6 +274,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a07eeb5ecd09ed2714a4174e4b0b1e974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Various refine and coarsen objects.</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpac44e1f8dafbc77f29e6dab17283242c"></a>Schedules are created on first use and discarded when the operator state is reset. </p>
+</td></tr>
 <tr class="memitem:a7cf656e6097db5679dd17e9de1170756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1CartSideRobinPhysBdryOp.html">IBTK::CartSideRobinPhysBdryOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a7cf656e6097db5679dd17e9de1170756">d_U_bc_op</a></td></tr>
 <tr class="separator:a7cf656e6097db5679dd17e9de1170756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a7a51d4ae0afcf80d9b438523bf1679"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1CartCellRobinPhysBdryOp.html">IBTK::CartCellRobinPhysBdryOp</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1StaggeredStokesFACPreconditionerStrategy.html#a6a7a51d4ae0afcf80d9b438523bf1679">d_P_bc_op</a></td></tr>
@@ -391,7 +393,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aba2c1f81af2223378240d9c5fac2ef1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The velocity components of the solution and right-hand-side vectors must have the same ghost cell width, and likewise their pressure components; each width must be at least the ghost cell width given to the constructor.</p>
+<div class="textblock"><p>The solution and right-hand-side vectors must have equal velocity ghost cell widths and equal pressure ghost cell widths, each at least the ghost cell width given to the constructor.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">U_prolongation_method = "CONSTANT_REFINE"      // see setProlongationMethods()
 P_prolongation_method = "LINEAR_REFINE"        // see setProlongationMethods()
 U_restriction_method = "CONSERVATIVE_COARSEN"  // see setRestrictionMethods()
@@ -403,7 +405,7 @@ coarse_solver_max_iterations = 10              // see setCoarseSolverMaxIteratio
 coarse_solver_db = { ... }                     // SAMRAI::tbox::Database for initializing
 coarse
 level solver
-</pre><p>By default, a PETSc level solver used as the coarse solver applies coarse_solver_max_iterations Richardson iterations with no convergence test. A KSP type in coarse_solver_db or the PETSc options database overrides this.</p>
+</pre><p>By default, a PETSc level solver used as the coarse solver applies coarse_solver_max_iterations Richardson iterations with no convergence test. A KSP type set in coarse_solver_db or in the PETSc options database takes precedence.</p>
 <p>A Krylov coarse solver or smoother, a coarse solver that stops on a convergence tolerance, or a slope-limiting prolongation method (for example CONSERVATIVE_LINEAR_REFINE) makes the preconditioner nonlinear; see <a class="el" href="classIBTK_1_1FACPreconditioner.html" title="Class FACPreconditioner is a concrete LinearSolver for implementing FAC (multilevel multigrid) precon...">IBTK::FACPreconditioner</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a529acb25bb6df1d59c32fa893bf47c09"></a>
@@ -1137,13 +1139,13 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Note that although the vector arguments given to other methods in this class may not necessarily be the same as those given to this method, there will be similarities, including:</p>
+<p>The vector arguments given to other methods in this class may differ from those given to this method but have the same:</p>
 <ul>
 <li>hierarchy configuration (hierarchy pointer and level range)</li>
-<li>number, type and alignment of vector component data</li>
+<li>number, type, and alignment of vector component data</li>
 <li>ghost cell width of data in the solution (or solution-like) and right-hand-side vectors</li>
 </ul>
-<p>An unrecoverable error will occur if the vector ghost cell widths differ or are less than the constructor's.</p>
+<p>The program stops with an error if the ghost cell widths of the solution and right-hand-side vectors differ or are less than the ghost cell width given to the constructor.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">solution</td><td>solution vector u </td></tr>
@@ -1312,7 +1314,7 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idxs</em> are either the scratch data or have the ghost cell widths of the solution vector, and <em>src_idxs</em> have the ghost cell widths of the solution vector. </p>
+<p><em>dst_idxs</em> refer to the scratch data or to data with the ghost cell widths of the solution vector. <em>src_idxs</em> refer to data with the ghost cell widths of the solution vector. </p>
 
 </div>
 </div>
@@ -1355,7 +1357,7 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idxs</em> have the ghost cell widths of the right-hand-side vector, and <em>src_idxs</em> are either the scratch data or have the ghost cell widths of the right-hand-side vector. </p>
+<p><em>dst_idxs</em> refer to data with the ghost cell widths of the right-hand-side vector. <em>src_idxs</em> refer to the scratch data or to data with the ghost cell widths of the right-hand-side vector. </p>
 
 </div>
 </div>
@@ -1392,7 +1394,7 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idxs</em> are either the scratch data or have the ghost cell widths of the solution vector. </p>
+<p><em>dst_idxs</em> refer to the scratch data or to data with the ghost cell widths of the solution vector. </p>
 
 </div>
 </div>
@@ -1429,7 +1431,7 @@ level solver
   </tr>
 </table>
 </div><div class="memdoc">
-<p><em>dst_idx</em> has the ghost cell width of the solution vector. </p>
+<p><em>dst_idx</em> refers to data with the ghost cell width of the solution vector. </p>
 
 </div>
 </div>

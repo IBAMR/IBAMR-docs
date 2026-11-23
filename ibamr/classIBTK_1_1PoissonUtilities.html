@@ -632,7 +632,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for physical boundary conditions corresponding to a side-centered discretization of the Laplacian.</p>
-<p>This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b exactly zero), which holds the boundary value. </p>
+<p>This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b exactly zero), which is the boundary value. </p>
 
 </div>
 </div>
@@ -706,8 +706,8 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for physical boundary conditions corresponding to a side-centered discretization of the variable-coefficient viscous operator.</p>
-<p>This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b exactly zero), which holds the boundary value.</p>
-<dl class="section note"><dt>Note</dt><dd>The scaling factors of \( D \) variable in the PoissonSpecification object is passed separately and is denoted \( \alpha \). </dd></dl>
+<p>This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b exactly zero), which is the boundary value.</p>
+<dl class="section note"><dt>Note</dt><dd>The scaling factor of the variable \( D \) in the PoissonSpecifications object is passed separately and is denoted \( \alpha \). </dd></dl>
 
 </div>
 </div>
@@ -763,7 +763,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for coarse-fine interface boundary conditions corresponding to a cell-centered discretization of the Laplacian.</p>
-<dl class="section note"><dt>Note</dt><dd>This function simply uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces. </dd></dl>
 
 </div>
 </div>
@@ -843,9 +843,9 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for coarse-fine interface boundary conditions corresponding to a side-centered discretization of the Laplacian.</p>
-<p>For each side of the patch, this function subtracts from the right-hand side the contribution of each stencil neighbor that is not a side of any patch of the level, using the ghost values in sol_data; neighbors across a physical boundary contribute nothing. It modifies only rhs_data in the side box of the patch, so rhs_data needs no ghost cells.</p>
-<p>The boundary boxes of codimension 2 (the corner cells in 2D and the edge cells in 3D) determine which ghost cells that touch the patch only along an edge or a corner belong to the level. This function does not modify the entries of the sides on a physical boundary normal to their component at which the coefficient b of bc_coefs is exactly zero, because such an entry is the Dirichlet value. It evaluates the coefficients as <a class="el" href="classIBTK_1_1PoissonUtilities.html#aac8fcaacc4ec3b95d7e667751fbaf3d8">adjustRHSAtPhysicalBoundary()</a> does.</p>
-<dl class="section note"><dt>Note</dt><dd>This function simply uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces. </dd></dl>
+<p>For each side of the patch, this function subtracts from the right-hand side the contribution of each stencil neighbor that is not a side of any patch of the level, using the ghost values in sol_data. Neighbors across a physical boundary contribute nothing. This function modifies rhs_data only in the side box of the patch and requires no ghost cells of rhs_data.</p>
+<p>The coarse-fine boundary boxes of codimension two in type2_cf_bdry determine which ghost cells that touch the patch only along an edge or a corner belong to the level. This function leaves unchanged the entry of each side on a Dirichlet boundary (Robin coefficient b of bc_coefs exactly zero), which is the boundary value. The coefficients are evaluated as in <a class="el" href="classIBTK_1_1PoissonUtilities.html#aac8fcaacc4ec3b95d7e667751fbaf3d8">adjustRHSAtPhysicalBoundary()</a>.</p>
+<dl class="section note"><dt>Note</dt><dd>This function uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces. </dd></dl>
 
 </div>
 </div>
@@ -931,10 +931,10 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Modify the right-hand side entries to account for coarse-fine interface boundary conditions corresponding to a side-centered discretization of the variable coefficient viscous operator.</p>
-<p>For each side of the patch, this function subtracts from rhs_data the contribution of each stencil entry that the matrix of the level solver does not contain, using the ghost values in sol_data. It modifies only rhs_data in the side box of the patch and leaves the entries of Dirichlet identity rows unchanged. The boundary boxes of codimension 2 (the corner cells in 2D and the edge cells in 3D) tell which ghost cells that touch the patch only along an edge or corner belong to the level; bc_coefs are evaluated at data_time.</p>
-<dl class="section note"><dt>Note</dt><dd>This function simply uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces.</dd>
+<p>For each side of the patch, this function subtracts from rhs_data the contribution of each stencil neighbor that is not a side of any patch of the level, using the ghost values in sol_data. Neighbors across a physical boundary contribute nothing. This function modifies rhs_data only in the side box of the patch and leaves unchanged the entry of each side on a Dirichlet boundary. The coarse-fine boundary boxes of codimension two in type2_cf_bdry determine which ghost cells that touch the patch only along an edge or a corner belong to the level. The coefficients bc_coefs are evaluated at data_time.</p>
+<dl class="section note"><dt>Note</dt><dd>This function uses ghost cell values in sol_data to provide Dirichlet boundary values at coarse-fine interfaces. A more complete implementation would employ the interpolation stencil used at coarse-fine interfaces to modify both the matrix coefficients and RHS values at coarse-fine interfaces.</dd>
 <dd>
-The scaling factors of \( D \) variable in the PoissonSpecification object is passed separately and is denoted \( \alpha \). </dd></dl>
+The scaling factor of the variable \( D \) in the PoissonSpecifications object is passed separately and is denoted \( \alpha \). </dd></dl>
 
 </div>
 </div>
@@ -998,7 +998,7 @@ The scaling factors of \( D \) variable in the PoissonSpecification object is pa
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Emit an error if C or D is patch data that is not registered or whose depth is not one. C and D are shared by all components of the solution. The error message begins with the given object name. </p>
+<p>Emit an error if C or D is patch data with an unregistered index or a depth other than one. C and D are shared by all components of the solution. The error message begins with the given object name. </p>
 
 </div>
 </div>

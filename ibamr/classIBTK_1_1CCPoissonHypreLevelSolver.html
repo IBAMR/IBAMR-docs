@@ -369,7 +369,7 @@ Private Attributes</h2></td></tr>
 <li>Initialize <a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html" title="Class CCPoissonHypreLevelSolver is a concrete LinearSolver for solving elliptic equations of the form...">CCPoissonHypreLevelSolver</a> object using the function <a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#ad089d1c83484bb99f6164734bf5cf9ad" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a>.</li>
 <li>Solve the linear system using the member function <a class="el" href="classIBTK_1_1CCPoissonHypreLevelSolver.html#a90151b58664156ed408b9070e8a8932a" title="Solve the linear system of equations  for .">solveSystem()</a>, passing in <a class="el" href="classSAMRAI_1_1solv_1_1SAMRAIVectorReal.html">SAMRAI::solv::SAMRAIVectorReal</a> objects corresponding to \(u\) and \(f\).</li>
 </ol>
-<p>The solver treats the ghost values of <em>x</em> at coarse-fine interfaces as Dirichlet data: it reads them and does not change them. A caller that wants homogeneous data there sets them to zero. On return, the interior values of <em>x</em> contain the solution.</p>
+<p>Because the hypre Struct interface has no null-space support, a null space set with <a class="el" href="classIBTK_1_1LinearSolver.html#a3488344d0f932260e591512f35437b67" title="Set the nullspace of the linear system.">setNullSpace()</a> has no effect, and the caller must remove the null-space component of the solution.</p>
 <p>Sample parameters for initialization from database (and their default values):</p><pre class="fragment">enable_logging = FALSE         // see setLoggingEnabled()
 solver_type = "PFMG"           // choices are: "PFMG", "SMG", "PCG", "GMRES", "FlexGMRES", "LGMRES", "BiCGSTAB"
 precond_type = "none"          // choices are: "none", "PFMG", "SMG", "Jacobi", "diagonal_scaling"
@@ -588,6 +588,7 @@ two_norm = 1                   // see hypre User's Manual (only used by PCG solv
   </table>
   </dd>
 </dl>
+<p>The solver uses the ghost values of <em>x</em> at coarse-fine interfaces as Dirichlet data and leaves them unchanged. For homogeneous Dirichlet data, set these ghost values to zero before the call. On return, the interior values of <em>x</em> contain the solution.</p>
 <p><b>Conditions on Parameters:</b></p><ul>
 <li>vectors <em>x</em> and <em>b</em> must have same patch hierarchy</li>
 <li>vectors <em>x</em> and <em>b</em> must have same structure, depth, etc.</li>

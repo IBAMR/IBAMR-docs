@@ -1087,7 +1087,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Uses centered differences. The depths (components) of dst, src2, and src3 are l, m, and n, respectively.</p>
-<dl class="section note"><dt>Note</dt><dd>The term beta src2_m is omitted when src2 is null or beta is zero, and the term gamma src3_n is omitted when src3 is null or gamma is zero. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The term beta src2_m is omitted if src2 is null or beta is zero. The term gamma src3_n is omitted if src3 is null or gamma is zero. </dd></dl>
 
 </div>
 </div>
@@ -1925,7 +1925,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Uses the standard 5 point stencil in 2D (7 point stencil in 3D). </p>
+<p>Uses the standard five-point stencil in two spatial dimensions (seven-point stencil in three spatial dimensions). </p>
 
 </div>
 </div>
@@ -2002,7 +2002,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Uses the standard 5 point stencil in 2D (7 point stencil in 3D). </p>
+<p>Uses the standard five-point stencil in two spatial dimensions (seven-point stencil in three spatial dimensions). </p>
 
 </div>
 </div>
@@ -2073,8 +2073,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Uses the standard 5 point stencil in 2D (7 point stencil in 3D) for L and centered differences for grad.</p>
-<dl class="section note"><dt>Note</dt><dd>src2 and src3 are required, and dst must differ from src1 and src3. The terms gamma grad src2 and delta src3 are evaluated even when gamma or delta is zero. </dd></dl>
+<p>Uses the standard five-point stencil in two spatial dimensions (seven-point stencil in three spatial dimensions) for L and centered differences for grad.</p>
+<dl class="section note"><dt>Note</dt><dd>The sources src2 and src3 are required. The destination dst must differ from src1 and src3. The terms gamma grad src2 and delta src3 are evaluated even if gamma or delta is zero. </dd></dl>
 
 </div>
 </div>
@@ -2151,7 +2151,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Uses a 9 point stencil in 2D (19 point stencil in 3D). </p>
+<p>Uses a nine-point stencil in two spatial dimensions (19-point stencil in three spatial dimensions). </p>
 
 </div>
 </div>
@@ -2228,7 +2228,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Uses a 9 point stencil in 2D (19 point stencil in 3D). </p>
+<p>Uses a nine-point stencil in two spatial dimensions (19-point stencil in three spatial dimensions). </p>
 
 </div>
 </div>
