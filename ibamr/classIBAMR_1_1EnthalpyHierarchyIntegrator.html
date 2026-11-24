@@ -227,6 +227,8 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a221b8a16fcc9770954b2b24cbfedec96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1EnthalpyHierarchyIntegrator.html#a221b8a16fcc9770954b2b24cbfedec96">integrateHierarchySpecialized</a> (double current_time, double new_time, int cycle_num=0) override</td></tr>
 <tr class="separator:a221b8a16fcc9770954b2b24cbfedec96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474f70f5d5ba88462f17c04c28ccea53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1EnthalpyHierarchyIntegrator.html#a474f70f5d5ba88462f17c04c28ccea53">resetHierarchyConfigurationSpecialized</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, int coarsest_level, int finest_level) override</td></tr>
+<tr class="separator:a474f70f5d5ba88462f17c04c28ccea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -272,6 +274,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2318c1007bf2b7e7d932bcf8d930e77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b4d00e43695b3b767fc0fc7c2bcdf2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1EnthalpyHierarchyIntegrator.html#a1b4d00e43695b3b767fc0fc7c2bcdf2b">d_h_bc_coef</a> = nullptr</td></tr>
 <tr class="separator:a1b4d00e43695b3b767fc0fc7c2bcdf2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa107f0ac8fd0541a46d3b20604aa446c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1EnthalpyHierarchyIntegrator.html#aa107f0ac8fd0541a46d3b20604aa446c">d_T_bdry_bc_fill_op</a></td></tr>
+<tr class="separator:aa107f0ac8fd0541a46d3b20604aa446c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b34ebb4c40bffda1543e22e40a108c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1EnthalpyHierarchyIntegrator.html#ac2b34ebb4c40bffda1543e22e40a108c">d_h_scratch_idx</a> = <a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">IBTK::invalid_index</a></td></tr>
 <tr class="separator:ac2b34ebb4c40bffda1543e22e40a108c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a696e018b37d646a42afa865f89149dab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1EnthalpyHierarchyIntegrator.html#a696e018b37d646a42afa865f89149dab">d_h_current_idx</a> = <a class="el" href="namespaceIBTK.html#a4beed89342258cb4b5e9bc9e8bc90aaf">IBTK::invalid_index</a></td></tr>
@@ -720,6 +724,49 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a474f70f5d5ba88462f17c04c28ccea53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474f70f5d5ba88462f17c04c28ccea53">&#9670;&nbsp;</a></span>resetHierarchyConfigurationSpecialized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IBAMR::EnthalpyHierarchyIntegrator::resetHierarchyConfigurationSpecialized </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
+          <td class="paramname"><em>hierarchy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coarsest_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>finest_level</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset cached hierarchy dependent data. </p>
+
+</div>
+</div>
 <a id="ab8d469980fe4448a4f10e7d286a8aca0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8d469980fe4448a4f10e7d286a8aca0">&#9670;&nbsp;</a></span>operator=()</h2>
 
@@ -1147,6 +1194,29 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa107f0ac8fd0541a46d3b20604aa446c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa107f0ac8fd0541a46d3b20604aa446c">&#9670;&nbsp;</a></span>d_T_bdry_bc_fill_op</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a>&gt; IBAMR::EnthalpyHierarchyIntegrator::d_T_bdry_bc_fill_op</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Data synchronization operator for \( T \). </p>
 
 </div>
 </div>

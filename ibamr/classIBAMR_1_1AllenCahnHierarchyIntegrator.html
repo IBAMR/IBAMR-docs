@@ -236,8 +236,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a0d767d5568c20c1cfcd8f3acb25a0bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8abf0890c13ed02ed42e0bfd8c5cac1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#af8abf0890c13ed02ed42e0bfd8c5cac1">regridHierarchyBeginSpecialized</a> () override</td></tr>
 <tr class="separator:af8abf0890c13ed02ed42e0bfd8c5cac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace82b4f4006ced37b23d720492c45e9b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#ace82b4f4006ced37b23d720492c45e9b">regridHierarchyEndSpecialized</a> () override</td></tr>
-<tr class="separator:ace82b4f4006ced37b23d720492c45e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56e6a3443dacae5a4b30ff55ce5d6f4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#a56e6a3443dacae5a4b30ff55ce5d6f4e">resetHierarchyConfigurationSpecialized</a> (<a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt; hierarchy, int coarsest_level, int finest_level) override</td></tr>
+<tr class="separator:a56e6a3443dacae5a4b30ff55ce5d6f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -313,6 +313,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a72466518cfbd138ad08acb3c9fd83c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae489e094f0ef96a4e3ca157aebb0f45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1solv_1_1RobinBcCoefStrategy.html">SAMRAI::solv::RobinBcCoefStrategy</a>&lt; NDIM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#aae489e094f0ef96a4e3ca157aebb0f45">d_lf_bc_coef</a> = nullptr</td></tr>
 <tr class="separator:aae489e094f0ef96a4e3ca157aebb0f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc669a6dc374f59e5ce72beb92b1900"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#a7dc669a6dc374f59e5ce72beb92b1900">d_lf_bdry_bc_fill_op</a></td></tr>
+<tr class="separator:a7dc669a6dc374f59e5ce72beb92b1900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a245b024db64fa437888b6105f5464c7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceIBAMR.html#aacfdadd56d211dd54b249b5066b9ace3">ConvectiveDifferencingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#a245b024db64fa437888b6105f5464c7d">d_lf_convective_difference_form</a> = d_default_convective_difference_form</td></tr>
 <tr class="separator:a245b024db64fa437888b6105f5464c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8889201a6bb66c20bc6c0f5711f378e4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBAMR_1_1AllenCahnHierarchyIntegrator.html#a8889201a6bb66c20bc6c0f5711f378e4">d_lf_convective_op_type</a> = d_default_convective_op_type</td></tr>
@@ -951,8 +953,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ace82b4f4006ced37b23d720492c45e9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace82b4f4006ced37b23d720492c45e9b">&#9670;&nbsp;</a></span>regridHierarchyEndSpecialized()</h2>
+<a id="a56e6a3443dacae5a4b30ff55ce5d6f4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56e6a3443dacae5a4b30ff55ce5d6f4e">&#9670;&nbsp;</a></span>resetHierarchyConfigurationSpecialized()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,19 +963,36 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void IBAMR::AllenCahnHierarchyIntegrator::regridHierarchyEndSpecialized </td>
+          <td class="memname">void IBAMR::AllenCahnHierarchyIntegrator::resetHierarchyConfigurationSpecialized </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt; <a class="el" href="classSAMRAI_1_1hier_1_1BasePatchHierarchy.html">SAMRAI::hier::BasePatchHierarchy</a>&lt; NDIM &gt;&gt;&#160;</td>
+          <td class="paramname"><em>hierarchy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>coarsest_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>finest_level</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Reset cached hierarchy dependent data for solvers and operators before the regridding operation. </p>
+<p>Reset cached hierarchy dependent data. </p>
 
 </div>
 </div>
@@ -1723,6 +1742,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Boundary condition object for \( \varphi \). </p>
+
+</div>
+</div>
+<a id="a7dc669a6dc374f59e5ce72beb92b1900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc669a6dc374f59e5ce72beb92b1900">&#9670;&nbsp;</a></span>d_lf_bdry_bc_fill_op</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSAMRAI_1_1tbox_1_1Pointer.html">SAMRAI::tbox::Pointer</a>&lt;<a class="el" href="classIBTK_1_1HierarchyGhostCellInterpolation.html">IBTK::HierarchyGhostCellInterpolation</a>&gt; IBAMR::AllenCahnHierarchyIntegrator::d_lf_bdry_bc_fill_op</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Data synchronization operator for \( \varphi \). </p>
 
 </div>
 </div>
