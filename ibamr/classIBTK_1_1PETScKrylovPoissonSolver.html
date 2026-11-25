@@ -495,6 +495,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a042c62019ef8f10d618721402ce1909a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9599e0ae52c677bd16b65daeb988ef7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ab9599e0ae52c677bd16b65daeb988ef7">d_solver_has_attached_nullspace</a> = false</td></tr>
 <tr class="separator:ab9599e0ae52c677bd16b65daeb988ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae27137d4b60d56a3ac0a45f98d049e77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ae27137d4b60d56a3ac0a45f98d049e77">d_nullspace_out_of_date</a> = false</td></tr>
+<tr class="separator:ae27137d4b60d56a3ac0a45f98d049e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="memItemLeft" align="right" valign="top">static PetscErrorCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a5a3d2fb177155803b32c37f2d3ee3fce">MatVecMult_SAMRAI</a> (Mat A, Vec x, Vec y)</td></tr>
 <tr class="memdesc:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the matrix vector product \(y=Ax\).  <a href="classIBTK_1_1PETScKrylovLinearSolver.html#a5a3d2fb177155803b32c37f2d3ee3fce">More...</a><br /></td></tr>
 <tr class="separator:a5a3d2fb177155803b32c37f2d3ee3fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -865,7 +867,8 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Basis vectors must be orthogonal but are not required to be orthonormal. Basis vectors will be normalized automatically. </p>
+<p>Basis vectors must be orthogonal but are not required to be orthonormal. Basis vectors will be normalized automatically.</p>
+<dl class="section note"><dt>Note</dt><dd>The nullspace takes effect at the next <a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#ae36404a55e88a5530118720a5388ced6" title="Compute hierarchy dependent data required for solving .">initializeSolverState()</a> or <a class="el" href="classIBTK_1_1PETScKrylovLinearSolver.html#a644816f29da4a855e25ac85c71546d32" title="Solve the linear system of equations  for .">solveSystem()</a>. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classIBTK_1_1LinearSolver.html#a3488344d0f932260e591512f35437b67">IBTK::LinearSolver</a>.</p>
 
@@ -2696,6 +2699,28 @@ Private Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool IBTK::PETScKrylovLinearSolver::d_solver_has_attached_nullspace = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae27137d4b60d56a3ac0a45f98d049e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27137d4b60d56a3ac0a45f98d049e77">&#9670;&nbsp;</a></span>d_nullspace_out_of_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IBTK::PETScKrylovLinearSolver::d_nullspace_out_of_date = false</td>
         </tr>
       </table>
   </td>
